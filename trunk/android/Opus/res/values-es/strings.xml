@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Opus (pt)</string>
+    <string name="display_books">Libros</string>
+    <string name="display_points">Puntos</string>
+    
+    <string-array name="listString">
+        <item>Libros</item>
+        <item>Búsqueda</item>
+        <item>Punto…</item>
+    </string-array>
+
+    
+</resources>
