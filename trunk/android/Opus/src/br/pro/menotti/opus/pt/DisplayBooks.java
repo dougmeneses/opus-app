@@ -17,36 +17,43 @@ package br.pro.menotti.opus.pt;
 import java.util.ArrayList;
 import java.util.List;
 
-import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
+import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
-public class DisplayBooks extends ListActivity {
-	private SQLiteHelper db;
+public class DisplayBooks extends FragmentActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		SQLiteHelper db;
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
 		Intent intent = getIntent();
-		int language = intent.getIntExtra("language", 0);
+		final int language = intent.getIntExtra("language", 0);
 		
 		db = new SQLiteHelper(this);
 		db.openDataBase();
 		
 		List<Book> books = new ArrayList<Book>();
 		books = db.getBooks(language);
+		db.close();
 		
 		ListView lv = (ListView) findViewById(android.R.id.list);
 
 		lv.setAdapter(new ArrayAdapter<Book>
 			(this, android.R.layout.simple_list_item_1, books));
+		
+		Toast.makeText(getApplicationContext(),
+				(getString(R.string.display_aleatory_point)), Toast.LENGTH_SHORT).show();
 
 		lv.setOnItemClickListener(new OnItemClickListener() {
 			@Override
@@ -56,7 +63,20 @@ public class DisplayBooks extends ListActivity {
 			}
 		});		
 		
-		db.close();
+		lv.setOnItemLongClickListener(new OnItemLongClickListener() {
+			@Override
+			public boolean onItemLongClick(AdapterView<?> parent, View view, int position,
+					long id) {
+				SQLiteHelper db;
+				db = new SQLiteHelper(getBaseContext());
+				db.openDataBase();
+				DialogFragment newFragment = new DialogPoint();
+				newFragment.show(getSupportFragmentManager(), db.getBookPoint(language, position) 
+						);
+				db.close();
+				return false;
+			}
+		});		
 	}
 	
 	public void showPoints(int book) {
