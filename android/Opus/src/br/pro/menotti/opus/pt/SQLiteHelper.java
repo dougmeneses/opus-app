@@ -30,17 +30,17 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class SQLiteHelper extends SQLiteOpenHelper {
 
-	public static final String KEY_BOOKS_ID = "_id";
-	public static final String KEY_BOOKS_LANGUAGE = "_language";
-	public static final String KEY_BOOKS_BOOK = "_book";
-	public static final String KEY_BOOKS_NOME = "_title";
-	public static final String KEY_BOOKS_POINTS = "_points";
-
-	public static final String KEY_POINTS_ID = "_id";
-	public static final String KEY_POINTS_LANGUAGE = "_language";
-	public static final String KEY_POINTS_BOOK = "_book";
-	public static final String KEY_POINTS_PONTO = "_point";
-	public static final String KEY_POINTS_TEXTO = "_text";
+//	public static final String KEY_BOOKS_ID = "_id";
+//	public static final String KEY_BOOKS_LANGUAGE = "_language";
+//	public static final String KEY_BOOKS_BOOK = "_book";
+//	public static final String KEY_BOOKS_TITLE = "_title";
+//	public static final String KEY_BOOKS_POINTS = "_points";
+//
+//	public static final String KEY_POINTS_ID = "_id";
+//	public static final String KEY_POINTS_LANGUAGE = "_language";
+//	public static final String KEY_POINTS_BOOK = "_book";
+//	public static final String KEY_POINTS_PONTO = "_point";
+//	public static final String KEY_POINTS_TEXTO = "_text";
 
 	private static String DB_PATH = "/data/data/br.pro.menotti.opus.pt/databases/";
 	private static String DB_NAME = "opus.db";
@@ -158,7 +158,6 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 
 	}
 	    
-
     public List<Book> getBooks(int language) {
     	List<Book> books = new ArrayList<Book>();
     	Cursor cursor = myDataBase.query("books", null, "_language=?", new String[] {Integer.toString(language)}, null, null, null);
@@ -170,7 +169,6 @@ public class SQLiteHelper extends SQLiteOpenHelper {
     			book.set_book(Integer.parseInt(cursor.getString(2)));
     			book.set_title(cursor.getString(3));
     			book.set_points(Integer.parseInt(cursor.getString(4)));
-    			// Adding contact to list
     			books.add(book);
     		} while (cursor.moveToNext());
     	}
@@ -188,10 +186,32 @@ public class SQLiteHelper extends SQLiteOpenHelper {
     			point.set_book(Integer.parseInt(cursor.getString(2)));
     			point.set_point(Integer.parseInt(cursor.getString(3)));
     			point.set_text(cursor.getString(4));
-    			// Adding contact to list
     			points.add(point);
     		} while (cursor.moveToNext());
     	}
 		return points;
     }   
+
+    public String getBookPoint(int language) {
+    	Cursor cursor = myDataBase.rawQuery("select b._title, p._point, p._text from books b, points p where p._book=b._book and b._language=" + language + " order by random() limit 1", null);
+    	BookPoint bp = new BookPoint();;
+    	if (cursor.moveToFirst()) {
+    		bp.set_title(cursor.getString(0));
+    		bp.set_point(cursor.getLong(1));
+    		bp.set_text(cursor.getString(2));
+    	}
+		return bp.toString();
+    }   
+
+    public String getBookPoint(int language, int book) {
+    	Cursor cursor = myDataBase.rawQuery("select b._title, p._point, p._text from books b, points p where p._book=b._book and b._book=" + book + " and b._language=" + language + " order by random() limit 1", null);
+    	BookPoint bp = new BookPoint();;
+    	if (cursor.moveToFirst()) {
+    		bp.set_title(cursor.getString(0));
+    		bp.set_point(cursor.getLong(1));
+    		bp.set_text(cursor.getString(2));
+    	}
+		return bp.toString();
+    }   
+
 }

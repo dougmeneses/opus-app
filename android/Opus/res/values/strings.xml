@@ -4,12 +4,12 @@
     <string name="app_name">Opus (pt)</string>
     <string name="display_books">Books</string>
     <string name="display_points">Points</string>
+    <string name="display_aleatory_point">Hold the book to get a point</string>
     
     <string-array name="listString">
         <item>Books</item>
         <item>Search</item>
         <item>Point…</item>
     </string-array>
-
     
 </resources>

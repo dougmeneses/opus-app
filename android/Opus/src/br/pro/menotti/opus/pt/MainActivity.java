@@ -16,10 +16,11 @@ package br.pro.menotti.opus.pt;
 
 import java.io.IOException;
 
-import android.app.ListActivity;
 import android.content.Intent;
 import android.database.SQLException;
 import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
+import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
@@ -29,11 +30,11 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends ListActivity {
+public class MainActivity extends FragmentActivity {
 	/*  language selection:
-	 *  0 - Português
-	 *  1 - English 
-	 *  2 - Español */
+	 *  0 - Português (pt)
+	 *  1 - English (en)
+	 *  2 - Español (es) */
 	public static final int language = 0;
 	private SQLiteHelper db;
 
@@ -56,15 +57,25 @@ public class MainActivity extends ListActivity {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position,
 					long id) {
-				if (position == 0) {
+				switch (position) {
+				case 0:
 					showBooks(language);
-				}
-				else {
-				Toast.makeText(getApplicationContext(),
-						((TextView) view).getText(), Toast.LENGTH_SHORT).show();
+					break;
+				case 2:
+					SQLiteHelper db;
+					db = new SQLiteHelper(getBaseContext());
+					db.openDataBase();
+					DialogFragment newFragment = new DialogPoint();
+					newFragment.show(getSupportFragmentManager(), db.getBookPoint(language) 
+							);
+					db.close();
+					break;
+				default:
+					Toast.makeText(getApplicationContext(),
+							((TextView) view).getText(), Toast.LENGTH_SHORT).show();
 				}
 			}
-			
+
 		});
 		
 		try {
