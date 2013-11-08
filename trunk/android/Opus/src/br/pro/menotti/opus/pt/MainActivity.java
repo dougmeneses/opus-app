@@ -16,6 +16,8 @@ package br.pro.menotti.opus.pt;
 
 import java.io.IOException;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.SQLException;
 import android.os.Bundle;
@@ -26,6 +28,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -44,13 +47,13 @@ public class MainActivity extends FragmentActivity {
 		setContentView(R.layout.activity_main);
 
 		db = new SQLiteHelper(getApplicationContext());
-		
+
 		String listStr[] = getResources().getStringArray(R.array.listString);
 
 		ListView lv = (ListView) findViewById(android.R.id.list);
 
 		lv.setAdapter(new ArrayAdapter<String>
-			(this, android.R.layout.simple_list_item_1, listStr));
+		(this, android.R.layout.simple_list_item_1, listStr));
 
 		lv.setOnItemClickListener(new OnItemClickListener() {
 
@@ -59,14 +62,32 @@ public class MainActivity extends FragmentActivity {
 					long id) {
 				switch (position) {
 				case 0:
-					showBooks(language);
+					showBooks();
+					break;
+				case 1:
+					AlertDialog.Builder builder = new AlertDialog.Builder(view.getContext());
+					builder.setTitle(R.string.display_search);
+
+					final EditText input = new EditText(view.getContext());
+					builder.setView(input);
+
+					builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+						public void onClick(DialogInterface dialog, int whichButton) {
+							String search_key = input.getEditableText().toString().trim();
+							if (!search_key.equals("")) {
+								showPoints(search_key);
+							}
+						}
+					});
+					AlertDialog alertDialog = builder.create();
+					alertDialog.show();
 					break;
 				case 2:
 					SQLiteHelper db;
 					db = new SQLiteHelper(getBaseContext());
 					db.openDataBase();
 					DialogFragment newFragment = new DialogPoint();
-					newFragment.show(getSupportFragmentManager(), db.getBookPoint(language) 
+					newFragment.show(getSupportFragmentManager(), db.getBookPoint() 
 							);
 					db.close();
 					break;
@@ -77,7 +98,7 @@ public class MainActivity extends FragmentActivity {
 			}
 
 		});
-		
+
 		try {
 
 			db.createDataBase();
@@ -100,12 +121,17 @@ public class MainActivity extends FragmentActivity {
 		}
 	}
 
-	public void showBooks(int language) {
+	public void showBooks() {
 		Intent intent = new Intent(this, DisplayBooks.class);
-		intent.putExtra("language", language);
 		startActivity(intent);
 	}
-	
+
+	public void showPoints(String search_key) {
+		Intent intent = new Intent(this, DisplayPoints.class);
+		intent.putExtra("search_key", search_key);
+		startActivity(intent);
+	}
+
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.

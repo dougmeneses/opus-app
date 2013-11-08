@@ -23,6 +23,7 @@ import java.util.List;
 
 import android.content.Context;
 import android.database.Cursor;
+import android.database.DatabaseUtils;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
@@ -43,7 +44,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 //	public static final String KEY_POINTS_TEXTO = "_text";
 
 	private static String DB_PATH = "/data/data/br.pro.menotti.opus.pt/databases/";
-	private static String DB_NAME = "opus.db";
+	private static String DB_NAME = "opus_pt.db";
 	//private static String DB_NAME_GZ = "obradb.db.gz";
 	private static final int DB_VERSION = 1;
 	private final Context myContext;
@@ -158,9 +159,9 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 
 	}
 	    
-    public List<Book> getBooks(int language) {
+    public List<Book> getBooks() {
     	List<Book> books = new ArrayList<Book>();
-    	Cursor cursor = myDataBase.query("books", null, "_language=?", new String[] {Integer.toString(language)}, null, null, null);
+    	Cursor cursor = myDataBase.query("books", null, "_language=?", new String[] {Integer.toString(MainActivity.language)}, null, null, null);
     	if (cursor.moveToFirst()) {
     		do {
     			Book book = new Book();
@@ -174,27 +175,74 @@ public class SQLiteHelper extends SQLiteOpenHelper {
     	}
 		return books;
     }
+    
+	public List<Chapter> getChapters(int book) {
+		List<Chapter> chapters = new ArrayList<Chapter>();
+		Cursor cursor = myDataBase.query("chapters", null, "_language=? and _book=?", new String[] {Integer.toString(MainActivity.language), Integer.toString(book)}, null, null, null);
+		if (cursor.moveToFirst()) {
+			do {
+				Chapter chapter = new Chapter();
+				chapter.set_chapter(cursor.getLong(3));
+				chapter.set_title(cursor.getString(4));
+				chapters.add(chapter);
+			} while (cursor.moveToNext());
+		}
+		return chapters;
+	}      
+	
+    public String getBook(int book) {
+    	Cursor cursor = myDataBase.query("books", null, "_book=?", new String[] {Integer.toString(book)} , null, null, null);
+    	Book b = new Book();
+    	if (cursor.moveToFirst()) {
+    		b.set_title(cursor.getString(3));
+    	}
+		return b.toString();
+    }
 
-    public List<Point> getBookPoints(int language, int book) {
+    public String getChapter(int book, int chapter) {
+    	Cursor cursor = myDataBase.query("chapters", null, "_book=? and _chapter=?", new String[] {Integer.toString(book), Integer.toString(chapter)} , null, null, null);
+    	Chapter c = new Chapter();
+    	if (cursor.moveToFirst()) {
+    		c.set_chapter(cursor.getLong(3));
+    		c.set_title(cursor.getString(4));
+    	}
+		return c.toString();
+    }
+
+
+    public List<Point> getBookPoints(int book, int chapter) {
     	List<Point> points = new ArrayList<Point>();
-    	Cursor cursor = myDataBase.query("points", null, "_language=? and _book=?", new String[] {Integer.toString(language), Integer.toString(book)}, null, null, null);
+    	Cursor cursor = myDataBase.rawQuery("select p._point, p._text from books b, chapters c, chapter_points cp, points p where b._book=c._book and b._book=p._book and b._book=cp._book and c._chapter=cp._chapter and cp._point=p._point and p._book=" + book + " and c._chapter=" + chapter + " and b._language=" + MainActivity.language, null); 
     	if (cursor.moveToFirst()) {
     		do {
     			Point point = new Point();
-    			point.set_id(Integer.parseInt(cursor.getString(0)));
-    			point.set_language(Integer.parseInt(cursor.getString(1)));
-    			point.set_book(Integer.parseInt(cursor.getString(2)));
-    			point.set_point(Integer.parseInt(cursor.getString(3)));
-    			point.set_text(cursor.getString(4));
+    			point.set_point(cursor.getLong(0));
+    			point.set_text(cursor.getString(1));
     			points.add(point);
     		} while (cursor.moveToNext());
     	}
 		return points;
     }   
 
-    public String getBookPoint(int language) {
-    	Cursor cursor = myDataBase.rawQuery("select b._title, p._point, p._text from books b, points p where p._book=b._book and b._language=" + language + " order by random() limit 1", null);
-    	BookPoint bp = new BookPoint();;
+    public List<BookPoint> getPoints(String search_key) {
+    	List<BookPoint> points = new ArrayList<BookPoint>();
+    	String esc_search_key = DatabaseUtils.sqlEscapeString('%' + search_key + '%'); 
+    	Cursor cursor = myDataBase.rawQuery("select b._title, p._point, p._text from books b, points p where b._book=p._book and p._text like " + esc_search_key, null); 
+    	if (cursor.moveToFirst()) {
+    		do {
+    			BookPoint point = new BookPoint();
+    			point.set_title(cursor.getString(0));
+    			point.set_point(cursor.getLong(1));
+    			point.set_text(cursor.getString(2));
+    			points.add(point);
+    		} while (cursor.moveToNext());
+    	}
+		return points;
+    }   
+
+    public String getBookPoint() {
+    	Cursor cursor = myDataBase.rawQuery("select b._title, p._point, p._text from books b, points p where p._book=b._book and b._language=" + MainActivity.language + " order by random() limit 1", null);
+    	BookPoint bp = new BookPoint();
     	if (cursor.moveToFirst()) {
     		bp.set_title(cursor.getString(0));
     		bp.set_point(cursor.getLong(1));
@@ -203,9 +251,20 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 		return bp.toString();
     }   
 
-    public String getBookPoint(int language, int book) {
-    	Cursor cursor = myDataBase.rawQuery("select b._title, p._point, p._text from books b, points p where p._book=b._book and b._book=" + book + " and b._language=" + language + " order by random() limit 1", null);
-    	BookPoint bp = new BookPoint();;
+    public String getBookPoint(int book) {
+    	Cursor cursor = myDataBase.rawQuery("select b._title, p._point, p._text from books b, points p where p._book=b._book and b._book=" + book + " and b._language=" + MainActivity.language + " order by random() limit 1", null);
+    	BookPoint bp = new BookPoint();
+    	if (cursor.moveToFirst()) {
+    		bp.set_title(cursor.getString(0));
+    		bp.set_point(cursor.getLong(1));
+    		bp.set_text(cursor.getString(2));
+    	}
+		return bp.toString();
+    }
+
+    public String getBookPoint(int book, int chapter) {
+    	Cursor cursor = myDataBase.rawQuery("select b._title, p._point, p._text from books b, chapters c, chapter_points cp, points p where b._book=c._book and b._book=p._book and b._book=cp._book and c._chapter=cp._chapter and cp._point=p._point and p._book=" + book + " and c._chapter=" + chapter + " and b._language=" + MainActivity.language + " order by random() limit 1", null); 
+    	BookPoint bp = new BookPoint();
     	if (cursor.moveToFirst()) {
     		bp.set_title(cursor.getString(0));
     		bp.set_point(cursor.getLong(1));
