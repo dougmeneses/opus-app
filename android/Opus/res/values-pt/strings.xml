@@ -4,6 +4,10 @@
     <string name="app_name">Opus (pt)</string>
     <string name="display_books">Livros</string>
     <string name="display_points">Pontos</string>
+    <string name="display_chapters">Capítulos</string>
+    <string name="display_search">Busca</string>
+    <string name="display_send">Enviar</string>
+    <string name="display_url"> http://goo.gl/S03IKT</string>
     <string name="display_aleatory_point">Segure o livro para obter um ponto</string>
         
     <string-array name="listString">

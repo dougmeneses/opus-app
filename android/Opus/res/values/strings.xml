@@ -4,6 +4,10 @@
     <string name="app_name">Opus (pt)</string>
     <string name="display_books">Books</string>
     <string name="display_points">Points</string>
+    <string name="display_chapters">Chapters</string>
+    <string name="display_search">Search</string>
+    <string name="display_send">Send</string>
+    <string name="display_url"> http://goo.gl/g6rgdS</string>
     <string name="display_aleatory_point">Hold the book to get a point</string>
     
     <string-array name="listString">

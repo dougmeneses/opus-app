@@ -29,25 +29,31 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class DisplayBooks extends FragmentActivity {
+public class DisplayChapters extends FragmentActivity {
 
+	int book;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		SQLiteHelper db;
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-				
+		
+		Intent intent = getIntent();
+		book = intent.getIntExtra("book", 0);
+		
 		db = new SQLiteHelper(this);
 		db.openDataBase();
 		
-		List<Book> books = new ArrayList<Book>();
-		books = db.getBooks();
+		List<Chapter> chapters = new ArrayList<Chapter>();
+		chapters = db.getChapters(book);
+		setTitle(getString(R.string.display_chapters) + ": " + db.getBook(book));
 		db.close();
 		
 		ListView lv = (ListView) findViewById(android.R.id.list);
 
-		lv.setAdapter(new ArrayAdapter<Book>
-			(this, android.R.layout.simple_list_item_1, books));
+		lv.setAdapter(new ArrayAdapter<Chapter>
+			(this, android.R.layout.simple_list_item_1, chapters));
 		
 		Toast.makeText(getApplicationContext(),
 				(getString(R.string.display_aleatory_point)), Toast.LENGTH_SHORT).show();
@@ -56,7 +62,7 @@ public class DisplayBooks extends FragmentActivity {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position,
 					long id) {
-					showPoints(position);
+					showPoints(book, position);
 			}
 		});		
 		
@@ -68,7 +74,7 @@ public class DisplayBooks extends FragmentActivity {
 				db = new SQLiteHelper(getBaseContext());
 				db.openDataBase();
 				DialogFragment newFragment = new DialogPoint();
-				newFragment.show(getSupportFragmentManager(), db.getBookPoint(position) 
+				newFragment.show(getSupportFragmentManager(), db.getBookPoint(book, position) 
 						);
 				db.close();
 				return true;
@@ -76,9 +82,10 @@ public class DisplayBooks extends FragmentActivity {
 		});		
 	}
 	
-	public void showPoints(int book) {
-		Intent intent = new Intent(this, DisplayChapters.class);
+	public void showPoints(int book, int chapter) {
+		Intent intent = new Intent(this, DisplayPoints.class);
 		intent.putExtra("book", book);
+		intent.putExtra("chapter", chapter);
 		startActivity(intent);
 	}
 }
