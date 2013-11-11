@@ -6,13 +6,17 @@ Created on Oct 3, 2013
 @author: menotti
 '''
 
-import urllib, lxml.html, sqlite3
+import sqlite3
+import urllib
+import lxml.html
 
-languages = [(u"Português", True, "http://www.escrivaworks.org.br/book/{book}-ponto-{point}.htm", [("caminho", 999, 46), ("sulco", 1000, 32), ("forja", 1055, 13)], "http://www.escrivaworks.org.br/book/{book}-capitulo-{chapter}.htm"),
-             (u"English", True, "http://www.escrivaworks.org/book/{book}-point-{point}.htm", [("the_way", 999, 46), ("furrow", 1000, 32), ("the_forge", 1055, 13)], "http://www.escrivaworks.org/book/{book}-chapter-{chapter}.htm"),
-             (u"Español", True, "http://www.escrivaobras.org/book/{book}-punto-{point}.htm", [("camino", 999, 46), ("surco", 1000, 32), ("forja", 1055, 13)], "http://www.escrivaobras.org/book/{book}-capitulo-{chapter}.htm")]
 
-conn = sqlite3.connect('opus.db')
+languages = [(u"Português", False, "http://www.escrivaworks.org.br/book/{book}-ponto-{point}.htm", [("caminho", 999, 46), ("sulco", 1000, 32), ("forja", 1055, 13)], "http://www.escrivaworks.org.br/book/{book}-capitulo-{chapter}.htm"),
+             (u"English", False, "http://www.escrivaworks.org/book/{book}-point-{point}.htm", [("the_way", 999, 46), ("furrow", 1000, 32), ("the_forge", 1055, 13)], "http://www.escrivaworks.org/book/{book}-chapter-{chapter}.htm"),
+             (u"Español", False, "http://www.escrivaobras.org/book/{book}-punto-{point}.htm", [("camino", 999, 46), ("surco", 1000, 32), ("forja", 1055, 13)], "http://www.escrivaobras.org/book/{book}-capitulo-{chapter}.htm"),
+             (u"Français", True, "http://fr.escrivaworks.org/book/{book}-point-{point}.htm", [("chemin", 999, 46), ("sillon", 1000, 32, False), ("forge", 1055, 14, False)], "http://fr.escrivaworks.org/book/{book}-chapitre-{chapter}.htm")]
+
+conn = sqlite3.connect('opus_fr.db')
 
 conn.execute('''CREATE TABLE android_metadata (locale TEXT);''');
 conn.execute('''CREATE TABLE languages (_id INTEGER PRIMARY KEY NOT NULL, _name TEXT NOT NULL);''');
@@ -38,6 +42,8 @@ for lang in range(len(languages)):
             print "INSERT INTO books (_language, _book, _title, _points) VALUES (" + str(lang) + ", " + str(book) + ", " + languages[lang][3][book][0].replace("_", " ").title() + ", " + str(max_points) + ");"
             conn.execute("INSERT INTO books (_language, _book, _title, _points) VALUES (?,?,?,?)", (lang, book, languages[lang][3][book][0].replace("_", " ").title(), max_points))
             for chapter in range(max_chapters+1):
+                if chapter==0 and len(languages[lang][3][book])>3:
+                    continue
                 chap_book_url = book_chap_url.replace("{chapter}", str(chapter))
                 content = urllib.urlopen(chap_book_url).read().decode("ISO-8859-1")
                 doc = lxml.html.fromstring(content)
@@ -46,9 +52,11 @@ for lang in range(len(languages)):
                         print "INSERT INTO chapters (_language, _book, _chapter, _title) VALUES (" + str(lang) + ", " + str(book) + ", " + str(chapter)  + ", " + el.text_content().lstrip() + ");"
                         conn.execute("INSERT INTO chapters (_language, _book, _chapter, _title) VALUES (?,?,?,?);", (lang, book, chapter, el.text_content().lstrip()))
                 for el in doc.find_class('numero'):
-                        print "INSERT INTO chapter_points (_language, _book, _chapter, _point) VALUES (" + str(lang) + ", " + str(book) + ", " + str(chapter)  + ", " + el.text_content() + ");"
-                        conn.execute("INSERT INTO chapter_points (_language, _book, _chapter, _point) VALUES (?,?,?,?);", (lang, book, chapter, el.text_content()))
+                    print "INSERT INTO chapter_points (_language, _book, _chapter, _point) VALUES (" + str(lang) + ", " + str(book) + ", " + str(chapter)  + ", " + el.text_content() + ");"
+                    conn.execute("INSERT INTO chapter_points (_language, _book, _chapter, _point) VALUES (?,?,?,?);", (lang, book, chapter, el.text_content()))
             for point in range(max_points+1):
+                if point==0 and len(languages[lang][3][book])>3:
+                    continue
                 point_url = book_url.replace("{point}", str(point))
                 content = urllib.urlopen(point_url).read().decode("ISO-8859-1")
                 doc = lxml.html.fromstring(content)

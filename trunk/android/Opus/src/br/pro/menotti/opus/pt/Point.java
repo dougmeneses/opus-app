@@ -16,12 +16,12 @@ package br.pro.menotti.opus.pt;
 
 public class Point {
 
-	private long _id;
-	private long _language;
-	private long _book;
-	private long _point;
-	private String _text;
-
+	protected long _id;
+	protected long _language;
+	protected long _book;
+	protected long _point;
+	protected String _text;
+	
 	
 	public Point() {
 	}
