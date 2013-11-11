@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Opus (pt)</string>
+    <string name="display_books">Livres</string>
+    <string name="display_points">Points</string>
+    <string name="display_chapters">Chapitres</string>
+    <string name="display_search">Rechercher</string>
+    <string name="display_send">Envoyer</string>
+    <string name="display_url"> http://goo.gl/C972Rp</string>
+    <string name="display_aleatory_point">Tenez le livre pour obtenir un point</string>
+
+    <string-array name="listString">
+        <item>Livres</item>
+        <item>Rechercher</item>
+        <item>Point…</item>
+    </string-array>
+    
+</resources>

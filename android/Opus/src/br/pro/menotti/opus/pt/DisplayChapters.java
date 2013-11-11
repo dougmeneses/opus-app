@@ -17,6 +17,7 @@ package br.pro.menotti.opus.pt;
 import java.util.ArrayList;
 import java.util.List;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
@@ -52,17 +53,20 @@ public class DisplayChapters extends FragmentActivity {
 		
 		ListView lv = (ListView) findViewById(android.R.id.list);
 
-		lv.setAdapter(new ArrayAdapter<Chapter>
+		lv.setAdapter(new CustomAdapter<Chapter>
 			(this, android.R.layout.simple_list_item_1, chapters));
 		
 		Toast.makeText(getApplicationContext(),
 				(getString(R.string.display_aleatory_point)), Toast.LENGTH_SHORT).show();
 
 		lv.setOnItemClickListener(new OnItemClickListener() {
+			
+			
+			
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position,
 					long id) {
-					showPoints(book, position);
+					showPoints(book, (int)id);
 			}
 		});		
 		
@@ -82,10 +86,27 @@ public class DisplayChapters extends FragmentActivity {
 		});		
 	}
 	
-	public void showPoints(int book, int chapter) {
+	public void showPoints(int book, int id) {
 		Intent intent = new Intent(this, DisplayPoints.class);
 		intent.putExtra("book", book);
-		intent.putExtra("chapter", chapter);
+		intent.putExtra("chapter", id);
 		startActivity(intent);
 	}
+
+	public class CustomAdapter<T> extends ArrayAdapter<T> {
+
+		private ArrayList<T> innerClassBookArray;
+		
+		public CustomAdapter(Context context, int resource, List<T> objects) {
+			super(context, resource, objects);
+			this.innerClassBookArray = (ArrayList<T>) objects;
+		}
+		
+		@Override
+		public long getItemId(int position) {
+			return ((Chapter) innerClassBookArray.get(position)).get_chapter();
+		}
+	}
 }
+
+

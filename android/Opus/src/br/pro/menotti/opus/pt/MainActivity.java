@@ -37,7 +37,9 @@ public class MainActivity extends FragmentActivity {
 	/*  language selection:
 	 *  0 - Português (pt)
 	 *  1 - English (en)
-	 *  2 - Español (es) */
+	 *  2 - Español (es) 
+	 *  3 - Français (fr) 
+	 */
 	public static final int language = 0;
 	private SQLiteHelper db;
 
