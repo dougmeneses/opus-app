@@ -1,0 +1,7356 @@
+BEGIN TRANSACTION;
+CREATE TABLE android_metadata (locale TEXT);
+INSERT INTO android_metadata VALUES('en_US');
+CREATE TABLE books (_id INTEGER PRIMARY KEY, _language INT, _book INT, _title TEXT, _points INT);
+INSERT INTO books VALUES(1,0,0,'Caminho',999);
+INSERT INTO books VALUES(2,0,1,'Sulco',1000);
+INSERT INTO books VALUES(3,0,2,'Forja',1055);
+CREATE TABLE chapter_points (_id INTEGER PRIMARY KEY NOT NULL, _language INT NOT NULL, _book INT NOT NULL, _chapter INT NOT NULL, _point INT NOT NULL);
+INSERT INTO chapter_points VALUES(1,0,0,0,0);
+INSERT INTO chapter_points VALUES(2,0,0,1,1);
+INSERT INTO chapter_points VALUES(3,0,0,1,2);
+INSERT INTO chapter_points VALUES(4,0,0,1,3);
+INSERT INTO chapter_points VALUES(5,0,0,1,4);
+INSERT INTO chapter_points VALUES(6,0,0,1,5);
+INSERT INTO chapter_points VALUES(7,0,0,1,6);
+INSERT INTO chapter_points VALUES(8,0,0,1,7);
+INSERT INTO chapter_points VALUES(9,0,0,1,8);
+INSERT INTO chapter_points VALUES(10,0,0,1,9);
+INSERT INTO chapter_points VALUES(11,0,0,1,10);
+INSERT INTO chapter_points VALUES(12,0,0,1,11);
+INSERT INTO chapter_points VALUES(13,0,0,1,12);
+INSERT INTO chapter_points VALUES(14,0,0,1,13);
+INSERT INTO chapter_points VALUES(15,0,0,1,14);
+INSERT INTO chapter_points VALUES(16,0,0,1,15);
+INSERT INTO chapter_points VALUES(17,0,0,1,16);
+INSERT INTO chapter_points VALUES(18,0,0,1,17);
+INSERT INTO chapter_points VALUES(19,0,0,1,18);
+INSERT INTO chapter_points VALUES(20,0,0,1,19);
+INSERT INTO chapter_points VALUES(21,0,0,1,20);
+INSERT INTO chapter_points VALUES(22,0,0,1,21);
+INSERT INTO chapter_points VALUES(23,0,0,1,22);
+INSERT INTO chapter_points VALUES(24,0,0,1,23);
+INSERT INTO chapter_points VALUES(25,0,0,1,24);
+INSERT INTO chapter_points VALUES(26,0,0,1,25);
+INSERT INTO chapter_points VALUES(27,0,0,1,26);
+INSERT INTO chapter_points VALUES(28,0,0,1,27);
+INSERT INTO chapter_points VALUES(29,0,0,1,28);
+INSERT INTO chapter_points VALUES(30,0,0,1,29);
+INSERT INTO chapter_points VALUES(31,0,0,1,30);
+INSERT INTO chapter_points VALUES(32,0,0,1,31);
+INSERT INTO chapter_points VALUES(33,0,0,1,32);
+INSERT INTO chapter_points VALUES(34,0,0,1,33);
+INSERT INTO chapter_points VALUES(35,0,0,1,34);
+INSERT INTO chapter_points VALUES(36,0,0,1,35);
+INSERT INTO chapter_points VALUES(37,0,0,1,36);
+INSERT INTO chapter_points VALUES(38,0,0,1,37);
+INSERT INTO chapter_points VALUES(39,0,0,1,38);
+INSERT INTO chapter_points VALUES(40,0,0,1,39);
+INSERT INTO chapter_points VALUES(41,0,0,1,40);
+INSERT INTO chapter_points VALUES(42,0,0,1,41);
+INSERT INTO chapter_points VALUES(43,0,0,1,42);
+INSERT INTO chapter_points VALUES(44,0,0,1,43);
+INSERT INTO chapter_points VALUES(45,0,0,1,44);
+INSERT INTO chapter_points VALUES(46,0,0,1,45);
+INSERT INTO chapter_points VALUES(47,0,0,1,46);
+INSERT INTO chapter_points VALUES(48,0,0,1,47);
+INSERT INTO chapter_points VALUES(49,0,0,1,48);
+INSERT INTO chapter_points VALUES(50,0,0,1,49);
+INSERT INTO chapter_points VALUES(51,0,0,1,50);
+INSERT INTO chapter_points VALUES(52,0,0,1,51);
+INSERT INTO chapter_points VALUES(53,0,0,1,52);
+INSERT INTO chapter_points VALUES(54,0,0,1,53);
+INSERT INTO chapter_points VALUES(55,0,0,1,54);
+INSERT INTO chapter_points VALUES(56,0,0,1,55);
+INSERT INTO chapter_points VALUES(57,0,0,2,56);
+INSERT INTO chapter_points VALUES(58,0,0,2,57);
+INSERT INTO chapter_points VALUES(59,0,0,2,58);
+INSERT INTO chapter_points VALUES(60,0,0,2,59);
+INSERT INTO chapter_points VALUES(61,0,0,2,60);
+INSERT INTO chapter_points VALUES(62,0,0,2,61);
+INSERT INTO chapter_points VALUES(63,0,0,2,62);
+INSERT INTO chapter_points VALUES(64,0,0,2,63);
+INSERT INTO chapter_points VALUES(65,0,0,2,64);
+INSERT INTO chapter_points VALUES(66,0,0,2,65);
+INSERT INTO chapter_points VALUES(67,0,0,2,66);
+INSERT INTO chapter_points VALUES(68,0,0,2,67);
+INSERT INTO chapter_points VALUES(69,0,0,2,68);
+INSERT INTO chapter_points VALUES(70,0,0,2,69);
+INSERT INTO chapter_points VALUES(71,0,0,2,70);
+INSERT INTO chapter_points VALUES(72,0,0,2,71);
+INSERT INTO chapter_points VALUES(73,0,0,2,72);
+INSERT INTO chapter_points VALUES(74,0,0,2,73);
+INSERT INTO chapter_points VALUES(75,0,0,2,74);
+INSERT INTO chapter_points VALUES(76,0,0,2,75);
+INSERT INTO chapter_points VALUES(77,0,0,2,76);
+INSERT INTO chapter_points VALUES(78,0,0,2,77);
+INSERT INTO chapter_points VALUES(79,0,0,2,78);
+INSERT INTO chapter_points VALUES(80,0,0,2,79);
+INSERT INTO chapter_points VALUES(81,0,0,2,80);
+INSERT INTO chapter_points VALUES(82,0,0,3,81);
+INSERT INTO chapter_points VALUES(83,0,0,3,82);
+INSERT INTO chapter_points VALUES(84,0,0,3,83);
+INSERT INTO chapter_points VALUES(85,0,0,3,84);
+INSERT INTO chapter_points VALUES(86,0,0,3,85);
+INSERT INTO chapter_points VALUES(87,0,0,3,86);
+INSERT INTO chapter_points VALUES(88,0,0,3,87);
+INSERT INTO chapter_points VALUES(89,0,0,3,88);
+INSERT INTO chapter_points VALUES(90,0,0,3,89);
+INSERT INTO chapter_points VALUES(91,0,0,3,90);
+INSERT INTO chapter_points VALUES(92,0,0,3,91);
+INSERT INTO chapter_points VALUES(93,0,0,3,92);
+INSERT INTO chapter_points VALUES(94,0,0,3,93);
+INSERT INTO chapter_points VALUES(95,0,0,3,94);
+INSERT INTO chapter_points VALUES(96,0,0,3,95);
+INSERT INTO chapter_points VALUES(97,0,0,3,96);
+INSERT INTO chapter_points VALUES(98,0,0,3,97);
+INSERT INTO chapter_points VALUES(99,0,0,3,98);
+INSERT INTO chapter_points VALUES(100,0,0,3,99);
+INSERT INTO chapter_points VALUES(101,0,0,3,100);
+INSERT INTO chapter_points VALUES(102,0,0,3,101);
+INSERT INTO chapter_points VALUES(103,0,0,3,102);
+INSERT INTO chapter_points VALUES(104,0,0,3,103);
+INSERT INTO chapter_points VALUES(105,0,0,3,104);
+INSERT INTO chapter_points VALUES(106,0,0,3,105);
+INSERT INTO chapter_points VALUES(107,0,0,3,106);
+INSERT INTO chapter_points VALUES(108,0,0,3,107);
+INSERT INTO chapter_points VALUES(109,0,0,3,108);
+INSERT INTO chapter_points VALUES(110,0,0,3,109);
+INSERT INTO chapter_points VALUES(111,0,0,3,110);
+INSERT INTO chapter_points VALUES(112,0,0,3,111);
+INSERT INTO chapter_points VALUES(113,0,0,3,112);
+INSERT INTO chapter_points VALUES(114,0,0,3,113);
+INSERT INTO chapter_points VALUES(115,0,0,3,114);
+INSERT INTO chapter_points VALUES(116,0,0,3,115);
+INSERT INTO chapter_points VALUES(117,0,0,3,116);
+INSERT INTO chapter_points VALUES(118,0,0,3,117);
+INSERT INTO chapter_points VALUES(119,0,0,4,118);
+INSERT INTO chapter_points VALUES(120,0,0,4,119);
+INSERT INTO chapter_points VALUES(121,0,0,4,120);
+INSERT INTO chapter_points VALUES(122,0,0,4,121);
+INSERT INTO chapter_points VALUES(123,0,0,4,122);
+INSERT INTO chapter_points VALUES(124,0,0,4,123);
+INSERT INTO chapter_points VALUES(125,0,0,4,124);
+INSERT INTO chapter_points VALUES(126,0,0,4,125);
+INSERT INTO chapter_points VALUES(127,0,0,4,126);
+INSERT INTO chapter_points VALUES(128,0,0,4,127);
+INSERT INTO chapter_points VALUES(129,0,0,4,128);
+INSERT INTO chapter_points VALUES(130,0,0,4,129);
+INSERT INTO chapter_points VALUES(131,0,0,4,130);
+INSERT INTO chapter_points VALUES(132,0,0,4,131);
+INSERT INTO chapter_points VALUES(133,0,0,4,132);
+INSERT INTO chapter_points VALUES(134,0,0,4,133);
+INSERT INTO chapter_points VALUES(135,0,0,4,134);
+INSERT INTO chapter_points VALUES(136,0,0,4,135);
+INSERT INTO chapter_points VALUES(137,0,0,4,136);
+INSERT INTO chapter_points VALUES(138,0,0,4,137);
+INSERT INTO chapter_points VALUES(139,0,0,4,138);
+INSERT INTO chapter_points VALUES(140,0,0,4,139);
+INSERT INTO chapter_points VALUES(141,0,0,4,140);
+INSERT INTO chapter_points VALUES(142,0,0,4,141);
+INSERT INTO chapter_points VALUES(143,0,0,4,142);
+INSERT INTO chapter_points VALUES(144,0,0,4,143);
+INSERT INTO chapter_points VALUES(145,0,0,4,144);
+INSERT INTO chapter_points VALUES(146,0,0,4,145);
+INSERT INTO chapter_points VALUES(147,0,0,5,146);
+INSERT INTO chapter_points VALUES(148,0,0,5,147);
+INSERT INTO chapter_points VALUES(149,0,0,5,148);
+INSERT INTO chapter_points VALUES(150,0,0,5,149);
+INSERT INTO chapter_points VALUES(151,0,0,5,150);
+INSERT INTO chapter_points VALUES(152,0,0,5,151);
+INSERT INTO chapter_points VALUES(153,0,0,5,152);
+INSERT INTO chapter_points VALUES(154,0,0,5,153);
+INSERT INTO chapter_points VALUES(155,0,0,5,154);
+INSERT INTO chapter_points VALUES(156,0,0,5,155);
+INSERT INTO chapter_points VALUES(157,0,0,5,156);
+INSERT INTO chapter_points VALUES(158,0,0,5,157);
+INSERT INTO chapter_points VALUES(159,0,0,5,158);
+INSERT INTO chapter_points VALUES(160,0,0,5,159);
+INSERT INTO chapter_points VALUES(161,0,0,5,160);
+INSERT INTO chapter_points VALUES(162,0,0,5,161);
+INSERT INTO chapter_points VALUES(163,0,0,5,162);
+INSERT INTO chapter_points VALUES(164,0,0,5,163);
+INSERT INTO chapter_points VALUES(165,0,0,5,164);
+INSERT INTO chapter_points VALUES(166,0,0,5,165);
+INSERT INTO chapter_points VALUES(167,0,0,5,166);
+INSERT INTO chapter_points VALUES(168,0,0,5,167);
+INSERT INTO chapter_points VALUES(169,0,0,5,168);
+INSERT INTO chapter_points VALUES(170,0,0,5,169);
+INSERT INTO chapter_points VALUES(171,0,0,5,170);
+INSERT INTO chapter_points VALUES(172,0,0,5,171);
+INSERT INTO chapter_points VALUES(173,0,0,6,172);
+INSERT INTO chapter_points VALUES(174,0,0,6,173);
+INSERT INTO chapter_points VALUES(175,0,0,6,174);
+INSERT INTO chapter_points VALUES(176,0,0,6,175);
+INSERT INTO chapter_points VALUES(177,0,0,6,176);
+INSERT INTO chapter_points VALUES(178,0,0,6,177);
+INSERT INTO chapter_points VALUES(179,0,0,6,178);
+INSERT INTO chapter_points VALUES(180,0,0,6,179);
+INSERT INTO chapter_points VALUES(181,0,0,6,180);
+INSERT INTO chapter_points VALUES(182,0,0,6,181);
+INSERT INTO chapter_points VALUES(183,0,0,6,182);
+INSERT INTO chapter_points VALUES(184,0,0,6,183);
+INSERT INTO chapter_points VALUES(185,0,0,6,184);
+INSERT INTO chapter_points VALUES(186,0,0,6,185);
+INSERT INTO chapter_points VALUES(187,0,0,6,186);
+INSERT INTO chapter_points VALUES(188,0,0,6,187);
+INSERT INTO chapter_points VALUES(189,0,0,6,188);
+INSERT INTO chapter_points VALUES(190,0,0,6,189);
+INSERT INTO chapter_points VALUES(191,0,0,6,190);
+INSERT INTO chapter_points VALUES(192,0,0,6,191);
+INSERT INTO chapter_points VALUES(193,0,0,6,192);
+INSERT INTO chapter_points VALUES(194,0,0,6,193);
+INSERT INTO chapter_points VALUES(195,0,0,6,194);
+INSERT INTO chapter_points VALUES(196,0,0,6,195);
+INSERT INTO chapter_points VALUES(197,0,0,6,196);
+INSERT INTO chapter_points VALUES(198,0,0,6,197);
+INSERT INTO chapter_points VALUES(199,0,0,6,198);
+INSERT INTO chapter_points VALUES(200,0,0,6,199);
+INSERT INTO chapter_points VALUES(201,0,0,6,200);
+INSERT INTO chapter_points VALUES(202,0,0,6,201);
+INSERT INTO chapter_points VALUES(203,0,0,6,202);
+INSERT INTO chapter_points VALUES(204,0,0,6,203);
+INSERT INTO chapter_points VALUES(205,0,0,6,204);
+INSERT INTO chapter_points VALUES(206,0,0,6,205);
+INSERT INTO chapter_points VALUES(207,0,0,6,206);
+INSERT INTO chapter_points VALUES(208,0,0,6,207);
+INSERT INTO chapter_points VALUES(209,0,0,7,208);
+INSERT INTO chapter_points VALUES(210,0,0,7,209);
+INSERT INTO chapter_points VALUES(211,0,0,7,210);
+INSERT INTO chapter_points VALUES(212,0,0,7,211);
+INSERT INTO chapter_points VALUES(213,0,0,7,212);
+INSERT INTO chapter_points VALUES(214,0,0,7,213);
+INSERT INTO chapter_points VALUES(215,0,0,7,214);
+INSERT INTO chapter_points VALUES(216,0,0,7,215);
+INSERT INTO chapter_points VALUES(217,0,0,7,216);
+INSERT INTO chapter_points VALUES(218,0,0,7,217);
+INSERT INTO chapter_points VALUES(219,0,0,7,218);
+INSERT INTO chapter_points VALUES(220,0,0,7,219);
+INSERT INTO chapter_points VALUES(221,0,0,7,220);
+INSERT INTO chapter_points VALUES(222,0,0,7,221);
+INSERT INTO chapter_points VALUES(223,0,0,7,222);
+INSERT INTO chapter_points VALUES(224,0,0,7,223);
+INSERT INTO chapter_points VALUES(225,0,0,7,224);
+INSERT INTO chapter_points VALUES(226,0,0,7,225);
+INSERT INTO chapter_points VALUES(227,0,0,7,226);
+INSERT INTO chapter_points VALUES(228,0,0,7,227);
+INSERT INTO chapter_points VALUES(229,0,0,7,228);
+INSERT INTO chapter_points VALUES(230,0,0,7,229);
+INSERT INTO chapter_points VALUES(231,0,0,7,230);
+INSERT INTO chapter_points VALUES(232,0,0,7,231);
+INSERT INTO chapter_points VALUES(233,0,0,7,232);
+INSERT INTO chapter_points VALUES(234,0,0,7,233);
+INSERT INTO chapter_points VALUES(235,0,0,7,234);
+INSERT INTO chapter_points VALUES(236,0,0,8,235);
+INSERT INTO chapter_points VALUES(237,0,0,8,236);
+INSERT INTO chapter_points VALUES(238,0,0,8,237);
+INSERT INTO chapter_points VALUES(239,0,0,8,238);
+INSERT INTO chapter_points VALUES(240,0,0,8,239);
+INSERT INTO chapter_points VALUES(241,0,0,8,240);
+INSERT INTO chapter_points VALUES(242,0,0,8,241);
+INSERT INTO chapter_points VALUES(243,0,0,8,242);
+INSERT INTO chapter_points VALUES(244,0,0,8,243);
+INSERT INTO chapter_points VALUES(245,0,0,8,244);
+INSERT INTO chapter_points VALUES(246,0,0,8,245);
+INSERT INTO chapter_points VALUES(247,0,0,8,246);
+INSERT INTO chapter_points VALUES(248,0,0,9,247);
+INSERT INTO chapter_points VALUES(249,0,0,9,248);
+INSERT INTO chapter_points VALUES(250,0,0,9,249);
+INSERT INTO chapter_points VALUES(251,0,0,9,250);
+INSERT INTO chapter_points VALUES(252,0,0,9,251);
+INSERT INTO chapter_points VALUES(253,0,0,9,252);
+INSERT INTO chapter_points VALUES(254,0,0,9,253);
+INSERT INTO chapter_points VALUES(255,0,0,9,254);
+INSERT INTO chapter_points VALUES(256,0,0,9,255);
+INSERT INTO chapter_points VALUES(257,0,0,9,256);
+INSERT INTO chapter_points VALUES(258,0,0,9,257);
+INSERT INTO chapter_points VALUES(259,0,0,10,258);
+INSERT INTO chapter_points VALUES(260,0,0,10,259);
+INSERT INTO chapter_points VALUES(261,0,0,10,260);
+INSERT INTO chapter_points VALUES(262,0,0,10,261);
+INSERT INTO chapter_points VALUES(263,0,0,10,262);
+INSERT INTO chapter_points VALUES(264,0,0,10,263);
+INSERT INTO chapter_points VALUES(265,0,0,10,264);
+INSERT INTO chapter_points VALUES(266,0,0,11,265);
+INSERT INTO chapter_points VALUES(267,0,0,11,266);
+INSERT INTO chapter_points VALUES(268,0,0,11,267);
+INSERT INTO chapter_points VALUES(269,0,0,11,268);
+INSERT INTO chapter_points VALUES(270,0,0,11,269);
+INSERT INTO chapter_points VALUES(271,0,0,11,270);
+INSERT INTO chapter_points VALUES(272,0,0,11,271);
+INSERT INTO chapter_points VALUES(273,0,0,11,272);
+INSERT INTO chapter_points VALUES(274,0,0,11,273);
+INSERT INTO chapter_points VALUES(275,0,0,11,274);
+INSERT INTO chapter_points VALUES(276,0,0,11,275);
+INSERT INTO chapter_points VALUES(277,0,0,11,276);
+INSERT INTO chapter_points VALUES(278,0,0,11,277);
+INSERT INTO chapter_points VALUES(279,0,0,11,278);
+INSERT INTO chapter_points VALUES(280,0,0,12,279);
+INSERT INTO chapter_points VALUES(281,0,0,12,280);
+INSERT INTO chapter_points VALUES(282,0,0,12,281);
+INSERT INTO chapter_points VALUES(283,0,0,12,282);
+INSERT INTO chapter_points VALUES(284,0,0,12,283);
+INSERT INTO chapter_points VALUES(285,0,0,12,284);
+INSERT INTO chapter_points VALUES(286,0,0,12,285);
+INSERT INTO chapter_points VALUES(287,0,0,12,286);
+INSERT INTO chapter_points VALUES(288,0,0,12,287);
+INSERT INTO chapter_points VALUES(289,0,0,12,288);
+INSERT INTO chapter_points VALUES(290,0,0,12,289);
+INSERT INTO chapter_points VALUES(291,0,0,12,290);
+INSERT INTO chapter_points VALUES(292,0,0,12,291);
+INSERT INTO chapter_points VALUES(293,0,0,12,292);
+INSERT INTO chapter_points VALUES(294,0,0,12,293);
+INSERT INTO chapter_points VALUES(295,0,0,12,294);
+INSERT INTO chapter_points VALUES(296,0,0,12,295);
+INSERT INTO chapter_points VALUES(297,0,0,12,296);
+INSERT INTO chapter_points VALUES(298,0,0,12,297);
+INSERT INTO chapter_points VALUES(299,0,0,12,298);
+INSERT INTO chapter_points VALUES(300,0,0,12,299);
+INSERT INTO chapter_points VALUES(301,0,0,12,300);
+INSERT INTO chapter_points VALUES(302,0,0,13,301);
+INSERT INTO chapter_points VALUES(303,0,0,13,302);
+INSERT INTO chapter_points VALUES(304,0,0,13,303);
+INSERT INTO chapter_points VALUES(305,0,0,13,304);
+INSERT INTO chapter_points VALUES(306,0,0,13,305);
+INSERT INTO chapter_points VALUES(307,0,0,13,306);
+INSERT INTO chapter_points VALUES(308,0,0,13,307);
+INSERT INTO chapter_points VALUES(309,0,0,13,308);
+INSERT INTO chapter_points VALUES(310,0,0,13,309);
+INSERT INTO chapter_points VALUES(311,0,0,13,310);
+INSERT INTO chapter_points VALUES(312,0,0,13,311);
+INSERT INTO chapter_points VALUES(313,0,0,13,312);
+INSERT INTO chapter_points VALUES(314,0,0,13,313);
+INSERT INTO chapter_points VALUES(315,0,0,13,314);
+INSERT INTO chapter_points VALUES(316,0,0,13,315);
+INSERT INTO chapter_points VALUES(317,0,0,13,316);
+INSERT INTO chapter_points VALUES(318,0,0,13,317);
+INSERT INTO chapter_points VALUES(319,0,0,13,318);
+INSERT INTO chapter_points VALUES(320,0,0,13,319);
+INSERT INTO chapter_points VALUES(321,0,0,13,320);
+INSERT INTO chapter_points VALUES(322,0,0,13,321);
+INSERT INTO chapter_points VALUES(323,0,0,13,322);
+INSERT INTO chapter_points VALUES(324,0,0,13,323);
+INSERT INTO chapter_points VALUES(325,0,0,13,324);
+INSERT INTO chapter_points VALUES(326,0,0,14,325);
+INSERT INTO chapter_points VALUES(327,0,0,14,326);
+INSERT INTO chapter_points VALUES(328,0,0,14,327);
+INSERT INTO chapter_points VALUES(329,0,0,14,328);
+INSERT INTO chapter_points VALUES(330,0,0,14,329);
+INSERT INTO chapter_points VALUES(331,0,0,14,330);
+INSERT INTO chapter_points VALUES(332,0,0,14,331);
+INSERT INTO chapter_points VALUES(333,0,0,15,332);
+INSERT INTO chapter_points VALUES(334,0,0,15,333);
+INSERT INTO chapter_points VALUES(335,0,0,15,334);
+INSERT INTO chapter_points VALUES(336,0,0,15,335);
+INSERT INTO chapter_points VALUES(337,0,0,15,336);
+INSERT INTO chapter_points VALUES(338,0,0,15,337);
+INSERT INTO chapter_points VALUES(339,0,0,15,338);
+INSERT INTO chapter_points VALUES(340,0,0,15,339);
+INSERT INTO chapter_points VALUES(341,0,0,15,340);
+INSERT INTO chapter_points VALUES(342,0,0,15,341);
+INSERT INTO chapter_points VALUES(343,0,0,15,342);
+INSERT INTO chapter_points VALUES(344,0,0,15,343);
+INSERT INTO chapter_points VALUES(345,0,0,15,344);
+INSERT INTO chapter_points VALUES(346,0,0,15,345);
+INSERT INTO chapter_points VALUES(347,0,0,15,346);
+INSERT INTO chapter_points VALUES(348,0,0,15,347);
+INSERT INTO chapter_points VALUES(349,0,0,15,348);
+INSERT INTO chapter_points VALUES(350,0,0,15,349);
+INSERT INTO chapter_points VALUES(351,0,0,15,350);
+INSERT INTO chapter_points VALUES(352,0,0,15,351);
+INSERT INTO chapter_points VALUES(353,0,0,15,352);
+INSERT INTO chapter_points VALUES(354,0,0,15,353);
+INSERT INTO chapter_points VALUES(355,0,0,15,354);
+INSERT INTO chapter_points VALUES(356,0,0,15,355);
+INSERT INTO chapter_points VALUES(357,0,0,15,356);
+INSERT INTO chapter_points VALUES(358,0,0,15,357);
+INSERT INTO chapter_points VALUES(359,0,0,15,358);
+INSERT INTO chapter_points VALUES(360,0,0,15,359);
+INSERT INTO chapter_points VALUES(361,0,0,16,360);
+INSERT INTO chapter_points VALUES(362,0,0,16,361);
+INSERT INTO chapter_points VALUES(363,0,0,16,362);
+INSERT INTO chapter_points VALUES(364,0,0,16,363);
+INSERT INTO chapter_points VALUES(365,0,0,16,364);
+INSERT INTO chapter_points VALUES(366,0,0,16,365);
+INSERT INTO chapter_points VALUES(367,0,0,16,366);
+INSERT INTO chapter_points VALUES(368,0,0,16,367);
+INSERT INTO chapter_points VALUES(369,0,0,16,368);
+INSERT INTO chapter_points VALUES(370,0,0,16,369);
+INSERT INTO chapter_points VALUES(371,0,0,16,370);
+INSERT INTO chapter_points VALUES(372,0,0,16,371);
+INSERT INTO chapter_points VALUES(373,0,0,16,372);
+INSERT INTO chapter_points VALUES(374,0,0,16,373);
+INSERT INTO chapter_points VALUES(375,0,0,16,374);
+INSERT INTO chapter_points VALUES(376,0,0,16,375);
+INSERT INTO chapter_points VALUES(377,0,0,16,376);
+INSERT INTO chapter_points VALUES(378,0,0,16,377);
+INSERT INTO chapter_points VALUES(379,0,0,16,378);
+INSERT INTO chapter_points VALUES(380,0,0,16,379);
+INSERT INTO chapter_points VALUES(381,0,0,16,380);
+INSERT INTO chapter_points VALUES(382,0,0,16,381);
+INSERT INTO chapter_points VALUES(383,0,0,16,382);
+INSERT INTO chapter_points VALUES(384,0,0,16,383);
+INSERT INTO chapter_points VALUES(385,0,0,16,384);
+INSERT INTO chapter_points VALUES(386,0,0,16,385);
+INSERT INTO chapter_points VALUES(387,0,0,16,386);
+INSERT INTO chapter_points VALUES(388,0,0,17,387);
+INSERT INTO chapter_points VALUES(389,0,0,17,388);
+INSERT INTO chapter_points VALUES(390,0,0,17,389);
+INSERT INTO chapter_points VALUES(391,0,0,17,390);
+INSERT INTO chapter_points VALUES(392,0,0,17,391);
+INSERT INTO chapter_points VALUES(393,0,0,17,392);
+INSERT INTO chapter_points VALUES(394,0,0,17,393);
+INSERT INTO chapter_points VALUES(395,0,0,17,394);
+INSERT INTO chapter_points VALUES(396,0,0,17,395);
+INSERT INTO chapter_points VALUES(397,0,0,17,396);
+INSERT INTO chapter_points VALUES(398,0,0,17,397);
+INSERT INTO chapter_points VALUES(399,0,0,17,398);
+INSERT INTO chapter_points VALUES(400,0,0,17,399);
+INSERT INTO chapter_points VALUES(401,0,0,17,400);
+INSERT INTO chapter_points VALUES(402,0,0,17,401);
+INSERT INTO chapter_points VALUES(403,0,0,17,402);
+INSERT INTO chapter_points VALUES(404,0,0,17,403);
+INSERT INTO chapter_points VALUES(405,0,0,17,404);
+INSERT INTO chapter_points VALUES(406,0,0,17,405);
+INSERT INTO chapter_points VALUES(407,0,0,17,406);
+INSERT INTO chapter_points VALUES(408,0,0,17,407);
+INSERT INTO chapter_points VALUES(409,0,0,17,408);
+INSERT INTO chapter_points VALUES(410,0,0,17,409);
+INSERT INTO chapter_points VALUES(411,0,0,17,410);
+INSERT INTO chapter_points VALUES(412,0,0,17,411);
+INSERT INTO chapter_points VALUES(413,0,0,17,412);
+INSERT INTO chapter_points VALUES(414,0,0,17,413);
+INSERT INTO chapter_points VALUES(415,0,0,17,414);
+INSERT INTO chapter_points VALUES(416,0,0,17,415);
+INSERT INTO chapter_points VALUES(417,0,0,17,416);
+INSERT INTO chapter_points VALUES(418,0,0,18,417);
+INSERT INTO chapter_points VALUES(419,0,0,18,418);
+INSERT INTO chapter_points VALUES(420,0,0,18,419);
+INSERT INTO chapter_points VALUES(421,0,0,18,420);
+INSERT INTO chapter_points VALUES(422,0,0,18,421);
+INSERT INTO chapter_points VALUES(423,0,0,18,422);
+INSERT INTO chapter_points VALUES(424,0,0,18,423);
+INSERT INTO chapter_points VALUES(425,0,0,18,424);
+INSERT INTO chapter_points VALUES(426,0,0,18,425);
+INSERT INTO chapter_points VALUES(427,0,0,18,426);
+INSERT INTO chapter_points VALUES(428,0,0,18,427);
+INSERT INTO chapter_points VALUES(429,0,0,18,428);
+INSERT INTO chapter_points VALUES(430,0,0,18,429);
+INSERT INTO chapter_points VALUES(431,0,0,18,430);
+INSERT INTO chapter_points VALUES(432,0,0,18,431);
+INSERT INTO chapter_points VALUES(433,0,0,18,432);
+INSERT INTO chapter_points VALUES(434,0,0,18,433);
+INSERT INTO chapter_points VALUES(435,0,0,18,434);
+INSERT INTO chapter_points VALUES(436,0,0,18,435);
+INSERT INTO chapter_points VALUES(437,0,0,18,436);
+INSERT INTO chapter_points VALUES(438,0,0,18,437);
+INSERT INTO chapter_points VALUES(439,0,0,18,438);
+INSERT INTO chapter_points VALUES(440,0,0,18,439);
+INSERT INTO chapter_points VALUES(441,0,0,19,440);
+INSERT INTO chapter_points VALUES(442,0,0,19,441);
+INSERT INTO chapter_points VALUES(443,0,0,19,442);
+INSERT INTO chapter_points VALUES(444,0,0,19,443);
+INSERT INTO chapter_points VALUES(445,0,0,19,444);
+INSERT INTO chapter_points VALUES(446,0,0,19,445);
+INSERT INTO chapter_points VALUES(447,0,0,19,446);
+INSERT INTO chapter_points VALUES(448,0,0,19,447);
+INSERT INTO chapter_points VALUES(449,0,0,19,448);
+INSERT INTO chapter_points VALUES(450,0,0,19,449);
+INSERT INTO chapter_points VALUES(451,0,0,19,450);
+INSERT INTO chapter_points VALUES(452,0,0,19,451);
+INSERT INTO chapter_points VALUES(453,0,0,19,452);
+INSERT INTO chapter_points VALUES(454,0,0,19,453);
+INSERT INTO chapter_points VALUES(455,0,0,19,454);
+INSERT INTO chapter_points VALUES(456,0,0,19,455);
+INSERT INTO chapter_points VALUES(457,0,0,19,456);
+INSERT INTO chapter_points VALUES(458,0,0,19,457);
+INSERT INTO chapter_points VALUES(459,0,0,19,458);
+INSERT INTO chapter_points VALUES(460,0,0,19,459);
+INSERT INTO chapter_points VALUES(461,0,0,19,460);
+INSERT INTO chapter_points VALUES(462,0,0,19,461);
+INSERT INTO chapter_points VALUES(463,0,0,19,462);
+INSERT INTO chapter_points VALUES(464,0,0,19,463);
+INSERT INTO chapter_points VALUES(465,0,0,19,464);
+INSERT INTO chapter_points VALUES(466,0,0,19,465);
+INSERT INTO chapter_points VALUES(467,0,0,19,466);
+INSERT INTO chapter_points VALUES(468,0,0,19,467);
+INSERT INTO chapter_points VALUES(469,0,0,19,468);
+INSERT INTO chapter_points VALUES(470,0,0,19,469);
+INSERT INTO chapter_points VALUES(471,0,0,20,470);
+INSERT INTO chapter_points VALUES(472,0,0,20,471);
+INSERT INTO chapter_points VALUES(473,0,0,20,472);
+INSERT INTO chapter_points VALUES(474,0,0,20,473);
+INSERT INTO chapter_points VALUES(475,0,0,20,474);
+INSERT INTO chapter_points VALUES(476,0,0,20,475);
+INSERT INTO chapter_points VALUES(477,0,0,20,476);
+INSERT INTO chapter_points VALUES(478,0,0,20,477);
+INSERT INTO chapter_points VALUES(479,0,0,20,478);
+INSERT INTO chapter_points VALUES(480,0,0,20,479);
+INSERT INTO chapter_points VALUES(481,0,0,20,480);
+INSERT INTO chapter_points VALUES(482,0,0,20,481);
+INSERT INTO chapter_points VALUES(483,0,0,20,482);
+INSERT INTO chapter_points VALUES(484,0,0,20,483);
+INSERT INTO chapter_points VALUES(485,0,0,20,484);
+INSERT INTO chapter_points VALUES(486,0,0,20,485);
+INSERT INTO chapter_points VALUES(487,0,0,20,486);
+INSERT INTO chapter_points VALUES(488,0,0,20,487);
+INSERT INTO chapter_points VALUES(489,0,0,20,488);
+INSERT INTO chapter_points VALUES(490,0,0,20,489);
+INSERT INTO chapter_points VALUES(491,0,0,20,490);
+INSERT INTO chapter_points VALUES(492,0,0,20,491);
+INSERT INTO chapter_points VALUES(493,0,0,21,492);
+INSERT INTO chapter_points VALUES(494,0,0,21,493);
+INSERT INTO chapter_points VALUES(495,0,0,21,494);
+INSERT INTO chapter_points VALUES(496,0,0,21,495);
+INSERT INTO chapter_points VALUES(497,0,0,21,496);
+INSERT INTO chapter_points VALUES(498,0,0,21,497);
+INSERT INTO chapter_points VALUES(499,0,0,21,498);
+INSERT INTO chapter_points VALUES(500,0,0,21,499);
+INSERT INTO chapter_points VALUES(501,0,0,21,500);
+INSERT INTO chapter_points VALUES(502,0,0,21,501);
+INSERT INTO chapter_points VALUES(503,0,0,21,502);
+INSERT INTO chapter_points VALUES(504,0,0,21,503);
+INSERT INTO chapter_points VALUES(505,0,0,21,504);
+INSERT INTO chapter_points VALUES(506,0,0,21,505);
+INSERT INTO chapter_points VALUES(507,0,0,21,506);
+INSERT INTO chapter_points VALUES(508,0,0,21,507);
+INSERT INTO chapter_points VALUES(509,0,0,21,508);
+INSERT INTO chapter_points VALUES(510,0,0,21,509);
+INSERT INTO chapter_points VALUES(511,0,0,21,510);
+INSERT INTO chapter_points VALUES(512,0,0,21,511);
+INSERT INTO chapter_points VALUES(513,0,0,21,512);
+INSERT INTO chapter_points VALUES(514,0,0,21,513);
+INSERT INTO chapter_points VALUES(515,0,0,21,514);
+INSERT INTO chapter_points VALUES(516,0,0,21,515);
+INSERT INTO chapter_points VALUES(517,0,0,21,516);
+INSERT INTO chapter_points VALUES(518,0,0,22,517);
+INSERT INTO chapter_points VALUES(519,0,0,22,518);
+INSERT INTO chapter_points VALUES(520,0,0,22,519);
+INSERT INTO chapter_points VALUES(521,0,0,22,520);
+INSERT INTO chapter_points VALUES(522,0,0,22,521);
+INSERT INTO chapter_points VALUES(523,0,0,22,522);
+INSERT INTO chapter_points VALUES(524,0,0,22,523);
+INSERT INTO chapter_points VALUES(525,0,0,22,524);
+INSERT INTO chapter_points VALUES(526,0,0,22,525);
+INSERT INTO chapter_points VALUES(527,0,0,22,526);
+INSERT INTO chapter_points VALUES(528,0,0,22,527);
+INSERT INTO chapter_points VALUES(529,0,0,23,528);
+INSERT INTO chapter_points VALUES(530,0,0,23,529);
+INSERT INTO chapter_points VALUES(531,0,0,23,530);
+INSERT INTO chapter_points VALUES(532,0,0,23,531);
+INSERT INTO chapter_points VALUES(533,0,0,23,532);
+INSERT INTO chapter_points VALUES(534,0,0,23,533);
+INSERT INTO chapter_points VALUES(535,0,0,23,534);
+INSERT INTO chapter_points VALUES(536,0,0,23,535);
+INSERT INTO chapter_points VALUES(537,0,0,23,536);
+INSERT INTO chapter_points VALUES(538,0,0,23,537);
+INSERT INTO chapter_points VALUES(539,0,0,23,538);
+INSERT INTO chapter_points VALUES(540,0,0,23,539);
+INSERT INTO chapter_points VALUES(541,0,0,23,540);
+INSERT INTO chapter_points VALUES(542,0,0,23,541);
+INSERT INTO chapter_points VALUES(543,0,0,23,542);
+INSERT INTO chapter_points VALUES(544,0,0,23,543);
+INSERT INTO chapter_points VALUES(545,0,0,24,544);
+INSERT INTO chapter_points VALUES(546,0,0,24,545);
+INSERT INTO chapter_points VALUES(547,0,0,24,546);
+INSERT INTO chapter_points VALUES(548,0,0,24,547);
+INSERT INTO chapter_points VALUES(549,0,0,24,548);
+INSERT INTO chapter_points VALUES(550,0,0,24,549);
+INSERT INTO chapter_points VALUES(551,0,0,24,550);
+INSERT INTO chapter_points VALUES(552,0,0,25,551);
+INSERT INTO chapter_points VALUES(553,0,0,25,552);
+INSERT INTO chapter_points VALUES(554,0,0,25,553);
+INSERT INTO chapter_points VALUES(555,0,0,25,554);
+INSERT INTO chapter_points VALUES(556,0,0,25,555);
+INSERT INTO chapter_points VALUES(557,0,0,25,556);
+INSERT INTO chapter_points VALUES(558,0,0,25,557);
+INSERT INTO chapter_points VALUES(559,0,0,25,558);
+INSERT INTO chapter_points VALUES(560,0,0,25,559);
+INSERT INTO chapter_points VALUES(561,0,0,25,560);
+INSERT INTO chapter_points VALUES(562,0,0,25,561);
+INSERT INTO chapter_points VALUES(563,0,0,25,562);
+INSERT INTO chapter_points VALUES(564,0,0,25,563);
+INSERT INTO chapter_points VALUES(565,0,0,25,564);
+INSERT INTO chapter_points VALUES(566,0,0,25,565);
+INSERT INTO chapter_points VALUES(567,0,0,25,566);
+INSERT INTO chapter_points VALUES(568,0,0,25,567);
+INSERT INTO chapter_points VALUES(569,0,0,25,568);
+INSERT INTO chapter_points VALUES(570,0,0,25,569);
+INSERT INTO chapter_points VALUES(571,0,0,25,570);
+INSERT INTO chapter_points VALUES(572,0,0,25,571);
+INSERT INTO chapter_points VALUES(573,0,0,25,572);
+INSERT INTO chapter_points VALUES(574,0,0,25,573);
+INSERT INTO chapter_points VALUES(575,0,0,25,574);
+INSERT INTO chapter_points VALUES(576,0,0,26,575);
+INSERT INTO chapter_points VALUES(577,0,0,26,576);
+INSERT INTO chapter_points VALUES(578,0,0,26,577);
+INSERT INTO chapter_points VALUES(579,0,0,26,578);
+INSERT INTO chapter_points VALUES(580,0,0,26,579);
+INSERT INTO chapter_points VALUES(581,0,0,26,580);
+INSERT INTO chapter_points VALUES(582,0,0,26,581);
+INSERT INTO chapter_points VALUES(583,0,0,26,582);
+INSERT INTO chapter_points VALUES(584,0,0,26,583);
+INSERT INTO chapter_points VALUES(585,0,0,26,584);
+INSERT INTO chapter_points VALUES(586,0,0,26,585);
+INSERT INTO chapter_points VALUES(587,0,0,26,586);
+INSERT INTO chapter_points VALUES(588,0,0,26,587);
+INSERT INTO chapter_points VALUES(589,0,0,26,588);
+INSERT INTO chapter_points VALUES(590,0,0,27,589);
+INSERT INTO chapter_points VALUES(591,0,0,27,590);
+INSERT INTO chapter_points VALUES(592,0,0,27,591);
+INSERT INTO chapter_points VALUES(593,0,0,27,592);
+INSERT INTO chapter_points VALUES(594,0,0,27,593);
+INSERT INTO chapter_points VALUES(595,0,0,27,594);
+INSERT INTO chapter_points VALUES(596,0,0,27,595);
+INSERT INTO chapter_points VALUES(597,0,0,27,596);
+INSERT INTO chapter_points VALUES(598,0,0,27,597);
+INSERT INTO chapter_points VALUES(599,0,0,27,598);
+INSERT INTO chapter_points VALUES(600,0,0,27,599);
+INSERT INTO chapter_points VALUES(601,0,0,27,600);
+INSERT INTO chapter_points VALUES(602,0,0,27,601);
+INSERT INTO chapter_points VALUES(603,0,0,27,602);
+INSERT INTO chapter_points VALUES(604,0,0,27,603);
+INSERT INTO chapter_points VALUES(605,0,0,27,604);
+INSERT INTO chapter_points VALUES(606,0,0,27,605);
+INSERT INTO chapter_points VALUES(607,0,0,27,606);
+INSERT INTO chapter_points VALUES(608,0,0,27,607);
+INSERT INTO chapter_points VALUES(609,0,0,27,608);
+INSERT INTO chapter_points VALUES(610,0,0,27,609);
+INSERT INTO chapter_points VALUES(611,0,0,27,610);
+INSERT INTO chapter_points VALUES(612,0,0,27,611);
+INSERT INTO chapter_points VALUES(613,0,0,27,612);
+INSERT INTO chapter_points VALUES(614,0,0,27,613);
+INSERT INTO chapter_points VALUES(615,0,0,28,614);
+INSERT INTO chapter_points VALUES(616,0,0,28,615);
+INSERT INTO chapter_points VALUES(617,0,0,28,616);
+INSERT INTO chapter_points VALUES(618,0,0,28,617);
+INSERT INTO chapter_points VALUES(619,0,0,28,618);
+INSERT INTO chapter_points VALUES(620,0,0,28,619);
+INSERT INTO chapter_points VALUES(621,0,0,28,620);
+INSERT INTO chapter_points VALUES(622,0,0,28,621);
+INSERT INTO chapter_points VALUES(623,0,0,28,622);
+INSERT INTO chapter_points VALUES(624,0,0,28,623);
+INSERT INTO chapter_points VALUES(625,0,0,28,624);
+INSERT INTO chapter_points VALUES(626,0,0,28,625);
+INSERT INTO chapter_points VALUES(627,0,0,28,626);
+INSERT INTO chapter_points VALUES(628,0,0,28,627);
+INSERT INTO chapter_points VALUES(629,0,0,28,628);
+INSERT INTO chapter_points VALUES(630,0,0,28,629);
+INSERT INTO chapter_points VALUES(631,0,0,29,630);
+INSERT INTO chapter_points VALUES(632,0,0,29,631);
+INSERT INTO chapter_points VALUES(633,0,0,29,632);
+INSERT INTO chapter_points VALUES(634,0,0,29,633);
+INSERT INTO chapter_points VALUES(635,0,0,29,634);
+INSERT INTO chapter_points VALUES(636,0,0,29,635);
+INSERT INTO chapter_points VALUES(637,0,0,29,636);
+INSERT INTO chapter_points VALUES(638,0,0,29,637);
+INSERT INTO chapter_points VALUES(639,0,0,29,638);
+INSERT INTO chapter_points VALUES(640,0,0,30,639);
+INSERT INTO chapter_points VALUES(641,0,0,30,640);
+INSERT INTO chapter_points VALUES(642,0,0,30,641);
+INSERT INTO chapter_points VALUES(643,0,0,30,642);
+INSERT INTO chapter_points VALUES(644,0,0,30,643);
+INSERT INTO chapter_points VALUES(645,0,0,30,644);
+INSERT INTO chapter_points VALUES(646,0,0,30,645);
+INSERT INTO chapter_points VALUES(647,0,0,30,646);
+INSERT INTO chapter_points VALUES(648,0,0,30,647);
+INSERT INTO chapter_points VALUES(649,0,0,30,648);
+INSERT INTO chapter_points VALUES(650,0,0,30,649);
+INSERT INTO chapter_points VALUES(651,0,0,30,650);
+INSERT INTO chapter_points VALUES(652,0,0,30,651);
+INSERT INTO chapter_points VALUES(653,0,0,30,652);
+INSERT INTO chapter_points VALUES(654,0,0,30,653);
+INSERT INTO chapter_points VALUES(655,0,0,30,654);
+INSERT INTO chapter_points VALUES(656,0,0,30,655);
+INSERT INTO chapter_points VALUES(657,0,0,30,656);
+INSERT INTO chapter_points VALUES(658,0,0,31,657);
+INSERT INTO chapter_points VALUES(659,0,0,31,658);
+INSERT INTO chapter_points VALUES(660,0,0,31,659);
+INSERT INTO chapter_points VALUES(661,0,0,31,660);
+INSERT INTO chapter_points VALUES(662,0,0,31,661);
+INSERT INTO chapter_points VALUES(663,0,0,31,662);
+INSERT INTO chapter_points VALUES(664,0,0,31,663);
+INSERT INTO chapter_points VALUES(665,0,0,31,664);
+INSERT INTO chapter_points VALUES(666,0,0,31,665);
+INSERT INTO chapter_points VALUES(667,0,0,31,666);
+INSERT INTO chapter_points VALUES(668,0,0,32,667);
+INSERT INTO chapter_points VALUES(669,0,0,32,668);
+INSERT INTO chapter_points VALUES(670,0,0,32,669);
+INSERT INTO chapter_points VALUES(671,0,0,32,670);
+INSERT INTO chapter_points VALUES(672,0,0,32,671);
+INSERT INTO chapter_points VALUES(673,0,0,32,672);
+INSERT INTO chapter_points VALUES(674,0,0,32,673);
+INSERT INTO chapter_points VALUES(675,0,0,32,674);
+INSERT INTO chapter_points VALUES(676,0,0,32,675);
+INSERT INTO chapter_points VALUES(677,0,0,32,676);
+INSERT INTO chapter_points VALUES(678,0,0,32,677);
+INSERT INTO chapter_points VALUES(679,0,0,32,678);
+INSERT INTO chapter_points VALUES(680,0,0,32,679);
+INSERT INTO chapter_points VALUES(681,0,0,32,680);
+INSERT INTO chapter_points VALUES(682,0,0,32,681);
+INSERT INTO chapter_points VALUES(683,0,0,32,682);
+INSERT INTO chapter_points VALUES(684,0,0,32,683);
+INSERT INTO chapter_points VALUES(685,0,0,32,684);
+INSERT INTO chapter_points VALUES(686,0,0,33,685);
+INSERT INTO chapter_points VALUES(687,0,0,33,686);
+INSERT INTO chapter_points VALUES(688,0,0,33,687);
+INSERT INTO chapter_points VALUES(689,0,0,33,688);
+INSERT INTO chapter_points VALUES(690,0,0,33,689);
+INSERT INTO chapter_points VALUES(691,0,0,33,690);
+INSERT INTO chapter_points VALUES(692,0,0,33,691);
+INSERT INTO chapter_points VALUES(693,0,0,33,692);
+INSERT INTO chapter_points VALUES(694,0,0,33,693);
+INSERT INTO chapter_points VALUES(695,0,0,33,694);
+INSERT INTO chapter_points VALUES(696,0,0,33,695);
+INSERT INTO chapter_points VALUES(697,0,0,33,696);
+INSERT INTO chapter_points VALUES(698,0,0,33,697);
+INSERT INTO chapter_points VALUES(699,0,0,33,698);
+INSERT INTO chapter_points VALUES(700,0,0,33,699);
+INSERT INTO chapter_points VALUES(701,0,0,33,700);
+INSERT INTO chapter_points VALUES(702,0,0,33,701);
+INSERT INTO chapter_points VALUES(703,0,0,33,702);
+INSERT INTO chapter_points VALUES(704,0,0,33,703);
+INSERT INTO chapter_points VALUES(705,0,0,33,704);
+INSERT INTO chapter_points VALUES(706,0,0,33,705);
+INSERT INTO chapter_points VALUES(707,0,0,33,706);
+INSERT INTO chapter_points VALUES(708,0,0,34,707);
+INSERT INTO chapter_points VALUES(709,0,0,34,708);
+INSERT INTO chapter_points VALUES(710,0,0,34,709);
+INSERT INTO chapter_points VALUES(711,0,0,34,710);
+INSERT INTO chapter_points VALUES(712,0,0,34,711);
+INSERT INTO chapter_points VALUES(713,0,0,34,712);
+INSERT INTO chapter_points VALUES(714,0,0,34,713);
+INSERT INTO chapter_points VALUES(715,0,0,34,714);
+INSERT INTO chapter_points VALUES(716,0,0,34,715);
+INSERT INTO chapter_points VALUES(717,0,0,34,716);
+INSERT INTO chapter_points VALUES(718,0,0,34,717);
+INSERT INTO chapter_points VALUES(719,0,0,34,718);
+INSERT INTO chapter_points VALUES(720,0,0,34,719);
+INSERT INTO chapter_points VALUES(721,0,0,34,720);
+INSERT INTO chapter_points VALUES(722,0,0,34,721);
+INSERT INTO chapter_points VALUES(723,0,0,34,722);
+INSERT INTO chapter_points VALUES(724,0,0,34,723);
+INSERT INTO chapter_points VALUES(725,0,0,34,724);
+INSERT INTO chapter_points VALUES(726,0,0,34,725);
+INSERT INTO chapter_points VALUES(727,0,0,34,726);
+INSERT INTO chapter_points VALUES(728,0,0,34,727);
+INSERT INTO chapter_points VALUES(729,0,0,34,728);
+INSERT INTO chapter_points VALUES(730,0,0,34,729);
+INSERT INTO chapter_points VALUES(731,0,0,34,730);
+INSERT INTO chapter_points VALUES(732,0,0,34,731);
+INSERT INTO chapter_points VALUES(733,0,0,34,732);
+INSERT INTO chapter_points VALUES(734,0,0,34,733);
+INSERT INTO chapter_points VALUES(735,0,0,35,734);
+INSERT INTO chapter_points VALUES(736,0,0,35,735);
+INSERT INTO chapter_points VALUES(737,0,0,35,736);
+INSERT INTO chapter_points VALUES(738,0,0,35,737);
+INSERT INTO chapter_points VALUES(739,0,0,35,738);
+INSERT INTO chapter_points VALUES(740,0,0,35,739);
+INSERT INTO chapter_points VALUES(741,0,0,35,740);
+INSERT INTO chapter_points VALUES(742,0,0,35,741);
+INSERT INTO chapter_points VALUES(743,0,0,35,742);
+INSERT INTO chapter_points VALUES(744,0,0,35,743);
+INSERT INTO chapter_points VALUES(745,0,0,35,744);
+INSERT INTO chapter_points VALUES(746,0,0,35,745);
+INSERT INTO chapter_points VALUES(747,0,0,35,746);
+INSERT INTO chapter_points VALUES(748,0,0,35,747);
+INSERT INTO chapter_points VALUES(749,0,0,35,748);
+INSERT INTO chapter_points VALUES(750,0,0,35,749);
+INSERT INTO chapter_points VALUES(751,0,0,35,750);
+INSERT INTO chapter_points VALUES(752,0,0,35,751);
+INSERT INTO chapter_points VALUES(753,0,0,35,752);
+INSERT INTO chapter_points VALUES(754,0,0,35,753);
+INSERT INTO chapter_points VALUES(755,0,0,36,754);
+INSERT INTO chapter_points VALUES(756,0,0,36,755);
+INSERT INTO chapter_points VALUES(757,0,0,36,756);
+INSERT INTO chapter_points VALUES(758,0,0,36,757);
+INSERT INTO chapter_points VALUES(759,0,0,36,758);
+INSERT INTO chapter_points VALUES(760,0,0,36,759);
+INSERT INTO chapter_points VALUES(761,0,0,36,760);
+INSERT INTO chapter_points VALUES(762,0,0,36,761);
+INSERT INTO chapter_points VALUES(763,0,0,36,762);
+INSERT INTO chapter_points VALUES(764,0,0,36,763);
+INSERT INTO chapter_points VALUES(765,0,0,36,764);
+INSERT INTO chapter_points VALUES(766,0,0,36,765);
+INSERT INTO chapter_points VALUES(767,0,0,36,766);
+INSERT INTO chapter_points VALUES(768,0,0,36,767);
+INSERT INTO chapter_points VALUES(769,0,0,36,768);
+INSERT INTO chapter_points VALUES(770,0,0,36,769);
+INSERT INTO chapter_points VALUES(771,0,0,36,770);
+INSERT INTO chapter_points VALUES(772,0,0,36,771);
+INSERT INTO chapter_points VALUES(773,0,0,36,772);
+INSERT INTO chapter_points VALUES(774,0,0,36,773);
+INSERT INTO chapter_points VALUES(775,0,0,36,774);
+INSERT INTO chapter_points VALUES(776,0,0,36,775);
+INSERT INTO chapter_points VALUES(777,0,0,36,776);
+INSERT INTO chapter_points VALUES(778,0,0,36,777);
+INSERT INTO chapter_points VALUES(779,0,0,36,778);
+INSERT INTO chapter_points VALUES(780,0,0,37,779);
+INSERT INTO chapter_points VALUES(781,0,0,37,780);
+INSERT INTO chapter_points VALUES(782,0,0,37,781);
+INSERT INTO chapter_points VALUES(783,0,0,37,782);
+INSERT INTO chapter_points VALUES(784,0,0,37,783);
+INSERT INTO chapter_points VALUES(785,0,0,37,784);
+INSERT INTO chapter_points VALUES(786,0,0,37,785);
+INSERT INTO chapter_points VALUES(787,0,0,37,786);
+INSERT INTO chapter_points VALUES(788,0,0,37,787);
+INSERT INTO chapter_points VALUES(789,0,0,37,788);
+INSERT INTO chapter_points VALUES(790,0,0,37,789);
+INSERT INTO chapter_points VALUES(791,0,0,38,790);
+INSERT INTO chapter_points VALUES(792,0,0,38,791);
+INSERT INTO chapter_points VALUES(793,0,0,38,792);
+INSERT INTO chapter_points VALUES(794,0,0,38,793);
+INSERT INTO chapter_points VALUES(795,0,0,38,794);
+INSERT INTO chapter_points VALUES(796,0,0,38,795);
+INSERT INTO chapter_points VALUES(797,0,0,38,796);
+INSERT INTO chapter_points VALUES(798,0,0,38,797);
+INSERT INTO chapter_points VALUES(799,0,0,38,798);
+INSERT INTO chapter_points VALUES(800,0,0,38,799);
+INSERT INTO chapter_points VALUES(801,0,0,38,800);
+INSERT INTO chapter_points VALUES(802,0,0,38,801);
+INSERT INTO chapter_points VALUES(803,0,0,38,802);
+INSERT INTO chapter_points VALUES(804,0,0,38,803);
+INSERT INTO chapter_points VALUES(805,0,0,38,804);
+INSERT INTO chapter_points VALUES(806,0,0,38,805);
+INSERT INTO chapter_points VALUES(807,0,0,38,806);
+INSERT INTO chapter_points VALUES(808,0,0,38,807);
+INSERT INTO chapter_points VALUES(809,0,0,38,808);
+INSERT INTO chapter_points VALUES(810,0,0,38,809);
+INSERT INTO chapter_points VALUES(811,0,0,38,810);
+INSERT INTO chapter_points VALUES(812,0,0,38,811);
+INSERT INTO chapter_points VALUES(813,0,0,38,812);
+INSERT INTO chapter_points VALUES(814,0,0,39,813);
+INSERT INTO chapter_points VALUES(815,0,0,39,814);
+INSERT INTO chapter_points VALUES(816,0,0,39,815);
+INSERT INTO chapter_points VALUES(817,0,0,39,816);
+INSERT INTO chapter_points VALUES(818,0,0,39,817);
+INSERT INTO chapter_points VALUES(819,0,0,39,818);
+INSERT INTO chapter_points VALUES(820,0,0,39,819);
+INSERT INTO chapter_points VALUES(821,0,0,39,820);
+INSERT INTO chapter_points VALUES(822,0,0,39,821);
+INSERT INTO chapter_points VALUES(823,0,0,39,822);
+INSERT INTO chapter_points VALUES(824,0,0,39,823);
+INSERT INTO chapter_points VALUES(825,0,0,39,824);
+INSERT INTO chapter_points VALUES(826,0,0,39,825);
+INSERT INTO chapter_points VALUES(827,0,0,39,826);
+INSERT INTO chapter_points VALUES(828,0,0,39,827);
+INSERT INTO chapter_points VALUES(829,0,0,39,828);
+INSERT INTO chapter_points VALUES(830,0,0,39,829);
+INSERT INTO chapter_points VALUES(831,0,0,39,830);
+INSERT INTO chapter_points VALUES(832,0,0,40,831);
+INSERT INTO chapter_points VALUES(833,0,0,40,832);
+INSERT INTO chapter_points VALUES(834,0,0,40,833);
+INSERT INTO chapter_points VALUES(835,0,0,40,834);
+INSERT INTO chapter_points VALUES(836,0,0,40,835);
+INSERT INTO chapter_points VALUES(837,0,0,40,836);
+INSERT INTO chapter_points VALUES(838,0,0,40,837);
+INSERT INTO chapter_points VALUES(839,0,0,40,838);
+INSERT INTO chapter_points VALUES(840,0,0,40,839);
+INSERT INTO chapter_points VALUES(841,0,0,40,840);
+INSERT INTO chapter_points VALUES(842,0,0,40,841);
+INSERT INTO chapter_points VALUES(843,0,0,40,842);
+INSERT INTO chapter_points VALUES(844,0,0,40,843);
+INSERT INTO chapter_points VALUES(845,0,0,40,844);
+INSERT INTO chapter_points VALUES(846,0,0,40,845);
+INSERT INTO chapter_points VALUES(847,0,0,40,846);
+INSERT INTO chapter_points VALUES(848,0,0,40,847);
+INSERT INTO chapter_points VALUES(849,0,0,40,848);
+INSERT INTO chapter_points VALUES(850,0,0,40,849);
+INSERT INTO chapter_points VALUES(851,0,0,40,850);
+INSERT INTO chapter_points VALUES(852,0,0,40,851);
+INSERT INTO chapter_points VALUES(853,0,0,41,852);
+INSERT INTO chapter_points VALUES(854,0,0,41,853);
+INSERT INTO chapter_points VALUES(855,0,0,41,854);
+INSERT INTO chapter_points VALUES(856,0,0,41,855);
+INSERT INTO chapter_points VALUES(857,0,0,41,856);
+INSERT INTO chapter_points VALUES(858,0,0,41,857);
+INSERT INTO chapter_points VALUES(859,0,0,41,858);
+INSERT INTO chapter_points VALUES(860,0,0,41,859);
+INSERT INTO chapter_points VALUES(861,0,0,41,860);
+INSERT INTO chapter_points VALUES(862,0,0,41,861);
+INSERT INTO chapter_points VALUES(863,0,0,41,862);
+INSERT INTO chapter_points VALUES(864,0,0,41,863);
+INSERT INTO chapter_points VALUES(865,0,0,41,864);
+INSERT INTO chapter_points VALUES(866,0,0,41,865);
+INSERT INTO chapter_points VALUES(867,0,0,41,866);
+INSERT INTO chapter_points VALUES(868,0,0,41,867);
+INSERT INTO chapter_points VALUES(869,0,0,41,868);
+INSERT INTO chapter_points VALUES(870,0,0,41,869);
+INSERT INTO chapter_points VALUES(871,0,0,41,870);
+INSERT INTO chapter_points VALUES(872,0,0,41,871);
+INSERT INTO chapter_points VALUES(873,0,0,41,872);
+INSERT INTO chapter_points VALUES(874,0,0,41,873);
+INSERT INTO chapter_points VALUES(875,0,0,41,874);
+INSERT INTO chapter_points VALUES(876,0,0,42,875);
+INSERT INTO chapter_points VALUES(877,0,0,42,876);
+INSERT INTO chapter_points VALUES(878,0,0,42,877);
+INSERT INTO chapter_points VALUES(879,0,0,42,878);
+INSERT INTO chapter_points VALUES(880,0,0,42,879);
+INSERT INTO chapter_points VALUES(881,0,0,42,880);
+INSERT INTO chapter_points VALUES(882,0,0,42,881);
+INSERT INTO chapter_points VALUES(883,0,0,42,882);
+INSERT INTO chapter_points VALUES(884,0,0,42,883);
+INSERT INTO chapter_points VALUES(885,0,0,42,884);
+INSERT INTO chapter_points VALUES(886,0,0,42,885);
+INSERT INTO chapter_points VALUES(887,0,0,42,886);
+INSERT INTO chapter_points VALUES(888,0,0,42,887);
+INSERT INTO chapter_points VALUES(889,0,0,42,888);
+INSERT INTO chapter_points VALUES(890,0,0,42,889);
+INSERT INTO chapter_points VALUES(891,0,0,42,890);
+INSERT INTO chapter_points VALUES(892,0,0,42,891);
+INSERT INTO chapter_points VALUES(893,0,0,42,892);
+INSERT INTO chapter_points VALUES(894,0,0,42,893);
+INSERT INTO chapter_points VALUES(895,0,0,42,894);
+INSERT INTO chapter_points VALUES(896,0,0,42,895);
+INSERT INTO chapter_points VALUES(897,0,0,42,896);
+INSERT INTO chapter_points VALUES(898,0,0,42,897);
+INSERT INTO chapter_points VALUES(899,0,0,42,898);
+INSERT INTO chapter_points VALUES(900,0,0,42,899);
+INSERT INTO chapter_points VALUES(901,0,0,42,900);
+INSERT INTO chapter_points VALUES(902,0,0,42,901);
+INSERT INTO chapter_points VALUES(903,0,0,43,902);
+INSERT INTO chapter_points VALUES(904,0,0,43,903);
+INSERT INTO chapter_points VALUES(905,0,0,43,904);
+INSERT INTO chapter_points VALUES(906,0,0,43,905);
+INSERT INTO chapter_points VALUES(907,0,0,43,906);
+INSERT INTO chapter_points VALUES(908,0,0,43,907);
+INSERT INTO chapter_points VALUES(909,0,0,43,908);
+INSERT INTO chapter_points VALUES(910,0,0,43,909);
+INSERT INTO chapter_points VALUES(911,0,0,43,910);
+INSERT INTO chapter_points VALUES(912,0,0,43,911);
+INSERT INTO chapter_points VALUES(913,0,0,43,912);
+INSERT INTO chapter_points VALUES(914,0,0,43,913);
+INSERT INTO chapter_points VALUES(915,0,0,43,914);
+INSERT INTO chapter_points VALUES(916,0,0,43,915);
+INSERT INTO chapter_points VALUES(917,0,0,43,916);
+INSERT INTO chapter_points VALUES(918,0,0,43,917);
+INSERT INTO chapter_points VALUES(919,0,0,43,918);
+INSERT INTO chapter_points VALUES(920,0,0,43,919);
+INSERT INTO chapter_points VALUES(921,0,0,43,920);
+INSERT INTO chapter_points VALUES(922,0,0,43,921);
+INSERT INTO chapter_points VALUES(923,0,0,43,922);
+INSERT INTO chapter_points VALUES(924,0,0,43,923);
+INSERT INTO chapter_points VALUES(925,0,0,43,924);
+INSERT INTO chapter_points VALUES(926,0,0,43,925);
+INSERT INTO chapter_points VALUES(927,0,0,43,926);
+INSERT INTO chapter_points VALUES(928,0,0,43,927);
+INSERT INTO chapter_points VALUES(929,0,0,43,928);
+INSERT INTO chapter_points VALUES(930,0,0,44,929);
+INSERT INTO chapter_points VALUES(931,0,0,44,930);
+INSERT INTO chapter_points VALUES(932,0,0,44,931);
+INSERT INTO chapter_points VALUES(933,0,0,44,932);
+INSERT INTO chapter_points VALUES(934,0,0,44,933);
+INSERT INTO chapter_points VALUES(935,0,0,44,934);
+INSERT INTO chapter_points VALUES(936,0,0,44,935);
+INSERT INTO chapter_points VALUES(937,0,0,44,936);
+INSERT INTO chapter_points VALUES(938,0,0,44,937);
+INSERT INTO chapter_points VALUES(939,0,0,44,938);
+INSERT INTO chapter_points VALUES(940,0,0,44,939);
+INSERT INTO chapter_points VALUES(941,0,0,44,940);
+INSERT INTO chapter_points VALUES(942,0,0,44,941);
+INSERT INTO chapter_points VALUES(943,0,0,44,942);
+INSERT INTO chapter_points VALUES(944,0,0,44,943);
+INSERT INTO chapter_points VALUES(945,0,0,44,944);
+INSERT INTO chapter_points VALUES(946,0,0,44,945);
+INSERT INTO chapter_points VALUES(947,0,0,44,946);
+INSERT INTO chapter_points VALUES(948,0,0,44,947);
+INSERT INTO chapter_points VALUES(949,0,0,44,948);
+INSERT INTO chapter_points VALUES(950,0,0,44,949);
+INSERT INTO chapter_points VALUES(951,0,0,44,950);
+INSERT INTO chapter_points VALUES(952,0,0,44,951);
+INSERT INTO chapter_points VALUES(953,0,0,44,952);
+INSERT INTO chapter_points VALUES(954,0,0,44,953);
+INSERT INTO chapter_points VALUES(955,0,0,44,954);
+INSERT INTO chapter_points VALUES(956,0,0,44,955);
+INSERT INTO chapter_points VALUES(957,0,0,44,956);
+INSERT INTO chapter_points VALUES(958,0,0,44,957);
+INSERT INTO chapter_points VALUES(959,0,0,44,958);
+INSERT INTO chapter_points VALUES(960,0,0,44,959);
+INSERT INTO chapter_points VALUES(961,0,0,45,960);
+INSERT INTO chapter_points VALUES(962,0,0,45,961);
+INSERT INTO chapter_points VALUES(963,0,0,45,962);
+INSERT INTO chapter_points VALUES(964,0,0,45,963);
+INSERT INTO chapter_points VALUES(965,0,0,45,964);
+INSERT INTO chapter_points VALUES(966,0,0,45,965);
+INSERT INTO chapter_points VALUES(967,0,0,45,966);
+INSERT INTO chapter_points VALUES(968,0,0,45,967);
+INSERT INTO chapter_points VALUES(969,0,0,45,968);
+INSERT INTO chapter_points VALUES(970,0,0,45,969);
+INSERT INTO chapter_points VALUES(971,0,0,45,970);
+INSERT INTO chapter_points VALUES(972,0,0,45,971);
+INSERT INTO chapter_points VALUES(973,0,0,45,972);
+INSERT INTO chapter_points VALUES(974,0,0,45,973);
+INSERT INTO chapter_points VALUES(975,0,0,45,974);
+INSERT INTO chapter_points VALUES(976,0,0,45,975);
+INSERT INTO chapter_points VALUES(977,0,0,45,976);
+INSERT INTO chapter_points VALUES(978,0,0,45,977);
+INSERT INTO chapter_points VALUES(979,0,0,45,978);
+INSERT INTO chapter_points VALUES(980,0,0,45,979);
+INSERT INTO chapter_points VALUES(981,0,0,45,980);
+INSERT INTO chapter_points VALUES(982,0,0,45,981);
+INSERT INTO chapter_points VALUES(983,0,0,45,982);
+INSERT INTO chapter_points VALUES(984,0,0,46,983);
+INSERT INTO chapter_points VALUES(985,0,0,46,984);
+INSERT INTO chapter_points VALUES(986,0,0,46,985);
+INSERT INTO chapter_points VALUES(987,0,0,46,986);
+INSERT INTO chapter_points VALUES(988,0,0,46,987);
+INSERT INTO chapter_points VALUES(989,0,0,46,988);
+INSERT INTO chapter_points VALUES(990,0,0,46,989);
+INSERT INTO chapter_points VALUES(991,0,0,46,990);
+INSERT INTO chapter_points VALUES(992,0,0,46,991);
+INSERT INTO chapter_points VALUES(993,0,0,46,992);
+INSERT INTO chapter_points VALUES(994,0,0,46,993);
+INSERT INTO chapter_points VALUES(995,0,0,46,994);
+INSERT INTO chapter_points VALUES(996,0,0,46,995);
+INSERT INTO chapter_points VALUES(997,0,0,46,996);
+INSERT INTO chapter_points VALUES(998,0,0,46,997);
+INSERT INTO chapter_points VALUES(999,0,0,46,998);
+INSERT INTO chapter_points VALUES(1000,0,0,46,999);
+INSERT INTO chapter_points VALUES(1001,0,1,0,0);
+INSERT INTO chapter_points VALUES(1002,0,1,1,1);
+INSERT INTO chapter_points VALUES(1003,0,1,1,2);
+INSERT INTO chapter_points VALUES(1004,0,1,1,3);
+INSERT INTO chapter_points VALUES(1005,0,1,1,4);
+INSERT INTO chapter_points VALUES(1006,0,1,1,5);
+INSERT INTO chapter_points VALUES(1007,0,1,1,6);
+INSERT INTO chapter_points VALUES(1008,0,1,1,7);
+INSERT INTO chapter_points VALUES(1009,0,1,1,8);
+INSERT INTO chapter_points VALUES(1010,0,1,1,9);
+INSERT INTO chapter_points VALUES(1011,0,1,1,10);
+INSERT INTO chapter_points VALUES(1012,0,1,1,11);
+INSERT INTO chapter_points VALUES(1013,0,1,1,12);
+INSERT INTO chapter_points VALUES(1014,0,1,1,13);
+INSERT INTO chapter_points VALUES(1015,0,1,1,14);
+INSERT INTO chapter_points VALUES(1016,0,1,1,15);
+INSERT INTO chapter_points VALUES(1017,0,1,1,16);
+INSERT INTO chapter_points VALUES(1018,0,1,1,17);
+INSERT INTO chapter_points VALUES(1019,0,1,1,18);
+INSERT INTO chapter_points VALUES(1020,0,1,1,19);
+INSERT INTO chapter_points VALUES(1021,0,1,1,20);
+INSERT INTO chapter_points VALUES(1022,0,1,1,21);
+INSERT INTO chapter_points VALUES(1023,0,1,1,22);
+INSERT INTO chapter_points VALUES(1024,0,1,1,23);
+INSERT INTO chapter_points VALUES(1025,0,1,1,24);
+INSERT INTO chapter_points VALUES(1026,0,1,1,25);
+INSERT INTO chapter_points VALUES(1027,0,1,1,26);
+INSERT INTO chapter_points VALUES(1028,0,1,1,27);
+INSERT INTO chapter_points VALUES(1029,0,1,1,28);
+INSERT INTO chapter_points VALUES(1030,0,1,1,29);
+INSERT INTO chapter_points VALUES(1031,0,1,1,30);
+INSERT INTO chapter_points VALUES(1032,0,1,1,31);
+INSERT INTO chapter_points VALUES(1033,0,1,1,32);
+INSERT INTO chapter_points VALUES(1034,0,1,1,33);
+INSERT INTO chapter_points VALUES(1035,0,1,2,34);
+INSERT INTO chapter_points VALUES(1036,0,1,2,35);
+INSERT INTO chapter_points VALUES(1037,0,1,2,36);
+INSERT INTO chapter_points VALUES(1038,0,1,2,37);
+INSERT INTO chapter_points VALUES(1039,0,1,2,38);
+INSERT INTO chapter_points VALUES(1040,0,1,2,39);
+INSERT INTO chapter_points VALUES(1041,0,1,2,40);
+INSERT INTO chapter_points VALUES(1042,0,1,2,41);
+INSERT INTO chapter_points VALUES(1043,0,1,2,42);
+INSERT INTO chapter_points VALUES(1044,0,1,2,43);
+INSERT INTO chapter_points VALUES(1045,0,1,2,44);
+INSERT INTO chapter_points VALUES(1046,0,1,2,45);
+INSERT INTO chapter_points VALUES(1047,0,1,2,46);
+INSERT INTO chapter_points VALUES(1048,0,1,2,47);
+INSERT INTO chapter_points VALUES(1049,0,1,2,48);
+INSERT INTO chapter_points VALUES(1050,0,1,2,49);
+INSERT INTO chapter_points VALUES(1051,0,1,2,50);
+INSERT INTO chapter_points VALUES(1052,0,1,2,51);
+INSERT INTO chapter_points VALUES(1053,0,1,3,52);
+INSERT INTO chapter_points VALUES(1054,0,1,3,53);
+INSERT INTO chapter_points VALUES(1055,0,1,3,54);
+INSERT INTO chapter_points VALUES(1056,0,1,3,55);
+INSERT INTO chapter_points VALUES(1057,0,1,3,56);
+INSERT INTO chapter_points VALUES(1058,0,1,3,57);
+INSERT INTO chapter_points VALUES(1059,0,1,3,58);
+INSERT INTO chapter_points VALUES(1060,0,1,3,59);
+INSERT INTO chapter_points VALUES(1061,0,1,3,60);
+INSERT INTO chapter_points VALUES(1062,0,1,3,61);
+INSERT INTO chapter_points VALUES(1063,0,1,3,62);
+INSERT INTO chapter_points VALUES(1064,0,1,3,63);
+INSERT INTO chapter_points VALUES(1065,0,1,3,64);
+INSERT INTO chapter_points VALUES(1066,0,1,3,65);
+INSERT INTO chapter_points VALUES(1067,0,1,3,66);
+INSERT INTO chapter_points VALUES(1068,0,1,3,67);
+INSERT INTO chapter_points VALUES(1069,0,1,3,68);
+INSERT INTO chapter_points VALUES(1070,0,1,3,69);
+INSERT INTO chapter_points VALUES(1071,0,1,3,70);
+INSERT INTO chapter_points VALUES(1072,0,1,3,71);
+INSERT INTO chapter_points VALUES(1073,0,1,3,72);
+INSERT INTO chapter_points VALUES(1074,0,1,3,73);
+INSERT INTO chapter_points VALUES(1075,0,1,3,74);
+INSERT INTO chapter_points VALUES(1076,0,1,3,75);
+INSERT INTO chapter_points VALUES(1077,0,1,3,76);
+INSERT INTO chapter_points VALUES(1078,0,1,3,77);
+INSERT INTO chapter_points VALUES(1079,0,1,3,78);
+INSERT INTO chapter_points VALUES(1080,0,1,3,79);
+INSERT INTO chapter_points VALUES(1081,0,1,3,80);
+INSERT INTO chapter_points VALUES(1082,0,1,3,81);
+INSERT INTO chapter_points VALUES(1083,0,1,3,82);
+INSERT INTO chapter_points VALUES(1084,0,1,3,83);
+INSERT INTO chapter_points VALUES(1085,0,1,3,84);
+INSERT INTO chapter_points VALUES(1086,0,1,3,85);
+INSERT INTO chapter_points VALUES(1087,0,1,3,86);
+INSERT INTO chapter_points VALUES(1088,0,1,3,87);
+INSERT INTO chapter_points VALUES(1089,0,1,3,88);
+INSERT INTO chapter_points VALUES(1090,0,1,3,89);
+INSERT INTO chapter_points VALUES(1091,0,1,3,90);
+INSERT INTO chapter_points VALUES(1092,0,1,3,91);
+INSERT INTO chapter_points VALUES(1093,0,1,3,92);
+INSERT INTO chapter_points VALUES(1094,0,1,3,93);
+INSERT INTO chapter_points VALUES(1095,0,1,3,94);
+INSERT INTO chapter_points VALUES(1096,0,1,3,95);
+INSERT INTO chapter_points VALUES(1097,0,1,4,96);
+INSERT INTO chapter_points VALUES(1098,0,1,4,97);
+INSERT INTO chapter_points VALUES(1099,0,1,4,98);
+INSERT INTO chapter_points VALUES(1100,0,1,4,99);
+INSERT INTO chapter_points VALUES(1101,0,1,4,100);
+INSERT INTO chapter_points VALUES(1102,0,1,4,101);
+INSERT INTO chapter_points VALUES(1103,0,1,4,102);
+INSERT INTO chapter_points VALUES(1104,0,1,4,103);
+INSERT INTO chapter_points VALUES(1105,0,1,4,104);
+INSERT INTO chapter_points VALUES(1106,0,1,4,105);
+INSERT INTO chapter_points VALUES(1107,0,1,4,106);
+INSERT INTO chapter_points VALUES(1108,0,1,4,107);
+INSERT INTO chapter_points VALUES(1109,0,1,4,108);
+INSERT INTO chapter_points VALUES(1110,0,1,4,109);
+INSERT INTO chapter_points VALUES(1111,0,1,4,110);
+INSERT INTO chapter_points VALUES(1112,0,1,4,111);
+INSERT INTO chapter_points VALUES(1113,0,1,4,112);
+INSERT INTO chapter_points VALUES(1114,0,1,4,113);
+INSERT INTO chapter_points VALUES(1115,0,1,4,114);
+INSERT INTO chapter_points VALUES(1116,0,1,4,115);
+INSERT INTO chapter_points VALUES(1117,0,1,4,116);
+INSERT INTO chapter_points VALUES(1118,0,1,4,117);
+INSERT INTO chapter_points VALUES(1119,0,1,4,118);
+INSERT INTO chapter_points VALUES(1120,0,1,4,119);
+INSERT INTO chapter_points VALUES(1121,0,1,4,120);
+INSERT INTO chapter_points VALUES(1122,0,1,4,121);
+INSERT INTO chapter_points VALUES(1123,0,1,4,122);
+INSERT INTO chapter_points VALUES(1124,0,1,4,123);
+INSERT INTO chapter_points VALUES(1125,0,1,4,124);
+INSERT INTO chapter_points VALUES(1126,0,1,5,125);
+INSERT INTO chapter_points VALUES(1127,0,1,5,126);
+INSERT INTO chapter_points VALUES(1128,0,1,5,127);
+INSERT INTO chapter_points VALUES(1129,0,1,5,128);
+INSERT INTO chapter_points VALUES(1130,0,1,5,129);
+INSERT INTO chapter_points VALUES(1131,0,1,5,130);
+INSERT INTO chapter_points VALUES(1132,0,1,5,131);
+INSERT INTO chapter_points VALUES(1133,0,1,5,132);
+INSERT INTO chapter_points VALUES(1134,0,1,5,133);
+INSERT INTO chapter_points VALUES(1135,0,1,5,134);
+INSERT INTO chapter_points VALUES(1136,0,1,5,135);
+INSERT INTO chapter_points VALUES(1137,0,1,5,136);
+INSERT INTO chapter_points VALUES(1138,0,1,5,137);
+INSERT INTO chapter_points VALUES(1139,0,1,5,138);
+INSERT INTO chapter_points VALUES(1140,0,1,5,139);
+INSERT INTO chapter_points VALUES(1141,0,1,5,140);
+INSERT INTO chapter_points VALUES(1142,0,1,5,141);
+INSERT INTO chapter_points VALUES(1143,0,1,5,142);
+INSERT INTO chapter_points VALUES(1144,0,1,5,143);
+INSERT INTO chapter_points VALUES(1145,0,1,5,144);
+INSERT INTO chapter_points VALUES(1146,0,1,5,145);
+INSERT INTO chapter_points VALUES(1147,0,1,5,146);
+INSERT INTO chapter_points VALUES(1148,0,1,5,147);
+INSERT INTO chapter_points VALUES(1149,0,1,5,148);
+INSERT INTO chapter_points VALUES(1150,0,1,5,149);
+INSERT INTO chapter_points VALUES(1151,0,1,5,150);
+INSERT INTO chapter_points VALUES(1152,0,1,5,151);
+INSERT INTO chapter_points VALUES(1153,0,1,5,152);
+INSERT INTO chapter_points VALUES(1154,0,1,5,153);
+INSERT INTO chapter_points VALUES(1155,0,1,5,154);
+INSERT INTO chapter_points VALUES(1156,0,1,5,155);
+INSERT INTO chapter_points VALUES(1157,0,1,5,156);
+INSERT INTO chapter_points VALUES(1158,0,1,5,157);
+INSERT INTO chapter_points VALUES(1159,0,1,5,158);
+INSERT INTO chapter_points VALUES(1160,0,1,5,159);
+INSERT INTO chapter_points VALUES(1161,0,1,5,160);
+INSERT INTO chapter_points VALUES(1162,0,1,5,161);
+INSERT INTO chapter_points VALUES(1163,0,1,5,162);
+INSERT INTO chapter_points VALUES(1164,0,1,5,163);
+INSERT INTO chapter_points VALUES(1165,0,1,5,164);
+INSERT INTO chapter_points VALUES(1166,0,1,5,165);
+INSERT INTO chapter_points VALUES(1167,0,1,5,166);
+INSERT INTO chapter_points VALUES(1168,0,1,5,167);
+INSERT INTO chapter_points VALUES(1169,0,1,5,168);
+INSERT INTO chapter_points VALUES(1170,0,1,5,169);
+INSERT INTO chapter_points VALUES(1171,0,1,5,170);
+INSERT INTO chapter_points VALUES(1172,0,1,5,171);
+INSERT INTO chapter_points VALUES(1173,0,1,5,172);
+INSERT INTO chapter_points VALUES(1174,0,1,5,173);
+INSERT INTO chapter_points VALUES(1175,0,1,5,174);
+INSERT INTO chapter_points VALUES(1176,0,1,5,175);
+INSERT INTO chapter_points VALUES(1177,0,1,5,176);
+INSERT INTO chapter_points VALUES(1178,0,1,5,177);
+INSERT INTO chapter_points VALUES(1179,0,1,5,178);
+INSERT INTO chapter_points VALUES(1180,0,1,5,179);
+INSERT INTO chapter_points VALUES(1181,0,1,5,180);
+INSERT INTO chapter_points VALUES(1182,0,1,6,181);
+INSERT INTO chapter_points VALUES(1183,0,1,6,182);
+INSERT INTO chapter_points VALUES(1184,0,1,6,183);
+INSERT INTO chapter_points VALUES(1185,0,1,6,184);
+INSERT INTO chapter_points VALUES(1186,0,1,6,185);
+INSERT INTO chapter_points VALUES(1187,0,1,6,186);
+INSERT INTO chapter_points VALUES(1188,0,1,6,187);
+INSERT INTO chapter_points VALUES(1189,0,1,6,188);
+INSERT INTO chapter_points VALUES(1190,0,1,6,189);
+INSERT INTO chapter_points VALUES(1191,0,1,6,190);
+INSERT INTO chapter_points VALUES(1192,0,1,6,191);
+INSERT INTO chapter_points VALUES(1193,0,1,6,192);
+INSERT INTO chapter_points VALUES(1194,0,1,6,193);
+INSERT INTO chapter_points VALUES(1195,0,1,6,194);
+INSERT INTO chapter_points VALUES(1196,0,1,6,195);
+INSERT INTO chapter_points VALUES(1197,0,1,6,196);
+INSERT INTO chapter_points VALUES(1198,0,1,6,197);
+INSERT INTO chapter_points VALUES(1199,0,1,6,198);
+INSERT INTO chapter_points VALUES(1200,0,1,6,199);
+INSERT INTO chapter_points VALUES(1201,0,1,6,200);
+INSERT INTO chapter_points VALUES(1202,0,1,6,201);
+INSERT INTO chapter_points VALUES(1203,0,1,6,202);
+INSERT INTO chapter_points VALUES(1204,0,1,6,203);
+INSERT INTO chapter_points VALUES(1205,0,1,6,204);
+INSERT INTO chapter_points VALUES(1206,0,1,6,205);
+INSERT INTO chapter_points VALUES(1207,0,1,6,206);
+INSERT INTO chapter_points VALUES(1208,0,1,6,207);
+INSERT INTO chapter_points VALUES(1209,0,1,6,208);
+INSERT INTO chapter_points VALUES(1210,0,1,6,209);
+INSERT INTO chapter_points VALUES(1211,0,1,6,210);
+INSERT INTO chapter_points VALUES(1212,0,1,6,211);
+INSERT INTO chapter_points VALUES(1213,0,1,6,212);
+INSERT INTO chapter_points VALUES(1214,0,1,6,213);
+INSERT INTO chapter_points VALUES(1215,0,1,6,214);
+INSERT INTO chapter_points VALUES(1216,0,1,6,215);
+INSERT INTO chapter_points VALUES(1217,0,1,6,216);
+INSERT INTO chapter_points VALUES(1218,0,1,6,217);
+INSERT INTO chapter_points VALUES(1219,0,1,6,218);
+INSERT INTO chapter_points VALUES(1220,0,1,6,219);
+INSERT INTO chapter_points VALUES(1221,0,1,6,220);
+INSERT INTO chapter_points VALUES(1222,0,1,6,221);
+INSERT INTO chapter_points VALUES(1223,0,1,6,222);
+INSERT INTO chapter_points VALUES(1224,0,1,6,223);
+INSERT INTO chapter_points VALUES(1225,0,1,6,224);
+INSERT INTO chapter_points VALUES(1226,0,1,6,225);
+INSERT INTO chapter_points VALUES(1227,0,1,6,226);
+INSERT INTO chapter_points VALUES(1228,0,1,6,227);
+INSERT INTO chapter_points VALUES(1229,0,1,6,228);
+INSERT INTO chapter_points VALUES(1230,0,1,6,229);
+INSERT INTO chapter_points VALUES(1231,0,1,6,230);
+INSERT INTO chapter_points VALUES(1232,0,1,6,231);
+INSERT INTO chapter_points VALUES(1233,0,1,6,232);
+INSERT INTO chapter_points VALUES(1234,0,1,7,233);
+INSERT INTO chapter_points VALUES(1235,0,1,7,234);
+INSERT INTO chapter_points VALUES(1236,0,1,7,235);
+INSERT INTO chapter_points VALUES(1237,0,1,7,236);
+INSERT INTO chapter_points VALUES(1238,0,1,7,237);
+INSERT INTO chapter_points VALUES(1239,0,1,7,238);
+INSERT INTO chapter_points VALUES(1240,0,1,7,239);
+INSERT INTO chapter_points VALUES(1241,0,1,7,240);
+INSERT INTO chapter_points VALUES(1242,0,1,7,241);
+INSERT INTO chapter_points VALUES(1243,0,1,7,242);
+INSERT INTO chapter_points VALUES(1244,0,1,7,243);
+INSERT INTO chapter_points VALUES(1245,0,1,7,244);
+INSERT INTO chapter_points VALUES(1246,0,1,7,245);
+INSERT INTO chapter_points VALUES(1247,0,1,7,246);
+INSERT INTO chapter_points VALUES(1248,0,1,7,247);
+INSERT INTO chapter_points VALUES(1249,0,1,7,248);
+INSERT INTO chapter_points VALUES(1250,0,1,7,249);
+INSERT INTO chapter_points VALUES(1251,0,1,7,250);
+INSERT INTO chapter_points VALUES(1252,0,1,7,251);
+INSERT INTO chapter_points VALUES(1253,0,1,7,252);
+INSERT INTO chapter_points VALUES(1254,0,1,7,253);
+INSERT INTO chapter_points VALUES(1255,0,1,7,254);
+INSERT INTO chapter_points VALUES(1256,0,1,7,255);
+INSERT INTO chapter_points VALUES(1257,0,1,7,256);
+INSERT INTO chapter_points VALUES(1258,0,1,7,257);
+INSERT INTO chapter_points VALUES(1259,0,1,7,258);
+INSERT INTO chapter_points VALUES(1260,0,1,8,259);
+INSERT INTO chapter_points VALUES(1261,0,1,8,260);
+INSERT INTO chapter_points VALUES(1262,0,1,8,261);
+INSERT INTO chapter_points VALUES(1263,0,1,8,262);
+INSERT INTO chapter_points VALUES(1264,0,1,8,263);
+INSERT INTO chapter_points VALUES(1265,0,1,8,264);
+INSERT INTO chapter_points VALUES(1266,0,1,8,265);
+INSERT INTO chapter_points VALUES(1267,0,1,8,266);
+INSERT INTO chapter_points VALUES(1268,0,1,8,267);
+INSERT INTO chapter_points VALUES(1269,0,1,8,268);
+INSERT INTO chapter_points VALUES(1270,0,1,8,269);
+INSERT INTO chapter_points VALUES(1271,0,1,8,270);
+INSERT INTO chapter_points VALUES(1272,0,1,8,271);
+INSERT INTO chapter_points VALUES(1273,0,1,8,272);
+INSERT INTO chapter_points VALUES(1274,0,1,8,273);
+INSERT INTO chapter_points VALUES(1275,0,1,8,274);
+INSERT INTO chapter_points VALUES(1276,0,1,8,275);
+INSERT INTO chapter_points VALUES(1277,0,1,8,276);
+INSERT INTO chapter_points VALUES(1278,0,1,8,277);
+INSERT INTO chapter_points VALUES(1279,0,1,8,278);
+INSERT INTO chapter_points VALUES(1280,0,1,8,279);
+INSERT INTO chapter_points VALUES(1281,0,1,8,280);
+INSERT INTO chapter_points VALUES(1282,0,1,8,281);
+INSERT INTO chapter_points VALUES(1283,0,1,8,282);
+INSERT INTO chapter_points VALUES(1284,0,1,8,283);
+INSERT INTO chapter_points VALUES(1285,0,1,8,284);
+INSERT INTO chapter_points VALUES(1286,0,1,8,285);
+INSERT INTO chapter_points VALUES(1287,0,1,8,286);
+INSERT INTO chapter_points VALUES(1288,0,1,8,287);
+INSERT INTO chapter_points VALUES(1289,0,1,8,288);
+INSERT INTO chapter_points VALUES(1290,0,1,8,289);
+INSERT INTO chapter_points VALUES(1291,0,1,9,290);
+INSERT INTO chapter_points VALUES(1292,0,1,9,291);
+INSERT INTO chapter_points VALUES(1293,0,1,9,292);
+INSERT INTO chapter_points VALUES(1294,0,1,9,293);
+INSERT INTO chapter_points VALUES(1295,0,1,9,294);
+INSERT INTO chapter_points VALUES(1296,0,1,9,295);
+INSERT INTO chapter_points VALUES(1297,0,1,9,296);
+INSERT INTO chapter_points VALUES(1298,0,1,9,297);
+INSERT INTO chapter_points VALUES(1299,0,1,9,298);
+INSERT INTO chapter_points VALUES(1300,0,1,9,299);
+INSERT INTO chapter_points VALUES(1301,0,1,9,300);
+INSERT INTO chapter_points VALUES(1302,0,1,9,301);
+INSERT INTO chapter_points VALUES(1303,0,1,9,302);
+INSERT INTO chapter_points VALUES(1304,0,1,9,303);
+INSERT INTO chapter_points VALUES(1305,0,1,9,304);
+INSERT INTO chapter_points VALUES(1306,0,1,9,305);
+INSERT INTO chapter_points VALUES(1307,0,1,9,306);
+INSERT INTO chapter_points VALUES(1308,0,1,9,307);
+INSERT INTO chapter_points VALUES(1309,0,1,9,308);
+INSERT INTO chapter_points VALUES(1310,0,1,9,309);
+INSERT INTO chapter_points VALUES(1311,0,1,9,310);
+INSERT INTO chapter_points VALUES(1312,0,1,9,311);
+INSERT INTO chapter_points VALUES(1313,0,1,9,312);
+INSERT INTO chapter_points VALUES(1314,0,1,9,313);
+INSERT INTO chapter_points VALUES(1315,0,1,9,314);
+INSERT INTO chapter_points VALUES(1316,0,1,9,315);
+INSERT INTO chapter_points VALUES(1317,0,1,9,316);
+INSERT INTO chapter_points VALUES(1318,0,1,9,317);
+INSERT INTO chapter_points VALUES(1319,0,1,9,318);
+INSERT INTO chapter_points VALUES(1320,0,1,9,319);
+INSERT INTO chapter_points VALUES(1321,0,1,9,320);
+INSERT INTO chapter_points VALUES(1322,0,1,9,321);
+INSERT INTO chapter_points VALUES(1323,0,1,9,322);
+INSERT INTO chapter_points VALUES(1324,0,1,10,323);
+INSERT INTO chapter_points VALUES(1325,0,1,10,324);
+INSERT INTO chapter_points VALUES(1326,0,1,10,325);
+INSERT INTO chapter_points VALUES(1327,0,1,10,326);
+INSERT INTO chapter_points VALUES(1328,0,1,10,327);
+INSERT INTO chapter_points VALUES(1329,0,1,10,328);
+INSERT INTO chapter_points VALUES(1330,0,1,10,329);
+INSERT INTO chapter_points VALUES(1331,0,1,10,330);
+INSERT INTO chapter_points VALUES(1332,0,1,10,331);
+INSERT INTO chapter_points VALUES(1333,0,1,10,332);
+INSERT INTO chapter_points VALUES(1334,0,1,10,333);
+INSERT INTO chapter_points VALUES(1335,0,1,10,334);
+INSERT INTO chapter_points VALUES(1336,0,1,10,335);
+INSERT INTO chapter_points VALUES(1337,0,1,10,336);
+INSERT INTO chapter_points VALUES(1338,0,1,10,337);
+INSERT INTO chapter_points VALUES(1339,0,1,10,338);
+INSERT INTO chapter_points VALUES(1340,0,1,10,339);
+INSERT INTO chapter_points VALUES(1341,0,1,11,340);
+INSERT INTO chapter_points VALUES(1342,0,1,11,341);
+INSERT INTO chapter_points VALUES(1343,0,1,11,342);
+INSERT INTO chapter_points VALUES(1344,0,1,11,343);
+INSERT INTO chapter_points VALUES(1345,0,1,11,344);
+INSERT INTO chapter_points VALUES(1346,0,1,11,345);
+INSERT INTO chapter_points VALUES(1347,0,1,11,346);
+INSERT INTO chapter_points VALUES(1348,0,1,11,347);
+INSERT INTO chapter_points VALUES(1349,0,1,11,348);
+INSERT INTO chapter_points VALUES(1350,0,1,11,349);
+INSERT INTO chapter_points VALUES(1351,0,1,11,350);
+INSERT INTO chapter_points VALUES(1352,0,1,11,351);
+INSERT INTO chapter_points VALUES(1353,0,1,11,352);
+INSERT INTO chapter_points VALUES(1354,0,1,11,353);
+INSERT INTO chapter_points VALUES(1355,0,1,11,354);
+INSERT INTO chapter_points VALUES(1356,0,1,11,355);
+INSERT INTO chapter_points VALUES(1357,0,1,11,356);
+INSERT INTO chapter_points VALUES(1358,0,1,11,357);
+INSERT INTO chapter_points VALUES(1359,0,1,11,358);
+INSERT INTO chapter_points VALUES(1360,0,1,11,359);
+INSERT INTO chapter_points VALUES(1361,0,1,11,360);
+INSERT INTO chapter_points VALUES(1362,0,1,11,361);
+INSERT INTO chapter_points VALUES(1363,0,1,11,362);
+INSERT INTO chapter_points VALUES(1364,0,1,11,363);
+INSERT INTO chapter_points VALUES(1365,0,1,11,364);
+INSERT INTO chapter_points VALUES(1366,0,1,11,365);
+INSERT INTO chapter_points VALUES(1367,0,1,11,366);
+INSERT INTO chapter_points VALUES(1368,0,1,11,367);
+INSERT INTO chapter_points VALUES(1369,0,1,11,368);
+INSERT INTO chapter_points VALUES(1370,0,1,11,369);
+INSERT INTO chapter_points VALUES(1371,0,1,11,370);
+INSERT INTO chapter_points VALUES(1372,0,1,11,371);
+INSERT INTO chapter_points VALUES(1373,0,1,12,372);
+INSERT INTO chapter_points VALUES(1374,0,1,12,373);
+INSERT INTO chapter_points VALUES(1375,0,1,12,374);
+INSERT INTO chapter_points VALUES(1376,0,1,12,375);
+INSERT INTO chapter_points VALUES(1377,0,1,12,376);
+INSERT INTO chapter_points VALUES(1378,0,1,12,377);
+INSERT INTO chapter_points VALUES(1379,0,1,12,378);
+INSERT INTO chapter_points VALUES(1380,0,1,12,379);
+INSERT INTO chapter_points VALUES(1381,0,1,12,380);
+INSERT INTO chapter_points VALUES(1382,0,1,12,381);
+INSERT INTO chapter_points VALUES(1383,0,1,12,382);
+INSERT INTO chapter_points VALUES(1384,0,1,12,383);
+INSERT INTO chapter_points VALUES(1385,0,1,12,384);
+INSERT INTO chapter_points VALUES(1386,0,1,12,385);
+INSERT INTO chapter_points VALUES(1387,0,1,12,386);
+INSERT INTO chapter_points VALUES(1388,0,1,12,387);
+INSERT INTO chapter_points VALUES(1389,0,1,12,388);
+INSERT INTO chapter_points VALUES(1390,0,1,12,389);
+INSERT INTO chapter_points VALUES(1391,0,1,12,390);
+INSERT INTO chapter_points VALUES(1392,0,1,12,391);
+INSERT INTO chapter_points VALUES(1393,0,1,12,392);
+INSERT INTO chapter_points VALUES(1394,0,1,12,393);
+INSERT INTO chapter_points VALUES(1395,0,1,12,394);
+INSERT INTO chapter_points VALUES(1396,0,1,12,395);
+INSERT INTO chapter_points VALUES(1397,0,1,12,396);
+INSERT INTO chapter_points VALUES(1398,0,1,12,397);
+INSERT INTO chapter_points VALUES(1399,0,1,12,398);
+INSERT INTO chapter_points VALUES(1400,0,1,12,399);
+INSERT INTO chapter_points VALUES(1401,0,1,12,400);
+INSERT INTO chapter_points VALUES(1402,0,1,12,401);
+INSERT INTO chapter_points VALUES(1403,0,1,12,402);
+INSERT INTO chapter_points VALUES(1404,0,1,12,403);
+INSERT INTO chapter_points VALUES(1405,0,1,12,404);
+INSERT INTO chapter_points VALUES(1406,0,1,12,405);
+INSERT INTO chapter_points VALUES(1407,0,1,12,406);
+INSERT INTO chapter_points VALUES(1408,0,1,12,407);
+INSERT INTO chapter_points VALUES(1409,0,1,12,408);
+INSERT INTO chapter_points VALUES(1410,0,1,12,409);
+INSERT INTO chapter_points VALUES(1411,0,1,12,410);
+INSERT INTO chapter_points VALUES(1412,0,1,12,411);
+INSERT INTO chapter_points VALUES(1413,0,1,12,412);
+INSERT INTO chapter_points VALUES(1414,0,1,12,413);
+INSERT INTO chapter_points VALUES(1415,0,1,12,414);
+INSERT INTO chapter_points VALUES(1416,0,1,12,415);
+INSERT INTO chapter_points VALUES(1417,0,1,13,416);
+INSERT INTO chapter_points VALUES(1418,0,1,13,417);
+INSERT INTO chapter_points VALUES(1419,0,1,13,418);
+INSERT INTO chapter_points VALUES(1420,0,1,13,419);
+INSERT INTO chapter_points VALUES(1421,0,1,13,420);
+INSERT INTO chapter_points VALUES(1422,0,1,13,421);
+INSERT INTO chapter_points VALUES(1423,0,1,13,422);
+INSERT INTO chapter_points VALUES(1424,0,1,13,423);
+INSERT INTO chapter_points VALUES(1425,0,1,13,424);
+INSERT INTO chapter_points VALUES(1426,0,1,13,425);
+INSERT INTO chapter_points VALUES(1427,0,1,13,426);
+INSERT INTO chapter_points VALUES(1428,0,1,13,427);
+INSERT INTO chapter_points VALUES(1429,0,1,13,428);
+INSERT INTO chapter_points VALUES(1430,0,1,13,429);
+INSERT INTO chapter_points VALUES(1431,0,1,13,430);
+INSERT INTO chapter_points VALUES(1432,0,1,13,431);
+INSERT INTO chapter_points VALUES(1433,0,1,13,432);
+INSERT INTO chapter_points VALUES(1434,0,1,13,433);
+INSERT INTO chapter_points VALUES(1435,0,1,13,434);
+INSERT INTO chapter_points VALUES(1436,0,1,13,435);
+INSERT INTO chapter_points VALUES(1437,0,1,13,436);
+INSERT INTO chapter_points VALUES(1438,0,1,13,437);
+INSERT INTO chapter_points VALUES(1439,0,1,13,438);
+INSERT INTO chapter_points VALUES(1440,0,1,13,439);
+INSERT INTO chapter_points VALUES(1441,0,1,13,440);
+INSERT INTO chapter_points VALUES(1442,0,1,13,441);
+INSERT INTO chapter_points VALUES(1443,0,1,13,442);
+INSERT INTO chapter_points VALUES(1444,0,1,13,443);
+INSERT INTO chapter_points VALUES(1445,0,1,14,444);
+INSERT INTO chapter_points VALUES(1446,0,1,14,445);
+INSERT INTO chapter_points VALUES(1447,0,1,14,446);
+INSERT INTO chapter_points VALUES(1448,0,1,14,447);
+INSERT INTO chapter_points VALUES(1449,0,1,14,448);
+INSERT INTO chapter_points VALUES(1450,0,1,14,449);
+INSERT INTO chapter_points VALUES(1451,0,1,14,450);
+INSERT INTO chapter_points VALUES(1452,0,1,14,451);
+INSERT INTO chapter_points VALUES(1453,0,1,14,452);
+INSERT INTO chapter_points VALUES(1454,0,1,14,453);
+INSERT INTO chapter_points VALUES(1455,0,1,14,454);
+INSERT INTO chapter_points VALUES(1456,0,1,14,455);
+INSERT INTO chapter_points VALUES(1457,0,1,14,456);
+INSERT INTO chapter_points VALUES(1458,0,1,14,457);
+INSERT INTO chapter_points VALUES(1459,0,1,14,458);
+INSERT INTO chapter_points VALUES(1460,0,1,14,459);
+INSERT INTO chapter_points VALUES(1461,0,1,14,460);
+INSERT INTO chapter_points VALUES(1462,0,1,14,461);
+INSERT INTO chapter_points VALUES(1463,0,1,14,462);
+INSERT INTO chapter_points VALUES(1464,0,1,14,463);
+INSERT INTO chapter_points VALUES(1465,0,1,14,464);
+INSERT INTO chapter_points VALUES(1466,0,1,14,465);
+INSERT INTO chapter_points VALUES(1467,0,1,14,466);
+INSERT INTO chapter_points VALUES(1468,0,1,14,467);
+INSERT INTO chapter_points VALUES(1469,0,1,14,468);
+INSERT INTO chapter_points VALUES(1470,0,1,14,469);
+INSERT INTO chapter_points VALUES(1471,0,1,14,470);
+INSERT INTO chapter_points VALUES(1472,0,1,14,471);
+INSERT INTO chapter_points VALUES(1473,0,1,14,472);
+INSERT INTO chapter_points VALUES(1474,0,1,14,473);
+INSERT INTO chapter_points VALUES(1475,0,1,14,474);
+INSERT INTO chapter_points VALUES(1476,0,1,14,475);
+INSERT INTO chapter_points VALUES(1477,0,1,14,476);
+INSERT INTO chapter_points VALUES(1478,0,1,14,477);
+INSERT INTO chapter_points VALUES(1479,0,1,14,478);
+INSERT INTO chapter_points VALUES(1480,0,1,14,479);
+INSERT INTO chapter_points VALUES(1481,0,1,14,480);
+INSERT INTO chapter_points VALUES(1482,0,1,14,481);
+INSERT INTO chapter_points VALUES(1483,0,1,15,482);
+INSERT INTO chapter_points VALUES(1484,0,1,15,483);
+INSERT INTO chapter_points VALUES(1485,0,1,15,484);
+INSERT INTO chapter_points VALUES(1486,0,1,15,485);
+INSERT INTO chapter_points VALUES(1487,0,1,15,486);
+INSERT INTO chapter_points VALUES(1488,0,1,15,487);
+INSERT INTO chapter_points VALUES(1489,0,1,15,488);
+INSERT INTO chapter_points VALUES(1490,0,1,15,489);
+INSERT INTO chapter_points VALUES(1491,0,1,15,490);
+INSERT INTO chapter_points VALUES(1492,0,1,15,491);
+INSERT INTO chapter_points VALUES(1493,0,1,15,492);
+INSERT INTO chapter_points VALUES(1494,0,1,15,493);
+INSERT INTO chapter_points VALUES(1495,0,1,15,494);
+INSERT INTO chapter_points VALUES(1496,0,1,15,495);
+INSERT INTO chapter_points VALUES(1497,0,1,15,496);
+INSERT INTO chapter_points VALUES(1498,0,1,15,497);
+INSERT INTO chapter_points VALUES(1499,0,1,15,498);
+INSERT INTO chapter_points VALUES(1500,0,1,15,499);
+INSERT INTO chapter_points VALUES(1501,0,1,15,500);
+INSERT INTO chapter_points VALUES(1502,0,1,15,501);
+INSERT INTO chapter_points VALUES(1503,0,1,15,502);
+INSERT INTO chapter_points VALUES(1504,0,1,15,503);
+INSERT INTO chapter_points VALUES(1505,0,1,15,504);
+INSERT INTO chapter_points VALUES(1506,0,1,15,505);
+INSERT INTO chapter_points VALUES(1507,0,1,15,506);
+INSERT INTO chapter_points VALUES(1508,0,1,15,507);
+INSERT INTO chapter_points VALUES(1509,0,1,15,508);
+INSERT INTO chapter_points VALUES(1510,0,1,15,509);
+INSERT INTO chapter_points VALUES(1511,0,1,15,510);
+INSERT INTO chapter_points VALUES(1512,0,1,15,511);
+INSERT INTO chapter_points VALUES(1513,0,1,15,512);
+INSERT INTO chapter_points VALUES(1514,0,1,15,513);
+INSERT INTO chapter_points VALUES(1515,0,1,15,514);
+INSERT INTO chapter_points VALUES(1516,0,1,15,515);
+INSERT INTO chapter_points VALUES(1517,0,1,15,516);
+INSERT INTO chapter_points VALUES(1518,0,1,15,517);
+INSERT INTO chapter_points VALUES(1519,0,1,15,518);
+INSERT INTO chapter_points VALUES(1520,0,1,15,519);
+INSERT INTO chapter_points VALUES(1521,0,1,15,520);
+INSERT INTO chapter_points VALUES(1522,0,1,15,521);
+INSERT INTO chapter_points VALUES(1523,0,1,15,522);
+INSERT INTO chapter_points VALUES(1524,0,1,15,523);
+INSERT INTO chapter_points VALUES(1525,0,1,15,524);
+INSERT INTO chapter_points VALUES(1526,0,1,15,525);
+INSERT INTO chapter_points VALUES(1527,0,1,15,526);
+INSERT INTO chapter_points VALUES(1528,0,1,15,527);
+INSERT INTO chapter_points VALUES(1529,0,1,15,528);
+INSERT INTO chapter_points VALUES(1530,0,1,15,529);
+INSERT INTO chapter_points VALUES(1531,0,1,15,530);
+INSERT INTO chapter_points VALUES(1532,0,1,15,531);
+INSERT INTO chapter_points VALUES(1533,0,1,16,532);
+INSERT INTO chapter_points VALUES(1534,0,1,16,533);
+INSERT INTO chapter_points VALUES(1535,0,1,16,534);
+INSERT INTO chapter_points VALUES(1536,0,1,16,535);
+INSERT INTO chapter_points VALUES(1537,0,1,16,536);
+INSERT INTO chapter_points VALUES(1538,0,1,16,537);
+INSERT INTO chapter_points VALUES(1539,0,1,16,538);
+INSERT INTO chapter_points VALUES(1540,0,1,16,539);
+INSERT INTO chapter_points VALUES(1541,0,1,16,540);
+INSERT INTO chapter_points VALUES(1542,0,1,16,541);
+INSERT INTO chapter_points VALUES(1543,0,1,16,542);
+INSERT INTO chapter_points VALUES(1544,0,1,16,543);
+INSERT INTO chapter_points VALUES(1545,0,1,16,544);
+INSERT INTO chapter_points VALUES(1546,0,1,16,545);
+INSERT INTO chapter_points VALUES(1547,0,1,16,546);
+INSERT INTO chapter_points VALUES(1548,0,1,16,547);
+INSERT INTO chapter_points VALUES(1549,0,1,16,548);
+INSERT INTO chapter_points VALUES(1550,0,1,16,549);
+INSERT INTO chapter_points VALUES(1551,0,1,16,550);
+INSERT INTO chapter_points VALUES(1552,0,1,16,551);
+INSERT INTO chapter_points VALUES(1553,0,1,16,552);
+INSERT INTO chapter_points VALUES(1554,0,1,16,553);
+INSERT INTO chapter_points VALUES(1555,0,1,17,554);
+INSERT INTO chapter_points VALUES(1556,0,1,17,555);
+INSERT INTO chapter_points VALUES(1557,0,1,17,556);
+INSERT INTO chapter_points VALUES(1558,0,1,17,557);
+INSERT INTO chapter_points VALUES(1559,0,1,17,558);
+INSERT INTO chapter_points VALUES(1560,0,1,17,559);
+INSERT INTO chapter_points VALUES(1561,0,1,17,560);
+INSERT INTO chapter_points VALUES(1562,0,1,17,561);
+INSERT INTO chapter_points VALUES(1563,0,1,17,562);
+INSERT INTO chapter_points VALUES(1564,0,1,17,563);
+INSERT INTO chapter_points VALUES(1565,0,1,17,564);
+INSERT INTO chapter_points VALUES(1566,0,1,17,565);
+INSERT INTO chapter_points VALUES(1567,0,1,17,566);
+INSERT INTO chapter_points VALUES(1568,0,1,18,567);
+INSERT INTO chapter_points VALUES(1569,0,1,18,568);
+INSERT INTO chapter_points VALUES(1570,0,1,18,569);
+INSERT INTO chapter_points VALUES(1571,0,1,18,570);
+INSERT INTO chapter_points VALUES(1572,0,1,18,571);
+INSERT INTO chapter_points VALUES(1573,0,1,18,572);
+INSERT INTO chapter_points VALUES(1574,0,1,18,573);
+INSERT INTO chapter_points VALUES(1575,0,1,18,574);
+INSERT INTO chapter_points VALUES(1576,0,1,18,575);
+INSERT INTO chapter_points VALUES(1577,0,1,18,576);
+INSERT INTO chapter_points VALUES(1578,0,1,18,577);
+INSERT INTO chapter_points VALUES(1579,0,1,18,578);
+INSERT INTO chapter_points VALUES(1580,0,1,18,579);
+INSERT INTO chapter_points VALUES(1581,0,1,18,580);
+INSERT INTO chapter_points VALUES(1582,0,1,18,581);
+INSERT INTO chapter_points VALUES(1583,0,1,18,582);
+INSERT INTO chapter_points VALUES(1584,0,1,18,583);
+INSERT INTO chapter_points VALUES(1585,0,1,18,584);
+INSERT INTO chapter_points VALUES(1586,0,1,18,585);
+INSERT INTO chapter_points VALUES(1587,0,1,18,586);
+INSERT INTO chapter_points VALUES(1588,0,1,18,587);
+INSERT INTO chapter_points VALUES(1589,0,1,18,588);
+INSERT INTO chapter_points VALUES(1590,0,1,18,589);
+INSERT INTO chapter_points VALUES(1591,0,1,18,590);
+INSERT INTO chapter_points VALUES(1592,0,1,18,591);
+INSERT INTO chapter_points VALUES(1593,0,1,18,592);
+INSERT INTO chapter_points VALUES(1594,0,1,18,593);
+INSERT INTO chapter_points VALUES(1595,0,1,18,594);
+INSERT INTO chapter_points VALUES(1596,0,1,18,595);
+INSERT INTO chapter_points VALUES(1597,0,1,18,596);
+INSERT INTO chapter_points VALUES(1598,0,1,18,597);
+INSERT INTO chapter_points VALUES(1599,0,1,18,598);
+INSERT INTO chapter_points VALUES(1600,0,1,18,599);
+INSERT INTO chapter_points VALUES(1601,0,1,18,600);
+INSERT INTO chapter_points VALUES(1602,0,1,18,601);
+INSERT INTO chapter_points VALUES(1603,0,1,18,602);
+INSERT INTO chapter_points VALUES(1604,0,1,18,603);
+INSERT INTO chapter_points VALUES(1605,0,1,18,604);
+INSERT INTO chapter_points VALUES(1606,0,1,18,605);
+INSERT INTO chapter_points VALUES(1607,0,1,18,606);
+INSERT INTO chapter_points VALUES(1608,0,1,18,607);
+INSERT INTO chapter_points VALUES(1609,0,1,19,608);
+INSERT INTO chapter_points VALUES(1610,0,1,19,609);
+INSERT INTO chapter_points VALUES(1611,0,1,19,610);
+INSERT INTO chapter_points VALUES(1612,0,1,19,611);
+INSERT INTO chapter_points VALUES(1613,0,1,19,612);
+INSERT INTO chapter_points VALUES(1614,0,1,19,613);
+INSERT INTO chapter_points VALUES(1615,0,1,19,614);
+INSERT INTO chapter_points VALUES(1616,0,1,19,615);
+INSERT INTO chapter_points VALUES(1617,0,1,19,616);
+INSERT INTO chapter_points VALUES(1618,0,1,19,617);
+INSERT INTO chapter_points VALUES(1619,0,1,19,618);
+INSERT INTO chapter_points VALUES(1620,0,1,19,619);
+INSERT INTO chapter_points VALUES(1621,0,1,19,620);
+INSERT INTO chapter_points VALUES(1622,0,1,19,621);
+INSERT INTO chapter_points VALUES(1623,0,1,19,622);
+INSERT INTO chapter_points VALUES(1624,0,1,19,623);
+INSERT INTO chapter_points VALUES(1625,0,1,19,624);
+INSERT INTO chapter_points VALUES(1626,0,1,19,625);
+INSERT INTO chapter_points VALUES(1627,0,1,19,626);
+INSERT INTO chapter_points VALUES(1628,0,1,19,627);
+INSERT INTO chapter_points VALUES(1629,0,1,19,628);
+INSERT INTO chapter_points VALUES(1630,0,1,19,629);
+INSERT INTO chapter_points VALUES(1631,0,1,19,630);
+INSERT INTO chapter_points VALUES(1632,0,1,19,631);
+INSERT INTO chapter_points VALUES(1633,0,1,20,632);
+INSERT INTO chapter_points VALUES(1634,0,1,20,633);
+INSERT INTO chapter_points VALUES(1635,0,1,20,634);
+INSERT INTO chapter_points VALUES(1636,0,1,20,635);
+INSERT INTO chapter_points VALUES(1637,0,1,20,636);
+INSERT INTO chapter_points VALUES(1638,0,1,20,637);
+INSERT INTO chapter_points VALUES(1639,0,1,20,638);
+INSERT INTO chapter_points VALUES(1640,0,1,20,639);
+INSERT INTO chapter_points VALUES(1641,0,1,20,640);
+INSERT INTO chapter_points VALUES(1642,0,1,20,641);
+INSERT INTO chapter_points VALUES(1643,0,1,20,642);
+INSERT INTO chapter_points VALUES(1644,0,1,20,643);
+INSERT INTO chapter_points VALUES(1645,0,1,20,644);
+INSERT INTO chapter_points VALUES(1646,0,1,20,645);
+INSERT INTO chapter_points VALUES(1647,0,1,20,646);
+INSERT INTO chapter_points VALUES(1648,0,1,20,647);
+INSERT INTO chapter_points VALUES(1649,0,1,21,648);
+INSERT INTO chapter_points VALUES(1650,0,1,21,649);
+INSERT INTO chapter_points VALUES(1651,0,1,21,650);
+INSERT INTO chapter_points VALUES(1652,0,1,21,651);
+INSERT INTO chapter_points VALUES(1653,0,1,21,652);
+INSERT INTO chapter_points VALUES(1654,0,1,21,653);
+INSERT INTO chapter_points VALUES(1655,0,1,21,654);
+INSERT INTO chapter_points VALUES(1656,0,1,21,655);
+INSERT INTO chapter_points VALUES(1657,0,1,21,656);
+INSERT INTO chapter_points VALUES(1658,0,1,21,657);
+INSERT INTO chapter_points VALUES(1659,0,1,21,658);
+INSERT INTO chapter_points VALUES(1660,0,1,21,659);
+INSERT INTO chapter_points VALUES(1661,0,1,21,660);
+INSERT INTO chapter_points VALUES(1662,0,1,21,661);
+INSERT INTO chapter_points VALUES(1663,0,1,21,662);
+INSERT INTO chapter_points VALUES(1664,0,1,21,663);
+INSERT INTO chapter_points VALUES(1665,0,1,21,664);
+INSERT INTO chapter_points VALUES(1666,0,1,21,665);
+INSERT INTO chapter_points VALUES(1667,0,1,21,666);
+INSERT INTO chapter_points VALUES(1668,0,1,21,667);
+INSERT INTO chapter_points VALUES(1669,0,1,21,668);
+INSERT INTO chapter_points VALUES(1670,0,1,21,669);
+INSERT INTO chapter_points VALUES(1671,0,1,21,670);
+INSERT INTO chapter_points VALUES(1672,0,1,21,671);
+INSERT INTO chapter_points VALUES(1673,0,1,21,672);
+INSERT INTO chapter_points VALUES(1674,0,1,21,673);
+INSERT INTO chapter_points VALUES(1675,0,1,21,674);
+INSERT INTO chapter_points VALUES(1676,0,1,21,675);
+INSERT INTO chapter_points VALUES(1677,0,1,21,676);
+INSERT INTO chapter_points VALUES(1678,0,1,21,677);
+INSERT INTO chapter_points VALUES(1679,0,1,21,678);
+INSERT INTO chapter_points VALUES(1680,0,1,21,679);
+INSERT INTO chapter_points VALUES(1681,0,1,21,680);
+INSERT INTO chapter_points VALUES(1682,0,1,21,681);
+INSERT INTO chapter_points VALUES(1683,0,1,21,682);
+INSERT INTO chapter_points VALUES(1684,0,1,21,683);
+INSERT INTO chapter_points VALUES(1685,0,1,21,684);
+INSERT INTO chapter_points VALUES(1686,0,1,21,685);
+INSERT INTO chapter_points VALUES(1687,0,1,21,686);
+INSERT INTO chapter_points VALUES(1688,0,1,21,687);
+INSERT INTO chapter_points VALUES(1689,0,1,21,688);
+INSERT INTO chapter_points VALUES(1690,0,1,21,689);
+INSERT INTO chapter_points VALUES(1691,0,1,21,690);
+INSERT INTO chapter_points VALUES(1692,0,1,21,691);
+INSERT INTO chapter_points VALUES(1693,0,1,21,692);
+INSERT INTO chapter_points VALUES(1694,0,1,21,693);
+INSERT INTO chapter_points VALUES(1695,0,1,21,694);
+INSERT INTO chapter_points VALUES(1696,0,1,21,695);
+INSERT INTO chapter_points VALUES(1697,0,1,22,696);
+INSERT INTO chapter_points VALUES(1698,0,1,22,697);
+INSERT INTO chapter_points VALUES(1699,0,1,22,698);
+INSERT INTO chapter_points VALUES(1700,0,1,22,699);
+INSERT INTO chapter_points VALUES(1701,0,1,22,700);
+INSERT INTO chapter_points VALUES(1702,0,1,22,701);
+INSERT INTO chapter_points VALUES(1703,0,1,22,702);
+INSERT INTO chapter_points VALUES(1704,0,1,22,703);
+INSERT INTO chapter_points VALUES(1705,0,1,22,704);
+INSERT INTO chapter_points VALUES(1706,0,1,22,705);
+INSERT INTO chapter_points VALUES(1707,0,1,22,706);
+INSERT INTO chapter_points VALUES(1708,0,1,22,707);
+INSERT INTO chapter_points VALUES(1709,0,1,22,708);
+INSERT INTO chapter_points VALUES(1710,0,1,22,709);
+INSERT INTO chapter_points VALUES(1711,0,1,22,710);
+INSERT INTO chapter_points VALUES(1712,0,1,22,711);
+INSERT INTO chapter_points VALUES(1713,0,1,22,712);
+INSERT INTO chapter_points VALUES(1714,0,1,22,713);
+INSERT INTO chapter_points VALUES(1715,0,1,22,714);
+INSERT INTO chapter_points VALUES(1716,0,1,22,715);
+INSERT INTO chapter_points VALUES(1717,0,1,22,716);
+INSERT INTO chapter_points VALUES(1718,0,1,22,717);
+INSERT INTO chapter_points VALUES(1719,0,1,22,718);
+INSERT INTO chapter_points VALUES(1720,0,1,22,719);
+INSERT INTO chapter_points VALUES(1721,0,1,22,720);
+INSERT INTO chapter_points VALUES(1722,0,1,22,721);
+INSERT INTO chapter_points VALUES(1723,0,1,22,722);
+INSERT INTO chapter_points VALUES(1724,0,1,22,723);
+INSERT INTO chapter_points VALUES(1725,0,1,22,724);
+INSERT INTO chapter_points VALUES(1726,0,1,22,725);
+INSERT INTO chapter_points VALUES(1727,0,1,22,726);
+INSERT INTO chapter_points VALUES(1728,0,1,23,727);
+INSERT INTO chapter_points VALUES(1729,0,1,23,728);
+INSERT INTO chapter_points VALUES(1730,0,1,23,729);
+INSERT INTO chapter_points VALUES(1731,0,1,23,730);
+INSERT INTO chapter_points VALUES(1732,0,1,23,731);
+INSERT INTO chapter_points VALUES(1733,0,1,23,732);
+INSERT INTO chapter_points VALUES(1734,0,1,23,733);
+INSERT INTO chapter_points VALUES(1735,0,1,23,734);
+INSERT INTO chapter_points VALUES(1736,0,1,23,735);
+INSERT INTO chapter_points VALUES(1737,0,1,23,736);
+INSERT INTO chapter_points VALUES(1738,0,1,23,737);
+INSERT INTO chapter_points VALUES(1739,0,1,23,738);
+INSERT INTO chapter_points VALUES(1740,0,1,23,739);
+INSERT INTO chapter_points VALUES(1741,0,1,23,740);
+INSERT INTO chapter_points VALUES(1742,0,1,23,741);
+INSERT INTO chapter_points VALUES(1743,0,1,23,742);
+INSERT INTO chapter_points VALUES(1744,0,1,23,743);
+INSERT INTO chapter_points VALUES(1745,0,1,23,744);
+INSERT INTO chapter_points VALUES(1746,0,1,23,745);
+INSERT INTO chapter_points VALUES(1747,0,1,23,746);
+INSERT INTO chapter_points VALUES(1748,0,1,23,747);
+INSERT INTO chapter_points VALUES(1749,0,1,23,748);
+INSERT INTO chapter_points VALUES(1750,0,1,23,749);
+INSERT INTO chapter_points VALUES(1751,0,1,23,750);
+INSERT INTO chapter_points VALUES(1752,0,1,23,751);
+INSERT INTO chapter_points VALUES(1753,0,1,23,752);
+INSERT INTO chapter_points VALUES(1754,0,1,23,753);
+INSERT INTO chapter_points VALUES(1755,0,1,23,754);
+INSERT INTO chapter_points VALUES(1756,0,1,23,755);
+INSERT INTO chapter_points VALUES(1757,0,1,23,756);
+INSERT INTO chapter_points VALUES(1758,0,1,23,757);
+INSERT INTO chapter_points VALUES(1759,0,1,23,758);
+INSERT INTO chapter_points VALUES(1760,0,1,23,759);
+INSERT INTO chapter_points VALUES(1761,0,1,23,760);
+INSERT INTO chapter_points VALUES(1762,0,1,23,761);
+INSERT INTO chapter_points VALUES(1763,0,1,23,762);
+INSERT INTO chapter_points VALUES(1764,0,1,23,763);
+INSERT INTO chapter_points VALUES(1765,0,1,23,764);
+INSERT INTO chapter_points VALUES(1766,0,1,23,765);
+INSERT INTO chapter_points VALUES(1767,0,1,23,766);
+INSERT INTO chapter_points VALUES(1768,0,1,23,767);
+INSERT INTO chapter_points VALUES(1769,0,1,23,768);
+INSERT INTO chapter_points VALUES(1770,0,1,24,769);
+INSERT INTO chapter_points VALUES(1771,0,1,24,770);
+INSERT INTO chapter_points VALUES(1772,0,1,24,771);
+INSERT INTO chapter_points VALUES(1773,0,1,24,772);
+INSERT INTO chapter_points VALUES(1774,0,1,24,773);
+INSERT INTO chapter_points VALUES(1775,0,1,24,774);
+INSERT INTO chapter_points VALUES(1776,0,1,24,775);
+INSERT INTO chapter_points VALUES(1777,0,1,24,776);
+INSERT INTO chapter_points VALUES(1778,0,1,24,777);
+INSERT INTO chapter_points VALUES(1779,0,1,24,778);
+INSERT INTO chapter_points VALUES(1780,0,1,24,779);
+INSERT INTO chapter_points VALUES(1781,0,1,24,780);
+INSERT INTO chapter_points VALUES(1782,0,1,24,781);
+INSERT INTO chapter_points VALUES(1783,0,1,24,782);
+INSERT INTO chapter_points VALUES(1784,0,1,24,783);
+INSERT INTO chapter_points VALUES(1785,0,1,24,784);
+INSERT INTO chapter_points VALUES(1786,0,1,24,785);
+INSERT INTO chapter_points VALUES(1787,0,1,24,786);
+INSERT INTO chapter_points VALUES(1788,0,1,24,787);
+INSERT INTO chapter_points VALUES(1789,0,1,24,788);
+INSERT INTO chapter_points VALUES(1790,0,1,24,789);
+INSERT INTO chapter_points VALUES(1791,0,1,24,790);
+INSERT INTO chapter_points VALUES(1792,0,1,24,791);
+INSERT INTO chapter_points VALUES(1793,0,1,24,792);
+INSERT INTO chapter_points VALUES(1794,0,1,24,793);
+INSERT INTO chapter_points VALUES(1795,0,1,24,794);
+INSERT INTO chapter_points VALUES(1796,0,1,25,795);
+INSERT INTO chapter_points VALUES(1797,0,1,25,796);
+INSERT INTO chapter_points VALUES(1798,0,1,25,797);
+INSERT INTO chapter_points VALUES(1799,0,1,25,798);
+INSERT INTO chapter_points VALUES(1800,0,1,25,799);
+INSERT INTO chapter_points VALUES(1801,0,1,25,800);
+INSERT INTO chapter_points VALUES(1802,0,1,25,801);
+INSERT INTO chapter_points VALUES(1803,0,1,25,802);
+INSERT INTO chapter_points VALUES(1804,0,1,25,803);
+INSERT INTO chapter_points VALUES(1805,0,1,25,804);
+INSERT INTO chapter_points VALUES(1806,0,1,25,805);
+INSERT INTO chapter_points VALUES(1807,0,1,25,806);
+INSERT INTO chapter_points VALUES(1808,0,1,25,807);
+INSERT INTO chapter_points VALUES(1809,0,1,25,808);
+INSERT INTO chapter_points VALUES(1810,0,1,25,809);
+INSERT INTO chapter_points VALUES(1811,0,1,25,810);
+INSERT INTO chapter_points VALUES(1812,0,1,25,811);
+INSERT INTO chapter_points VALUES(1813,0,1,25,812);
+INSERT INTO chapter_points VALUES(1814,0,1,25,813);
+INSERT INTO chapter_points VALUES(1815,0,1,25,814);
+INSERT INTO chapter_points VALUES(1816,0,1,25,815);
+INSERT INTO chapter_points VALUES(1817,0,1,25,816);
+INSERT INTO chapter_points VALUES(1818,0,1,25,817);
+INSERT INTO chapter_points VALUES(1819,0,1,25,818);
+INSERT INTO chapter_points VALUES(1820,0,1,25,819);
+INSERT INTO chapter_points VALUES(1821,0,1,25,820);
+INSERT INTO chapter_points VALUES(1822,0,1,25,821);
+INSERT INTO chapter_points VALUES(1823,0,1,25,822);
+INSERT INTO chapter_points VALUES(1824,0,1,25,823);
+INSERT INTO chapter_points VALUES(1825,0,1,25,824);
+INSERT INTO chapter_points VALUES(1826,0,1,25,825);
+INSERT INTO chapter_points VALUES(1827,0,1,25,826);
+INSERT INTO chapter_points VALUES(1828,0,1,25,827);
+INSERT INTO chapter_points VALUES(1829,0,1,25,828);
+INSERT INTO chapter_points VALUES(1830,0,1,25,829);
+INSERT INTO chapter_points VALUES(1831,0,1,25,830);
+INSERT INTO chapter_points VALUES(1832,0,1,26,831);
+INSERT INTO chapter_points VALUES(1833,0,1,26,832);
+INSERT INTO chapter_points VALUES(1834,0,1,26,833);
+INSERT INTO chapter_points VALUES(1835,0,1,26,834);
+INSERT INTO chapter_points VALUES(1836,0,1,26,835);
+INSERT INTO chapter_points VALUES(1837,0,1,26,836);
+INSERT INTO chapter_points VALUES(1838,0,1,26,837);
+INSERT INTO chapter_points VALUES(1839,0,1,26,838);
+INSERT INTO chapter_points VALUES(1840,0,1,26,839);
+INSERT INTO chapter_points VALUES(1841,0,1,26,840);
+INSERT INTO chapter_points VALUES(1842,0,1,26,841);
+INSERT INTO chapter_points VALUES(1843,0,1,26,842);
+INSERT INTO chapter_points VALUES(1844,0,1,26,843);
+INSERT INTO chapter_points VALUES(1845,0,1,26,844);
+INSERT INTO chapter_points VALUES(1846,0,1,26,845);
+INSERT INTO chapter_points VALUES(1847,0,1,26,846);
+INSERT INTO chapter_points VALUES(1848,0,1,26,847);
+INSERT INTO chapter_points VALUES(1849,0,1,26,848);
+INSERT INTO chapter_points VALUES(1850,0,1,26,849);
+INSERT INTO chapter_points VALUES(1851,0,1,27,850);
+INSERT INTO chapter_points VALUES(1852,0,1,27,851);
+INSERT INTO chapter_points VALUES(1853,0,1,27,852);
+INSERT INTO chapter_points VALUES(1854,0,1,27,853);
+INSERT INTO chapter_points VALUES(1855,0,1,27,854);
+INSERT INTO chapter_points VALUES(1856,0,1,27,855);
+INSERT INTO chapter_points VALUES(1857,0,1,27,856);
+INSERT INTO chapter_points VALUES(1858,0,1,27,857);
+INSERT INTO chapter_points VALUES(1859,0,1,27,858);
+INSERT INTO chapter_points VALUES(1860,0,1,27,859);
+INSERT INTO chapter_points VALUES(1861,0,1,27,860);
+INSERT INTO chapter_points VALUES(1862,0,1,27,861);
+INSERT INTO chapter_points VALUES(1863,0,1,27,862);
+INSERT INTO chapter_points VALUES(1864,0,1,27,863);
+INSERT INTO chapter_points VALUES(1865,0,1,27,864);
+INSERT INTO chapter_points VALUES(1866,0,1,27,865);
+INSERT INTO chapter_points VALUES(1867,0,1,27,866);
+INSERT INTO chapter_points VALUES(1868,0,1,27,867);
+INSERT INTO chapter_points VALUES(1869,0,1,27,868);
+INSERT INTO chapter_points VALUES(1870,0,1,27,869);
+INSERT INTO chapter_points VALUES(1871,0,1,27,870);
+INSERT INTO chapter_points VALUES(1872,0,1,27,871);
+INSERT INTO chapter_points VALUES(1873,0,1,27,872);
+INSERT INTO chapter_points VALUES(1874,0,1,27,873);
+INSERT INTO chapter_points VALUES(1875,0,1,27,874);
+INSERT INTO chapter_points VALUES(1876,0,1,28,875);
+INSERT INTO chapter_points VALUES(1877,0,1,28,876);
+INSERT INTO chapter_points VALUES(1878,0,1,28,877);
+INSERT INTO chapter_points VALUES(1879,0,1,28,878);
+INSERT INTO chapter_points VALUES(1880,0,1,28,879);
+INSERT INTO chapter_points VALUES(1881,0,1,28,880);
+INSERT INTO chapter_points VALUES(1882,0,1,28,881);
+INSERT INTO chapter_points VALUES(1883,0,1,28,882);
+INSERT INTO chapter_points VALUES(1884,0,1,28,883);
+INSERT INTO chapter_points VALUES(1885,0,1,28,884);
+INSERT INTO chapter_points VALUES(1886,0,1,28,885);
+INSERT INTO chapter_points VALUES(1887,0,1,28,886);
+INSERT INTO chapter_points VALUES(1888,0,1,28,887);
+INSERT INTO chapter_points VALUES(1889,0,1,28,888);
+INSERT INTO chapter_points VALUES(1890,0,1,28,889);
+INSERT INTO chapter_points VALUES(1891,0,1,28,890);
+INSERT INTO chapter_points VALUES(1892,0,1,28,891);
+INSERT INTO chapter_points VALUES(1893,0,1,28,892);
+INSERT INTO chapter_points VALUES(1894,0,1,28,893);
+INSERT INTO chapter_points VALUES(1895,0,1,28,894);
+INSERT INTO chapter_points VALUES(1896,0,1,28,895);
+INSERT INTO chapter_points VALUES(1897,0,1,28,896);
+INSERT INTO chapter_points VALUES(1898,0,1,28,897);
+INSERT INTO chapter_points VALUES(1899,0,1,28,898);
+INSERT INTO chapter_points VALUES(1900,0,1,29,899);
+INSERT INTO chapter_points VALUES(1901,0,1,29,900);
+INSERT INTO chapter_points VALUES(1902,0,1,29,901);
+INSERT INTO chapter_points VALUES(1903,0,1,29,902);
+INSERT INTO chapter_points VALUES(1904,0,1,29,903);
+INSERT INTO chapter_points VALUES(1905,0,1,29,904);
+INSERT INTO chapter_points VALUES(1906,0,1,29,905);
+INSERT INTO chapter_points VALUES(1907,0,1,29,906);
+INSERT INTO chapter_points VALUES(1908,0,1,29,907);
+INSERT INTO chapter_points VALUES(1909,0,1,29,908);
+INSERT INTO chapter_points VALUES(1910,0,1,29,909);
+INSERT INTO chapter_points VALUES(1911,0,1,29,910);
+INSERT INTO chapter_points VALUES(1912,0,1,29,911);
+INSERT INTO chapter_points VALUES(1913,0,1,29,912);
+INSERT INTO chapter_points VALUES(1914,0,1,29,913);
+INSERT INTO chapter_points VALUES(1915,0,1,29,914);
+INSERT INTO chapter_points VALUES(1916,0,1,29,915);
+INSERT INTO chapter_points VALUES(1917,0,1,29,916);
+INSERT INTO chapter_points VALUES(1918,0,1,29,917);
+INSERT INTO chapter_points VALUES(1919,0,1,29,918);
+INSERT INTO chapter_points VALUES(1920,0,1,29,919);
+INSERT INTO chapter_points VALUES(1921,0,1,29,920);
+INSERT INTO chapter_points VALUES(1922,0,1,29,921);
+INSERT INTO chapter_points VALUES(1923,0,1,29,922);
+INSERT INTO chapter_points VALUES(1924,0,1,29,923);
+INSERT INTO chapter_points VALUES(1925,0,1,29,924);
+INSERT INTO chapter_points VALUES(1926,0,1,29,925);
+INSERT INTO chapter_points VALUES(1927,0,1,29,926);
+INSERT INTO chapter_points VALUES(1928,0,1,30,927);
+INSERT INTO chapter_points VALUES(1929,0,1,30,928);
+INSERT INTO chapter_points VALUES(1930,0,1,30,929);
+INSERT INTO chapter_points VALUES(1931,0,1,30,930);
+INSERT INTO chapter_points VALUES(1932,0,1,30,931);
+INSERT INTO chapter_points VALUES(1933,0,1,30,932);
+INSERT INTO chapter_points VALUES(1934,0,1,30,933);
+INSERT INTO chapter_points VALUES(1935,0,1,30,934);
+INSERT INTO chapter_points VALUES(1936,0,1,30,935);
+INSERT INTO chapter_points VALUES(1937,0,1,30,936);
+INSERT INTO chapter_points VALUES(1938,0,1,30,937);
+INSERT INTO chapter_points VALUES(1939,0,1,30,938);
+INSERT INTO chapter_points VALUES(1940,0,1,30,939);
+INSERT INTO chapter_points VALUES(1941,0,1,30,940);
+INSERT INTO chapter_points VALUES(1942,0,1,30,941);
+INSERT INTO chapter_points VALUES(1943,0,1,30,942);
+INSERT INTO chapter_points VALUES(1944,0,1,30,943);
+INSERT INTO chapter_points VALUES(1945,0,1,30,944);
+INSERT INTO chapter_points VALUES(1946,0,1,31,945);
+INSERT INTO chapter_points VALUES(1947,0,1,31,946);
+INSERT INTO chapter_points VALUES(1948,0,1,31,947);
+INSERT INTO chapter_points VALUES(1949,0,1,31,948);
+INSERT INTO chapter_points VALUES(1950,0,1,31,949);
+INSERT INTO chapter_points VALUES(1951,0,1,31,950);
+INSERT INTO chapter_points VALUES(1952,0,1,31,951);
+INSERT INTO chapter_points VALUES(1953,0,1,31,952);
+INSERT INTO chapter_points VALUES(1954,0,1,31,953);
+INSERT INTO chapter_points VALUES(1955,0,1,31,954);
+INSERT INTO chapter_points VALUES(1956,0,1,31,955);
+INSERT INTO chapter_points VALUES(1957,0,1,31,956);
+INSERT INTO chapter_points VALUES(1958,0,1,31,957);
+INSERT INTO chapter_points VALUES(1959,0,1,31,958);
+INSERT INTO chapter_points VALUES(1960,0,1,31,959);
+INSERT INTO chapter_points VALUES(1961,0,1,31,960);
+INSERT INTO chapter_points VALUES(1962,0,1,31,961);
+INSERT INTO chapter_points VALUES(1963,0,1,31,962);
+INSERT INTO chapter_points VALUES(1964,0,1,31,963);
+INSERT INTO chapter_points VALUES(1965,0,1,31,964);
+INSERT INTO chapter_points VALUES(1966,0,1,31,965);
+INSERT INTO chapter_points VALUES(1967,0,1,31,966);
+INSERT INTO chapter_points VALUES(1968,0,1,31,967);
+INSERT INTO chapter_points VALUES(1969,0,1,31,968);
+INSERT INTO chapter_points VALUES(1970,0,1,31,969);
+INSERT INTO chapter_points VALUES(1971,0,1,31,970);
+INSERT INTO chapter_points VALUES(1972,0,1,31,971);
+INSERT INTO chapter_points VALUES(1973,0,1,31,972);
+INSERT INTO chapter_points VALUES(1974,0,1,31,973);
+INSERT INTO chapter_points VALUES(1975,0,1,31,974);
+INSERT INTO chapter_points VALUES(1976,0,1,31,975);
+INSERT INTO chapter_points VALUES(1977,0,1,31,976);
+INSERT INTO chapter_points VALUES(1978,0,1,31,977);
+INSERT INTO chapter_points VALUES(1979,0,1,32,978);
+INSERT INTO chapter_points VALUES(1980,0,1,32,979);
+INSERT INTO chapter_points VALUES(1981,0,1,32,980);
+INSERT INTO chapter_points VALUES(1982,0,1,32,981);
+INSERT INTO chapter_points VALUES(1983,0,1,32,982);
+INSERT INTO chapter_points VALUES(1984,0,1,32,983);
+INSERT INTO chapter_points VALUES(1985,0,1,32,984);
+INSERT INTO chapter_points VALUES(1986,0,1,32,985);
+INSERT INTO chapter_points VALUES(1987,0,1,32,986);
+INSERT INTO chapter_points VALUES(1988,0,1,32,987);
+INSERT INTO chapter_points VALUES(1989,0,1,32,988);
+INSERT INTO chapter_points VALUES(1990,0,1,32,989);
+INSERT INTO chapter_points VALUES(1991,0,1,32,990);
+INSERT INTO chapter_points VALUES(1992,0,1,32,991);
+INSERT INTO chapter_points VALUES(1993,0,1,32,992);
+INSERT INTO chapter_points VALUES(1994,0,1,32,993);
+INSERT INTO chapter_points VALUES(1995,0,1,32,994);
+INSERT INTO chapter_points VALUES(1996,0,1,32,995);
+INSERT INTO chapter_points VALUES(1997,0,1,32,996);
+INSERT INTO chapter_points VALUES(1998,0,1,32,997);
+INSERT INTO chapter_points VALUES(1999,0,1,32,998);
+INSERT INTO chapter_points VALUES(2000,0,1,32,999);
+INSERT INTO chapter_points VALUES(2001,0,1,32,1000);
+INSERT INTO chapter_points VALUES(2002,0,2,0,0);
+INSERT INTO chapter_points VALUES(2003,0,2,1,1);
+INSERT INTO chapter_points VALUES(2004,0,2,1,2);
+INSERT INTO chapter_points VALUES(2005,0,2,1,3);
+INSERT INTO chapter_points VALUES(2006,0,2,1,4);
+INSERT INTO chapter_points VALUES(2007,0,2,1,5);
+INSERT INTO chapter_points VALUES(2008,0,2,1,6);
+INSERT INTO chapter_points VALUES(2009,0,2,1,7);
+INSERT INTO chapter_points VALUES(2010,0,2,1,8);
+INSERT INTO chapter_points VALUES(2011,0,2,1,9);
+INSERT INTO chapter_points VALUES(2012,0,2,1,10);
+INSERT INTO chapter_points VALUES(2013,0,2,1,11);
+INSERT INTO chapter_points VALUES(2014,0,2,1,12);
+INSERT INTO chapter_points VALUES(2015,0,2,1,13);
+INSERT INTO chapter_points VALUES(2016,0,2,1,14);
+INSERT INTO chapter_points VALUES(2017,0,2,1,15);
+INSERT INTO chapter_points VALUES(2018,0,2,1,16);
+INSERT INTO chapter_points VALUES(2019,0,2,1,17);
+INSERT INTO chapter_points VALUES(2020,0,2,1,18);
+INSERT INTO chapter_points VALUES(2021,0,2,1,19);
+INSERT INTO chapter_points VALUES(2022,0,2,1,20);
+INSERT INTO chapter_points VALUES(2023,0,2,1,21);
+INSERT INTO chapter_points VALUES(2024,0,2,1,22);
+INSERT INTO chapter_points VALUES(2025,0,2,1,23);
+INSERT INTO chapter_points VALUES(2026,0,2,1,24);
+INSERT INTO chapter_points VALUES(2027,0,2,1,25);
+INSERT INTO chapter_points VALUES(2028,0,2,1,26);
+INSERT INTO chapter_points VALUES(2029,0,2,1,27);
+INSERT INTO chapter_points VALUES(2030,0,2,1,28);
+INSERT INTO chapter_points VALUES(2031,0,2,1,29);
+INSERT INTO chapter_points VALUES(2032,0,2,1,30);
+INSERT INTO chapter_points VALUES(2033,0,2,1,31);
+INSERT INTO chapter_points VALUES(2034,0,2,1,32);
+INSERT INTO chapter_points VALUES(2035,0,2,1,33);
+INSERT INTO chapter_points VALUES(2036,0,2,1,34);
+INSERT INTO chapter_points VALUES(2037,0,2,1,35);
+INSERT INTO chapter_points VALUES(2038,0,2,1,36);
+INSERT INTO chapter_points VALUES(2039,0,2,1,37);
+INSERT INTO chapter_points VALUES(2040,0,2,1,38);
+INSERT INTO chapter_points VALUES(2041,0,2,1,39);
+INSERT INTO chapter_points VALUES(2042,0,2,1,40);
+INSERT INTO chapter_points VALUES(2043,0,2,1,41);
+INSERT INTO chapter_points VALUES(2044,0,2,1,42);
+INSERT INTO chapter_points VALUES(2045,0,2,1,43);
+INSERT INTO chapter_points VALUES(2046,0,2,1,44);
+INSERT INTO chapter_points VALUES(2047,0,2,1,45);
+INSERT INTO chapter_points VALUES(2048,0,2,1,46);
+INSERT INTO chapter_points VALUES(2049,0,2,1,47);
+INSERT INTO chapter_points VALUES(2050,0,2,1,48);
+INSERT INTO chapter_points VALUES(2051,0,2,1,49);
+INSERT INTO chapter_points VALUES(2052,0,2,1,50);
+INSERT INTO chapter_points VALUES(2053,0,2,1,51);
+INSERT INTO chapter_points VALUES(2054,0,2,1,52);
+INSERT INTO chapter_points VALUES(2055,0,2,1,53);
+INSERT INTO chapter_points VALUES(2056,0,2,1,54);
+INSERT INTO chapter_points VALUES(2057,0,2,1,55);
+INSERT INTO chapter_points VALUES(2058,0,2,1,56);
+INSERT INTO chapter_points VALUES(2059,0,2,1,57);
+INSERT INTO chapter_points VALUES(2060,0,2,2,58);
+INSERT INTO chapter_points VALUES(2061,0,2,2,59);
+INSERT INTO chapter_points VALUES(2062,0,2,2,60);
+INSERT INTO chapter_points VALUES(2063,0,2,2,61);
+INSERT INTO chapter_points VALUES(2064,0,2,2,62);
+INSERT INTO chapter_points VALUES(2065,0,2,2,63);
+INSERT INTO chapter_points VALUES(2066,0,2,2,64);
+INSERT INTO chapter_points VALUES(2067,0,2,2,65);
+INSERT INTO chapter_points VALUES(2068,0,2,2,66);
+INSERT INTO chapter_points VALUES(2069,0,2,2,67);
+INSERT INTO chapter_points VALUES(2070,0,2,2,68);
+INSERT INTO chapter_points VALUES(2071,0,2,2,69);
+INSERT INTO chapter_points VALUES(2072,0,2,2,70);
+INSERT INTO chapter_points VALUES(2073,0,2,2,71);
+INSERT INTO chapter_points VALUES(2074,0,2,2,72);
+INSERT INTO chapter_points VALUES(2075,0,2,2,73);
+INSERT INTO chapter_points VALUES(2076,0,2,2,74);
+INSERT INTO chapter_points VALUES(2077,0,2,2,75);
+INSERT INTO chapter_points VALUES(2078,0,2,2,76);
+INSERT INTO chapter_points VALUES(2079,0,2,2,77);
+INSERT INTO chapter_points VALUES(2080,0,2,2,78);
+INSERT INTO chapter_points VALUES(2081,0,2,2,79);
+INSERT INTO chapter_points VALUES(2082,0,2,2,80);
+INSERT INTO chapter_points VALUES(2083,0,2,2,81);
+INSERT INTO chapter_points VALUES(2084,0,2,2,82);
+INSERT INTO chapter_points VALUES(2085,0,2,2,83);
+INSERT INTO chapter_points VALUES(2086,0,2,2,84);
+INSERT INTO chapter_points VALUES(2087,0,2,2,85);
+INSERT INTO chapter_points VALUES(2088,0,2,2,86);
+INSERT INTO chapter_points VALUES(2089,0,2,2,87);
+INSERT INTO chapter_points VALUES(2090,0,2,2,88);
+INSERT INTO chapter_points VALUES(2091,0,2,2,89);
+INSERT INTO chapter_points VALUES(2092,0,2,2,90);
+INSERT INTO chapter_points VALUES(2093,0,2,2,91);
+INSERT INTO chapter_points VALUES(2094,0,2,2,92);
+INSERT INTO chapter_points VALUES(2095,0,2,2,93);
+INSERT INTO chapter_points VALUES(2096,0,2,2,94);
+INSERT INTO chapter_points VALUES(2097,0,2,2,95);
+INSERT INTO chapter_points VALUES(2098,0,2,2,96);
+INSERT INTO chapter_points VALUES(2099,0,2,2,97);
+INSERT INTO chapter_points VALUES(2100,0,2,2,98);
+INSERT INTO chapter_points VALUES(2101,0,2,2,99);
+INSERT INTO chapter_points VALUES(2102,0,2,2,100);
+INSERT INTO chapter_points VALUES(2103,0,2,2,101);
+INSERT INTO chapter_points VALUES(2104,0,2,2,102);
+INSERT INTO chapter_points VALUES(2105,0,2,2,103);
+INSERT INTO chapter_points VALUES(2106,0,2,2,104);
+INSERT INTO chapter_points VALUES(2107,0,2,2,105);
+INSERT INTO chapter_points VALUES(2108,0,2,2,106);
+INSERT INTO chapter_points VALUES(2109,0,2,2,107);
+INSERT INTO chapter_points VALUES(2110,0,2,2,108);
+INSERT INTO chapter_points VALUES(2111,0,2,2,109);
+INSERT INTO chapter_points VALUES(2112,0,2,2,110);
+INSERT INTO chapter_points VALUES(2113,0,2,2,111);
+INSERT INTO chapter_points VALUES(2114,0,2,2,112);
+INSERT INTO chapter_points VALUES(2115,0,2,2,113);
+INSERT INTO chapter_points VALUES(2116,0,2,2,114);
+INSERT INTO chapter_points VALUES(2117,0,2,2,115);
+INSERT INTO chapter_points VALUES(2118,0,2,2,116);
+INSERT INTO chapter_points VALUES(2119,0,2,2,117);
+INSERT INTO chapter_points VALUES(2120,0,2,2,118);
+INSERT INTO chapter_points VALUES(2121,0,2,2,119);
+INSERT INTO chapter_points VALUES(2122,0,2,2,120);
+INSERT INTO chapter_points VALUES(2123,0,2,2,121);
+INSERT INTO chapter_points VALUES(2124,0,2,2,122);
+INSERT INTO chapter_points VALUES(2125,0,2,2,123);
+INSERT INTO chapter_points VALUES(2126,0,2,2,124);
+INSERT INTO chapter_points VALUES(2127,0,2,2,125);
+INSERT INTO chapter_points VALUES(2128,0,2,2,126);
+INSERT INTO chapter_points VALUES(2129,0,2,2,127);
+INSERT INTO chapter_points VALUES(2130,0,2,2,128);
+INSERT INTO chapter_points VALUES(2131,0,2,2,129);
+INSERT INTO chapter_points VALUES(2132,0,2,2,130);
+INSERT INTO chapter_points VALUES(2133,0,2,2,131);
+INSERT INTO chapter_points VALUES(2134,0,2,2,132);
+INSERT INTO chapter_points VALUES(2135,0,2,2,133);
+INSERT INTO chapter_points VALUES(2136,0,2,2,134);
+INSERT INTO chapter_points VALUES(2137,0,2,2,135);
+INSERT INTO chapter_points VALUES(2138,0,2,2,136);
+INSERT INTO chapter_points VALUES(2139,0,2,2,137);
+INSERT INTO chapter_points VALUES(2140,0,2,2,138);
+INSERT INTO chapter_points VALUES(2141,0,2,2,139);
+INSERT INTO chapter_points VALUES(2142,0,2,2,140);
+INSERT INTO chapter_points VALUES(2143,0,2,2,141);
+INSERT INTO chapter_points VALUES(2144,0,2,2,142);
+INSERT INTO chapter_points VALUES(2145,0,2,2,143);
+INSERT INTO chapter_points VALUES(2146,0,2,2,144);
+INSERT INTO chapter_points VALUES(2147,0,2,2,145);
+INSERT INTO chapter_points VALUES(2148,0,2,2,146);
+INSERT INTO chapter_points VALUES(2149,0,2,2,147);
+INSERT INTO chapter_points VALUES(2150,0,2,2,148);
+INSERT INTO chapter_points VALUES(2151,0,2,2,149);
+INSERT INTO chapter_points VALUES(2152,0,2,2,150);
+INSERT INTO chapter_points VALUES(2153,0,2,2,151);
+INSERT INTO chapter_points VALUES(2154,0,2,2,152);
+INSERT INTO chapter_points VALUES(2155,0,2,2,153);
+INSERT INTO chapter_points VALUES(2156,0,2,2,154);
+INSERT INTO chapter_points VALUES(2157,0,2,2,155);
+INSERT INTO chapter_points VALUES(2158,0,2,2,156);
+INSERT INTO chapter_points VALUES(2159,0,2,2,157);
+INSERT INTO chapter_points VALUES(2160,0,2,3,158);
+INSERT INTO chapter_points VALUES(2161,0,2,3,159);
+INSERT INTO chapter_points VALUES(2162,0,2,3,160);
+INSERT INTO chapter_points VALUES(2163,0,2,3,161);
+INSERT INTO chapter_points VALUES(2164,0,2,3,162);
+INSERT INTO chapter_points VALUES(2165,0,2,3,163);
+INSERT INTO chapter_points VALUES(2166,0,2,3,164);
+INSERT INTO chapter_points VALUES(2167,0,2,3,165);
+INSERT INTO chapter_points VALUES(2168,0,2,3,166);
+INSERT INTO chapter_points VALUES(2169,0,2,3,167);
+INSERT INTO chapter_points VALUES(2170,0,2,3,168);
+INSERT INTO chapter_points VALUES(2171,0,2,3,169);
+INSERT INTO chapter_points VALUES(2172,0,2,3,170);
+INSERT INTO chapter_points VALUES(2173,0,2,3,171);
+INSERT INTO chapter_points VALUES(2174,0,2,3,172);
+INSERT INTO chapter_points VALUES(2175,0,2,3,173);
+INSERT INTO chapter_points VALUES(2176,0,2,3,174);
+INSERT INTO chapter_points VALUES(2177,0,2,3,175);
+INSERT INTO chapter_points VALUES(2178,0,2,3,176);
+INSERT INTO chapter_points VALUES(2179,0,2,3,177);
+INSERT INTO chapter_points VALUES(2180,0,2,3,178);
+INSERT INTO chapter_points VALUES(2181,0,2,3,179);
+INSERT INTO chapter_points VALUES(2182,0,2,3,180);
+INSERT INTO chapter_points VALUES(2183,0,2,3,181);
+INSERT INTO chapter_points VALUES(2184,0,2,3,182);
+INSERT INTO chapter_points VALUES(2185,0,2,3,183);
+INSERT INTO chapter_points VALUES(2186,0,2,3,184);
+INSERT INTO chapter_points VALUES(2187,0,2,3,185);
+INSERT INTO chapter_points VALUES(2188,0,2,3,186);
+INSERT INTO chapter_points VALUES(2189,0,2,3,187);
+INSERT INTO chapter_points VALUES(2190,0,2,3,188);
+INSERT INTO chapter_points VALUES(2191,0,2,3,189);
+INSERT INTO chapter_points VALUES(2192,0,2,3,190);
+INSERT INTO chapter_points VALUES(2193,0,2,3,191);
+INSERT INTO chapter_points VALUES(2194,0,2,3,192);
+INSERT INTO chapter_points VALUES(2195,0,2,3,193);
+INSERT INTO chapter_points VALUES(2196,0,2,3,194);
+INSERT INTO chapter_points VALUES(2197,0,2,3,195);
+INSERT INTO chapter_points VALUES(2198,0,2,3,196);
+INSERT INTO chapter_points VALUES(2199,0,2,3,197);
+INSERT INTO chapter_points VALUES(2200,0,2,3,198);
+INSERT INTO chapter_points VALUES(2201,0,2,3,199);
+INSERT INTO chapter_points VALUES(2202,0,2,3,200);
+INSERT INTO chapter_points VALUES(2203,0,2,3,201);
+INSERT INTO chapter_points VALUES(2204,0,2,3,202);
+INSERT INTO chapter_points VALUES(2205,0,2,3,203);
+INSERT INTO chapter_points VALUES(2206,0,2,3,204);
+INSERT INTO chapter_points VALUES(2207,0,2,3,205);
+INSERT INTO chapter_points VALUES(2208,0,2,3,206);
+INSERT INTO chapter_points VALUES(2209,0,2,3,207);
+INSERT INTO chapter_points VALUES(2210,0,2,3,208);
+INSERT INTO chapter_points VALUES(2211,0,2,3,209);
+INSERT INTO chapter_points VALUES(2212,0,2,3,210);
+INSERT INTO chapter_points VALUES(2213,0,2,3,211);
+INSERT INTO chapter_points VALUES(2214,0,2,3,212);
+INSERT INTO chapter_points VALUES(2215,0,2,3,213);
+INSERT INTO chapter_points VALUES(2216,0,2,3,214);
+INSERT INTO chapter_points VALUES(2217,0,2,3,215);
+INSERT INTO chapter_points VALUES(2218,0,2,4,216);
+INSERT INTO chapter_points VALUES(2219,0,2,4,217);
+INSERT INTO chapter_points VALUES(2220,0,2,4,218);
+INSERT INTO chapter_points VALUES(2221,0,2,4,219);
+INSERT INTO chapter_points VALUES(2222,0,2,4,220);
+INSERT INTO chapter_points VALUES(2223,0,2,4,221);
+INSERT INTO chapter_points VALUES(2224,0,2,4,222);
+INSERT INTO chapter_points VALUES(2225,0,2,4,223);
+INSERT INTO chapter_points VALUES(2226,0,2,4,224);
+INSERT INTO chapter_points VALUES(2227,0,2,4,225);
+INSERT INTO chapter_points VALUES(2228,0,2,4,226);
+INSERT INTO chapter_points VALUES(2229,0,2,4,227);
+INSERT INTO chapter_points VALUES(2230,0,2,4,228);
+INSERT INTO chapter_points VALUES(2231,0,2,4,229);
+INSERT INTO chapter_points VALUES(2232,0,2,4,230);
+INSERT INTO chapter_points VALUES(2233,0,2,4,231);
+INSERT INTO chapter_points VALUES(2234,0,2,4,232);
+INSERT INTO chapter_points VALUES(2235,0,2,4,233);
+INSERT INTO chapter_points VALUES(2236,0,2,4,234);
+INSERT INTO chapter_points VALUES(2237,0,2,4,235);
+INSERT INTO chapter_points VALUES(2238,0,2,4,236);
+INSERT INTO chapter_points VALUES(2239,0,2,4,237);
+INSERT INTO chapter_points VALUES(2240,0,2,4,238);
+INSERT INTO chapter_points VALUES(2241,0,2,4,239);
+INSERT INTO chapter_points VALUES(2242,0,2,4,240);
+INSERT INTO chapter_points VALUES(2243,0,2,4,241);
+INSERT INTO chapter_points VALUES(2244,0,2,4,242);
+INSERT INTO chapter_points VALUES(2245,0,2,4,243);
+INSERT INTO chapter_points VALUES(2246,0,2,4,244);
+INSERT INTO chapter_points VALUES(2247,0,2,4,245);
+INSERT INTO chapter_points VALUES(2248,0,2,4,246);
+INSERT INTO chapter_points VALUES(2249,0,2,4,247);
+INSERT INTO chapter_points VALUES(2250,0,2,4,248);
+INSERT INTO chapter_points VALUES(2251,0,2,4,249);
+INSERT INTO chapter_points VALUES(2252,0,2,4,250);
+INSERT INTO chapter_points VALUES(2253,0,2,4,251);
+INSERT INTO chapter_points VALUES(2254,0,2,4,252);
+INSERT INTO chapter_points VALUES(2255,0,2,4,253);
+INSERT INTO chapter_points VALUES(2256,0,2,4,254);
+INSERT INTO chapter_points VALUES(2257,0,2,4,255);
+INSERT INTO chapter_points VALUES(2258,0,2,4,256);
+INSERT INTO chapter_points VALUES(2259,0,2,4,257);
+INSERT INTO chapter_points VALUES(2260,0,2,4,258);
+INSERT INTO chapter_points VALUES(2261,0,2,4,259);
+INSERT INTO chapter_points VALUES(2262,0,2,4,260);
+INSERT INTO chapter_points VALUES(2263,0,2,4,261);
+INSERT INTO chapter_points VALUES(2264,0,2,4,262);
+INSERT INTO chapter_points VALUES(2265,0,2,4,263);
+INSERT INTO chapter_points VALUES(2266,0,2,4,264);
+INSERT INTO chapter_points VALUES(2267,0,2,4,265);
+INSERT INTO chapter_points VALUES(2268,0,2,4,266);
+INSERT INTO chapter_points VALUES(2269,0,2,4,267);
+INSERT INTO chapter_points VALUES(2270,0,2,4,268);
+INSERT INTO chapter_points VALUES(2271,0,2,4,269);
+INSERT INTO chapter_points VALUES(2272,0,2,4,270);
+INSERT INTO chapter_points VALUES(2273,0,2,4,271);
+INSERT INTO chapter_points VALUES(2274,0,2,4,272);
+INSERT INTO chapter_points VALUES(2275,0,2,4,273);
+INSERT INTO chapter_points VALUES(2276,0,2,4,274);
+INSERT INTO chapter_points VALUES(2277,0,2,4,275);
+INSERT INTO chapter_points VALUES(2278,0,2,4,276);
+INSERT INTO chapter_points VALUES(2279,0,2,4,277);
+INSERT INTO chapter_points VALUES(2280,0,2,4,278);
+INSERT INTO chapter_points VALUES(2281,0,2,4,279);
+INSERT INTO chapter_points VALUES(2282,0,2,4,280);
+INSERT INTO chapter_points VALUES(2283,0,2,4,281);
+INSERT INTO chapter_points VALUES(2284,0,2,4,282);
+INSERT INTO chapter_points VALUES(2285,0,2,4,283);
+INSERT INTO chapter_points VALUES(2286,0,2,4,284);
+INSERT INTO chapter_points VALUES(2287,0,2,4,285);
+INSERT INTO chapter_points VALUES(2288,0,2,5,286);
+INSERT INTO chapter_points VALUES(2289,0,2,5,287);
+INSERT INTO chapter_points VALUES(2290,0,2,5,288);
+INSERT INTO chapter_points VALUES(2291,0,2,5,289);
+INSERT INTO chapter_points VALUES(2292,0,2,5,290);
+INSERT INTO chapter_points VALUES(2293,0,2,5,291);
+INSERT INTO chapter_points VALUES(2294,0,2,5,292);
+INSERT INTO chapter_points VALUES(2295,0,2,5,293);
+INSERT INTO chapter_points VALUES(2296,0,2,5,294);
+INSERT INTO chapter_points VALUES(2297,0,2,5,295);
+INSERT INTO chapter_points VALUES(2298,0,2,5,296);
+INSERT INTO chapter_points VALUES(2299,0,2,5,297);
+INSERT INTO chapter_points VALUES(2300,0,2,5,298);
+INSERT INTO chapter_points VALUES(2301,0,2,5,299);
+INSERT INTO chapter_points VALUES(2302,0,2,5,300);
+INSERT INTO chapter_points VALUES(2303,0,2,5,301);
+INSERT INTO chapter_points VALUES(2304,0,2,5,302);
+INSERT INTO chapter_points VALUES(2305,0,2,5,303);
+INSERT INTO chapter_points VALUES(2306,0,2,5,304);
+INSERT INTO chapter_points VALUES(2307,0,2,5,305);
+INSERT INTO chapter_points VALUES(2308,0,2,5,306);
+INSERT INTO chapter_points VALUES(2309,0,2,5,307);
+INSERT INTO chapter_points VALUES(2310,0,2,5,308);
+INSERT INTO chapter_points VALUES(2311,0,2,5,309);
+INSERT INTO chapter_points VALUES(2312,0,2,5,310);
+INSERT INTO chapter_points VALUES(2313,0,2,5,311);
+INSERT INTO chapter_points VALUES(2314,0,2,5,312);
+INSERT INTO chapter_points VALUES(2315,0,2,5,313);
+INSERT INTO chapter_points VALUES(2316,0,2,5,314);
+INSERT INTO chapter_points VALUES(2317,0,2,5,315);
+INSERT INTO chapter_points VALUES(2318,0,2,5,316);
+INSERT INTO chapter_points VALUES(2319,0,2,5,317);
+INSERT INTO chapter_points VALUES(2320,0,2,5,318);
+INSERT INTO chapter_points VALUES(2321,0,2,5,319);
+INSERT INTO chapter_points VALUES(2322,0,2,5,320);
+INSERT INTO chapter_points VALUES(2323,0,2,5,321);
+INSERT INTO chapter_points VALUES(2324,0,2,5,322);
+INSERT INTO chapter_points VALUES(2325,0,2,5,323);
+INSERT INTO chapter_points VALUES(2326,0,2,5,324);
+INSERT INTO chapter_points VALUES(2327,0,2,5,325);
+INSERT INTO chapter_points VALUES(2328,0,2,5,326);
+INSERT INTO chapter_points VALUES(2329,0,2,5,327);
+INSERT INTO chapter_points VALUES(2330,0,2,5,328);
+INSERT INTO chapter_points VALUES(2331,0,2,5,329);
+INSERT INTO chapter_points VALUES(2332,0,2,5,330);
+INSERT INTO chapter_points VALUES(2333,0,2,5,331);
+INSERT INTO chapter_points VALUES(2334,0,2,5,332);
+INSERT INTO chapter_points VALUES(2335,0,2,5,333);
+INSERT INTO chapter_points VALUES(2336,0,2,5,334);
+INSERT INTO chapter_points VALUES(2337,0,2,5,335);
+INSERT INTO chapter_points VALUES(2338,0,2,5,336);
+INSERT INTO chapter_points VALUES(2339,0,2,5,337);
+INSERT INTO chapter_points VALUES(2340,0,2,5,338);
+INSERT INTO chapter_points VALUES(2341,0,2,5,339);
+INSERT INTO chapter_points VALUES(2342,0,2,5,340);
+INSERT INTO chapter_points VALUES(2343,0,2,5,341);
+INSERT INTO chapter_points VALUES(2344,0,2,5,342);
+INSERT INTO chapter_points VALUES(2345,0,2,5,343);
+INSERT INTO chapter_points VALUES(2346,0,2,5,344);
+INSERT INTO chapter_points VALUES(2347,0,2,5,345);
+INSERT INTO chapter_points VALUES(2348,0,2,5,346);
+INSERT INTO chapter_points VALUES(2349,0,2,5,347);
+INSERT INTO chapter_points VALUES(2350,0,2,5,348);
+INSERT INTO chapter_points VALUES(2351,0,2,5,349);
+INSERT INTO chapter_points VALUES(2352,0,2,5,350);
+INSERT INTO chapter_points VALUES(2353,0,2,5,351);
+INSERT INTO chapter_points VALUES(2354,0,2,5,352);
+INSERT INTO chapter_points VALUES(2355,0,2,5,353);
+INSERT INTO chapter_points VALUES(2356,0,2,5,354);
+INSERT INTO chapter_points VALUES(2357,0,2,5,355);
+INSERT INTO chapter_points VALUES(2358,0,2,5,356);
+INSERT INTO chapter_points VALUES(2359,0,2,5,357);
+INSERT INTO chapter_points VALUES(2360,0,2,5,358);
+INSERT INTO chapter_points VALUES(2361,0,2,5,359);
+INSERT INTO chapter_points VALUES(2362,0,2,5,360);
+INSERT INTO chapter_points VALUES(2363,0,2,5,361);
+INSERT INTO chapter_points VALUES(2364,0,2,5,362);
+INSERT INTO chapter_points VALUES(2365,0,2,5,363);
+INSERT INTO chapter_points VALUES(2366,0,2,5,364);
+INSERT INTO chapter_points VALUES(2367,0,2,5,365);
+INSERT INTO chapter_points VALUES(2368,0,2,5,366);
+INSERT INTO chapter_points VALUES(2369,0,2,5,367);
+INSERT INTO chapter_points VALUES(2370,0,2,5,368);
+INSERT INTO chapter_points VALUES(2371,0,2,5,369);
+INSERT INTO chapter_points VALUES(2372,0,2,5,370);
+INSERT INTO chapter_points VALUES(2373,0,2,5,371);
+INSERT INTO chapter_points VALUES(2374,0,2,5,372);
+INSERT INTO chapter_points VALUES(2375,0,2,5,373);
+INSERT INTO chapter_points VALUES(2376,0,2,5,374);
+INSERT INTO chapter_points VALUES(2377,0,2,5,375);
+INSERT INTO chapter_points VALUES(2378,0,2,5,376);
+INSERT INTO chapter_points VALUES(2379,0,2,6,377);
+INSERT INTO chapter_points VALUES(2380,0,2,6,378);
+INSERT INTO chapter_points VALUES(2381,0,2,6,379);
+INSERT INTO chapter_points VALUES(2382,0,2,6,380);
+INSERT INTO chapter_points VALUES(2383,0,2,6,381);
+INSERT INTO chapter_points VALUES(2384,0,2,6,382);
+INSERT INTO chapter_points VALUES(2385,0,2,6,383);
+INSERT INTO chapter_points VALUES(2386,0,2,6,384);
+INSERT INTO chapter_points VALUES(2387,0,2,6,385);
+INSERT INTO chapter_points VALUES(2388,0,2,6,386);
+INSERT INTO chapter_points VALUES(2389,0,2,6,387);
+INSERT INTO chapter_points VALUES(2390,0,2,6,388);
+INSERT INTO chapter_points VALUES(2391,0,2,6,389);
+INSERT INTO chapter_points VALUES(2392,0,2,6,390);
+INSERT INTO chapter_points VALUES(2393,0,2,6,391);
+INSERT INTO chapter_points VALUES(2394,0,2,6,392);
+INSERT INTO chapter_points VALUES(2395,0,2,6,393);
+INSERT INTO chapter_points VALUES(2396,0,2,6,394);
+INSERT INTO chapter_points VALUES(2397,0,2,6,395);
+INSERT INTO chapter_points VALUES(2398,0,2,6,396);
+INSERT INTO chapter_points VALUES(2399,0,2,6,397);
+INSERT INTO chapter_points VALUES(2400,0,2,6,398);
+INSERT INTO chapter_points VALUES(2401,0,2,6,399);
+INSERT INTO chapter_points VALUES(2402,0,2,6,400);
+INSERT INTO chapter_points VALUES(2403,0,2,6,401);
+INSERT INTO chapter_points VALUES(2404,0,2,6,402);
+INSERT INTO chapter_points VALUES(2405,0,2,6,403);
+INSERT INTO chapter_points VALUES(2406,0,2,6,404);
+INSERT INTO chapter_points VALUES(2407,0,2,6,405);
+INSERT INTO chapter_points VALUES(2408,0,2,6,406);
+INSERT INTO chapter_points VALUES(2409,0,2,6,407);
+INSERT INTO chapter_points VALUES(2410,0,2,6,408);
+INSERT INTO chapter_points VALUES(2411,0,2,6,409);
+INSERT INTO chapter_points VALUES(2412,0,2,6,410);
+INSERT INTO chapter_points VALUES(2413,0,2,6,411);
+INSERT INTO chapter_points VALUES(2414,0,2,6,412);
+INSERT INTO chapter_points VALUES(2415,0,2,6,413);
+INSERT INTO chapter_points VALUES(2416,0,2,6,414);
+INSERT INTO chapter_points VALUES(2417,0,2,6,415);
+INSERT INTO chapter_points VALUES(2418,0,2,6,416);
+INSERT INTO chapter_points VALUES(2419,0,2,6,417);
+INSERT INTO chapter_points VALUES(2420,0,2,6,418);
+INSERT INTO chapter_points VALUES(2421,0,2,6,419);
+INSERT INTO chapter_points VALUES(2422,0,2,6,420);
+INSERT INTO chapter_points VALUES(2423,0,2,6,421);
+INSERT INTO chapter_points VALUES(2424,0,2,6,422);
+INSERT INTO chapter_points VALUES(2425,0,2,6,423);
+INSERT INTO chapter_points VALUES(2426,0,2,6,424);
+INSERT INTO chapter_points VALUES(2427,0,2,6,425);
+INSERT INTO chapter_points VALUES(2428,0,2,6,426);
+INSERT INTO chapter_points VALUES(2429,0,2,6,427);
+INSERT INTO chapter_points VALUES(2430,0,2,6,428);
+INSERT INTO chapter_points VALUES(2431,0,2,6,429);
+INSERT INTO chapter_points VALUES(2432,0,2,6,430);
+INSERT INTO chapter_points VALUES(2433,0,2,6,431);
+INSERT INTO chapter_points VALUES(2434,0,2,6,432);
+INSERT INTO chapter_points VALUES(2435,0,2,6,433);
+INSERT INTO chapter_points VALUES(2436,0,2,6,434);
+INSERT INTO chapter_points VALUES(2437,0,2,6,435);
+INSERT INTO chapter_points VALUES(2438,0,2,6,436);
+INSERT INTO chapter_points VALUES(2439,0,2,6,437);
+INSERT INTO chapter_points VALUES(2440,0,2,6,438);
+INSERT INTO chapter_points VALUES(2441,0,2,6,439);
+INSERT INTO chapter_points VALUES(2442,0,2,6,440);
+INSERT INTO chapter_points VALUES(2443,0,2,6,441);
+INSERT INTO chapter_points VALUES(2444,0,2,6,442);
+INSERT INTO chapter_points VALUES(2445,0,2,6,443);
+INSERT INTO chapter_points VALUES(2446,0,2,6,444);
+INSERT INTO chapter_points VALUES(2447,0,2,6,445);
+INSERT INTO chapter_points VALUES(2448,0,2,6,446);
+INSERT INTO chapter_points VALUES(2449,0,2,6,447);
+INSERT INTO chapter_points VALUES(2450,0,2,6,448);
+INSERT INTO chapter_points VALUES(2451,0,2,6,449);
+INSERT INTO chapter_points VALUES(2452,0,2,6,450);
+INSERT INTO chapter_points VALUES(2453,0,2,6,451);
+INSERT INTO chapter_points VALUES(2454,0,2,6,452);
+INSERT INTO chapter_points VALUES(2455,0,2,6,453);
+INSERT INTO chapter_points VALUES(2456,0,2,6,454);
+INSERT INTO chapter_points VALUES(2457,0,2,6,455);
+INSERT INTO chapter_points VALUES(2458,0,2,6,456);
+INSERT INTO chapter_points VALUES(2459,0,2,6,457);
+INSERT INTO chapter_points VALUES(2460,0,2,6,458);
+INSERT INTO chapter_points VALUES(2461,0,2,6,459);
+INSERT INTO chapter_points VALUES(2462,0,2,6,460);
+INSERT INTO chapter_points VALUES(2463,0,2,6,461);
+INSERT INTO chapter_points VALUES(2464,0,2,6,462);
+INSERT INTO chapter_points VALUES(2465,0,2,6,463);
+INSERT INTO chapter_points VALUES(2466,0,2,6,464);
+INSERT INTO chapter_points VALUES(2467,0,2,6,465);
+INSERT INTO chapter_points VALUES(2468,0,2,6,466);
+INSERT INTO chapter_points VALUES(2469,0,2,6,467);
+INSERT INTO chapter_points VALUES(2470,0,2,6,468);
+INSERT INTO chapter_points VALUES(2471,0,2,6,469);
+INSERT INTO chapter_points VALUES(2472,0,2,6,470);
+INSERT INTO chapter_points VALUES(2473,0,2,6,471);
+INSERT INTO chapter_points VALUES(2474,0,2,6,472);
+INSERT INTO chapter_points VALUES(2475,0,2,6,473);
+INSERT INTO chapter_points VALUES(2476,0,2,6,474);
+INSERT INTO chapter_points VALUES(2477,0,2,7,475);
+INSERT INTO chapter_points VALUES(2478,0,2,7,476);
+INSERT INTO chapter_points VALUES(2479,0,2,7,477);
+INSERT INTO chapter_points VALUES(2480,0,2,7,478);
+INSERT INTO chapter_points VALUES(2481,0,2,7,479);
+INSERT INTO chapter_points VALUES(2482,0,2,7,480);
+INSERT INTO chapter_points VALUES(2483,0,2,7,481);
+INSERT INTO chapter_points VALUES(2484,0,2,7,482);
+INSERT INTO chapter_points VALUES(2485,0,2,7,483);
+INSERT INTO chapter_points VALUES(2486,0,2,7,484);
+INSERT INTO chapter_points VALUES(2487,0,2,7,485);
+INSERT INTO chapter_points VALUES(2488,0,2,7,486);
+INSERT INTO chapter_points VALUES(2489,0,2,7,487);
+INSERT INTO chapter_points VALUES(2490,0,2,7,488);
+INSERT INTO chapter_points VALUES(2491,0,2,7,489);
+INSERT INTO chapter_points VALUES(2492,0,2,7,490);
+INSERT INTO chapter_points VALUES(2493,0,2,7,491);
+INSERT INTO chapter_points VALUES(2494,0,2,7,492);
+INSERT INTO chapter_points VALUES(2495,0,2,7,493);
+INSERT INTO chapter_points VALUES(2496,0,2,7,494);
+INSERT INTO chapter_points VALUES(2497,0,2,7,495);
+INSERT INTO chapter_points VALUES(2498,0,2,7,496);
+INSERT INTO chapter_points VALUES(2499,0,2,7,497);
+INSERT INTO chapter_points VALUES(2500,0,2,7,498);
+INSERT INTO chapter_points VALUES(2501,0,2,7,499);
+INSERT INTO chapter_points VALUES(2502,0,2,7,500);
+INSERT INTO chapter_points VALUES(2503,0,2,7,501);
+INSERT INTO chapter_points VALUES(2504,0,2,7,502);
+INSERT INTO chapter_points VALUES(2505,0,2,7,503);
+INSERT INTO chapter_points VALUES(2506,0,2,7,504);
+INSERT INTO chapter_points VALUES(2507,0,2,7,505);
+INSERT INTO chapter_points VALUES(2508,0,2,7,506);
+INSERT INTO chapter_points VALUES(2509,0,2,7,507);
+INSERT INTO chapter_points VALUES(2510,0,2,7,508);
+INSERT INTO chapter_points VALUES(2511,0,2,7,509);
+INSERT INTO chapter_points VALUES(2512,0,2,7,510);
+INSERT INTO chapter_points VALUES(2513,0,2,7,511);
+INSERT INTO chapter_points VALUES(2514,0,2,7,512);
+INSERT INTO chapter_points VALUES(2515,0,2,7,513);
+INSERT INTO chapter_points VALUES(2516,0,2,7,514);
+INSERT INTO chapter_points VALUES(2517,0,2,7,515);
+INSERT INTO chapter_points VALUES(2518,0,2,7,516);
+INSERT INTO chapter_points VALUES(2519,0,2,7,517);
+INSERT INTO chapter_points VALUES(2520,0,2,7,518);
+INSERT INTO chapter_points VALUES(2521,0,2,7,519);
+INSERT INTO chapter_points VALUES(2522,0,2,7,520);
+INSERT INTO chapter_points VALUES(2523,0,2,7,521);
+INSERT INTO chapter_points VALUES(2524,0,2,7,522);
+INSERT INTO chapter_points VALUES(2525,0,2,7,523);
+INSERT INTO chapter_points VALUES(2526,0,2,7,524);
+INSERT INTO chapter_points VALUES(2527,0,2,7,525);
+INSERT INTO chapter_points VALUES(2528,0,2,7,526);
+INSERT INTO chapter_points VALUES(2529,0,2,7,527);
+INSERT INTO chapter_points VALUES(2530,0,2,7,528);
+INSERT INTO chapter_points VALUES(2531,0,2,7,529);
+INSERT INTO chapter_points VALUES(2532,0,2,7,530);
+INSERT INTO chapter_points VALUES(2533,0,2,7,531);
+INSERT INTO chapter_points VALUES(2534,0,2,7,532);
+INSERT INTO chapter_points VALUES(2535,0,2,7,533);
+INSERT INTO chapter_points VALUES(2536,0,2,7,534);
+INSERT INTO chapter_points VALUES(2537,0,2,7,535);
+INSERT INTO chapter_points VALUES(2538,0,2,7,536);
+INSERT INTO chapter_points VALUES(2539,0,2,7,537);
+INSERT INTO chapter_points VALUES(2540,0,2,7,538);
+INSERT INTO chapter_points VALUES(2541,0,2,7,539);
+INSERT INTO chapter_points VALUES(2542,0,2,7,540);
+INSERT INTO chapter_points VALUES(2543,0,2,7,541);
+INSERT INTO chapter_points VALUES(2544,0,2,7,542);
+INSERT INTO chapter_points VALUES(2545,0,2,7,543);
+INSERT INTO chapter_points VALUES(2546,0,2,7,544);
+INSERT INTO chapter_points VALUES(2547,0,2,7,545);
+INSERT INTO chapter_points VALUES(2548,0,2,7,546);
+INSERT INTO chapter_points VALUES(2549,0,2,7,547);
+INSERT INTO chapter_points VALUES(2550,0,2,7,548);
+INSERT INTO chapter_points VALUES(2551,0,2,7,549);
+INSERT INTO chapter_points VALUES(2552,0,2,7,550);
+INSERT INTO chapter_points VALUES(2553,0,2,7,551);
+INSERT INTO chapter_points VALUES(2554,0,2,7,552);
+INSERT INTO chapter_points VALUES(2555,0,2,7,553);
+INSERT INTO chapter_points VALUES(2556,0,2,7,554);
+INSERT INTO chapter_points VALUES(2557,0,2,7,555);
+INSERT INTO chapter_points VALUES(2558,0,2,7,556);
+INSERT INTO chapter_points VALUES(2559,0,2,7,557);
+INSERT INTO chapter_points VALUES(2560,0,2,7,558);
+INSERT INTO chapter_points VALUES(2561,0,2,7,559);
+INSERT INTO chapter_points VALUES(2562,0,2,7,560);
+INSERT INTO chapter_points VALUES(2563,0,2,7,561);
+INSERT INTO chapter_points VALUES(2564,0,2,7,562);
+INSERT INTO chapter_points VALUES(2565,0,2,7,563);
+INSERT INTO chapter_points VALUES(2566,0,2,7,564);
+INSERT INTO chapter_points VALUES(2567,0,2,7,565);
+INSERT INTO chapter_points VALUES(2568,0,2,7,566);
+INSERT INTO chapter_points VALUES(2569,0,2,7,567);
+INSERT INTO chapter_points VALUES(2570,0,2,7,568);
+INSERT INTO chapter_points VALUES(2571,0,2,7,569);
+INSERT INTO chapter_points VALUES(2572,0,2,7,570);
+INSERT INTO chapter_points VALUES(2573,0,2,7,571);
+INSERT INTO chapter_points VALUES(2574,0,2,7,572);
+INSERT INTO chapter_points VALUES(2575,0,2,7,573);
+INSERT INTO chapter_points VALUES(2576,0,2,7,574);
+INSERT INTO chapter_points VALUES(2577,0,2,7,575);
+INSERT INTO chapter_points VALUES(2578,0,2,7,576);
+INSERT INTO chapter_points VALUES(2579,0,2,7,577);
+INSERT INTO chapter_points VALUES(2580,0,2,7,578);
+INSERT INTO chapter_points VALUES(2581,0,2,7,579);
+INSERT INTO chapter_points VALUES(2582,0,2,7,580);
+INSERT INTO chapter_points VALUES(2583,0,2,7,581);
+INSERT INTO chapter_points VALUES(2584,0,2,7,582);
+INSERT INTO chapter_points VALUES(2585,0,2,7,583);
+INSERT INTO chapter_points VALUES(2586,0,2,7,584);
+INSERT INTO chapter_points VALUES(2587,0,2,7,585);
+INSERT INTO chapter_points VALUES(2588,0,2,7,586);
+INSERT INTO chapter_points VALUES(2589,0,2,7,587);
+INSERT INTO chapter_points VALUES(2590,0,2,8,588);
+INSERT INTO chapter_points VALUES(2591,0,2,8,589);
+INSERT INTO chapter_points VALUES(2592,0,2,8,590);
+INSERT INTO chapter_points VALUES(2593,0,2,8,591);
+INSERT INTO chapter_points VALUES(2594,0,2,8,592);
+INSERT INTO chapter_points VALUES(2595,0,2,8,593);
+INSERT INTO chapter_points VALUES(2596,0,2,8,594);
+INSERT INTO chapter_points VALUES(2597,0,2,8,595);
+INSERT INTO chapter_points VALUES(2598,0,2,8,596);
+INSERT INTO chapter_points VALUES(2599,0,2,8,597);
+INSERT INTO chapter_points VALUES(2600,0,2,8,598);
+INSERT INTO chapter_points VALUES(2601,0,2,8,599);
+INSERT INTO chapter_points VALUES(2602,0,2,8,600);
+INSERT INTO chapter_points VALUES(2603,0,2,8,601);
+INSERT INTO chapter_points VALUES(2604,0,2,8,602);
+INSERT INTO chapter_points VALUES(2605,0,2,8,603);
+INSERT INTO chapter_points VALUES(2606,0,2,8,604);
+INSERT INTO chapter_points VALUES(2607,0,2,8,605);
+INSERT INTO chapter_points VALUES(2608,0,2,8,606);
+INSERT INTO chapter_points VALUES(2609,0,2,8,607);
+INSERT INTO chapter_points VALUES(2610,0,2,8,608);
+INSERT INTO chapter_points VALUES(2611,0,2,8,609);
+INSERT INTO chapter_points VALUES(2612,0,2,8,610);
+INSERT INTO chapter_points VALUES(2613,0,2,8,611);
+INSERT INTO chapter_points VALUES(2614,0,2,8,612);
+INSERT INTO chapter_points VALUES(2615,0,2,8,613);
+INSERT INTO chapter_points VALUES(2616,0,2,8,614);
+INSERT INTO chapter_points VALUES(2617,0,2,8,615);
+INSERT INTO chapter_points VALUES(2618,0,2,8,616);
+INSERT INTO chapter_points VALUES(2619,0,2,8,617);
+INSERT INTO chapter_points VALUES(2620,0,2,8,618);
+INSERT INTO chapter_points VALUES(2621,0,2,8,619);
+INSERT INTO chapter_points VALUES(2622,0,2,8,620);
+INSERT INTO chapter_points VALUES(2623,0,2,8,621);
+INSERT INTO chapter_points VALUES(2624,0,2,8,622);
+INSERT INTO chapter_points VALUES(2625,0,2,8,623);
+INSERT INTO chapter_points VALUES(2626,0,2,8,624);
+INSERT INTO chapter_points VALUES(2627,0,2,8,625);
+INSERT INTO chapter_points VALUES(2628,0,2,8,626);
+INSERT INTO chapter_points VALUES(2629,0,2,8,627);
+INSERT INTO chapter_points VALUES(2630,0,2,8,628);
+INSERT INTO chapter_points VALUES(2631,0,2,8,629);
+INSERT INTO chapter_points VALUES(2632,0,2,8,630);
+INSERT INTO chapter_points VALUES(2633,0,2,8,631);
+INSERT INTO chapter_points VALUES(2634,0,2,8,632);
+INSERT INTO chapter_points VALUES(2635,0,2,8,633);
+INSERT INTO chapter_points VALUES(2636,0,2,8,634);
+INSERT INTO chapter_points VALUES(2637,0,2,8,635);
+INSERT INTO chapter_points VALUES(2638,0,2,8,636);
+INSERT INTO chapter_points VALUES(2639,0,2,8,637);
+INSERT INTO chapter_points VALUES(2640,0,2,8,638);
+INSERT INTO chapter_points VALUES(2641,0,2,8,639);
+INSERT INTO chapter_points VALUES(2642,0,2,8,640);
+INSERT INTO chapter_points VALUES(2643,0,2,8,641);
+INSERT INTO chapter_points VALUES(2644,0,2,8,642);
+INSERT INTO chapter_points VALUES(2645,0,2,8,643);
+INSERT INTO chapter_points VALUES(2646,0,2,8,644);
+INSERT INTO chapter_points VALUES(2647,0,2,8,645);
+INSERT INTO chapter_points VALUES(2648,0,2,8,646);
+INSERT INTO chapter_points VALUES(2649,0,2,8,647);
+INSERT INTO chapter_points VALUES(2650,0,2,8,648);
+INSERT INTO chapter_points VALUES(2651,0,2,8,649);
+INSERT INTO chapter_points VALUES(2652,0,2,8,650);
+INSERT INTO chapter_points VALUES(2653,0,2,8,651);
+INSERT INTO chapter_points VALUES(2654,0,2,8,652);
+INSERT INTO chapter_points VALUES(2655,0,2,8,653);
+INSERT INTO chapter_points VALUES(2656,0,2,8,654);
+INSERT INTO chapter_points VALUES(2657,0,2,8,655);
+INSERT INTO chapter_points VALUES(2658,0,2,8,656);
+INSERT INTO chapter_points VALUES(2659,0,2,8,657);
+INSERT INTO chapter_points VALUES(2660,0,2,8,658);
+INSERT INTO chapter_points VALUES(2661,0,2,8,659);
+INSERT INTO chapter_points VALUES(2662,0,2,8,660);
+INSERT INTO chapter_points VALUES(2663,0,2,8,661);
+INSERT INTO chapter_points VALUES(2664,0,2,8,662);
+INSERT INTO chapter_points VALUES(2665,0,2,8,663);
+INSERT INTO chapter_points VALUES(2666,0,2,8,664);
+INSERT INTO chapter_points VALUES(2667,0,2,8,665);
+INSERT INTO chapter_points VALUES(2668,0,2,8,666);
+INSERT INTO chapter_points VALUES(2669,0,2,8,667);
+INSERT INTO chapter_points VALUES(2670,0,2,8,668);
+INSERT INTO chapter_points VALUES(2671,0,2,8,669);
+INSERT INTO chapter_points VALUES(2672,0,2,8,670);
+INSERT INTO chapter_points VALUES(2673,0,2,8,671);
+INSERT INTO chapter_points VALUES(2674,0,2,8,672);
+INSERT INTO chapter_points VALUES(2675,0,2,8,673);
+INSERT INTO chapter_points VALUES(2676,0,2,8,674);
+INSERT INTO chapter_points VALUES(2677,0,2,8,675);
+INSERT INTO chapter_points VALUES(2678,0,2,8,676);
+INSERT INTO chapter_points VALUES(2679,0,2,8,677);
+INSERT INTO chapter_points VALUES(2680,0,2,9,678);
+INSERT INTO chapter_points VALUES(2681,0,2,9,679);
+INSERT INTO chapter_points VALUES(2682,0,2,9,680);
+INSERT INTO chapter_points VALUES(2683,0,2,9,681);
+INSERT INTO chapter_points VALUES(2684,0,2,9,682);
+INSERT INTO chapter_points VALUES(2685,0,2,9,683);
+INSERT INTO chapter_points VALUES(2686,0,2,9,684);
+INSERT INTO chapter_points VALUES(2687,0,2,9,685);
+INSERT INTO chapter_points VALUES(2688,0,2,9,686);
+INSERT INTO chapter_points VALUES(2689,0,2,9,687);
+INSERT INTO chapter_points VALUES(2690,0,2,9,688);
+INSERT INTO chapter_points VALUES(2691,0,2,9,689);
+INSERT INTO chapter_points VALUES(2692,0,2,9,690);
+INSERT INTO chapter_points VALUES(2693,0,2,9,691);
+INSERT INTO chapter_points VALUES(2694,0,2,9,692);
+INSERT INTO chapter_points VALUES(2695,0,2,9,693);
+INSERT INTO chapter_points VALUES(2696,0,2,9,694);
+INSERT INTO chapter_points VALUES(2697,0,2,9,695);
+INSERT INTO chapter_points VALUES(2698,0,2,9,696);
+INSERT INTO chapter_points VALUES(2699,0,2,9,697);
+INSERT INTO chapter_points VALUES(2700,0,2,9,698);
+INSERT INTO chapter_points VALUES(2701,0,2,9,699);
+INSERT INTO chapter_points VALUES(2702,0,2,9,700);
+INSERT INTO chapter_points VALUES(2703,0,2,9,701);
+INSERT INTO chapter_points VALUES(2704,0,2,9,702);
+INSERT INTO chapter_points VALUES(2705,0,2,9,703);
+INSERT INTO chapter_points VALUES(2706,0,2,9,704);
+INSERT INTO chapter_points VALUES(2707,0,2,9,705);
+INSERT INTO chapter_points VALUES(2708,0,2,9,706);
+INSERT INTO chapter_points VALUES(2709,0,2,9,707);
+INSERT INTO chapter_points VALUES(2710,0,2,9,708);
+INSERT INTO chapter_points VALUES(2711,0,2,9,709);
+INSERT INTO chapter_points VALUES(2712,0,2,9,710);
+INSERT INTO chapter_points VALUES(2713,0,2,9,711);
+INSERT INTO chapter_points VALUES(2714,0,2,9,712);
+INSERT INTO chapter_points VALUES(2715,0,2,9,713);
+INSERT INTO chapter_points VALUES(2716,0,2,9,714);
+INSERT INTO chapter_points VALUES(2717,0,2,9,715);
+INSERT INTO chapter_points VALUES(2718,0,2,9,716);
+INSERT INTO chapter_points VALUES(2719,0,2,9,717);
+INSERT INTO chapter_points VALUES(2720,0,2,9,718);
+INSERT INTO chapter_points VALUES(2721,0,2,9,719);
+INSERT INTO chapter_points VALUES(2722,0,2,9,720);
+INSERT INTO chapter_points VALUES(2723,0,2,9,721);
+INSERT INTO chapter_points VALUES(2724,0,2,9,722);
+INSERT INTO chapter_points VALUES(2725,0,2,9,723);
+INSERT INTO chapter_points VALUES(2726,0,2,9,724);
+INSERT INTO chapter_points VALUES(2727,0,2,9,725);
+INSERT INTO chapter_points VALUES(2728,0,2,9,726);
+INSERT INTO chapter_points VALUES(2729,0,2,9,727);
+INSERT INTO chapter_points VALUES(2730,0,2,9,728);
+INSERT INTO chapter_points VALUES(2731,0,2,9,729);
+INSERT INTO chapter_points VALUES(2732,0,2,9,730);
+INSERT INTO chapter_points VALUES(2733,0,2,9,731);
+INSERT INTO chapter_points VALUES(2734,0,2,9,732);
+INSERT INTO chapter_points VALUES(2735,0,2,9,733);
+INSERT INTO chapter_points VALUES(2736,0,2,9,734);
+INSERT INTO chapter_points VALUES(2737,0,2,9,735);
+INSERT INTO chapter_points VALUES(2738,0,2,9,736);
+INSERT INTO chapter_points VALUES(2739,0,2,9,737);
+INSERT INTO chapter_points VALUES(2740,0,2,9,738);
+INSERT INTO chapter_points VALUES(2741,0,2,9,739);
+INSERT INTO chapter_points VALUES(2742,0,2,9,740);
+INSERT INTO chapter_points VALUES(2743,0,2,9,741);
+INSERT INTO chapter_points VALUES(2744,0,2,9,742);
+INSERT INTO chapter_points VALUES(2745,0,2,9,743);
+INSERT INTO chapter_points VALUES(2746,0,2,9,744);
+INSERT INTO chapter_points VALUES(2747,0,2,9,745);
+INSERT INTO chapter_points VALUES(2748,0,2,9,746);
+INSERT INTO chapter_points VALUES(2749,0,2,9,747);
+INSERT INTO chapter_points VALUES(2750,0,2,9,748);
+INSERT INTO chapter_points VALUES(2751,0,2,9,749);
+INSERT INTO chapter_points VALUES(2752,0,2,10,750);
+INSERT INTO chapter_points VALUES(2753,0,2,10,751);
+INSERT INTO chapter_points VALUES(2754,0,2,10,752);
+INSERT INTO chapter_points VALUES(2755,0,2,10,753);
+INSERT INTO chapter_points VALUES(2756,0,2,10,754);
+INSERT INTO chapter_points VALUES(2757,0,2,10,755);
+INSERT INTO chapter_points VALUES(2758,0,2,10,756);
+INSERT INTO chapter_points VALUES(2759,0,2,10,757);
+INSERT INTO chapter_points VALUES(2760,0,2,10,758);
+INSERT INTO chapter_points VALUES(2761,0,2,10,759);
+INSERT INTO chapter_points VALUES(2762,0,2,10,760);
+INSERT INTO chapter_points VALUES(2763,0,2,10,761);
+INSERT INTO chapter_points VALUES(2764,0,2,10,762);
+INSERT INTO chapter_points VALUES(2765,0,2,10,763);
+INSERT INTO chapter_points VALUES(2766,0,2,10,764);
+INSERT INTO chapter_points VALUES(2767,0,2,10,765);
+INSERT INTO chapter_points VALUES(2768,0,2,10,766);
+INSERT INTO chapter_points VALUES(2769,0,2,10,767);
+INSERT INTO chapter_points VALUES(2770,0,2,10,768);
+INSERT INTO chapter_points VALUES(2771,0,2,10,769);
+INSERT INTO chapter_points VALUES(2772,0,2,10,770);
+INSERT INTO chapter_points VALUES(2773,0,2,10,771);
+INSERT INTO chapter_points VALUES(2774,0,2,10,772);
+INSERT INTO chapter_points VALUES(2775,0,2,10,773);
+INSERT INTO chapter_points VALUES(2776,0,2,10,774);
+INSERT INTO chapter_points VALUES(2777,0,2,10,775);
+INSERT INTO chapter_points VALUES(2778,0,2,10,776);
+INSERT INTO chapter_points VALUES(2779,0,2,10,777);
+INSERT INTO chapter_points VALUES(2780,0,2,10,778);
+INSERT INTO chapter_points VALUES(2781,0,2,10,779);
+INSERT INTO chapter_points VALUES(2782,0,2,10,780);
+INSERT INTO chapter_points VALUES(2783,0,2,10,781);
+INSERT INTO chapter_points VALUES(2784,0,2,10,782);
+INSERT INTO chapter_points VALUES(2785,0,2,10,783);
+INSERT INTO chapter_points VALUES(2786,0,2,10,784);
+INSERT INTO chapter_points VALUES(2787,0,2,10,785);
+INSERT INTO chapter_points VALUES(2788,0,2,10,786);
+INSERT INTO chapter_points VALUES(2789,0,2,10,787);
+INSERT INTO chapter_points VALUES(2790,0,2,10,788);
+INSERT INTO chapter_points VALUES(2791,0,2,10,789);
+INSERT INTO chapter_points VALUES(2792,0,2,10,790);
+INSERT INTO chapter_points VALUES(2793,0,2,10,791);
+INSERT INTO chapter_points VALUES(2794,0,2,10,792);
+INSERT INTO chapter_points VALUES(2795,0,2,10,793);
+INSERT INTO chapter_points VALUES(2796,0,2,10,794);
+INSERT INTO chapter_points VALUES(2797,0,2,10,795);
+INSERT INTO chapter_points VALUES(2798,0,2,10,796);
+INSERT INTO chapter_points VALUES(2799,0,2,10,797);
+INSERT INTO chapter_points VALUES(2800,0,2,10,798);
+INSERT INTO chapter_points VALUES(2801,0,2,10,799);
+INSERT INTO chapter_points VALUES(2802,0,2,10,800);
+INSERT INTO chapter_points VALUES(2803,0,2,10,801);
+INSERT INTO chapter_points VALUES(2804,0,2,10,802);
+INSERT INTO chapter_points VALUES(2805,0,2,10,803);
+INSERT INTO chapter_points VALUES(2806,0,2,10,804);
+INSERT INTO chapter_points VALUES(2807,0,2,10,805);
+INSERT INTO chapter_points VALUES(2808,0,2,10,806);
+INSERT INTO chapter_points VALUES(2809,0,2,10,807);
+INSERT INTO chapter_points VALUES(2810,0,2,10,808);
+INSERT INTO chapter_points VALUES(2811,0,2,10,809);
+INSERT INTO chapter_points VALUES(2812,0,2,10,810);
+INSERT INTO chapter_points VALUES(2813,0,2,10,811);
+INSERT INTO chapter_points VALUES(2814,0,2,10,812);
+INSERT INTO chapter_points VALUES(2815,0,2,10,813);
+INSERT INTO chapter_points VALUES(2816,0,2,10,814);
+INSERT INTO chapter_points VALUES(2817,0,2,10,815);
+INSERT INTO chapter_points VALUES(2818,0,2,10,816);
+INSERT INTO chapter_points VALUES(2819,0,2,10,817);
+INSERT INTO chapter_points VALUES(2820,0,2,10,818);
+INSERT INTO chapter_points VALUES(2821,0,2,10,819);
+INSERT INTO chapter_points VALUES(2822,0,2,10,820);
+INSERT INTO chapter_points VALUES(2823,0,2,10,821);
+INSERT INTO chapter_points VALUES(2824,0,2,10,822);
+INSERT INTO chapter_points VALUES(2825,0,2,10,823);
+INSERT INTO chapter_points VALUES(2826,0,2,10,824);
+INSERT INTO chapter_points VALUES(2827,0,2,10,825);
+INSERT INTO chapter_points VALUES(2828,0,2,10,826);
+INSERT INTO chapter_points VALUES(2829,0,2,10,827);
+INSERT INTO chapter_points VALUES(2830,0,2,10,828);
+INSERT INTO chapter_points VALUES(2831,0,2,10,829);
+INSERT INTO chapter_points VALUES(2832,0,2,10,830);
+INSERT INTO chapter_points VALUES(2833,0,2,10,831);
+INSERT INTO chapter_points VALUES(2834,0,2,10,832);
+INSERT INTO chapter_points VALUES(2835,0,2,10,833);
+INSERT INTO chapter_points VALUES(2836,0,2,10,834);
+INSERT INTO chapter_points VALUES(2837,0,2,10,835);
+INSERT INTO chapter_points VALUES(2838,0,2,10,836);
+INSERT INTO chapter_points VALUES(2839,0,2,10,837);
+INSERT INTO chapter_points VALUES(2840,0,2,10,838);
+INSERT INTO chapter_points VALUES(2841,0,2,10,839);
+INSERT INTO chapter_points VALUES(2842,0,2,10,840);
+INSERT INTO chapter_points VALUES(2843,0,2,10,841);
+INSERT INTO chapter_points VALUES(2844,0,2,10,842);
+INSERT INTO chapter_points VALUES(2845,0,2,10,843);
+INSERT INTO chapter_points VALUES(2846,0,2,10,844);
+INSERT INTO chapter_points VALUES(2847,0,2,10,845);
+INSERT INTO chapter_points VALUES(2848,0,2,10,846);
+INSERT INTO chapter_points VALUES(2849,0,2,10,847);
+INSERT INTO chapter_points VALUES(2850,0,2,10,848);
+INSERT INTO chapter_points VALUES(2851,0,2,10,849);
+INSERT INTO chapter_points VALUES(2852,0,2,10,850);
+INSERT INTO chapter_points VALUES(2853,0,2,10,851);
+INSERT INTO chapter_points VALUES(2854,0,2,10,852);
+INSERT INTO chapter_points VALUES(2855,0,2,10,853);
+INSERT INTO chapter_points VALUES(2856,0,2,10,854);
+INSERT INTO chapter_points VALUES(2857,0,2,11,855);
+INSERT INTO chapter_points VALUES(2858,0,2,11,856);
+INSERT INTO chapter_points VALUES(2859,0,2,11,857);
+INSERT INTO chapter_points VALUES(2860,0,2,11,858);
+INSERT INTO chapter_points VALUES(2861,0,2,11,859);
+INSERT INTO chapter_points VALUES(2862,0,2,11,860);
+INSERT INTO chapter_points VALUES(2863,0,2,11,861);
+INSERT INTO chapter_points VALUES(2864,0,2,11,862);
+INSERT INTO chapter_points VALUES(2865,0,2,11,863);
+INSERT INTO chapter_points VALUES(2866,0,2,11,864);
+INSERT INTO chapter_points VALUES(2867,0,2,11,865);
+INSERT INTO chapter_points VALUES(2868,0,2,11,866);
+INSERT INTO chapter_points VALUES(2869,0,2,11,867);
+INSERT INTO chapter_points VALUES(2870,0,2,11,868);
+INSERT INTO chapter_points VALUES(2871,0,2,11,869);
+INSERT INTO chapter_points VALUES(2872,0,2,11,870);
+INSERT INTO chapter_points VALUES(2873,0,2,11,871);
+INSERT INTO chapter_points VALUES(2874,0,2,11,872);
+INSERT INTO chapter_points VALUES(2875,0,2,11,873);
+INSERT INTO chapter_points VALUES(2876,0,2,11,874);
+INSERT INTO chapter_points VALUES(2877,0,2,11,875);
+INSERT INTO chapter_points VALUES(2878,0,2,11,876);
+INSERT INTO chapter_points VALUES(2879,0,2,11,877);
+INSERT INTO chapter_points VALUES(2880,0,2,11,878);
+INSERT INTO chapter_points VALUES(2881,0,2,11,879);
+INSERT INTO chapter_points VALUES(2882,0,2,11,880);
+INSERT INTO chapter_points VALUES(2883,0,2,11,881);
+INSERT INTO chapter_points VALUES(2884,0,2,11,882);
+INSERT INTO chapter_points VALUES(2885,0,2,11,883);
+INSERT INTO chapter_points VALUES(2886,0,2,11,884);
+INSERT INTO chapter_points VALUES(2887,0,2,11,885);
+INSERT INTO chapter_points VALUES(2888,0,2,11,886);
+INSERT INTO chapter_points VALUES(2889,0,2,11,887);
+INSERT INTO chapter_points VALUES(2890,0,2,11,888);
+INSERT INTO chapter_points VALUES(2891,0,2,11,889);
+INSERT INTO chapter_points VALUES(2892,0,2,11,890);
+INSERT INTO chapter_points VALUES(2893,0,2,11,891);
+INSERT INTO chapter_points VALUES(2894,0,2,11,892);
+INSERT INTO chapter_points VALUES(2895,0,2,11,893);
+INSERT INTO chapter_points VALUES(2896,0,2,11,894);
+INSERT INTO chapter_points VALUES(2897,0,2,11,895);
+INSERT INTO chapter_points VALUES(2898,0,2,11,896);
+INSERT INTO chapter_points VALUES(2899,0,2,11,897);
+INSERT INTO chapter_points VALUES(2900,0,2,11,898);
+INSERT INTO chapter_points VALUES(2901,0,2,11,899);
+INSERT INTO chapter_points VALUES(2902,0,2,11,900);
+INSERT INTO chapter_points VALUES(2903,0,2,11,901);
+INSERT INTO chapter_points VALUES(2904,0,2,11,902);
+INSERT INTO chapter_points VALUES(2905,0,2,11,903);
+INSERT INTO chapter_points VALUES(2906,0,2,11,904);
+INSERT INTO chapter_points VALUES(2907,0,2,11,905);
+INSERT INTO chapter_points VALUES(2908,0,2,11,906);
+INSERT INTO chapter_points VALUES(2909,0,2,11,907);
+INSERT INTO chapter_points VALUES(2910,0,2,11,908);
+INSERT INTO chapter_points VALUES(2911,0,2,11,909);
+INSERT INTO chapter_points VALUES(2912,0,2,11,910);
+INSERT INTO chapter_points VALUES(2913,0,2,11,911);
+INSERT INTO chapter_points VALUES(2914,0,2,12,912);
+INSERT INTO chapter_points VALUES(2915,0,2,12,913);
+INSERT INTO chapter_points VALUES(2916,0,2,12,914);
+INSERT INTO chapter_points VALUES(2917,0,2,12,915);
+INSERT INTO chapter_points VALUES(2918,0,2,12,916);
+INSERT INTO chapter_points VALUES(2919,0,2,12,917);
+INSERT INTO chapter_points VALUES(2920,0,2,12,918);
+INSERT INTO chapter_points VALUES(2921,0,2,12,919);
+INSERT INTO chapter_points VALUES(2922,0,2,12,920);
+INSERT INTO chapter_points VALUES(2923,0,2,12,921);
+INSERT INTO chapter_points VALUES(2924,0,2,12,922);
+INSERT INTO chapter_points VALUES(2925,0,2,12,923);
+INSERT INTO chapter_points VALUES(2926,0,2,12,924);
+INSERT INTO chapter_points VALUES(2927,0,2,12,925);
+INSERT INTO chapter_points VALUES(2928,0,2,12,926);
+INSERT INTO chapter_points VALUES(2929,0,2,12,927);
+INSERT INTO chapter_points VALUES(2930,0,2,12,928);
+INSERT INTO chapter_points VALUES(2931,0,2,12,929);
+INSERT INTO chapter_points VALUES(2932,0,2,12,930);
+INSERT INTO chapter_points VALUES(2933,0,2,12,931);
+INSERT INTO chapter_points VALUES(2934,0,2,12,932);
+INSERT INTO chapter_points VALUES(2935,0,2,12,933);
+INSERT INTO chapter_points VALUES(2936,0,2,12,934);
+INSERT INTO chapter_points VALUES(2937,0,2,12,935);
+INSERT INTO chapter_points VALUES(2938,0,2,12,936);
+INSERT INTO chapter_points VALUES(2939,0,2,12,937);
+INSERT INTO chapter_points VALUES(2940,0,2,12,938);
+INSERT INTO chapter_points VALUES(2941,0,2,12,939);
+INSERT INTO chapter_points VALUES(2942,0,2,12,940);
+INSERT INTO chapter_points VALUES(2943,0,2,12,941);
+INSERT INTO chapter_points VALUES(2944,0,2,12,942);
+INSERT INTO chapter_points VALUES(2945,0,2,12,943);
+INSERT INTO chapter_points VALUES(2946,0,2,12,944);
+INSERT INTO chapter_points VALUES(2947,0,2,12,945);
+INSERT INTO chapter_points VALUES(2948,0,2,12,946);
+INSERT INTO chapter_points VALUES(2949,0,2,12,947);
+INSERT INTO chapter_points VALUES(2950,0,2,12,948);
+INSERT INTO chapter_points VALUES(2951,0,2,12,949);
+INSERT INTO chapter_points VALUES(2952,0,2,12,950);
+INSERT INTO chapter_points VALUES(2953,0,2,12,951);
+INSERT INTO chapter_points VALUES(2954,0,2,12,952);
+INSERT INTO chapter_points VALUES(2955,0,2,12,953);
+INSERT INTO chapter_points VALUES(2956,0,2,12,954);
+INSERT INTO chapter_points VALUES(2957,0,2,12,955);
+INSERT INTO chapter_points VALUES(2958,0,2,12,956);
+INSERT INTO chapter_points VALUES(2959,0,2,12,957);
+INSERT INTO chapter_points VALUES(2960,0,2,12,958);
+INSERT INTO chapter_points VALUES(2961,0,2,12,959);
+INSERT INTO chapter_points VALUES(2962,0,2,12,960);
+INSERT INTO chapter_points VALUES(2963,0,2,12,961);
+INSERT INTO chapter_points VALUES(2964,0,2,12,962);
+INSERT INTO chapter_points VALUES(2965,0,2,12,963);
+INSERT INTO chapter_points VALUES(2966,0,2,12,964);
+INSERT INTO chapter_points VALUES(2967,0,2,12,965);
+INSERT INTO chapter_points VALUES(2968,0,2,12,966);
+INSERT INTO chapter_points VALUES(2969,0,2,12,967);
+INSERT INTO chapter_points VALUES(2970,0,2,12,968);
+INSERT INTO chapter_points VALUES(2971,0,2,12,969);
+INSERT INTO chapter_points VALUES(2972,0,2,12,970);
+INSERT INTO chapter_points VALUES(2973,0,2,12,971);
+INSERT INTO chapter_points VALUES(2974,0,2,12,972);
+INSERT INTO chapter_points VALUES(2975,0,2,12,973);
+INSERT INTO chapter_points VALUES(2976,0,2,12,974);
+INSERT INTO chapter_points VALUES(2977,0,2,12,975);
+INSERT INTO chapter_points VALUES(2978,0,2,12,976);
+INSERT INTO chapter_points VALUES(2979,0,2,12,977);
+INSERT INTO chapter_points VALUES(2980,0,2,12,978);
+INSERT INTO chapter_points VALUES(2981,0,2,12,979);
+INSERT INTO chapter_points VALUES(2982,0,2,12,980);
+INSERT INTO chapter_points VALUES(2983,0,2,12,981);
+INSERT INTO chapter_points VALUES(2984,0,2,12,982);
+INSERT INTO chapter_points VALUES(2985,0,2,12,983);
+INSERT INTO chapter_points VALUES(2986,0,2,12,984);
+INSERT INTO chapter_points VALUES(2987,0,2,12,985);
+INSERT INTO chapter_points VALUES(2988,0,2,12,986);
+INSERT INTO chapter_points VALUES(2989,0,2,13,987);
+INSERT INTO chapter_points VALUES(2990,0,2,13,988);
+INSERT INTO chapter_points VALUES(2991,0,2,13,989);
+INSERT INTO chapter_points VALUES(2992,0,2,13,990);
+INSERT INTO chapter_points VALUES(2993,0,2,13,991);
+INSERT INTO chapter_points VALUES(2994,0,2,13,992);
+INSERT INTO chapter_points VALUES(2995,0,2,13,993);
+INSERT INTO chapter_points VALUES(2996,0,2,13,994);
+INSERT INTO chapter_points VALUES(2997,0,2,13,995);
+INSERT INTO chapter_points VALUES(2998,0,2,13,996);
+INSERT INTO chapter_points VALUES(2999,0,2,13,997);
+INSERT INTO chapter_points VALUES(3000,0,2,13,998);
+INSERT INTO chapter_points VALUES(3001,0,2,13,999);
+INSERT INTO chapter_points VALUES(3002,0,2,13,1000);
+INSERT INTO chapter_points VALUES(3003,0,2,13,1001);
+INSERT INTO chapter_points VALUES(3004,0,2,13,1002);
+INSERT INTO chapter_points VALUES(3005,0,2,13,1003);
+INSERT INTO chapter_points VALUES(3006,0,2,13,1004);
+INSERT INTO chapter_points VALUES(3007,0,2,13,1005);
+INSERT INTO chapter_points VALUES(3008,0,2,13,1006);
+INSERT INTO chapter_points VALUES(3009,0,2,13,1007);
+INSERT INTO chapter_points VALUES(3010,0,2,13,1008);
+INSERT INTO chapter_points VALUES(3011,0,2,13,1009);
+INSERT INTO chapter_points VALUES(3012,0,2,13,1010);
+INSERT INTO chapter_points VALUES(3013,0,2,13,1011);
+INSERT INTO chapter_points VALUES(3014,0,2,13,1012);
+INSERT INTO chapter_points VALUES(3015,0,2,13,1013);
+INSERT INTO chapter_points VALUES(3016,0,2,13,1014);
+INSERT INTO chapter_points VALUES(3017,0,2,13,1015);
+INSERT INTO chapter_points VALUES(3018,0,2,13,1016);
+INSERT INTO chapter_points VALUES(3019,0,2,13,1017);
+INSERT INTO chapter_points VALUES(3020,0,2,13,1018);
+INSERT INTO chapter_points VALUES(3021,0,2,13,1019);
+INSERT INTO chapter_points VALUES(3022,0,2,13,1020);
+INSERT INTO chapter_points VALUES(3023,0,2,13,1021);
+INSERT INTO chapter_points VALUES(3024,0,2,13,1022);
+INSERT INTO chapter_points VALUES(3025,0,2,13,1023);
+INSERT INTO chapter_points VALUES(3026,0,2,13,1024);
+INSERT INTO chapter_points VALUES(3027,0,2,13,1025);
+INSERT INTO chapter_points VALUES(3028,0,2,13,1026);
+INSERT INTO chapter_points VALUES(3029,0,2,13,1027);
+INSERT INTO chapter_points VALUES(3030,0,2,13,1028);
+INSERT INTO chapter_points VALUES(3031,0,2,13,1029);
+INSERT INTO chapter_points VALUES(3032,0,2,13,1030);
+INSERT INTO chapter_points VALUES(3033,0,2,13,1031);
+INSERT INTO chapter_points VALUES(3034,0,2,13,1032);
+INSERT INTO chapter_points VALUES(3035,0,2,13,1033);
+INSERT INTO chapter_points VALUES(3036,0,2,13,1034);
+INSERT INTO chapter_points VALUES(3037,0,2,13,1035);
+INSERT INTO chapter_points VALUES(3038,0,2,13,1036);
+INSERT INTO chapter_points VALUES(3039,0,2,13,1037);
+INSERT INTO chapter_points VALUES(3040,0,2,13,1038);
+INSERT INTO chapter_points VALUES(3041,0,2,13,1039);
+INSERT INTO chapter_points VALUES(3042,0,2,13,1040);
+INSERT INTO chapter_points VALUES(3043,0,2,13,1041);
+INSERT INTO chapter_points VALUES(3044,0,2,13,1042);
+INSERT INTO chapter_points VALUES(3045,0,2,13,1043);
+INSERT INTO chapter_points VALUES(3046,0,2,13,1044);
+INSERT INTO chapter_points VALUES(3047,0,2,13,1045);
+INSERT INTO chapter_points VALUES(3048,0,2,13,1046);
+INSERT INTO chapter_points VALUES(3049,0,2,13,1047);
+INSERT INTO chapter_points VALUES(3050,0,2,13,1048);
+INSERT INTO chapter_points VALUES(3051,0,2,13,1049);
+INSERT INTO chapter_points VALUES(3052,0,2,13,1050);
+INSERT INTO chapter_points VALUES(3053,0,2,13,1051);
+INSERT INTO chapter_points VALUES(3054,0,2,13,1052);
+INSERT INTO chapter_points VALUES(3055,0,2,13,1053);
+INSERT INTO chapter_points VALUES(3056,0,2,13,1054);
+INSERT INTO chapter_points VALUES(3057,0,2,13,1055);
+CREATE TABLE chapters (_id INTEGER PRIMARY KEY NOT NULL, _language INT NOT NULL, _book INT NOT NULL, _chapter INT NOT NULL, _title TEXT NOT NULL);
+INSERT INTO chapters VALUES(1,0,0,0,'Prólogo do autor');
+INSERT INTO chapters VALUES(2,0,0,1,'Caráter');
+INSERT INTO chapters VALUES(3,0,0,2,'Direção espiritual');
+INSERT INTO chapters VALUES(4,0,0,3,'Oração');
+INSERT INTO chapters VALUES(5,0,0,4,'Santa Pureza');
+INSERT INTO chapters VALUES(6,0,0,5,'Coração');
+INSERT INTO chapters VALUES(7,0,0,6,'Mortificação');
+INSERT INTO chapters VALUES(8,0,0,7,'Penitência');
+INSERT INTO chapters VALUES(9,0,0,8,'Exame de consciência');
+INSERT INTO chapters VALUES(10,0,0,9,'Propósitos');
+INSERT INTO chapters VALUES(11,0,0,10,'Escrúpulos');
+INSERT INTO chapters VALUES(12,0,0,11,'Presença de Deus');
+INSERT INTO chapters VALUES(13,0,0,12,'Vida sobrenatural');
+INSERT INTO chapters VALUES(14,0,0,13,'Mais sobre vida interior');
+INSERT INTO chapters VALUES(15,0,0,14,'Tibieza');
+INSERT INTO chapters VALUES(16,0,0,15,'Estudo');
+INSERT INTO chapters VALUES(17,0,0,16,'Formação');
+INSERT INTO chapters VALUES(18,0,0,17,'O plano da tua santidade');
+INSERT INTO chapters VALUES(19,0,0,18,'Amor de Deus');
+INSERT INTO chapters VALUES(20,0,0,19,'Caridade');
+INSERT INTO chapters VALUES(21,0,0,20,'Os meios');
+INSERT INTO chapters VALUES(22,0,0,21,'A Virgem Maria');
+INSERT INTO chapters VALUES(23,0,0,22,'A Igreja');
+INSERT INTO chapters VALUES(24,0,0,23,'Santa Missa');
+INSERT INTO chapters VALUES(25,0,0,24,'Comunhão dos Santos');
+INSERT INTO chapters VALUES(26,0,0,25,'Devoções');
+INSERT INTO chapters VALUES(27,0,0,26,'Fé');
+INSERT INTO chapters VALUES(28,0,0,27,'Humildade');
+INSERT INTO chapters VALUES(29,0,0,28,'Obediência');
+INSERT INTO chapters VALUES(30,0,0,29,'Pobreza');
+INSERT INTO chapters VALUES(31,0,0,30,'Discrição');
+INSERT INTO chapters VALUES(32,0,0,31,'Alegria');
+INSERT INTO chapters VALUES(33,0,0,32,'Outras virtudes');
+INSERT INTO chapters VALUES(34,0,0,33,'Tribulações');
+INSERT INTO chapters VALUES(35,0,0,34,'Luta interior');
+INSERT INTO chapters VALUES(36,0,0,35,'Novíssimos');
+INSERT INTO chapters VALUES(37,0,0,36,'A Vontade de Deus');
+INSERT INTO chapters VALUES(38,0,0,37,'A Glória de Deus');
+INSERT INTO chapters VALUES(39,0,0,38,'Proselitismo');
+INSERT INTO chapters VALUES(40,0,0,39,'Pequenas coisas');
+INSERT INTO chapters VALUES(41,0,0,40,'Tática');
+INSERT INTO chapters VALUES(42,0,0,41,'Infância espiritual');
+INSERT INTO chapters VALUES(43,0,0,42,'Vida de infância');
+INSERT INTO chapters VALUES(44,0,0,43,'Chamamento');
+INSERT INTO chapters VALUES(45,0,0,44,'O Apóstolo');
+INSERT INTO chapters VALUES(46,0,0,45,'O Apostolado');
+INSERT INTO chapters VALUES(47,0,0,46,'Perseverança');
+INSERT INTO chapters VALUES(48,0,1,0,'Prólogo do autor');
+INSERT INTO chapters VALUES(49,0,1,1,'Generosidade');
+INSERT INTO chapters VALUES(50,0,1,2,'Respeitos humanos');
+INSERT INTO chapters VALUES(51,0,1,3,'Alegria');
+INSERT INTO chapters VALUES(52,0,1,4,'Audácia');
+INSERT INTO chapters VALUES(53,0,1,5,'Lutas');
+INSERT INTO chapters VALUES(54,0,1,6,'Pescadores he homens');
+INSERT INTO chapters VALUES(55,0,1,7,'Sofrimento');
+INSERT INTO chapters VALUES(56,0,1,8,'Humildade');
+INSERT INTO chapters VALUES(57,0,1,9,'Cidadania');
+INSERT INTO chapters VALUES(58,0,1,10,'Sinceridade');
+INSERT INTO chapters VALUES(59,0,1,11,'Lealdade');
+INSERT INTO chapters VALUES(60,0,1,12,'Disciplina');
+INSERT INTO chapters VALUES(61,0,1,13,'Personalidade');
+INSERT INTO chapters VALUES(62,0,1,14,'Oração');
+INSERT INTO chapters VALUES(63,0,1,15,'Trabalho');
+INSERT INTO chapters VALUES(64,0,1,16,'Frivolidade');
+INSERT INTO chapters VALUES(65,0,1,17,'Naturalidade');
+INSERT INTO chapters VALUES(66,0,1,18,'Veracidade');
+INSERT INTO chapters VALUES(67,0,1,19,'Ambição');
+INSERT INTO chapters VALUES(68,0,1,20,'Hipocrisia');
+INSERT INTO chapters VALUES(69,0,1,21,'Vida interior');
+INSERT INTO chapters VALUES(70,0,1,22,'Soberba');
+INSERT INTO chapters VALUES(71,0,1,23,'Amizade');
+INSERT INTO chapters VALUES(72,0,1,24,'Vontade');
+INSERT INTO chapters VALUES(73,0,1,25,'Coração');
+INSERT INTO chapters VALUES(74,0,1,26,'Pureza');
+INSERT INTO chapters VALUES(75,0,1,27,'Paz');
+INSERT INTO chapters VALUES(76,0,1,28,'O Além');
+INSERT INTO chapters VALUES(77,0,1,29,'A Língua');
+INSERT INTO chapters VALUES(78,0,1,30,'Propaganda');
+INSERT INTO chapters VALUES(79,0,1,31,'Responsabilidade');
+INSERT INTO chapters VALUES(80,0,1,32,'Penitência');
+INSERT INTO chapters VALUES(81,0,2,0,'Prólogo');
+INSERT INTO chapters VALUES(82,0,2,1,'Deslumbramento');
+INSERT INTO chapters VALUES(83,0,2,2,'Luta');
+INSERT INTO chapters VALUES(84,0,2,3,'Derrota');
+INSERT INTO chapters VALUES(85,0,2,4,'Pessimismo');
+INSERT INTO chapters VALUES(86,0,2,5,'Podes!');
+INSERT INTO chapters VALUES(87,0,2,6,'Tornar a lutar');
+INSERT INTO chapters VALUES(88,0,2,7,'Ressurgir');
+INSERT INTO chapters VALUES(89,0,2,8,'Vitória');
+INSERT INTO chapters VALUES(90,0,2,9,'Labor');
+INSERT INTO chapters VALUES(91,0,2,10,'Crisol');
+INSERT INTO chapters VALUES(92,0,2,11,'Seleção');
+INSERT INTO chapters VALUES(93,0,2,12,'Fecundidade');
+INSERT INTO chapters VALUES(94,0,2,13,'Eternidade');
+CREATE TABLE languages (_id INTEGER PRIMARY KEY NOT NULL, _name TEXT NOT NULL);
+INSERT INTO languages VALUES(0,'Português');
+CREATE TABLE points (_id INTEGER PRIMARY KEY NOT NULL, _language INT NOT NULL, _book INT NOT NULL, _point INT NOT NULL, _text TEXT NOT NULL);
+INSERT INTO points VALUES(1,0,0,0,'LÊ DEVAGAR ESTES CONSELHOS.
+MEDITA PAUSADAMENTE ESTAS CONSIDERAÇÕES.
+SÃO COISAS QUE TE DIGO AO OUVIDO,
+EM CONFIDÊNCIA DE AMIGO, DE IRMÃO,
+DE PAI.
+E ESTAS CONFIDÊNCIAS AS ESCUTA DEUS.
+NÃO TE CONTAREI NADA DE NOVO.
+VOU REVOLVER AS TUAS RECORDAÇÕES,
+PARA QUE AFLORE ALGUM PENSAMENTO
+QUE TE FIRA.
+E ASSIM MELHORES A TUA VIDA,
+E ENTRES POR CAMINHOS DE ORAÇÃO
+E DE AMOR.
+E ACABES POR SER ALMA DE CRITÉRIO.');
+INSERT INTO points VALUES(2,0,0,1,'Que a tua vida não seja uma vida estéril. - Sê útil. - Deixa rasto. - Ilumina com o resplendor da tua fé e do teu amor.
+Apaga, com a tua vida de apóstolo, o rasto viscoso e sujo que deixaram os semeadores impuros do ódio. - E incendeia todos os caminhos da terra com o fogo de Cristo que levas no coração.');
+INSERT INTO points VALUES(3,0,0,2,'Oxalá fossem tais o teu porte e a tua conversação que todos pudessem dizer, ao ver-te ou ouvir-te falar: “Este lê a vida de Jesus Cristo”.');
+INSERT INTO points VALUES(4,0,0,3,'Gravidade. - Deixa esses meneios e trejeitos de mulherzinha ou de moleque. - Que o teu porte exterior seja o reflexo da paz e da ordem do teu espírito.');
+INSERT INTO points VALUES(5,0,0,4,'Não digas: “Eu sou assim..., são coisas do meu caráter”. São coisas da tua falta de caráter. Sê homem - “esto vir”.');
+INSERT INTO points VALUES(6,0,0,5,'Acostuma-te a dizer que não.');
+INSERT INTO points VALUES(7,0,0,6,'Vira as costas ao infame quando te sussurra ao ouvido: “Para que hás de complicar a vida?”');
+INSERT INTO points VALUES(8,0,0,7,'Não tenhas espírito de “caipira”. - Dilata o teu coração, até que seja universal, “católico”.
+Não voes como ave de capoeira, quando podes subir como as águias.');
+INSERT INTO points VALUES(9,0,0,8,'Serenidade. - Por que te zangas, se zangando-te ofendes a Deus, incomodas os outros, passas tu mesmo um mau bocado... e, por fim, tens de acalmar-te?');
+INSERT INTO points VALUES(10,0,0,9,'Isso mesmo que disseste, dize-o noutro tom, sem ira, e ganhará força o teu raciocínio, e sobretudo não ofenderás a Deus.');
+INSERT INTO points VALUES(11,0,0,10,'Não repreendas quando sentes a indignação pela falta cometida. - Espera pelo dia seguinte, ou mais tempo ainda. - E depois, tranqüilo e com a intenção purificada, não deixes de repreender.
+- Conseguirás mais com uma palavra afetuosa do que com três horas de briga. - Modera o teu gênio.');
+INSERT INTO points VALUES(12,0,0,11,'Vontade. - Energia. - Exemplo. - O que é preciso fazer, faz-se... Sem hesitar... Sem contemplações.
+Sem isso, nem Cisneros teria sido Cisneros*, nem Teresa de Ahumada, Santa Teresa..., nem Iñigo de Loyola, Santo Inácio...
+Deus e audácia! - "Regnare Christum volumus!"**
+(*) Regente do trono de Espanha e confessor da Rainha Isabel, a Católica. Começou a reforma da Igreja na Espanha, antecipando-se à que seria iniciada, anos depois, pelo Concílio de Trento para toda a cristandade. Foram notórias a têmpera e a energia do seu caráter. (N. do T.)
+(**)“Queremos que Cristo reine!” (N. do T.)');
+INSERT INTO points VALUES(13,0,0,12,'Cresce perante os obstáculos. - A graça do Senhor não te há de faltar: "Inter medium montium pertransibunt aquae!": - passarás através das montanhas!
+Que importa que de momento tenhas de restringir a tua atividade, se em breve, como mola que foi comprimida, chegarás incomparavelmente mais longe do que nunca sonhaste?');
+INSERT INTO points VALUES(14,0,0,13,'Afasta de ti esses pensamentos inúteis que, pelo menos, te fazem perder o tempo.');
+INSERT INTO points VALUES(15,0,0,14,'Não percas as tuas energias e o teu tempo, que são de Deus, jogando pedras aos cachorros que te ladrem no caminho. Despreza-os.');
+INSERT INTO points VALUES(16,0,0,15,'Não deixes o teu trabalho para amanhã.');
+INSERT INTO points VALUES(17,0,0,16,'Perder-se na massa? Tu... da multidão?! Mas, se nasceste para líder!
+- Entre nós, não há lugar para os tíbios. Humilha-te, e Cristo voltará a inflamar-te com fogos de Amor.');
+INSERT INTO points VALUES(18,0,0,17,'Não caias nessa doença do caráter que tem por sintomas a falta de firmeza para tudo, a leviandade no agir e no dizer, o estouvamento..., a frivolidade, numa palavra.
+Essa frivolidade, que - não o esqueças - torna os teus planos de cada dia tão vazios (“tão cheios de vazio”), se não reages a tempo - não amanhã; agora! -, fará da tua vida um boneco de trapos morto e inútil.');
+INSERT INTO points VALUES(19,0,0,18,'Obstinas-te em ser mundano, frívolo e estouvado porque és covarde. Que é, senão covardia, esse não quereres enfrentar-te a ti próprio?');
+INSERT INTO points VALUES(20,0,0,19,'Vontade. É uma característica muito importante. Não desprezes as pequenas coisas, porque, através do contínuo exercício de negar e te negares a ti próprio nessas coisas - que nunca são futilidades nem ninharias -, fortalecerás, virilizarás, com a graça de Deus, a tua vontade, para seres, em primeiro lugar, inteiro senhor de ti mesmo.
+E depois, guia, chefe, líder! - que prendas, que empurres, que arrastes, com o teu exemplo e com a tua palavra e com a tua ciência e com o teu império.');
+INSERT INTO points VALUES(21,0,0,20,'Chocas com o caráter deste ou daquele... Tem de ser assim necessariamente; não és moeda de ouro que a todos agrade.
+Além disso, sem esses choques que se produzem ao lidar com o próximo, como havias de perder as pontas, as arestas e saliências - imperfeições, defeitos - do teu temperamento, para adquirires a forma cinzelada, polida e energicamente suave da caridade, da perfeição?
+Se o teu caráter e o caráter dos que convivem contigo fossem adocicados e moles como gelatina, não te santificarias.');
+INSERT INTO points VALUES(22,0,0,21,'Pretextos. - Nunca te faltarão para deixares de cumprir os teus deveres. Que fartura de razões... sem razão!
+Não pares a considerá-las. - Repele-as e cumpre a tua obrigação.');
+INSERT INTO points VALUES(23,0,0,22,'Sê enérgico. - Sê viril. - Sê homem. - E depois... sê anjo.');
+INSERT INTO points VALUES(24,0,0,23,'Dizes que... não podes fazer mais? - Não será que... não podes fazer menos?');
+INSERT INTO points VALUES(25,0,0,24,'Tens ambições: de saber..., de ser líder..., de ser audaz.
+Muito bem. Está certo. - Mas... por Cristo, por Amor.');
+INSERT INTO points VALUES(26,0,0,25,'Não discutais. - Da discussão não costuma sair a luz, porque é apagada pela paixão.');
+INSERT INTO points VALUES(27,0,0,26,'O Matrimônio é um sacramento santo. - A seu tempo, quando tiveres de recebê-lo, que o teu Diretor ou o teu confessor te aconselhem a leitura de algum livro útil. - E estarás mais bem preparado para levar dignamente as cargas do lar.');
+INSERT INTO points VALUES(28,0,0,27,'Estás rindo porque te digo que tens “vocação matrimonial”? - Pois é verdade: isso mesmo, vocação.
+Pede a São Rafael que te conduza castamente ao termo do caminho, como a Tobias.');
+INSERT INTO points VALUES(29,0,0,28,'O matrimônio é para os soldados e não para o estado-maior de Cristo. - Ao passo que comer é uma exigência de cada indivíduo, procriar é apenas uma exigência da espécie, podendo dela desinteressar-se as pessoas individualmente.
+Ânsia de filhos...? Filhos, muitos filhos, e um rasto indelével de luz deixaremos, se sacrificarmos o egoísmo da carne.');
+INSERT INTO points VALUES(30,0,0,29,'A relativa e pobre felicidade do egoísta, que se encerra na sua torre de marfim, na sua própria carcaça..., não é difícil de conseguir neste mundo. - Mas a felicidade do egoísta não é duradoura.
+Será que queres perder, por essa caricatura do Céu, a felicidade da Glória, que não terá fim?');
+INSERT INTO points VALUES(31,0,0,30,'És calculista! - Não me digas que és jovem. A juventude dá tudo quanto pode; dá-se a si própria sem medida.');
+INSERT INTO points VALUES(32,0,0,31,'Egoísta! - Tu, sempre atrás das “tuas coisas”. - Pareces incapaz de sentir a fraternidade de Cristo: nos outros, não vês irmãos; vês “degraus”.
+Pressinto o teu fracasso rotundo. - E, quando estiveres afundado, quererás que vivam contigo a caridade que agora não queres viver.');
+INSERT INTO points VALUES(33,0,0,32,'Tu não serás líder se na massa só vires o escabelo para empoleirar-te. - Tu serás líder se tiveres a ambição de salvar todas as almas.
+Não podes viver de costas para a multidão. É preciso que tenhas ânsias de torná-la feliz.');
+INSERT INTO points VALUES(34,0,0,33,'Nunca queres “esgotar a verdade”. - Umas vezes, por correção. Outras - a maioria -, para não passares um mau bocado. Algumas, para evitá-lo aos outros. E, sempre, por covardia.
+Assim, com esse medo de aprofundar, jamais serás homem de critério.');
+INSERT INTO points VALUES(35,0,0,34,'Não tenhas medo à verdade, ainda que a verdade te acarrete a morte.');
+INSERT INTO points VALUES(36,0,0,35,'Não gosto de tanto eufemismo: à covardia chamais prudência. - E a vossa “prudência” é ocasião para que os inimigos de Deus, com o cérebro vazio de idéias, tomem ares de sábios e ascendam a postos a que nunca deviam ascender.');
+INSERT INTO points VALUES(37,0,0,36,'Esse abuso não é irremediável. - É falta de caráter permitir que continue, como coisa desesperada e sem possível retificação.
+Não te esquives ao dever. - Cumpre-o em toda a linha, ainda que outros deixem de cumpri-lo.');
+INSERT INTO points VALUES(38,0,0,37,'Tens, como por aí se diz, “muita lábia”. - Mas, com todo o teu palavreado, não conseguirás que eu justifique (“foi providencial!”, disseste) o que não tem justificação.');
+INSERT INTO points VALUES(39,0,0,38,'Será verdade (não acredito, não acredito...) que na terra não há homens, mas “estômagos”?');
+INSERT INTO points VALUES(40,0,0,39,'“Peça que eu nunca queira deter-me no fácil”. - Já o pedi. Agora só falta que te empenhes em cumprir esse belo propósito.');
+INSERT INTO points VALUES(41,0,0,40,'Fé, alegria, otimismo. - Mas não a estupidez de fechar os olhos à realidade.');
+INSERT INTO points VALUES(42,0,0,41,'Que modo tão transcendental de viver bobagens vazias, e que maneira de chegar a ser alguém na vida - subindo, subindo - à força de “pesar pouco”, de não ter nada, nem no cérebro nem no coração!');
+INSERT INTO points VALUES(43,0,0,42,'Por que essas variações de caráter? Quando fixarás a tua vontade em alguma coisa?
+- Larga esse teu gosto pelas primeiras pedras, e põe a última ao menos em um de teus projetos.');
+INSERT INTO points VALUES(44,0,0,43,'Não sejas tão... suscetível. - Magoas-te por qualquer coisinha. - Torna-se necessário medir as palavras para falar contigo do assunto mais insignificante.
+Não te zangues se te digo que és... insuportável. - Enquanto não te corrigires, nunca serás útil.');
+INSERT INTO points VALUES(45,0,0,44,'Desculpa-te com a cortesia que a caridade cristã e a vida social exigem. - E, depois, para a frente! - com santa desvergonha, sem parar, até subires inteiramente a encosta do cumprimento do dever.');
+INSERT INTO points VALUES(46,0,0,45,'Por que te doem essas errôneas conjecturas que se fazem a teu respeito? - A mais baixo chegarias se Deus te abandonasse. - Persevera no bem, e encolhe os ombros.');
+INSERT INTO points VALUES(47,0,0,46,'Não achas que a igualdade, tal como a entendem, é sinônimo de injustiça?');
+INSERT INTO points VALUES(48,0,0,47,'Essa ênfase e esse ar emproado ficam-te mal; vê-se que são postiços. - Procura, pelo menos, não os empregar com o teu Deus, nem com o teu Diretor, nem com os teus irmãos. E haverá uma barreira a menos entre ti e eles.');
+INSERT INTO points VALUES(49,0,0,48,'Pouco firme é o teu caráter: que ânsia de te meteres em tudo! - Obstinas-te em ser o sal de todos os pratos... e - não te zangues se te falo claramente - tens pouca graça para ser sal; e não és capaz de desfazer-te e passar despercebido à vista, como esse condimento.
+Falta-te espírito de sacrifício. E sobra-te espírito de curiosidade e de exibição.');
+INSERT INTO points VALUES(50,0,0,49,'Cala-te. - Não sejas “meninão”, caricatura de criança, bisbilhoteiro, intriguista, linguarudo. - Com as tuas histórias e mexericos, esfriaste a caridade: fizeste a pior das obras. E... se por acaso abalaste - má língua! - os muros fortes da perseverança de outros, a tua perseverança deixa de ser graça de Deus, porque é instrumento traiçoeiro do inimigo.');
+INSERT INTO points VALUES(51,0,0,50,'És curioso e bisbilhoteiro, xereta e intrometido. Não tens vergonha de ser, até nos defeitos, tão pouco masculino? - Sê homem. E esses desejos de saber da vida dos outros, troca-os por desejos e realidades de conhecimento próprio.');
+INSERT INTO points VALUES(52,0,0,51,'Teu espírito varonil, retilínio e simples, confrange-se ao sentir-se envolvido em enredos e mexericos, que não acaba de compreender e em que nunca se quis misturar. - Sofre a humilhação de andar assim em boca alheia e procura que essa dura experiência te dê mais discrição.');
+INSERT INTO points VALUES(53,0,0,52,'Por que razão, ao julgares os outros, pões na tua crítica o amargor dos teus próprios fracassos?');
+INSERT INTO points VALUES(54,0,0,53,'Esse espírito crítico (concedo-te que não é murmuração), não o deves exercer no teu apostolado, nem com teus irmãos. - Esse espírito crítico é, para o vosso empreendimento sobrenatural (perdoas-me que o diga?), um grande estorvo, porque, enquanto examinas - embora com elevada finalidade, acredito - o trabalho dos outros, sem teres nada a ver com isso, não fazes nenhuma obra positiva, e dificultas, com o teu exemplo de passividade, o bom andamento de todos.
+“Então...” - perguntas, inquieto - “...esse espírito crítico, que é como que a substância do meu caráter...?”
+Olha (vou tranqüilizar-te): apanha uma caneta e um papel, escreve simples e confiadamente - ah!, e com brevidade - os motivos que te torturam, entrega a nota ao superior e não penses mais nela. - Ele, que é quem vos dirige (tem graça de estado), guardará a nota... ou a jogará no cesto dos papéis. - Para ti, como o teu espírito crítico não é murmuração, e só o exerces para fins elevados, tanto faz.');
+INSERT INTO points VALUES(55,0,0,54,'Contemporizar? É palavra que só se encontra (“é preciso contemporizar!”) no léxico dos que não têm vontade de lutar - comodistas, manhosos ou covardes -, porque de antemão se sabem vencidos.');
+INSERT INTO points VALUES(56,0,0,55,'Olha, meu filho: sê um pouco menos ingênuo (ainda que sejas muito criança, e mesmo por o seres diante de Deus), e não “ponhas na berlinda”, diante de estranhos, os teus irmãos.');
+INSERT INTO points VALUES(57,0,0,56,'“Madeira de santo”. Isso dizem de alguns: que têm “madeira de santo”. - Além de que os santos não foram de madeira, ter madeira não basta.
+É necessária muita obediência ao Diretor e muita docilidade à graça. - Porque, se não se permite à graça de Deus e ao Diretor que façam a sua obra, jamais aparecerá a escultura, imagem de Jesus, em que se transforma o homem santo.
+E a “madeira de santo”, de que estamos falando, não passará de um tronco informe, sem talha, para o fogo... Para um bom fogo, se era boa madeira!');
+INSERT INTO points VALUES(58,0,0,57,'Cultiva o trato com o Espírito Santo - o Grande Desconhecido -, que é quem te há de santificar.
+Não te esqueças de que és templo de Deus. - O Paráclito está no centro da tua alma: escuta-O e segue docilmente as suas inspirações.');
+INSERT INTO points VALUES(59,0,0,58,'Não estorves a obra do Paráclito; une-te a Cristo, para te purificares, e sente, com Ele, os insultos, e os escarros, e as bofetadas..., e os espinhos, e o peso da Cruz..., e os ferros rasgando a tua carne, e as ânsias de uma morte ao desamparo...
+E mete-te no lado aberto de Nosso Senhor Jesus, até encontrares refúgio seguro em seu Coração chagado.');
+INSERT INTO points VALUES(60,0,0,59,'Convém que conheças esta doutrina segura: o espírito próprio é mau conselheiro, mau piloto, para dirigir a alma nas borrascas e tempestades, por entre os escolhos da vida interior.
+Por isso, é Vontade de Deus que a direção da nau esteja entregue a um Mestre, para que, com a sua luz e conhecimento, nos conduza a porto seguro.');
+INSERT INTO points VALUES(61,0,0,60,'Se não te lembrarias de construir sem arquiteto uma boa casa para viveres na terra, como queres levantar sem Diretor o edifício da tua santificação, para viveres eternamente no Céu?');
+INSERT INTO points VALUES(62,0,0,61,'Quando um leigo se erige em mestre de moral, erra freqüentemente. Os leigos só podem ser discípulos.');
+INSERT INTO points VALUES(63,0,0,62,'Diretor. - Precisas dele. - Para te entregares, para te dares..., obedecendo. - E Diretor que conheça o teu apostolado, que saiba o que Deus quer. Assim secundará, com eficácia, a ação do Espírito Santo na tua alma, sem tirar-te do lugar em que estás..., enchendo-te de paz e ensinando-te a tornar fecundo o teu trabalho.');
+INSERT INTO points VALUES(64,0,0,63,'Tu - pensas - tens muita personalidade: os teus estudos (teus trabalhos de pesquisa, tuas publicações), a tua posição social (teus antepassados), as tuas atuações políticas (os cargos que ocupas), o teu patrimônio..., a tua idade - não és mais uma criança!...
+Precisamente por tudo isso necessitas, mais do que outros, de um Diretor para a tua alma.');
+INSERT INTO points VALUES(65,0,0,64,'Não ocultes ao teu Diretor essas insinuações do inimigo. - A tua vitória, ao abrir-lhe a tua alma, te dá mais graça de Deus. - E, além disso, tens agora, para continuares a vencer, o dom de conselho e as orações do teu pai espiritual.');
+INSERT INTO points VALUES(66,0,0,65,'Por que esse receio de te veres a ti mesmo e te deixares ver pelo teu Diretor tal como na realidade és?
+Terás ganho uma grande batalha se perderes o medo de te dares a conhecer.');
+INSERT INTO points VALUES(67,0,0,66,'O Sacerdote - seja quem for - é sempre outro Cristo.');
+INSERT INTO points VALUES(68,0,0,67,'Ainda que bem sabido, não quero deixar de recordar-te uma vez mais que o Sacerdote é “outro Cristo”. - E que o Espírito Santo disse: "Nolite tangere Christos meos" - não toqueis nos “meus Cristos”.');
+INSERT INTO points VALUES(69,0,0,68,'Presbítero, etimologicamente, é o mesmo que ancião. - Se merece veneração a velhice, pensa quanto mais terás de venerar o Sacerdote.');
+INSERT INTO points VALUES(70,0,0,69,'Que pouca delicadeza de espírito - e que falta de respeito - não revela dirigir gracejos e zombarias ao Sacerdote - seja quem for - sob qualquer pretexto!');
+INSERT INTO points VALUES(71,0,0,70,'Insisto: esse gracejos - “gozações” - ao Sacerdote, apesar de todas as circunstâncias que a ti te pareçam atenuantes, são sempre, pelo menos, uma grosseria, uma ordinarice.');
+INSERT INTO points VALUES(72,0,0,71,'Quanto não temos de admirar a pureza sacerdotal! - É o seu tesouro. - Nenhum tirano poderá arrancar jamais à Igreja esta coroa.');
+INSERT INTO points VALUES(73,0,0,72,'Não ponhas o Sacerdote em risco de perder a gravidade. É virtude que, sem afetação, precisa ter.
+Como a pedia - “Senhor, dá-me... oitenta anos de gravidade!” - aquele jovem clérigo, nosso amigo!
+Pede-a tu também para todos os Sacerdotes, e terás feito uma boa coisa.');
+INSERT INTO points VALUES(74,0,0,73,'Doeu-te - como uma punhalada no coração - que tivessem dito que havias falado mal daqueles sacerdotes. - Alegro-me com a tua dor. Agora, sim, estou certo do teu bom espírito!');
+INSERT INTO points VALUES(75,0,0,74,'Amar a Deus e não venerar o Sacerdote... não é possível.');
+INSERT INTO points VALUES(76,0,0,75,'Como os filhos bons de Noé, cobre com o manto da caridade as misérias que vires em teu pai, o Sacerdote.');
+INSERT INTO points VALUES(77,0,0,76,'Se não tens um plano de vida, nunca terás ordem.');
+INSERT INTO points VALUES(78,0,0,77,'Sujeitar-se a um plano de vida, a um horário, é tão monótono!, disseste-me.
+- E eu te respondi: há monotonia porque falta Amor.');
+INSERT INTO points VALUES(79,0,0,78,'Se não te levantas a uma hora fixa, nunca cumprirás o teu plano de vida.');
+INSERT INTO points VALUES(80,0,0,79,'Virtude sem ordem? - Estranha virtude!');
+INSERT INTO points VALUES(81,0,0,80,'Quando tiveres ordem, multiplicar-se-á o teu tempo e, portanto, poderás dar mais glória a Deus, trabalhando mais a seu serviço.');
+INSERT INTO points VALUES(82,0,0,81,'A ação nada vale sem a oração; a oração valoriza-se com o sacrifício.');
+INSERT INTO points VALUES(83,0,0,82,'Primeiro, oração; depois, expiação; em terceiro lugar, muito em “terceiro lugar”, ação.');
+INSERT INTO points VALUES(84,0,0,83,'A oração é o alicerce do edifício espiritual. - A oração é onipotente.');
+INSERT INTO points VALUES(85,0,0,84,'"Domine, doce nos orare" - Senhor, ensina-nos a orar! - E o Senhor respondeu: Quando começardes a orar, haveis de dizer: "Pater noster, qui es in coelis..." - Pai nosso, que estais nos céus...
+Como não havemos de ter em muito apreço a oração vocal!');
+INSERT INTO points VALUES(86,0,0,85,'Devagar. - Repara no que dizes, quem o diz e a quem. - Porque esse falar às pressas, sem lugar para a reflexão, é ruído, chacoalhar de latas.
+E te direi, com Santa Teresa, que a isso não chamo oração, por muito que mexas os lábios.');
+INSERT INTO points VALUES(87,0,0,86,'A tua oração deve ser litúrgica. - Oxalá te afeiçoes a recitar os salmos e as orações do missal, em vez de orações privadas ou particulares.');
+INSERT INTO points VALUES(88,0,0,87,'“Nem só de pão vive o homem, mas de toda a palavra que sai da boca de Deus”, disse o Senhor. - Pão e palavra! - Hóstia e oração.
+Senão, não terás vida sobrenatural.');
+INSERT INTO points VALUES(89,0,0,88,'Procuras a companhia de amigos que, com a sua conversa e afeto, com o seu convívio, te tornem mais tolerável o desterro deste mundo..., embora os amigos às vezes atraiçoem. - Não me parece mal.
+Mas... como não freqüentas cada dia com maior intensidade a companhia, a conversa com o Grande Amigo, que nunca atraiçoa?');
+INSERT INTO points VALUES(90,0,0,89,'“Maria escolheu a melhor parte”, lê-se no Santo Evangelho. - Aí está ela, bebendo as palavras do Mestre. Em aparente inatividade, ora e ama. - Depois, acompanha Jesus em suas pregações por cidades e aldeias.
+Sem oração, como é difícil acompanhá-Lo!');
+INSERT INTO points VALUES(91,0,0,90,'Não sabes orar? - Põe-te na presença de Deus, e logo que começares a dizer: “Senhor, não sei fazer oração!...”, podes ter certeza de que começaste a fazê-la.');
+INSERT INTO points VALUES(92,0,0,91,'Escreveste-me: “Orar é falar com Deus. Mas de quê?” - De quê? DEle e de ti: alegrias, tristezas, êxitos e fracassos, ambições nobres, preocupações diárias..., fraquezas!; e ações de graças e pedidos; e Amor e desagravo.
+Em duas palavras: conhecê-Lo e conhecer-te - ganhar intimidade!');
+INSERT INTO points VALUES(93,0,0,92,'"Et in meditatione mea exardescit ignis". - E na minha meditação se ateia o fogo. - Para isso vais à oração: para tornar-te uma fogueira, lume vivo, que dê calor e luz.
+Por isso, quando não souberes ir mais longe, quando sentires que te apagas, se não puderes lançar ao fogo troncos aromáticos, lança os ramos e a folhagem de pequenas orações vocais, de jaculatórias, que continuem a alimentar a fogueira. - E terás aproveitado o tempo.');
+INSERT INTO points VALUES(94,0,0,93,'Vês-te tão miserável que te reconheces indigno de que Deus te ouça... Mas... e os méritos de Maria? E as chagas do teu Senhor? E... porventura não és filho de Deus?
+Além disso, Ele te escuta, "quoniam bonus..., quoniam in saeculum misericordia ejus", porque é bom, porque a sua misericórdia permanece para sempre.');
+INSERT INTO points VALUES(95,0,0,94,'Fez-se tão pequeno - bem vês: um Menino! - para que te aproximes dEle com confiança.');
+INSERT INTO points VALUES(96,0,0,95,'"In te, Domine, speravi": em Ti, Senhor, esperei. - E aos meios humanos acrescentei a minha oração e a minha cruz. - E não foi vã a minha esperança, nem jamais o será: "Non confundar in aeternum!"*
+(*)“Não serei jamais confundido”.(N. do T.)');
+INSERT INTO points VALUES(97,0,0,96,'Fala Jesus: “Digo-vos, pois: Pedi e dar-se-vos-á; buscai e achareis; batei e abrir-se-vos-á”.
+Faz oração. Em que negócio humano te podem dar mais garantias de êxito?');
+INSERT INTO points VALUES(98,0,0,97,'Não sabes o que dizer ao Senhor na oração. Não te lembras de nada, e, no entanto, quererias consultá-Lo sobre muitas coisas. - Olha: durante o dia, toma algumas notas sobre os assuntos que desejes considerar na presença de Deus. E depois, serve-te dessas notas na oração.');
+INSERT INTO points VALUES(99,0,0,98,'Depois da oração do Sacerdote e das virgens consagradas, a oração mais grata a Deus é a das crianças e a dos doentes.');
+INSERT INTO points VALUES(100,0,0,99,'Quando fores orar, que seja este um firme propósito: não ficar mais tempo por consolação, nem menos por aridez.');
+INSERT INTO points VALUES(101,0,0,100,'Não digas a Jesus que queres consolações na oração. - Se as dá, agradece-as. - Diz-Lhe sempre que queres perseverança.');
+INSERT INTO points VALUES(102,0,0,101,'Persevera na oração. - Persevera, ainda que o teu esforço pareça estéril. - A oração é sempre fecunda.');
+INSERT INTO points VALUES(103,0,0,102,'A tua inteligência está entorpecida, inativa. Fazes esforços inúteis para coordenar as idéias na presença do Senhor: um verdadeiro atordoamento!
+Não te esforces nem te preocupes. - Escuta-me bem: é a hora do coração.');
+INSERT INTO points VALUES(104,0,0,103,'Essas palavras que te feriram durante a oração, grava-as na memória e recita-as pausadamente muitas vezes ao longo do dia.');
+INSERT INTO points VALUES(105,0,0,104,'"Pernoctans in oratione Dei" - passou a noite em oração. - É o que São Lucas nos diz do Senhor.
+Tu, quantas vezes perseveraste assim? - Então...');
+INSERT INTO points VALUES(106,0,0,105,'Se não procuras a intimidade com Cristo na oração e no Pão, como poderás dá-Lo a conhecer?');
+INSERT INTO points VALUES(107,0,0,106,'Escreveste-me e te compreendo: “Faço todos os dias o meu "pouquinho" de oração. Se não fosse isso!...”');
+INSERT INTO points VALUES(108,0,0,107,'Santo, sem oração?!... - Não acredito nessa santidade.');
+INSERT INTO points VALUES(109,0,0,108,'Dir-te-ei, plagiando a frase de um autor estrangeiro, que a tua vida de apóstolo vale o que valer a tua oração.');
+INSERT INTO points VALUES(110,0,0,109,'Se não és homem de oração, não acredito na retidão de tuas intenções quando dizes que trabalhas por Cristo.');
+INSERT INTO points VALUES(111,0,0,110,'Disseste-me uma vez que parecias um relógio desregulado, que bate fora de horas: estás frio, seco e árido à hora da tua oração; e, pelo contrário, quando menos era de esperar, na rua, entre os afazeres de cada dia, no meio da balbúrdia e da gritaria da cidade, ou na quietude laboriosa do teu trabalho profissional, surpreendes-te orando... Fora de horas? Certo... Mas não desaproveites essas badaladas do teu relógio. - O Espírito sopra onde quer.');
+INSERT INTO points VALUES(112,0,0,111,'Fizeste-me rir com a tua oração... impaciente. - Dizias-Lhe: “Não me quero tornar velho, Jesus... É esperar demais para Te ver! Nessa altura, talvez não tenha o coração em carne viva, como agora. Velho, parece-me tarde. Agora, a minha união seria mais galharda, porque Te amo com Amor virginal”.');
+INSERT INTO points VALUES(113,0,0,112,'Gosto de que vivas essa “reparação ambiciosa”: o mundo inteiro!, disseste-me. - Bem. Mas, em primeiro lugar, os da tua família sobrenatural e da humana, os do país que é a nossa Pátria.');
+INSERT INTO points VALUES(114,0,0,113,'Dizias-Lhe: “Não Te fies de mim. Eu, sim, é que me fio de Ti, Jesus. Abandono-me em teus braços. Aí deixo o que tenho: as minhas misérias!”
+- E me parece uma boa oração.');
+INSERT INTO points VALUES(115,0,0,114,'A oração do cristão nunca é monólogo.');
+INSERT INTO points VALUES(116,0,0,115,'“Minutos de silêncio”. - Deixai-os para os que têm o coração seco.
+Nós, os católicos, filhos de Deus, falamos com nosso Pai que está nos céus.');
+INSERT INTO points VALUES(117,0,0,116,'Não abandones a tua leitura espiritual. - A leitura tem feito muitos santos.');
+INSERT INTO points VALUES(118,0,0,117,'Na leitura - escreves-me - formo o depósito de combustível. - Parece um montão inerte, mas é dali que muitas vezes a minha memória tira espontaneamente material, que enche de vida a minha oração e inflama a minha ação de graças depois de comungar.');
+INSERT INTO points VALUES(119,0,0,118,'Deus concede a santa pureza aos que a pedem com humildade.');
+INSERT INTO points VALUES(120,0,0,119,'Que bela é a santa pureza! Mas não é santa nem agradável a Deus, se a separamos da caridade.
+A caridade é a semente que crescerá e dará frutos saborosíssimos com a rega que é a pureza.
+Sem caridade, a pureza é infecunda, e as suas águas estéreis convertem as almas num lamaçal, num charco imundo, donde saem baforadas de soberba.');
+INSERT INTO points VALUES(121,0,0,120,'Pureza?, perguntam. E sorriem. - São os mesmos que vão para o matrimônio com o corpo murcho e a alma desiludida.
+Prometo-vos um livro - se Deus me ajudar - que poderá ter este título: “Celibato, Matrimônio e Pureza”.');
+INSERT INTO points VALUES(122,0,0,121,'É necessária uma cruzada de virilidade e de pureza que enfrente e anule o trabalho selvagem daqueles que pensam que o homem é uma besta.
+- E essa cruzada é obra vossa.');
+INSERT INTO points VALUES(123,0,0,122,'Muitos vivem como anjos no meio do mundo. - Tu... por que não?');
+INSERT INTO points VALUES(124,0,0,123,'Quando te decidires com firmeza a ter vida limpa, a castidade não será para ti um fardo; será coroa triunfal.');
+INSERT INTO points VALUES(125,0,0,124,'Escreveste-me, médico apóstolo: “Todos sabemos por experiência que podemos ser castos, vivendo vigilantes, freqüentando os Sacramentos e apagando as primeiras chispas da paixão, sem deixar que ganhe corpo a fogueira.
+“É precisamente entre os castos que se contam os homens mais íntegros, sob todos os aspectos. E entre os luxuriosos predominam os tímidos, os egoístas, os falsos e os cruéis, que são tipos de pouca virilidade”.');
+INSERT INTO points VALUES(126,0,0,125,'Eu quereria - disseste-me - que João, o Apóstolo adolescente, tivesse uma confidência comigo e me desse conselhos; e me animasse a conseguir a pureza do meu coração.
+Se na verdade o queres, dize-lhe isso. E sentirás ânimo e terás conselho.');
+INSERT INTO points VALUES(127,0,0,126,'A gula é a vanguarda da impureza.');
+INSERT INTO points VALUES(128,0,0,127,'Não queiras dialogar com a concupiscência; despreza-a.');
+INSERT INTO points VALUES(129,0,0,128,'O pudor e a modéstia são os irmãos menores da pureza.');
+INSERT INTO points VALUES(130,0,0,129,'Sem a santa pureza, não se pode perseverar no apostolado.');
+INSERT INTO points VALUES(131,0,0,130,'Tira-me, Jesus, esta crosta suja de podridão sensual que me recobre o coração, para que sinta e siga com facilidade os toques do Paráclito na minha alma.');
+INSERT INTO points VALUES(132,0,0,131,'Nuncas fales, nem sequer para te lamentares, de coisas ou acontecimentos impuros. Olha que é matéria mais pegajosa que o piche. - Muda de conversa, e, se não é possível, continua, falando da necessidade e formosura da santa pureza, virtude de homens que sabem o que vale a sua alma.');
+INSERT INTO points VALUES(133,0,0,132,'Não tenhas a covardia de ser “valente”; foge!');
+INSERT INTO points VALUES(134,0,0,133,'Os santos não foram seres disformes, casos de estudo para um médico modernista.
+Foram e são normais; de carne, como a tua. - E venceram.');
+INSERT INTO points VALUES(135,0,0,134,'Ainda que a carne se vista de seda... - dir-te-ei, quando te vir vacilar diante da tentação, que oculta a sua impureza sob pretextos de arte, de ciência..., de caridade!
+Dir-te-ei, com palavras de um velho ditado espanhol: “Ainda que a carne se vista de seda, carne se queda”*
+(*) O ditado original diz: "Aunque la macaca se vista de seda, macaca se queda", continua a ser macaca (N. do T.).');
+INSERT INTO points VALUES(136,0,0,135,'Se soubesses o que vales!... É São Paulo quem te diz: foste comprado "pretio magno" - por alto preço.
+E depois continua: "Glorificate et portate Deum in corpore vestro" - glorifica a Deus e traze-O em teu corpo.');
+INSERT INTO points VALUES(137,0,0,136,'Quando procuraste a companhia de uma satisfação sensual... - depois, que solidão!');
+INSERT INTO points VALUES(138,0,0,137,'E pensar que por uma satisfação de um momento, que deixou em ti travos de fel e azebre, perdeste “o caminho”!');
+INSERT INTO points VALUES(139,0,0,138,'"Infelix ego homo! Quis me liberabit de corpore mortis hujus?" - Pobre de mim! Quem me livrará deste corpo de morte? - Assim clama São Paulo. - Anima-te. Ele também lutava.');
+INSERT INTO points VALUES(140,0,0,139,'À hora da tentação, pensa no Amor que te espera no Céu. Fomenta a virtude da esperança, que não é falta de generosidade.');
+INSERT INTO points VALUES(141,0,0,140,'Não te preocupes, aconteça o que acontecer, desde que não consintas. - Porque só a vontade pode abrir a porta do coração e introduzir nele essas coisas execráveis.');
+INSERT INTO points VALUES(142,0,0,141,'Na tua alma, parece que ouves materialmente: “Esse preconceito religioso!...” - E depois, a defesa eloqüente de todas as misérias da nossa pobre carne decaída: “os seus direitos!”
+Quando isto te acontecer, diz ao inimigo que há lei natural e lei de Deus, e Deus! - E também inferno.');
+INSERT INTO points VALUES(143,0,0,142,'"Domine!" - Senhor! - "si vis, potes me mundare" - se quiseres, podes curar-me.
+- Que bela oração para que a digas muitas vezes, com a fé do pobre leproso, quando te acontecer o que Deus e tu e eu sabemos! - Não tardarás a sentir a resposta do Mestre: "Volo, mundare!" - Quero, sê limpo!');
+INSERT INTO points VALUES(144,0,0,143,'Para defender a sua pureza, São Francisco revolveu-se na neve, São Bento jogou-se num silvado, São Bernardo mergulhou num tanque gelado...
+- Tu, que fizeste?');
+INSERT INTO points VALUES(145,0,0,144,'A pureza limpidíssima de toda a vida de João torna-o forte diante da Cruz. - Os outros Apóstolos fogem do Gólgota; ele, com a Mãe de Cristo, fica.
+- Não esqueças que a pureza fortalece, viriliza o caráter.');
+INSERT INTO points VALUES(146,0,0,145,'Frente de Madrid. Uma vintena de oficiais, em nobre e alegre camaradagem. Ouve-se uma canção, e depois outra e mais outra.
+Aquele jovem tenente de bigode escuro só ouviu a primeira:
+“Corações partidos,
+eu não os quero;
+e se lhe dou o meu,
+dou-o inteiro”.
+“Quanta resistência em dar meu coração inteiro!” - E a oração brotou em caudal manso e largo.');
+INSERT INTO points VALUES(147,0,0,146,'Dás-me a impressão de que levas o coração na mão, como quem oferece uma mercadoria: quem o quer? - Se não agradar a nenhuma criatura, virás entregá-lo a Deus.
+Achas que assim fizeram os santos?');
+INSERT INTO points VALUES(148,0,0,147,'As criaturas para ti? - As criaturas para Deus. Quando muito, para ti por Deus.');
+INSERT INTO points VALUES(149,0,0,148,'Por que te debruçares a beber nos charcos dos consolos mundanos, se podes saciar a tua sede em águas que saltam para a vida eterna?');
+INSERT INTO points VALUES(150,0,0,149,'Desprende-te das criaturas até ficares despido delas. Porque - diz o Papa São Gregório - o demônio nada tem de seu neste mundo, e acode nu à contenda. Se vais vestido lutar com ele, em breve cairás por terra. Porque terá por onde te pegar.');
+INSERT INTO points VALUES(151,0,0,150,'É como se o teu Anjo te dissesse: - Tens o coração cheio de tanta afeição humana!... E a seguir: - E isso queres que guarde o teu Anjo da Guarda?');
+INSERT INTO points VALUES(152,0,0,151,'Desprendimento. Como custa!... Quem me dera não estar atado senão por três pregos, nem ter outra sensação em minha carne que a Cruz!');
+INSERT INTO points VALUES(153,0,0,152,'Não pressentes que te espera mais paz e mais união quando tiveres correspondido a essa graça extraordinária que te exige um desprendimento total?
+- Luta por Ele, para Lhe dar gosto; mas fortalece a tua esperança.');
+INSERT INTO points VALUES(154,0,0,153,'Vamos! Diz-Lhe com generosidade e como um menino: - Que vais dar-me quando me exiges “isso”?');
+INSERT INTO points VALUES(155,0,0,154,'Tens medo de tornar-te frio e duro para todos. Tanto te queres desapegar!
+Afasta essa preocupação. Se és de Cristo - todo de Cristo! -, para todos terás - também de Cristo - fogo, luz e calor.');
+INSERT INTO points VALUES(156,0,0,155,'Jesus não se satisfaz “compartilhando”; quer tudo.');
+INSERT INTO points VALUES(157,0,0,156,'Não queres submeter-te à Vontade de Deus... E, no entanto, acomodas-te à vontade de qualquer pobre criatura.');
+INSERT INTO points VALUES(158,0,0,157,'Não percas a perspectiva: se se dá a ti o próprio Deus, por que esse apego às criaturas?');
+INSERT INTO points VALUES(159,0,0,158,'Agora, tudo são lágrimas. - Dói, não é mesmo? - Pois é claro! Por isso precisamente te acertaram com o dedo na chaga.');
+INSERT INTO points VALUES(160,0,0,159,'Fraqueja o teu coração e buscas um arrimo na terra. - Está bem. Mas procura que o apoio de que te serves para não cair não se converta em peso morto que te arraste, em cadeia que te escravize.');
+INSERT INTO points VALUES(161,0,0,160,'Escuta, escuta: isso... é uma amizade ou uma algema?');
+INSERT INTO points VALUES(162,0,0,161,'Tens expansões de ternura. E eu te digo: - Caridade com o próximo, sim, sempre.
+Mas - ouve-me bem, alma de apóstolo -, é de Cristo, e só para Ele, esse outro sentimento que o próprio Senhor pôs em teu peito.
+- Além disso..., não é verdade que, ao abrires algum ferrolho do teu coração - necessitas de sete ferrolhos -, mais de uma vez ficou pairando em teu horizonte sobrenatural a nuvenzinha da dúvida... e perguntaste a ti mesmo, preocupado, apesar da tua pureza de intenção: - Não será que fui longe demais nas minhas manifestações exteriores de afeto?');
+INSERT INTO points VALUES(163,0,0,162,'O coração, de lado. Primeiro, o dever. - Mas, ao cumprires o dever, põe nesse cumprimento o coração, que é suavidade.');
+INSERT INTO points VALUES(164,0,0,163,'“Se o teu olho direito te escandaliza..., arranca-o e joga-o para longe!” - Pobre coração, que é ele que te escandaliza!
+Aperta-o, amarfanha-o entre as mãos; não lhe dês consolações. - E, cheio de uma nobre compaixão, quando as pedir, segreda-lhe devagar, como em confidência: - “Coração: coração na Cruz, coração na Cruz!”');
+INSERT INTO points VALUES(165,0,0,164,'Como vai esse coração? - Não te inquietes; os santos - que eram seres bem constituídos e normais, como tu e como eu - sentiam também essas “naturais” inclinações. E se não as tivessem sentido, a sua reação “sobrenatural” de guardar o coração - alma e corpo - para Deus, em vez de entregá-lo a uma criatura, pouco mérito teria tido.
+Por isso, uma vez visto o caminho, creio que a fraqueza do coração não deve ser obstáculo para uma alma decidida e “bem enamorada”.');
+INSERT INTO points VALUES(166,0,0,165,'Tu..., que por um pobre amor da terra passaste por tantas baixezas, acreditas de verdade que amas a Cristo, e não passas - por Ele! - essa humilhação?');
+INSERT INTO points VALUES(167,0,0,166,'Escreves-me: “Padre, tenho... dor de dentes no coração”.
+- Não tomo isso como brincadeira, porque entendo que precisas de um bom dentista que te faça umas extrações.
+Se tu deixasses!...');
+INSERT INTO points VALUES(168,0,0,167,'“Ah, se eu tivesse cortado no princípio!”, disseste-me. - Oxalá não tenhas que repetir essa exclamação tardia.');
+INSERT INTO points VALUES(169,0,0,168,'“Achei graça quando ouvi o senhor falar das "contas" que Deus lhe pedirá. Não, para vós Ele não será Juiz - no sentido austero da palavra -, mas simplesmente Jesus”.
+- Esta frase, escrita por um Bispo santo, que consolou mais de um coração atribulado, bem pode consolar o teu.');
+INSERT INTO points VALUES(170,0,0,169,'A dor esmaga-te porque a recebes com covardia. - Recebe-a como um valente, com espírito cristão; e a estimarás como um tesouro.');
+INSERT INTO points VALUES(171,0,0,170,'Que claro o caminho!... Que patentes os obstáculos!... Que boas armas para os vencer!... E, apesar disso, quantos desvios e quantos tropeços! Não é mesmo?
+- É esse fiozinho sutil (corrente; corrente de ferro forjado), que tu e eu conhecemos e que não queres quebrar, a causa que te afasta do caminho, que te faz tropeçar e até cair.
+- Que esperas para cortá-lo... e avançar?');
+INSERT INTO points VALUES(172,0,0,171,'O Amor... bem vale um amor!');
+INSERT INTO points VALUES(173,0,0,172,'Se não te mortificas, nunca serás alma de oração.');
+INSERT INTO points VALUES(174,0,0,173,'Essa frase feliz, a piada que não te escapou da boca, o sorriso amável para quem te incomoda, aquele silêncio ante a acusação injusta, a tua conversa afável com os maçantes e os inoportunos, o não dar importância cada dia a um pormenor ou outro, aborrecido e impertinente, das pessoas que convivem contigo... Isto, com perseverança, é que é sólida mortificação interior.');
+INSERT INTO points VALUES(175,0,0,174,'Não digas: essa pessoa me aborrece. - Pensa: essa pessoa me santifica.');
+INSERT INTO points VALUES(176,0,0,175,'Nenhum ideal se torna realidade sem sacrifício. - Nega-te a ti mesmo. - É tão belo ser vítima!');
+INSERT INTO points VALUES(177,0,0,176,'Quantas vezes te propões servir a Deus em alguma coisa... e tens de conformar-te - tão miserável és! - com oferecer o despeito, a amargura de não teres sabido cumprir aquele propósito tão fácil!');
+INSERT INTO points VALUES(178,0,0,177,'Não desaproveites a ocasião de abater o teu próprio juízo. - Custa..., mas como é agradável aos olhos de Deus!');
+INSERT INTO points VALUES(179,0,0,178,'Quando vires uma pobre Cruz de madeira, só, desprezível e sem valor... e sem Crucificado, não esqueças que essa Cruz é a tua Cruz: a de cada dia, a escondida, sem brilho e sem consolação..., que está esperando o Crucificado que lhe falta. E esse Crucificado tens que ser tu.');
+INSERT INTO points VALUES(180,0,0,179,'Procura mortificações que não mortifiquem os outros.');
+INSERT INTO points VALUES(181,0,0,180,'Onde não há mortificação, não há virtude.');
+INSERT INTO points VALUES(182,0,0,181,'Mortificação interior. - Não acredito na tua mortificação interior, se vejo que desprezas, que não praticas a mortificação dos sentidos.');
+INSERT INTO points VALUES(183,0,0,182,'Bebamos até a última gota o cálice da dor na pobre vida presente. - Que importa padecer dez, vinte, cinqüenta anos..., se depois vem o Céu para sempre, para sempre..., para sempre?
+E sobretudo - melhor do que a razão apontada - "propter retributionem"* -, que importa padecer, se se padece para consolar, para dar gosto a Deus Nosso Senhor, com espírito de reparação, unido a Ele na sua Cruz..., numa palavra: se se padece por Amor?
+(*) Pela recompensa (N. do T.)
+.');
+INSERT INTO points VALUES(184,0,0,183,'Os olhos! Por eles entram na alma muitas iniqüidades. - Quantas experiências como a de Davi!... - Se guardardes a vista, tereis assegurado a guarda do vosso coração.');
+INSERT INTO points VALUES(185,0,0,184,'Para que hás de olhar, se “o teu mundo”, o levas dentro de ti?');
+INSERT INTO points VALUES(186,0,0,185,'O mundo admira somente o sacrifício com espetáculo, porque ignora o valor do sacrifício escondido e silencioso.');
+INSERT INTO points VALUES(187,0,0,186,'É preciso dar-se de todo, é preciso negar-se de todo: o sacrifício tem que ser holocausto*
+(*) Holocausto, entre os hebreus, era o sacrifício em que se queimava por inteiro a vítima oferecida a Deus (N. do T.)
+.');
+INSERT INTO points VALUES(188,0,0,187,'Paradoxo: para Viver é preciso morrer.');
+INSERT INTO points VALUES(189,0,0,188,'Olha que o coração é um traidor. - Fecha-o a sete chaves.');
+INSERT INTO points VALUES(190,0,0,189,'Tudo o que não te leva a Deus é um estorvo. Arranca-o e joga-o para longe.');
+INSERT INTO points VALUES(191,0,0,190,'Fazia o Senhor dizer a uma alma que tinha um superior iracundo e grosseiro: “Muito obrigado, meu Deus, por este tesouro verdadeiramente divino, porque, quando encontrarei outra pessoa que a cada amabilidade me corresponda com um par de coices?”');
+INSERT INTO points VALUES(192,0,0,191,'Vence-te em cada dia desde o primeiro momento, levantando-te pontualmente a uma hora fixa, sem conceder um só minuto à preguiça.
+Se, com a ajuda de Deus, te venceres, muito terás adiantado para o resto do dia.
+Desmoraliza tanto sentir-se vencido na primeira escaramuça!');
+INSERT INTO points VALUES(193,0,0,192,'Sais sempre vencido. - Propõe-te, de cada vez, a salvação de uma alma determinada, ou a sua santificação, ou a sua vocação para o apostolado... - Assim, estou certo da tua vitória.');
+INSERT INTO points VALUES(194,0,0,193,'Não sejas frouxo, mole. - Já é tempo de repelires essa estranha compaixão que sentes por ti mesmo.');
+INSERT INTO points VALUES(195,0,0,194,'Eu te vou dizer quais são os tesouros do homem na terra, para que não os desperdices: fome, sede, calor, frio, dor, desonra, pobreza, solidão, traição, calúnia, cárcere...');
+INSERT INTO points VALUES(196,0,0,195,'Tinha razão quem disse que a alma e o corpo são dois inimigos que não se podem separar, e dois amigos que não se podem ver.');
+INSERT INTO points VALUES(197,0,0,196,'Ao corpo, é preciso dar-lhe um pouco menos que o necessário. Senão, atraiçoa.');
+INSERT INTO points VALUES(198,0,0,197,'Se foram testemunhas das tuas fraquezas e misérias, que importa que o sejam da tua penitência?');
+INSERT INTO points VALUES(199,0,0,198,'Estes são os saborosos frutos da alma mortificada: compreensão e transigência para as misérias alheias; intransigência para as próprias.');
+INSERT INTO points VALUES(200,0,0,199,'Se o grão de trigo não morre, permanece infecundo. - Não queres ser grão de trigo, morrer pela mortificação e dar espigas bem graúdas?
+- Que Jesus abençoe o teu trigal!');
+INSERT INTO points VALUES(201,0,0,200,'Não te vences, não és mortificado, porque és soberbo. - Dizes que tens uma vida penitente? Não te esqueças de que a soberba é compatível com a penitência...
+- Mais razões: teu desgosto depois da queda, depois das tuas faltas de generosidade, é dor ou despeito de te veres tão pequeno e sem forças? - Que longe estás de Jesus se não és humilde..., ainda que as tuas disciplinas façam florescer, cada dia, rosas novas!');
+INSERT INTO points VALUES(202,0,0,201,'Que sabor a fel e a vinagre, a cinza e a azebre! Que paladar tão ressequido, pastoso e gretado!
+- Parece que não é nada essa impressão fisiológica, se a compararmos com os outros dissabores da tua alma.
+- É que te “pedem mais” e não o sabes dar. - Humilha-te: ficaria essa amarga impressão de desagrado, na tua carne e no teu espírito, se tivesses feito tudo quanto podes?');
+INSERT INTO points VALUES(203,0,0,202,'Quer dizer que vais impor-te voluntariamente um castigo pela tua fraqueza e falta de generosidade?
+- Está certo; mas que seja uma penitência discreta, como imposta a um inimigo que ao mesmo tempo fosse nosso irmão.');
+INSERT INTO points VALUES(204,0,0,203,'A alegria dos pobrezinhos dos homens, ainda que tenha um motivo sobrenatural, deixa sempre um ressaibo de amargura. - Que julgavas? - Aqui em baixo, a dor é o sal da nossa vida.');
+INSERT INTO points VALUES(205,0,0,204,'Quantos se deixariam cravar numa cruz perante o olhar atônito de milhares de espectadores, e não sabem sofrer cristãmente as alfinetadas de cada dia! - Pensa então no que será mais heróico.');
+INSERT INTO points VALUES(206,0,0,205,'Estávamos lendo - tu e eu - a vida heroicamente vulgar daquele homem de Deus. - E o vimos lutar, durante meses e anos (que “contabilidade”, a do seu exame particular!), à hora do café da manhã: hoje vencia, amanhã era vencido... Anotava: “Não comi manteiga... Comi manteiga!”
+Oxalá vivêssemos também - tu e eu - a nossa... “tragédia” da manteiga.');
+INSERT INTO points VALUES(207,0,0,206,'O minuto heróico. - É a hora exata de te levantares. Sem hesitar: um pensamento sobrenatural e... fora! - O minuto heróico: aí tens uma mortificação que fortalece a tua vontade e não debilita a tua natureza.');
+INSERT INTO points VALUES(208,0,0,207,'Agradece, como um favor muito especial, esse santo aborrecimento que sentes de ti mesmo.');
+INSERT INTO points VALUES(209,0,0,208,'Bendita seja a dor. - Amada seja a dor. Santificada seja a dor... Glorificada seja a dor!');
+INSERT INTO points VALUES(210,0,0,209,'Todo um programa, para cursar com aproveitamento a matéria da dor, nos dá o Apóstolo: "spe gaudentes" - na esperança, alegres; "in tribulatione patientes" - pacientes na tribulação; "orationi instantes" - na oração, perseverantes.');
+INSERT INTO points VALUES(211,0,0,210,'Expiação: esta é a senda que conduz à Vida.');
+INSERT INTO points VALUES(212,0,0,211,'Enterra com a penitência, no fosso profundo que a tua humildade abrir, as tuas negligências, ofensas e pecados. - Assim enterra o lavrador, ao pé da árvore que os produziu, frutos apodrecidos, ramos secos e folhas caducas.
+E o que era estéril, melhor, o que era prejudicial, contribui eficazmente para uma nova fecundidade.
+Aprende a tirar das quedas, impulso; da morte, vida.');
+INSERT INTO points VALUES(213,0,0,212,'Esse Cristo que tu vês não é Jesus. - Será, quando muito, a triste imagem que podem formar teus olhos turvos...
+- Purifica-te. Clarifica o teu olhar com a humildade e a penitência. Depois... não te hão de faltar as luzes límpidas do Amor. E terás uma visão perfeita. A tua imagem será realmente a sua: Ele!');
+INSERT INTO points VALUES(214,0,0,213,'Jesus sofre para cumprir a Vontade do Pai... E tu, que também queres cumprir a Santíssima Vontade de Deus, seguindo os passos do Mestre, poderás queixar-te se encontras por companheiro de caminho o sofrimento?');
+INSERT INTO points VALUES(215,0,0,214,'Diz ao teu corpo: - Prefiro ter um escravo a sê-lo teu.');
+INSERT INTO points VALUES(216,0,0,215,'Que medo têm as pessoas da expiação! Se o que fazem para ficar bem diante do mundo, o fizessem retificando a intenção, por Deus..., que santos seriam alguns e algumas!');
+INSERT INTO points VALUES(217,0,0,216,'Choras? - Não te envergonhes. Chora; sim, os homens também choram, como tu, na solidão e diante de Deus. - Durante a noite, diz o rei Davi, regarei de lágrimas o meu leito.
+Com essas lágrimas, ardentes e viris, podes purificar o teu passado e sobrenaturalizar a tua vida atual.');
+INSERT INTO points VALUES(218,0,0,217,'Quero que sejas feliz na terra. - Não o serás se não perdes esse medo à dor. Porque, enquanto “caminhamos”, na dor está precisamente a felicidade.');
+INSERT INTO points VALUES(219,0,0,218,'Que belo é perder a vida pela Vida!');
+INSERT INTO points VALUES(220,0,0,219,'Se sabes que essas dores - físicas ou morais - são purificação e merecimento, abençoa-as.');
+INSERT INTO points VALUES(221,0,0,220,'Não te deixa um mau sabor na boca esse desejo de bem-estar fisiológico - “Deus lhe dê saúde” - com que certos pobres agradecem ou pedem uma esmola?');
+INSERT INTO points VALUES(222,0,0,221,'Se formos generosos na expiação voluntária, Jesus nos encherá de graça para amarmos as expiações que Ele nos mandar.');
+INSERT INTO points VALUES(223,0,0,222,'Que a tua vontade exija aos sentidos, mediante a expiação, o que as outras potências lhe negam na oração.');
+INSERT INTO points VALUES(224,0,0,223,'Vale tão pouco a penitência sem a contínua mortificação!');
+INSERT INTO points VALUES(225,0,0,224,'Tens medo da penitência?... Da penitência, que te ajudará a obter a Vida eterna? No entanto, não vês como os homens, para conservarem esta pobre vida de agora, se submetem às mil torturas de uma cruenta operação cirúrgica?');
+INSERT INTO points VALUES(226,0,0,225,'Teu maior inimigo és tu mesmo.');
+INSERT INTO points VALUES(227,0,0,226,'Trata o teu corpo com caridade, mas não com mais caridade que a que se tem com um inimigo traidor.');
+INSERT INTO points VALUES(228,0,0,227,'Se sabes que o teu corpo é teu inimigo, e inimigo da glória de Deus, por sê-lo da tua santificação, por que o tratas com tanta brandura?');
+INSERT INTO points VALUES(229,0,0,228,'“Passem muito boa tarde” - disseram-nos, como é costume -, e comentou uma alma muito de Deus: - Que desejos tão curtos!');
+INSERT INTO points VALUES(230,0,0,229,'Contigo, Jesus, que agradável é a dor e que luminosa a obscuridade!');
+INSERT INTO points VALUES(231,0,0,230,'Sofres! - Pois olha: “Ele” não tem o Coração menor que o nosso. - Sofres? Convém.');
+INSERT INTO points VALUES(232,0,0,231,'O jejum rigoroso é penitência agradabilíssima a Deus. - Mas, ora por esta, ora por aquela razão, temos feito concessões. Não faz mal - muito pelo contrário! - que tu, com a aprovação do teu Diretor, o pratiques com freqüência.');
+INSERT INTO points VALUES(233,0,0,232,'Motivos para a penitência? Desagravo, reparação, petição, ação de graças; meio para progredir...; por ti, por mim, pelos outros, pela tua família, pelo teu país, pela Igreja... E mil motivos mais.');
+INSERT INTO points VALUES(234,0,0,233,'Não faças mais penitência do que a que o teu Diretor te consentir.');
+INSERT INTO points VALUES(235,0,0,234,'Como enobrecemos a dor quando a colocamos no lugar que lhe corresponde - expiação - na economia do espírito!');
+INSERT INTO points VALUES(236,0,0,235,'Exame. - Tarefa diária. - Contabilidade que nunca descura quem tem um negócio.
+E há negócio que renda mais que o negócio da vida eterna?');
+INSERT INTO points VALUES(237,0,0,236,'À hora do exame, vai prevenido contra o demônio mudo.');
+INSERT INTO points VALUES(238,0,0,237,'Examina-te: devagar, com valentia. - Não é verdade que o teu mau humor e a tua tristeza inexplicáveis (inexplicáveis, aparentemente) procedem da tua falta de decisão em cortar os laços, sutis mas “concretos”, que te armou - arteiramente, com paliativos - a tua concupiscência?');
+INSERT INTO points VALUES(239,0,0,238,'O exame geral assemelha-se à defesa. - O particular, ao ataque. - O primeiro é a armadura. O segundo, espada toledana*.
+(*) As espadas fabricadas na cidade castelhana de Toledo eram conhecidas pela excelente têmpera do seu aço (N. do T.).');
+INSERT INTO points VALUES(240,0,0,239,'Um olhar sobre o passado. - E... lamentar-te? Não, que é estéril. - Aprender, que é fecundo.');
+INSERT INTO points VALUES(241,0,0,240,'Pede luz. Insiste. - Até dares com a raiz, para lhe aplicares essa arma de combate que é o exame particular.');
+INSERT INTO points VALUES(242,0,0,241,'Com o exame particular tens de procurar diretamente adquirir uma virtude determinada ou arrancar o defeito que te domina.');
+INSERT INTO points VALUES(243,0,0,242,'“Quanto não devo a Deus, como cristão! A minha falta de correspondência, perante essa dívida, tem-me feito chorar de dor: de dor de Amor. "Mea culpa!"”
+- Bom é que vás reconhecendo as tuas dívidas. Mas não te esqueças de como se pagam: com lágrimas... e com obras.');
+INSERT INTO points VALUES(244,0,0,243,'"Qui fidelis est in minimo et in majori fidelis est": quem é fiel no pouco, também o é no muito. - São palavras de São Lucas, que te indicam - faz exame - a raiz dos teus descaminhos.');
+INSERT INTO points VALUES(245,0,0,244,'Reage. - Ouve o que te diz o Espírito Santo: "Si inimicus meus maledixisset mihi, sustinuissem utique" - que o meu inimigo me ofenda, não é estranho e é mais tolerável. Mas tu... "tu vero homo unanimis, dux meus, et notus meus, qui simul mecum dulces capiebas cibos" - tu, meu amigo, meu apóstolo, que te sentas à minha mesa e comes comigo doces manjares!');
+INSERT INTO points VALUES(246,0,0,245,'Em dias de retiro, o teu exame deve ser mais profundo e mais extenso que o habitual exame da noite. - Quando não, perdes uma grande ocasião de retificar.');
+INSERT INTO points VALUES(247,0,0,246,'Acaba sempre o teu exame com um ato de Amor - dor de Amor -: por ti, por todos os pecados dos homens... - E considera o cuidado paternal de Deus, que afastou de ti os obstáculos para que não tropeçasses.');
+INSERT INTO points VALUES(248,0,0,247,'Concretiza. - Que os teus propósitos não sejam fogos de artifício, que brilham um instante para deixarem, como realidade amarga, uma vareta de foguete, negra e inútil, que se joga fora com desprezo.');
+INSERT INTO points VALUES(249,0,0,248,'És tão jovem! - Pareces um barco que empreende viagem. - Esse ligeiro desvio de agora, se não o corriges, fará que no fim não chegues ao porto.');
+INSERT INTO points VALUES(250,0,0,249,'Faz poucos propósitos. - Faz propósitos concretos. - E cumpre-os com a ajuda de Deus.');
+INSERT INTO points VALUES(251,0,0,250,'Disseste-me e te ouvi em silêncio: “Sim, quero ser santo”. Se bem que esta afirmação, tão esfumada, tão geral, me pareça normalmente uma tolice.');
+INSERT INTO points VALUES(252,0,0,251,'Amanhã! Algumas vezes, é prudência; muitas vezes, é o advérbio dos vencidos.');
+INSERT INTO points VALUES(253,0,0,252,'Faz este propósito determinado e firme: lembrar-te, quando te derem honras e louvores, daquilo que te envergonha e te faz corar.
+Isso é teu; o louvor e a glória, de Deus.');
+INSERT INTO points VALUES(254,0,0,253,'Porta-te bem “agora”, sem te lembrares do “ontem”, que já passou, e sem te preocupares com o “amanhã”, que não sabes se chegará para ti.');
+INSERT INTO points VALUES(255,0,0,254,'Agora! Volta à tua vida nobre agora.
+Não te deixes enganar: “agora” não é demasiado cedo... nem demasiado tarde.');
+INSERT INTO points VALUES(256,0,0,255,'Queres que te diga tudo o que penso do “teu caminho”? Pois olha: verás que, se correspondes à chamada divina, trabalharás por Cristo como ninguém; se te fazes homem de oração, obterás essa correspondência de que te falo, e procurarás, com fome de sacrifício, os trabalhos mais duros...
+E serás feliz aqui, e felicíssimo depois, na Vida.');
+INSERT INTO points VALUES(257,0,0,256,'Essa chaga dói. - Está, porém, em vias de cura; sê conseqüente com os teus propósitos. E em breve a dor será gozosa paz.');
+INSERT INTO points VALUES(258,0,0,257,'Estás como um saco de areia. - Não fazes nada da tua parte. E assim não admira que comeces a sentir os sintomas da tibieza. - Reage.');
+INSERT INTO points VALUES(259,0,0,258,'Repele esses escrúpulos que te tiram a paz. - Não é de Deus o que rouba a paz da alma.
+Quando Deus te visitar, hás de sentir a verdade daquelas saudações: “Dou-vos a paz..., deixo-vos a paz..., a paz seja convosco...” E isso, no meio da tribulação.');
+INSERT INTO points VALUES(260,0,0,259,'Ainda os escrúpulos! - Fala com simplicidade e clareza ao teu Diretor.
+Obedece..., e não julgues que é tão mesquinho assim o Coração amorosíssimo do Senhor.');
+INSERT INTO points VALUES(261,0,0,260,'Tristeza, abatimento. - Não me admira; é a nuvem de pó que a tua queda levantou. Mas basta! Por acaso o vento da graça não levou para longe essa nuvem?
+Além disso, a tua tristeza, se não a repeles, bem pode ser o invólucro da tua soberba. - Julgavas-te perfeito e impecável?');
+INSERT INTO points VALUES(262,0,0,261,'Proíbo-te que penses mais nisso. - Pelo contrário, louva a Deus, que devolveu a vida à tua alma.');
+INSERT INTO points VALUES(263,0,0,262,'Não penses mais na tua queda. - Esse pensamento, além de pesada laje que te cobre e esmaga, facilmente se tornará ocasião de próximas tentações. - Cristo te perdoou. Esquece o “homem velho”.');
+INSERT INTO points VALUES(264,0,0,263,'Não desanimes. - Eu te vi lutar... A tua derrota de hoje é treino para a vitória definitiva.');
+INSERT INTO points VALUES(265,0,0,264,'Sei que te portaste bem..., apesar de teres caído tão fundo. - Sei que te portaste bem, porque te humilhaste, porque retificaste, porque te encheste de esperança, e a esperança te trouxe de novo ao Amor. - Não faças essa cara boba de surpresa; de fato, te portaste bem! - Já te levantaste do chão. "Surge", clamou de novo a voz poderosa, "et ambula!"* - Agora, ao trabalho!
+(*) “Levanta-te e anda!” (N. do T.)');
+INSERT INTO points VALUES(266,0,0,265,'Os filhos..., como procuram comportar-se dignamente quando estão diante de seus pais!
+E os filhos de Reis, diante de seu pai El-Rei, como procuram guardar a dignidade da realeza!
+E tu... não sabes que estás sempre diante do Grande Rei, teu Pai-Deus?');
+INSERT INTO points VALUES(267,0,0,266,'Não tomes uma decisão sem te deteres a considerar o assunto diante de Deus.');
+INSERT INTO points VALUES(268,0,0,267,'É preciso convencer-se de que Deus está junto de nós continuamente. - Vivemos como se o Senhor estivesse lá longe, onde brilham as estrelas, e não consideramos que também está sempre ao nosso lado.
+E está como um Pai amoroso - quer mais a cada um de nós do que todas as mães do mundo podem querer a seus filhos -, ajudando-nos, inspirando-nos, abençoando... e perdoando.
+Quantas vezes fizemos desanuviar o rosto de nossos pais dizendo-lhes, depois de uma travessura: Não volto a fazer mais! - Talvez naquele mesmo dia tenhamos tornado a cair... - E o nosso pai, com fingida dureza na voz, de cara séria, repreende-nos..., ao mesmo tempo que se enternece o seu coração, conhecedor da nossa fraqueza, pensando: - Pobre criatura, que esforços faz para se portar bem!
+Necessário é que nos embebamos, que nos saturemos de que Pai e muito Pai nosso é o Senhor que está junto de nós e nos céus.');
+INSERT INTO points VALUES(269,0,0,268,'Habitua-te a elevar o coração a Deus em ação de graças, muitas vezes ao dia. - Porque te dá isto e aquilo. - Porque te desprezaram. - Porque não tens o que precisas, ou porque o tens.
+Porque fez tão formosa a sua Mãe, que é também tua Mãe. - Porque criou o Sol e a Lua e este animal e aquela planta. - Porque fez aquele homem eloqüente e a ti te fez difícil de palavra...
+Dá-Lhe graças por tudo, porque tudo é bom.');
+INSERT INTO points VALUES(270,0,0,269,'Não sejas tão cego ou tão estouvado que deixes de meter-te dentro de cada Sacrário quando divisares os muros ou as torres das casas do Senhor. - Ele te espera.
+Não sejas tão cego ou tão estouvado que deixes de rezar a Maria Imaculada ao menos uma jaculatória sempre que passes junto de lugares onde sabes que se ofende a Cristo.');
+INSERT INTO points VALUES(271,0,0,270,'Não te alegras quando descobres no teu caminho habitual, pelas ruas da cidade, outro Sacrário?');
+INSERT INTO points VALUES(272,0,0,271,'Dizia uma alma de oração: - Nas intenções, seja Jesus o nosso fim; nos afetos, o nosso Amor; na palavra, o nosso assunto; nas ações, o nosso modelo.');
+INSERT INTO points VALUES(273,0,0,272,'Emprega esses santos “expedientes humanos” que te aconselhei para não perderes a presença de Deus: jaculatórias, atos de Amor e desagravo, comunhões espirituais, “olhares” à imagem de Nossa Senhora...');
+INSERT INTO points VALUES(274,0,0,273,'Só! - Não estás só. Fazemos-te muita companhia, mesmo de longe. - Além disso..., firmado na tua alma em graça, o Espírito Santo - Deus contigo - vai dando tom sobrenatural a todos os teus pensamentos, desejos e obras.');
+INSERT INTO points VALUES(275,0,0,274,'“Padre” - dizia-me aquele rapagão (que será feito dele?), bom estudante da Central* -, “estava pensando no que o senhor me falou..., que sou filho de Deus! E me surpreendi, pela rua, de corpo "emproado" e soberbo por dentro... Filho de Deus!”
+Aconselhei-o, com segura consciência, a fomentar a “soberba”.
+(*) Assim se chamava à Universidade de Madrid na época em que Caminho foi escrito (N. do T.).');
+INSERT INTO points VALUES(276,0,0,275,'Não duvido da tua retidão. - Sei que ages na presença de Deus. Mas... (há um “mas”!) as tuas ações são presenciadas ou podem ser presenciadas por homens que julguem humanamente... E é preciso dar-lhes bom exemplo.');
+INSERT INTO points VALUES(277,0,0,276,'Se te habituares, mesmo que seja uma só vez por semana, a procurar a união com Maria para ir a Jesus, verás como tens mais presença de Deus.');
+INSERT INTO points VALUES(278,0,0,277,'Perguntas-me: - Por que essa Cruz de madeira? - E copio de uma carta: “Ao levantar a vista do microscópio, o olhar vai tropeçar na Cruz negra e vazia. Esta Cruz sem Crucificado é um símbolo. Tem um sentido que os outros não entenderão. E aquele que, cansado, estava a ponto de abandonar a tarefa, aproxima de novo os olhos da ocular e continua trabalhando: porque a Cruz solitária está pedindo uns ombros que carreguem com ela.”');
+INSERT INTO points VALUES(279,0,0,278,'Tem presença de Deus e terás vida sobrenatural.');
+INSERT INTO points VALUES(280,0,0,279,'As pessoas, geralmente, têm uma visão plana, pegada à terra, de duas dimensões. - Quando a tua vida for sobrenatural, obterás de Deus a terceira dimensão: a altura. E, com ela, o relevo, o peso e o volume.');
+INSERT INTO points VALUES(281,0,0,280,'Se perdes o sentido sobrenatural da tua vida, a tua caridade será filantropia; a tua pureza, decência; a tua mortificação, bobice; as tuas disciplinas, látego; e todas as tuas obras, estéreis.');
+INSERT INTO points VALUES(282,0,0,281,'O silêncio é como que o porteiro da vida interior.');
+INSERT INTO points VALUES(283,0,0,282,'Paradoxo: é mais acessível ser santo do que sábio, mas é mais fácil ser sábio do que santo.');
+INSERT INTO points VALUES(284,0,0,283,'Distrair-te. - Precisas distrair-te..., abrindo muito os olhos, para que entrem bem as imagens das coisas, ou fechando-os quase, por exigências da tua miopia...
+Fecha-os de todo! Tem vida interior, e verás, com cor e relevo inesperados, as maravilhas de um mundo melhor, de um mundo novo: e terás intimidade com Deus..., e conhecerás a tua miséria..., e te endeusarás..., com um endeusamento que, aproximando-te de teu Pai, te fará mais irmão dos teus irmãos, os homens.');
+INSERT INTO points VALUES(285,0,0,284,'Aspiração: que eu seja bom, e todos os outros melhores do que eu.');
+INSERT INTO points VALUES(286,0,0,285,'A conversão é coisa de um instante. A santificação é obra de toda a vida.');
+INSERT INTO points VALUES(287,0,0,286,'Não há nada melhor no mundo do que estar em graça de Deus.');
+INSERT INTO points VALUES(288,0,0,287,'Pureza de intenção. - Tê-la-ás sempre se, sempre e em tudo, só procurares agradar a Deus.');
+INSERT INTO points VALUES(289,0,0,288,'Mete-te nas chagas de Cristo Crucificado. Ali aprenderás a guardar os teus sentidos, terás vida interior, e oferecerás ao Pai continuamente as dores do Senhor e as de Maria, para pagar por tuas dívidas e por todas as dívidas dos homens.');
+INSERT INTO points VALUES(290,0,0,289,'Essa tua santa impaciência por servir a Deus não Lhe desagrada. - Mas será estéril se não for acompanhada de um efetivo melhoramento na tua conduta diária.');
+INSERT INTO points VALUES(291,0,0,290,'Retificar. - Cada dia um pouco. - Eis o teu trabalho constante, se de verdade queres tornar-te santo.');
+INSERT INTO points VALUES(292,0,0,291,'Tens obrigação de santificar-te. - Tu também. - Alguém pensa, por acaso, que é tarefa exclusiva de sacerdotes e religiosos?
+A todos, sem exceção, disse o Senhor: “Sede perfeitos, como meu Pai Celestial é perfeito”.');
+INSERT INTO points VALUES(293,0,0,292,'A tua vida interior deve ser isso precisamente: começar... e recomeçar.');
+INSERT INTO points VALUES(294,0,0,293,'Na vida interior, tens considerado devagar a beleza de “servir” com voluntariedade sempre atual?');
+INSERT INTO points VALUES(295,0,0,294,'Não se viam as plantas cobertas pela neve. - E o agricultor, dono do campo, comentou jovialmente: “Agora estão crescendo para dentro”.
+- Pensei em ti, na tua forçosa inatividade...
+- E... diz-me uma coisa: também cresces para dentro?');
+INSERT INTO points VALUES(296,0,0,295,'Se não és senhor de ti mesmo, ainda que sejas poderoso, dá-me pena e riso o teu senhorio.');
+INSERT INTO points VALUES(297,0,0,296,'É duro ler nos Santos Evangelhos a pergunta de Pilatos: “Quem quereis que vos solte? Barrabás ou Jesus, que se chama Cristo?” - É mais penoso ouvir a resposta: “Barrabás!”
+E mais terrível ainda verificar que - muitas vezes! -, ao afastar-me do caminho, tenho dito também: “Barrabás!” E tenho acrescentado: “Cristo?... "Crucifige eum!" - Crucifica-o!”');
+INSERT INTO points VALUES(298,0,0,297,'Tudo isso, que te preocupa de momento, é mais ou menos importante. - O que importa acima de tudo é que sejas feliz, que te salves.');
+INSERT INTO points VALUES(299,0,0,298,'Luzes novas! - Que alegria sentes porque o Senhor te fez descobrir uma nova América!
+- Aproveita esses instantes: é a hora de romperes a cantar um hino de ação de graças, e é também a hora de sacudires o pó de alguns recantos da tua alma, de abandonares certas rotinas, de agires mais sobrenaturalmente, de evitares um possível escândalo ao próximo...
+- Numa palavra: que o teu agradecimento se manifeste em um propósito concreto.');
+INSERT INTO points VALUES(300,0,0,299,'Cristo morreu por ti. - Tu... que deves fazer por Cristo?');
+INSERT INTO points VALUES(301,0,0,300,'A tua experiência pessoal - esse desabrimento, essa inquietação, essa amargura - faz-te sentir a verdade daquelas palavras de Jesus: “Ninguém pode servir a dois senhores!”');
+INSERT INTO points VALUES(302,0,0,301,'Um segredo. - Um segredo em voz alta: estas crises mundiais são crises de santos.
+Deus quer um punhado de homens “seus” em cada atividade humana. - Depois... "pax Christi in regno Christi" - a paz de Cristo no reino de Cristo.');
+INSERT INTO points VALUES(303,0,0,302,'O teu Crucifixo. - Como cristão, deverias trazer sempre contigo o teu Crucifixo. E colocá-lo sobre a tua mesa de trabalho. E beijá-lo antes de te entregares ao descanso e ao acordar.
+- E quando o pobre corpo se rebelar contra a tua alma, beija-o também.');
+INSERT INTO points VALUES(304,0,0,303,'Perde o medo de chamar o Senhor pelo seu nome - Jesus - e de Lhe dizer que O amas.');
+INSERT INTO points VALUES(305,0,0,304,'Procura encontrar diariamente uns minutos dessa bendita solidão que tanta falta te faz para teres em andamento a vida interior.');
+INSERT INTO points VALUES(306,0,0,305,'Escreveste-me: “A simplicidade é como que o sal da perfeição. E é o que me falta. Quero consegui-la, com a ajuda dEle e a sua”.
+- Nem a dEle nem a minha te hão de faltar. - Põe em prática os meios.');
+INSERT INTO points VALUES(307,0,0,306,'Que a vida do homem sobre a terra é milícia, disse-o Jó há muitos séculos.
+Ainda há comodistas que não deram por isso.');
+INSERT INTO points VALUES(308,0,0,307,'Esse modo sobrenatural de proceder é uma verdadeira tática militar. - Sustentas a guerra - as lutas diárias da tua vida interior - em posições que colocas longe dos redutos da tua fortaleza.
+E o inimigo acode aí: à tua pequena mortificação, à tua oração habitual, ao teu trabalho metódico, ao teu plano de vida; e é difícil que chegue a aproximar-se dos torreões, fracos para o assalto, do teu castelo. E, se chega, chega sem eficácia.');
+INSERT INTO points VALUES(309,0,0,308,'Escreves-me e copio: “A minha alegria e a minha paz... Nunca poderei ter verdadeira alegria se não tiver paz. E o que é a paz? A paz é algo de muito relacionado com a guerra. A paz é conseqüência da vitória. A paz exige de mim uma contínua luta. Sem luta, não poderei ter paz”.');
+INSERT INTO points VALUES(310,0,0,309,'Repara que entranhas de misericórdia tem a justiça de Deus! - Porque, nos julgamentos humanos, castiga-se a quem confessa a sua culpa; e no divino, perdoa-se.
+Bendito seja o santo Sacramento da Penitência!');
+INSERT INTO points VALUES(311,0,0,310,'"Induimini Dominum Jesum Christum" - revesti-vos de Nosso Senhor Jesus Cristo, dizia São Paulo aos Romanos. - É no Sacramento da Penitência que tu e eu nos revestimos de Jesus Cristo e dos seus merecimentos.');
+INSERT INTO points VALUES(312,0,0,311,'A guerra! - A guerra - dizes - tem uma finalidade sobrenatural desconhecida do mundo: a guerra foi feita para nós...
+- A guerra é o obstáculo máximo do caminho fácil. - Mas temos de amá-la, ao fim e ao cabo, como o religioso deve amar as suas disciplinas.');
+INSERT INTO points VALUES(313,0,0,312,'O poder do teu nome, Senhor! - Encabecei a minha carta como costumo: “Jesus te guarde”.
+- E me escrevem: “O "Jesus te guarde" da sua carta já me serviu para escapar de uma boa. Que Ele os guarde a todos também”.');
+INSERT INTO points VALUES(314,0,0,313,'“Já que o Senhor me ajuda com a sua habitual generosidade, procurarei corresponder com um "aprimoramento" dos meus modos”, disseste-me. - E eu nada tive que acrescentar.');
+INSERT INTO points VALUES(315,0,0,314,'Escrevi-te dizendo: “Apóio-me em ti. Vê lá o que fazemos!...” - Que havíamos de fazer, senão apoiar-nos no Outro!');
+INSERT INTO points VALUES(316,0,0,315,'Missionário. - Sonhas em ser missionário. Tens vibrações como as de Xavier, e queres conquistar para Cristo um império. - O Japão, a China, a Índia, a Rússia..., os povos frios do norte da Europa, ou a América, ou a África, ou a Austrália...
+- Fomenta esses incêndios em teu coração, essa fome de almas. Mas não esqueças que és mais missionário “obedecendo”. Geograficamente longe desses campos de apostolado, trabalhas “aqui” e “ali”. Não sentes - como Xavier! - o braço cansado, depois de administrares a tantos o batismo?');
+INSERT INTO points VALUES(317,0,0,316,'Dizes que sim, que queres. - Está bem.
+- Mas... queres como um avaro quer o seu ouro, como uma mãe quer ao seu filho, como um ambicioso quer as honras, ou como um pobre sensual quer o seu prazer?
+- Não? Então não queres.');
+INSERT INTO points VALUES(318,0,0,317,'Que empenho põem os homens nos seus assuntos terrenos!: sonhos de honras, ambição de riquezas, preocupações de sensualidade. - Eles e elas, ricos e pobres, velhos e homens feitos e moços e até crianças; todos a mesma coisa.
+- Quando tu e eu pusermos o mesmo empenho nos assuntos da nossa alma, teremos uma fé viva e operante; e não haverá obstáculo que não vençamos nos nossos empreendimentos apostólicos.');
+INSERT INTO points VALUES(319,0,0,318,'Para ti, que és esportista, que boa razão é a do Apóstolo!: "Nescitis quod ii qui in stadio currunt omnes quidem currunt, sed unus accipit bravium? Sic currite ut comprehendatis". - Não sabeis que, dos que correm no estádio, embora todos corram, um só obtém o prêmio? Correi de tal maneira que o ganheis.');
+INSERT INTO points VALUES(320,0,0,319,'Recolhe-te. - Procura a Deus em ti e escuta-O.');
+INSERT INTO points VALUES(321,0,0,320,'Fomenta esses pensamentos nobres, esses santos desejos incipientes... - Uma faísca pode dar origem a uma fogueira.');
+INSERT INTO points VALUES(322,0,0,321,'Alma de apóstolo: essa intimidade de Jesus contigo - tão junto dEle, tantos anos! - não te diz nada?');
+INSERT INTO points VALUES(323,0,0,322,'É verdade que ao nosso Sacrário chamo sempre Betânia... - Faz-te amigo dos amigos do Mestre: Lázaro, Marta, Maria. - E depois não me perguntarás mais por que chamo Betânia ao nosso Sacrário.');
+INSERT INTO points VALUES(324,0,0,323,'Tu sabes que há “conselhos evangélicos”. Segui-los é uma finura de Amor. - Dizem que é caminho de poucos. - Às vezes penso que podia ser caminho de muitos.');
+INSERT INTO points VALUES(325,0,0,324,'"Quia hic homo coepit aedificare et non potuit consummare!" - começou a edificar e não pôde terminar!
+Triste comentário que, se quiseres, não se fará de ti, porque tens todos os meios para coroar o edifício da tua santificação: a graça de Deus e a tua vontade.');
+INSERT INTO points VALUES(326,0,0,325,'Luta contra essa frouxidão que te faz preguiçoso e desleixado na tua vida espiritual. - Olha que pode ser o princípio da tibieza..., e, na frase da Escritura, aos tíbios, Deus os vomitará.');
+INSERT INTO points VALUES(327,0,0,326,'Dói-me ver o perigo de tibieza em que te encontras quando não te vejo caminhar seriamente para a perfeição dentro do teu estado.
+- Diz comigo: Não quero tibieza! "Confige timore tuo carnes meas!" - dá-me, meu Deus, um temor filial que me faça reagir!');
+INSERT INTO points VALUES(328,0,0,327,'Já sei que evitas os pecados mortais. - Queres salvar-te! - Mas não te preocupa esse contínuo cair deliberadamente em pecados veniais, ainda que sintas o chamado de Deus para te venceres em cada caso.
+- É a tibieza que torna a tua vontade tão fraca.');
+INSERT INTO points VALUES(329,0,0,328,'Que pouco Amor de Deus tens quando cedes sem luta só porque não é pecado grave!');
+INSERT INTO points VALUES(330,0,0,329,'Os pecados veniais fazem muito mal à alma. - Por isso, "capite nobis vulpes parvulas, quae demoliuntur vineas", diz o Senhor no “Cântico dos Cânticos”: caçai as pequenas raposas que destroem a vinha.');
+INSERT INTO points VALUES(331,0,0,330,'Que pena me dás enquanto não sentires dor dos teus pecados veniais! - Porque, até então, não terás começado a ter verdadeira vida interior.');
+INSERT INTO points VALUES(332,0,0,331,'És tíbio se fazes preguiçosamente e de má vontade as coisas que se referem ao Senhor; se procuras com cálculo ou “manha” o modo de diminuir os teus deveres; se só pensas em ti e na tua comodidade; se as tuas conversas são ociosas e vãs; se não aborreces o pecado venial; se ages por motivos humanos.');
+INSERT INTO points VALUES(333,0,0,332,'Àquele que puder ser sábio, não lhe perdoamos que não o seja.');
+INSERT INTO points VALUES(334,0,0,333,'Estudo. - Obediência: "Non multa, sed multum"*.
+(*) “Não muitas coisas, mas muito”, em profundidade (N. do T.).');
+INSERT INTO points VALUES(335,0,0,334,'Oras, mortificas-te, trabalhas em mil coisas de apostolado..., mas não estudas. - Não serves, então, se não mudas.
+O estudo, a formação profissional, seja qual for, é obrigação grave entre nós.');
+INSERT INTO points VALUES(336,0,0,335,'Para um apóstolo moderno, uma hora de estudo é uma hora de oração.');
+INSERT INTO points VALUES(337,0,0,336,'Se tens de servir a Deus com a tua inteligência, para ti estudar é uma obrigação grave.');
+INSERT INTO points VALUES(338,0,0,337,'Freqüentas os Sacramentos, fazes oração, és casto... e não estudas... - Não me digas que és bom; és apenas bonzinho.');
+INSERT INTO points VALUES(339,0,0,338,'Dantes, como os conhecimentos humanos - a ciência - eram muito limitados, parecia bem possível que um só homem sábio pudesse fazer a defesa e a apologia da nossa santa Fé.
+Hoje, com a extensão e a intensidade da ciência moderna, é preciso que os apologistas dividam entre si o trabalho, para defenderem cientificamente a Igreja em todos os campos.
+- Tu... não podes furtar-te a esta obrigação.');
+INSERT INTO points VALUES(340,0,0,339,'Livros. Não os compres sem te aconselhares com pessoas cristãs, doutas e prudentes. - Poderias comprar uma coisa inútil ou prejudicial.
+Quantas vezes julgam levar debaixo do braço um livro... e levam um montão de lixo!');
+INSERT INTO points VALUES(341,0,0,340,'Estuda. - Estuda com empenho. - Se tens de ser sal e luz, necessitas de ciência, de idoneidade.
+Ou julgas que, por seres preguiçoso e comodista, hás de receber ciência infusa?');
+INSERT INTO points VALUES(342,0,0,341,'Está certo que ponhas esse empenho no estudo, sempre que ponhas o mesmo empenho em adquirir a vida interior.');
+INSERT INTO points VALUES(343,0,0,342,'Não esqueças que antes de ensinar é preciso fazer. - "Coepit facere et docere", diz de Jesus Cristo a Sagrada Escritura: começou a fazer e a ensinar.
+- Primeiro, fazer. Para que tu e eu aprendamos.');
+INSERT INTO points VALUES(344,0,0,343,'Trabalha. - Quando tiveres a preocupação de um trabalho profissional, melhorará a vida da tua alma. E serás mais varonil, porque abandonarás esse “espírito de mexerico” que te consome.');
+INSERT INTO points VALUES(345,0,0,344,'Educador: o inegável empenho que pões em conhecer e praticar o melhor método para que os teus alunos adquiram a ciência terrena, põe-no também em conhecer e praticar a ascética cristã, que é o único método para que eles e tu sejais melhores.');
+INSERT INTO points VALUES(346,0,0,345,'Cultura, cultura! - Está certo. Que ninguém nos vença em ambicioná-la e possuí-la.
+- Mas a cultura é meio, e não fim.');
+INSERT INTO points VALUES(347,0,0,346,'Estudante: forma-te numa piedade sólida e ativa, sobressai no estudo, sente anelos firmes de apostolado profissional. - E eu te prometo, ante o vigor da tua formação religiosa e científica, próximas e amplas conquistas.');
+INSERT INTO points VALUES(348,0,0,347,'Só te preocupas de edificar a tua cultura. E é preciso edificar a tua alma. - Assim trabalharás como deves, por Cristo. Para que Ele reine no mundo, é necessário que haja gente que, com o olhar posto no Céu, se dedique prestigiosamente a todas as atividades humanas e, dentro delas, realize silenciosamente - e eficazmente - um apostolado de caráter profissional.');
+INSERT INTO points VALUES(349,0,0,348,'A tua incúria, o teu desleixo, a tua indolência são covardia e comodismo - assim te argúi continuamente a consciência -, mas “não são caminho”.');
+INSERT INTO points VALUES(350,0,0,349,'Fica tranqüilo se exprimiste uma opinião ortodoxa, ainda que a malícia de quem te escutou o leve a escandalizar-se. - Porque o seu escândalo é farisaico.');
+INSERT INTO points VALUES(351,0,0,350,'Não é suficiente que sejas sábio, além de bom cristão. - Se não corriges as maneiras bruscas do teu caráter, se tornas incompatível o teu zelo e a tua ciência com a boa educação, não compreendo como possas vir a ser santo. - E mesmo que realmente sejas sábio, devias estar amarrado a uma manjedoura, como um mulo.');
+INSERT INTO points VALUES(352,0,0,351,'Com esse ar de auto-suficiência, tornas-te aborrecido e antipático, cais no ridículo e, o que é pior, tiras eficácia ao teu trabalho de apóstolo.
+Não esqueças que até os “medíocres” podem pecar por demasiado sábios.');
+INSERT INTO points VALUES(353,0,0,352,'A tua própria inexperiência te leva a essa presunção, a essa vaidade, a isso que tu julgas que te dá um ar de importância.
+- Corrige-te, por favor. Néscio e tudo, podes chegar a ocupar cargos de direção (mais de um caso se tem visto), e, se não te persuades da tua falta de dotes, te negarás a escutar os que têm dom de conselho. - E dá medo pensar no mal que fará o teu desgoverno.');
+INSERT INTO points VALUES(354,0,0,353,'Aconfessionalismo. - Neutralidade. - Velhos mitos que tentam sempre remoçar.
+Tens-te dado ao trabalho de meditar no absurdo que é deixar de ser católico ao entrar na Universidade, ou na Associação profissional, ou na sábia Academia, ou no Parlamento, como quem deixa o chapéu à porta?');
+INSERT INTO points VALUES(355,0,0,354,'Aproveita o tempo. - Não te esqueças da figueira amaldiçoada. Já fazia alguma coisa: dar folhas. Como tu...
+- Não me digas que tens desculpas. - De nada valeu à figueira - narra o Evangelista - não ser tempo de figos, quando o Senhor lá os foi buscar.
+- E estéril ficou para sempre.');
+INSERT INTO points VALUES(356,0,0,355,'Os que andam em negócios humanos dizem que o tempo é ouro. - Parece-me pouco; para nós, que andamos em negócios de almas, o tempo é Glória!');
+INSERT INTO points VALUES(357,0,0,356,'Não compreendo que te digas cristão e tenhas essa vida de preguiçoso inútil. - Será que esqueces a vida de trabalho de Cristo?');
+INSERT INTO points VALUES(358,0,0,357,'Todos os pecados - disseste-me - parece que estão à espera do primeiro momento de ócio. O próprio ócio já deve ser um pecado!
+- Quem se entrega a trabalhar por Cristo não há de ter um momento livre, porque o descanso não é não fazer nada; é distrair-se em atividades que exigem menos esforço.');
+INSERT INTO points VALUES(359,0,0,358,'Estar ocioso é coisa que não se compreende num homem com alma de apóstolo.');
+INSERT INTO points VALUES(360,0,0,359,'Põe um motivo sobrenatural na tua atividade profissional de cada dia, e terás santificado o trabalho.');
+INSERT INTO points VALUES(361,0,0,360,'Como te rias, nobremente, quando te aconselhei a pôr teus anos moços sob a proteção de São Rafael!: para que ele te leve a um matrimônio santo, como ao jovem Tobias, com uma moça que seja boa e bonita e rica - disse-te, brincando.
+E depois, que pensativo ficaste quando continuei a aconselhar-te que te pusesses também sob o patrocínio daquele Apóstolo adolescente, João, para o caso de o Senhor te pedir mais.');
+INSERT INTO points VALUES(362,0,0,361,'Para ti, que te queixas interiormente porque te tratam com dureza, e sentes o contraste desse rigor com a conduta da tua família, copio estes parágrafos da carta de um tenente médico: “Diante do enfermo, é possível a atitude fria e calculadora, mas objetiva e útil para o paciente, do profissional honesto. E também a pieguice lamurienta da família. - Que seria de um posto de socorros durante um combate, quando vai chegando a vaga de feridos, que se amontoam porque a evacuação não é suficientemente rápida, se junto de cada maca houvesse uma família? Era caso para passar-se ao inimigo”.');
+INSERT INTO points VALUES(363,0,0,362,'Não preciso de milagres; bastam-me os que há na Escritura. - Pelo contrário, faz-me falta o teu cumprimento do dever, a tua correspondência à graça.');
+INSERT INTO points VALUES(364,0,0,363,'Desiludido. - Vens de asa caída. Os homens acabam de te dar uma lição! - Julgavam que não precisavas deles, e se desfaziam em oferecimentos. A possibilidade de terem que ajudar-te economicamente - uma quantia miserável - converteu a amizade em indiferença.
+- Confia só em Deus e naqueles que, por Ele, estão unidos a ti.');
+INSERT INTO points VALUES(365,0,0,364,'Ah! Se te propusesses servir a Deus “seriamente”, com o mesmo empenho que pões em servir a tua ambição, as tuas vaidades, a tua sensualidade!...');
+INSERT INTO points VALUES(366,0,0,365,'Se sentes impulsos de ser líder, a tua aspiração deve ser esta: com os teus irmãos, o último; com os outros, o primeiro.');
+INSERT INTO points VALUES(367,0,0,366,'Mas olha aqui: de que injúria te queixas só porque este ou aquele tem mais confiança com determinadas pessoas, que conheceu antes ou por quem sente mais afinidades de simpatia, de profissão, de caráter?
+- No entanto, entre os teus, evita cuidadosamente até a aparência de uma amizade particular.');
+INSERT INTO points VALUES(368,0,0,367,'O manjar mais delicado e seleto, se o comer um porco (que assim se chama, sem perdão da palavra), converte-se, quando muito, em carne de porco!
+Sejamos anjos, para dignificar as idéias ao assimilá-las. - Pelo menos, sejamos homens, para converter os alimentos, no mínimo, em músculos nobres e belos, ou talvez em cérebro potente..., capaz de entender e adorar a Deus.
+- Mas... não sejamos animais, como tantos e tantos!');
+INSERT INTO points VALUES(369,0,0,368,'Estás entediado? - É que tens os sentidos despertos e a alma adormecida.');
+INSERT INTO points VALUES(370,0,0,369,'A caridade de Jesus Cristo há de levar-te a muitas concessões... nobilíssimas. - E a caridade de Jesus Cristo há de levar-te a muitas intransigências..., nobilíssimas também.');
+INSERT INTO points VALUES(371,0,0,370,'Se não és mau e o pareces, és bobo. - E essa bobice - pedra de escândalo - é pior do que a maldade.');
+INSERT INTO points VALUES(372,0,0,371,'Quando fervilham, liderando manifestações exteriores de religiosidade, pessoas profissionalmente mal conceituadas, com certeza sentis vontade de lhes dizer ao ouvido: - Por favor, tenham a bondade de ser menos católicos!');
+INSERT INTO points VALUES(373,0,0,372,'Se ocupas um posto oficial, tens também uns direitos, que nascem do exercício desse cargo, e uns deveres.
+- Desvias-te do teu caminho de apóstolo se, por ocasião - ou com o pretexto - de uma obra de apostolado, deixas de cumprir os deveres do cargo. Porque perderás o prestígio profissional, que é precisamente o teu “anzol de pescador de homens”.');
+INSERT INTO points VALUES(374,0,0,373,'Gosto do teu lema de apóstolo: “Trabalhar sem descanso”.');
+INSERT INTO points VALUES(375,0,0,374,'Por que essa precipitação? - Não me digas que é atividade; é estouvamento.');
+INSERT INTO points VALUES(376,0,0,375,'Dissipação. - Deixas que os teus sentidos e potências bebam em qualquer charco. - E depois andas desse jeito: sem firmeza, dispersa a atenção, adormecida a vontade e desperta a concupiscência.
+- Torna a sujeitar-te com seriedade a um plano que te faça ter vida de cristão, ou nunca farás nada de proveito.');
+INSERT INTO points VALUES(377,0,0,376,'“Influi tanto o ambiente!”, disseste-me. E tive que responder: - Sem dúvida. Por isso é mister que seja tal a vossa formação, que saibais levar convosco, com naturalidade, o vosso próprio ambiente, para dar o “vosso tom” à sociedade em que viveis.
+- E então, se apreendeste esse espírito, tenho a certeza de que me dirás com o pasmo dos primeiros discípulos, ao contemplarem as primícias dos milagres que se operavam por suas mãos em nome de Cristo: “Influímos tanto no ambiente!”');
+INSERT INTO points VALUES(378,0,0,377,'E como adquirirei a “nossa formação”, e como conservarei o “nosso espírito”? - Cumprindo as normas concretas que o teu Diretor te entregou e te explicou e te fez amar; cumpre-as, e serás apóstolo.');
+INSERT INTO points VALUES(379,0,0,378,'Não sejas pessimista. - Não sabes que tudo quanto sucede ou pode suceder é para bem?
+- Teu otimismo será conseqüência necessária da tua fé.');
+INSERT INTO points VALUES(380,0,0,379,'Naturalidade. - Que a vossa vida de cavalheiros cristãos, de mulheres cristãs - o vosso sal e a vossa luz -, flua espontaneamente, sem esquisitices nem pieguices; levai sempre convosco o nosso espírito de simplicidade.');
+INSERT INTO points VALUES(381,0,0,380,'“E num ambiente paganizado ou pagão, quando esse ambiente chocar com a minha vida, não parecerá postiça a minha naturalidade?”, perguntas-me.
+E te respondo: - Chocará, sem dúvida, a tua vida com a deles. E esse contraste, porque confirma com as tuas obras a tua fé, é precisamente a naturalidade que eu te peço.');
+INSERT INTO points VALUES(382,0,0,381,'Não te importes se dizem que tens “espírito de grupo”.
+- Que querem? Um instrumento deliqüescente que se desfaça em pedaços à hora de empunhá-lo?');
+INSERT INTO points VALUES(383,0,0,382,'Ao oferecer-te aquela História de Jesus, pus como dedicatória: “Que procures Cristo. Que encontres Cristo. Que ames a Cristo”.
+- São três etapas claríssimas. Tentaste, pelo menos, viver a primeira?');
+INSERT INTO points VALUES(384,0,0,383,'Se te vêem fraquejar... e és autoridade, não é de estranhar que se quebrante a obediência.');
+INSERT INTO points VALUES(385,0,0,384,'Confusionismo. Soube que estava vacilando a retidão do teu critério. E, para que me entendesses, escrevi-te: - O diabo tem a cara muito feia e, como é esperto, não se expõe a que lhe vejamos os cornos. Não vem de frente. - Por isso, quantas vezes aparece com disfarces de nobreza e até de espiritualidade!');
+INSERT INTO points VALUES(386,0,0,385,'Diz o Senhor: “Um mandamento novo vos dou: que vos ameis uns aos outros... Nisto se conhecerá que sois meus discípulos”.
+- E São Paulo: “Carregai os fardos uns dos outros, e assim cumprireis a lei de Cristo”.
+- Eu não te digo nada.');
+INSERT INTO points VALUES(387,0,0,386,'Não esqueças, meu filho, que para ti, na terra, só há um mal que deves temer e, com a graça divina, evitar: o pecado.');
+INSERT INTO points VALUES(388,0,0,387,'O plano de santidade que o Senhor nos pede é determinado por estes três pontos:
+- A santa intransigência, a santa coação e a santa desvergonha.');
+INSERT INTO points VALUES(389,0,0,388,'Uma coisa é a santa desvergonha, e outra o despudor “laico”.');
+INSERT INTO points VALUES(390,0,0,389,'A santa desvergonha é uma característica da “vida de infância”. A uma criança, nada a preocupa. - As suas misérias, as suas naturais misérias, põem-se em evidência com simplicidade, mesmo que todo o mundo a contemple...
+Essa desvergonha, aplicada à vida sobrenatural, traz consigo este raciocínio: louvor... menosprezo; admiração... escárnio; honra... desonra; saúde... doença; riqueza... pobreza; formosura... fealdade...
+E tudo isso... que importa?');
+INSERT INTO points VALUES(391,0,0,390,'Ri-te do ridículo. - Despreza o que dirão. Vê e sente a Deus em ti mesmo e no que te rodeia.
+- Assim acabarás conseguindo a santa desvergonha de que precisas - ó paradoxo! - para viver com delicadeza de cavalheiro cristão.');
+INSERT INTO points VALUES(392,0,0,391,'Se tens a santa desvergonha, que te importa “o que terão dito” ou “o que dirão”?');
+INSERT INTO points VALUES(393,0,0,392,'Convence-te de que o ridículo não existe para quem faz o melhor.');
+INSERT INTO points VALUES(394,0,0,393,'Um homem, um... cavalheiro transigente, tornaria a condenar Jesus à morte.');
+INSERT INTO points VALUES(395,0,0,394,'A transigência é sinal certo de não se possuir a verdade. - Quando um homem transige em coisas de ideal, de honra ou de Fé, esse homem é um homem... sem ideal, sem honra e sem Fé.');
+INSERT INTO points VALUES(396,0,0,395,'Aquele homem de Deus, curtido na luta, argumentava assim: - Não transijo? Mas é claro! Porque estou persuadido da verdade do meu ideal. Pelo contrário, você é muito transigente... Parece-lhe que dois e dois sejam três e meio? - Não?... Nem por amizade cede em tão pouca coisa?
+- É que pela primeira vez se persuadiu de ter a verdade... e passou-se para o meu partido!');
+INSERT INTO points VALUES(397,0,0,396,'A santa intransigência não é destempero.');
+INSERT INTO points VALUES(398,0,0,397,'Sê intransigente na doutrina e na conduta. - Mas suave na forma. - Maça poderosa de aço, almofadada.
+- Sê intransigente, mas não sejas cabeçudo.');
+INSERT INTO points VALUES(399,0,0,398,'A intransigência não é intransigência sem mais nada: é “a santa intransigência”.
+Não nos esqueçamos de que também há uma “santa coação”.');
+INSERT INTO points VALUES(400,0,0,399,'Se, para salvar uma vida terrena, com o aplauso de todos, empregamos a força para evitar que um homem se suicide..., não havemos de poder empregar a mesma coação - a santa coação - para salvar a Vida (com maiúscula) de muitos que se obstinam em suicidar idiotamente a sua alma?');
+INSERT INTO points VALUES(401,0,0,400,'Quantos crimes se cometem em nome da justiça! - Se tu vendesses armas de fogo, e alguém te pagasse o preço de uma delas para matar com essa arma a tua mãe, tu a venderias?... Mas será que não te dava o seu justo preço?...
+- Professor, jornalista, político, diplomata: meditai.');
+INSERT INTO points VALUES(402,0,0,401,'Deus e audácia! - Audácia não é imprudência. - Audácia não é temeridade.');
+INSERT INTO points VALUES(403,0,0,402,'Não peças perdão a Jesus apenas de tuas culpas; não O ames com teu coração somente...
+Desagrava-O por todas as ofensas que Lhe têm feito, que Lhe fazem e Lhe hão de fazer...; ama-O com toda a força de todos os corações de todos os homens que mais O tenham amado.
+Sê audaz: diz-Lhe que estás mais louco por Ele que Maria Madalena, mais que Teresa e Teresinha..., mais apaixonado que Agostinho e Domingos e Francisco, mais que Inácio e Xavier.');
+INSERT INTO points VALUES(404,0,0,403,'Ganha mais audácia ainda e, quando precisares de alguma coisa, aceitando sempre de antemão o "fiat"*, não peças; diz: “Jesus, quero isto ou aquilo”, porque assim pedem as crianças.
+(*)“Faça-se” (N. do T.).');
+INSERT INTO points VALUES(405,0,0,404,'Fracassaste! - Nós nunca fracassamos. - Puseste por completo a tua confiança em Deus. Não omitiste, depois, nenhum meio humano.
+Convence-te desta verdade: o teu êxito - agora e nisto - era fracassar. - Dá graças ao Senhor e... torna a começar!');
+INSERT INTO points VALUES(406,0,0,405,'Fracassaste? - Tu (estás bem convencido) não podes fracassar.
+Não fracassaste; adquiriste experiência. - Para a frente!');
+INSERT INTO points VALUES(407,0,0,406,'Aquilo, sim, foi um fracasso, um desastre: porque perdeste o nosso espírito. - Já sabes que, com sentido sobrenatural, o final (vitória?, derrota? Ora!...) só tem um nome: êxito.');
+INSERT INTO points VALUES(408,0,0,407,'Não confundamos os direitos do cargo com os da pessoa. - Àqueles não se pode renunciar.');
+INSERT INTO points VALUES(409,0,0,408,'Santarrão está para santo como beato para piedoso: é a sua caricatura.');
+INSERT INTO points VALUES(410,0,0,409,'Não pensemos que há de valer alguma coisa a nossa aparente virtude de santos, se não estiver unida às comuns virtudes de cristãos.
+- Seria o mesmo que adornar-se com esplêndidas jóias sobre roupa de baixo.');
+INSERT INTO points VALUES(411,0,0,410,'Que a tua virtude não seja uma virtude sonora.');
+INSERT INTO points VALUES(412,0,0,411,'Muitos falsos apóstolos, apesar deles, fazem bem à massa, ao povo, pela própria virtude da doutrina de Jesus que pregam, ainda que não a pratiquem.
+Mas, com este bem, não se compensa o mal enorme e efetivo que produzem, matando almas de líderes, de apóstolos, que se afastam, enojadas, daqueles que não fazem o que ensinam aos outros.
+Por isso, se não querem ter uma vida íntegra, nunca devem pôr-se na primeira fila, como chefes de grupo - nem eles, nem elas.');
+INSERT INTO points VALUES(413,0,0,412,'Que o fogo do teu Amor não seja um fogo-fátuo - ilusão, mentira de fogo, que nem ateia em labaredas o que toca nem dá calor.');
+INSERT INTO points VALUES(414,0,0,413,'O "non serviam" de Satanás tem sido demasiado fecundo. - Não sentes o impulso generoso de dizer cada dia, com vontade de oração e de obras, um "serviam" - eu Te servirei, eu Te serei fiel! - que vença em fecundidade aquele clamor de rebeldia?');
+INSERT INTO points VALUES(415,0,0,414,'Que pena um “homem de Deus” pervertido! - Mas mais pena ainda um “homem de Deus” tíbio e mundano!');
+INSERT INTO points VALUES(416,0,0,415,'Não dês muita importância ao que o mundo chama vitórias ou derrotas. - Sai tantas vezes derrotado o vencedor!');
+INSERT INTO points VALUES(417,0,0,416,'"Sine me nihil potestis facere!"* Nova luz, ou melhor, resplendores novos, para os meus olhos, dessa Luz Eterna que é o Santo Evangelho.
+- Podem surpreender-me as “minhas”... tolices?
+- Meta eu Jesus em todas as minhas coisas. E, então, não haverá tolices na minha conduta. E, para falar com propriedade, não direi mais as minhas coisas, mas “as nossas coisas”.
+(*) “Sem mim nada podeis fazer” (N. do T.).');
+INSERT INTO points VALUES(418,0,0,417,'Não há outro amor além do Amor!');
+INSERT INTO points VALUES(419,0,0,418,'O segredo para dar relevo às coisas mais humildes, mesmo às mais humilhantes, é amar.');
+INSERT INTO points VALUES(420,0,0,419,'Criança. - Doente. - Ao escrever estas palavras, não sentis a tentação de as pôr com maiúsculas?
+É que, para uma alma enamorada, as crianças e os doentes são Ele.');
+INSERT INTO points VALUES(421,0,0,420,'Que pouco é uma vida para oferecê-la a Deus!...');
+INSERT INTO points VALUES(422,0,0,421,'Um amigo é um tesouro. - Quanto mais... um Amigo!..., que onde está o teu tesouro, aí está o teu coração.');
+INSERT INTO points VALUES(423,0,0,422,'Jesus é teu amigo. - O Amigo. - Com coração de carne como o teu. - Com olhos de olhar amabilíssimo, que choraram por Lázaro...
+- E, tanto como a Lázaro, te ama a ti.');
+INSERT INTO points VALUES(424,0,0,423,'Meu Deus, eu Te amo, mas... ensina-me a amar!');
+INSERT INTO points VALUES(425,0,0,424,'Castigar por Amor: este é o segredo para elevar a um plano sobrenatural a pena imposta aos que a merecem.
+Por amor a Deus, a quem se ofende, sirva a pena de expiação; por amor ao próximo por Deus, jamais sirva a pena de vingança, mas de remédio salutar.');
+INSERT INTO points VALUES(426,0,0,425,'Saber que me amas tanto, meu Deus, e... não enlouqueci?!');
+INSERT INTO points VALUES(427,0,0,426,'Em Cristo temos todos os ideais: porque é Rei, é Amor, é Deus.');
+INSERT INTO points VALUES(428,0,0,427,'Senhor: que eu tenha peso e medida em tudo... menos no Amor.');
+INSERT INTO points VALUES(429,0,0,428,'Se o amor, mesmo o amor humano, dá tantas consolações aqui, o que será o Amor no Céu?');
+INSERT INTO points VALUES(430,0,0,429,'Tudo o que se faz por Amor adquire formosura e se engrandece.');
+INSERT INTO points VALUES(431,0,0,430,'Jesus, que eu seja o último em tudo... e o primeiro no Amor.');
+INSERT INTO points VALUES(432,0,0,431,'Não temas a Justiça de Deus. - Tão admirável e tão amável é em Deus a Justiça como a Misericórdia; ambas são provas do Amor.');
+INSERT INTO points VALUES(433,0,0,432,'Considera o que há de mais formoso e grande na terra..., o que apraz ao entendimento e às outras potências..., o que é recreio da carne e dos sentidos... E o mundo, e os outros mundos que brilham na noite: o Universo inteiro.
+E isso, mais todas as loucuras do coração satisfeitas..., nada vale, é nada e menos que nada, ao lado deste Deus meu! - teu! -, tesouro infinito, pérola preciosíssima, humilhado, feito escravo, aniquilado sob a forma de servo no curral onde quis nascer, na oficina de José, na Paixão e na morte ignominiosa..., e na loucura de Amor da Sagrada Eucaristia.');
+INSERT INTO points VALUES(434,0,0,433,'Vive de Amor e vencerás sempre - ainda que sejas vencido - nas Navas e Lepantos* da tua luta interior.
+(*) Navas de Tolosa: famosa batalha travada em 1212 no sul da Espanha, ganha pelos exércitos dos reinos cristãos da Península Ibérica contra os muçulmanos da Andaluzia e do norte da África. Lepanto: batalha naval travada no Mediterrâneo em 1571, entre as esquadras turca e cristã, em que venceu a frota cristã (N. do T.).');
+INSERT INTO points VALUES(435,0,0,434,'Deixa que o teu coração transborde em efusões de Amor e de agradecimento ao considerar como a graça de Deus te liberta todos os dias dos laços que te arma o inimigo.');
+INSERT INTO points VALUES(436,0,0,435,'"Timor Domini sanctus". - Santo é o temor de Deus. - Temor que é veneração do filho por seu Pai; nunca temor servil, porque teu Pai-Deus não é um tirano.');
+INSERT INTO points VALUES(437,0,0,436,'Dor de Amor. - Porque Ele é bom. - Porque é teu Amigo, que deu a sua Vida por ti. - Porque tudo o que tens de bom é dEle. - Porque O tens ofendido tanto... Porque te tem perdoado... Ele!... a ti!
+- Chora, meu filho, de dor de Amor.');
+INSERT INTO points VALUES(438,0,0,437,'Se um homem tivesse morrido para me livrar da morte!...
+- Morreu Deus. E fico indiferente.');
+INSERT INTO points VALUES(439,0,0,438,'Louco! - Bem te vi (julgavas-te só na capela episcopal) depor um beijo em cada cálice e em cada patena recém-consagrados: para que Ele os encontre, quando pela primeira vez “descer” a esses vasos eucarísticos.');
+INSERT INTO points VALUES(440,0,0,439,'Não esqueças que a Dor é a pedra de toque do Amor.');
+INSERT INTO points VALUES(441,0,0,440,'Quando tiveres terminado o teu trabalho, faz o do teu irmão, ajudando-o, por Cristo, com tal delicadeza e naturalidade, que nem mesmo o favorecido repare que estás fazendo mais do que em justiça deves.
+- Isso, sim, é fina virtude de filho de Deus!');
+INSERT INTO points VALUES(442,0,0,441,'Doem-te as faltas de caridade do próximo para contigo. Quanto não hão de doer a Deus as tuas faltas de caridade - de Amor - para com Ele?');
+INSERT INTO points VALUES(443,0,0,442,'Não admitas um mau pensamento acerca de ninguém, mesmo que as palavras ou obras do interessado dêem motivo para assim julgares razoavelmente.');
+INSERT INTO points VALUES(444,0,0,443,'Não faças crítica negativa; quando não puderes louvar, cala-te.');
+INSERT INTO points VALUES(445,0,0,444,'Nunca fales mal do teu irmão, mesmo que tenhas motivos de sobra. - Vai primeiro ao Sacrário, e depois procura o Sacerdote, teu pai, e desabafa também com ele a tua pena.
+- E com mais ninguém.');
+INSERT INTO points VALUES(446,0,0,445,'A murmuração é crosta que suja e atrapalha o apostolado. - Vai contra a caridade, tira forças, rouba a paz e faz perder a união com Deus.');
+INSERT INTO points VALUES(447,0,0,446,'Se és tão miserável, como estranhas que os outros tenham misérias?');
+INSERT INTO points VALUES(448,0,0,447,'Depois de ver em que se empregam, por completo!, muitas vidas (língua, língua, língua, com todas as suas conseqüências), parece-me mais necessário e mais amável o silêncio. - E compreendo muito bem que peças contas, Senhor, da palavra ociosa.');
+INSERT INTO points VALUES(449,0,0,448,'É mais fácil dizer que fazer. - Tu..., que tens essa língua cortante - de navalha -, experimentaste alguma vez, ao menos por acaso, fazer “bem” o que, segundo a tua “autorizada” opinião, os outros fazem menos bem?');
+INSERT INTO points VALUES(450,0,0,449,'Isso chama-se: bisbilhotice, murmuração, mexerico, enredo, intriga, alcovitice, insídia..., calúnia?... vileza?
+- É difícil que a “função de dar critério” de quem não tem o dever de exercitá-la, não acabe em “negócio de comadres”.');
+INSERT INTO points VALUES(451,0,0,450,'Quanto dói a Deus e quanto mal faz a muitas almas - e quanto pode santificar outras - a injustiça dos “justos”!');
+INSERT INTO points VALUES(452,0,0,451,'Não queiramos julgar. - Cada qual vê as coisas do seu ponto de vista... e com o seu entendimento, bem limitado quase sempre, e com os olhos obscurecidos ou enevoados, com trevas de exaltação muitas vezes.
+Além disso, tal como a desses pintores modernistas, a visão de certas pessoas é tão subjetiva e tão enfermiça, que desenham uns traços arbitrários, assegurando-nos que são o nosso retrato, a nossa conduta...
+Como valem pouco os juízos dos homens! - Não julgueis sem peneirar o vosso juízo na oração.');
+INSERT INTO points VALUES(453,0,0,452,'Esforça-te, se é preciso, por perdoar sempre aos que te ofendem, desde o primeiro instante, já que, por maior que seja o prejuízo ou a ofensa que te façam, mais te tem perdoado Deus a ti.');
+INSERT INTO points VALUES(454,0,0,453,'Murmuras? - Então, estás perdendo o bom espírito. E, se não aprendes a calar-te, cada palavra é um passo que te aproxima da porta de saída desse empreendimento apostólico em que trabalhas.');
+INSERT INTO points VALUES(455,0,0,454,'Não julgueis sem ouvir ambas as partes. - Mesmo as pessoas que se têm por piedosas esquecem muito facilmente esta norma de prudência elementar.');
+INSERT INTO points VALUES(456,0,0,455,'Sabes o mal que podes ocasionar jogando para longe uma pedra com os olhos vendados?
+- Também não sabes o prejuízo que podes causar, às vezes grave, quando lanças frases de murmuração, que te parecem levíssimas por teres os olhos vendados pela inconsciência ou pela exaltação.');
+INSERT INTO points VALUES(457,0,0,456,'Fazer crítica, destruir, não é difícil: o último aprendiz de pedreiro sabe cravar a sua ferramenta na pedra nobre e bela de uma catedral.
+- Construir: esse é o trabalho que requer mestres.');
+INSERT INTO points VALUES(458,0,0,457,'Quem és tu para julgar do acerto do superior? - Não vês que ele tem mais elementos de juízo do que tu; mais experiência; mais retos, sábios e desapaixonados conselheiros; e, sobretudo, mais graça, uma graça especial, a graça de estado, que é luz e ajuda poderosa de Deus?');
+INSERT INTO points VALUES(459,0,0,458,'Esses choques com o egoísmo do mundo hão de fazer-te apreciar mais a caridade fraternal dos teus.');
+INSERT INTO points VALUES(460,0,0,459,'A tua caridade é... presunçosa. - De longe, atrais: tens luz. - De perto, repeles: falta-te calor. - Que pena!');
+INSERT INTO points VALUES(461,0,0,460,'"Frater qui adjuvatur a fratre quasi civitas firma" - O irmão ajudado por seu irmão é tão forte quanto uma cidade amuralhada.
+- Pensa um pouco e decide-te a viver a fraternidade que sempre te recomendo.');
+INSERT INTO points VALUES(462,0,0,461,'Se não te vejo praticar a bendita fraternidade que continuamente te prego, lembrar-te-ei aquelas comoventes palavras de São João: "Filioli mei, non diligamus verbo neque lingua, sed opere et veritate" - Filhinhos, não amemos com a palavra ou com a língua, mas com obras e de verdade.');
+INSERT INTO points VALUES(463,0,0,462,'O poder da caridade! - A vossa mútua fraqueza é também apoio que vos mantém erguidos no cumprimento do dever, se viveis a vossa bendita fraternidade: como mutuamente se sustêm, apoiando-se, as cartas do baralho.');
+INSERT INTO points VALUES(464,0,0,463,'Mais do que em “dar”, a caridade está em “compreender”.
+- Por isso, procura uma desculpa para o teu próximo - sempre as há -, se tens o dever de julgar.');
+INSERT INTO points VALUES(465,0,0,464,'Sabes que certa pessoa está em perigo para a sua alma? - De longe, com a tua vida de união, podes ser para ela uma ajuda eficaz. - Então vamos lá! E não te intranqüilizes.');
+INSERT INTO points VALUES(466,0,0,465,'Essa preocupação que sentes pelos teus irmãos parece-me bem; é prova da vossa mútua caridade. - Procura, no entanto, que as tuas preocupações não degenerem em inquietação.');
+INSERT INTO points VALUES(467,0,0,466,'Escreves-me: - “Regra geral, os homens são pouco generosos com o seu dinheiro. Conversas, entusiasmos ruidosos, promessas, planos. À hora do sacrifício, são poucos os que "metem ombros". E, se dão, há de ser com uma diversão de permeio - baile, bingo, cinema, coquetel - ou com anúncio e lista de donativos na imprensa”.
+- O quadro é triste, mas tem exceções. Sê tu também dos que não deixam que a mão esquerda saiba o que faz a direita, quando dão esmola.');
+INSERT INTO points VALUES(468,0,0,467,'Livros. - Estendi a mão, como um pobrezinho de Cristo, e pedi livros. Livros!, que são alimento para a inteligência católica, apostólica e romana de muitos jovens universitários.
+- Estendi a mão, como um pobrezinho de Cristo..., e sofri cada decepção!
+- Por que será que não entendem, Jesus, a profunda caridade cristã dessa esmola, mais eficaz do que dar pão de bom trigo?');
+INSERT INTO points VALUES(469,0,0,468,'És excessivamente cândido. - Dizes que são poucos os que praticam a caridade! - Porque ter caridade não é dar roupa velha ou uns trocados...
+- E me contas o teu caso e a tua desilusão.
+- Só me ocorre isto: vamos tu e eu dar e dar-nos sem tacanhice. E evitaremos que os que convivem conosco adquiram a tua triste experiência.');
+INSERT INTO points VALUES(470,0,0,469,'“Saudai todos os santos. Todos os santos vos saúdam. A todos os santos que vivem em Éfeso. A todos os santos em Cristo Jesus que estão em Filipos”. - Que comovente esse apelativo - santos! - que os primeiros fiéis cristãos empregavam para se designarem entre si, não é verdade?
+- Aprende a tratar com os teus irmãos.');
+INSERT INTO points VALUES(471,0,0,470,'Mas... e os meios? - São os mesmos de Pedro e Paulo, de Domingos e Francisco, de Inácio e Xavier: o Crucifixo e o Evangelho...
+- Será que te parecem pequenos?');
+INSERT INTO points VALUES(472,0,0,471,'Nos empreendimentos de apostolado, está certo - é um dever - que consideres os teus meios terrenos (2 + 2 = 4 ). Mas não esqueças - nunca! - que tens de contar, felizmente, com outra parcela: Deus + 2 + 2...');
+INSERT INTO points VALUES(473,0,0,472,'Serve ao teu Deus com retidão, sê-Lhe fiel... e não te preocupes com mais nada. Porque é uma grande verdade que, “se procuras o reino de Deus e a sua justiça, Ele te dará o resto - o material, os meios - por acréscimo”.');
+INSERT INTO points VALUES(474,0,0,473,'Lança para longe de ti essa desesperança que te produz o conhecimento da tua miséria. - É verdade: por teu prestígio econômico, és um zero..., por teu prestígio social, outro zero..., e outro por tuas virtudes, e outro por teu talento...
+Mas, à esquerda dessas negações está Cristo... E que cifra incomensurável não resulta!');
+INSERT INTO points VALUES(475,0,0,474,'Dizes que és... ninguém. - Que os outros levantaram e levantam agora maravilhas de organização, de imprensa, de propaganda. - Que têm todos os meios, enquanto tu não tens nenhum!... Está certo; mas lembra-te de Inácio:
+Ignorante, entre os doutores de Alcalá*. - Pobre, paupérrimo, entre os estudantes de Paris. - Perseguido, caluniado...
+É o caminho: ama e crê e sofre! O teu Amor e a tua Fé e a tua Cruz são os meios infalíveis para levares à prática e para eternizares as ânsias de apostolado que trazes no coração.
+(*) Alcalá de Henares, Universidade espanhola muito célebre no século XVI (N. do T.).');
+INSERT INTO points VALUES(476,0,0,475,'Reconheces-te miserável. E és. - Apesar de tudo - mais ainda, por isso -, Deus te procurou.
+- Sempre emprega instrumentos desproporcionados: para que se veja que a “obra” é dEle.
+- A ti, só te pede docilidade.');
+INSERT INTO points VALUES(477,0,0,476,'Quando te “entregares” a Deus, não haverá dificuldade que possa abalar o teu otimismo.');
+INSERT INTO points VALUES(478,0,0,477,'Por que deixas esses recantos em teu coração? - Enquanto não te deres tu de todo, é inútil que pretendas levar outro a Deus.
+- Pobre instrumento és.');
+INSERT INTO points VALUES(479,0,0,478,'Mas - nesta altura! - será possível que ainda necessites da aprovação, do calor, das consolações dos poderosos, para continuares a fazer o que Deus quer?
+- Os poderosos costumam ser volúveis, e tu tens de ser constante. - Mostra-te agradecido, se te ajudam. E continua em frente, imperturbável, se te desprezam.');
+INSERT INTO points VALUES(480,0,0,479,'Não faças caso. - Sempre os “prudentes” têm chamado de loucuras as obras de Deus.
+- Para a frente! Audácia!');
+INSERT INTO points VALUES(481,0,0,480,'Estás vendo? Um fio e outro e muitos, bem entrançados, formam esse cabo, capaz de levantar pesos enormes.
+- Tu e os teus irmãos, unidas as vossas vontades para cumprir a de Deus, sereis capazes de vencer todos os obstáculos.');
+INSERT INTO points VALUES(482,0,0,481,'Quando só se procura a Deus, bem se pode pôr em prática, para fazer vingar as obras de apostolado, aquele princípio que sustentava um bom amigo nosso: “Gasta-se o que se deve, ainda que se deva o que se gasta”.');
+INSERT INTO points VALUES(483,0,0,482,'Que importa que tenhas contra ti o mundo inteiro, com todos os seus poderes? Tu... para a frente!
+- Repete as palavras do salmo: “O Senhor é a minha luz e a minha salvação, a quem temerei?... "Si consistant adversum me castra, non timebit cor meum" - Ainda que me veja cercado de inimigos, não fraquejará meu coração”.');
+INSERT INTO points VALUES(484,0,0,483,'Coragem! Tu... podes. - Não vês o que fez a graça de Deus com aquele Pedro dorminhoco, negador e covarde..., com aquele Paulo perseguidor, odiento e pertinaz?');
+INSERT INTO points VALUES(485,0,0,484,'Sê instrumento: de ouro ou de aço, de platina ou de ferro..., grande ou pequeno, delicado ou tosco...
+- Todos são úteis; cada um tem a sua missão própria. É como no mundo material: quem se atreverá a dizer que é menos útil o serrote do carpinteiro do que as pinças do cirurgião?
+- Teu dever é ser instrumento.');
+INSERT INTO points VALUES(486,0,0,485,'Certo. E daí? - Não entendo como te podes retrair desse trabalho de almas (se não é por oculta soberba: julgas-te perfeito), só porque o fogo de Deus que te atraiu, além da luz e do calor que te entusiasmam, lança às vezes a fumaça da fraqueza dos instrumentos.');
+INSERT INTO points VALUES(487,0,0,486,'Trabalho... há. - Os instrumentos não podem estar enferrujados. - Normas há também para evitar o mofo e a ferrugem. - Basta pô-las em prática.');
+INSERT INTO points VALUES(488,0,0,487,'Não te inquietes com o problema econômico que se avizinha do teu empreendimento de apostolado. - Aumenta a confiança em Deus, faz humanamente o que puderes, e verás com que rapidez o dinheiro deixa de ser problema!');
+INSERT INTO points VALUES(489,0,0,488,'Não deixes de fazer as coisas por falta de instrumentos; começa-se como se pode. - Depois, a função cria o órgão. Alguns, que não prestavam, tornam-se aptos. Com os outros, faz-se uma operação cirúrgica, ainda que doa - bons “cirurgiões” foram os santos! -, e segue-se adiante.');
+INSERT INTO points VALUES(490,0,0,489,'Fé viva e penetrante. Como a fé de Pedro. - Quando a tiveres, disse-o Ele, afastarás as montanhas, os obstáculos, humanamente insuperáveis, que se oponham aos teus empreendimentos de apóstolo.');
+INSERT INTO points VALUES(491,0,0,490,'Retidão de coração e boa vontade: com estes dois elementos e o olhar posto em cumprir o que Deus quer, verás transformados em realidade os teus sonhos de Amor e saciada a tua fome de almas.');
+INSERT INTO points VALUES(492,0,0,491,'"Nonne hic est fabri filius? Nonne hic est faber, filius Mariae?" - Porventura não é este o filho do artesão? Não é o artesão, filho de Maria?
+- Isto que disseram de Jesus, é bem possível que o digam de ti, com um pouco de pasmo e outro pouco de troça, quando “definitivamente” quiseres cumprir a Vontade de Deus, ser instrumento: “Mas este não é aquele?...”
+- Cala-te. E que as tuas obras confirmem a tua missão.');
+INSERT INTO points VALUES(493,0,0,492,'O amor à nossa Mãe será sopro que atice em fogo vivo as brasas de virtude que estão ocultas sob o rescaldo da tua tibieza.');
+INSERT INTO points VALUES(494,0,0,493,'Ama a Senhora. E Ela te obterá graça abundante para venceres nesta luta quotidiana. - E de nada servirão ao maldito essas coisas perversas que sobem e sobem, fervendo dentro de ti, até quererem sufocar, com a sua podridão bem cheirosa, os grandes ideais, os mandamentos sublimes que o próprio Cristo pôs em teu coração. - "Serviam!"*
+(*) “Servirei!” (N. do T.).');
+INSERT INTO points VALUES(495,0,0,494,'Sê de Maria e serás nosso.');
+INSERT INTO points VALUES(496,0,0,495,'A Jesus sempre se vai e se “volta” por Maria.');
+INSERT INTO points VALUES(497,0,0,496,'Como gostam os homens de que lhes recordem o seu parentesco com personagens da literatura, da política, do exército, da Igreja!...
+- Canta diante da Virgem Imaculada, recordando-lhe:
+Ave, Maria, Filha de Deus Pai; Ave, Maria, Mãe de Deus Filho; Ave, Maria, Esposa de Deus Espírito Santo... Mais do que tu, só Deus!');
+INSERT INTO points VALUES(498,0,0,497,'Diz: - Minha Mãe (tua, porque és seu por muitos títulos), que o teu amor me ate à Cruz de teu Filho; que não me falte a Fé, nem a valentia, nem a audácia para cumprir a vontade do nosso Jesus.');
+INSERT INTO points VALUES(499,0,0,498,'Todos os pecados da tua vida parecem ter-se posto de pé. - Não desanimes. Pelo contrário, chama por tua Mãe, Santa Maria, com fé e abandono de criança. Ela trará o sossego à tua alma.');
+INSERT INTO points VALUES(500,0,0,499,'Maria Santíssima, Mãe de Deus, passa despercebida, como mais uma, entre as mulheres do seu povo.
+- Aprende dEla a viver com “naturalidade”.');
+INSERT INTO points VALUES(501,0,0,500,'Traz sobre o teu peito o santo escapulário do Carmo. - Poucas devoções (há muitas e muito boas devoções marianas) estão tão arraigadas entre os fiéis e têm tantas bênçãos dos Pontífices. Além disso, é tão maternal este privilégio sabatino!');
+INSERT INTO points VALUES(502,0,0,501,'Quando te perguntaram que imagem de Nossa Senhora te dava mais devoção, e respondeste - como quem já fez bem a experiência - que todas, compreendi que eras um bom filho. Por isso te parecem bons (enamoram-me, disseste) todos os retratos da tua Mãe.');
+INSERT INTO points VALUES(503,0,0,502,'Maria, Mestra de oração. - Olha como pede a seu Filho em Caná. E como insiste, sem desanimar, com perseverança. - E como consegue.
+- Aprende.');
+INSERT INTO points VALUES(504,0,0,503,'Soledade de Maria. Só! - Chora, sem amparo.
+- Tu e eu devemos acompanhar Nossa Senhora, e chorar também; porque a Jesus O pregaram ao madeiro, com pregos, as nossas misérias.');
+INSERT INTO points VALUES(505,0,0,504,'A Virgem Santa Maria, Mãe do Amor Formoso, aquietará o teu coração, quando te fizer sentir que é de carne, se recorres a Ela com confiança.');
+INSERT INTO points VALUES(506,0,0,505,'O amor à Senhora é prova de bom espírito, nas obras e nas pessoas singulares.
+- Desconfia do empreendimento que não tenha esse sinal.');
+INSERT INTO points VALUES(507,0,0,506,'A Virgem Dolorosa... Quando a contemplares, repara em seu Coração. É uma Mãe com dois filhos, frente a frente: Ele... e tu.');
+INSERT INTO points VALUES(508,0,0,507,'Que humildade, a de minha Mãe Santa Maria! - Não a vereis entre as palmas de Jerusalém, nem - afora as primícias de Caná - à hora dos grandes milagres.
+- Mas não foge ao desprezo do Gólgota; ali está "juxta crucem Jesu", junto à cruz de Jesus, sua Mãe.');
+INSERT INTO points VALUES(509,0,0,508,'Admira a firmeza de Santa Maria: ao pé da Cruz, com a maior dor humana - não há dor como a sua dor -, cheia de fortaleza.
+- E pede-lhe dessa firmeza, para que saibas também estar junto da Cruz.');
+INSERT INTO points VALUES(510,0,0,509,'Maria, Mestra do sacrifício escondido e silencioso! - Vede-a, quase sempre oculta, colaborando com o Filho: sabe e cala.');
+INSERT INTO points VALUES(511,0,0,510,'Vedes com que simplicidade? - "Ecce ancilla!..."* - E o Verbo se fez carne.
+- Assim agiram os santos: sem espetáculo. Se houve, foi apesar deles.
+(*) “Eis a escrava” (N. do T.).');
+INSERT INTO points VALUES(512,0,0,511,'"Ne timeas, Maria!" - Não temas, Maria!... - Turbou-se a Senhora diante do Arcanjo.
+- E depois disto, quererei ainda desprezar esses pormenores de modéstia, que são a salvaguarda da minha pureza?!');
+INSERT INTO points VALUES(513,0,0,512,'Ó Mãe, Mãe! Com essa tua palavra - "fiat" - nos tornaste irmãos de Deus e herdeiros da sua glória. - Bendita sejas!');
+INSERT INTO points VALUES(514,0,0,513,'Antes, sozinho, não podias... - Agora, recorreste à Senhora, e, com Ela, que fácil!');
+INSERT INTO points VALUES(515,0,0,514,'Confia. - Torna. - Invoca Nossa Senhora e serás fiel.');
+INSERT INTO points VALUES(516,0,0,515,'Sentes que, por momentos, te faltam as forças? - Por que não o dizes à tua Mãe, "consolatrix afflictorum, auxilium christianorum..., Spes nostra, Regina apostolorum"?*
+(*) “Consoladora dos aflitos, Auxílio dos cristãos..., Esperança nossa, Rainha dos apóstolos” (N. do T.).');
+INSERT INTO points VALUES(517,0,0,516,'Mãe! - Chama-a bem alto, bem alto. - Ela, tua Mãe Santa Maria, te escuta, te vê em perigo talvez, e te oferece, com a graça do seu Filho, o consolo do seu regaço, a ternura das suas carícias. E te encontrarás reconfortado para a nova luta.');
+INSERT INTO points VALUES(518,0,0,517,'"Et unam, sanctam, catholicam et apostolicam Ecclesiam!..." - Compreendo essa tua pausa quando rezas, saboreando: Creio na Igreja, Una, Santa, Católica e Apostólica...');
+INSERT INTO points VALUES(519,0,0,518,'Que alegria poder dizer com todas as forças da minha alma: - Amo a minha Mãe, a santa Igreja!');
+INSERT INTO points VALUES(520,0,0,519,'Esse grito - "serviam!" - é vontade de “servir” fidelissimamente a Igreja de Deus, mesmo à custa dos bens, da honra e da vida.');
+INSERT INTO points VALUES(521,0,0,520,'Católico, Apostólico, Romano! - Gosto de que sejas muito romano. E que tenhas desejos de fazer a tua “romaria”, "videre Petrum", para ver Pedro.');
+INSERT INTO points VALUES(522,0,0,521,'Que bondade a de Cristo ao deixar à sua Igreja os Sacramentos! - São remédio para cada necessidade.
+- Venera-os e fica muito agradecido ao Senhor e à sua Igreja.');
+INSERT INTO points VALUES(523,0,0,522,'Deves ter veneração e respeito pela Santa Liturgia da Igreja e por cada uma das suas cerimônias. - Cumpre-as fielmente. - Não vês que nós, os pobrezinhos dos homens, necessitamos que até as coisas mais nobres e grandes entrem pelos sentidos?');
+INSERT INTO points VALUES(524,0,0,523,'A Igreja canta - disse alguém - porque falar não seria bastante para a sua oração. - Tu, cristão - e cristão escolhido -, deves aprender a cantar liturgicamente.');
+INSERT INTO points VALUES(525,0,0,524,'O único jeito é romper a cantar!, dizia uma alma enamorada, depois de ver as maravilhas que o Senhor operava por seu ministério.
+- E eu te repito o conselho: Canta! Que transborde em harmonias o teu agradecido entusiasmo pelo teu Deus.');
+INSERT INTO points VALUES(526,0,0,525,'Ser “católico” é amar a Pátria, sem a ninguém deixar que nos exceda nesse amor, e, ao mesmo tempo, ter por meus os ideais nobres de todos os países. Quantas glórias da França são glórias minhas! E igualmente muitos motivos de orgulho de alemães, de italianos, de ingleses..., de americanos e asiáticos e africanos, são também orgulho meu.
+- Católico!... Coração grande, espírito aberto.');
+INSERT INTO points VALUES(527,0,0,526,'Se não tens suma veneração pelo estado sacerdotal e pelo religioso, não é verdade que amas a Igreja de Deus.');
+INSERT INTO points VALUES(528,0,0,527,'Aquela mulher que, em casa de Simão o leproso, em Betânia, unge com rico perfume a cabeça do Mestre, recorda-nos o dever de sermos magnânimos no culto de Deus.
+- Todo o luxo, majestade e beleza me parecem pouco.
+- E contra os que atacam a riqueza dos vasos sagrados, paramentos e retábulos, ouve-se o louvor de Jesus: "Opus enim bonum operata est in me" - uma boa obra foi a que ela fez comigo.');
+INSERT INTO points VALUES(529,0,0,528,'Uma característica muito importante do homem apostólico é amar a Missa.');
+INSERT INTO points VALUES(530,0,0,529,'A Missa é comprida, dizes, e eu acrescento: porque o teu amor é curto.');
+INSERT INTO points VALUES(531,0,0,530,'Não é estranho que muitos cristãos - pausados e até solenes na vida social (não têm pressa), nas suas pouco ativas atuações profissionais, à mesa e no descanso (também não têm pressa) - se sintam apressados e apressem o Sacerdote na sua ânsia de encurtar, de abreviar o tempo dedicado ao Santíssimo Sacrifício do Altar?');
+INSERT INTO points VALUES(532,0,0,531,'“Tratai-mO bem, tratai-mO bem!”, dizia, entre lágrimas, um velho Prelado aos novos Sacerdotes que acabava de ordenar.
+- Senhor! Quem me dera ter voz e autoridade para clamar desta maneira ao ouvido e ao coração de muitos cristãos, de muitos!');
+INSERT INTO points VALUES(533,0,0,532,'Como chorou, ao pé do altar, aquele jovem e santo Sacerdote - que havia de merecer o martírio -, porque se lembrava de uma alma que se tinha aproximado em pecado mortal a receber Cristo!
+- Assim O desagravas tu?');
+INSERT INTO points VALUES(534,0,0,533,'Humildade de Jesus: em Belém, em Nazaré, no Calvário... Porém, mais humilhação e mais aniquilamento na Hóstia Santíssima; mais que no estábulo, e que em Nazaré, e que na Cruz.
+Por isso, como estou obrigado a amar a Missa! (A “nossa” Missa, Jesus...)');
+INSERT INTO points VALUES(535,0,0,534,'Quantos anos comungando diariamente! - Qualquer outro seria santo - disseste-me -, e eu, sempre na mesma!
+- Meu filho - respondi-te -, continua com a Comunhão diária e pensa: Que seria de mim se não tivesse comungado?');
+INSERT INTO points VALUES(536,0,0,535,'Comunhão, união, comunicação, confidência: Palavra, Pão, Amor.');
+INSERT INTO points VALUES(537,0,0,536,'Comunga. - Não é falta de respeito. - Comunga, hoje precisamente, que acabas de sair daquele laço.
+- Esqueces que Jesus disse: “Não é necessário o médico para os sãos, mas para os enfermos”?');
+INSERT INTO points VALUES(538,0,0,537,'Quando te aproximares do Sacrário, pensa que Ele!... faz vinte séculos que te espera.');
+INSERT INTO points VALUES(539,0,0,538,'Aí o tens: é Rei dos Reis e Senhor dos Senhores. - Está escondido no Pão.
+Humilhou-se até esse extremo por amor de ti.');
+INSERT INTO points VALUES(540,0,0,539,'Ficou para ti. - Não é reverência deixar de comungar, se estás bem preparado. - Irreverência é apenas recebê-Lo indignamente.');
+INSERT INTO points VALUES(541,0,0,540,'Que fonte de graças é a Comunhão espiritual! - Pratica-a com freqüência, e terás mais presença de Deus e mais união com Ele nas obras.');
+INSERT INTO points VALUES(542,0,0,541,'Há uma urbanidade da piedade. - Aprende-a. - Dão pena esses homens “piedosos”, que não sabem assistir à Missa - ainda que a ouçam diariamente -, nem benzer-se (fazem uns estranhos trejeitos, cheios de precipitação), nem dobrar o joelho diante do Sacrário (suas genuflexões ridículas parecem um escárnio), nem inclinar reverentemente a cabeça diante de uma imagem de Nossa Senhora.');
+INSERT INTO points VALUES(543,0,0,542,'Não empregueis no culto imagens produzidas em “série”; prefiro um Cristo de ferro tosco a esses crucifixos de massa repintalgada que parecem feitos de açúcar.');
+INSERT INTO points VALUES(544,0,0,543,'Viste-me celebrar a Santa Missa sobre um altar desnudo - mesa e ara -, sem retábulo. O Crucifixo, grande. Os castiçais maciços, com tochas de cera escalonadas: mais altas junto da Cruz. Frontal da cor do dia. Casula ampla. O cálice, severo de linhas, de copa larga e rico. Ausente a luz elétrica, cuja falta não notamos.
+- E te custou sair do oratório: estava-se bem ali. Vês como leva a Deus, como aproxima de Deus o rigor da liturgia?');
+INSERT INTO points VALUES(545,0,0,544,'Comunhão dos Santos. - Como dizer-te? - Sabes o que são as transfusões de sangue para o corpo? Pois assim vem a ser a Comunhão dos Santos para a alma.');
+INSERT INTO points VALUES(546,0,0,545,'Vivei entre vós uma particular Comunhão dos Santos. E cada um sentirá, à hora da luta interior, e à hora do trabalho profissional, a alegria e a força de não estar só.');
+INSERT INTO points VALUES(547,0,0,546,'Filho, que bem viveste a Comunhão dos Santos quando me escrevias: “Ontem "senti" que o senhor pedia por mim”!');
+INSERT INTO points VALUES(548,0,0,547,'Um outro que sabe dessa “comunicação” de bens sobrenaturais, diz-me: “A sua carta me fez muito bem; nota-se que vem impregnada das orações de todos!... E eu preciso muito que rezem por mim”.');
+INSERT INTO points VALUES(549,0,0,548,'Se sentires a Comunhão dos Santos - se a viveres -, serás de bom grado um homem penitente. - E compreenderás que a penitência é "gaudium, etsi laboriosum" - alegria, embora trabalhosa. E te sentirás “aliado” de todas as almas penitentes que foram, são e serão.');
+INSERT INTO points VALUES(550,0,0,549,'Terás mais facilidade em cumprir o teu dever, se pensares na ajuda que te prestam os teus irmãos e na que deixas de prestar-lhes se não és fiel.');
+INSERT INTO points VALUES(551,0,0,550,'"Ideo omnia sustineo propter electos" - tudo sofro pelos escolhidos - "ut et ipsi salutem consequantur" - para que eles obtenham a salvação - "quae est in Christo Jesu" - que está em Cristo Jesus.
+- Bom modo de viver a Comunhão dos Santos!
+- Pede ao Senhor que te dê este espírito de São Paulo.');
+INSERT INTO points VALUES(552,0,0,551,'Fujamos da “rotina” como do próprio demônio. - O grande meio para não cair nesse abismo, sepulcro da verdadeira piedade, é a contínua presença de Deus.');
+INSERT INTO points VALUES(553,0,0,552,'As tuas devoções particulares devem ser poucas, mas constantes.');
+INSERT INTO points VALUES(554,0,0,553,'Não esqueças as tuas orações de criança, aprendidas talvez dos lábios de tua mãe. - Recita-as todos os dias, com simplicidade, como então.');
+INSERT INTO points VALUES(555,0,0,554,'Não abandones a visita ao Santíssimo. - Depois da oração vocal que tenhas por costume, conta a Jesus, realmente presente no Sacrário, as preocupações do dia. - E terás luzes e ânimo para a tua vida de cristão.');
+INSERT INTO points VALUES(556,0,0,555,'Verdadeiramente, é amável a Santa Humanidade do nosso Deus! - “Meteste-te” na Chaga santíssima da mão direita do teu Senhor e me perguntaste: “Se uma Ferida de Cristo limpa, cura, tranqüiliza, fortalece, inflama e enamora, o que não farão as cinco, abertas no madeiro?”');
+INSERT INTO points VALUES(557,0,0,556,'A Via-Sacra. - Esta é que é devoção vigorosa e substancial! Quem dera que te habituasses a repassar esses catorze pontos da Paixão e Morte do Senhor, às sextas-feiras. - Eu te garanto que obterias fortaleza para toda a semana.');
+INSERT INTO points VALUES(558,0,0,557,'Devoção de Natal. - Não sorrio quando te vejo fazer as montanhas de musgo do Presépio e dispor as ingênuas figuras de barro em volta da gruta. - Nunca me pareceste mais homem do que agora, que pareces uma criança.');
+INSERT INTO points VALUES(559,0,0,558,'O Santo Rosário é arma poderosa. Emprega-a com confiança e te maravilharás do resultado.');
+INSERT INTO points VALUES(560,0,0,559,'São José, Pai de Cristo, é também teu Pai e teu Senhor. - Recorre a ele.');
+INSERT INTO points VALUES(561,0,0,560,'Nosso Pai e Senhor São José é Mestre da vida interior. - Coloca-te sob o seu patrocínio e sentirás a eficácia do seu poder.');
+INSERT INTO points VALUES(562,0,0,561,'De São José diz Santa Teresa, no livro da sua vida: “Quem não achar mestre que lhe ensine a orar, tome este glorioso Santo por mestre, e não errará no caminho”. - O conselho vem de uma alma experimentada. Segue-o.');
+INSERT INTO points VALUES(563,0,0,562,'Tem confiança com o teu Anjo da Guarda. Trata-o como amigo íntimo - porque de fato o é -, e ele saberá prestar-te mil e um serviços nos assuntos correntes de cada dia.');
+INSERT INTO points VALUES(564,0,0,563,'Conquista o Anjo da Guarda daquele que queres trazer para o teu apostolado. - É sempre um grande “cúmplice”.');
+INSERT INTO points VALUES(565,0,0,564,'Se tivesses presente o teu Anjo da Guarda e os do teu próximo, evitarias muitas tolices que deslizam na tua conversa.');
+INSERT INTO points VALUES(566,0,0,565,'Ficas pasmado porque o teu Anjo da Guarda te tem prestado serviços patentes. - E não devias pasmar; para isso o colocou o Senhor junto de ti.');
+INSERT INTO points VALUES(567,0,0,566,'Há nesse ambiente muitas ocasiões de te desviares? - De acordo. Mas por acaso não há também Anjos da Guarda?');
+INSERT INTO points VALUES(568,0,0,567,'Recorre ao teu Anjo da Guarda na hora da provação, e ele te protegerá contra o demônio e te dará santas inspirações.');
+INSERT INTO points VALUES(569,0,0,568,'Com muito gosto deviam cumprir o seu ofício os Santos Anjos da Guarda junto daquela alma que lhes dizia: “Santos Anjos, eu vos invoco, como a Esposa do Cântico dos Cânticos, "ut nuntietis ei quia amore langueo" - para Lhe dizerdes que morro de Amor”.');
+INSERT INTO points VALUES(570,0,0,569,'Sei que te dou uma alegria copiando para ti esta oração aos Santos Anjos da Guarda dos nossos Sacrários:
+“Ó Espíritos Angélicos que guardais os nossos Tabernáculos, onde repousa o tesouro adorável da Sagrada Eucaristia, defendei-a das profanações e conservai-a para o nosso amor”.');
+INSERT INTO points VALUES(571,0,0,570,'Bebe na fonte límpida dos “Atos dos Apóstolos”: no capítulo XII, Pedro, libertado da prisão por intervenção dos Anjos, encaminha-se para a casa da mãe de Marcos. - Não querem acreditar na empregadinha que afirma que Pedro está à porta. "Angelus ejus est!" - deve ser o seu Anjo!, diziam.
+- Olha a confiança com que os primeiros cristãos tratavam os seus Anjos.
+- E tu?');
+INSERT INTO points VALUES(572,0,0,571,'As benditas almas do purgatório. - Por caridade, por justiça e por um egoísmo desculpável - podem tanto diante de Deus! -, lembra-te delas com muita freqüência nos teus sacrifícios e na tua oração.
+Oxalá possas dizer, ao falar nelas: “Minhas boas amigas, as almas do purgatório...”');
+INSERT INTO points VALUES(573,0,0,572,'Perguntas-me por que sempre te recomendo, com tanto empenho, o uso diário da água benta. - Podia dar-te muitas razões. Bastará, com certeza, esta da Santa de Ávila*: “De nenhuma coisa fogem tanto os demônios, para não voltar, como da água benta”.
+(*) Santa Teresa de Jesus (N. do T.).');
+INSERT INTO points VALUES(574,0,0,573,'Obrigado, meu Deus, pelo amor ao Papa que puseste em meu coração.');
+INSERT INTO points VALUES(575,0,0,574,'Quem te disse que fazer novenas não é varonil? - Serão varonis essas devoções, sempre que as pratique um varão..., com espírito de oração e penitência.');
+INSERT INTO points VALUES(576,0,0,575,'Alguns passam pela vida como por um túnel, e não compreendem o esplendor e a segurança e o calor do sol da fé.');
+INSERT INTO points VALUES(577,0,0,576,'Com que infame lucidez argúi Satanás contra a nossa Fé Católica!
+Mas digamos-lhe sempre, sem entrar em discussões: - Eu sou filho da Igreja.');
+INSERT INTO points VALUES(578,0,0,577,'Sentes uma fé gigante... - Quem te dá essa fé, dar-te-á os meios.');
+INSERT INTO points VALUES(579,0,0,578,'É São Paulo quem te diz, alma de apóstolo: "Justus ex fide vivit" - O justo vive da fé.
+- Que fazes, que deixas apagar esse fogo?');
+INSERT INTO points VALUES(580,0,0,579,'Fé. - Dá pena ver de que modo tão abundante a têm na boca muitos cristãos, e com que pouca abundância a põem em suas obras.
+- Até parece que é virtude para pregar, e não para praticar.');
+INSERT INTO points VALUES(581,0,0,580,'Pede humildemente ao Senhor que te aumente a fé. - E depois, com novas luzes, apreciarás bem as diferenças entre as sendas do mundo e o teu caminho de apóstolo.');
+INSERT INTO points VALUES(582,0,0,581,'Com que humildade e com que simplicidade narram os evangelistas fatos que manifestam a fé fraca e vacilante dos Apóstolos!
+- Para que tu e eu não percamos a esperança de chegar a ter a fé inamovível e forte que depois tiveram aqueles primeiros.');
+INSERT INTO points VALUES(583,0,0,582,'Como é bela a nossa Fé Católica! - Dá solução a todas as nossas ansiedades, e aquieta o entendimento, e enche de esperança o coração.');
+INSERT INTO points VALUES(584,0,0,583,'Não sou “milagreiro”. - Já te disse que me sobram milagres no Santo Evangelho para firmar fortemente a minha fé. - Mas dão-me pena esses cristãos - até piedosos, “apostólicos”! - que sorriem quando ouvem falar de caminhos extraordinários, de fatos sobrenaturais. Sinto desejos de lhes dizer: - Sim, agora também há milagres; nós mesmos os faríamos se tivéssemos fé!');
+INSERT INTO points VALUES(585,0,0,584,'Aviva a tua fé. - Não é Cristo uma figura que passou. Não é uma recordação que se perde na história.
+Vive! "Jesus Christus heri et hodie: ipse et in saecula!", diz São Paulo. Jesus Cristo ontem e hoje e sempre!');
+INSERT INTO points VALUES(586,0,0,585,'"Si habueritis fidem, sicut granum sinapis!" Se tivésseis uma fé do tamanho de um grãozinho de mostarda!...
+- Que promessas não encerra esta exclamação do Mestre!');
+INSERT INTO points VALUES(587,0,0,586,'Deus é o mesmo de sempre. - O que falta são homens de fé; e renovar-se-ão os prodígios que lemos na Santa Escritura.
+- "Ecce non est abbreviata manus Domini". - O braço de Deus, o seu poder, não encolheu!');
+INSERT INTO points VALUES(588,0,0,587,'Não têm fé. - Mas têm superstições. Deu-nos riso e vergonha aquele homem importante que perdia a tranqüilidade quando ouvia determinada palavra, em si indiferente e inofensiva - para ele de mau agouro -, ou quando via a cadeira girar sobre uma perna.');
+INSERT INTO points VALUES(589,0,0,588,'"Omnia possibilia sunt credenti". - Tudo é possível para quem crê. - São palavras de Cristo.
+- Que fazes, que não Lhe dizes com os Apóstolos: "Adauge nobis fidem!", aumenta-me a fé!?');
+INSERT INTO points VALUES(590,0,0,589,'Quando ouvires os aplausos do triunfo, que ressoem também aos teus ouvidos os risos que provocaste com os teus fracassos.');
+INSERT INTO points VALUES(591,0,0,590,'Não queiras ser como aquele catavento dourado do grande edifício; por muito que brilhe e por mais alto que esteja, não conta para a solidez da obra.
+- Oxalá sejas como um velho silhar oculto nos alicerces, debaixo da terra, onde ninguém te veja; por ti não desabará a casa.');
+INSERT INTO points VALUES(592,0,0,591,'Quanto mais me exaltarem, meu Jesus, humilha-me mais em meu coração, fazendo-me saber o que tenho sido e o que serei, se Tu me abandonares.');
+INSERT INTO points VALUES(593,0,0,592,'Não esqueças que és... a lata do lixo. - Por isso, se porventura o Jardineiro divino lança mão de ti, e te esfrega e te limpa... e te enche de magníficas flores..., nem o aroma nem a cor que embelezam a tua fealdade devem envaidecer-te.
+- Humilha-te; não sabes que és o caixote do lixo?');
+INSERT INTO points VALUES(594,0,0,593,'Quando te vires como és, há de parecer-te natural que te desprezem.');
+INSERT INTO points VALUES(595,0,0,594,'Não és humilde quando te humilhas, mas quando te humilham e o aceitas por Cristo.');
+INSERT INTO points VALUES(596,0,0,595,'Se te conhecesses, alegrar-te-ias com o desprezo, e choraria teu coração ante a exaltação e o louvor.');
+INSERT INTO points VALUES(597,0,0,596,'Não te aflijas por verem as tuas faltas. A ofensa a Deus e a desedificação que podes ocasionar, isso é o que te deve afligir.
+- De resto, que saibam como és e te desprezem. - Não tenhas pena de ser nada, porque assim Jesus tem que pôr tudo em ti.');
+INSERT INTO points VALUES(598,0,0,597,'Se agisses de acordo com os impulsos que sentes em teu coração e os que a razão te dita, estarias continuamente com a boca por terra, em prostração, como um verme sujo, feio e desprezível... diante desse Deus! que tanto te vai suportando.');
+INSERT INTO points VALUES(599,0,0,598,'Como é grande o valor da humildade! - "Quia respexit humilitatem..." Acima da fé, da caridade, da pureza imaculada, reza o hino jubiloso de nossa Mãe em casa de Zacarias:
+“Porque Ele olhou a humildade da sua serva, eis que desde agora me chamarão bem-aventurada todas as gerações...”');
+INSERT INTO points VALUES(600,0,0,599,'És pó sujo e caído. - Ainda que o sopro do Espírito Santo te levante sobre todas as coisas da terra e te faça brilhar como ouro, ao refletires nas alturas, com a tua miséria, os raios soberanos do Sol da Justiça, não esqueças a pobreza da tua condição.
+Um instante de soberba te faria voltar ao chão, e deixarias de ser luz para ser lodo.');
+INSERT INTO points VALUES(601,0,0,600,'Tu?... Soberba? - De quê?');
+INSERT INTO points VALUES(602,0,0,601,'Soberba? - Por quê?... Dentro de pouco tempo - anos, dias -, serás um monte de podridão hedionda: vermes, humores fétidos, trapos sujos da mortalha..., e ninguém na terra se lembrará de ti.');
+INSERT INTO points VALUES(603,0,0,602,'Tu, sábio, afamado, eloqüente, poderoso: se não fores humilde, nada vales.
+- Corta, arranca esse “eu” que tens em grau superlativo - Deus te ajudará -, e então poderás começar a trabalhar por Cristo, no último lugar do seu exército de apóstolos.');
+INSERT INTO points VALUES(604,0,0,603,'Essa falsa humildade é comodismo; assim, tão “humildezinho”, vais abrindo mão de direitos... que são deveres.');
+INSERT INTO points VALUES(605,0,0,604,'Reconhece humildemente a tua fraqueza, para poderes dizer com o Apóstolo: "Cum enim infirmor, tunc potens sum" - porque, quando sou fraco, então sou forte.');
+INSERT INTO points VALUES(606,0,0,605,'Padre: como pode suportar todo este lixo?, disseste-me, depois de uma confissão contrita.
+- Calei-me, pensando que, se a tua humildade te leva a sentir-te assim - como lixo, um montão de lixo! -, ainda poderemos fazer algo de grande de toda a tua miséria.');
+INSERT INTO points VALUES(607,0,0,606,'Olha como é humilde o nosso Jesus: um burrico foi o seu trono em Jerusalém!...');
+INSERT INTO points VALUES(608,0,0,607,'A humildade é outro bom caminho para chegar à paz interior. - Foi “Ele” que o disse: “Aprendei de mim, que sou manso e humilde de coração..., e encontrareis paz para as vossas almas”.');
+INSERT INTO points VALUES(609,0,0,608,'Não é falta de humildade conheceres o progresso da tua alma. - Assim podes agradecê-lo a Deus.
+- Mas não te esqueças de que és um pobrezinho, que veste um bom terno... emprestado.');
+INSERT INTO points VALUES(610,0,0,609,'O conhecimento próprio leva-nos como que pela mão à humildade.');
+INSERT INTO points VALUES(611,0,0,610,'A tua firmeza em defender o espírito e as normas do apostolado em que trabalhas não deve fraquejar por falsa humildade. - Essa firmeza não é soberba; é a virtude cardeal da fortaleza.');
+INSERT INTO points VALUES(612,0,0,611,'Foi por soberba: já te ias julgando capaz de tudo, tu sozinho. - O Senhor te largou por um instante, e caíste de cabeça. - Sê humilde, e o seu apoio extraordinário não te há de faltar.');
+INSERT INTO points VALUES(613,0,0,612,'Bem podias repelir esses pensamentos de orgulho; afinal, és como o pincel nas mãos do artista. - E nada mais.
+- Diz-me para que serve um pincel, se não deixa trabalhar o pintor.');
+INSERT INTO points VALUES(614,0,0,613,'Para que sejas humilde, tu, tão vazio e tão satisfeito de ti mesmo, basta-te considerar aquelas palavras de Isaías: és “gota de água ou de orvalho que cai na terra e mal se deixa ver”.');
+INSERT INTO points VALUES(615,0,0,614,'Nos trabalhos de apostolado, não há desobediência pequena.');
+INSERT INTO points VALUES(616,0,0,615,'Tempera a tua vontade, viriliza a tua vontade; que seja, com a graça de Deus, como um esporão de aço.
+- Só tendo uma vontade forte, saberás não tê-la para obedecer.');
+INSERT INTO points VALUES(617,0,0,616,'Por essa demora, por essa passividade, por essa tua resistência em obedecer, como se ressente o apostolado e como se alegra o inimigo!');
+INSERT INTO points VALUES(618,0,0,617,'Obedecei, como nas mãos do artista obedece um instrumento - que não se detém a considerar por que faz isto ou aquilo -, certos de que nunca vos mandarão coisa que não seja boa e para toda a glória de Deus.');
+INSERT INTO points VALUES(619,0,0,618,'O inimigo: - Vais obedecer... até nesse pormenor “ridículo”? - Tu, com a graça de Deus: - Vou obedecer... até nesse pormenor “heróico”.');
+INSERT INTO points VALUES(620,0,0,619,'Iniciativas. - Toma-as, no teu apostolado, dentro dos limites do mandato que te outorgarem.
+- Se saem desses limites ou tens dúvidas, consulta o superior, sem comunicares a ninguém os teus pensamentos.
+- Nunca te esqueças de que és apenas um executor.');
+INSERT INTO points VALUES(621,0,0,620,'Se a obediência não te dá paz, é que és soberbo.');
+INSERT INTO points VALUES(622,0,0,621,'Que pena se quem manda não te dá exemplo!... - Mas porventura lhe obedeces pelas suas condições pessoais?... Ou será que, para tua comodidade, traduzes o "obedite praepositis vestris" - obedecei aos vossos superiores - de São Paulo, com uma interpolação tua que venha a significar... sempre que o superior tenha virtudes ao meu gosto?');
+INSERT INTO points VALUES(623,0,0,622,'Que bem entendeste a obediência quando me escrevias: “Obedecer sempre é ser mártir sem morrer”!');
+INSERT INTO points VALUES(624,0,0,623,'Mandam-te fazer uma coisa que julgas estéril e difícil. - Faze-a. - E verás que é fácil e fecunda.');
+INSERT INTO points VALUES(625,0,0,624,'Hierarquia. - Cada peça no seu lugar. - Que ficaria de um quadro de Velázquez se cada cor saísse do seu lugar, se cada fio da tela se soltasse, se cada pedaço de madeira do bastidor se separasse dos outros?');
+INSERT INTO points VALUES(626,0,0,625,'A tua obediência não merece esse nome se não estás decidido a jogar por terra o teu trabalho pessoal mais florescente, quando quem de direito assim o dispuser.');
+INSERT INTO points VALUES(627,0,0,626,'Não é verdade, Senhor, que Te dava grande consolação a “sutileza” daquele homenzarrão com alma de criança que, ao sentir o desconcerto que produz obedecer em coisas desagradáveis e em si repugnantes, Te dizia baixinho: “Jesus, que eu faça boa cara”?');
+INSERT INTO points VALUES(628,0,0,627,'A tua obediência deve ser muda. Essa língua!');
+INSERT INTO points VALUES(629,0,0,628,'Agora que te custa obedecer, lembra-te do teu Senhor, "factus obediens usque ad mortem, mortem autem crucis" - obediente até à morte, e morte de cruz!');
+INSERT INTO points VALUES(630,0,0,629,'Que poder o da obediência! - O lago de Genesaré negava os seus peixes às redes de Pedro. Toda uma noite em vão.
+- Agora, obediente, tornou a lançar a rede à água e pescaram "piscium multitudinem copiosam" - uma grande quantidade de peixes.
+- Acredita: o milagre repete-se todos os dias.');
+INSERT INTO points VALUES(631,0,0,630,'Não o esqueças: tem mais aquele que precisa de menos. - Não cries necessidades.');
+INSERT INTO points VALUES(632,0,0,631,'Desapega-te dos bens do mundo. - Ama e pratica o espírito de pobreza. Contenta-te com o que basta para passar a vida sóbria e temperadamente.
+- Senão, nunca serás apóstolo.');
+INSERT INTO points VALUES(633,0,0,632,'Não consiste a verdadeira pobreza em não ter, mas em estar desprendido, em renunciar voluntariamente ao domínio sobre as coisas.
+- Por isso há pobres que realmente são ricos. E vice-versa.');
+INSERT INTO points VALUES(634,0,0,633,'Se és homem de Deus, põe em desprezar as riquezas o mesmo empenho que põem os homens do mundo em possuí-las.');
+INSERT INTO points VALUES(635,0,0,634,'Tanta afeição às coisas da terra! - Bem cedo te fugirão das mãos, que não descem com o rico ao sepulcro as suas riquezas.');
+INSERT INTO points VALUES(636,0,0,635,'Não tens espírito de pobreza se, podendo escolher de modo que a escolha passe despercebida, não escolhes para ti o pior.');
+INSERT INTO points VALUES(637,0,0,636,'"Divitiae, si affluant, nolite cor apponere" - Se vierem às tuas mãos as riquezas, não queiras pôr nelas o teu coração. - Anima-te a empregá-las generosamente. E, se for preciso, heroicamente.
+- Sê pobre em espírito!');
+INSERT INTO points VALUES(638,0,0,637,'Não amas a pobreza se não amas o que a pobreza traz consigo.');
+INSERT INTO points VALUES(639,0,0,638,'Quantos recursos santos não tem a pobreza! - Lembras-te? Tu lhe deste, em horas de apuro econômico para aquele seu empreendimento apostólico, até o último centavo de que dispunhas.
+- E ele, Sacerdote de Deus, te disse: “Eu te darei também tudo o que tenho”. - Tu, de joelhos. - E... “a bênção de Deus Onipotente, Pai, Filho e Espírito Santo, desça sobre ti e permaneça para sempre”, ouviu-se.
+- Ainda te dura a persuasão de que foste bem pago.');
+INSERT INTO points VALUES(640,0,0,639,'De calar não te arrependerás nunca; de falar, muitas vezes.');
+INSERT INTO points VALUES(641,0,0,640,'Como te atreves a recomendar que guardem segredo..., se essa advertência é sinal de que tu não o soubeste guardar?');
+INSERT INTO points VALUES(642,0,0,641,'Discrição não é mistério nem segredo. É, simplesmente, naturalidade.');
+INSERT INTO points VALUES(643,0,0,642,'Discrição é... delicadeza. - Não sentes certa inquietação, um mal-estar íntimo, quando os assuntos - nobres e correntes - da tua família saem do calor do lar para a indiferença ou para a curiosidade da praça pública?');
+INSERT INTO points VALUES(644,0,0,643,'Não exibas facilmente a intimidade do teu apostolado. Não vês que o mundo está cheio de incompreensões egoístas?');
+INSERT INTO points VALUES(645,0,0,644,'Cala-te. Não esqueças que o teu ideal é como uma luzinha recém-acesa. - Pode bastar um sopro para apagá-la em teu coração.');
+INSERT INTO points VALUES(646,0,0,645,'Como é fecundo o silêncio! - Todas as energias que perdes, com as tuas faltas de discrição, são energias que subtrais à eficácia do teu trabalho.
+- Sê discreto.');
+INSERT INTO points VALUES(647,0,0,646,'Se fosses mais discreto, não te lamentarias interiormente desse mau sabor na boca que te faz sofrer depois de muitas das tuas conversas.');
+INSERT INTO points VALUES(648,0,0,647,'Não pretendas que te “compreendam”. - Essa incompreensão é providencial: para que o teu sacrifício passe despercebido.');
+INSERT INTO points VALUES(649,0,0,648,'Se te calares, conseguirás mais eficácia em teus empreendimentos apostólicos - a quantos não lhes foge “a força” pela boca! - e evitarás muitos perigos de vanglória.');
+INSERT INTO points VALUES(650,0,0,649,'Sempre o espetáculo! - Vens pedir-me fotografias, gráficos, estatísticas.
+- Não te envio esse material, porque (parece-me muito respeitável a opinião contrária) depois havia de pensar que trabalho para me empoleirar na terra..., e onde eu quero empoleirar-me é no Céu.');
+INSERT INTO points VALUES(651,0,0,650,'Há muita gente - santa - que não entende o teu caminho. - Não te empenhes em fazer que o compreendam; perderás o tempo e darás lugar a indiscrições.');
+INSERT INTO points VALUES(652,0,0,651,'“Não se pode ser raiz e copa, se não se é seiva, espírito, coisa que vai por dentro”.
+- Aquele teu amigo que escreveu estas palavras sabia que eras nobremente ambicioso. - E te ensinou o caminho: a discrição, o sacrifício, ir por dentro!');
+INSERT INTO points VALUES(653,0,0,652,'Discrição, virtude de poucos. - Quem caluniou a mulher dizendo que a discrição não é virtude de mulheres?
+- Quantos homens bem barbados têm que aprender!');
+INSERT INTO points VALUES(654,0,0,653,'Que exemplo de discrição nos dá a Mãe de Deus! Nem a São José comunica o mistério.
+- Pede à Senhora a discrição que te falta.');
+INSERT INTO points VALUES(655,0,0,654,'O despeito afiou a tua língua. Cala-te!');
+INSERT INTO points VALUES(656,0,0,655,'Nunca te encarecerei suficientemente a importância da discrição.
+- Se não é o gume da tua arma de combate, dir-te-ei que é a empunhadura.');
+INSERT INTO points VALUES(657,0,0,656,'Cala-te sempre que sintas dentro de ti o referver da indignação. - Ainda que estejas justissimamente irado.
+- Porque, apesar da tua discrição, nesses instantes sempre dizes mais do que quererias dizer.');
+INSERT INTO points VALUES(658,0,0,657,'A verdadeira virtude não é triste nem antipática, mas amavelmente alegre.');
+INSERT INTO points VALUES(659,0,0,658,'Se as coisas correm bem, alegremo-nos, bendizendo a Deus que dá o incremento. - Correm mal? - Alegremo-nos, bendizendo a Deus que nos faz participar da sua doce Cruz.');
+INSERT INTO points VALUES(660,0,0,659,'A alegria que deves ter não é essa que poderíamos chamar fisiológica, de animal são, mas uma outra, sobrenatural, que procede de abandonar tudo e te abandonares a ti mesmo nos braços amorosos do nosso Pai-Deus.');
+INSERT INTO points VALUES(661,0,0,660,'Nunca desanimes, se és apóstolo. - Não há contradição que não possas superar.
+- Por que estás triste?');
+INSERT INTO points VALUES(662,0,0,661,'Caras compridas..., maneiras bruscas..., aspecto ridículo..., ar antipático... Desse jeito esperas animar os outros a seguir Cristo?');
+INSERT INTO points VALUES(663,0,0,662,'Não há alegria? - Então pensa: há um obstáculo entre Deus e mim. - Quase sempre acertarás.');
+INSERT INTO points VALUES(664,0,0,663,'Para remediar a tua tristeza, pedes-me um conselho. - Vou-te dar uma receita que vem de boa mão - do Apóstolo Tiago:
+- "Tristatur aliquis vestrum?": Estás triste, meu filho? - "Oret!": Faz oração! - Experimenta!');
+INSERT INTO points VALUES(665,0,0,664,'Não estejas triste. - Tem uma visão mais... “nossa” - mais cristã - das coisas.');
+INSERT INTO points VALUES(666,0,0,665,'Quero que estejas sempre contente, porque a alegria é parte integrante do teu caminho.
+- Pede essa mesma alegria sobrenatural para todos.');
+INSERT INTO points VALUES(667,0,0,666,'"Laetetur cor quaerentium Dominum" - Alegre-se o coração dos que procuram o Senhor.
+- Luz, para que investigues os motivos da tua tristeza.');
+INSERT INTO points VALUES(668,0,0,667,'Os atos de Fé, Esperança e Amor são válvulas por onde se expande o fogo das almas que vivem vida de Deus.');
+INSERT INTO points VALUES(669,0,0,668,'Faz tudo desinteressadamente, por puro Amor, como se não houvesse prêmio nem castigo. - Mas fomenta em teu coração a gloriosa esperança do Céu.');
+INSERT INTO points VALUES(670,0,0,669,'Está bem que sirvas a Deus como um filho, sem paga, generosamente... - Mas não te preocupes se uma vez ou outra pensas no prêmio.');
+INSERT INTO points VALUES(671,0,0,670,'Diz Jesus: “E todo aquele que deixar casa ou irmãos ou irmãs ou pai ou mãe ou esposa ou filhos ou herdades por causa do meu nome, receberá cem vezes mais e possuirá a vida eterna”.
+- Vê lá se encontras na terra quem pague com tanta generosidade!');
+INSERT INTO points VALUES(672,0,0,671,'Jesus... calado. - "Jesus autem tacebat". - Por que falas tu? Para te consolares ou para te desculpares?
+Cala-te. - Procura a alegria nos desprezos; sempre serão menos do que mereces.
+- Porventura podes tu perguntar: "Quid enim mali feci?" - que mal fiz eu?');
+INSERT INTO points VALUES(673,0,0,672,'Podes ter a certeza de que és homem de Deus se aceitas com alegria e silêncio a injustiça.');
+INSERT INTO points VALUES(674,0,0,673,'Bela resposta a que deu aquele homem venerável ao jovem que se queixava da injustiça sofrida:
+- “Isso te magoa?”, dizia-lhe. “Então, não queiras ser bom!...”');
+INSERT INTO points VALUES(675,0,0,674,'Nunca dês o teu parecer se não te pedem, mesmo que penses que a tua opinião é a mais acertada.');
+INSERT INTO points VALUES(676,0,0,675,'É verdade que foi pecador. - Mas não faças dele esse juízo inabalável. - Vê se tens entranhas de piedade, e não te esqueças de que ainda pode vir a ser um Agostinho, enquanto tu não passas de um medíocre.');
+INSERT INTO points VALUES(677,0,0,676,'Todas as coisas deste mundo não são mais do que terra. - Amontoa-as debaixo dos pés, e estarás mais perto do Céu.');
+INSERT INTO points VALUES(678,0,0,677,'Ouro, prata, jóias..., terra, montões de esterco. - Gozos, prazeres sensuais, satisfação dos apetites..., como uma besta, como um mulo, como um porco, como um galo, como um touro.
+Honras, distinções, títulos..., balões de ar, inchaços de soberba, mentiras, nada.');
+INSERT INTO points VALUES(679,0,0,678,'Não tenhas os teus amores aqui em baixo. - São amores egoístas... Os que amas hão de afastar-se de ti, com medo e nojo, poucas horas depois de te chamar Deus à sua presença. - Outros são os amores que perduram.');
+INSERT INTO points VALUES(680,0,0,679,'A gula é um vício feio. - Não te dá um pouquinho de riso e outro pouquinho de náusea ver esses senhores graves, sentados à volta da mesa, sérios, com ares de rito, metendo gorduras no tubo digestivo, como se aquilo fosse “um fim”?');
+INSERT INTO points VALUES(681,0,0,680,'À mesa, não fales de comida; isso é uma grosseria, imprópria de ti. - Fala de coisas nobres - da alma ou do entendimento -, e terás enaltecido esse dever.');
+INSERT INTO points VALUES(682,0,0,681,'No dia em que te levantares da mesa sem teres feito uma pequena mortificação, comeste como um pagão.');
+INSERT INTO points VALUES(683,0,0,682,'Habitualmente, comes mais do que precisas. - E essa fartura, que muitas vezes te produz lassidão e mal-estar físico, torna-te incapaz de saborear os bens sobrenaturais e entorpece o teu entendimento.
+Que boa virtude, mesmo para a terra, é a temperança!');
+INSERT INTO points VALUES(684,0,0,683,'Vejo-te, cavalheiro cristão (dizes que o és), beijando uma imagem, mascando entre dentes uma oração vocal, clamando contra os que atacam a Igreja de Deus..., e até freqüentando os Santos Sacramentos.
+Mas não te vejo fazer um sacrifício, nem prescindir de certas conversas... mundanas (podia, com razão, aplicar-lhes outro qualificativo), nem ser generoso com os inferiores... - nem com a Igreja de Cristo! -, nem suportar uma fraqueza do teu irmão, nem abater a tua soberba pelo bem comum, nem desfazer-te do teu forte invólucro de egoísmo, nem... tantas coisas mais!
+Vejo-te... Não te vejo... - E tu... dizes que és um cavalheiro cristão? - Que pobre conceito fazes de Cristo!');
+INSERT INTO points VALUES(685,0,0,684,'O teu talento, a tua simpatia, as tuas condições... perdem-se; não te deixam aproveitá-los. - Pensa bem nestas palavras de um autor espiritual: “Não se perde o incenso que se oferece a Deus. - Mais se honra o Senhor com o abatimento dos teus talentos do que com o seu uso vão”.');
+INSERT INTO points VALUES(686,0,0,685,'O vendaval da perseguição é bom. - O que é que se perde?... Não se perde o que está perdido.
+Quando não se arranca a árvore pela raiz - e a árvore da Igreja, não há vento nem furacão que a possam arrancar -, apenas caem os ramos secos... E esses, bom é que caiam.');
+INSERT INTO points VALUES(687,0,0,686,'De acordo: essa pessoa tem sido má contigo. - Mas não tens sido tu pior com Deus?');
+INSERT INTO points VALUES(688,0,0,687,'Jesus: por onde quer que tenhas passado, não ficou um coração indiferente. - Ou Te amam ou Te odeiam.
+Quando um homem-apóstolo Te segue, cumprindo o seu dever, poderá surpreender-me - se é outro Cristo! - que levante parecidos murmúrios de aversão ou de afeto?');
+INSERT INTO points VALUES(689,0,0,688,'Outra vez!... Falaram, escreveram..., a favor, contra...; com boa e com menos boa vontade...; reticências e calúnias, panegíricos e exaltações..., sandices e verdades...
+- Bobo! Grandessíssimo bobo! Se vais direito ao teu fim, com a cabeça e o coração bêbados de Deus, que te importa a ti o clamor do vento ou o cantar da cigarra, ou o mugido, ou o grunhido, ou o relincho?...
+Além disso..., é inevitável; não pretendas tapar o sol com a peneira.');
+INSERT INTO points VALUES(690,0,0,689,'Soltaram-se as línguas e sofreste desfeitas que te feriram mais porque não as esperavas.
+A tua reação sobrenatural deve ser a de perdoar - e mesmo pedir perdão - e aproveitar a experiência para desapegar-te das criaturas.');
+INSERT INTO points VALUES(691,0,0,690,'Quando vier o sofrimento, o desprezo..., a Cruz, deves considerar: - Que é isto, comparado com o que eu mereço?');
+INSERT INTO points VALUES(692,0,0,691,'Estás sofrendo uma grande tribulação? Tens contrariedades? - Diz, muito devagar, como que saboreando, esta oração forte e viril:
+“Faça-se, cumpra-se, seja louvada e eternamente glorificada a justíssima e amabilíssima Vontade de Deus sobre todas as coisas. - Assim seja. - Assim seja.”
+Eu te garanto que alcançarás a paz.');
+INSERT INTO points VALUES(693,0,0,692,'Sofres nesta vida de cá, que é um sonho... breve. - Alegra-te, porque teu Pai-Deus te ama muito e, se não levantares obstáculos, após este sonho ruim, te dará um bom despertar.');
+INSERT INTO points VALUES(694,0,0,693,'Dói-te que não te agradeçam aquele favor.
+- Responde-me a estas duas perguntas: - És tu assim agradecido com Jesus Cristo? - Foste capaz de fazer esse favor, procurando o agradecimento na terra?');
+INSERT INTO points VALUES(695,0,0,694,'Não sei por que te assustas. - Sempre foram pouco razoáveis os inimigos de Cristo.
+Ressuscitado Lázaro, deveriam render-se e confessar a divindade de Jesus. - Mas não! Matemos Aquele que dá a vida!, disseram.
+E hoje como ontem.');
+INSERT INTO points VALUES(696,0,0,695,'Nas horas de luta e contradição, quando talvez “os bons” encham de obstáculos o teu caminho, levanta o teu coração de apóstolo; ouve Jesus que fala do grão de mostarda e do fermento. - E diz-Lhe: "Edissere nobis parabolam" - explica-me a parábola.
+E sentirás a alegria de contemplar a vitória futura: aves do céu à sombra do teu apostolado, agora incipiente; e toda a massa fermentada.');
+INSERT INTO points VALUES(697,0,0,696,'Se recebes a tribulação de ânimo encolhido, perdes a alegria e a paz, e te expões a não tirar proveito espiritual desse transe.');
+INSERT INTO points VALUES(698,0,0,697,'Os acontecimentos públicos levaram-te a um encerramento voluntário, pior talvez, pelas suas circunstâncias, do que o encerramento numa prisão. - Sofreste um eclipse da tua personalidade. Não encontras ambiente; só egoísmo, curiosidade, incompreensões e murmuração.
+- Está certo. E daí? Esqueces a tua vontade libérrima e o teu poder de “criança”? - A falta de folhas e de flores (de ação externa) não exclui a multiplicação e a atividade das raízes (vida interior).
+Trabalha; há de mudar o rumo das coisas, e darás mais frutos do que antes, e mais saborosos.');
+INSERT INTO points VALUES(699,0,0,698,'Ralham contigo? - Não te zangues, como te aconselha a soberba. - Pensa: que caridade têm comigo! Quanto não terão calado!');
+INSERT INTO points VALUES(700,0,0,699,'Cruz, trabalhos, tribulações: tê-los-ás enquanto viveres. - Por esse caminho foi Cristo, e não é o discípulo mais que o Mestre.');
+INSERT INTO points VALUES(701,0,0,700,'Certo: há muita luta de fora, e isso te desculpa, em parte. - Mas também há cumplicidade dentro - repara devagar -, e aí não vejo desculpa.');
+INSERT INTO points VALUES(702,0,0,701,'Não ouviste dos lábios do Mestre a parábola da videira e dos ramos? - Consola-te. Ele exige muito de ti porque és ramo que dá fruto... E te poda, "ut fructum plus afferas" - para que dês mais fruto.
+É claro!: dói esse cortar, esse arrancar. Mas, depois, que louçania nos frutos, que maturidade nas obras!');
+INSERT INTO points VALUES(703,0,0,702,'Estás intranqüilo. - Olha: aconteça o que acontecer na tua vida interior ou no mundo que te rodeia, nunca te esqueças de que a importância dos acontecimentos ou das pessoas é muito relativa.
+- Calma! Deixa correr o tempo; e, depois, olhando de longe e sem paixão os fatos e as pessoas, adquirirás a perspectiva, porás cada coisa no seu lugar e de acordo com o seu verdadeiro tamanho.
+Se assim fizeres, serás mais justo e evitarás muitas preocupações.');
+INSERT INTO points VALUES(704,0,0,703,'Uma noite ruim, numa ruim pousada. - Assim dizem que definiu esta vida terrena a Madre Teresa de Jesus. É uma comparação certeira, não é mesmo?');
+INSERT INTO points VALUES(705,0,0,704,'Uma visita ao famoso mosteiro. - Aquela senhora estrangeira sentiu apiedar-se o coração, ao considerar a pobreza do edifício: “Os senhores devem ter uma vida muito dura, não é?” E o monge, satisfeito, limitou-se a responder: "Tú lo quisiste, fraile mostén; tú lo quisiste, tú te lo ten"*.
+Isto, que com tanta alegria me dizia esse santo varão, tenho de o repetir a ti com pena, quando me contas que não és feliz.
+(*) Provérbio espanhol que, em língua portuguesa, corresponde ao ditado: “Assim o queres, assim o tens” ou “Quem corre por gosto não se cansa” (N. do T.).');
+INSERT INTO points VALUES(706,0,0,705,'Inquietar-se? - Nunca! Porque é perder a paz.');
+INSERT INTO points VALUES(707,0,0,706,'Abatimento físico. Estás... arrasado. - Descansa. Pára com essa atividade exterior.
+- Consulta o médico. Obedece e despreocupa-te.
+Em breve regressarás à tua vida e melhorarás, se fores fiel, os teus trabalhos de apostolado.');
+INSERT INTO points VALUES(708,0,0,707,'Não te perturbes se, ao considerar as maravilhas do mundo sobrenatural, sentes a outra voz - íntima, insinuante - do “homem velho”.
+É “o corpo de morte” que clama por seus foros perdidos... Basta-te a graça; sê fiel e vencerás.');
+INSERT INTO points VALUES(709,0,0,708,'O mundo, o demônio e a carne são uns aventureiros que, aproveitando-se da fraqueza do selvagem que trazes dentro de ti, querem que, em troca do fictício brilho de um prazer - que nada vale -, lhes entregues o ouro fino e as pérolas e os brilhantes e os rubis embebidos no sangue vivo e redentor do teu Deus, que são o preço e o tesouro da tua eternidade.');
+INSERT INTO points VALUES(710,0,0,709,'Estás ouvindo? - Em outro estado, em outro lugar, em outro grau e ofício farias um bem muito maior. - Para fazer o que estás fazendo, não é preciso talento!
+Pois eu te digo: - Onde te puseram agradas a Deus..., e isso que andavas pensando é claramente uma sugestão infernal.');
+INSERT INTO points VALUES(711,0,0,710,'Ficas apoquentado e triste porque as tuas Comunhões são frias, cheias de aridez. - Quando vais ao Sacramento, diz-me uma coisa: procuras-te a ti ou procuras Jesus? - Se te procuras a ti, motivo tens para entristecer-te... Mas se - como deves - procuras Cristo, queres sinal mais certo do que a Cruz para saber que O encontraste?');
+INSERT INTO points VALUES(712,0,0,711,'Outra queda..., e que queda!... Desesperar-te? Não: humilhar-te e recorrer, por Maria, tua Mãe, ao Amor Misericordioso de Jesus. - Um "miserere" e... coração ao alto! - Vamos!, começa de novo.');
+INSERT INTO points VALUES(713,0,0,712,'Bem fundo caíste! - Começa os alicerces daí de baixo. - Sê humilde. - "Cor contritum et humiliatum, Deus, non despicies". - Não desprezará Deus um coração contrito e humilhado.');
+INSERT INTO points VALUES(714,0,0,713,'Tu não vais contra Deus. - As tuas quedas são de fragilidade. - De acordo. Mas são tão freqüentes essas fragilidades (não sabes evitá-las) que, se não queres que te tenha por mau, me verei obrigado a ter-te por mau e por tolo.');
+INSERT INTO points VALUES(715,0,0,714,'Um querer sem querer é o teu, enquanto não afastares decididamente a ocasião. - Não queiras iludir-te dizendo-me que és fraco. És... covarde, o que não é o mesmo.');
+INSERT INTO points VALUES(716,0,0,715,'Essa trepidação do teu espírito, a tentação que te envolve, é como uma venda sobre os olhos da tua alma.
+Estás às escuras. - Não te empenhes em andar só, porque, sozinho, cairás. - Vai ter com o teu Diretor - com o teu superior -, e ele te fará ouvir aquelas palavras do Arcanjo Rafael a Tobias:
+"Forti animo esto, in proximo est ut a Deo cureris". - Tem coragem, que em breve te curará Deus.
+- Sê obediente, e cairão as escamas, cairá a venda dos teus olhos, e Deus te encherá de graça e de paz.');
+INSERT INTO points VALUES(717,0,0,716,'“Não sei vencer-me!”, escreves-me com desalento. - E te respondo: Mas já tentaste, por acaso, empregar os meios?');
+INSERT INTO points VALUES(718,0,0,717,'Bem-aventuradas desventuras da terra! - Pobreza, lágrimas, ódios, injustiça, desonra... Tudo poderás nAquele que te confortará.');
+INSERT INTO points VALUES(719,0,0,718,'Sofres... e não quererias queixar-te. - Não faz mal que te queixes - é a reação natural da nossa pobre carne -, enquanto a tua vontade quiser em ti, agora e sempre, o que Deus quer.');
+INSERT INTO points VALUES(720,0,0,719,'Nunca desesperes. Morto e corrompido estava Lázaro: "Jam foetet, quatriduanus est enim" - já fede, porque há quatro dias que está enterrado, diz Marta a Jesus.
+Se ouvires a inspiração de Deus e a seguires ("Lazare, veni foras!" - Lázaro, vem para fora!), voltarás à Vida.');
+INSERT INTO points VALUES(721,0,0,720,'Como custa! - Já sei. Mas, para a frente! Só será premiado - e que prêmio! - aquele que pelejar com bravura.');
+INSERT INTO points VALUES(722,0,0,721,'Se cambaleia o teu edifício espiritual, se tens a impressão de que tudo está no ar..., apóia-te na confiança filial em Jesus e em Maria, pedra firme e segura sobre a qual devias ter edificado desde o princípio.');
+INSERT INTO points VALUES(723,0,0,722,'A provação desta vez é longa. - Talvez - e mesmo sem “talvez” - não a tenhas aceitado bem até agora... porque ainda procuravas consolos humanos. - E teu Pai-Deus os arrancou pela raiz, para que não tenhas outro arrimo fora dEle.');
+INSERT INTO points VALUES(724,0,0,723,'Dizes que para ti tudo é indiferente? - Não queiras iludir-te. Agora mesmo, se eu te perguntasse por pessoas e por atividades em que por Deus empenhaste a tua alma, sei que me responderias - briosamente! - com o interesse de quem fala de coisa própria.
+Não, para ti não é tudo indiferente. É que não és incansável..., e necessitas de mais tempo para ti; tempo que será também para as tuas obras, porque, no fim das contas, tu és o instrumento.');
+INSERT INTO points VALUES(725,0,0,724,'Vens dizer-me que tens no teu peito fogo e água, frio e calor, paixõezinhas e Deus..., uma vela acesa a São Miguel e outra ao diabo.
+Sossega; enquanto quiseres lutar, não haverá duas velas acesas no teu peito, mas uma só - a do Arcanjo.');
+INSERT INTO points VALUES(726,0,0,725,'O inimigo quase sempre procede assim com as almas que lhe vão resistir: hipocritamente, suavemente; motivos... espirituais!: não chamar a atenção... - E depois, quando parece não haver remédio (que há), descaradamente..., para ver se consegue um desespero como o de Judas, sem arrependimento.');
+INSERT INTO points VALUES(727,0,0,726,'Ao perderes aqueles consolos humanos, ficaste com uma sensação de solidão, como que suspenso por um fiozinho sobre o vazio de negro abismo. - E teu clamor, teus gritos de socorro, parece que ninguém os escuta.
+É bem merecido esse desamparo. - Sê humilde. Não te procures a ti nem procures a tua comodidade; ama a Cruz - suportá-la é pouco - e o Senhor ouvirá a tua oração. - E hão de acalmar-se os teus sentidos. - E voltará a cicatrizar o teu coração. - E terás paz.');
+INSERT INTO points VALUES(728,0,0,727,'Em carne viva. - É assim que te encontras. Tudo te faz sofrer nas potências da alma e nos sentidos. E tudo para ti é tentação...
+Sê humilde, insisto. Verás como em breve te tiram desse estado. E a dor se transformará em alegria; e a tentação, em segura firmeza.
+Mas, enquanto isso, aviva a tua fé; enche-te de esperança; e faz contínuos atos de Amor, embora penses que são só da boca para fora.');
+INSERT INTO points VALUES(729,0,0,728,'Toda a nossa fortaleza é emprestada.');
+INSERT INTO points VALUES(730,0,0,729,'Ó meu Deus: cada dia me sinto menos seguro de mim e mais seguro de Ti!');
+INSERT INTO points VALUES(731,0,0,730,'Se não O abandonas, Ele não te abandonará.');
+INSERT INTO points VALUES(732,0,0,731,'Espera tudo de Jesus; tu nada tens, nada vales, nada podes. - Ele agirá, se nEle te abandonares.');
+INSERT INTO points VALUES(733,0,0,732,'Ó Jesus! - Descanso em Ti.');
+INSERT INTO points VALUES(734,0,0,733,'Confia sempre no teu Deus. - Ele não perde batalhas.');
+INSERT INTO points VALUES(735,0,0,734,'“Esta é a vossa hora, e o poder das trevas”. - Quer dizer que... o homem pecador tem a sua hora? - Tem, sim... E Deus, a sua eternidade!');
+INSERT INTO points VALUES(736,0,0,735,'Se és apóstolo, a morte será para ti uma boa amiga que te facilita o caminho.');
+INSERT INTO points VALUES(737,0,0,736,'Já viste, numa tarde triste de outono, caírem as folhas mortas? Assim caem todos os dias as almas na eternidade. Um dia, a folha caída serás tu.');
+INSERT INTO points VALUES(738,0,0,737,'Não tens ouvido com que tom de tristeza se lamentam os mundanos de que “cada dia que passa é morrer um pouco”?
+Pois eu te digo: - Alegra-te, alma de apóstolo, porque cada dia que passa te aproxima da Vida.');
+INSERT INTO points VALUES(739,0,0,738,'Aos “outros”, a morte os paralisa e assusta. A nós, a morte - a Vida - dá-nos coragem e impulso.
+Para eles, é o fim; para nós, o princípio.');
+INSERT INTO points VALUES(740,0,0,739,'Não tenhas medo da morte. - Aceita-a desde agora, generosamente..., quando Deus quiser..., como Deus quiser..., onde Deus quiser.
+- Não duvides; virá no tempo, no lugar e do modo que mais convier..., enviada por teu Pai-Deus. - Bem-vinda seja a nossa irmã, a morte!');
+INSERT INTO points VALUES(741,0,0,740,'Que peça do mundo se desengonçará se eu faltar, se morrer?');
+INSERT INTO points VALUES(742,0,0,741,'Vês como se desfaz materialmente, em humores pestilentos, o cadáver da pessoa amada?
+- Pois isso é um corpo formoso! - Contempla-o e tira conclusões.');
+INSERT INTO points VALUES(743,0,0,742,'Aqueles quadros de Valdés Leal*, com tantos “restos” ilustres - bispos, cavaleiros - em viva podridão, parece-me impossível que não te impressionem.
+Mas... e o gemido do duque de Gandia*: “Não mais servir a senhor que me possa morrer”?
+(*) N do T: Pintor espanhol do séc. XVII, famoso pelos seus quadros sobre a morte (N. do T.).
+(**) N do T: Futuro São Francisco de Borja (N. do T.).');
+INSERT INTO points VALUES(744,0,0,743,'Falas-me em morrer “heroicamente”. - Não achas que é mais “heróico” morrer despercebido, numa boa cama, como um burguês..., mas de mal de Amor?');
+INSERT INTO points VALUES(745,0,0,744,'Tu - se és apóstolo - não hás de morrer. - Mudarás de casa, e é só.');
+INSERT INTO points VALUES(746,0,0,745,'“Há de vir julgar os vivos e os mortos”, rezamos no Credo. - Oxalá não percas de vista esse julgamento e essa justiça e... esse Juiz.');
+INSERT INTO points VALUES(747,0,0,746,'Será que não brilha na tua alma o desejo de que teu Pai-Deus fique contente quando tiver que julgar-te?');
+INSERT INTO points VALUES(748,0,0,747,'Há uma grande propensão nas almas mundanas para recordar a Misericórdia do Senhor. - E assim se animam a continuar em seus desvarios.
+É verdade que Deus Nosso Senhor é infinitamente misericordioso, mas também é infinitamente justo. E há um julgamento, e Ele é o Juiz.');
+INSERT INTO points VALUES(749,0,0,748,'Anima-te. - Não sabes que São Paulo diz aos de Corinto que “cada um receberá o seu salário na medida do seu próprio trabalho”?');
+INSERT INTO points VALUES(750,0,0,749,'Há inferno. - Uma afirmação que para ti é sem dúvida um lugar-comum. - Vou-te repetir: há inferno!
+Vê se me serves de eco, oportunamente, ao ouvido daquele companheiro... e daquele outro.');
+INSERT INTO points VALUES(751,0,0,750,'Escuta-me bem, homem metido na ciência até a ponta dos cabelos: a tua ciência não me pode negar a verdade das atividades diabólicas. Durante muitos anos - e ainda hoje é uma louvável devoção privada -, minha Mãe, a Santa Igreja, fez que os Sacerdotes ao pé do altar invocassem todos os dias São Miguel, "contra nequitiam et insidias diaboli", contra a maldade e ciladas do inimigo.');
+INSERT INTO points VALUES(752,0,0,751,'O Céu. “Nem olho algum viu, nem ouvido algum ouviu, nem jamais passou pela cabeça do homem o que Deus preparou para os que O amam”.
+Não te incitam à luta estas revelações do Apóstolo?');
+INSERT INTO points VALUES(753,0,0,752,'Sempre. - Para sempre! - Palavras muito manuseadas pelo esforço humano de prolongar - de eternizar - o que é gostoso.
+Palavras mentirosas na terra, onde tudo se acaba.');
+INSERT INTO points VALUES(754,0,0,753,'Isto daqui é um contínuo acabar-se; ainda não começou o prazer, e já termina.');
+INSERT INTO points VALUES(755,0,0,754,'Esta é a chave para abrir a porta e entrar no Reino dos Céus: "Qui facit voluntatem Patris mei qui in coelis est, ipse intrabit in regnum coelorum" - quem faz a vontade de meu Pai..., esse entrará!');
+INSERT INTO points VALUES(756,0,0,755,'De que tu e eu nos portemos como Deus quer - não o esqueças - dependem muitas coisas grandes.');
+INSERT INTO points VALUES(757,0,0,756,'Nós somos pedras, silhares, que se movem, que sentem, que têm uma libérrima vontade.
+O próprio Deus é o canteiro que nos tira as arestas, arranjando-nos, modificando-nos, conforme deseja, a golpes de martelo e de cinzel.
+Não queiramos afastar-nos, não queiramos esquivar-nos à sua Vontade, porque, de qualquer maneira, não poderemos evitar os golpes. - Sofreremos mais e inutilmente, e, em lugar de pedra polida e apta para edificar, seremos um montão informe de cascalho que os homens pisarão com desprezo.');
+INSERT INTO points VALUES(758,0,0,757,'Resignação?... Conformidade?... Querer a Vontade de Deus!');
+INSERT INTO points VALUES(759,0,0,758,'A aceitação rendida da Vontade de Deus traz necessariamente a alegria e a paz: a felicidade na Cruz. - Então se vê que o jugo de Cristo é suave e que o seu fardo não é pesado.');
+INSERT INTO points VALUES(760,0,0,759,'Paz, paz!, dizes-me. - A paz é... para os homens de “boa” vontade.');
+INSERT INTO points VALUES(761,0,0,760,'Um raciocínio que conduz à paz e que o Espírito Santo oferece pronto aos que querem a Vontade de Deus: "Dominus regit me, et nihil mihi deerit" - o Senhor é quem me governa; nada me faltará.
+Que há que possa inquietar uma alma que repita seriamente essas palavras?');
+INSERT INTO points VALUES(762,0,0,761,'Homem livre, sujeita-te a uma voluntária servidão, para que Jesus não tenha que dizer por tua causa aquilo que contam ter dito, a propósito de outros, à Madre Teresa:
+“Teresa, Eu quis..., mas os homens não quiseram”.');
+INSERT INTO points VALUES(763,0,0,762,'Ato de identificação com a Vontade de Deus:
+- Tu o queres, Senhor?... Eu também o quero!');
+INSERT INTO points VALUES(764,0,0,763,'Não duvides; deixa que suba do coração aos lábios um "fiat" - faça-se!... - que seja o coroamento do sacrifício.');
+INSERT INTO points VALUES(765,0,0,764,'Quanto mais perto de Deus está o apóstolo, mais universal se sente; dilata-se o seu coração para que caibam todos e tudo no desejo de pôr o universo aos pés de Jesus.');
+INSERT INTO points VALUES(766,0,0,765,'Meu Deus, antes quero a tua Vontade, do que - se fosse possível tal disparate - alcançar o próprio Céu, deixando de cumpri-la.');
+INSERT INTO points VALUES(767,0,0,766,'O abandono à Vontade de Deus é o segredo para sermos felizes na terra. Então, diz: "Meus cibus est, ut faciam voluntatem ejus" - meu alimento é fazer a sua Vontade.');
+INSERT INTO points VALUES(768,0,0,767,'Esse abandono é precisamente a condição que te falta para não perderes, daqui por diante, a tua paz.');
+INSERT INTO points VALUES(769,0,0,768,'O "gaudium cum pace" - alegria e paz - é fruto certo e saboroso do abandono.');
+INSERT INTO points VALUES(770,0,0,769,'O desprendimento não é ter o coração seco..., como Jesus não o teve.');
+INSERT INTO points VALUES(771,0,0,770,'Não és menos feliz por te faltar do que serias se te sobrasse.');
+INSERT INTO points VALUES(772,0,0,771,'Deus exalta os que cumprem a sua Vontade nas mesmas coisas em que os humilhou.');
+INSERT INTO points VALUES(773,0,0,772,'Pergunta-te a ti mesmo, muitas vezes ao dia: - Estou fazendo neste momento o que devo fazer?');
+INSERT INTO points VALUES(774,0,0,773,'Jesus, o que Tu “quiseres”..., eu o amo.');
+INSERT INTO points VALUES(775,0,0,774,'Gradação: resignar-se com a Vontade de Deus; conformar-se com a Vontade de Deus; querer a Vontade de Deus; amar a Vontade de Deus.');
+INSERT INTO points VALUES(776,0,0,775,'Senhor, se é a tua Vontade, faz da minha pobre carne um Crucifixo.');
+INSERT INTO points VALUES(777,0,0,776,'Não caias num círculo vicioso. Tu pensas: - Quando isto se resolver desta ou daquela maneira, então serei muito generoso com o meu Deus.
+Não será que Jesus está esperando que sejas generoso sem reservas, para resolver Ele as coisas melhor do que imaginas?
+Propósito firme, lógica conseqüência: em cada instante de cada dia, tratarei de cumprir com generosidade a Vontade de Deus.');
+INSERT INTO points VALUES(778,0,0,777,'A tua própria vontade, a tua própria opinião: é isso o que te inquieta.');
+INSERT INTO points VALUES(779,0,0,778,'É uma questão de segundos... Pensa antes de começar qualquer trabalho: - Que quer Deus de mim neste assunto?
+E, com a graça divina, faze-o!');
+INSERT INTO points VALUES(780,0,0,779,'É bom dar glória a Deus sem buscar antecipações - mulher, filhos, honras... - dessa glória de que gozaremos plenamente com Ele na Vida...
+Além disso, Ele é generoso... Dá cem por um; e isso é verdade, mesmo nos filhos. - Muitos se privam deles pela glória de Deus, e têm milhares de filhos do seu espírito. - Filhos, como nós o somos do nosso Pai que está nos céus.');
+INSERT INTO points VALUES(781,0,0,780,'"Deo omnis gloria". - Para Deus toda a glória. - É uma confissão categórica do nosso nada. Ele, Jesus, é tudo. Nós, sem Ele, nada valemos: nada.
+A nossa vanglória seria isso precisamente: glória vã. Seria um roubo sacrílego. O “eu” não deve aparecer em parte nenhuma.');
+INSERT INTO points VALUES(782,0,0,781,'“Sem Mim nada podeis fazer”, disse o Senhor. - E disse-o para que tu e eu não consideremos como nossos, êxitos que são dEle. - "Sine me nihil!..."');
+INSERT INTO points VALUES(783,0,0,782,'Como te atreves a empregar essa centelha do entendimento divino, que é a tua razão, em outra coisa que não seja dar glória ao teu Senhor?');
+INSERT INTO points VALUES(784,0,0,783,'Se a vida não tivesse por fim dar glória a Deus, seria desprezível; mais ainda, detestável.');
+INSERT INTO points VALUES(785,0,0,784,'Dá “toda” a glória a Deus. - “Espreme” com a tua vontade, ajudado pela graça, cada uma de tuas ações, para que nelas não fique nada que cheire a humana soberba, a complacência do teu “eu”.');
+INSERT INTO points VALUES(786,0,0,785,'"Deus meus es tu, et confitebor tibi: Deus meus es tu, et exaltabo te" - Tu és o meu Deus, eu Te confessarei; Tu és o meu Deus, eu Te glorificarei.
+- Belo programa..., para um apóstolo da tua têmpera.');
+INSERT INTO points VALUES(787,0,0,786,'Nenhum afeto te prenda à terra, fora o desejo diviníssimo de dar glória a Cristo e, por Ele e com Ele e nEle, ao Pai e ao Espírito Santo.');
+INSERT INTO points VALUES(788,0,0,787,'Retifica, retifica. - Seria tão pouco engraçado que essa vitória fosse estéril por te haveres guiado por motivos humanos!');
+INSERT INTO points VALUES(789,0,0,788,'Pureza de intenção. - As sugestões da soberba e os ímpetos da carne, logo os conheces..., e lutas, e, com a graça, vences.
+Mas os motivos que te levam a agir, mesmo nas ações mais santas, não te parecem claros... e sentes uma voz lá dentro que te faz ver intuitos humanos..., com tal sutileza que se infiltra na tua alma a intranqüilidade de pensar que não estás trabalhando como deves - por puro Amor, única e exclusivamente para dar a Deus toda a sua glória.
+Reage logo, de cada vez, e diz: “Senhor, para mim nada quero. - Tudo para a tua glória e por Amor”.');
+INSERT INTO points VALUES(790,0,0,789,'Não há dúvida de que purificaste bem a tua intenção quando disseste: - Renuncio desde agora a toda a gratidão e recompensa humanas.');
+INSERT INTO points VALUES(791,0,0,790,'Não desejaríeis gritar à juventude que fervilha à vossa volta: - Loucos!, largai essas coisas mundanas que amesquinham o coração... e muitas vezes o aviltam..., largai isso e vinde conosco atrás do Amor?');
+INSERT INTO points VALUES(792,0,0,791,'Falta-te “vibração”. - Essa é a causa de que arrastes tão poucos. - É como se não estivesses muito persuadido do que ganhas ao deixar por Cristo essas coisas da terra.
+Compara: cem por um e a vida eterna! - Parece-te pequeno o “negócio”?');
+INSERT INTO points VALUES(793,0,0,792,'"Duc in altum" - Mar adentro! - Repele o pessimismo que te faz covarde. "Et laxate retia vestra in capturam" - e lança as redes para pescar.
+Não vês que podes dizer, como Pedro: "In nomine tuo, laxabo rete" - Jesus, em teu nome procurarei almas?');
+INSERT INTO points VALUES(794,0,0,793,'Proselitismo. - É o sinal certo do zelo verdadeiro.');
+INSERT INTO points VALUES(795,0,0,794,'Semear. - Saiu o semeador... - Semeia a mãos cheias, alma de apóstolo. - O vento da graça arrastará a tua semente, se o sulco onde caiu não for digno... Semeia, e fica certo de que a semente vingará e dará o seu fruto.');
+INSERT INTO points VALUES(796,0,0,795,'Com o bom exemplo semeia-se boa semente; e a caridade obriga todos a semear.');
+INSERT INTO points VALUES(797,0,0,796,'Pequeno amor é o teu se não sentes zelo pela salvação de todas as almas. - Pobre amor é o teu se não tens ânsias de pegar a tua loucura a outros apóstolos.');
+INSERT INTO points VALUES(798,0,0,797,'Sabes que o teu caminho não é claro. - E que não o é porque, não seguindo Jesus de perto, ficas nas trevas. - Que esperas para decidir-te?');
+INSERT INTO points VALUES(799,0,0,798,'Razões?... Que razões daria o pobre Inácio ao sábio Xavier?');
+INSERT INTO points VALUES(800,0,0,799,'O que a ti te maravilha, a mim parece-me razoável. - Por que foi Deus procurar-te no exercício da tua profissão?
+Assim procurou os primeiros: Pedro, André, João e Tiago, junto às redes; Mateus, sentado à mesa dos impostos...
+E - admira-te! - Paulo, na sua ânsia de acabar com a semente dos cristãos.');
+INSERT INTO points VALUES(801,0,0,800,'A messe é grande e poucos os operários. - "Rogate ergo!" - Rogai, pois, ao Senhor da messe que envie operários ao seu campo.
+A oração é o meio mais eficaz de proselitismo.');
+INSERT INTO points VALUES(802,0,0,801,'Ainda ressoa no mundo aquele clamor divino: “Vim trazer fogo à terra, e que quero senão que arda?” - E bem vês: quase tudo está apagado...
+Não te animas a propagar o incêndio?');
+INSERT INTO points VALUES(803,0,0,802,'Quererias atrair ao teu apostolado aquele homem sábio, aquele outro poderoso, e aquele cheio de prudência e virtudes.
+Pede por eles, oferece sacrifícios e prepara-os com o teu exemplo e com a tua palavra. - Não vêm! - Não percas a paz; é que não fazem falta.
+Julgas que não havia contemporâneos de Pedro, sábios, e poderosos, e prudentes, e virtuosos, fora do apostolado dos primeiros doze?');
+INSERT INTO points VALUES(804,0,0,803,'Disseram-me que tens “graça”, “jeito”, para atrair almas ao teu caminho.
+Agradece a Deus esse dom: ser instrumento para procurar instrumentos!');
+INSERT INTO points VALUES(805,0,0,804,'Ajuda-me a clamar: - Jesus, almas!... Almas de apóstolo! São para Ti, para a tua glória.
+Verás como acaba por escutar-nos.');
+INSERT INTO points VALUES(806,0,0,805,'Escuta: aí... não haverá um... ou dois, que nos entendam bem?');
+INSERT INTO points VALUES(807,0,0,806,'Diz, a... esse, que preciso de cinqüenta homens que amem a Jesus Cristo sobre todas as coisas.');
+INSERT INTO points VALUES(808,0,0,807,'Dizes, desse teu amigo, que freqüenta os Sacramentos, que é de vida limpa e bom estudante, mas que não “entrosa”; se lhe falas de sacrifício e apostolado, fica triste e vai-se embora.
+Não te preocupes. - Não é um fracasso do teu zelo; é, à letra, a cena que narra o Evangelista: “Se queres ser perfeito, vai e vende tudo o que tens e dá-o aos pobres” (sacrifício)... “e vem depois e segue-me” (apostolado).
+O adolescente "abiit tristis" - também se retirou entristecido; não quis corresponder à graça.');
+INSERT INTO points VALUES(809,0,0,808,'“Uma boa notícia: mais um doido..., para o manicômio”. - E tudo é alvoroço na carta do “pescador”.
+Que Deus encha de eficácia as tuas redes!');
+INSERT INTO points VALUES(810,0,0,809,'Proselitismo. - Quem é que não tem fome de perpetuar o seu apostolado?');
+INSERT INTO points VALUES(811,0,0,810,'Essas ânsias de proselitismo, que te roem as entranhas, são sinal certo da tua entrega.');
+INSERT INTO points VALUES(812,0,0,811,'Lembras-te? - Fazíamos tu e eu a nossa oração, quando caía a tarde. Perto, ouvia-se o rumor da água. - E, na quietude da cidade castelhana, ouvíamos também vozes diferentes que falavam em cem línguas, gritando-nos angustiosamente que ainda não conhecem Cristo.
+Beijaste o Crucifixo, sem te recatares, e Lhe pediste que te fizesse apóstolo de apóstolos.');
+INSERT INTO points VALUES(813,0,0,812,'Compreendo que ames tanto a tua Pátria e os teus, e que, apesar desses vínculos, aguardes com impaciência o momento de cruzar terras e mares - ir longe! - porque te consome o afã de messe.');
+INSERT INTO points VALUES(814,0,0,813,'Fazei tudo por Amor. - Assim não há coisas pequenas: tudo é grande. - A perseverança nas pequenas coisas, por Amor, é heroísmo.');
+INSERT INTO points VALUES(815,0,0,814,'Um pequeno ato, feito por Amor, quanto não vale!');
+INSERT INTO points VALUES(816,0,0,815,'Queres de verdade ser santo? - Cumpre o pequeno dever de cada momento; faz o que deves e está no que fazes.');
+INSERT INTO points VALUES(817,0,0,816,'Erraste o caminho se desprezas as coisas pequenas.');
+INSERT INTO points VALUES(818,0,0,817,'A santidade “grande” está em cumprir os “deveres pequenos” de cada instante.');
+INSERT INTO points VALUES(819,0,0,818,'As almas grandes têm muito em conta as coisas pequenas.');
+INSERT INTO points VALUES(820,0,0,819,'Porque foste "in pauca fidelis" - fiel no pouco -, entra no gozo do teu Senhor. - São palavras de Cristo. - "In pauca fidelis!..." - Será que vais desdenhar agora as pequenas coisas, se se promete a Glória a quem as guarda?');
+INSERT INTO points VALUES(821,0,0,820,'Não julgues nada pela pequenez dos começos. Uma vez fizeram-me notar que não se distinguem pelo tamanho as sementes que darão ervas anuais das que vão produzir árvores centenárias.');
+INSERT INTO points VALUES(822,0,0,821,'Não esqueças que, na terra, tudo o que é grande começou por ser pequeno. - O que nasce grande é monstruoso e morre.');
+INSERT INTO points VALUES(823,0,0,822,'Dizes-me: - Quando se apresentar a ocasião de fazer algo de grande... então, sim! - Será? Pretendes fazer-me acreditar, e acreditar tu seriamente, que poderás vencer na Olimpíada sobrenatural sem a preparação diária, sem treino?');
+INSERT INTO points VALUES(824,0,0,823,'Viste como levantaram aquele edifício de grandeza imponente? - Um tijolo, e outro. Milhares. Mas, um a um. - E sacos de cimento, um a um. E blocos de pedra, que são bem pouco ante a mole do conjunto. - E pedaços de ferro. - E operários trabalhando, dia após dia, as mesmas horas...
+Viste como levantaram aquele edifício de grandeza imponente?... À força de pequenas coisas!');
+INSERT INTO points VALUES(825,0,0,824,'Não tens reparado em que “ninharias” está o amor humano? - Pois também em “ninharias” está o Amor divino.');
+INSERT INTO points VALUES(826,0,0,825,'Persevera no cumprimento exato das obrigações de agora. - Esse trabalho - humilde, monótono, pequeno - é oração plasmada em obras que te preparam para receber a graça do outro trabalho - grande, vasto e profundo - com que sonhas.');
+INSERT INTO points VALUES(827,0,0,826,'Tudo aquilo em que intervimos os pobrezinhos dos homens - mesmo a santidade - é um tecido de pequenas insignificâncias que, conforme a intenção com que se fazem, podem formar uma tapeçaria esplêndida de heroísmo ou de baixeza, de virtudes ou de pecados.
+As gestas relatam sempre aventuras gigantescas, mas misturadas com pormenores caseiros do herói. - Oxalá tenhas sempre em muito apreço - é a linha reta! - as coisas pequenas.');
+INSERT INTO points VALUES(828,0,0,827,'Já paraste a considerar a enorme soma que podem vir a dar “muitos poucos”?');
+INSERT INTO points VALUES(829,0,0,828,'Foi dura a experiência; não esqueças a lição. - As tuas grandes covardias de agora são - é evidente - paralelas às tuas pequenas covardias diárias.
+“Não pudeste” vencer nas coisas grandes, porque “não quiseste” vencer nas coisas pequenas.');
+INSERT INTO points VALUES(830,0,0,829,'Não viste os fulgores do olhar de Jesus quando a pobre viúva deixou no templo a sua pequena esmola?
+- Dá-Lhe tu o que puderes dar; não está o mérito no pouco nem no muito, mas na vontade com que o deres.');
+INSERT INTO points VALUES(831,0,0,830,'Não sejas... bobo. É verdade que fazes o papel - quando muito - de um pequeno parafuso nessa grande empresa de Cristo.
+Mas sabes o que significa o parafuso não apertar o suficiente ou saltar fora do seu lugar? Cederão as peças de maior tamanho ou cairão sem dentes as rodas.
+Ter-se-á dificultado o trabalho. - Talvez se inutilize toda a maquinaria.
+Que grande coisa é ser um pequeno parafuso!');
+INSERT INTO points VALUES(832,0,0,831,'És, entre os teus, alma de apóstolo, a pedra caída no lago. - Provoca, com o teu exemplo e com a tua palavra, um primeiro círculo...; e este, outro... e outro, e outro... Cada vez mais largo.
+Compreendes agora a grandeza da tua missão?');
+INSERT INTO points VALUES(833,0,0,832,'Que preocupação há no mundo por mudar de lugar! - Que aconteceria se cada osso, se cada músculo do corpo humano quisesse ocupar um posto diferente do que lhe compete?
+Não é outra a razão do mal-estar do mundo. - Persevera no teu lugar, meu filho; daí, quanto poderás trabalhar pelo reinado efetivo de Nosso Senhor!');
+INSERT INTO points VALUES(834,0,0,833,'Líderes!... Viriliza a tua vontade, para que Deus te faça líder. Não vês como procedem as malditas sociedades secretas? Nunca conquistam as massas. - Em seus antros, formam alguns homens-demônios que se agitam e movimentam as multidões, tresloucando-as, para fazê-las ir atrás deles, ao precipício de todas as desordens... e ao inferno. - Eles levam uma semente amaldiçoada.
+Se tu quiseres..., levarás a palavra de Deus, mil e mil vezes bendita, que não pode falhar. Se fores generoso..., se corresponderes com a tua santificação pessoal, obterás a dos outros: o reinado de Cristo. - "Omnes cum Petro ad Jesum per Mariam"*.
+(*) “Todos com Pedro a Jesus por Maria” (N. do T.).');
+INSERT INTO points VALUES(835,0,0,834,'Há maior loucura do que lançar aos quatro ventos o trigo dourado na terra, para que apodreça? - Sem essa generosa loucura, não haveria safra.
+Filho, como andamos de generosidade?');
+INSERT INTO points VALUES(836,0,0,835,'Brilhar como uma estrela?... Ânsia de altura e de luz acesa no céu?
+Melhor ainda: queimar como uma tocha, escondido, pegando o teu fogo a tudo o que tocas. - Este é o teu apostolado; para isso estás na terra.');
+INSERT INTO points VALUES(837,0,0,836,'Servir de alto-falante ao inimigo é uma idiotice soberana; e se o inimigo é inimigo de Deus, é um grande pecado. - Por isso, no terreno profissional, nunca louvarei a ciência de quem se serve dela como cátedra para atacar a Igreja.');
+INSERT INTO points VALUES(838,0,0,837,'Galopar, galopar!... Fazer, fazer!... Febre, loucura de mexer-se... Maravilhosos edifícios materiais...
+Espiritualmente: tábuas de caixote, percalinas, cartões pintalgados... galopar!, fazer! - E muita gente correndo; ir e vir.
+É que trabalham com vistas àquele momento; “estão” sempre “em presente”. - Tu... hás de ver as coisas com olhos de eternidade, “tendo em presente” o final e o passado...
+Quietude. - Paz. - Vida intensa dentro de ti. Sem galopar, sem a loucura de mudar de lugar, no posto que na vida te corresponde, como um poderoso gerador de eletricidade espiritual, a quantos não darás luz e energia!..., sem perderes o teu vigor e a tua luz.');
+INSERT INTO points VALUES(839,0,0,838,'Não tenhas inimigos. - Tem apenas amigos... da direita - se te fizeram ou quiseram fazer-te bem - e... da esquerda - se te prejudicaram ou tentaram prejudicar-te.');
+INSERT INTO points VALUES(840,0,0,839,'Não contes episódios do “teu” apostolado, a não ser para proveito do próximo.');
+INSERT INTO points VALUES(841,0,0,840,'Que passe despercebida a vossa condição como passou a de Jesus durante trinta anos.');
+INSERT INTO points VALUES(842,0,0,841,'José de Arimatéia e Nicodemos visitam Jesus ocultamente, à hora normal e à hora do triunfo.
+Mas são valentes, declarando perante a autoridade o seu amor a Cristo - “audacter” - com audácia, na hora da covardia. - Aprende.');
+INSERT INTO points VALUES(843,0,0,842,'Não vos preocupeis se por vossas obras “vos conhecem”. - É o bom odor de Cristo. - Além disso, trabalhando sempre exclusivamente por Ele, alegrai-vos de que se cumpram aquelas palavras da Escritura: “Que, vendo as vossas boas obras, glorifiquem o vosso Pai que está nos céus”.');
+INSERT INTO points VALUES(844,0,0,843,'"Non manifeste, sed quasi in occulto" - não com publicidade, mas ocultamente. Assim vai Jesus à festa dos Tabernáculos.
+Assim irá, a caminho de Emaús, com Cléofas e seu companheiro. - Assim O vê, ressuscitado, Maria de Magdala.
+E assim - "non tamen cognoverunt discipuli quia Jesus est", os discípulos não perceberam que era Ele -, assim foi à pesca milagrosa que nos conta São João.
+E mais oculto ainda, por Amor aos homens, está na Hóstia.');
+INSERT INTO points VALUES(845,0,0,844,'Levantar magníficos edifícios?... Construir palácios suntuosos?... Que os levantem... Que os construam...
+Almas! - Vivificar almas..., para aqueles edifícios... e para estes palácios!
+Que belas casas nos preparam!');
+INSERT INTO points VALUES(846,0,0,845,'Como me fizeste rir e como me fizeste pensar quando me disseste esta verdade de senso comum: - Eu... espeto sempre os pregos pela ponta.');
+INSERT INTO points VALUES(847,0,0,846,'Certo: fazes melhor trabalho com essa conversa familiar ou com aquela confidência isolada, do que discursando - espetáculo, espetáculo! - em lugar público, perante milhares de pessoas.
+Contudo, quando for preciso discursar, discursa.');
+INSERT INTO points VALUES(848,0,0,847,'O esforço de cada um de vós, isolado, é ineficaz. - Se vos unir a caridade de Cristo, ficareis maravilhados com a eficácia.');
+INSERT INTO points VALUES(849,0,0,848,'Queres ser mártir. - Eu te indicarei um martírio ao alcance da mão: ser apóstolo e não te dizeres apóstolo; ser missionário - com missão - e não te dizeres missionário; ser homem de Deus e pareceres homem do mundo. Passar oculto!');
+INSERT INTO points VALUES(850,0,0,849,'Essa é boa! Mete-o a ridículo! - Diz-lhe que está fora de moda; parece mentira que ainda haja gente obstinada em pensar que é bom meio de locomoção a diligência... - Isto, para os que renovam voltairianismos de peruca empoada, ou liberalismos desacreditados do século XIX.');
+INSERT INTO points VALUES(851,0,0,850,'Que conversas! Que baixeza e que... nojo! - E tens de conviver com eles, no escritório, na universidade, no consultório..., no mundo.
+Se pedes por favor que se calem, ficam caçoando de ti. - Se fazes má cara, insistem. - Se te vais embora, continuam.
+A solução é esta: primeiro, pedir a Deus por eles e desagravar; depois..., ir de frente, varonilmente, e empregar “o apostolado dos palavrões”.
+- Quando te vir, hei de dizer-te ao ouvido um bom repertório.');
+INSERT INTO points VALUES(852,0,0,851,'Orientemos as “providenciais imprudências” da juventude.');
+INSERT INTO points VALUES(853,0,0,852,'Procura conhecer a “via de infância espiritual”, sem “te forçares” a seguir esse caminho. - Deixa agir o Espírito Santo.');
+INSERT INTO points VALUES(854,0,0,853,'Caminho de infância. - Abandono. - Infância espiritual. - Nada disto é ingenuidade, mas forte e sólida vida cristã.');
+INSERT INTO points VALUES(855,0,0,854,'Na vida espiritual de infância, as coisas que as “crianças” dizem ou fazem nunca são criancices nem puerilidades.');
+INSERT INTO points VALUES(856,0,0,855,'A infância espiritual não é idiotice espiritual nem moleza piegas; é caminho sensato e vigoroso que, por sua difícil facilidade, a alma tem que empreender e prosseguir, guiada pela mão de Deus.');
+INSERT INTO points VALUES(857,0,0,856,'A infância espiritual exige a submissão do entendimento, mais difícil que a submissão da vontade.
+- Para submeter o entendimento, precisa-se, além da graça de Deus, de um contínuo exercício da vontade, que se nega ao entendimento como se nega à carne, uma e outra vez e sempre; dando-se como conseqüência o paradoxo de que quem segue o “pequeno caminho de infância”, para se tornar criança, necessita de robustecer e virilizar a sua vontade.');
+INSERT INTO points VALUES(858,0,0,857,'Ser pequeno. As grandes audácias são sempre das crianças. - Quem pede... a lua? - Quem não repara nos perigos, ao tratar de conseguir o seu desejo?
+“Colocai” numa criança “dessas” muita graça de Deus, o desejo de fazer a Vontade dEle, muito amor a Jesus, toda a ciência humana que a sua capacidade lhe permita adquirir... e tereis retratado o caráter dos apóstolos de hoje, tal como indubitavelmente Deus os quer.');
+INSERT INTO points VALUES(859,0,0,858,'Faz-te criança. - Ainda mais. - Mas não fiques na “idade do buço”. Já viste coisa mais ridícula do que um moleque bancando “o homem” ou um homem “amolecado”?
+Criança para com Deus; e, por conseqüência, homem muito viril em tudo o mais. - Ah!... e larga essas manhas de cachorrinho de colo.');
+INSERT INTO points VALUES(860,0,0,859,'Às vezes, sentimo-nos inclinados a fazer pequenas criancices. - São pequenas obras-primas diante de Deus, e, enquanto não se introduzir a rotina, serão fecundas sem dúvida essas obras, como fecundo é sempre o Amor.');
+INSERT INTO points VALUES(861,0,0,860,'Diante de Deus, que é Eterno, tu és uma criança menor do que, diante de ti, um garotinho de dois anos.
+E, além de criança, és filho de Deus. - Não o esqueças.');
+INSERT INTO points VALUES(862,0,0,861,'Menino: inflama-te em desejos de reparar as enormidades da tua vida de adulto.');
+INSERT INTO points VALUES(863,0,0,862,'Menino bobo: no dia em que ocultares alguma coisa da tua alma ao Diretor, deixaste de ser criança, porque perdeste a simplicidade.');
+INSERT INTO points VALUES(864,0,0,863,'Menino: quando o fores de verdade, serás onipotente.');
+INSERT INTO points VALUES(865,0,0,864,'Sendo crianças, não tereis mágoas; as crianças esquecem depressa os desgostos para voltarem aos seus divertimentos habituais. - Por isso, com esse “abandono”, não tereis que vos preocupar, pois descansareis no Pai.');
+INSERT INTO points VALUES(866,0,0,865,'Menino: oferece-Lhe todos os dias... até as tuas fragilidades.');
+INSERT INTO points VALUES(867,0,0,866,'Menino bom: oferece-Lhe o trabalho daqueles operários que não O conhecem; oferece-Lhe a alegria natural dos pobres garotinhos que freqüentam as escolas malvadas...');
+INSERT INTO points VALUES(868,0,0,867,'As crianças não têm nada de seu; tudo é de seus pais... E teu Pai sabe sempre muito bem como administra o patrimônio.');
+INSERT INTO points VALUES(869,0,0,868,'Faz-te pequeno, bem pequeno. - Não tenhas mais de dois anos, ou três quando muito. - Porque os meninos mais velhos são uns espertalhões que já querem enganar os seus pais com mentiras inverossímeis.
+É que têm a maldade, o “fomes”* do pecado, ainda que lhes falte a experiência do mal que lhes ensinará a ciência de pecar, para encobrirem com uma aparência de verdade a falsidade de suas mentiras.
+Perderam a simplicidade, e a simplicidade é indispensável para sermos crianças diante de Deus.
+(*) A inclinação (N. do T.).');
+INSERT INTO points VALUES(870,0,0,869,'Mas, menino!, por que te empenhas em andar com pernas de pau?');
+INSERT INTO points VALUES(871,0,0,870,'Não queiras ser grande. - Criança, criança sempre, ainda que morras de velho.
+Quando uma criança tropeça e cai, ninguém estranha...; seu pai se apressa a levantá-la.
+Quando quem tropeça e cai é adulto, o primeiro movimento é de riso. - Às vezes, passado esse primeiro ímpeto, o ridículo cede o lugar à piedade. - Mas os adultos têm que se levantar sozinhos.
+A tua triste experiência quotidiana está cheia de tropeços e quedas. Que seria de ti se não fosses cada vez mais criança?
+Não queiras ser grande, mas menino. Para que, quando tropeçares, te levante a mão de teu Pai-Deus.');
+INSERT INTO points VALUES(872,0,0,871,'Menino: o abandono exige docilidade.');
+INSERT INTO points VALUES(873,0,0,872,'Não te esqueças de que o Senhor tem predileção pelas crianças e pelos que se fazem como elas.');
+INSERT INTO points VALUES(874,0,0,873,'Paradoxos de uma pequena alma. - Quando Jesus te enviar acontecimentos que o mundo chama bons, chora em teu coração, considerando a bondade dEle e a tua malícia; quando Jesus te enviar acontecimentos que o mundo qualifica de ruins, alegra-te em teu coração, porque Ele te dá sempre o que convém, e então é o belo momento de amar a Cruz.');
+INSERT INTO points VALUES(875,0,0,874,'Menino audaz, grita: - Que amor o de Teresa! - Que zelo o de Xavier! - Que homem tão admirável São Paulo! - Ah, Jesus, pois eu... Te amo mais do que Paulo, Xavier e Teresa!');
+INSERT INTO points VALUES(876,0,0,875,'Não te esqueças, menino bobo, de que o Amor te fez onipotente.');
+INSERT INTO points VALUES(877,0,0,876,'Menino: não percas o teu amoroso costume de “assaltar” Sacrários.');
+INSERT INTO points VALUES(878,0,0,877,'Quando te chamo “menino bom”, não penses que te imagino encolhido, acanhado. - Se não és varonil e... normal, em lugar de seres um apóstolo, serás uma caricatura que provoca riso.');
+INSERT INTO points VALUES(879,0,0,878,'Menino bom, diz a Jesus muitas vezes ao dia: eu Te amo, eu Te amo, eu Te amo...');
+INSERT INTO points VALUES(880,0,0,879,'Quando te afligirem as tuas misérias, não fiques triste. - Gloria-te nas tuas fraquezas, como São Paulo, porque às crianças é permitido, sem temor do ridículo, imitar os grandes.');
+INSERT INTO points VALUES(881,0,0,880,'Que as tuas faltas e imperfeições, e mesmo as tuas quedas graves, não te afastem de Deus. - A criança débil, se é sensata, procura estar perto de seu pai.');
+INSERT INTO points VALUES(882,0,0,881,'Não te preocupes se te aborreces quando fazes essas pequenas coisas que Ele te pede. - Ainda chegarás a sorrir...
+Não vês com que pouca vontade dá o menino simples a seu pai, que o experimenta, a guloseima que tinha nas mãos? - Mas dá; venceu o amor.');
+INSERT INTO points VALUES(883,0,0,882,'Quando queres fazer as coisas bem, muito bem, é que as fazes pior. - Humilha-te diante de Jesus, dizendo-lhe:
+- Viste como faço tudo mal? Pois olha: se não me ajudas muito, ainda farei pior!
+Tem compaixão do teu menino; olha que quero escrever todos os dias uma página grande no livro da minha vida... Mas sou tão rude!, que se o Mestre não me pega na mão, em vez de letras esbeltas, saem da minha pena coisas tortas e borrões, que não se podem mostrar a ninguém.
+De agora em diante, Jesus, escreveremos sempre juntos os dois.');
+INSERT INTO points VALUES(884,0,0,883,'Reconheço a minha rudeza, meu Amor, que é tanta..., tanta, que até quando quero acariciar, machuco.
+- Suaviza as maneiras da minha alma; dá-me, quero que me dês, dentro da firme virilidade da vida de infância, aquela delicadeza e meiguice que as crianças têm para tratar, com íntima efusão de amor, os seus pais.');
+INSERT INTO points VALUES(885,0,0,884,'Estás cheio de misérias. - Cada dia as vês mais claramente. - Mas que não te assustem. - Ele bem sabe que não podes dar mais fruto.
+As tuas quedas involuntárias - quedas de criança - fazem com que teu Pai-Deus tenha mais cuidado, e que tua Mãe, Maria, não te largue da sua mão amorosa.
+Aproveita-te disso e, quando diariamente o Senhor te levantar do chão, abraça-O com todas as tuas forças e encosta a tua cabeça miserável no seu peito aberto, para que acabem de enlouquecer-te os latejos do seu Coração amabilíssimo.');
+INSERT INTO points VALUES(886,0,0,885,'Uma picadela. - E outra. E outra. - Agüenta-as, faz favor! Não vês que és tão pequeno que só podes oferecer na tua vida - no teu pequeno caminho - essas pequenas cruzes?
+Além disso, repara: uma cruz sobre outra - uma picadela... e outra..., que grande montão!
+No fim, menino, soubeste fazer uma coisa muito grande: Amar.');
+INSERT INTO points VALUES(887,0,0,886,'Quando uma alma de criança apresenta ao Senhor os seus desejos de indulto, deve ter a certeza de que em breve verá cumpridos esses desejos.
+Jesus arrancará da alma a cauda imunda que arrasta pelas suas misérias passadas; tirará o peso morto, resto de todas as impurezas, que a faz prender-se ao chão; jogará para longe do menino todo o lastro terreno do seu coração, para que suba até à Majestade de Deus, a fundir-se na labareda viva de Amor que Ele é.');
+INSERT INTO points VALUES(888,0,0,887,'Esse desânimo que te produzem as tuas faltas de generosidade, as tuas quedas, os teus retrocessos - talvez só aparentes -, dá-te muitas vezes a impressão de teres quebrado alguma coisa de grande valor - a tua santificação.
+Não te aflijas; aplica à vida sobrenatural o modo sensato que, para resolver conflito semelhante, empregam as crianças simples.
+Quebraram - por fragilidade, quase sempre - um objeto muito estimado de seu pai. - Sentem-no, e talvez chorem, mas... vão desabafar a sua mágoa com o dono da coisa inutilizada pela sua inépcia... E o pai esquece o valor - ainda que seja grande - do objeto destruído e, cheio de ternura, não só perdoa, mas até consola e anima o garotinho.
+- Aprende.');
+INSERT INTO points VALUES(889,0,0,888,'Que a vossa oração seja viril. - Ser criança não é ser efeminado.');
+INSERT INTO points VALUES(890,0,0,889,'Para quem ama Jesus, a oração, mesmo a oração com aridez, é a doçura que põe sempre fim às mágoas; vai-se à oração com a ânsia com que o menino vai ao açúcar, depois de tomar o remédio amargo.');
+INSERT INTO points VALUES(891,0,0,890,'Sei que te distrais na oração. - Procura evitar as distrações, mas não te preocupes se, apesar de tudo, continuas distraído.
+Não vês como, na vida natural, até as crianças mais sossegadas se entretêm e divertem com o que as rodeia, sem atender muitas vezes às palavras de seu pai? - Isso não implica falta de amor nem de respeito; é a miséria e pequenez própria do filho.
+Pois olha: tu és uma criança diante de Deus.');
+INSERT INTO points VALUES(892,0,0,891,'Quando estiveres em oração, faz circular as idéias inoportunas, como se fosses um guarda de trânsito. Para isso tens a vontade enérgica que é própria da tua vida de criança. - Detém, de vez em quando, algum desses pensamentos para pedir pelos protagonistas da recordação inoportuna. - E depois, para a frente!... Assim, até chegar a hora.
+- Quando a tua oração, feita deste jeito, te parecer inútil, alegra-te e acredita que soubeste agradar a Jesus.');
+INSERT INTO points VALUES(893,0,0,892,'Como é bom ser criança! - Quando um homem solicita um favor, é preciso que ao requerimento junte a folha dos seus méritos.
+Quando quem pede é um menininho, como as crianças não têm méritos, basta-lhe dizer: - Sou filho de Fulano.
+Ah, Senhor - diz-Lhe com toda a tua alma! -, eu sou... filho de Deus.');
+INSERT INTO points VALUES(894,0,0,893,'Perseverar. - Uma criança que bate a uma porta, bate uma e duas vezes, e muitas vezes..., com força e demoradamente, sem se envergonhar! E quem vai abrir, ofendido, é desarmado pela simplicidade da criaturinha inoportuna... - Assim tu com Deus.');
+INSERT INTO points VALUES(895,0,0,894,'Já viste como agradecem as crianças? - Imita-as dizendo, como elas, a Jesus, diante do favorável e diante do adverso: “Que bom que és! Que bom!...”
+Esta frase, bem sentida, é caminho de infância, que te levará à paz, com peso e medida de risos e prantos, e sem peso e medida de Amor.');
+INSERT INTO points VALUES(896,0,0,895,'O trabalho esgota o teu corpo, e não consegues fazer oração. - Estás sempre na presença de teu Pai. Se não falas com Ele, olha-O de vez em quando, como uma criancinha..., e Ele te sorrirá.');
+INSERT INTO points VALUES(897,0,0,896,'Dizes que na ação de graças, depois da Comunhão, a primeira coisa que te vem aos lábios, sem o poderes evitar, é a petição: - Jesus, dá-me isto!; Jesus, aquela alma; Jesus, aquela atividade...
+Não te preocupes nem te violentes; não vês que, sendo o pai bom e o filho criança simples e audaz, o garotinho mete as mãos no bolso do pai, à procura de guloseimas, antes de lhe dar o beijo de boas-vindas? - Então...');
+INSERT INTO points VALUES(898,0,0,897,'A nossa vontade, com a graça, é onipotente diante de Deus. - Assim, à vista de tantas ofensas ao Senhor, se dissermos a Jesus, com vontade eficaz, indo no ônibus por exemplo: “Meu Deus, quereria fazer tantos atos de amor e desagravo quantas as voltas de cada roda deste carro”, naquele mesmo instante, diante de Jesus, tê-Lo-emos realmente amado e desagravado conforme o nosso desejo.
+Esta “ingenuidade” não está fora da infância espiritual; é o eterno diálogo entre a criança inocente e o pai, doido por seu filho:
+- Quanto me queres?... Fala! - E o garotinho diz, marcando as sílabas: - Mui-tos mi-lhões!');
+INSERT INTO points VALUES(899,0,0,898,'Se tens “vida de infância”, por seres criança, hás de ser espiritualmente guloso. - Lembra-te, como os da tua idade, das coisas boas que a tua Mãe tem guardadas.
+E isto, muitas vezes ao dia. - É uma questão de segundos: Maria... Jesus... o Sacrário... a Comunhão... o Amor... o sofrimento... as benditas almas do purgatório... os que lutam: o Papa, os sacerdotes... os fiéis... a tua alma... as almas dos teus... os Anjos da Guarda... os pecadores...');
+INSERT INTO points VALUES(900,0,0,899,'Como te custa essa pequena mortificação! Estás lutando. É como se te dissessem: - Por que hás de ser tão fiel ao plano de vida, ao relógio?
+- Olha: já reparaste com que facilidade são enganados os garotinhos? - Não querem tomar o remédio amargo, mas... “vamos lá!” - dizem-lhes -, “esta colherzinha pelo papai; outra pela vovó...” E assim até tomarem toda a dose.
+O mesmo deves tu fazer: quinze minutos mais de cilício pelas almas do purgatório; cinco minutos mais pelos teus pais; outros cinco pelos teus irmãos de apostolado... Até passar o tempo marcado no teu horário.
+Feita deste modo a tua mortificação, quanto não vale!');
+INSERT INTO points VALUES(901,0,0,900,'Não estás só. - Aceita com alegria a tribulação. - Não sentes na tua mão, pobre criança, a mão da tua Mãe: é verdade. - Mas... não tens visto as mães da terra, de braços estendidos, seguirem os seus meninos quando se aventuram, temerosos, a dar os primeiros passos sem ajuda de ninguém? - Não estás só; Maria está junto de ti.');
+INSERT INTO points VALUES(902,0,0,901,'Jesus: nunca Te pagarei, ainda que morra de Amor, a graça que tens esbanjado para me tornares pequeno.');
+INSERT INTO points VALUES(903,0,0,902,'Por que não te entregas a Deus de uma vez..., de verdade..., agora!?');
+INSERT INTO points VALUES(904,0,0,903,'Se vês claramente o teu caminho, segue-o. - Por que não repeles a covardia que te detém?');
+INSERT INTO points VALUES(905,0,0,904,'“Ide, pregai o Evangelho... Eu estarei convosco...” - Isto disse Jesus... e disse-o a ti.');
+INSERT INTO points VALUES(906,0,0,905,'O fervor patriótico - louvável - leva muitos homens a fazer da sua vida um “serviço”, uma “milícia”. - Não esqueças que Cristo tem também “milícias” e gente escolhida ao seu “serviço”.');
+INSERT INTO points VALUES(907,0,0,906,'"Et regni ejus non erit finis". - O seu Reino não terá fim!
+Não te dá alegria trabalhar por um reinado assim?');
+INSERT INTO points VALUES(908,0,0,907,'"Nesciebatis quia in his quae Patris mei sunt oportet me esse?" - Não sabíeis que Eu devo ocupar-me nas coisas que dizem respeito ao serviço de meu Pai?
+Resposta de Jesus adolescente. E resposta a uma mãe como a sua Mãe, que há três dias anda à sua procura, julgando-O perdido. - Resposta que tem por complemento aquelas palavras de Cristo que São Mateus transcreve: “Quem ama seu pai ou sua mãe mais do que a Mim, não é digno de Mim”.');
+INSERT INTO points VALUES(909,0,0,908,'É demasiada a tua simplicidade quando medes o valor das obras de apostolado por aquilo que delas se vê. - Com esse critério, terias de preferir um monte de carvão a um punhado de diamantes.');
+INSERT INTO points VALUES(910,0,0,909,'Agora que te entregaste, pede-Lhe uma vida nova, um “novo cunho”, para dar firmeza à autenticidade da tua missão de homem de Deus.');
+INSERT INTO points VALUES(911,0,0,910,'Isso - o teu ideal, a tua vocação - é... uma loucura. - E os outros - os teus amigos, os teus irmãos -, uns loucos...
+Não tens ouvido, por vezes, esse grito bem dentro de ti? - Responde, com decisão, que agradeces a Deus a honra de pertencer ao “manicômio”.');
+INSERT INTO points VALUES(912,0,0,911,'Escreves-me: “O desejo tão grande que todos temos de que "isto" avance e se dilate, parece que vai converter-se em impaciência. Quando salta, quando irrompe..., quando veremos nosso o mundo?”
+E acrescentas: “O desejo não será inútil se o empregarmos em "coagir", em importunar o Senhor; assim teremos ganho um tempo formidável!”');
+INSERT INTO points VALUES(913,0,0,912,'Compreendo o teu sofrimento quando, no meio da tua forçosa inatividade, consideras a tarefa que está por fazer. - Não te cabe o coração no planeta, e tem de se amoldar... a um minúsculo trabalho burocrático.
+Mas para quando deixamos o "fiat"*?...
+(*) “Faça-se”(N. do T.).');
+INSERT INTO points VALUES(914,0,0,913,'Não duvides: a tua vocação é a maior graça que o Senhor te pôde conceder. - Agradece-Lhe.');
+INSERT INTO points VALUES(915,0,0,914,'Que pena causam essas multidões - altas e baixas e do meio - sem ideal! - Dão a impressão de não saber que têm alma; são... manada, rebanho..., vara.
+Jesus: nós, com a ajuda do teu Amor Misericordioso, converteremos a manada em mesnada, o rebanho em exército..., e da vara extrairemos, purificados, os que não mais quiserem ser imundos.');
+INSERT INTO points VALUES(916,0,0,915,'As obras de Deus não são alavanca nem degrau.');
+INSERT INTO points VALUES(917,0,0,916,'Senhor, torna-nos loucos, com uma loucura contagiosa que atraia muitos ao teu apostolado.');
+INSERT INTO points VALUES(918,0,0,917,'"Nonne cor nostrum ardens erat in nobis dum loqueretur in via?" - Não ardia o nosso coração dentro de nós, enquanto nos falava pelo caminho?
+Se és apóstolo, estas palavras dos discípulos de Emaús deviam sair espontaneamente dos lábios dos teus companheiros de profissão, depois de te encontrarem no caminho da sua vida.');
+INSERT INTO points VALUES(919,0,0,918,'Vai ao apostolado disposto a dar tudo, e não a procurar algo de terreno.');
+INSERT INTO points VALUES(920,0,0,919,'Querendo-te apóstolo, o Senhor te lembrou, para que nunca o esqueças, que és “filho de Deus”.');
+INSERT INTO points VALUES(921,0,0,920,'Cada um de vós deve procurar ser um apóstolo de apóstolos.');
+INSERT INTO points VALUES(922,0,0,921,'Tu és sal, alma de apóstolo. - "Bonum est sal" - o sal é bom, lê-se no Santo Evangelho; "si autem sal evanuerit" - mas se o sal se desvirtua..., de nada serve, nem para a terra, nem para o esterco; joga-se fora como inútil.
+Tu és sal, alma de apóstolo. - Mas se te desvirtuas...');
+INSERT INTO points VALUES(923,0,0,922,'Meu filho: se amas o teu apostolado, fica certo de que amas a Deus.');
+INSERT INTO points VALUES(924,0,0,923,'No dia em que “sentires” bem o teu apostolado, esse apostolado será para ti uma couraça em que se embotarão todas as ciladas dos teus inimigos da terra e do inferno.');
+INSERT INTO points VALUES(925,0,0,924,'Pede sempre a tua perseverança e a dos teus companheiros de apostolado, porque o nosso adversário, o demônio, sabe perfeitamente que sois os seus grandes inimigos..., e uma queda em vossas fileiras, quanto o satisfaz!');
+INSERT INTO points VALUES(926,0,0,925,'Assim como os bons religiosos se empenham em conhecer a maneira como viviam os primeiros da sua ordem ou congregação, para se ajustarem àquela conduta, assim tu - cavalheiro cristão - procura conhecer e imitar a vida dos discípulos de Jesus, que conviveram com Pedro e com Paulo e com João, e quase foram testemunhas da Morte e da Ressurreição do Mestre.');
+INSERT INTO points VALUES(927,0,0,926,'Perguntas-me..., e te respondo: - A tua perfeição consiste em viveres perfeitamente naquele lugar, ofício e grau em que Deus, por meio da autoridade, te colocar.');
+INSERT INTO points VALUES(928,0,0,927,'Orai uns pelos outros. - Está fraquejando aquele?... - E aquele outro?...
+Continuai orando, sem perder a paz. - Vão-se embora? Perdem-se?... O Senhor vos tem contados desde a eternidade!');
+INSERT INTO points VALUES(929,0,0,928,'Tens razão. - Do alto do cume - escreves-me -, em tudo o que se divisa (e é um raio de muitos quilômetros), não se enxerga uma única planície; por detrás de cada montanha, outra ainda. Se em algum lugar a paisagem parece suavizar-se, mal se levanta o nevoeiro, aparece uma serra que estava oculta.
+Assim é, assim tem que ser o horizonte do teu apostolado: é preciso atravessar o mundo. - Mas não há caminhos feitos para vós... Tereis de fazê-los, através das montanhas, à força das vossas passadas.');
+INSERT INTO points VALUES(930,0,0,929,'A Cruz sobre o teu peito?... - Está bem. Mas... a Cruz sobre os teus ombros, a Cruz na tua carne, a Cruz na tua inteligência. - Assim viverás por Cristo, com Cristo e em Cristo; só assim serás apóstolo.');
+INSERT INTO points VALUES(931,0,0,930,'Alma de apóstolo: primeiro, tu. - Disse o Senhor por São Mateus: “Muitos me dirão no dia do juízo: Senhor!, Senhor!, não profetizamos nós em teu nome, e em teu nome não expulsamos os demônios, e em teu nome não fizemos muitos milagres? Então Eu lhes direi: Nunca vos conheci por meus; apartai-vos de mim, obreiros da iniqüidade”.
+Não suceda - diz São Paulo - que, tendo pregado aos outros, venha eu a ser reprovado.');
+INSERT INTO points VALUES(932,0,0,931,'O gênio militar de Santo Inácio apresenta-nos o demônio chamando inúmeros diabos e espalhando-os pelos países, estados, cidades e aldeias, depois de lhes ter feito “um sermão” em que os admoesta a lançar ferros e cadeias, não deixando ninguém em particular sem algemas...
+Disseste-me que querias ser líder; e... para que serve um líder algemado?');
+INSERT INTO points VALUES(933,0,0,932,'Repara: os apóstolos, com todas as suas misérias patentes e inegáveis, eram sinceros, simples..., transparentes.
+Tu também tens misérias patentes e inegáveis. - Oxalá não te falte simplicidade.');
+INSERT INTO points VALUES(934,0,0,933,'Contam de uma alma que, ao dizer ao Senhor na oração: “Jesus, eu Te amo”, ouviu esta resposta do Céu: “Obras é que são amores, não as boas palavras”.
+Pensa se por acaso não merecerás tu também esta carinhosa censura.');
+INSERT INTO points VALUES(935,0,0,934,'O zelo é uma loucura divina de apóstolo, que te desejo, e que tem estes sintomas: fome de intimidade com o Mestre; preocupação constante pelas almas; perseverança que nada faz desfalecer.');
+INSERT INTO points VALUES(936,0,0,935,'Não fiques dormindo sobre os louros. - Se, humanamente falando, essa posição já é incômoda e pouco galharda, quanto mais quando os louros - como neste caso - não forem teus, mas de Deus!');
+INSERT INTO points VALUES(937,0,0,936,'No apostolado, estás para submeter-te, para aniquilar-te; não para impor o teu critério pessoal.');
+INSERT INTO points VALUES(938,0,0,937,'Nunca sejais homens ou mulheres de ação longa e oração curta.');
+INSERT INTO points VALUES(939,0,0,938,'Procura viver de tal maneira que saibas privar-te voluntariamente da comodidade e bem-estar que acharias mal nos costumes de outro homem de Deus.
+Olha que és o grão de trigo de que nos fala o Evangelho. - Se não te enterras e morres, não haverá fruto.');
+INSERT INTO points VALUES(940,0,0,939,'Sede homens e mulheres do mundo, mas não sejais homens ou mulheres mundanos.');
+INSERT INTO points VALUES(941,0,0,940,'Não esqueças que a unidade é sintoma de vida: desunir-se é putrefação, sinal certo de ser um cadáver.');
+INSERT INTO points VALUES(942,0,0,941,'Obedecer..., caminho seguro. - Obedecer cegamente ao superior..., caminho de santidade. - Obedecer no teu apostolado..., o único caminho, porque, numa obra de Deus, o espírito há de ser este: obedecer ou ir-se embora.');
+INSERT INTO points VALUES(943,0,0,942,'Lembra-te, meu filho, de que não és somente uma alma que se une a outras almas para fazer uma coisa boa.
+Isso é muito..., mas é pouco. - És o Apóstolo que cumpre um mandato imperativo de Cristo.');
+INSERT INTO points VALUES(944,0,0,943,'Oxalá que, convivendo contigo, não se possa exclamar o que, com bastante razão, gritava determinada pessoa: “De honrados estou até aqui...” E tocava no cocuruto da cabeça.');
+INSERT INTO points VALUES(945,0,0,944,'Tens de comunicar a outros Amor de Deus e zelo pelas almas, para que esses, por sua vez, peguem fogo a muitos mais que estão num terceiro plano, e cada um destes últimos aos seus companheiros de profissão.
+De quantas calorias espirituais não precisas! - E que responsabilidade tão grande, se esfrias! E (nem o quero pensar) que crime tão horroroso, se desses mau exemplo!');
+INSERT INTO points VALUES(946,0,0,945,'É má disposição ouvir a palavra de Deus com espírito crítico.');
+INSERT INTO points VALUES(947,0,0,946,'Se quereis entregar-vos a Deus no mundo, mais do que sábios (quanto a elas, não é preciso serem sábias; basta que sejam sensatas), tendes que ser espirituais, muito unidos ao Senhor pela oração; deveis trazer um manto invisível que cubra todos e cada um dos vossos sentidos e potências - orar, orar e orar; expiar, expiar e expiar.');
+INSERT INTO points VALUES(948,0,0,947,'Ficavas espantado por eu aprovar a falta de “uniformidade” nesse apostolado em que trabalhas. E te disse:
+Unidade e variedade. - Deveis ser tão diferentes como diferentes são os santos do Céu, que têm cada um as suas notas pessoais e especialíssimas. - E também tão parecidos uns com os outros como os santos, que não seriam santos se cada um deles não se tivesse identificado com Cristo.');
+INSERT INTO points VALUES(949,0,0,948,'Tu, filho predileto de Deus, sente e vive a fraternidade, mas sem familiaridades.');
+INSERT INTO points VALUES(950,0,0,949,'Aspirar a ter cargos nas obras de apostolado é coisa inútil nesta vida, e para a outra Vida é um perigo.
+Se Deus o quiser, hão de chamar-te. - E então deves aceitar. - Mas não esqueças que em todos os lugares podes e deves santificar-te, porque para isso vieste.');
+INSERT INTO points VALUES(951,0,0,950,'Se pensas que, ao trabalhar por Cristo, os cargos são algo mais do que cargas, quantas amarguras te esperam!');
+INSERT INTO points VALUES(952,0,0,951,'Estar à frente de uma obra de apostolado é o mesmo que estar disposto a sofrer tudo de todos, com infinita caridade.');
+INSERT INTO points VALUES(953,0,0,952,'No trabalho apostólico, não se pode perdoar a desobediência nem a duplicidade. - Tem em conta que simplicidade não é imprudência nem indiscrição.');
+INSERT INTO points VALUES(954,0,0,953,'Tens obrigação de pedir e sacrificar-te pela pessoa e intenções de quem dirige a tua obra de apostolado. - Se és remisso no cumprimento deste dever, fazes-me pensar que te falta entusiasmo pelo teu caminho.');
+INSERT INTO points VALUES(955,0,0,954,'Leva ao extremo o respeito pelo superior quando te consultar e tiveres de contradizer as suas opiniões. - E nunca o contradigas diante dos que lhe estão sujeitos, mesmo que não tenha razão.');
+INSERT INTO points VALUES(956,0,0,955,'Na tua obra de apostolado, não temas os inimigos de fora, por maior que seja o seu poder. - Este é o inimigo terrível: a tua falta de “filiação” e a tua falta de “fraternidade”.');
+INSERT INTO points VALUES(957,0,0,956,'Compreendo bem que te divirtam os desprezos - mesmo que venham de inimigos poderosos -, desde que sintas a união com o teu Deus e com os teus irmãos de apostolado. - Para ti, que importância tem isso?');
+INSERT INTO points VALUES(958,0,0,957,'Comparo com freqüência o trabalho de apostolado a uma máquina: rodas dentadas, êmbolos, válvulas, parafusos...
+Pois bem, a caridade - a tua caridade - é o lubrificante.');
+INSERT INTO points VALUES(959,0,0,958,'Acaba com esse “ar de auto-suficiência” que isola da tua as almas que se aproximam de ti. - Procura escutar. E fala com simplicidade. Só assim crescerá em extensão e fecundidade o teu trabalho de apóstolo.');
+INSERT INTO points VALUES(960,0,0,959,'O desprezo e a perseguição são benditas provas de predileção divina, mas não há prova e sinal de predileção mais belo do que este: passar oculto.');
+INSERT INTO points VALUES(961,0,0,960,'Assim como o rumor do oceano se compõe do ruído de cada uma das ondas, assim a santidade do vosso apostolado se compõe das virtudes pessoais de cada um de vós.');
+INSERT INTO points VALUES(962,0,0,961,'É preciso que sejas “homem de Deus”, homem de vida interior, homem de oração e de sacrifício. - O teu apostolado deve ser uma superabundância da tua vida “para dentro”.');
+INSERT INTO points VALUES(963,0,0,962,'Unidade. - Unidade e sujeição. Para que quero eu as peças soltas de um relógio, mesmo que sejam primorosas, se não me marcam as horas?');
+INSERT INTO points VALUES(964,0,0,963,'Não façais “igrejinhas” dentro do vosso trabalho. - Seria tornar mesquinhos os trabalhos de apostolado, porque, se a “igrejinha” chega - por fim! - ao governo de uma obra universal..., com que rapidez se transforma a obra universal em igrejinha!');
+INSERT INTO points VALUES(965,0,0,964,'Dizias-me, com desconsolo: - Há muitos caminhos! - Tem que haver: para que todas as almas possam encontrar o seu, nessa variedade admirável.
+Confusionismo? - Escolhe de uma vez para sempre; e a confusão se converterá em certeza.');
+INSERT INTO points VALUES(966,0,0,965,'Alegra-te quando vires que outros trabalham em bons campos de apostolado. - E pede, para eles, graça de Deus abundante e correspondência a essa graça.
+Depois, tu... segue o teu caminho; convence-te de que não tens outro.');
+INSERT INTO points VALUES(967,0,0,966,'É mau espírito o teu, se te dói que ou-tros trabalhem por Cristo sem contarem com o teu apostolado. - Lembra-te desta passagem de São Marcos: “Mestre, vimos um que em teu nome expulsava os demônios, e que não está conosco; e nós lho proibimos. Disse Jesus: Não lho proibais, pois ninguém que faça um milagre em meu nome falará depois mal de mim. Quem não está contra vós está convosco”.');
+INSERT INTO points VALUES(968,0,0,967,'É inútil que te afadigues em tantas obras exteriores, se te falta Amor. - É como costurar com agulha sem linha.
+Que pena se, afinal, tivesses feito o “teu” apostolado, e não o “seu” Apostolado!');
+INSERT INTO points VALUES(969,0,0,968,'Com alegria te abençôo, meu filho, por essa fé na tua missão de apóstolo que te levou a escrever: “Não há dúvida; o futuro é garantido, apesar de nós talvez. Mas é preciso que formemos uma só coisa com a Cabeça - "ut omnes unum sint"! -, pela oração e pelo sacrifício”.');
+INSERT INTO points VALUES(970,0,0,969,'Os que, deixando a ação para os outros, oram e sofrem, não brilharão aqui, mas como luzirá a sua coroa no Reino da Vida! - Bendito seja o “apostolado do sofrimento”!');
+INSERT INTO points VALUES(971,0,0,970,'É verdade que chamei o teu apostolado discreto de “silenciosa e operativa missão”. - E não tenho nada que retificar.');
+INSERT INTO points VALUES(972,0,0,971,'Parece-me tão bem a tua devoção pelos primeiros cristãos, que farei o possível por fomentá-la, para que pratiques - como eles -, cada dia com mais entusiasmo, esse Apostolado eficaz de discrição e de confidência.');
+INSERT INTO points VALUES(973,0,0,972,'Quando puseres em prática o teu “apostolado de discrição e de confidência”, não me digas que não sabes o que hás de dizer. - Porque te direi com o salmo: "Dominus dabit verbum evangelizantibus virtute multa" - o Senhor põe na boca dos seus apóstolos palavras cheias de eficácia.');
+INSERT INTO points VALUES(974,0,0,973,'Essas palavras que tão a tempo deixas cair ao ouvido do amigo que vacila; a conversa orientadora que soubeste provocar oportunamente; e o conselho profissional que melhora o seu trabalho universitário; e a discreta indiscrição que te faz sugerir-lhe imprevistos horizontes de zelo... Tudo isso é “apostolado da confidência”.');
+INSERT INTO points VALUES(975,0,0,974,'“Apostolado do almoço”. É a velha hospitalidade dos Patriarcas, com o calor fraternal de Betânia. - Quando se pratica, parece que se entrevê Jesus presidindo, como em casa de Lázaro.');
+INSERT INTO points VALUES(976,0,0,975,'Urge recristianizar as festas e os costumes populares. - Urge evitar que os espetáculos públicos se vejam nesta disjuntiva: ou piegas ou pagãos.
+Pede ao Senhor que haja quem trabalhe nessa tarefa urgente, a que podemos chamar “apostolado da diversão”.');
+INSERT INTO points VALUES(977,0,0,976,'Do “apostolado epistolar” me fazes um bom panegírico. - Escreves: “Não sei como encher o papel falando de coisas que possam ser úteis a quem recebe a carta. Quando começo, digo ao meu Anjo da Guarda que, se escrevo, é com o fim de que sirva para alguma coisa. E mesmo que só diga bobagens, ninguém me pode tirar - nem tirar a ele - o tempo que passei pedindo o que sei que mais necessita a alma daquele a quem vai dirigida a minha carta”.');
+INSERT INTO points VALUES(978,0,0,977,'“A carta apanhou-me nuns dias tristes, sem motivo algum, e ao lê-la animei-me extraordinariamente, sentindo como trabalham os outros”.
+- E outro: “As suas cartas e as notícias dos meus irmãos ajudam-me como um sonho feliz diante da realidade de tudo o que apalpamos...”
+- E outro: “Que alegria receber essas cartas e saber-me amigo desses amigos!”
+- E outro, e mil: “Recebi a carta de X., e me envergonho ao pensar na minha falta de espírito, comparado com eles”.
+Não é verdade que é eficaz o “apostolado epistolar”?');
+INSERT INTO points VALUES(979,0,0,978,'"Venite post me, et faciam vos fieri piscatores hominum" - vinde atrás de Mim, e farei de vós pescadores de homens. - Não sem mistério emprega o Senhor estas palavras: os homens - como os peixes - têm de ser apanhados pela cabeça.
+Que profundidade evangélica não encerra o “apostolado da inteligência”!');
+INSERT INTO points VALUES(980,0,0,979,'É condição humana ter em pouco o que pouco custa. - Esta é a razão por que te aconselho o “apostolado de não-dar”.
+Nunca deixes de cobrar o que for eqüitativo e razoável pelo exercício da tua profissão, se a tua profissão é o instrumento do teu apostolado.');
+INSERT INTO points VALUES(981,0,0,980,'“Não temos o direito de fazer-nos acompanhar nas viagens por uma mulher, irmã em Jesus Cristo, para que nos assista, como fazem os demais apóstolos, e os parentes do Senhor, e o próprio Pedro?”
+É o que diz São Paulo na sua primeira Epístola aos Coríntios. - Não é possível desdenhar a colaboração da “mulher no apostolado”.');
+INSERT INTO points VALUES(982,0,0,981,'“Indo Ele, logo depois, por cidades e aldeias - lê-se no capítulo VIII de São Lucas -, pregava e evangelizava o reino de Deus. Acompanhavam-no os doze e algumas mulheres que tinham sido libertadas de espíritos malignos e curadas de enfermidades: Maria, chamada Madalena, da qual expulsara sete demônios; Joana, mulher de Cusa, administrador de Herodes; e Susana, e outras muitas, que o serviam com os seus bens”.
+Copio. E peço a Deus que, se alguma mulher me ler, se encha de uma santa inveja, cheia de eficácia.');
+INSERT INTO points VALUES(983,0,0,982,'Mais forte a mulher do que o homem, e mais fiel na hora da dor. - Maria de Magdala, e Maria Cléofas, e Salomé!
+Com um grupo de mulheres valentes, como essas, bem unidas à Virgem Dolorosa, que apostolado não se faria no mundo!');
+INSERT INTO points VALUES(984,0,0,983,'Começar é de todos; perseverar, de santos.
+Que a tua perseverança não seja conseqüência cega do primeiro impulso, fruto da inércia; que seja uma perseverança refletida.');
+INSERT INTO points VALUES(985,0,0,984,'Diz-Lhe: "Ecce ego quia vocasti me!" - Aqui me tens, porque me chamaste!');
+INSERT INTO points VALUES(986,0,0,985,'Sei que te afastaste do caminho, e não voltavas por vergonha. - Era mais lógico que tivesses vergonha de não retificar.');
+INSERT INTO points VALUES(987,0,0,986,'“A verdade é que não é preciso ser nenhum herói - confessas-me - para, sem excentricidades nem afetações de carola, saber isolar-se quando for necessário segundo os casos... e perseverar”. E acrescentas: “Desde que cumpra as normas que me deu, não me preocupam as intrigas e complicações do ambiente; o que me assustaria era ter medo dessas insignificâncias”. - Magnífico!');
+INSERT INTO points VALUES(988,0,0,987,'Fomenta e preserva esse ideal nobilíssimo que acaba de nascer em ti. - Olha que se abrem muitas flores na primavera, e são poucas as que frutificam.');
+INSERT INTO points VALUES(989,0,0,988,'O desalento é inimigo da tua perseverança. - Se não lutas contra o desalento, chegarás ao pessimismo, primeiro, e à tibieza, depois. - Sê otimista.');
+INSERT INTO points VALUES(990,0,0,989,'Ora vamos! Depois de tanto dizer: “Cruz, Senhor, Cruz!”, está-se vendo que querias uma cruz ao teu gosto.');
+INSERT INTO points VALUES(991,0,0,990,'Constância, que nada desoriente. - Faz-te falta. Pede-a ao Senhor e faz o que puderes para obtê-la; porque é um grande meio para que não te separes do fecundo caminho que empreendeste.');
+INSERT INTO points VALUES(992,0,0,991,'Não podes “subir”, não é mesmo? - Não é de estranhar: aquela queda!...
+Persevera e “subirás”. - Recorda o que diz um autor espiritual: a tua pobre alma é um pássaro que ainda tem as asas empastadas de barro.
+É preciso muito calor do Céu e esforços pessoais, pequenos e constantes, para arrancar essas inclinações, essas imaginações, esse abatimento: esse barro pegajoso de tuas asas.
+E te verás livre. - Se perseveras, “subirás”.');
+INSERT INTO points VALUES(993,0,0,992,'Dá graças a Deus, que te ajudou, e rejubila com a tua vitória. - Que alegria tão profunda, essa que sente a tua alma depois de ter correspondido!');
+INSERT INTO points VALUES(994,0,0,993,'Discorres... bem, friamente: quantos motivos para abandonar a tarefa! - E um ou outro, ao que parece, capital.
+Vejo, sem dúvida, que tens razões. - Mas não tens razão.');
+INSERT INTO points VALUES(995,0,0,994,'“Passou-me o entusiasmo”, escreveste-me.
+- Tu não deves trabalhar por entusiasmo, mas por Amor; com consciência do dever, que é abnegação.');
+INSERT INTO points VALUES(996,0,0,995,'Inabalável. Assim tens de ser. - Se fazem vacilar a tua perseverança as misérias alheias ou as próprias, formo um triste conceito do teu ideal.
+Decide-te de uma vez para sempre.');
+INSERT INTO points VALUES(997,0,0,996,'Tens uma pobre idéia do teu caminho quando, ao te sentires frio, julgas tê-lo perdido; é a hora da provação. Por isso te tiraram as consolações sensíveis.');
+INSERT INTO points VALUES(998,0,0,997,'Ausência, isolamento - provas para a perseverança. - Santa Missa, oração, sacramentos, sacrifícios, comunhão dos santos! - armas para vencer na prova.');
+INSERT INTO points VALUES(999,0,0,998,'Bendita perseverança a do burrico de nora!* - Sempre ao mesmo passo. Sempre as mesmas voltas. - Um dia e outro; todos iguais.
+Sem isso, não haveria maturidade nos frutos, nem louçania no horto, nem teria aromas o jardim.
+Leva este pensamento à tua vida interior.
+(*) A nora é um aparelho usado em algumas regiões da Europa para extrair água de poços e cisternas; costuma ser acionado por animais que giram à volta do poço (N. do T.).');
+INSERT INTO points VALUES(1000,0,0,999,'Qual é o segredo da perseverança? O Amor. - Enamora-te, e não O deixarás.');
+INSERT INTO points VALUES(1001,0,1,0,'DEIXA-ME, LEITOR AMIGO,
+QUE TOME A TUA ALMA
+E A FAÇA CONTEMPLAR VIRTUDES DE HOMEM:
+A GRAÇA OPERA SOBRE A NATUREZA.
+MAS NÃO ESQUEÇAS
+QUE AS MINHAS CONSIDERAÇÕES,
+POR MUITO HUMANAS QUE TE PAREÇAM,
+JÁ QUE AS ESCREVI  E ATÉ VIVI 
+PARA TI E PARA MIM DE OLHOS EM DEUS,
+HÃO DE SER POR FORÇA SACERDOTAIS.
+OXALÁ ESTAS PÁGINAS
+A TAL PONTO SIRVAM DE PROVEITO
+ ASSIM O PEÇO A NOSSO SENHOR 
+QUE NOS MELHOREM
+E NOS MOVAM A DEIXAR NESTA VIDA,
+COM AS NOSSAS OBRAS,
+UM SULCO FECUNDO.');
+INSERT INTO points VALUES(1002,0,1,1,'São muitos os cristãos persuadidos de que a Redenção se realizará em todos os ambientes do mundo, e de que deve haver almas - não sabem quais - que com Cristo contribuam para realizá-la. Mas eles a vêem a um prazo de séculos, de muitos séculos...; seria uma eternidade se se levasse a cabo ao passo de sua entrega. Assim pensavas tu, até que vieram “acordar-te”.');
+INSERT INTO points VALUES(1003,0,1,2,'A entrega é o primeiro passo de uma veloz caminhada de sacrifício, de alegria, de amor, de união com Deus. - E assim, toda a vida se enche de uma bendita loucura, que faz encontrar felicidade onde a lógica humana só vê negação, padecimento, dor.');
+INSERT INTO points VALUES(1004,0,1,3,'“Peça por mim - dizias -: que eu seja generoso, que progrida, que chegue a transformar-me de tal modo que algum dia possa ser útil em alguma coisa”. Bem. - Mas, que meios empregas para que esses propósitos se tornem eficazes?');
+INSERT INTO points VALUES(1005,0,1,4,'Muitas vezes te perguntas por que certas almas, que tiveram a ventura de conhecer o verdadeiro Jesus desde crianças, vacilam tanto em corresponder com o melhor que possuem: a vida, a família, os sonhos. Olha: tu, precisamente porque recebeste “tudo” de golpe, estás obrigado a mostrar-te muito agradecido ao Senhor: tal como reagiria um cego que recuperasse a vista de repente, enquanto aos outros nem lhes passa pela cabeça que devem dar graças porque vêem. Mas... não é suficiente. Todos os dias, tens que ajudar os que te rodeiam, para que se comportem com gratidão pela sua condição de filhos de Deus. Senão, não me digas que és agradecido.');
+INSERT INTO points VALUES(1006,0,1,5,'Medita devagar: é muito pouco o que se me pede, para o muito que se me dá.');
+INSERT INTO points VALUES(1007,0,1,6,'Para ti, que não acabas de “deslanchar”, considera o que me escrevia um teu irmão: “Custa, mas uma vez tomada a `decisão'', que suspiro de felicidade, ao encontrar-me seguro no caminho!”.');
+INSERT INTO points VALUES(1008,0,1,7,'Estes dias - comentavas-me - transcorreram mais felizes do que nunca. E te respondi sem vacilar: foi porque “viveste” um pouco mais entregue do que habitualmente.');
+INSERT INTO points VALUES(1009,0,1,8,'A chamada do Senhor - a vocação - apresenta-se sempre assim: “Se alguém quer vir após Mim, negue-se a si mesmo, tome a sua cruz e siga-Me”. Sim, a vocação exige renúncia, sacrifício. Mas como se torna prazeroso o sacrifício "gaudium cum pace", alegria e paz -, se a renúncia é completa!');
+INSERT INTO points VALUES(1010,0,1,9,'Quando lhe falaram de comprometer-se pessoalmente, a sua reação foi raciocinar assim: “Nesse caso, poderia fazer isto..., teria que fazer aquilo...”. - Responderam-lhe: “Aqui não pechinchamos com o Senhor. A lei de Deus, o convite do Senhor, ou se pega ou se larga, tal como é. É preciso decidir-se: ou ir para a frente, sem nenhuma reserva e com muito ânimo, ou retirar-se. "Qui non est mecum..." - quem não está comigo, está contra Mim”.');
+INSERT INTO points VALUES(1011,0,1,10,'Da falta de generosidade à tibieza não vai senão um passo.');
+INSERT INTO points VALUES(1012,0,1,11,'Para que não o imites, copio de uma carta este exemplo de covardia: “Naturalmente, agradeço-lhe muito que se lembre de mim, porque preciso de muitas orações. Mas também agradeceria que ao suplicar ao Senhor que me faça `apóstolo'', não se esforçasse em pedir-Lhe que me exija a entrega de minha liberdade”.');
+INSERT INTO points VALUES(1013,0,1,12,'Aquele teu conhecido, muito inteligente, bom burguês, boa gente, dizia: “Cumprir a lei, mas com medida, sem passar da risca, o mais estritamente possível”. E acrescentava: “Pecar? Não; mas dar-se, também não”. Causam verdadeira pena esses homens mesquinhos, calculistas, incapazes de sacrificar-se, de entregar-se por um ideal nobre.');
+INSERT INTO points VALUES(1014,0,1,13,'É preciso pedir-te mais: porque podes dar mais, e deves dar mais. Pensa nisso.');
+INSERT INTO points VALUES(1015,0,1,14,'“É muito difícil”, exclamas desanimado. - Escuta: se lutas, basta-te a graça de Deus. Prescindirás dos interesses pessoais, servirás aos outros por Deus, e ajudarás a Igreja no campo onde hoje se trava a batalha: na rua, na fábrica, na oficina, na universidade, no escritório, no teu ambiente, no meio dos teus.');
+INSERT INTO points VALUES(1016,0,1,15,'Escreveste-me: “No fundo, é sempre a mesma coisa: muita falta de generosidade. Que pena e que vergonha descobrir o caminho e permitir que umas nuvenzinhas de pó - inevitáveis - turvem o final!”. Não te zangues se te digo que és tu o único culpado: arremete valentemente contra ti mesmo. Tens meios mais do que suficientes.');
+INSERT INTO points VALUES(1017,0,1,16,'Quando o teu egoísmo te afasta da comum preocupação pelo bem-estar sadio e santo dos homens, quando te fazes calculista e não te comoves com as misérias materiais ou morais do teu próximo, obrigas-me a lançar-te em rosto uma palavra muito forte, para que reajas: se não sentes a bendita fraternidade com teus irmãos os homens, e vives à margem da grande família cristã, és um pobre enjeitado.');
+INSERT INTO points VALUES(1018,0,1,17,'O cume? Para uma alma que se entrega, tudo se converte em cume por alcançar: cada dia descobre novas metas, porque nem sabe nem quer pôr limites ao Amor de Deus.');
+INSERT INTO points VALUES(1019,0,1,18,'Quanto mais generoso fores - por Deus -, mais feliz serás.');
+INSERT INTO points VALUES(1020,0,1,19,'Com freqüência surge a tentação de querermos reservar um pouco de tempo para nós mesmos... Aprende de uma vez por todas a pôr remédio a tanta pequenez, retificando imediatamente.');
+INSERT INTO points VALUES(1021,0,1,20,'Eras da turma do “tudo ou nada”. E como nada podias..., que desastre! Começa a lutar com humildade, para acender essa tua pobre entrega, tão tacanha, até a tornares “totalmente” efetiva.');
+INSERT INTO points VALUES(1022,0,1,21,'Nós, os que nos dedicamos a Deus, nada perdemos.');
+INSERT INTO points VALUES(1023,0,1,22,'Gostaria de gritar ao ouvido de tantas e de tantos: não é sacrifício entregar os filhos a serviço de Deus; é honra e alegria.');
+INSERT INTO points VALUES(1024,0,1,23,'Chegou para ele o momento da dura provação, e veio procurar-te desconsolado. - Lembras-te? Para ele - o amigo que te dava conselhos “prudentes” -, o teu modo de proceder não era senão utopia, fruto de uma deformação de idéias, captação de vontades, e... “sutilezas” do mesmo jaez. - “Esse entregar-se ao Senhor - sentenciava - é uma exacerbação anormal do sentimento religioso”. E, com a sua pobre lógica, pensava que entre a tua família se havia interposto um estranho: Cristo. Agora compreendeu o que tantas vezes lhe repetias: Cristo jamais separa as almas.');
+INSERT INTO points VALUES(1025,0,1,24,'Eis uma tarefa urgente: sacudir a consciência dos que crêem e dos que não crêem - fazer uma leva de homens de boa vontade -, com o fim de que cooperem e proporcionem os instrumentos materiais para trabalhar com as almas.');
+INSERT INTO points VALUES(1026,0,1,25,'Esse demonstra muito entusiasmo e compreensão. Mas quando vê que se trata “dele”, que “ele” tem de contribuir a sério, retira-se covardemente. Lembra-me aqueles que, em momento de grave perigo, gritavam com falsa valentia: “Guerra, guerra!”, mas nem queriam dar dinheiro, nem alistar-se para defender a sua pátria.');
+INSERT INTO points VALUES(1027,0,1,26,'Dá pena verificar de que modo alguns entendem a esmola: uns tostões ou um pouco de roupa velha. Parece que não leram o Evangelho. Não andeis com receios: ajudai as pessoas a formar-se com a fé e a fortaleza suficientes para se desprenderem generosamente, em vida, daquilo que lhes é necessário. - Aos renitentes, explicai-lhes que é pouco nobre e elegante, também do ponto de vista terreno, esperar pelo fim, quando forçosamente já não podem levar nada consigo.');
+INSERT INTO points VALUES(1028,0,1,27,'“Quem empresta, que não cobre; se cobra, que não seja tudo; se tudo, que não seja tal; se tal, inimigo mortal”. Que fazer?... Dar! Sem cálculo, e sempre por Deus. Assim viverás, também humanamente, mais perto dos homens, e contribuirás para que haja menos ingratos.');
+INSERT INTO points VALUES(1029,0,1,28,'Vi rubor no rosto daquele homem simples, e quase lágrimas em seus olhos: prestava generosamente a sua colaboração em obras boas, com o dinheiro honesto que ele mesmo ganhava, e soube que os “bons” apodavam de bastardas as suas ações. Com ingenuidade de neófito nestas batalhas de Deus, sussurrava: “Estão vendo que me sacrifico... e ainda me sacrificam!”. - Falei-lhe devagar. Beijou o meu Crucifixo, e a sua indignação natural se trocou em paz e alegria.');
+INSERT INTO points VALUES(1030,0,1,29,'Não sentes um ímpeto louco de tornar mais completa, mais “irremediável” a tua entrega?');
+INSERT INTO points VALUES(1031,0,1,30,'Como é ridícula a atitude dos pobrezinhos dos homens, quando uma vez e outra negamos bagatelas ao Senhor! Passa o tempo, as coisas vão-se vendo com o seu verdadeiro relevo..., e nascem a vergonha e a dor.');
+INSERT INTO points VALUES(1032,0,1,31,'"Aure audietis, et non intellligetis: et videntis videbitis, et non perspicietis". Palavras claras do Espírito Santo: ouvem com os seus próprios ouvidos, e não entendem; olham com os seus olhos, mas não enxergam. Por que te inquietas, se alguns, “vendo” o apostolado e conhecendo a sua grandeza, não se entregam? Reza tranqüilo, e persevera no teu caminho: se esses não se lançam, outros virão!');
+INSERT INTO points VALUES(1033,0,1,32,'Desde que lhe disseste “sim”, o tempo vai mudando a cor do teu horizonte - cada dia mais belo -, que brilha mais amplo e luminoso. Mas tens de continuar a dizer “sim”.');
+INSERT INTO points VALUES(1034,0,1,33,'A Virgem Santa Maria, Mestra de entrega sem limites. - Lembras-te? Com palavras que eram um louvor dirigido a Ela, Jesus Cristo afirma: “Aquele que cumpre a Vontade de meu Pai, esse - essa - é minha mãe!...”. Pede a esta Mãe boa que ganhe força na tua alma - força de amor e de libertação - a sua resposta de generosidade exemplar: "Ecce ancilla Domini" - eis a escrava do Senhor');
+INSERT INTO points VALUES(1035,0,1,34,'Quando está em jogo a defesa da verdade, como se pode desejar não desagradar a Deus e, ao mesmo tempo, não chocar com o ambiente? São coisas antagônicas: ou uma ou outra! É preciso que o sacrifício seja holocausto: é preciso queimar tudo..., até o “que vão dizer”, até isso que chamam reputação.');
+INSERT INTO points VALUES(1036,0,1,35,'Como vejo agora claramente que a “santa desvergonha” tem a sua raiz, muito profunda, no Evangelho! - Cumpre a Vontade de Deus..., lembrando-te de Jesus difamado, de Jesus cuspido e esbofeteado, de Jesus levado aos tribunais de homenzinhos..., e de Jesus calado!! - Propósito: baixar a fonte diante dos ultrajes e - contando também com as humilhações que, sem dúvida, virão - prosseguir a tarefa divina, que o Amor Misericordioso de Nosso Senhor nos quis confiar.');
+INSERT INTO points VALUES(1037,0,1,36,'Assusta o mal que podemos causar, se nos deixamos arrastar pelo medo ou pela vergonha de nos mostrarmos como cristãos na vida diária.');
+INSERT INTO points VALUES(1038,0,1,37,'Há alguns que, quando falam de Deus ou do apostolado, é como se sentissem a necessidade de se defender. Talvez porque não descobriram o valor das virtudes humanas e, pelo contrário, sobra-lhes deformação espiritual e covardia.');
+INSERT INTO points VALUES(1039,0,1,38,'É inútil agradar a todos. Descontentes, gente que proteste, haverá sempre. Olha como o resume a sabedoria popular: “Quando as coisas correm bem para os cordeiros, correm mal para os lobos”.');
+INSERT INTO points VALUES(1040,0,1,39,'Não te comportes como esses que se assustam perante um inimigo que só tem a força da sua “voz agressiva”.');
+INSERT INTO points VALUES(1041,0,1,40,'Compreendes o trabalho que se faz..., achas bem (!). Mas pões muito cuidado em não colaborar, e maior ainda em conseguir que os outros não vejam ou não pensem que colaboras. - Tens medo de que te julguem melhor do que és! disseste-me. - Não será que tens medo de que Deus e os homens te exijam mais coerência?');
+INSERT INTO points VALUES(1042,0,1,41,'Parecia completamente decidido... Mas, ao pegar na caneta para acabar com o namoro, pesou mais a indecisão e faltou-lhe coragem: muito humano e compreensível, comentavam outros. - Pelo que se vê, segundo alguns, não estão os amores terrenos entre as coisas que se devem deixar para seguir plenamente a Jesus Cristo, quando Ele o pede.');
+INSERT INTO points VALUES(1043,0,1,42,'Há os que erram por fraqueza - pela fragilidade do barro de que estamos feitos -, mas se mantêm íntegros na doutrina. São os mesmos que, com a graça de Deus, demonstram a valentia e a humildade heróica de confessar o seu erro, e de defender - com afinco - a verdade.');
+INSERT INTO points VALUES(1044,0,1,43,'Alguns chamam imprudência e atrevimento à fé e à confiança em Deus.');
+INSERT INTO points VALUES(1045,0,1,44,'É uma loucura confiar em Deus!..., dizem - É não é maior loucura confiar em si mesmo ou nos demais homens?');
+INSERT INTO points VALUES(1046,0,1,45,'Escreves-me que te chegaste, por fim, ao confessionário, e que experimentaste a humilhação de ter que abrir a cloaca da tua vida - assim dizes tu - diante de “um homem”. - Quando arrancarás essa vã estima que sentes por ti mesmo? Então irás à confissão feliz de te mostrardes como és, diante “desse homem” ungido - outro Cristo, o próprio Cristo! -, que te dá a absolvição, o perdão de Deus.');
+INSERT INTO points VALUES(1047,0,1,46,'Tenhamos a coragem de viver pública e constantemente de acordo com a nossa santa fé.');
+INSERT INTO points VALUES(1048,0,1,47,'Não podemos ser sectários, diziam-me com ares de equanimidade, perante a firmeza da doutrina da Igreja. Depois quando lhes fiz ver que quem tem a Verdade não é sectário, compreenderam o seu erro.');
+INSERT INTO points VALUES(1049,0,1,48,'Para nos convencermos de que é ridículo tomar a moda como norma de conduta, basta olhar para alguns retratos antigos.');
+INSERT INTO points VALUES(1050,0,1,49,'Gosto de que ames as procissões, todas as manifestações externas da nossa Mãe a Igreja Santa, para dar a Deus o culto devido..., e que as vivas!');
+INSERT INTO points VALUES(1051,0,1,50,'"Ego palam locutus sum mundo": Eu preguei publicamente diante de toda a gente, responde Jesus a Caifás, quando se aproxima o momento de dar a sua Vida por nós. - E, no entanto, há cristãos que se envergonham de manifestar "palam" - patentemente - veneração pelo Senhor.');
+INSERT INTO points VALUES(1052,0,1,51,'Quando ocorreu a debandada dos Apóstolos e o povo embravecido rasga as gargantas em ódio a Jesus Cristo, Santa Maria segue de perto o seu Filho pelas ruas de Jerusalém. não a arreda o clamor da multidão, nem deixa de acompanhar o Redentor enquanto todos os do cortejo, no anonimato, se fazem covardemente valentes para maltratar a Cristo. Invoca-a com força: "Virgo fidelis!" - Virgem fiel! -, e pede-lhe que os que nos dizemos amigos de Deus o sejamos deveras e a todas as horas.');
+INSERT INTO points VALUES(1053,0,1,52,'Ninguém é feliz, na terra, enquanto não se decide a não sê-lo. Assim transcorre o caminho: dor - dito em cristão! -, Cruz; Vontade de Deus, Amor; felicidade aqui e, depois, eternamente.');
+INSERT INTO points VALUES(1054,0,1,53,'"Servite Domino in laetitia!" - Servirei a Deus com alegria! Uma alegria que será conseqüência da minha Fé, da minha Esperança e do meu Amor..., que há de durar sempre porque, como nos assegura o Apóstolo, "Dominus prope est!"... - o Senhor me acompanha de perto. Caminharei com Ele, portanto, bem seguro, já que o Senhor é meu Pai..., e com a sua ajuda cumprirei a sua amável Vontade, ainda que me custe.');
+INSERT INTO points VALUES(1055,0,1,54,'Um conselho, que vos tenho repetido até cansar: estai alegres, sempre alegres. - Que estejam tristes os que não se considerem filhos de Deus.');
+INSERT INTO points VALUES(1056,0,1,55,'Procuro deixar a pele, para que os meus irmãos mais novos “pises macio”, como o senhor nos diz. - Há tantas alegrias neste “passar mal”!');
+INSERT INTO points VALUES(1057,0,1,56,'Outro homem de fé escrevia-me: “Quando se está isolado por necessidade, nota-se perfeitamente a ajuda dos irmãos. Ao considerar que agora tenho que suportar tudo `sozinho'', penso muitas vezes que, se não fosse por essa `companhia que fazemos de longe uns aos outros'' - a bendita Comunhão dos Santos! -, não poderia conservar este otimismo que me invade”.');
+INSERT INTO points VALUES(1058,0,1,57,'Não esqueças que às vezes, faz-nos falta ter ao lado caras sorridentes.');
+INSERT INTO points VALUES(1059,0,1,58,'“Vocês são todos tão alegres! Ninguém o imaginaria”, ouvi comentar. Vem de longe o empenho diabólico dos inimigos de Cristo, que não se cansam de murmurar que as pessoas entregues a Deus são da espécie dos “soturnos”. E, infelizmente, alguns dos que querem ser “bons” servem-lhes de eco, com as suas ''virtudes tristes”. - Nós Te damos graças, Senhor, porque quiseste contar com as nossas vidas, ditosamente alegres, para apagar essa falsa caricatura. - Peço-Te também que não o esqueçamos.');
+INSERT INTO points VALUES(1060,0,1,59,'Que ninguém leia tristeza nem dor na tua cara, quando difundes pelo ambiente do mundo o aroma do teu sacrifício: os filhos de Deus têm que ser sempre semeadores de paz e de alegria.');
+INSERT INTO points VALUES(1061,0,1,60,'A alegria de um homem de Deus, de uma mulher de Deus, há de ser transbordante: serena, contagiosa, cativante; em poucas palavras, há de ser tão sobrenatural, tão pegadiça e tão natural, que arraste outros pelos caminhos cristãos.');
+INSERT INTO points VALUES(1062,0,1,61,'“Contente?” - A pergunta deixou-me pensativo. - Ainda não se inventaram as palavras para exprimir tudo o que se sente - no coração e na vontade - quando se sabe que se é filho de Deus.');
+INSERT INTO points VALUES(1063,0,1,62,'Natal. Escreves-me: “Ao compasso da espera santa de Maria e de José, eu também espero, com impaciência, o Menino. Como ficarei contente em Belém! Pressinto que explodirei numa alegria sem limites. Ah!, e com Ele quero também nascer de novo...”. - Oxalá seja verdade este teu querer!');
+INSERT INTO points VALUES(1064,0,1,63,'Propósito sincero: tornar amável e fácil o caminho aos outros, que já bastantes amarguras traz a vida consigo.');
+INSERT INTO points VALUES(1065,0,1,64,'Que maravilha converter infieis, ganhar algumas!... - Pois bem, tão grato a Deus, e ainda mais, é evitar que se percam.');
+INSERT INTO points VALUES(1066,0,1,65,'Outra vez as tuas antigas loucuras!... E depois, quando regressas, te sentes pouco alegre, porque te falta humildade. Parece que te obstinas em desconhecer a segunda parte da parábola do filho pródigo, e ainda continuas apegado à pobre felicidade das bolotas. Com o orgulho ferido pela tua fragilidade, não te decides a pedir perdão, e não consideras que, se te humilhas, espera-te a jubilosa acolhida de teu Pai-Deus, a festa pelo teu regresso e pelo teu recomeço.');
+INSERT INTO points VALUES(1067,0,1,66,'É verdade; não valemos nada, não somos nada, não podemos nada, não temos nada. E, simultaneamente, no meio da luta cotidiana, não faltam os obstáculos, as tentações... Mas a “alegria” dos teus irmãos dissipará todas as dificuldades, tão logo te reúnas com eles, porque os verás firmemente apoiados nEle "quia Tu es Deus fortitudo mea" - porque Tu és, Senhor a nossa fortaleza.');
+INSERT INTO points VALUES(1068,0,1,67,'Repete-se a cena, como com os convidados da parábola. Uns, medo: outros, ocupações; bastantes..., histórias, desculpas tolas. Resistem. Assim andam: enfastiados, embaralhados, sem vontade de nada, entediados, amargurados. Quando é tão fácil aceitar o divino convite de cada momento, e viver alegre e feliz!');
+INSERT INTO points VALUES(1069,0,1,68,'É muito cômodo dizer: “Não presto; não me corre bem - não nos corre bem - uma só coisa”. - Além de que não é verdade, esse pessimismo encobre uma poltronice muito grande... Há coisas que fazes bem, e coisas que fazes mal. Enche-te de contentamento e de esperança pelas primeiras; e enfrenta - sem desalento - as segundas, para retificar: e correrão bem.');
+INSERT INTO points VALUES(1070,0,1,69,'“Padre, tal como me aconselhou, rio-me das minhas misérias - sem esquecer que não devo transigir -, e então sinto-me muito mais alegre. “Pelo contrário, quando cometo a tolice de ficar triste, fico com a impressão de que perco o caminho”.');
+INSERT INTO points VALUES(1071,0,1,70,'Perguntaste-me se tenho cruz. E te respondi que sim, que nós sempre temos Cruz. - Mas uma Cruz gloriosa, cunho divino, garantia de autenticidade de sermos filhos de Deus. Por isso, sempre caminhamos felizes com a Cruz.');
+INSERT INTO points VALUES(1072,0,1,71,'Sentes mais alegria. Mas desta vez trata-se de uma alegria nervosa, um pouco impaciente, acompanhada da clara sensação de que alguma coisa em ti se despedaça em sacrifício. Escuta-me bem: aqui na terra, não há felicidade completa. Por isso, agora, imediatamente, sem palavras e sem “vitimismos”, oferece-te em oblação a Deus, com uma entrega total e absoluta.');
+INSERT INTO points VALUES(1073,0,1,72,'Estás passando uns dias de alvoroço, coma alma inundada de sol e de cor. E, coisa estranha, os motivos da tua felicidade são os mesmos que em outras ocasiões te desanimavam! É o que acontece sempre: tudo depende do ponto de mira. - "Laetetur cor quaerentium Dominum!" - Quando se procura o Senhor, o coração transborda sempre de alegria.');
+INSERT INTO points VALUES(1074,0,1,73,'Que diferença entre esses homens sem fé, tristes e vacilantes por causa de sua existência vazia, exposto como cata-ventos à “variabilidade” das circunstâncias, e a nossa vida confiante de cristãos, alegre e firme, maciça, por causa do conhecimento e do absoluto convencimento do nosso destino sobrenatural!');
+INSERT INTO points VALUES(1075,0,1,74,'Não és feliz, porque ficas ruminando tudo como se sempre fosses tu o centro: é que te dói o estômago, é que te cansas, é que te disseram isto ou aquilo... - Experimentaste pensar nEle e, por Ele, nos outros?');
+INSERT INTO points VALUES(1076,0,1,75,'"Miles" - soldado, chama o Apóstolo ao cristão. Pois bem, nesta bendita e cristã peleja de amor e de paz pela felicidade de todas as almas, há, dentro das fileiras de Deus, soldados cansados, famintos, lacerados pelas feridas..., mas alegres: levam no coração a luzes seguras da vitória.');
+INSERT INTO points VALUES(1077,0,1,76,'“Quero enviar-lhe, Padre, o propósito de estar sempre sorridente: coração risonho, ainda que mo apunhalem”. - Parece-me um propósito acertado. Rezo para que o cumpras.');
+INSERT INTO points VALUES(1078,0,1,77,'Em certos momentos, oprime-te um começo de desânimo, que mata todo o seu entusiasmo, e que mal consegues vencer à força de atos de esperança. - Não tem importância: é a hora boa de pedires mais graça a Deus, e para a frente! Renova a alegria de lutar, ainda que percas uma escaramuça.');
+INSERT INTO points VALUES(1079,0,1,78,'Chegaram nuvens densas de falta de vontade, de perda de entusiasmo. Caíram aguaceiros de tristeza, com a clara sensação de te encontrares atado. E, como remate, assomaram decaimentos, que nascem de uma realidade mais ou menos objetiva: tantos anos lutando..., e ainda estás tão atrás, tão longe. Tudo isto é necessário, e Deus conta com isso: para alcançarmos o "gaudium cum pace" - a paz e a alegria verdadeiras -, temos de acrescentar à convicção da nossa filiação divina, que nos enche de otimismo, o reconhecimento da nossa fraqueza pessoal.');
+INSERT INTO points VALUES(1080,0,1,79,'Rejuveneceste! De fato, percebes que o trato com Deus te devolveu um pouco à época simples e feliz da juventude, até mesmo à segurança e alegria - sem criancices - da infância espiritual... Olhas à tua volta e verificas que acontece outro tanto aos demais: vão passando os anos desde o seu encontro com o Senhor e, com a maturidade, robustecem-se uma juventude e uma alegria indeléveis. Não estão jovens: São jovens e alegres! Esta realidade da vida interior atrai, confirma e subjuga as almas. Agradece-o diariamente "ad Deum qui laetificat iuventutem" - ao Deus que enche de alegria a tua juventude.');
+INSERT INTO points VALUES(1081,0,1,80,'A graça de Deus não te falta. Portanto, se correspondes, deves sentir-te seguro. O triunfo de ti: a tua fortaleza e o teu ímpeto - unidos a essa graça - são razão mais que suficiente para dar-te o otimismo de quem tem por certa a vitória.');
+INSERT INTO points VALUES(1082,0,1,81,'Talvez ontem fosses uma dessas pessoas amarguradas nos seus sonhos, decepcionadas nas suas ambições humanas. Hoje, desde que Ele se meteu na tua vida - obrigado, meu Deus! -, ris e cantas, e levas o sorriso, o Amor e a felicidade aonde quer que vás.');
+INSERT INTO points VALUES(1083,0,1,82,'Muitos se sentem infelizes, precisamente por terem demasiado de tudo. - Os cristãos, se verdadeiramente se comportam como filhos de Deus, poderão passar incomodidades, calor, fadiga, frio... Mas jamais lhes faltará a alegria, porque isso - tudo! -, quem o dispõe é Ele, e Ele é a fonte da verdadeira felicidade.');
+INSERT INTO points VALUES(1084,0,1,83,'Ante um panorama de homens sem fé, sem esperança; perante cérebros que se agitam, à beira da angústia, procurando uma razão de ser para a vida, tu encontraste uma meta: Ele! E esta descoberta injetará permanentemente na tua existência uma alegria nova, transformar-te-á, e te apresentará uma imensidade diária de coisas formosas que te eram desconhecidas, e que mostram a gozosa amplidão desse caminho largo, que te conduz a Deus.');
+INSERT INTO points VALUES(1085,0,1,84,'A tua felicidade na terra identifica-se com a tua fidelidade à fé, à pureza e ao caminho que o Senhor te traçou.');
+INSERT INTO points VALUES(1086,0,1,85,'Dá graças a Deus por estares contente, com uma alegria profunda que não sabe ser ruidosa.');
+INSERT INTO points VALUES(1087,0,1,86,'Com Deus - pensava -, cada novo dia me parece mais atrativo. Vou vivendo aos “pedacinhos”. Um dia acho magnífico um detalhe; outro, descubro um panorama que antes não tinha notado... A este passo, não sei o que acontecerá com o decorrer do tempo. Depois, reparei que Ele me assegurava: Pois bem, cada dia será maior o teu contentamento, porque aprofundarás mais e mais na aventura divina, na “complicação” tão grande em que te meti. E verificarás que Eu não te abandono.');
+INSERT INTO points VALUES(1088,0,1,87,'A alegria é uma conseqüência da entrega. Confirma-se em cada volta da nora.');
+INSERT INTO points VALUES(1089,0,1,88,'Que alegria imutável te causa o haveres-te entregado a Deus!... E que inquietação, e que ânsias hás de ter de que todos participem da tua alegria!');
+INSERT INTO points VALUES(1090,0,1,89,'Tudo o que agora de preocupa cabe dentro de um sorriso, esboçado por amor de Deus.');
+INSERT INTO points VALUES(1091,0,1,90,'Otimismo? Sempre! Também quando as coisas correm aparentemente mal: talvez seja essa a altura de romperes a cantar, com um Glória, porque te refugiaste nEle, e dEle só te pode vir o bem.');
+INSERT INTO points VALUES(1092,0,1,91,'Esperar não significa começar a ver a luz, mas confiar de olhos fechados em que o Senhor a possui plenamente e vive nessa claridade. Ele é a Luz.');
+INSERT INTO points VALUES(1093,0,1,92,'Dever de cada cristão é levar a paz e a felicidade pelos diversos ambientes da terra, numa cruzada de fortaleza e de alegria, que sacuda até os corações murchos e apodrecidos, e os levante para Ele.');
+INSERT INTO points VALUES(1094,0,1,93,'Se arrancares pela raiz qualquer assomo de inveja, e te alegrares sinceramente com os êxitos dos outros, não perderás a alegria.');
+INSERT INTO points VALUES(1095,0,1,94,'Abordou-me aquele amigo: “Disseram-me que estás apaixonado”. - Fiquei muito surpreso e só me ocorreu perguntar-lhe pela origem da notícia. Confessou-me que a lia nos meus olhos, que brilhavam de alegria.');
+INSERT INTO points VALUES(1096,0,1,95,'Como seria o olhar alegre de Jesus! O mesmo que brilharia nos olhos de sua Mãe, que não pode conter a alegria - "Magnificat anima mea Dominum!" - e a sua alma glorifica o Senhor, desde que O traz de si e a seu lado. Oh Mãe! Que a nossa alegria, como a tua, seja a alegria de estar com Ele e de O ter.');
+INSERT INTO points VALUES(1097,0,1,96,'Não sejais almas de “bitola estreita”, homens ou mulheres menores de idade, curtos de vista, incapazes de abarcar o nosso horizonte sobrenatural cristão de filhos de Deus. Deus e audácia!');
+INSERT INTO points VALUES(1098,0,1,97,'Audácia não é imprudência, nem ousadia irrefletida, nem simples atrevimento. A audácia é fortaleza, virtude cardeal, necessária para a vida da alma.');
+INSERT INTO points VALUES(1099,0,1,98,'Tu te decidiste, mais por reflexão do que por fogo e entusiasmo. Não houve lugar para o sentimento, embora desejasses tê-lo: tu te entregaste quando te convenceste de que Deus assim o queria. E, a partir daquele instante, não voltaste a “sentir” nenhuma dúvida séria; sentiste, pelo contrário, uma alegria tranqüila, serena, que de vez em quando transborda. Assim paga Deus as audácias do Amor.');
+INSERT INTO points VALUES(1100,0,1,99,'Li certa vez um provérbio muito popular em alguns países: “O mundo é de Deus, mas Deus o aluga aos valentes”. E fez-me refletir. - Que estás esperando?');
+INSERT INTO points VALUES(1101,0,1,100,'Não sou o apóstolo que deveria ser. Sou... o tímido. - Não estarás apequenado, porque o teu amor é curto? - Reage!');
+INSERT INTO points VALUES(1102,0,1,101,'As dificuldades encolheram-te, e te tornaste “prudente, moderado e objetivo”. - Lembra-te de que sempre desprezaste esses termos, quando são sinônimos de covardia, apoucamento e comodismo.');
+INSERT INTO points VALUES(1103,0,1,102,'Medo? É próprio dos que sabem que agem mal. Tu, nunca.');
+INSERT INTO points VALUES(1104,0,1,103,'Há uma quantidade bem considerável de cristãos que seriam apóstolos..., se não tivessem medo. São os mesmos que depois se queixam, porque o Senhor - dizem! - os abandona. Que fazem eles com Deus?');
+INSERT INTO points VALUES(1105,0,1,104,'“Somos muitos; com a ajuda de Deus, podemos chegar a toda a parte”, comentam entusiasmados. - Então, por que te amedrontas? Com a graça divina, podes chegar a ser santo, que é o que interessa.');
+INSERT INTO points VALUES(1106,0,1,105,'Quando a consciência remorde, por termos deixado de realizar uma coisa boa, é sinal de que o Senhor queria que não a omitíssemos. - De fato. Além disso, tem por certo que “podias” tê-la feito, com a graça de Deus.');
+INSERT INTO points VALUES(1107,0,1,106,'Não o esqueçamos: no cumprimento da Vontade Divina, as dificuldades se ultrapassam por cima..., ou por baixo..., ou ao largo. Mas..., ultrapassam-se!');
+INSERT INTO points VALUES(1108,0,1,107,'Quando se trabalha para expandir um empreendimento apostólico, o “não” nunca é uma resposta definitiva. Insiste!');
+INSERT INTO points VALUES(1109,0,1,108,'És demasiado “precavido” ou demasiado pouco “sobrenatural” e, por isso, pecas por esperto: não inventes tu mesmo os “problemas”, nem queiras resolvê-los todos. - Talvez aquele que te escuta seja menos “esperto” ou mais “generoso” do que tu e, como conta Deus, não te levantará tantas dificuldades.');
+INSERT INTO points VALUES(1110,0,1,109,'Há uns modos de agir tão prudenciais que, numa palavra, significam pusilanimidade.');
+INSERT INTO points VALUES(1111,0,1,110,'Convence-te: quando se trabalha por Deus, não há dificuldades que não se possam superar, nem desalentos que façam abandonar a tarefa, nem fracassos dignos deste nome, por mais infrutíferos que se apresentem os resultados.');
+INSERT INTO points VALUES(1112,0,1,111,'A tua fé é demasiado pouco operante: dir-se-ia que é de carola, mais do que de homem que luta por ser santo.');
+INSERT INTO points VALUES(1113,0,1,112,'Serenidade! Audácia! Desbarata com essas virtudes a “quinta coluna” dos tíbios, dos assustados, dos traidores.');
+INSERT INTO points VALUES(1114,0,1,113,'Asseguraste-me que querias lutar sem tréguas. E agora me vens de asa caída. Olha, até humanamente, convém que não te dêem tudo resolvido, sem problemas. Alguma coisa - muito! - te cabe fazer a ti. Senão, como hás de “fazer-te” santo?');
+INSERT INTO points VALUES(1115,0,1,114,'Não te lanças a trabalhar nesse empreendimento sobrenatural, porque - assim o dizes - tens medo de não saber agradar, de tratar de algum assunto de maneira infeliz. - Se pensasses mais em Deus, essas sem-razões desapareceriam.');
+INSERT INTO points VALUES(1116,0,1,115,'Às vezes penso que uns poucos inimigos de Deus e de sua Igreja vivem do medo de muitos bons, e encho-me de vergonha.');
+INSERT INTO points VALUES(1117,0,1,116,'Enquanto conversávamos, afirmava-me que preferia não sair nunca do tugúrio onde vivia, porque gostava mais de contar as vigas da “sua” estrebaria do que as estrelas do céu. - Assim são muitos, incapazes de prescindir das suas pequenas coisas, para levantar os olhos ao céu. Já é tempo de que adquiram uma visão de mais altura!');
+INSERT INTO points VALUES(1118,0,1,117,'Compreendo a alegria sobrenatural e humana daquele homem que tinha a sorte de ser um ponta-de-lança na semeadura divina. “É esplêndido sentir-se único, para sacudir toda uma cidade e seus arredores”, repetia para si mesmo, muito convicto. - Não esperes até contar com mais meios ou até que venham outros: as almas precisam de ti hoje, agora.');
+INSERT INTO points VALUES(1119,0,1,118,'Sê atrevido na tua oração, e o Senhor te transformará de pessimista em otimista; de tímido em audaz; de acanhado de espírito em homem de fé, em apóstolo!');
+INSERT INTO points VALUES(1120,0,1,119,'Os problemas que antes te oprimiam - pareciam-te altíssimas cordilheiras - desapareceram por completo, resolveram-se à maneira divina, como, quando o Senhor mandou aos ventos e às águas que se acalmassem. - E pensar que ainda duvidavas!');
+INSERT INTO points VALUES(1121,0,1,120,'“Não ajudem tanto o Espírito Santo!”, dizia um amigo, brincando, mas com muito medo. - Respondi: penso que “O ajudamos” pouco.');
+INSERT INTO points VALUES(1122,0,1,121,'Quando vejo tantas covardias, tantas falsas prudências..., neles e nelas, ardo em desejos de perguntar-lhes: então a fé a confiança são para pregar, não para praticar?');
+INSERT INTO points VALUES(1123,0,1,122,'Encontras-te numa atitude que te parece bastante estranha: por um lado, diminuído, ao olhares para dentro; e, por outro, seguro, animado, ao olhares para cima. - Não te preocupes: é sinal de que te vais conhecendo melhor e - isso, sim, é o que importa! -, de que O vais conhecendo melhor a Ele.');
+INSERT INTO points VALUES(1124,0,1,123,'Viste? Com Ele, pudeste! De que te admiras? - Convence-te: não tens por que maravilhar-te. Confiando em Deus - confiando deveras! -, as coisas tornam-se fáceis. E, além disso, ultrapassa-se sempre o limite do imaginado.');
+INSERT INTO points VALUES(1125,0,1,124,'Queres viver a audácia santa, para conseguir que Deus atue através de ti? - recorre a Maria, e Ela te acompanhará pelo caminho da humildade, de modo que, diante dos impossíveis para a mente humana, saibas responder com um "fiat!" - faça-se! - que una a terra ao Céu.');
+INSERT INTO points VALUES(1126,0,1,125,'Nem todos podem chegar a ser ricos, sábios, famosos... Em contrapartida, todos - sim, “todos” - estamos chamados a ser santos.');
+INSERT INTO points VALUES(1127,0,1,126,'Ser fiel a Deus exige luta. E luta corpo a corpo, homem a homem - homem velho e homem de Deus -, detalhe a detalhe, sem claudicar.');
+INSERT INTO points VALUES(1128,0,1,127,'A provação, não o nego, está ficando demasiado dura: tens que subir a ladeira acima, a “contragosto”. - Que te aconselho? - repete: "Omnia in bonum!", tudo o que sucede, “tudo o que me sucede”, é para meu bem... Por conseguinte - e esta é a conclusão acertada-, aceita isso, que te parece custoso, como uma doce realidade.');
+INSERT INTO points VALUES(1129,0,1,128,'Hoje não bastam mulheres ou homens bons. - Além disso, não é suficientemente bom aquele que só se contenta em ser... quase bom: é preciso ser “revolucionário”. Perante o hedonismo, perante a carga pagã e materialista que nos oferecem, Cristo quer anticonformistas!, rebeldes de Amor!');
+INSERT INTO points VALUES(1130,0,1,129,'A santidade, o verdadeiro afã por alcançá-la, não faz pausas nem tira férias.');
+INSERT INTO points VALUES(1131,0,1,130,'Alguns comportam-se, ao longo da vida, como se o Senhor tivesse falado de entrega e de conduta reta somente àqueles a quem não custasse - não existem! - ou aos que não precisassem lutar. Esquecem que, para todos, Jesus disse: o Reino dos Céus arrebata-se com violência, com a luta santa de cada instante.');
+INSERT INTO points VALUES(1132,0,1,131,'Que ânsias têm muitos de reformar! Não seria melhor que nos reformássemos todos - cada um -, para cumprirmos fielmente o que está mandado?');
+INSERT INTO points VALUES(1133,0,1,132,'Vais chapinhando nas tentações, pões-te em perigo, brincas com a vista e com a imaginação, ficas conversando sobre... estupidez. - E depois te assustas por te assaltarem dúvidas, escrúpulos, confusões, tristeza e desalento. - Tens de admitir que és pouco conseqüente.');
+INSERT INTO points VALUES(1134,0,1,133,'Depois do entusiasmo inicial, começaram as vacilações, os titubeios, os temores. - Preocupam-te os estudos, a família, o problema econômico e, sobretudo, o pensamento de que não consegues, de que talvez não sirvas, de que te falta experiência da vida. Eu te darei um meio seguro para venceres esses temores - tentações do diabo ou da tua falta de generosidade! -: “despreza-os”, tira da tua memória essas lembranças. Já o pregou de modo terminante o Mestre há vinte séculos: “Não olhes para trás!”.');
+INSERT INTO points VALUES(1135,0,1,134,'Temos de fomentar em nossas almas um verdadeiro horror ao pecado. Senhor - repete-o de coração contrito -, que eu não Te ofenda mais! Mas não te assustes ao notares o lastro do pobre corpo e das humanas paixões: seria tolo e ingenuamente pueril que descobrisses agora que “isso” existe. A tua miséria não é obstáculo, mas acicate para que te unas mais a Deus, para que O procures com constância, porque Ele nos purifica.');
+INSERT INTO points VALUES(1136,0,1,135,'Se a imaginação ferve em torno de ti mesmo, crias situações ilusórias, cenários que, ordinariamente, não combinam com o teu caminho, e te distraem totalmente, te esfriam e te afastam da presença de Deus. - Vaidade. Se a imaginação volteia em torno dos outros, cais facilmente no defeito de julgá-los - quando não tens essa missão -, e interpretas de modo rasteiro e pouco objetivo o seu comportamento. - Juízos temerários. Se a imaginação esvoaça sobre os teus próprios talentos e modos de dizer, ou sobre o clima de admiração que despertas nos outros, expões-te a perder a retidão de intenção e a dar pasto à soberba. Geralmente, soltar a imaginação implica uma perda de tempo, mas, além disso, quando não se domina, abre passagem a um filão de tentações voluntárias. - Não abandones nenhum dia a mortificação interior!');
+INSERT INTO points VALUES(1137,0,1,136,'Não tenhas a ingenuidade tola de pensar que tens de sofrer tentações, para te certificares de que estás firme no caminho. Seria como desejar que te parassem o coração, para demonstrarem a ti mesmo que queres viver.');
+INSERT INTO points VALUES(1138,0,1,137,'Não dialogues com a tentação. Deixa-me que te repita: tem a coragem de fugir, e a energia de não manusear a tua fraqueza pensando até onde poderias chegar. Corta, sem concessões!');
+INSERT INTO points VALUES(1139,0,1,138,'Não tens desculpa nenhuma. A culpa é somente tua. Se sabes - conheces-te o bastante - que, por esse caminho - com essas leituras, com essa companhia... -, podes acabar no precipício, por que te obstinas em pensar que talvez seja um atalho que facilita a tua formação ou que amadurece a tua personalidade? Muda radicalmente o teu plano, ainda que te exija mais esforço, menos diversões ao alcance da mão. Já é tempo de que te comportes como uma pessoa responsável.');
+INSERT INTO points VALUES(1140,0,1,139,'Dói muito ao Senhor a inconsciência de tantos e de tantas, que não se esforçam por evitar os pecados veniais deliberados. É o normal - pensam e justificam-se -, porque nesses tropeços caímos todos! Ouve-me bem: também a maioria daquela chusma, que condenou Cristo e lhe a morte, começou apenas por gritar - como os outros! -, por afluir ao Horto das Oliveiras - como os outros! - ... No fim, empurrados também pelo que “todos” faziam, não souberam ou não quiseram retroceder..., e crucificaram Jesus! Agora, depois de vinte séculos, ainda não aprendemos.');
+INSERT INTO points VALUES(1141,0,1,140,'Altos e baixos. Tens muitos - demasiados! - altos e baixos. A razão é clara: até aqui; levaste uma vida fácil, e não queres perceber que do “desejar” ao “dar-se” vai uma distância notável.');
+INSERT INTO points VALUES(1142,0,1,141,'Como necessariamente, mais cedo ou mais tarde, terás de tropeçar com a evidência da tua própria miséria pessoal, quero prevenir-te contra algumas tentações, que o diabo te insinuará nessa ocasião e que tens de repelir imediatamente: o pensamento de que Deus se esqueceu de ti, de que a tua chamada para o apostolado é vá, ou de que o peso da dor e dos pecados do mundo é superior às tuas forças de apóstolo... - Nada disso é verdade!');
+INSERT INTO points VALUES(1143,0,1,142,'Se lutas de verdade, precisas fazer exame de consciência. - Cuida do exame diário: vê se sentes dor de Amor, porque não tratas Nosso Senhor como deverias.');
+INSERT INTO points VALUES(1144,0,1,143,'Assim como muitos comparecem à colocação das “primeiras pedras”, sem querer saber se depois se acabará a obra iniciada, assim os pecadores se iludem com as “últimas vezes”.');
+INSERT INTO points VALUES(1145,0,1,144,'Quanto se trata de “cortar” - não o esqueças -, a “última vez” tem que ser a anterior, a que já passou.');
+INSERT INTO points VALUES(1146,0,1,145,'Aconselho-te que tentes alguma vez voltar... ao começo da tua “primeira conversão”, coisa que, se não é fazer-se como criança, é muito parecida: na vida espiritual, é preciso deixar-se guiar com inteira confiança, sem medos nem duplicidades; é preciso falar com absoluta clareza daquilo que se tem na cabeça e na alma.');
+INSERT INTO points VALUES(1147,0,1,146,'Como podes sair desse estado de tibieza, de lamentável languidez, se não empregas os meios! Lutas muito pouco e, quando te esforças, o fazes como que por birra e com desgosto, quase com o desejo de que os teus débeis esforços não produzam efeito, para assim te autojustificares: para não te exigires e para que não te exijam mais. - Estás cumprindo a tua vontade; não a de Deus. Enquanto não mudares, a sério, nem serás feliz, nem conseguirás a paz que agora te falta. - Humilha-te diante de Deus, e procura querer de verdade.');
+INSERT INTO points VALUES(1148,0,1,147,'Que perda de tempo, e que visão tão humana, quando reduzem tudo a táticas, como se aí estivesse o segredo da eficácia. - Esquecem-se de que a “tática” de Deus é a caridade, o Amor sem limites: assim preencheu Ele a distância impreenchível que o homem, com o pecado, abre entre o Céu e a terra.');
+INSERT INTO points VALUES(1149,0,1,148,'Deves ter uma sinceridade “selvagem” no exame de consciência; quer dizer, coragem: a mesma com que te olhas no espelho, para saber onde te feriste ou onde te manchaste, ou onde estão os teus defeitos, que tens de eliminar.');
+INSERT INTO points VALUES(1150,0,1,149,'Preciso prevenir-te contra uma argúcia de “satanás” - assim, com minúscula!, porque não merece mais -, que tenta servir-te das circunstâncias mais comuns para nos desviar pouco ou muito do caminho que nos leva a Deus. Se lutas, e mais ainda se lutas de verdade, não deves estranhar que sobrevenha o cansaço ou o tempo de “andar a contragosto”, sem nenhum consolo espiritual ou humano. Olha o que me escreviam há tempos, e que conservei pensando em alguns que consideram ingenuamente que a graça prescinde da natureza: “Padre, desde há alguns dias, estou com uma preguiça e uma apatia tremendas, para cumprir o plano de vida; faço tudo para que passe logo esta crise, que me faz sofrer muito pensando em que pode desviar-me do caminho”. - Limitei-me a responder: não sabias que o Amor exige sacrifício? Lê devagar as palavras do Mestre: “Quem não toma a sua Cruz "cotidie" - cada dia - não é digno de Mim”. E mais adiante: “Não vos deixarei órfãos...”. O Senhor permite essa tua aridez, que se torna tão dura para ti, para que O ames mais, que confies somente nEle, para que com a Cruz sejas corredentor, para que O encontres.');
+INSERT INTO points VALUES(1151,0,1,150,'O diabo parece bem pouco esperto!, comentavas-me. Não entendo a sua estupidez: sempre os mesmos enganos, as mesmas falsidades... Tens toda a razão. Mas nós, os homens, somos ainda menos espertos, e não aprendemos a escarmentar em cabeça alheia... E satanás conta com tudo isso, para nos tentar.');
+INSERT INTO points VALUES(1152,0,1,151,'Ouvi dizer certa vez que nas grandes batalhas se repete um fenômeno curioso. Ainda que a vitória esteja assegurada de antemão pela superioridade numérica e de meios, depois, no fragor do combate, não faltam momentos em que a derrota ameaça, pela debilidade de um setor. Chegam então as ordens terminantes do alto comando, e cobrem-se as brechas do flanco em dificuldade. - Pensei em ti e em mim. Com Deus, que não perde batalhas, seremos sempre vencedores. Por isso, no combate pela santidade, se te sentes sem forças, escuta as ordens, faz caso, deixa-te ajudar..., porque Ele não falha.');
+INSERT INTO points VALUES(1153,0,1,152,'Abriste sinceramente o coração ao teu Diretor, falando na presença de Deus..., e foi maravilhoso verificar como tu sozinho ias encontrando respostas adequada às tuas tentativas de evasão. Amemos a direção espiritual!');
+INSERT INTO points VALUES(1154,0,1,153,'Concedo; comportas-te decorosamente... Mas, deixa-me que te fale com sinceridade: com esse passo arrastado - reconhece-o -, além de que não és feliz por inteiro, ficas muito longe da santidade. Por isso te pergunto: é mesmo verdade que te comportas decorosamente? Não terás um conceito errado do decoro?');
+INSERT INTO points VALUES(1155,0,1,154,'Assim, bobeando, com essa frivolidade interior e exterior, com essas vacilações em face da tentação, com esse querer sem querer, é impossível que avances na vida interior.');
+INSERT INTO points VALUES(1156,0,1,155,'Sempre pensei que muitos chamam “amanhã”, “depois”, à resistência à graça.');
+INSERT INTO points VALUES(1157,0,1,156,'Outro paradoxo do caminho espiritual: a alma necessitada de menor reforma na sua conduta, empenha-se mais em consegui-la, não se detém até alcançá-la. E ao contrário.');
+INSERT INTO points VALUES(1158,0,1,157,'Às vezes, inventas “problemas”, porque não vais à raiz dos teus modos de comportar-te. - A única coisa de que necessitas é de uma decidida mudança de frente de batalha: cumprir lealmente o teu dever e ser fiel às indicações que te deram na direção espiritual.');
+INSERT INTO points VALUES(1159,0,1,158,'Notaste com mais força a urgência, a “idéia fixa” de ser santo; e foste à luta cotidiana sem vacilações, persuadido de que tens de cortar valentemente qualquer sintoma de aburguesamento. Depois, enquanto falavas com o Senhor na tua oração, compreendeste com maior clareza que luta é sinônimo de Amor, e pediste-Lhe um Amor maior, sem medo ao combate que te espera, porque combaterás por Ele, com Ele e nEle.');
+INSERT INTO points VALUES(1160,0,1,159,'Complicações?... Sê sincero, e reconhece que preferes ser escravo de um egoísmo teu, ao invés de servires a Deus ou àquela alma. - Cede!');
+INSERT INTO points VALUES(1161,0,1,160,'"Beatus vir qui suffert tentationem..." - bem-aventurado o homem que sofre tentação porque, depois de ter sido provado, receberá a coroa da Vida. Não te enche de alegria verificar que esse esporte interior é uma fonte de paz que nunca se esgota?');
+INSERT INTO points VALUES(1162,0,1,161,'"Nunc coepi!" - agora começo! É o grito da alma apaixonada que, em cada instante, quer tenha sido fiel, quer lhe tenha faltado generosidade, renova o seu desejo de servir - de amar! - o nosso Deus com uma lealdade sem brechas.');
+INSERT INTO points VALUES(1163,0,1,162,'Doeu-te na alma quando te disseram: tu, o que procuras não é a conversão, mas um estojo para as tuas misérias..., para assim continuares arrastando comodamente - mas com sabor a azebre! - essa triste carga.');
+INSERT INTO points VALUES(1164,0,1,163,'Não sabes se será abatimento físico ou uma espécie de cansaço interior o que se apoderou de ti, ou as duas coisas ao mesmo tempo...: lutas sem lutar, sem ânsias de uma autêntica melhora positiva, com o fim de comunicares a alegria e o amor de Cristo às almas. Quero recordar-te as palavras claras do Espírito Santo: só será coroado aquele que tiver combatido "legitime" - de verdade, apesar dos pesares.');
+INSERT INTO points VALUES(1165,0,1,164,'Poderia comportar-me melhor, ser mais decidido, esbanjar mais entusiasmo... Por que não o faço? Porque - perdoa a minha fraqueza - és um bobo: o diabo sabe perfeitamente que uma das portas da alma mais mal guardadas é a da tontice humana: a vaidade. Agora carrega por aí, com todas as suas forças: lembranças pseudo-sentimentais, complexo de ovelha negra com visão histérica, impressão de uma hipotética falta de liberdade... Que estás esperando para entender a sentença do Mestre: “Vigiai e orai, porque não sabeis nem o dia nem a hora”?');
+INSERT INTO points VALUES(1166,0,1,165,'Comentaste com ar fanfarrão e inseguro: uns sobem e outros descem... E outros - como eu! estamos deitados no caminho. Deu-me tristeza a tua indolência, e acrescentei: os mandriões são puxados a reboque pelos que sobrem; e, geralmente, com mais força pelos que descem. Pensam no descaminho tão penoso que buscas para ti! Já o apontava o santo bispo de Hipona: não avançar, é retroceder.');
+INSERT INTO points VALUES(1167,0,1,166,'Na tua vida, há duas peças que não se encaixam: a cabeça e o sentimento. A inteligência - iluminada pela fé - mostra-te claramente não só o caminho, mas a diferença entre a maneira heróica e a maneira estúpida de percorrê-lo. Sobretudo, põe diante de ti a grandeza e a formosura divina das tarefas que a Trindade deixa em nossas mãos. O sentimento, pelo contrário, apega-se a tudo o que desprezas, mesmo que continues a considerá-lo desprezível. É como se mil e uma insignificâncias estivessem esperando qualquer oportunidade, e logo que a tua pobre vontade se debilita - por cansaço físico ou pela perda de sentido sobrenatural -, essas ninharias se amontoam e se agitam na tua imaginação, até formarem uma montanha que te oprime e te desanima: as asperezas do trabalho; a resistência em obedecer; a falta de meios; os fogos de artifício de uma vida regalada; pequenas e grandes tentações repugnantes; rajadas de sentimentalismo; a fadiga; o sabor amargo da mediocridade espiritual... E, às vezes, também o medo: porque sabes que Deus te quer santo e não o és. Permite-me que te fale com crueza. Sobram-te “motivos” para voltar atrás, e falta-te arrojo para corresponder à graça que Ele te concede, porque te chamou para seres outro Cristo, "ipse Christus!" - o próprio Cristo. Esqueceste a admoestação do Senhor ao Apóstolo: “Basta-te a minha graça!”, que é uma confirmação de que, se quiseres, podes.');
+INSERT INTO points VALUES(1168,0,1,167,'Recupera o tempo que perdestes descansando sobre os louros da complacência em ti mesmo, por te julgares uma pessoa boa, como se fosse suficiente ir levando, sem roubar nem matar. Aperta o passo na piedade e no trabalho: falta-te ainda tanto por andar! Convive de bom grado com todos, também com os que te incomodam; e esforça-te por amar - por servir! - aqueles que antes desprezavas.');
+INSERT INTO points VALUES(1169,0,1,168,'Mostraste as tuas misérias passadas - cheias de pus - na confissão. E o sacerdote atuou na tua alma como um bom médico, como um médico honrado: cortou onde era preciso, e não permitiu que a ferida fechasse enquanto a limpeza não ficasse completa. - Agradece-o.');
+INSERT INTO points VALUES(1170,0,1,169,'Dá muito bom resultado empreender as coisas sérias com espírito esportivo... Perdi várias jogadas? Muito bem, mas - se perseverar - no fim ganharei.');
+INSERT INTO points VALUES(1171,0,1,170,'Converte-te agora, quando ainda te sentes jovem... Como é difícil retificar quando a alma envelheceu!');
+INSERT INTO points VALUES(1172,0,1,171,'"Felix culpa!", canta a Igreja... Abençoado erro o teu - repito ao ouvido -, se te serviu para não recair; e também para melhor compreenderes e ajudares o próximo, que não é de pior qualidade do que tu.');
+INSERT INTO points VALUES(1173,0,1,172,'Será possível - perguntas depois de teres repelido a tentação -, será possível, Senhor, que eu seja... esse outro?');
+INSERT INTO points VALUES(1174,0,1,173,'Vou resumir a tua história clínica: aqui caio e acolá me levanto...; este último ponto é que é importante. - Continua com essa luta íntima, ainda que avances a passo de tartaruga. Para a frente! - Bem sabes, filho, até onde podes chegar, se não lutas: o abismo chama outros abismos.');
+INSERT INTO points VALUES(1175,0,1,174,'Estás envergonhado, diante de Deus e dos outros. Descobriste em ti ronha velha e renovada: não há instinto, nem tendência ruim, que não sintas à flor da pele... e tens a nuvem da incerteza no coração. Além disso, a tentação aparece quando menos queres ou quando menos a esperas, quando por fadiga a tua vontade amolece. Já não sabes se te humilha, embora te doa ver-te assim... Mas que te doa por Ele, por Amor dEle; esta contrição de amor te ajudará a permanecer vigilante, porque a luta durará enquanto vivermos.');
+INSERT INTO points VALUES(1176,0,1,175,'Que grande desejos te consomem de confirmar a entrega que um dia fizeste: saber-te e viver como filho de Deus! - Coloca nas mãos do Senhor as tuas muitas misérias e infidelidades. Também porque é o único modo de aliviares o seu peso.');
+INSERT INTO points VALUES(1177,0,1,176,'Renovação não é relaxamento.');
+INSERT INTO points VALUES(1178,0,1,177,'Dias de retiro. Recolhimento para conhecer a Deus, para te conheceres e assim progredir. Um tempo necessário para descobrir em que coisas e de que modo é preciso reforma-se: que tenho que fazer? que devo evitar?');
+INSERT INTO points VALUES(1179,0,1,178,'Que não volte a repetir-se o que aconteceu no ano passado. - “Como foi o retiro?”, perguntaram-te. E respondestes: “Descansamos muito bem”.');
+INSERT INTO points VALUES(1180,0,1,179,'Dias de silêncio e de graça intensa... Oração face a face com Deus... Desatei em ação de graças ao contemplar aquelas pessoas, graves pelos anos e pela experiência, que se abriam aos toques divinos e correspondiam como crianças, entusiasmadas com a possibilidade de ainda converterem a sua vida em algo útil..., que apagasse todos os seus descaminhos e todos os seus esquecimentos. Recordando aquela cena, encareci-te: não descures a tua luta na vida e na piedade.');
+INSERT INTO points VALUES(1181,0,1,180,'"Auxilium christianorum!" - Auxílio dos cristãos, reza com toda a segurança a ladainha de Nossa Senhora. Experimentaste repetir essa jaculatória em teu transes difíceis? Se o fizeres com Fé, com ternura de filha ou de filho, comprovarás a eficácia da intercessão de tua Mãe Santa Maria, que te levará à vitória.');
+INSERT INTO points VALUES(1182,0,1,181,'Enquanto conversávamos, víamos as terras daquele continente. - Acenderam-se as luzes em teus olhos, encheu-se de impaciência a tua alma e, com o pensamento naquelas gentes, disseste-me: será possível que, do outro lado destes mares, a graça de Cristo se torne ineficaz? Depois, tu mesmo deste a resposta: Ele, na sua bondade infinita, quer servir-se de instrumentos dóceis.');
+INSERT INTO points VALUES(1183,0,1,182,'Como te inspiram compaixão!... Quererias gritar-lhes que estão perdendo o tempo... Por que são tão cegos e não percebem o que tu - miserável - já viste? Por que não hão de preferir o melhor? - Reza, mortifica-te, e depois - tens obrigação disso! - desperta-os um a um, explicando-lhes - também um a um - que, tal como tu, podem encontrar um caminho divino, sem abandonar o lugar que ocupam na sociedade.');
+INSERT INTO points VALUES(1184,0,1,183,'Começaste com muitos brios. Mas pouco a pouco te foste encolhendo... E vai acabar metido na tua pobre carapaça, se continuares a empequenecer o teu horizonte. - Cada vez tens de alargar mais o teu coração, com fomes de apostolado! De cem almas interessam-nos as cem.');
+INSERT INTO points VALUES(1185,0,1,184,'Agradece ao Senhor a contínua delicadeza, paternal e maternal, com que Ele te trata. Tu, que sempre sonhaste com grandes aventuras, te comprometeste num empreendimento maravilhoso..., que te leva à santidade. Insisto: agradece-o a Deus, com uma vida de apostolado.');
+INSERT INTO points VALUES(1186,0,1,185,'Quando te lançares ao apostolado, convence-te de que se trata sempre de fazer felizes, muito felizes, as pessoas: a Verdade é inseparável da autêntica alegria.');
+INSERT INTO points VALUES(1187,0,1,186,'Pessoas de diversas nações, de diferentes raças, de ambientes e profissões muito diversos... Ao falar-lhes de Deus, apalpas o valor humano e sobrenatural da tua vocação de apóstolo. É como se revivesses, na sua realidade total, o milagre da primeira pregação dos discípulos do Senhor: frases ditas em língua estranha, mostrando um caminho novo, foram ouvidas por cada um no fundo do seu coração, na sua própria língua. E passa pela tua cabeça, ganhando vida nova, a cena em que “partos, medos e elamitas...” se aproximaram felizes de Deus.');
+INSERT INTO points VALUES(1188,0,1,187,'Ouve-me bem e serve-me de eco: o cristianismo é Amor; o trato com Deus é diálogo eminentemente afirmativo; a preocupação pelos outros - o apostolado - não é um artigo de luxo, ocupação de alguns poucos. - Agora que o sabes, enche-te de alegria, porque a tua vida adquiriu um sentido completamente diverso. E sê conseqüente.');
+INSERT INTO points VALUES(1189,0,1,188,'Naturalidade, sinceridade, alegria: as condições indispensáveis, no apóstolo, para atrair as pessoas.');
+INSERT INTO points VALUES(1190,0,1,189,'Não podia ser mais simples a maneira como Jesus chamou os primeiros doze: “Vem e segue-me”. Para ti, que procuras tantas desculpas para não continuares essa tarefa, ajusta-se como uma luva à mão a consideração de que bem pobre era a ciência humana daqueles primeiros; e, no entanto, como sacudiram aqueles que os escutavam! Não o esqueças: o trabalho, é Ele que continua a fazê-lo, através de cada um de nós.');
+INSERT INTO points VALUES(1191,0,1,190,'As vocações de apóstolo, é Deus quem as envia. mas tu não deves deixar de empregar os meios: oração, mortificação, estudo ou trabalho, amizade, sentido sobrenatural..., vida interior!');
+INSERT INTO points VALUES(1192,0,1,191,'Quando te falo de “apostolado de amizade”, refiro-me a uma amizade “pessoal”, sacrificada, sincera: de tu a tu, de coração a coração.');
+INSERT INTO points VALUES(1193,0,1,192,'No apostolado de amizade e confidência, o primeiro passo é a compreensão, o serviço... e a santa intransigência na doutrina.');
+INSERT INTO points VALUES(1194,0,1,193,'Os que encontraram a Cristo não podem fechar-se no seu ambiente: triste coisa séria esse empequenecimento! Têm que abrir-se em leque para chegar a todas as almas. Cada um tem que criar - e alargar - um círculo de amigos, sobre o qual influa com o seu prestígio profissional, com a sua conduta, com a sua amizade, procurando que Cristo influa por meio desse prestígio profissional, dessa conduta, dessa amizade.');
+INSERT INTO points VALUES(1195,0,1,194,'Tens que ser uma brasa acesa, que leve fogo a toda a parte. E, onde o ambiente for incapaz de arder, tens que aumentar a sua temperatura espiritual. - Senão, estás perdendo o tempo miserável, e fazendo-o perder aos que te rodeiam.');
+INSERT INTO points VALUES(1196,0,1,195,'Quando há zelo pelas almas, sempre se encontra gente boa, sempre se descobre terreno adubado. Não há desculpas!');
+INSERT INTO points VALUES(1197,0,1,196,'Convence-te: também aí há muitos que podem entender o teu caminho; almas que - consciente ou inconscientemente - procuram a Cristo e não O encontram. Mas “como ouvirão falar dEle, se ninguém lhes fala?”');
+INSERT INTO points VALUES(1198,0,1,197,'Não me digas que cuidas da tua vida interior, se não fazes um apostolado intenso, sem pausas: o Senhor - com Quem me garantes ter intimidade - quer que todos os homens se salvem.');
+INSERT INTO points VALUES(1199,0,1,198,'Esse caminho é muito difícil, disse-te ele. E, ao ouvi-lo, o concordaste ufano, lembrando-te de que a Cruz é o sinal certo do caminho verdadeiro... Mas o teu amigo reparou somente na parte áspera da senda, sem ter em conta a promessa de Jesus; “O meu jugo é suave”. Lembra-lhe isso, porque - quando o souber - talvez se entregue.');
+INSERT INTO points VALUES(1200,0,1,199,'Diz que não tem tempo?... Muito melhor. Precisamente os que não têm tempo é que interessam a Cristo.');
+INSERT INTO points VALUES(1201,0,1,200,'Ao considerares que são muitos os que desaproveitam a grande oportunidade, e deixam Jesus passar ao largo, pensa: de onde me vem a mim essa chamada clara, tão providencial, que me mostrou o meu caminho? - Medita nisto diariamente: o apóstolo tem que ser sempre outro Cristo, o próprio Cristo.');
+INSERT INTO points VALUES(1202,0,1,201,'Não te surpreendas e não te amedrontes porque ele te censurou que o tivesses posto frente a frente com Cristo; nem porque acrescentou, indignado: “Já não posso viver tranqüilo sem tomar uma decisão...” Reza por ele... É inútil que procures tranqüilizá-lo: talvez lhe tenha aflorado uma antiga inquietação, a voz da sua consciência.');
+INSERT INTO points VALUES(1203,0,1,202,'Escandalizam-se contigo porque falas de entrega a pessoas que nunca tinham pensado nesse problema?... - Muito bem, e daí? Se tu tens vocação de apóstolo de apóstolos!');
+INSERT INTO points VALUES(1204,0,1,203,'Não atinges as pessoas porque falas uma “língua” diferente. Aconselho-te a naturalidade. Essa tua formação, tão artificial!');
+INSERT INTO points VALUES(1205,0,1,204,'Vacilas em lançar-te a falar de Deus, de vida cristã, de vocação..., porque não queres fazer sofrer?... Esqueces que não és tu quem chama, mas Ele: "Ego scio quos elegerim" - Eu sei muito bem a quem escolhi. Além disso, desgostar-me-ia que, por trás desses falsos respeitos, se escondesse o comodismo ou a tibieza: a esta altura, preferes uma pobre amizade humana à amizade de Deus?');
+INSERT INTO points VALUES(1206,0,1,205,'Tiveste uma conversa com este, com aquele, com aquele outro, porque te consome o zelo pelas almas. Aquele ficou com medo; o outro consultou um “prudente”, que o orientou mal... - Persevera: que ninguém possa depois desculpar-se afirmando "quia nemo nos conduxit" - que ninguém nos chamou.');
+INSERT INTO points VALUES(1207,0,1,206,'Compreendo a tua impaciência santa, mas ao mesmo tempo tens de considerar que alguns precisam pensar muito, que outros irão correspondendo com o tempo... Espera-os de braços abertos: condimenta a tua impaciência santa com oração e mortificação abundantes. Acabarão vindo mais jovens e generosos; terão sacudido o seu aburguesamento e serão mais valentes. Quanto Deus os espera!');
+INSERT INTO points VALUES(1208,0,1,207,'A fé é um requisito imprescindível no apostolado, que muitas vezes se manifesta na constância em falar de Deus, ainda que os frutos demorem em vir. Se perseverarmos, se insistirmos, bem convencidos de que o Senhor assim o quer, também à tua volta, por toda a parte, se irão notando sinais de uma revolução cristã: uns haverão de entregar-se, outros tomarão a sério a sua vida interior, e outros - os mais fracos - ficarão pelo menos alertados.');
+INSERT INTO points VALUES(1209,0,1,208,'Dias de autêntico alvoroço: mais três! Cumprem-se as palavras de Jesus: “Meu Pai é glorificado em que deis muito fruto e sejais meus discípulos”.');
+INSERT INTO points VALUES(1210,0,1,209,'Fizeste-me sorrir, porque te entendo muito bem, quando me dizias: “Fico entusiasmado com a possibilidade de ir a novas terras, para abrir brecha, talvez muito longe... Preciso averiguar se há homens na lua”. - Pede ao Senhor que te aumente esse zelo apostólico.');
+INSERT INTO points VALUES(1211,0,1,210,'Por vezes, diante dessas almas adormecidas, dá uma vontade louca de gritar-lhes, de sacudi-las, de fazê-las reagir, para que saiam dessa modorra terrível em que se acham mergulhadas. É tão triste ver como andam, tateando como cegos, sem acertar com o caminho! - Como compreendo esse pranto de Jesus por Jerusalém, como fruto da sua caridade perfeita...');
+INSERT INTO points VALUES(1212,0,1,211,'Aprofunda cada dia na raiz apostólica da tua vocação cristã. - O Senhor desfraldou há vinte séculos - para que tu e eu o proclamássemos ao ouvidos dos homens - uma bandeira de alistamento, aberta a todos os que têm um coração sincero e capacidade de amar... Que outras chamadas mais claras queres do que o "ignem veni mittere in terram" - vim trazer fogo à terra - e a consideração desses dois bilhões e quinhentos milhões de almas que ainda não conhecem a Cristo!');
+INSERT INTO points VALUES(1213,0,1,212,'"Hominem no habeo" - não tenho ninguém que me ajude. É o que poderiam afirmar - infelizmente! - muitos doentes e paralíticos do espírito, que podem servir... e devem servir. Senhor: que eu nunca fique indiferente diante das almas.');
+INSERT INTO points VALUES(1214,0,1,213,'Ajuda-me a pedir um novo Pentecostes, que abrase outra vez a terra.');
+INSERT INTO points VALUES(1215,0,1,214,'“Se algum dos que me seguem não aborrece seu pai e sua mãe, e a mulher e os filhos, e os irmãos e irmãs, e mesmo a sua própria vida, não pode ser meu discípulo”. Cada vez vejo com mais clareza, Senhor, que os laços do sangue, se não passam pelo teu Coração amabilíssimo, são, para uns, motivo permanente de cruz; para outros, origem de tentações - mais ou menos diretas - contra a perseverança; para outros, causa de ineficácia absoluta; e, para todos, lastro que se opõe a uma entrega total.');
+INSERT INTO points VALUES(1216,0,1,215,'A relha que rotura e abre o sulco, não vê a semente nem o fruto.');
+INSERT INTO points VALUES(1217,0,1,216,'Depois da tua decisão, fazes cada dia uma nova descoberta. Lembras-te de ontem, quando te perguntavas constantemente: “E isto, de que maneira...?, para continuares depois nas tuas dúvidas ou nos teus desencantos... Agora sempre encontras a resposta exata, fundamentada e clara. E, ao ouvires como respondem às tuas perguntas às vezes pueris, ocorre-te pensar: “Assim deve ter atendido Jesus os primeiros Doze”.');
+INSERT INTO points VALUES(1218,0,1,217,'Vocações, Senhor, mais vocações! Não me interessa se a semeadura foi minha ou de outro - semeaste Tu, Jesus, com as nossas mãos! -; somente sei que nos prometeste a maturidade do fruto: "et fructus vester maneat!" - que o nosso fruto será duradouro.');
+INSERT INTO points VALUES(1219,0,1,218,'Sê claro. Se te dizem que vais “pescá-los”, responde que sim, que é o que desejas... Mas..., que não se preocupem! Porque, se não têm vocação - se Ele não os chama -, não virão, e se não a têm, que vergonha acabarem como o jovem rico do Evangelho: sozinhos e tristes.');
+INSERT INTO points VALUES(1220,0,1,219,'A tua tarefa de apóstolo é grande e bela. Estás no ponto de confluência da graça com a liberdade das almas; e assistes ao momento soleníssimo da vida de alguns homens: o seu encontro com Cristo.');
+INSERT INTO points VALUES(1221,0,1,220,'Parece que vos escolheram um a um..., dizia alguém. - E assim é!');
+INSERT INTO points VALUES(1222,0,1,221,'Convence-te: necessitas formar-te bem, com vistas a essa avalanche de gente que se jogará sobre nós, com a pergunta precisa e exigente: - “Bom, o que há que fazer?”.');
+INSERT INTO points VALUES(1223,0,1,222,'Uma receita eficaz para o teu espírito apostólico: planos concretos, não de sábado para sábado, mas de hoje para amanhã, e de agora para daqui a pouco.');
+INSERT INTO points VALUES(1224,0,1,223,'Cristo espera muito do teu trabalho. Mas tens que sair em busca das almas, como o Bom Pastor foi atrás da centésima ovelha: sem esperar que te chamem. Depois, serve-te dos teus amigos para fazer bem a outros: ninguém pode sentir-se tranqüilo - dize-o a cada um - com uma vida espiritual que, depois de inundá-lo, não transborda em zelo apostólico.');
+INSERT INTO points VALUES(1225,0,1,224,'Não é tolerável que percas o tempo nas tuas “bobagens”, quando há tantas almas que te esperam.');
+INSERT INTO points VALUES(1226,0,1,225,'Apostolado da doutrina: esse será sempre o teu apostolado.');
+INSERT INTO points VALUES(1227,0,1,226,'A maravilha do Pentecostes é a consagração de todos os caminhos: nunca pode ser entendido como monopólio nem como estima por um só em detrimento de outros. O Pentecostes é indefinida variedade de línguas de métodos, de formas de encontro com Deus: não uniformidade violenta.');
+INSERT INTO points VALUES(1228,0,1,227,'Escrevias-me: uniu-se ao nosso grupo um rapaz jovem, que ia para o norte. Era mineiro de profissão. Cantava muito bem, e veio acompanhando o nosso coro. Rezei por ele até chegar à estação em que descia. Ao despedir-se, comentou: “Quanto gostaria de continuar a viagem com vocês!”. - Lembrei-me imediatamente do "mane nobiscum!" - fica conosco, Senhor! -, e pedi-Lhe novamente com fé que os outros “O vissem” em cada um de nós, companheiros do “Seu caminho”.');
+INSERT INTO points VALUES(1229,0,1,228,'Pela “senda do justo descontentamento” foram-se embora - e continuam indo - as massas. Dói..., mas quantos ressentidos não temos fabricado entre os que estão espiritual ou materialmente necessitados! - É necessário voltar a meter Cristo entre os pobres e entre os humildes: é justamente entre eles que se sente melhor.');
+INSERT INTO points VALUES(1230,0,1,229,'Professor: que te entusiasme fazer compreender aos alunos, em pouco tempo, o que a ti te custou horas de estudo chegar a ver com clareza.');
+INSERT INTO points VALUES(1231,0,1,230,'O desejo de “ensinar”, e “ensinar com toda a alma”, cria nos alunos uma agradecimento que constitui terreno idôneo para o apostolado.');
+INSERT INTO points VALUES(1232,0,1,231,'Gosto desse lema: “Cada caminhante siga o seu caminho” - aquele que Deus lhe traçou -, com fidelidade, com amor, ainda que custe.');
+INSERT INTO points VALUES(1233,0,1,232,'Que lição tão extraordinária cada um dos ensinamentos do Novo Testamento! - Depois de o Mestre lhes ter dito, enquanto ascendia à direita de Deus Pai: “Ide e pregai a todos os povos”, os discípulos ficaram com paz. Mas ainda têm dúvidas: não sabem o que fazer, e reúnem-se com Maria, Rainha dos Apóstolos, para se converterem em zelosos pregoeiros da Verdade que salvará o mundo.');
+INSERT INTO points VALUES(1234,0,1,233,'Comentavas que há cenas da vida de Jesus que te comovem mais: quando se põe em contacto com homens em carne viva..., quando leva a paz e a saúde aos que têm a alma e o corpo despedaçados pela dor... Estusiasmas-te - insistias - ao vê-Lo curar a lepra, devolver a vista, sarar o paralítico da piscina: o pobre de quem ninguém se lembra. Tu O contemplas, nesses momentos, tão profundamente humano, tão ao seu alcance! - Pois olha..., Jesus continua a ser o mesmo de então.');
+INSERT INTO points VALUES(1235,0,1,234,'Pediste ao Senhor que te deixasse sofrer um pouco por Ele. Mas depois, quando chega o padecimento em forma tão humana, tão normal - dificuldades e problemas familiares..., ou essas mil e uma insignificância da vida diária -, custa-te trabalho ver Cristo por trás disso. - Abre com docilidade as tuas mãos a esses pregos..., e a tua dor se converterá em alegria.');
+INSERT INTO points VALUES(1236,0,1,235,'Não te queixes, se sofres. Lapida-se a pedra que se estima, que tem valor. Dói-te? - Deixa-te lapidar, com agradecimento, porque Deus te tomou nas suas mãos como um diamante... Não se trabalha assim um pedregulho vulgar.');
+INSERT INTO points VALUES(1237,0,1,236,'Os que fogem covardemente do sofrimento têm matéria de meditação ao verem o entusiasmo com que outras almas abraçam a dor. Não são poucos os homens e as mulheres que sabem padecer cristãmente. Sigamos o seu exemplo.');
+INSERT INTO points VALUES(1238,0,1,237,'Lamentas-te?... E explicas-me, como se tivesse razão: Uma alfinetada!... outra!...');
+INSERT INTO points VALUES(1239,0,1,238,'Deixa-me que, como até agora, continue a falar-te em confidência: basta-me ter diante de mim um Crucifixo, para não me atrever a falar dos meus sofrimentos... E não me importo de acrescentar que tenho sofrido muito, sempre com alegria.');
+INSERT INTO points VALUES(1240,0,1,239,'Não te compreendem?... Ele era a Verdade e a Luz, mas também os seus não O compreenderam. - Como tantas vezes te fiz considerar, lembra-te das palavras do Senhor: “Não é o discípulo mais do que o Mestre”.');
+INSERT INTO points VALUES(1241,0,1,240,'Para um filho de Deus, as contradições e as calúnias são, como para um soldado, feridas recebidas no campo de batalha.');
+INSERT INTO points VALUES(1242,0,1,241,'Andas na boca de todos... Que importa a fama? De qualquer modo, não sintas vergonha nem pena por ti, mas por eles: pelos que te maltratam.');
+INSERT INTO points VALUES(1243,0,1,242,'Umas vezes, não querem entender: estão como cegos... Mas, outras, és tu que não consegues fazer-te compreender: corrige-te!');
+INSERT INTO points VALUES(1244,0,1,243,'Não basta ter razão. Além disso, é necessário fazê-la valer..., e que os outros queiram reconhecê-la. Não obstante, afirma a verdade sempre que for necessário, sem te deteres pelo “que vão dizer”.');
+INSERT INTO points VALUES(1245,0,1,244,'Se freqüentas a escola do Mestre, não te há de estranhar que também tenhas de labutar contra a incompreensão de tantas e tantas pessoas, que poderiam ajudar-te muitíssimo se simplesmente fizessem o menor esforço por ser compreensivas.');
+INSERT INTO points VALUES(1246,0,1,245,'Não o maltrataste fisicamente... Mas ignoraste-o tantas vezes! Olhaste-o com indiferença como se fosse um estranho. - Parece-te pouco?');
+INSERT INTO points VALUES(1247,0,1,246,'Sem o pretender, os que perseguem santificam... - Mas ai desses “santificadores”!');
+INSERT INTO points VALUES(1248,0,1,247,'Na terra, muitas vezes se paga caluniando.');
+INSERT INTO points VALUES(1249,0,1,248,'Há almas que parecem empenhadas em inventar sofrimentos, torturando-se com a imaginação. Depois, quando chegam penas e contrariedades objetivas, não sabem estar como a Santíssima Virgem, ao pé da Cruz, com o olhar pendente do seu Filho.');
+INSERT INTO points VALUES(1250,0,1,249,'Sacrifício, sacrifício! - É verdade que seguir a Jesus Cristo - disse-o Ele - é levar a Cruz. Mas não gosto de ouvir as almas que amam o Senhor falarem tanto de cruzes e de renúncias: porque, quando há Amor, o sacrifício é prazeroso - ainda que custe - e a cruz é a Santa Cruz. - A alma que sabe amar é entregar-se assim, enche-se de alegria e de paz. Então, por que insistir em “sacrifício”, como que procurando consolo, se a Cruz de Cristo - que é a tua vida - te faz feliz?');
+INSERT INTO points VALUES(1251,0,1,250,'Quanta neurastenia e histerismo se eliminariam se - com a doutrina católica - se ensinasse de verdade as pessoas a viverem como cristãos; amando a Deus e sabendo aceitar as contrariedades como bênção vinda da sua mão!');
+INSERT INTO points VALUES(1252,0,1,251,'Não passes indiferente diante da dor alheia. Essa pessoa - um parente, um amigo, um colega..., esse que não conheces - é teu irmão. - Lembra-te daquilo que relata o Evangelho e que tantas vezes leste com pena: nem sequer os parentes de Jesus confiavam nEle. - Procura que a cena se repita.');
+INSERT INTO points VALUES(1253,0,1,252,'Imagina que na terra não existem senão Deus e Tu. - Assim te será mais fácil sofrer as mortificações, as humilhações... E, por fim, farás as coisas que Deus quer e como Ele as quer.');
+INSERT INTO points VALUES(1254,0,1,253,'Às vezes - comentava aquele doente consumido de zelo pelas almas -, o corpo reclama um pouco, queixa-se. Mas procuro também transformar “esses queixumes” em sorrisos, porque se mostram muito eficazes.');
+INSERT INTO points VALUES(1255,0,1,254,'Uma doença incurável, que limitava a sua ação. E, no entanto, dizia-me contente: “A doença porta-se bem comigo e cada vez a amo mais; se me dessem a escolher, voltaria a nascer assim mil vezes!”.');
+INSERT INTO points VALUES(1256,0,1,255,'Jesus chegou à cruz depois de se preparar durante trinta e três anos, toda a sua Vida! - Seus discípulos, se de verdade desejam imitá-lo, devem converter a sua existência em corredenção de Amor, com a negação de si mesmos, ativa e passiva.');
+INSERT INTO points VALUES(1257,0,1,256,'A Cruz está presente em tudo, e chega quando menos se espera. - Mas não esqueças que, ordinariamente, andam emparelhados o começo da Cruz e o começo da eficácia.');
+INSERT INTO points VALUES(1258,0,1,257,'O Senhor, Sacerdote Eterno, abençoa sempre com a Cruz.');
+INSERT INTO points VALUES(1259,0,1,258,'"Cor Mariae perdolentis, miserere nobis!" - invoca o Coração de Santa Maria, com ânimo e decisão de te unires à sua dor, em reparação pelos teus pecados e pelos de todos os homens de todos os tempos. - E pede-lhe - para cada alma - que essa sua dor aumente em nós a aversão pelo pecado, e que saibamos amar, com expiação, as contrariedades físicas ou morais de cada jornada.');
+INSERT INTO points VALUES(1260,0,1,259,'“A oração” é a humildade do homem que reconhece a sua profunda miséria e a grandeza de Deus, a quem se dirige e adora, de maneira que tudo espera dEle e nada de si mesmo. “A fé” é a humildade da razão, que renuncia ao seu próprio critério e se prostra diante dos juízos e da autoridade da Igreja. “A obediência” é a humildade da vontade, que se sujeita ao querer alheio, por Deus. “A castidade” é a humildade da carne, que se submete ao espírito. “A mortificação” é a humildade de todas as paixões, imoladas ao Senhor. - A humildade é a verdade no caminho da luta ascética.');
+INSERT INTO points VALUES(1261,0,1,260,'É uma grande coisa saber-se nada diante de Deus, porque é assim mesmo.');
+INSERT INTO points VALUES(1262,0,1,261,'“Aprendei de mim, que sou manso e humilde de coração...” Humildade de Jesus!... Que lição para ti, que és um pobre instrumento de barro! Ele - sempre misericordioso - te levantou, fazendo brilhar na tua baixeza, elevada gratuitamente, as luzes do sol da graça. E tu, quantas vezes não disfarçaste a tua soberba sob a capa da dignidade, da justiça...! E quantas ocasiões de aprender do Mestre não desaproveitaste, por não teres sabido sobrenaturalizá-la!');
+INSERT INTO points VALUES(1263,0,1,262,'Essas depressões, porque vês ou porque descobrem os teus defeitos, não têm fundamento... - Pede a verdadeira humildade.');
+INSERT INTO points VALUES(1264,0,1,263,'Deixa-me que te recorde, entre outros, alguns sinais evidentes de falta de humildade: - pensar que o que fazes ou dizes está mais bem feito ou dito do que aquilo que os outros fazem ou dizem; - querer levar sempre a tua avante; - discutir sem razão ou- quando a tens - insistir com teimosia e de maus modos; - dar o teu parecer sem que to peçam, ou sem que a caridade o exija; - desprezar o ponto de vista dos outros; - não encarar todos os teus dons e qualidades como emprestados; - não reconhecer que és indigno de qualquer nota e estima, que não mereces sequer a terra que pisas e as coisas que possuis; - citar-te a ti mesmo como exemplo nas conversas; - falar mal de ti mesmo, para que façam bom juízo de ti ou te contradigam; - desculpar-te quando te repreendem; - ocultar ao Diretor algumas faltas humilhantes, para que não perca o conceito que faz de ti; - ouvir com complacência quando te louvam; ou alegrar-te de que tenham falado bem de ti; - doer-te de que outros sejam mais estimados do que tu; - nega-te a desempenhar ofícios inferiores; - procurar ou desejar singularizar-te; - insinuar na conversa palavras de louvor próprio ou que dêem a entender a tua honradez, o teu engenho ou habilidade, o teu prestígio profissional...; - envergonhar-te por careceres de certos bens...');
+INSERT INTO points VALUES(1265,0,1,264,'Ser humilde não é o mesmo que ter angústia ou temor.');
+INSERT INTO points VALUES(1266,0,1,265,'Fujamos dessa falsa humildade que se chama comodismo.');
+INSERT INTO points VALUES(1267,0,1,266,'Diz-Lhe Pedro: Senhor, Tu lavares-me os pés a mim?! Respondeu Jesus: O que eu faço, tu não o entendes agora; entendê-lo-ás depois. Insiste Pedro: Jamais me lavarás os pés. Replicou Jesus: Se eu não te lavar, não terás parte comigo. Rende-se Simão Pedro: Senhor, não somente os pés, mas também as mãos e a cabeça. Perante a chamada para uma entrega total, completa, sem vacilações, muitas vezes opomos uma falsa modéstia, como a de Pedro... Oxalá fôssemos também homens de coração como o Apóstolo! Pedro não permite que ninguém ame mais a Jesus do que ele. Esse amor leva a reagir assim; Aqui estou!, lava-me as mãos, cabeça, pés!, purifica-me de todo!, que eu quero entregar-me a Ti sem reservas.');
+INSERT INTO points VALUES(1268,0,1,267,'Para ti, transcrevo de uma carta: “Encanta-me a humildade evangélica. Mas revolta-me o encolhimento acarneirado e inconsciente de alguns cristãos, que assim desprestigiam a Igreja. Neles deve ter reparado aquele escritor ateu, quando disse que a moral cristã é uma moral de escravos...” - Realmente, somos servos: servos elevados à categoria de filhos de Deus, que não desejam comportar-se como escravos das paixões.');
+INSERT INTO points VALUES(1269,0,1,268,'O convencimento do teu “material ruim” - o teu conhecimento próprio - dar-te-á uma reação sobrenatural; que fará arraigar mais e mais na tua alma o contentamento e a paz, perante a humilhação, o desprezo, a calúnia... Depois de pronunciares o "fiat" - Senhor, o que Tu quiseres -, o teu raciocínio nesses casos deverá ser: “Só disse isso de mil? Vê-se que não me conhece; de outro modo, não teria parado por aí”. Como estás convencido de que mereces pior tratamento, sentirás gratidão por aquela pessoa, e te alegrarás com o que faria sofrer a outro.');
+INSERT INTO points VALUES(1270,0,1,269,'Quanto mais alto se levanta a estátua, tanto mais duro e perigoso é depois o choque na queda.');
+INSERT INTO points VALUES(1271,0,1,270,'Vai à direção espiritual cada vez com maior humildade, e pontualmente, o que é também humildade. Pensa - e não te enganas, porque aí é Deus quem te fala - que és como uma criança pequena - sincera! -, a quem vão ensinando a falar, a ler, a conhecer as flores e os pássaros, a viver as alegrias e as penas, a reparar no chão que pisa.');
+INSERT INTO points VALUES(1272,0,1,271,'“Continuo a ser uma pobre criatura”, dizes-me. Mas antes, quanto reparavas nisso, passavas tão mal! Agora, sem caíres na habituação ou nas transigências, vai-te acostumando a sorrir, e a recomeçar a tua luta com uma alegria crescente.');
+INSERT INTO points VALUES(1273,0,1,272,'Se és sensato, humilde, deves ter observado que nunca se acaba de aprender... Acontece o mesmo na vida; até os mais doutos têm alguma coisa que aprender, até o fim da sua vida; quando não, deixam de ser doutos.');
+INSERT INTO points VALUES(1274,0,1,273,'Jesus bom: se tenho de ser apóstolo, é preciso que me faças muito humilde. O sol envolve em luz tudo quanto toca: Senhor, invade-me com a tua claridade, endeusa-me: que eu me identifique com a tua Vontade adorável, para me converter no instrumento que desejas... Dá-me a tua loucura de humilhação: a que te levou a nascer pobre, ao trabalho sem brilho, à infâmia de morrer costurado com ferros a um lenho, ao aniquilamento do Sacrário. - Que eu me conheça: que me conheça e que te conheça. Assim jamais perderei de vista o meu nada.');
+INSERT INTO points VALUES(1275,0,1,274,'Só os tolos é que são cabeçudos; os muito tolos, muito cabeçudos.');
+INSERT INTO points VALUES(1276,0,1,275,'Não esqueças que, nos assuntos humanos, também os outros podem ter razão: vêem a mesma questão que tu, mas de um ponto de vista diferente, com outra luz, com outra sombra, com outros contornos. - Somente na fé e na moral é que há um critério indiscutível: o da nossa Mãe Igreja.');
+INSERT INTO points VALUES(1277,0,1,276,'Como é bom saber retificar!... E como são poucos os que aprendem esta ciência!');
+INSERT INTO points VALUES(1278,0,1,277,'Antes que faltar à caridade, cede: não resistas, sempre que seja possível... Tem a humildade da erva, que se curva sem distinguir o pé que a pisa.');
+INSERT INTO points VALUES(1279,0,1,278,'Sobe-se à conversão pela humildade, pelo caminho de abaixar-se.');
+INSERT INTO points VALUES(1280,0,1,279,'Dizias-me: “É preciso decapitar o "eu"!...” - Mas, como custa!, não é mesmo?');
+INSERT INTO points VALUES(1281,0,1,280,'Muitas vezes precisamos usar de violência sobre nós mesmos, para nos humilharmos e repetirmos deveras ao Senhor: "Serviam!" - eu te servirei.');
+INSERT INTO points VALUES(1282,0,1,281,'"Memento, homo, quia pulvis es..." - lembra-te, ó homem, de que és pó... - Se és pó, por que te há de incomodar que te pisem?');
+INSERT INTO points VALUES(1283,0,1,282,'Pela senda da humildade vai-se a toda a parte..., fundamentalmente ao Céu.');
+INSERT INTO points VALUES(1284,0,1,283,'Caminho seguro de humildade é meditar como, mesmo carecendo de talento, de renome e de fortuna, podemos ser instrumentos eficazes, se recorrermos ao Espírito Santo para que nos dispense os seus dons. Os Apóstolos, apesar de terem sido instruídos por Jesus durante três anos, fugiram espavoridos diante dos inimigos de Cristo. No entanto, depois de Pentecostes, deixaram-se açoitar e prender, e acabaram dando a vida em testemunho da sua fé.');
+INSERT INTO points VALUES(1285,0,1,284,'É verdade que ninguém pode estar certo da sua perseverança... Mas essa incerteza é mais um motivo de humildade, e prova evidente da nossa liberdade.');
+INSERT INTO points VALUES(1286,0,1,285,'Embora valhas tão pouco, Deus serviu-se e continua a servir-se de ti para trabalhos fecundos pela sua glória. - Não te envaideças. Pensa: que diria de si mesmo o instrumento de aço ou de ferro, que o artista utiliza para montar jóias de ouro e de pedras finas?');
+INSERT INTO points VALUES(1287,0,1,286,'Que vale mais: um quilo de ouro ou um de cobre?... E, no entanto, em muitos casos o cobre serve mais e melhor do que o ouro.');
+INSERT INTO points VALUES(1288,0,1,287,'A tua vocação - chamada de Deus - é para dirigir, para arrastar, para servir, para ser líder. Se tu, por falsa ou por mal entendida humildade, te isolas, encerrando-te no teu cantinho, faltas ao teu dever de instrumento divino.');
+INSERT INTO points VALUES(1289,0,1,288,'Quando o Senhor se serve de ti para derramar a sua graça nas almas, lembra-te de que és apenas o embrulho do presente: um papel que se rasga e se joga fora.');
+INSERT INTO points VALUES(1290,0,1,289,'"Quia respexit humilitatem ancillae suae" - porque viu a baixeza da sua escrava... - Cada dia me persuado mais de que a humildade autêntica é a base de todas as virtudes! Fala com Nossa Senhora, para que Ela nos vá adestrando em caminhar por essa senda.');
+INSERT INTO points VALUES(1291,0,1,290,'O mundo nos espera. Sim! Amamos apaixonadamente este mundo porque Deus assim no-lo ensinou: "Sic Deus dilexit mundum..." - tanto amou Deus o mundo -; e porque é o lugar do nosso campo de batalha - uma formosíssima guerra de caridade -, para que todos alcancemos a paz que Cristo veio instaurar.');
+INSERT INTO points VALUES(1292,0,1,291,'O Senhor teve esta fineza de Amor conosco: permitir-nos que Lhe conquistemos a terra. Ele - sempre tão humilde! - quis limitar-se a torná-lo possível... A nós, concedeu-nos a parte mais exeqüível e grata: a da ação e do triunfo.');
+INSERT INTO points VALUES(1293,0,1,292,'O mundo ... - “Isso é o que nos toca!” - E afirmas isso depois de pores o olhar e a cabeça no céu, com a segurança do lavrador que caminha soberano pela sua própria seara: "Regnare Christum volumus!" - queremos que Ele reine sobre esta terra que é sua!');
+INSERT INTO points VALUES(1294,0,1,293,'“É tempo de esperança, e eu vivo deste tesouro. Não é uma simples frase, Padre - dizes-me -, é uma realidade”. Então..., o mundo inteiro, todos os valores humanos que te atraem com uma força enorme - amizade, arte, ciência, filosofia, teologia, esporte, natureza, cultura, almas... - tudo isso, deposita-o na esperança: na esperança de Cristo.');
+INSERT INTO points VALUES(1295,0,1,294,'Esse encanto inconcreto e prazenteiro do mundo..., tão persistente. As flores do caminho - atraem-te as suas cores e os seus aromas... -; as aves do céu; as criaturas todas... - Meu pobre filho, é razoável! Se não fosse assim, se não te fascinassem, que sacrifício havias de oferecer a Nosso Senhor?');
+INSERT INTO points VALUES(1296,0,1,295,'A tua vocação de cristão te pede que estejas em Deus e, ao mesmo tempo, que te ocupes das coisas da terra, empregando-as objetivamente tal como são: para devolvê-las a Ele.');
+INSERT INTO points VALUES(1297,0,1,296,'Parece incrível que se possa ser tão feliz neste mundo, em que tantos se empenham em viver tristes porque correm atrás do seu egoísmo, como se tudo acabasse aqui em baixo! - Não sejas tu um destes... Retifica em cada instante!');
+INSERT INTO points VALUES(1298,0,1,297,'O mundo está frio, dá a impressão de estar adormecido. - Muitas vezes tu o contemplas, do teu observatório, com olhar abrasador. Que ele acorde, Senhor! - Orienta as tuas impaciências, na certeza de que, se soubermos queimar bem a nossa vida, atearemos fogo em todos os cantos..., e o panorama mudará.');
+INSERT INTO points VALUES(1299,0,1,298,'A fidelidade - o serviço a Deus e às almas -, que te peço sempre, não é o entusiasmo fácil, mas o outro: aquele que se conquista pela rua, ao ver o muito que há que fazer em toda a parte.');
+INSERT INTO points VALUES(1300,0,1,299,'O bom filho de Deus tem que ser muito humano. Mas não tanto que degenere em ordinário e mal educado.');
+INSERT INTO points VALUES(1301,0,1,300,'É difícil gritar ao ouvido de cada um com um trabalho silencioso, através do bom cumprimento das nossas obrigações de cidadãos, para depois exigir os nossos direitos e pô-los ao serviço da Igreja e da sociedade. É difícil..., mas é muito eficaz.');
+INSERT INTO points VALUES(1302,0,1,301,'Não é verdade que haja oposição entre ser bom católico e servir fielmente a sociedade civil. Assim como não há razão para que a Igreja e o Estado entrem em choque, no exercício legítimo da sua autoridade respectiva, voltados para a missão que Deus lhes confiou. Mentem - isso mesmo: mentem! os que afirmam o contrário. São os mesmos que, em aras de uma falsa liberdade, quereriam “amavelmente” que nós, os católicos, voltássemos às catacumbas.');
+INSERT INTO points VALUES(1303,0,1,302,'Esta é a tua tarefa de cidadão: contribuir para que o amor e a liberdade de Cristo presidam a todas as manifestações da vida moderna - a cultura e a economia, o trabalho e o descanso, a vida de família e o convívio social.');
+INSERT INTO points VALUES(1304,0,1,303,'Um filho de Deus não pode ser classista, porque lhe interessam os problemas de todos os homens... E procura ajudar a resolvê-los com a justiça e a caridade do nosso Redentor. Já o apontava o Apóstolo, quando nos escrevia que, para o Senhor, não há discriminação de pessoa, o que não duvidei em traduzir deste modo: não há senão uma raça dos filhos de Deus!');
+INSERT INTO points VALUES(1305,0,1,304,'Os homens mundanos empenham-se em que as almas percam quanto antes a Deus; e depois, em que percam o mundo... Não amam este nosso mundo: exploram-no, espezinhando os outros! - Que tu não sejas também vítima dessa dupla vigarice!');
+INSERT INTO points VALUES(1306,0,1,305,'Há quem viva amargurado o dia inteiro. Tudo lhe causa desassossego. Dorme com uma obsessão física: que essa única evasão possível lhe vai durar pouco. Acorda coma impressão hostil e desanimadora de que já tem outra jornada pela frente. Muitos se esqueceram de que o Senhor nos colocou, neste mundo, de passagem para a felicidade eterna; e não pensam que só a poderão alcançar os que caminharem, pela terra, com a alegria dos filhos de Deus.');
+INSERT INTO points VALUES(1307,0,1,306,'Com a tua conduta de cidadão cristão, mostra às pessoas a diferença que há entre viver triste e viver alegre; entre sentir-se tímido e sentir-se audaz; entre agir com cautela, com duplicidade - com hipocrisia! -, e agir como homem simples e de uma só peça. - Numa palavra, entre ser mundano e ser filho de Deus.');
+INSERT INTO points VALUES(1308,0,1,307,'Eis um erro fundamental de que deves guardar-te: pensar que os costumes e exigências - nobres e legítimos - do teu tempo ou do teu ambiente, não podem ser ordenados e ajustados à santidade da doutrina moral de Jesus Cristo. Observa que precisei: os nobres e legítimos. Os demais não têm direito de cidadania.');
+INSERT INTO points VALUES(1309,0,1,308,'Não se pode separar a religião da vida, nem no pensamento nem na realidade cotidiana.');
+INSERT INTO points VALUES(1310,0,1,309,'De longe - lá no horizonte -, parece que o céu se junta com a terra. Não esqueças que, onde de verdade a terra e o céu se juntam, é no teu coração de filho de Deus.');
+INSERT INTO points VALUES(1311,0,1,310,'Não podemos cruzar os braços, quando uma sutil perseguição condena a Igreja a morrer de inanição, relegando-a para fora da vida pública e, sobretudo, impedindo-a de intervir na educação, na cultura, na vida familiar. Não são direitos nossos: são de Deus, e foi Ele que os confiou a nós, os católicos..., para que os exerçamos!');
+INSERT INTO points VALUES(1312,0,1,311,'Muitas realidades materiais, técnicas, econômicas, sociais, políticas, culturais..., abandonadas a si mesmas, ou em mãos dos que não possuem a luz da nossa fé, convertem-se em obstáculos formidáveis para a vida sobrenatural: formam como que um campo fechado e hostil à Igreja. Tu, por seres cristão - pesquisador, literato, cientista, político, trabalhador... - tens o dever de santificar essas realidades. Lembra-te de que o universo inteiro - assim escreve o Apóstolo - está gemendo como que com dores de parto, à espera da libertação dos filhos de Deus.');
+INSERT INTO points VALUES(1313,0,1,312,'Não queiras fazer do mundo um convento, poque seria uma desordem... Mas também não queiras fazer da Igreja um bando terreno, porque equivaleria a uma traição.');
+INSERT INTO points VALUES(1314,0,1,313,'Que coisa triste é ter uma mentalidade cesarista, e não compreender a liberdade dos demais cidadãos, nas coisas que Deus deixou ao juízo dos homens.');
+INSERT INTO points VALUES(1315,0,1,314,'“Quem disse que, para chegar à santidade, é necessário refugiar-se numa cela ou na solidão de uma montanha?”, interrogava-se, admirado, um bom pai de família, que acrescentava: “Nesse caso, seriam santas, não as pessoas, mas a cela ou a montanha. parece que se esqueceram de que o Senhor nos disse expressamente a todos e a cada um: Sede santos, como meu Pai celestial é Santo”. - Limitei-me a comentar-lhe: “Além de querer que sejamos santos, o Senhor concede a cada um as graças oportunas”.');
+INSERT INTO points VALUES(1316,0,1,315,'Ama a tua pátria: o patriotismo é uma virtude cristã. Mas se o patriotismo se converte num nacionalismo que leva a encarar com frieza, com desprezo - sem caridade cristã nem justiça -, outros povos, outras nações, é um pecado.');
+INSERT INTO points VALUES(1317,0,1,316,'Não é patriotismo justificar delitos... e desconhecer os direitos dos demais povos.');
+INSERT INTO points VALUES(1318,0,1,317,'Escreveu também o Apóstolo que “não há distinção entre gentio e judeu, circunciso e incircunciso, bárbaro e cita, escravo e livre, mas Cristo é tudo e está em todos”. Estas palavras são válidas hoje como ontem: perante o Senhor, não existem diferenças de nação, de e raça, de classe, de estado de vida... Cada um de nós renasceu em Cristo, para ser uma nova criatura, um filho de Deus: todos somos irmãos, e temos de comportar-nos fraternalmente!');
+INSERT INTO points VALUES(1319,0,1,318,'Há já muitos anos, vi com clareza meridiana um critério que será sempre válido: o ambiente da sociedade, com o seu afastamento da fé e da moral cristãs, precisa de uma nova forma de viver e de propagar a verdade eterna do Evangelho: nas próprias entranhas da sociedade, do mundo, os filhos de Deus ao de brilhar por suas virtudes como lanternas na escuridão - "quasi lucernae lucentes in caliginoso loco".');
+INSERT INTO points VALUES(1320,0,1,319,'A perene vitalidade da Igreja Católica garante que a verdade e o espírito de Cristo não se afastam das diversas necessidades dos tempos.');
+INSERT INTO points VALUES(1321,0,1,320,'Para seguir as pegadas de Cristo, o apóstolo de hoje não vem reformar nada, e muito menos desentender-se da realidade histórica que o rodeia... - Basta-lhe atuar como os primeiros cristãos , vivificando o ambiente.');
+INSERT INTO points VALUES(1322,0,1,321,'Tu, que vives no meio do mundo, que és um cidadão como os outros, em contacto com homens que dizem ser bons ou ser maus...; tu, tens que sentir o desejo constante de dar aos outros a alegria de que gozas, por seres cristão.');
+INSERT INTO points VALUES(1323,0,1,322,'Promulgou-se um edito de César Augusto, que manda recensear todos os habitantes de Israel. Maria e José caminham para Belém... - Não pensaste que o Senhor se serviu do acatamento pontual de uma lei para que se cumprisse a sua profecia? Ama e respeita as normas de uma convivência honrada e não duvides de que a tua submissão leal ao dever será também veículo para que outros descubram a honradez cristã do amor divino, e encontrem a Deus.');
+INSERT INTO points VALUES(1324,0,1,323,'Quem oculta ao seu Diretor uma tentação, tem um segredo a meias com o demônio. - Fez-se amigo do inimigo.');
+INSERT INTO points VALUES(1325,0,1,324,'O pó e a cegueira de certa queda causam-te desassossego, juntamente com pensamentos que querem tirar-te a paz. - Procuraste desabafar em lágrimas junto do Senhor, e na conversa confiada com um irmão?');
+INSERT INTO points VALUES(1326,0,1,325,'Sinceridade: com Deus, com o Diretor, com os teus irmãos os homens. - Assim estou certo da tua perseverança.');
+INSERT INTO points VALUES(1327,0,1,326,'Um meio para sermos francos e simples?... Escuta e medita estas palavras de Pedro: "Domine, tu omnia nosti..." - Senhor, Tu sabes tudo!');
+INSERT INTO points VALUES(1328,0,1,327,'Que vou dizer?, perguntas ao começares a abrir a tua alma. E, com segura consciência, respondo-te: em primeiro lugar, aquilo que quererias que não se soubesse.');
+INSERT INTO points VALUES(1329,0,1,328,'Os defeitos que vês nos outros talvez sejam os teus próprios. "Si oculus tuus fuerit simplex..." - Se o teu olho for simples, todo o teu corpo estará iluminado; mas se for malicioso, todo o teu corpo estará obscurecido. E mais ainda: “Como te pões a olhar o cisco no olho do teu irmão, e não reparas na trave que está dentro do teu?” - Examina-te.');
+INSERT INTO points VALUES(1330,0,1,329,'Todos precisamos prevenir a falta de objetividade, sempre que se trate de julgar a nossa própria conduta... - Tu também.');
+INSERT INTO points VALUES(1331,0,1,330,'De acordo, dizes a verdade “quase” por inteiro... Portanto, não és veraz.');
+INSERT INTO points VALUES(1332,0,1,331,'Dói-te... Mas insisto com intransigência santa: dói-te... porque desta vez pus o dedo na tua chaga.');
+INSERT INTO points VALUES(1333,0,1,332,'Compreendeste em que consiste a sinceridade quando me escrevias: “Estou procurando habituar-me a chamar as coisas pelo seu nome e, sobretudo, a não tentar atribuir nomes ao que não existe”.');
+INSERT INTO points VALUES(1334,0,1,333,'Pensa bem nisto: ser transparente consiste mais em não tapar do que em querer fazer ver... Trata-se de permitir que se distingam os objetos que há no fundo do copo, e não em esforçar-se por tornar visível o ar.');
+INSERT INTO points VALUES(1335,0,1,334,'Atuemos sempre de tal maneira, na presença de Deus, que não tenhamos que ocultar nada aos homens.');
+INSERT INTO points VALUES(1336,0,1,335,'Acabaram-se as aflições... Descobriste que a sinceridade com o Diretor conserta com uma facilidade admirável aquilo que se entortou.');
+INSERT INTO points VALUES(1337,0,1,336,'Como erram pais, mestres, diretores... que exigem sinceridade absoluta e, quando lhes mostram toda a verdade, se assustam!');
+INSERT INTO points VALUES(1338,0,1,337,'Lias naquele dicionário os sinônimos de insincero: “ambíguo, ladino, dissimulado, matreiro, astuto”... - Fechaste o livro, enquanto pedias ao Senhor que nunca pudessem aplicar-se a ti esses qualificativos, e te propuseste aprimorar ainda mais esta virtude sobrenatural e humana da sinceridade.');
+INSERT INTO points VALUES(1339,0,1,338,'"Abyssus abyssum invocat..." - um abismo chama outro abismo, como já te recordei. É a descrição exata do modo de comportar-se dos mentirosos, dos hipócritas, dos renegados, dos traidores: como estão desgostosos com o seu próprio modo de conduzir-se, ocultam aos outros as suas trapaças, para irem de mal a pior, criando um despenhadeiro entre eles e o próximo.');
+INSERT INTO points VALUES(1340,0,1,339,'"Tota pulchra es, Maria, et macula originalis non est in te!" - És toda formosa, Maria, e não há em ti mancha original!, canta alvoroçada a liturgia: não há nEla a menor sombra de duplicidade. Peço diariamente à nossa Mãe que saibamos abrir a alma na direção espiritual, para que a luz da graça ilumine toda a nossa conduta! - Se assim lhe suplicarmos, Maria nos obterá a valentia da sinceridade, para que nos cheguemos mais à Trindade Santíssima.');
+INSERT INTO points VALUES(1341,0,1,340,'A lealdade tem como conseqüências a segurança de andar por um caminho reto, sem instabilidades nem perturbações; e a de firmar-se nesta certeza: que existem o bom senso e a felicidade. - Vê se isso se cumpre na tua vida de cada instante.');
+INSERT INTO points VALUES(1342,0,1,341,'Confiavas-me que Deus, em certos momentos, te enche de luz; em outros não. Recordei-te, com firmeza, que o Senhor é sempre infinitamente bom. Por isso, para continuares em frente, bastam-te esses tempos luminosos; se bem que os outros também te são proveitosos, para te fazeres mais fiel.');
+INSERT INTO points VALUES(1343,0,1,342,'Sal da terra - Nosso Senhor disse que os seus discípulos - tu e eu também - são sal da terra: para imunizar, para evitar a corrupção, para temperar o mundo. - Mas também acrescentou "quod si sal evanuerit..." - que se o sal perde o seu sabor, será lançado fora e pisado pelos homens... - Agora, perante muitos acontecimentos que lamentamos, vais compreendendo o que antes não compreendias?');
+INSERT INTO points VALUES(1344,0,1,343,'Faz-me tremer aquela passagem da segunda epístola a Timóteo, quando o Apóstolo se dói de que Demas tenha fugido para Tessalônica, atrás dos encantos deste mundo... Por uma bagatela, e por medo das perseguições, atraiçoou a tarefa divina um homem que São Paulo cita, em outras epístolas, entre os santos. Faz-me tremer, conhecendo a minha pequenez; e leva-me a exigir de mim fidelidade ao Senhor até nos fatos que podem parecer indiferentes, porque, se não me servem para unir-me mais a Ele, não os quero!');
+INSERT INTO points VALUES(1345,0,1,344,'Para tantos momentos da história, que o diabo se encarrega de repetir, parece-me uma consideração muito acertada aquela que me escrevias sobre lealdade: “Trago o dia todo, no coração, na cabeça, nos lábios, uma jaculatória: Roma!”');
+INSERT INTO points VALUES(1346,0,1,345,'Uma grande descoberta! Uma coisa que só entendias muito pela metade, tornou-se claríssima para ti quando tiveste que explicá-la a outros. Tiveste que falar muito devagar com um que estava desanimado porque se sentia ineficaz e não queria ser um peso para ninguém... Então compreendeste melhor que nunca por que te falo constantemente de sermos burrinhos de nora: fiéis, com viseiras muito grandes para não olharmos nem saborearmos pessoalmente os resultados - as flores, os frutos, a louçania da horta -, bem certos da eficácia da nossa fidelidade.');
+INSERT INTO points VALUES(1347,0,1,346,'A lealdade exige fome de formação, porque - movido por um amor sincero - não desejas correr o risco de difundir ou defender, por ignorância, critérios que estão muito longe de corresponderem à verdade.');
+INSERT INTO points VALUES(1348,0,1,347,'“Quereria - escreves-me - que a minha lealdade e a minha perseverança fossem tão sólidas e tão eternas, e o meu serviço tão vigilante e amoroso, que o Senhor pudesse alegrar-se comigo e eu fosse para si um pequeno descanso”. - E respondo-te: Deus te confirme no teu propósito para que sejamos ajuda e descanso para Ele.');
+INSERT INTO points VALUES(1349,0,1,348,'É verdade que alguns que se entusiasmam, depois vão-se embora... Não te preocupes: são agulha de que Deus se serve para enfiar a linha. - Ah, e reza por eles!, porque talvez se possa conseguir que continuem empurrando outros.');
+INSERT INTO points VALUES(1350,0,1,349,'Para ti, que vacilas, copio de uma carta: “De agora em diante, talvez continue a ser o mesmo instrumento inepto de sempre. Apesar disso, terá mudado o enfoque e a solução do problema da minha vida; porque há em mim um desejo, firme, de perseverança... até sempre!” - Nunca duvides de que Ele jamais falha.');
+INSERT INTO points VALUES(1351,0,1,350,'A tua vida é serviço, mas sempre com uma lealdade sem brechas, sem condições: somente assim daremos o rendimento que o Senhor espera.');
+INSERT INTO points VALUES(1352,0,1,351,'Nunca partilharei, nem no terreno ascético nem no jurídico, da idéia dos que pensam e vivem como se servir a Igreja equivalesse a empoleirar-se.');
+INSERT INTO points VALUES(1353,0,1,352,'Dói-te ver que alguns têm a técnica de falar da Cruz de Cristo, unicamente para subir e conquistar posições... São os mesmos que não consideram limpo nada do que vêem, se não coincide com o seu critério. - Mais uma razão para que perseveres na retidão de tuas intenções, e para que peças ao Mestre que te conceda a força de repetir: "Non mea voluntas, sed tua fiat" - Senhor, que eu cumpra com amor a tua Vontade Santa!');
+INSERT INTO points VALUES(1354,0,1,353,'Tens de crescer de dia para dia em lealdade à Igreja, ao Papa, à Santa Sé... Com um amor cada vez mais teológico!');
+INSERT INTO points VALUES(1355,0,1,354,'Tens uma grande ânsia de amar a Igreja: tanto maior, quanto mais se agitam os que pretendem desfeá-la. Parece-me muito lógico: porque a Igreja é tua Mãe.');
+INSERT INTO points VALUES(1356,0,1,355,'Os que não querem entender que a fé exige serviço à Igreja e às almas, cedo ou tarde invertem os termos, e acabam por servir-se da Igreja e das almas, para os seus fins pessoais.');
+INSERT INTO points VALUES(1357,0,1,356,'Oxalá não caias nunca, no erro de identificar o Corpo Místico de Cristo com uma atitude determinada, pessoal ou pública, de qualquer dos seus membros. E oxalá não dês pé a que pessoas menos formadas caiam nesse erro. - Vê se não é importante a tua coerência, a tua lealdade!');
+INSERT INTO points VALUES(1358,0,1,357,'Não te compreendo quando, ao falares de questões de moral e de fé, me dizes que és um católico independente... - Independente de quem? Essa falsa independência equivale a sair do caminho de Cristo.');
+INSERT INTO points VALUES(1359,0,1,358,'Não cedas nunca na doutrina da Igreja - Quando se faz uma liga, o melhor metal é o que sai perdendo. Além disso, esse tesouro não é teu, e - como narra o Evangelho - o Dono pode pedir-te contas quando menos o esperas.');
+INSERT INTO points VALUES(1360,0,1,359,'Concordo contigo em que há católicos, praticantes e mesmo piedosos aos olhos dos outros, e talvez sinceramente convictos, que servem ingenuamente os inimigos da Igreja... - Infiltrou-se em sua própria casa, com nomes diferentes mal aplicados - ecumenismos, pluralismos, democracia -, o pior adversário: a ignorância.');
+INSERT INTO points VALUES(1361,0,1,360,'Ainda que pareça um paradoxo, não raro sucede que, aqueles que se chamam a si próprios filhos da Igreja, são precisamente os que maior confusão semeiam.');
+INSERT INTO points VALUES(1362,0,1,361,'Estás cansado de lutar. Deu-te nojo esse ambiente, caracterizado pela falta de lealdade... Todos se lançam sobre aquele que caiu, para espezinhá-lo! Não sei por que te admiras. Aconteceu o mesmo com Jesus Cristo, mas Ele não recuou, porque tinha vindo salvar justamente os doentes e os que não O compreendiam.');
+INSERT INTO points VALUES(1363,0,1,362,'Que os leais não atuem! - É o que querem os desleais.');
+INSERT INTO points VALUES(1364,0,1,363,'Foge dos sectarismos, que se opõem a uma colaboração leal.');
+INSERT INTO points VALUES(1365,0,1,364,'Não se pode promover a verdadeira unidade à base de abrir novas divisões... Muito menos quando os promotores aspiram a apoderar-se do comando, suplantando a autoridade legítima.');
+INSERT INTO points VALUES(1366,0,1,365,'Ficaste muito pensativo quando me ouviste comentar: Quero ter o sangue de minha Mãe a Igreja; não o de Alexandre, nem o de Carlos Magno, nem o dos sete sábios da Grécia.');
+INSERT INTO points VALUES(1367,0,1,366,'Perseverar é persistir no amor "per Ipsum et cum Ipso et in Ipso...", o que realmente podemos interpretar também assim: Ele!, comigo, por mim e em mim.');
+INSERT INTO points VALUES(1368,0,1,367,'Pode acontecer que haja, entre os católicos, alguns com pouco espírito cristão; ou que dêem essa impressão aos que se relacionam com eles num momento determinado. Mas, se esta realidade te escandalizasse, darias mostras de conhecer pouco a miséria humana e... a tua própria miséria. Além disso, não é justo nem leal servir-se das fraquezas desses poucos, para difamar Cristo e a sua Igreja.');
+INSERT INTO points VALUES(1369,0,1,368,'É verdade que nós, os filhos de Deus, não devemos servir ao Senhor para que nos vejam..., mas não nos há de importar que nos vejam, e muito menos podemos deixar de cumprir porque estão vendo!');
+INSERT INTO points VALUES(1370,0,1,369,'Passaram-se vinte séculos, e a cena se repete todos os dias: continuam levando a julgamento, flagelando e crucificando o Mestre... E muitos católicos, com o seu comportamento e com as suas palavras, continuam gritando: Esse? Não o conheço! Desejaria ir por toda a parte, recordando confidencialmente a muitos que Deus é misericordioso, e que também é muito justo! Por isso afirmou claramente: “Também Eu não reconhecerei os que não me tiveram reconhecido diante dos homens”.');
+INSERT INTO points VALUES(1371,0,1,370,'Sempre pensei que a falta de lealdade por respeitos humanos é desamor..., e ausência de personalidade.');
+INSERT INTO points VALUES(1372,0,1,371,'Volta os teus olhos para a Virgem Maria e contempla como vive a virtude da lealdade. Quando Israel precisa dela, diz o Evangelho que vai "cum festinatione" com pressa alegre. Aprende!');
+INSERT INTO points VALUES(1373,0,1,372,'Obedecer docilmente. - Mas com inteligência, com amor e com sentido de responsabilidade, que nada têm a ver com julgar os que governam.');
+INSERT INTO points VALUES(1374,0,1,373,'No apostolado, obedece sem reparar nas condições humanas de quem manda, nem no modo como manda. O contrário não é virtude. Cruzes há muitas: de brilhantes, de pérolas, de esmeraldas, de esmaltes, de marfim...; também de madeira, como a de Nosso Senhor, porque a Cruz nos fala do sacrifício do Deus feito Homem. - Leva esta consideração à tua obediência, sem te esqueceres de Ele se abraçou amorosamente - sem hesitar! - ao Madeiro, e ali nos obteve a Redenção. Só depois de teres obedecido, o que é sinal de retidão de intenção, faz a correção fraterna, com as condições requeridas, e reforçarás a unidade por meio do cumprimento desse dever.');
+INSERT INTO points VALUES(1375,0,1,374,'Obedece-se com os lábios, com o coração e com a mente. - Obedece-se não a um homem, mas a Deus.');
+INSERT INTO points VALUES(1376,0,1,375,'Não amas a obediência se não amas de verdade o mandado, se não amas de verdade o que te mandaram.');
+INSERT INTO points VALUES(1377,0,1,376,'Muitos problemas se remedeiam logo. Outros, não imediatamente. Mas todos se resolverão, se formos fiéis: se obedecermos, se cumprirmos o que está estabelecido.');
+INSERT INTO points VALUES(1378,0,1,377,'O Senhor quer de ti um apostolado concreto, como o da pesca daqueles cento e cinqüenta e três grandes peixes - e não outros -, apanhados à direita da barca. E perguntas-me: como é que, sabendo-me pescador de homens, vivendo em contacto com muitos companheiros e podendo distinguir a quem deve dirigir-se o meu apostolado específico, não pesco?... Falta-me Amor? Falta-me vida interior? Escuta a resposta dos lábios de Pedro, naquela outra pesca milagrosa: - “Mestre, estivemos fatigando-nos durante toda a noite, e nada apanhamos; não obstante, fiado na tua palavra, lançarei a rede”. Em nome de Cristo, começa de novo. - Fortalecido: fora essa moleza!');
+INSERT INTO points VALUES(1379,0,1,378,'Obedece sem tantas vacilações inúteis... Mostrar tristeza ou pouca vontade perante o que se manda é falta muito considerável. Mas senti-la apenas, não somente não é culpa, mas pode ser uma grande ocasião de nos vencermos a nós mesmos, de coroarmos um ato heróico de virtude. Não sou eu que o invento. Lembras-te? Narra o Evangelho que um pai de família confiou o mesmo encargo aos seus dois filhos... E Jesus alegra-se com aquele que, apesar de ter levantado dificuldades, cumpre! Alegra-se porque a disciplina é fruto do Amor.');
+INSERT INTO points VALUES(1380,0,1,379,'A maior parte das desobediências provém de não saber “escutar” a indicação, o que no fundo é falta de humildade ou de interesse em servir.');
+INSERT INTO points VALUES(1381,0,1,380,'Queres obedecer cabalmente?... Pois bem, escuta com atenção, para compreenderes o alcance e o espírito do que te indicam; e, se não entendes alguma coisa, pergunta.');
+INSERT INTO points VALUES(1382,0,1,381,'Vamos ver quando te convences de que tens de obedecer!... E desobedeces se, em vez de cumprir o plano de vida, perdes o tempo. Todos os teus minutos devem estar preenchidos: trabalho, estudo, proselitismo, vida interior.');
+INSERT INTO points VALUES(1383,0,1,382,'De modo semelhante ao da Igreja que, através do cuidado com a liturgia, nos faz intuir a beleza dos mistérios da Religião, e nos leva a amá-los melhor, assim devemos viver - sem fazer teatro - certa correção, aparentemente mundana, de respeito profundo - mesmo externo - pelo Diretor, que por sua boca nos comunica a Vontade de Deus.');
+INSERT INTO points VALUES(1384,0,1,383,'Ao governador, depois de pensar no bem comum, é necessário levar em conta que - no terreno espiritual e no civil - dificilmente uma norma pode não desagradar a alguns. - Nunca chove ao gosto de todos!, reza a sabedoria popular. Mas isso, não duvides, não é de feito da lei, mas rebeldia injustificada da soberba ou do egoísmo daqueles poucos.');
+INSERT INTO points VALUES(1385,0,1,384,'Ordem, autoridade, disciplina... - Escutam - se é que escutam! -, e sorriem cinicamente, alegando - elas e eles - que defendem a sua liberdade. São os mesmo que depois pretendem que respeitemos ou que nos ajustemos aos seus descaminhos; não compreendem - que protestos tão vulgares! - que os seus modos não sejam - não podem ser! - aceitos pela autêntica liberdade dos outros.');
+INSERT INTO points VALUES(1386,0,1,385,'Os que dirigem tarefas espirituais têm que interessar-se por tudo que é humano, para elevá-lo à ordem sobrenatural e divinizá-lo. Se não se pode divinizar, não te enganes; não é humano, é “animalesco”, impróprio da criatura racional.');
+INSERT INTO points VALUES(1387,0,1,386,'Autoridade. Não consiste em que o de cima “grite” ao inferior, e este ao de mais abaixo. Com esse critério - caricatura da autoridade -, além da evidente falta de caridade e de correção humana, só se consegue que quem está no comando se vá afastando dos governados, porque não os serve: no melhor dos casos, usa-os!');
+INSERT INTO points VALUES(1388,0,1,387,'Não sejas tu desses que, trazendo desgovernada a sua própria casa, tentam intrometer-se no governo das casas dos outros.');
+INSERT INTO points VALUES(1389,0,1,388,'Mas... pensas de verdade que sabes tudo, porque foste constituído em autoridade? - Escuta-me bem: o bom governante “sabe” que pode - que deve! - aprender dos outros.');
+INSERT INTO points VALUES(1390,0,1,389,'Liberdade de consciência: não! Quantos males trouxe aos povos e às pessoas este erro lamentável, que permite agir contra os ditames íntimos da própria consciência! Liberdade “das consciências”, sim: que significa o dever de seguir esse imperativo interior... Ah, mas depois de se ter recebido uma séria formação!');
+INSERT INTO points VALUES(1391,0,1,390,'Governar não é mortificar.');
+INSERT INTO points VALUES(1392,0,1,391,'Para ti, que ocupas essa função de governo. Medita: os instrumentos mais fortes e eficazes, se o tratarmos mal, ficam amassados, desgastam-se e se inutilizam.');
+INSERT INTO points VALUES(1393,0,1,392,'As decisões de governo, tomadas de ânimo leve por uma só pessoa, nascem sempre, ou quase sempre influenciadas por uma visão unilateral dos problemas. - Por muito grandes que sejam a tua preparação e o seu talento, deves ouvir aqueles que compartilham contigo essa tarefa de direção.');
+INSERT INTO points VALUES(1394,0,1,393,'Nunca dês ouvidos à delação anônima: é o procedimento da gente vil.');
+INSERT INTO points VALUES(1395,0,1,394,'Um critério de bom governo: é preciso tomar o material humano tal como é, e ajudá-lo a melhorar, sem nunca desprezá-lo.');
+INSERT INTO points VALUES(1396,0,1,395,'Acho muito bem que procures diariamente aumentar essa profunda preocupação pelos que dependem de ti: porque sentir-se rodeado e protegido pela compreensão afetuosa do superior, pode ser o remédio eficaz de que necessitem as pessoas a quem tens de servir com o teu governo.');
+INSERT INTO points VALUES(1397,0,1,396,'Que pena causam alguns, investidos em autoridade, quando julgam e falam com ligeireza, sem estudar o assunto, com afirmações categóricas, sobre pessoas ou questões que desconhecem, e... até com “preconceitos”, que são frutos da deslealdade!');
+INSERT INTO points VALUES(1398,0,1,397,'Se a autoridade se converte em autoritarismo ditatorial e esta situação se prolonga no tempo, perde-se a continuidade histórica, morrem ou envelhecem os homens de governo, chegam à idade madura pessoas sem experiência de direção, e a juventude - inexperiente e excitada - quer tomar as rédeas: quantos males e quantas ofensas a Deus - próprias e alheiras - recaem sobre os que usam tão mal da autoridade!');
+INSERT INTO points VALUES(1399,0,1,398,'Quando quem manda é negativo e desconfiado, facilmente cai na tirania.');
+INSERT INTO points VALUES(1400,0,1,399,'Procura ser retamente objetivo no teu trabalho de governo. Evita essa inclinação dos que tendem a ver sobretudo - e às vezes somente - o que não anda, os erros. - Enche-te de alegria, na certeza de que o Senhor concedeu a todos a capacidade de se fazerem santos, precisamente na luta contra os seus próprios defeitos.');
+INSERT INTO points VALUES(1401,0,1,400,'A ânsia de novidade pode levar ao desgoverno. - São precisos novos regulamentos, dizes... - Achas mesmo que o corpo humano melhoraria com outro sistema nervoso ou arterial?');
+INSERT INTO points VALUES(1402,0,1,401,'Que empenho o de alguns em massificar! Convertem a unidade em uniformidade amorfa, afogando a liberdade. Parece que ignoram a impressionante unidade do corpo humano, com tão divina diferenciação de membros que - cada um com a sua função própria - contribuem para a saúde geral. - Deus não quis que todos fôssemos iguais, nem que caminhássemos todos do mesmo modo pelo único caminho.');
+INSERT INTO points VALUES(1403,0,1,402,'É preciso ensinar as pessoas a trabalhar - sem exagerar a preparação: “fazer” é também formar-se - e a aceitar de antemão as imperfeições inevitáveis: o ótimo é inimigo do bom.');
+INSERT INTO points VALUES(1404,0,1,403,'Nunca confies só na organização.');
+INSERT INTO points VALUES(1405,0,1,404,'O bom pastor não precisa atemorizar as suas ovelhas: semelhante comportamento é próprio dos maus governantes. Por isso, ninguém estranha que acabem odiados e sós.');
+INSERT INTO points VALUES(1406,0,1,405,'Governar, muitas vezes, consiste em saber “ir puxando” pelas pessoas, com paciência e carinho.');
+INSERT INTO points VALUES(1407,0,1,406,'O bom governo não ignora a necessária flexibilidade, sem cair na falta de exigência.');
+INSERT INTO points VALUES(1408,0,1,407,'“Enquanto não me fizerem pecar!” - Enérgico comentário daquela pobre criatura, quase aniquilada, na sua vida pessoa e em seus afãs de homem e de cristão, por inimigos poderosos. - Medita e aprende: enquanto não te fizerem pecar!');
+INSERT INTO points VALUES(1409,0,1,408,'Nem todos os cidadãos pertencem aos quadro do exército. Mas, quando chega a guerra, todos participam... E o Senhor disse: “Não vim trazer a paz, mas a guerra”.');
+INSERT INTO points VALUES(1410,0,1,409,'“Eu era um guerrilheiro” - escreve - “e andava pelos montes, disparando quando me dava na telha. Mas quis alistar-me como soldado, porque compreendi que as guerras são ganhas mais facilmente pelos exércitos organizados e com disciplina. Um pobre guerrilheiro isolado não pode tomar cidades inteiras, nem ocupar o mundo. Pendurei o meu bacamarte - fica antiquado! - e agora estou mais bem armado. Ao mesmo tempo, sei que já não posso deitar-me no monte, à sombra de uma árvore, e sonhar que eu sozinho ganharei a guerra”. - Bendita disciplina e bendita unidade da nossa Mãe a Igreja Santa!');
+INSERT INTO points VALUES(1411,0,1,410,'A tantos católicos rebeldes, dir-lhes-ia que faltam ao seu dever aqueles que, em vez de se aterem à disciplina, e à obediência à autoridade legítima, se convertem em partido; em pequeno bando; em vermes de discórdia; em conjura e intriguice; em fomentadores de estúpidas pugnas pessoais; em tecelões de urdiduras de ciúmes e crises.');
+INSERT INTO points VALUES(1412,0,1,411,'Não são a mesma coisa um vento suave e um furacão. Ao primeiro, qualquer um resiste: é brincadeira de crianças, paródia de luta. - Pequenas contradições, escassez, apuros de nada... Aceitavas tudo isso com gosto, e vivias a alegria interior de pensar: agora, sim, estou trabalhando por Deus, porque temos Cruz!... Mas, meu pobre filho: chegou o furacão, e sentes um balançar, um fustigar que arrancaria árvores centenárias. Isso..., por dentro e por fora. Confia! Não poderá arrancar a tua Fé e o teu Amor, nem tirar-te do teu caminho..., se tu não te afastas da “cabeça”, se sentes a unidade.');
+INSERT INTO points VALUES(1413,0,1,412,'Com que facilidade deixas de cumprir o plano de vida, ou fazes as coisas pior do que se as omitisses!... - É assim que queres enamorar-te cada vez mais do teu caminho, para contagiar depois os outros com esse amor?');
+INSERT INTO points VALUES(1414,0,1,413,'Não ambiciones senão um único direito: o de cumprires o teu dever.');
+INSERT INTO points VALUES(1415,0,1,414,'Dizes que a carga é pesada? - Não, mil vezes não! Essas obrigações, que aceitaste livremente, são asas que te levantam sobre o lodo vil das paixões. Porventura os pássaros sentem o peso das suas asas? Corta-as, coloca-as no prato de uma balança: pesam! Pode, no entanto, a ave voar se lhas arrancam? Precisa dessas asas assim; e não nota o seu peso porque a elevam acima do nível das outras criaturas. Também as tuas “asas” pesam! Mas, se te faltassem, cairias nos mais sujos lodaçais.');
+INSERT INTO points VALUES(1416,0,1,415,'“Maria guardava todas estas coisas no seu coração...” Quando está de permeio o amor limpo e sincero, a disciplina não representa um peso, ainda que custe, porque une ao Amado.');
+INSERT INTO points VALUES(1417,0,1,416,'O Senhor necessita de almas fortes e audazes, que não pactuem com a mediocridade e penetrem com passo firme em todos os ambientes.');
+INSERT INTO points VALUES(1418,0,1,417,'Sereno e equilibrado de caráter, vontade inflexível, fé profunda e piedade ardente: características imprescindíveis de um filho de Deus.');
+INSERT INTO points VALUES(1419,0,1,418,'O Senhor pode tirar das próprias pedras filhos de Abraão... Mas temos de procurar que a pedra não seja quebradiça. De um rochedo sólido, ainda que seja informe. pode lavrar-se mais facilmente um silhar esplêndido.');
+INSERT INTO points VALUES(1420,0,1,419,'O apóstolo não deve nivelar-se pela rasoura de uma criatura medíocre. Deus o chama para que atue como portador de humanidade e transmissor de uma novidade eterna. - Por isso, o apóstolo precisa ser uma alma longamente, pacientemente, heroicamente formada.');
+INSERT INTO points VALUES(1421,0,1,420,'Cada dia descubro coisas novas em mim, dizes... E respondo-te: agora começas a conhecer-te. Quando se ama deveras..., sempre se encontram detalhes para amar ainda mais.');
+INSERT INTO points VALUES(1422,0,1,421,'Seria lamentável que alguém concluísse, ao ver atuar os católicos na vida social, que se mexem com acanhamento e capitis-diminuídos. Não se pode esquecer que o nosso Mestre era - é! - "perfectus Homo" - perfeito Homem.');
+INSERT INTO points VALUES(1423,0,1,422,'Se o Senhor te deu uma boa qualidade - ou uma habilidade -, não é apenas para que nela te deleites, ou para que te pavoneies, mas para que a desenvolvas com caridade a serviço do próximo. - E quando encontrarás melhor ocasião de servir do que agora, ao conviveres com tantas almas que compartilham o teu mesmo ideal?');
+INSERT INTO points VALUES(1424,0,1,423,'Ante a pressão e o impacto de um mundo materializado, hedonista, sem fé..., como é possível exigir e justificar a liberdade de não pensar como “eles”, de não agir como “eles?... - Um filho de Deus não tem necessidade de pedir essa liberdade, porque Cristo já no-la ganhou de uma vez para sempre; mas deve defendê-la e demonstrá-la em qualquer ambiente. Só assim é que “eles” entenderão que a nossa liberdade não está aferrolhada pelo ambiente.');
+INSERT INTO points VALUES(1425,0,1,424,'Teus parentes, teus colegas, teus amigos vão notando a mudança, e reparam que não é uma transição momentânea, que já não és o mesmo. - Não te preocupes, continua em frente! Cumpre-se o "vivit vero in me Christus" - agora é Cristo quem vive em ti.');
+INSERT INTO points VALUES(1426,0,1,425,'Deves estimar os que sabem dizer-te “não”. E, além disso, pedir-lhes que te esclareçam as razões da sua negativa, para aprenderes..., ou para corrigires.');
+INSERT INTO points VALUES(1427,0,1,426,'Antes eras pessimista, indeciso e apático. Agora estás totalmente transformado: sentes-te audaz, otimista, seguro de ti mesmo..., porque afinal te decidiste a buscar o teu apoio somente em Deus.');
+INSERT INTO points VALUES(1428,0,1,427,'Triste situação a de uma pessoa com magníficas virtudes humanas, e com carência absoluta de sentido sobrenatural: porque facilmente aplicará aquelas virtudes apenas aos seus fins particulares. - Medita nisto.');
+INSERT INTO points VALUES(1429,0,1,428,'Para ti, que desejas formar-te num mentalidade católica, universal, transcrevo algumas características: - amplidão de horizontes e um aprofundamento enérgico no que é permanentemente vivo na ortodoxia católica; - empenho reto e sadio - nunca frivolidade - em renovar as doutrinas típicas do pensamento tradicional, na filosofia e na interpretação da história...; - uma cuidadosa atenção às orientações da ciência e do pensamento contemporâneos; - e uma atitude positiva e aberta ante a transformação atual das estruturas sociais e das formas de vida.');
+INSERT INTO points VALUES(1430,0,1,429,'Tens que aprender a dissentir dos outros - quando for preciso - com caridade, sem te tornares antipático.');
+INSERT INTO points VALUES(1431,0,1,430,'Com graça de Deus e boa formação, podes fazer-te entender no ambiente dos mais simples... - Eles dificilmente te seguirão se te faltar “dom de línguas”: capacidade e esforço para chegar às suas inteligências.');
+INSERT INTO points VALUES(1432,0,1,431,'Cortesia sempre, com todos. Mas especialmente com os que se apresentam como adversários - tu não tenhas inimigos -, quando procuras tirá-los do seu erro.');
+INSERT INTO points VALUES(1433,0,1,432,'Não é verdade que te causou compaixão o menino mimado? - Pois então... não te trates tão bem a ti mesmo! Não compreendes que vais tornar-te molezinho? - Além disso, não sabes que as flores de melhor aroma são as silvestres, as que estão expostas à intempérie e à seca?');
+INSERT INTO points VALUES(1434,0,1,433,'Esse vai longe, dizem, e assusta a sua futura responsabilidade. - Ninguém lhe conhece uma atividade desinteressada, nem uma frase oportuna, nem um escrito fecundo. - É homem de vida negativa. - Dá sempre a impressão de estar submerso em profundas congeminações, embora se saiba que nunca cultivou idéias em que pensar. - Tem no rosto e nas maneiras a sisudez do mulo, e isso lhe dá fama de prudente... - Esse vai muito longe!, mas - pergunto-me - que poderá ensinar aos outros, como e em que os servirá, se não o ajudamos a mudar?');
+INSERT INTO points VALUES(1435,0,1,434,'O pedante interpreta como ignorância a simplicidade e a humildade do douto.');
+INSERT INTO points VALUES(1436,0,1,435,'Não sejas desses que, quando recebem uma ordem, logo pensam na maneira de modificá-la... - Dir-se-ia que têm demasiada “personalidade”! E desunem ou desbaratam.');
+INSERT INTO points VALUES(1437,0,1,436,'A experiência, o saber tanto do mundo, o ler nas entrelinhas, a perspicácia excessiva, o espírito crítico... Tudo isso que, nas tuas relações e negócios, te levou demasiado longe, ao ponto de tornar-te um pouco cínico; todo esse “excessivo realismo” - que é falta de espírito sobrenatural - invadiu até mesmo a tua vida interior. - Por não seres simples, passaste a ser às vezes frio e cruel.');
+INSERT INTO points VALUES(1438,0,1,437,'No fundo és um bom rapaz, porém julgas-te Maquiavel. - Lembra-te de que no Céu se entra sendo um homem honrado e bom, não um intriguistinha maçante.');
+INSERT INTO points VALUES(1439,0,1,438,'É admirável esse teu bom humor... Mas levar tudo, tudo... na brincadeira - reconhece! - significa passar dos limites. - A realidade é bem outra: como te falta vontade para tomares as tuas coisas a sério, autojustificas-te gozando dos outros, que são melhores do que tu.');
+INSERT INTO points VALUES(1440,0,1,439,'Não nego que sejas esperto. Mas o arrebatamento desordenado leva-te a agir como um tolo.');
+INSERT INTO points VALUES(1441,0,1,440,'Essa desigualdade do teu caráter! - Tens as teclas estragadas: dás muito bem as notas altas e baixas..., mas não soam as do meio, as da vida corrente, aquelas que habitualmente os outros escutam.');
+INSERT INTO points VALUES(1442,0,1,441,'Para que aprendas. - Numa ocasião memorável, fiz notar àquele nobre varão, douto e enérgico, como arriscava - ia perder - um alto posto no seu mundo, por estar defendendo uma causa santa que os “bons” impugnavam. Com voz cheia de gravidade humana e sobrenatural, que desprezava as honras da terra, respondeu-me: “Arrisco a alma”.');
+INSERT INTO points VALUES(1443,0,1,442,'O diamante lapida-se com o diamante...; e as almas, com as almas.');
+INSERT INTO points VALUES(1444,0,1,443,'“Um grande sinal apareceu no Céu: uma mulher com uma coroa de doze estrelas sobre a cabeça; vestida de sol; a lua a seus pés”. - Para que tu e eu, e todos, tenhamos a certeza de que nada aperfeiçoa tanto a personalidade como a correspondência à graça. - Procura imitar a Santíssima Virgem, e serás homem - ou mulher - de uma só peça.');
+INSERT INTO points VALUES(1445,0,1,444,'Conscientes dos nossos deveres, como podemos passar um dia inteiro sem nos lembrarmos de que temos alma? Da meditação diária deve nascer a retificação constante, para não sairmos do caminho.');
+INSERT INTO points VALUES(1446,0,1,445,'Se se abandona a oração, primeiro vive-se das reservas espirituais..., e depois, da trapaça.');
+INSERT INTO points VALUES(1447,0,1,446,'Meditação. - Tempo certo e a hora certa. - Senão, acabará adaptando-se à nossa comodidade: isso é falta de mortificação. E a oração sem mortificação é pouco eficaz.');
+INSERT INTO points VALUES(1448,0,1,447,'Falta-te vida interior: porque não levas à oração as preocupações dos teus e o proselitismo; porque não te esforças por ver claro, por tirar propósitos concretos e por cumpri-los; porque não tens sentido sobrenatural no estudo, no trabalho, nas tuas conversas, no convívio com os outros... - Como andas em matéria de presença de Deus, conseqüência e manifestação da tua oração?');
+INSERT INTO points VALUES(1449,0,1,448,'Não?... Porque não tiveste tempo?... - Tens tempo. Além disso, como é que serão as tuas obras, se não as meditaste na presença do Senhor, para bem orientá-las? Sem essa conversa com Deus, como é que acabarás com perfeição o trabalho de cada jornada?... - Olha, é como se alegasses que te falta tempo para estudar, porque estás muito ocupado em dar uma aulas... Sem estudo, não se pode dar uma boa aula. A oração está antes de qualquer coisa. Se o entendes assim e não o pões em prática, não me digas que te falta tempo: muito simplesmente, não queres fazê-la!');
+INSERT INTO points VALUES(1450,0,1,449,'Oração, mais oração! - pace uma incongruência agora, em época de provas, de mais trabalho... Precisas dela: e não só da habitual, como prática de piedade; oração também durante os tempos mortos; oração entre ocupação e ocupação, em vez de deixares correr o pensamento entre bobagens. Não faz mal se - apesar do teu empenho - não consegues concentrar-te e recolher-te. Pode valer mais esta meditação do que aquela outra que fizeste, com toda a comodidade, no oratório.');
+INSERT INTO points VALUES(1451,0,1,450,'Um costume eficaz para conseguir presença de Deus” em cada dia, a primeira audiência, com Jesus Cristo.');
+INSERT INTO points VALUES(1452,0,1,451,'A oração não é prerrogativa de frades: é incumbência de cristãos, de homens e mulheres do mundo, que se sabem filhos de Deus.');
+INSERT INTO points VALUES(1453,0,1,452,'Sem dúvida, deves seguir o teu caminho: homem de ação... com vocação de contemplativo.');
+INSERT INTO points VALUES(1454,0,1,453,'Católico, sem oração?... É como um soldado sem armas.');
+INSERT INTO points VALUES(1455,0,1,454,'Agradece ao Senhor o enorme bem que te outorgou ao fazer-te compreender que “uma só coisa é necessária”. - E, justamente com a gratidão, que não falte todos os dias a tua súplica pelos que ainda não O conhecem ou não O entenderam.');
+INSERT INTO points VALUES(1456,0,1,455,'Quando procuravam “pescar-te”, perguntavas a ti mesmo onde é que conseguiam aquela força e aquele fogo que tudo abrasa. - Agora, que fazes oração, percebeste que essa é a fonte que ressuma em torno dos verdadeiros filhos de Deus.');
+INSERT INTO points VALUES(1457,0,1,456,'Desprezas a meditação... Não será que tens medo, que procuras o anonimato, que não te atreves a falar com Cristo cara a cara? - Bem vês que há muitos modos de “desprezar” este meio, ainda que se afirme que se pratica.');
+INSERT INTO points VALUES(1458,0,1,457,'Oração: é a hora das intimidades santas e das resoluções firmes.');
+INSERT INTO points VALUES(1459,0,1,458,'Como era bem pensada a súplica daquela alma que dizia: - Senhor, não me abandones; não reparas que há “outra pessoa” que me puxa pelos pés?!');
+INSERT INTO points VALUES(1460,0,1,459,'Voltará o Senhor a acender-me a alma?... - Afirmavam-te que sim a tua cabeça e a força profunda de um desejo longínquo, que talvez seja esperança... - Pelo contrário, o coração e a vontade - excesso de um, falta da outra - tingem tudo de uma melancolia paralisante e hirta, como um esgar, como uma troça amarga. Escuta a promessa do Espírito Santo: “Dentro de brevíssimo tempo, virá Aquele que há de vir e não tardará. Entretanto, o meu justo viverá de fé”.');
+INSERT INTO points VALUES(1461,0,1,460,'A verdadeira oração, aquela que absorve o indivíduo por completo, é favorecida não tanto pela solidão do deserto como pelo recolhimento interior.');
+INSERT INTO points VALUES(1462,0,1,461,'Fizemos a oração da tarde no meio do campo, já perto do anoitecer. Devíamos ter um aspecto um tanto pitoresco, para um espectador que, não soubesse do que se tratava: sentados no chão, num silêncio apenas interrompido pela leitura de uns pontos de meditação. Essa oração em pleno campo, “pressionando com força” o Senhor por todos os que vinham conosco, pela Igreja, pelas almas, foi grata ao Céu e fecunda: qualquer lugar é apto para esse encontro com Deus.');
+INSERT INTO points VALUES(1463,0,1,462,'Gosto de que, na oração, tenhas essa tendência de percorrer muitos quilômetros: contemplas terras diferentes daquelas que pisas; diante dos teus olhos, passa gente de outras raças; ouves línguas diversas... É como um eco daquele mandamento de Jesus: "Euntes docete omnes gentes" - ide e ensinai a todos os povos. Para chegares longe, sempre mais longe, mete esse fogo de amor nos que te rodeiam; e os teus sonhos e desejos se converterão em realidade: antes, mais e melhor!');
+INSERT INTO points VALUES(1464,0,1,463,'A oração transcorrerá, uma vezes, de modo discursivo; outras, talvez poucas, cheia de fervor; e, talvez muitas, seca, seca, seca... Mas o que importa é que tu, com a ajuda de Deus, não desanimes. Pensa na sentinela que está de guarda: não sabe se o Rei ou Chefe de Estado se encontra no Palácio; não está informado do que este faz e, na maioria dos casos, essa personagem não sabe quem lhe monta a guarda. - Nada disto acontece com o nosso Deus: Ele vive onde tu vives; ocupa-se de ti; conhece-te e conhece os teus pensamentos mais íntimos... Não abandones a guarda da oração!');
+INSERT INTO points VALUES(1465,0,1,464,'Olha que conjunto de razões sem razão te apresenta o inimigo, para que abandones a oração: “Falta-me tempo” - quando o estás perdendo continuamente -; “isto não é para mim”, “eu tenho o coração seco”... A oração não é problema de falar ou de sentir, mas de amar. E ama-se quando se faz o esforço de tentar dizer alguma coisa ao Senhor, ainda que não se diga nada.');
+INSERT INTO points VALUES(1466,0,1,465,'“Um minuto de reza intensa; isto basta”. - Dizia isso um que nunca rezava. - Compreenderia um apaixonado que bastasse contemplar intensamente durante um minuto a pessoa amada?');
+INSERT INTO points VALUES(1467,0,1,466,'Este ideal de combater - e vencer - as batalhas de Cristo somente se tornará realidade pela oração e pelo sacrifício, pela Fé e pelo Amor. - Pois então... vamos orar, e crer, e sofrer, e Amar!');
+INSERT INTO points VALUES(1468,0,1,467,'A mortificação é a ponte levadiça, que nos permite a entrada no castelo da oração.');
+INSERT INTO points VALUES(1469,0,1,468,'Não desfaleças: por mais indigna que seja a pessoa, por mais imperfeita que venha a ser a sua oração, se esta se eleva com humildade e perseverança, Deus a escuta sempre.');
+INSERT INTO points VALUES(1470,0,1,469,'“Senhor, eu não mereço que me escutes, porque sou mau” - rezava uma alma penitente. E acrescenta: “Agora... escuta-me "quoniam bonus" - porque Tu és bom”.');
+INSERT INTO points VALUES(1471,0,1,470,'O Senhor, depois de enviar os seus discípulos a pregar, reúne-os na volta e convida-os a ir com Ele a um lugar solitário para descansar... Que coisa não lhes perguntaria e contaria Jesus! Pois bem..., o Evangelho continua a ser atual.');
+INSERT INTO points VALUES(1472,0,1,471,'Entendo-te perfeitamente quando me escreves a respeito do teu apostolado: “Vou fazer três horas de oração com a Física. Será um bombardeio para que `caia'' outra posição, que se acha do outro lado da mesa da biblioteca..., e que o senhor já conheceu quando esteve aqui”. Lembro-me da tua alegria, enquanto me ouvias dizer que entre a oração e o trabalho não deve haver solução de continuidade.');
+INSERT INTO points VALUES(1473,0,1,472,'Comunhão dos Santos: bem a experimentou aquele jovem engenheiro, quando afirmava: “Padre, em tal dia, a tal hora, o senhor estava rezando por mim”. Esta é e será a primeira ajuda fundamental que temos de prestar às almas: a oração.');
+INSERT INTO points VALUES(1474,0,1,473,'Habitua-te a rezar orações vocais, pela manhã, ao vestir-te, como as crianças. - E terás mais presença de Deus depois, ao longo da jornada.');
+INSERT INTO points VALUES(1475,0,1,474,'Para que os empregam como arma a inteligência e o estudo, o terço é eficacíssimo. Porque, ao implorarem assim a Nossa Senhora, essa aparente monotonia de crianças com sua Mãe vai destruindo neles todo o germe de vanglória e de orgulho.');
+INSERT INTO points VALUES(1476,0,1,475,'“Virgem Imaculada, bem sei que sou um pobre miserável, que não faço mais do que aumentar todos os dias o número dos meus pecados...” Disseste-me o outro dia que falavas assim com a Nossa Mãe. E aconselhei-te, com plena segurança, que rezasses o terço: bendita monotonia de ave-marias, que purifica a monotonia dos teus pecados!');
+INSERT INTO points VALUES(1477,0,1,476,'Uma triste forma de não rezar o terço: deixá-lo para o fim do dia. Quando se deixa para o momento de deitar-se, recita-se pelo menos de má maneira e sem meditar os mistérios. Assim, dificilmente se evita a rotina, que afoga a verdadeira piedade, a única piedade.');
+INSERT INTO points VALUES(1478,0,1,477,'Não se pronuncia o terço somente com os lábios, mastigando uma após outra as ave-marias. Assim mussitam as beatas e os beatos. - Para um cristão, a oração vocal há de enraizar-se no coração de modo que, durante a recitação do terço, a mente possa adentrar-se na contemplação de cada um dos mistérios.');
+INSERT INTO points VALUES(1479,0,1,478,'Sempre adias o terço para depois, e acabas por omiti-lo por causa do sono. - Se não dispõe de outros momentos, reza-o pela rua e sem que ninguém o note. Isso te ajudará também a ter presença de Deus.');
+INSERT INTO points VALUES(1480,0,1,479,'“Reze por mim”, pedi-lhe como faço sempre. E respondeu-me espantado: “Mas está-lhe acontecendo alguma coisa?” Tive de esclarecer-lhe que a todos nos acontece ou ocorre alguma coisa em qualquer instante; e acrescentei-lhe que, quando falta a oração, “passam-se e pesam mais coisas”.');
+INSERT INTO points VALUES(1481,0,1,480,'Renova durante o dia os teus atos de contrição: olha que se ofende a Jesus sem parar e, infelizmente, não O desagradam a esse mesmo ritmo. Por isso venho repetindo desde sempre: os atos de contrição, quantos mais melhor! Serve-me tu de eco, com a tua vida e com os teus conselhos.');
+INSERT INTO points VALUES(1482,0,1,481,'Como enamora a cena da Anunciação! Maria - quantas vezes temos meditado nisso! - está recolhida em oração..., aplica os seus cinco sentidos e todas as suas potências na conversa com Deus. Na oração conhece a Vontade divina; e com a oração converte-a em vida da sua vida. Não esqueças o exemplo de Nossa Senhora!');
+INSERT INTO points VALUES(1483,0,1,482,'O trabalho é a vocação inicial do homem, é uma bênção de Deus, e enganam-se lamentavelmente os que o consideram um castigo. O Senhor, o melhor dos pais, colocou o primeiro homem no paraíso, "ut operaretur" - para que trabalhasse.');
+INSERT INTO points VALUES(1484,0,1,483,'Estudo, trabalho: deveres ineludíveis para todo o cristão; meios para nos defendermos dos inimigos da Igreja e para atrairmos - com o nosso prestígio profissional - tantas outras almas que, sendo boas, lutam isoladamente. São arma fundamentalíssima para quem queira ser apóstolo no meio do mundo.');
+INSERT INTO points VALUES(1485,0,1,484,'Peço a Deus que também te sirvam de modelo a adolescência e a juventude de Jesus, quer quando argumentava com os doutores do Templo, quer quando trabalhava na oficina de José.');
+INSERT INTO points VALUES(1486,0,1,485,'Trinta e três anos de Jesus!... Trinta foram de silêncio e obscuridade; de submissão e trabalho...');
+INSERT INTO points VALUES(1487,0,1,486,'Escrevia-me aquele rapagão: “O meu ideal é tão grande que só cabe no mar”. - Respondi-lhe: E o Sacrário, tão “pequeno”? E a oficina “vulgar” de Nazaré? - Na grandeza das coisas do dia-a-dia espera-nos Ele!');
+INSERT INTO points VALUES(1488,0,1,487,'Diante de Deus, nenhuma ocupação é em si mesma grande ou pequena. Tudo adquire o valor do Amor com que se realiza.');
+INSERT INTO points VALUES(1489,0,1,488,'O heroísmo do trabalho está em “acabar” cada tarefa.');
+INSERT INTO points VALUES(1490,0,1,489,'Insisto: na simplicidade do teu trabalho habitual, nos detalhes monótonos de cada dia, tens que descobrir o segredo - para tantos escondido - da grandeza e da novidade: o Amor.');
+INSERT INTO points VALUES(1491,0,1,490,'Está-te ajudando muito - dizes-me - este pensamento: desde os primeiros cristãos, quantos comerciantes não se terão feito santos? E queres demonstrar que também agora é possível... - O Senhor não te abandonará neste empenho.');
+INSERT INTO points VALUES(1492,0,1,491,'Tu também tens uma vocação profissional que te “aguilhoa”. - Pois bem, esse “aguilhão” é o anzol para pescar homens. Retifica, portanto, a intenção, e não deixes de adquirir todo o prestígio profissional possível, a serviço de Deus e das almas. O Senhor conta também com “isso”.');
+INSERT INTO points VALUES(1493,0,1,492,'Para acabar as coisas, é preciso começar a fazê-las. - Parece óbvio, mas falta-te tantas vezes esta simples decisão! E... como satanás se alegra com a tua ineficácia!');
+INSERT INTO points VALUES(1494,0,1,493,'Não se pode santificar um trabalho que humanamente seja um “lixo”, porque não devemos oferecer a Deus tarefas mal feitas.');
+INSERT INTO points VALUES(1495,0,1,494,'À força de descuidar detalhes, podem tornar-se compatíveis trabalhar sem descanso e viver como um perfeito comodista.');
+INSERT INTO points VALUES(1496,0,1,495,'Perguntaste o que é podias oferecer ao Senhor. - Não preciso pensar a minha resposta: as coisas de sempre, mas melhor acabadas, com um arremate de amor, que te leve a pensar mais nEle e menos em ti.');
+INSERT INTO points VALUES(1497,0,1,496,'Uma missão sempre atual e heróica para um cristão comum: realizar de maneira santa os mais diversos afazeres, mesmo aqueles que parecem mais indiferentes.');
+INSERT INTO points VALUES(1498,0,1,497,'Trabalhemos, e trabalhemos muito e bem, sem esquecer que a nossa melhor arma é a oração. Por isso, não me canso de repetir que temos que ser almas contemplativas no meio do mundo, que procuram converter o seu trabalho em oração.');
+INSERT INTO points VALUES(1499,0,1,498,'Escreves-me na cozinha, junto ao fogão, Está começando a tarde. Faz frio. A teu lado, a tua irmãzinha - a última que descobriu a loucura divina de viver a fundo a sua vocação cristã - descasca batatas. Aparentemente - pensas - o seu trabalho é igual ao de antes. Contudo, há tanta diferença! - É verdade: antes “só” descascava batatas; agora, santifica-se descascando batatas.');
+INSERT INTO points VALUES(1500,0,1,499,'Afirmas que vais compreendendo pouco a pouco o que quer dizer “alma sacerdotal”... Não te zangues se te respondo que os fatos demonstram que só o entendes em teoria. - Cada dia te acontece o mesmo: ao anoitecer, no exame, tudo são desejos e propósitos; de manhã e à tarde, no trabalho, tudo são objeções e desculpas. É assim que vives o “sacerdócio santo, para oferecer vítimas espirituais, agradáveis a Deus por Jesus Cristo”?');
+INSERT INTO points VALUES(1501,0,1,500,'Ao retomares a tua ocupação habitual, escapou-te como que um grito de protesto: sempre a mesma coisa! E eu te disse: - Sim, sempre a mesma coisa. Mas essa tarefa vulgar - igual à que realizam os teus colegas de trabalho - deve ser para ti uma contínua oração, com as mesmas palavras entranháveis, mas cada dia com música diferente. É missão muito nossa transformar a prosa desta vida em decassílabos, em poesia heróica.');
+INSERT INTO points VALUES(1502,0,1,501,'Aquele "stultorum infinitus est numerus" - é infinito o número de néscios -, que se lê na Escritura, parece crescer de dia para dia. Nas funções mais diversas, nas situações mais inesperadas, encobertos sob a capa do prestígio dado pelos cargos - e até pelas “virtudes” -, quanto avoamento e quanta falta de discernimento terás de suportar! Mas não compreendo que percas por esse motivo o sentido sobrenatural da vida, e permaneças indiferente: muito baixa é a tua condição interior, se agüentas essas situações - e não há outro jeito senão agüentá-las! - por motivos humanos... Se não os ajudas a descortinar o caminho, com um trabalho responsável e bem acabado - santificado! -, fazes-te como eles - néscio -, ou és cúmplice.');
+INSERT INTO points VALUES(1503,0,1,502,'Interessa que labutes, que metas ombros... Em todo o caso, coloca os afazeres profissionais no seu lugar: constituem exclusivamente meios para chegar ao fim; nunca se podem toma, nem de longe, como o fundamental. Quantas “profissionalites” impedem a união com Deus!');
+INSERT INTO points VALUES(1504,0,1,503,'Perdoa a minha insistência: o instrumento, o meio, não deve converter-se em fim. - Se, em vez do seu peso normal, uma enxada pesasse cinqüenta quilos, o lavrador, não poderia cavar com essa ferramenta, empregaria toda a sua energia em arrastá-la, e a semente não pegaria, porque ficaria sem ser usada.');
+INSERT INTO points VALUES(1505,0,1,504,'Sempre aconteceu o mesmo: quem trabalha, por muito reta e limpa que seja a sua atuação, facilmente desperta ciúmes, suspicácias, invejas. - Se ocupas um posto de direção, lembra-te de que essas apreensões de alguns, a respeito de um colega concreto, não são motivo suficiente para prescindir do “visado”; mostram antes que pode ser útil em tarefas maiores.');
+INSERT INTO points VALUES(1506,0,1,505,'Obstáculos?... À vezes, existem. - Mas, em algumas ocasiões, és tu que os inventas por comodismo ou por covardia. - Com que habilidade formula o diabo a aparência desses pretextos para que não trabalhes...!, porque sabe muito bem que a preguiça é a mãe de todos os vícios.');
+INSERT INTO points VALUES(1507,0,1,506,'Desenvolves uma atividade incansável. Mas não procedes com ordem e, portanto, falta-te eficácia. - Fazes-me lembrar o que ouvi, certa vez, de lábios muito autorizados. Quis louvar um subordinado diante do seu superior, e comentei: Quanto trabalha! - Deram-me esta resposta: Diga antes: quanto se mexe!... - Desenvolves uma incansável atividade estéril... Quando te mexes!');
+INSERT INTO points VALUES(1508,0,1,507,'Para tirar importância ao trabalho de outro, cochichaste: não fez mais do que cumprir o seu dever. E eu acrescentei: - Parece-te pouco?... Por cumprirmos o nosso dever, o Senhor nos dá a felicidade do Céu: "Euge serve bone et fidelis... intra in gaudium Domini tui" - muito bem, servo bom e fiel, entra no gozo eterno!');
+INSERT INTO points VALUES(1509,0,1,508,'O Senhor tem o direito - e cada um de nós a obrigação - de que O glorifiquemos “em todos os instantes”. Portanto, se desperdiçamos o tampo, roubamos glória a Deus.');
+INSERT INTO points VALUES(1510,0,1,509,'Bem sabes que o trabalho é urgente, e que um minuto concedido à comodidade representa um tempo subtraído à glória de Deus. - Que esperas, pois, para aproveitar conscientemente todos os instantes? Além disso, aconselho-te que consideres se esses minutos que te sobram ao longo do dia - bem somados, perfazem horas! - não obedecem à tua desordem ou à tua poltronice.');
+INSERT INTO points VALUES(1511,0,1,510,'A tristeza e a intranqüilidade são proporcionais ao tempo perdido. - Quando sentires uma santa impaciência por aproveitar todos os minutos, hão de invadir-te a alegria e a paz, porque não pensarás em ti.');
+INSERT INTO points VALUES(1512,0,1,511,'Preocupações?... - Eu não tenho preocupações - disse-te -, porque tenho muitas ocupações.');
+INSERT INTO points VALUES(1513,0,1,512,'Passas por uma fase crítica: um certo temor vago; dificuldade em adaptar o plano de vida; um trabalho sufocante, porque não te chegam as vinte e quatro horas do dia para cumprires todas as tuas obrigações... - Experimentaste seguir o conselho do Apóstolo: “Faça-se tudo com decoro e ordem”?, quer dizer, na presença de Deus, com Ele, por Ele e só para Ele?');
+INSERT INTO points VALUES(1514,0,1,513,'Quando distribuíres o teu tempo, deves pensar também em que é que vais empregar os espaços livres que se apresentem a horas imprevistas.');
+INSERT INTO points VALUES(1515,0,1,514,'Sempre entendi o descanso como um afastar-se do acontecer diário, nunca como dias de ócio. Descanso significa represar: acumular forças, ideais, planos... Em poucas palavras: mudar de ocupação, para voltar depois - com novos brios - aos afazeres habituais.');
+INSERT INTO points VALUES(1516,0,1,515,'Agora, que tens muitas coisas que fazer, desapareceram todos os “teus problemas”... - Sê sincero: como te decidiste a trabalhar por Ele, já não te sobra tempo para pensares nos teus egoísmos.');
+INSERT INTO points VALUES(1517,0,1,516,'As jaculatórias não dificultam o trabalho como o bater do coração não estorva o movimento do corpo.');
+INSERT INTO points VALUES(1518,0,1,517,'Santificar o trabalho próprio não é uma quimera, mas missão de todo o cristão...: tua e minha. - Assim o descobriu aquele torneiro mecânico, que comentava: “Deixa-me louco de alegria essa certeza de que eu, manejando o torno e cantando, cantando muito - por dentro e por fora -, posso fazer-me santo... Que bondade a do nosso Deus!”');
+INSERT INTO points VALUES(1519,0,1,518,'A tarefa parece-te ingrata, especialmente quando contemplas como os teus companheiros amam pouco a Deus, ao mesmo tempo que fogem da graça e do bem que lhes desejas fazer. Tens de procurar compensar tu o que eles omitem, dando-te também a Deus no trabalho - como nunca o tinhas feito até agora -, convertendo-o em oração que sobre ao Céu por toda a humanidade.');
+INSERT INTO points VALUES(1520,0,1,519,'Trabalhar com alegria não significa trabalhar “alegremente”, sem profundidade, como que tirando de cima dos ombros um peso incômodo... Procura que, por estouvamento ou por leviandade, os teus esforços não percam valor e, no fim das contas, te exponhas a apresentar-te diante de Deus de mãos vazias.');
+INSERT INTO points VALUES(1521,0,1,520,'Alguns atuam com preconceitos no trabalho: por princípio, não confiam em ninguém e, obviamente, não entendem a necessidade de procurar a santificação do seu ofício. Se lhes falas, respondem-te que não acrescentes mais carga à do seu próprio trabalho, que suportam de má vontade, como um peso. - Esta é uma das batalhas de paz que é preciso vencer: encontrar a Deus nas ocupações e - com Ele e como Ele - servir os outros.');
+INSERT INTO points VALUES(1522,0,1,521,'Assustam-te as dificuldades, e te retrais. Sabes que resumo se pode fazer do teu comportamento? Comodismo, comodismo, comodismo! Tinhas dito que estavas disposto a gastar-te, e a gastar-te sem limites, e ficas em aprendiz de herói. Reage com maturidade.');
+INSERT INTO points VALUES(1523,0,1,522,'Estudante: aplica-te com espírito de apóstolo aos teus livros, com a convicção íntima de que essas horas e horas são já - agora! - um sacrifício espiritual oferecido a Deus, proveitosa para a humanidade, para o teu país, para a tua alma.');
+INSERT INTO points VALUES(1524,0,1,523,'Tens um cavalo de batalha que se chama estudo: propões-te mil vezes aproveitar o tempo e, no entanto, qualquer coisa te distrai. Às vezes, cansas de ti mesmo, pela pouca vontade que manifestas, embora todos os dias recomeces.');
+INSERT INTO points VALUES(1525,0,1,524,'É mais fácil mexer-se do que estudar, e menos eficaz.');
+INSERT INTO points VALUES(1526,0,1,525,'Se sabes que o estudo é apostolado, e te limitas a estudar para passar, evidentemente a tua vida interior vai mal. Com esse desleixo, perdes o bom espírito e, como aconteceu àquele trabalhador da parábola, que escondeu com manha o talento recebido, se não retificas, podes autoexcluir-te da amizade com o Senhor, para te enlameares nos teus cálculos de comodismo.');
+INSERT INTO points VALUES(1527,0,1,526,'É necessário estudar... Mas não é suficiente. Que se pode conseguir de quem se esfalfa para alimentar o seu egoísmo, ou de quem não persegue outro objetivo senão o de garantir a tranqüilidade, para daqui a alguns anos? É preciso estudar..., para ganhar o mundo e conquistá-lo para Deus. Então elevaremos o nível do nosso esforço, procurando que o trabalho realizado se converta em encontro com o Senhor, e sirva de base aos outros, aos que seguirão o nosso caminho... - Deste modo, o estudo será oração.');
+INSERT INTO points VALUES(1528,0,1,527,'Depois de conhecer tantas vidas heróicas, vividas por Deus sem sair do seu lugar, cheguei a esta conclusão: para um católico, trabalhar não é cumprir, é amar!; e exceder-se com gosto, e sempre, no dever e no sacrifício.');
+INSERT INTO points VALUES(1529,0,1,528,'Quando compreenderes esse ideal de trabalho fraterno por Cristo, sentir-te-ás maior, mais firme, e tão feliz quanto se pode ser neste mundo, que tantos se empenham em deteriorar e tornar amargo, porque andam exclusivamente atrás do seu próprio eu.');
+INSERT INTO points VALUES(1530,0,1,529,'A santidade compõe-se de heroísmos. - Portanto, o que se nos pede no trabalho é o heroísmo de “acabar” bem as tarefas que nos comprometem, dia após dia, ainda que se repitam as mesmas ocupações. Senão, não queremos ser santos!');
+INSERT INTO points VALUES(1531,0,1,530,'Convenceu-me aquele sacerdote amigo nosso. Falava-me da sua atividade apostólica, e me assegurava que não há ocupações pouco importantes. Debaixo deste campo coalhado de rosas - dizia, esconde-se o esforço silencioso de tantas algumas que, com o seu trabalho e oração, com a sua oração e trabalho, conseguiram do Céu uma torrente de chuvas da graça, que tudo fecunda.');
+INSERT INTO points VALUES(1532,0,1,531,'Coloca na tua mesa de trabalho, no teu quarto, na tua carteira..., uma imagem de Nossa Senhora, e dirige-lhe o olhar ao começares a tua tarefa, enquanto a realizas e ao terminá-la. Ela te alcançará - garanto! - a força necessária para fazeres, da tua ocupação, um diálogo amoroso com Deus.');
+INSERT INTO points VALUES(1533,0,1,532,'Quando se pensa com a mente clara nas misérias da terra, e se contrasta esse panorama com as riquezas da vida com Cristo, a meu ver não se encontra senão uma palavra que qualifique - com expressão rotunda - o caminho que muitos escolhem: estupidez, estupidez, estupidez. Não é que a maioria dos homens nos enganemos; sucede-nos coisa bastante pior: somos tolos da cabeça aos pés.');
+INSERT INTO points VALUES(1534,0,1,533,'É triste que não queiras esconder-te como um silhar, para alicerçar o edifício. Mas que te convertas em pedra onde os outros tropecem..., isso parece-me de malvados!');
+INSERT INTO points VALUES(1535,0,1,534,'Não te escandalizes por haver maus cristãos, que fazem barulho e não praticam. O Senhor - escreve o Apóstolo - “há de pagar a cada um segundo as suas obras”: a ti, pelas tuas; e a mim, pelas minhas. - Se tu e eu nos decidirmos a portar-nos bem, para começar já haverá dois pilantras a menos no mundo.');
+INSERT INTO points VALUES(1536,0,1,535,'Enquanto não lutares contra a frivolidade, a tua cabeça será semelhante a uma loja de bricabraque: não conterá senão utopias, sonhos e... trastes velhos.');
+INSERT INTO points VALUES(1537,0,1,536,'Tens uma dose de “malandragem” que, se a empregasses com sentido sobrenatural, te serviria para ser um cristão formidável... - Mas, tal como a usas, não passas de um formidável “malandro”.');
+INSERT INTO points VALUES(1538,0,1,537,'Quando te vejo tomar tudo à ligeira, lembras-me aquela velha piada: “Vem aí um leão!”, disseram-lhe. E respondeu o cândido naturalista: “E eu que tenho com isso? Eu caço borboletas!”');
+INSERT INTO points VALUES(1539,0,1,538,'Uma pessoa terrível: o ignorante que é, ao mesmo tempo, trabalhador, infatigável. Não afrouxes, ainda que estejas morrendo de velho, no empenho por formar-te mais.');
+INSERT INTO points VALUES(1540,0,1,539,'Desculpa própria do homem frívolo e egoísta: “Não gosto de comprometer-me com nada”.');
+INSERT INTO points VALUES(1541,0,1,540,'Não queres nem uma coisa - o mal - nem outra - o bem -... E assim, mancando dos dois pés, além de errares de caminho, a tua vida fica cheia de vazio.');
+INSERT INTO points VALUES(1542,0,1,541,'"In medio virtus..." - A virtude está no meio, diz a sábia sentença, para nos afastar dos extremismos. - Mas não vás cair no logro de converter esse conselho em eufemismo para encobrires a tua comodidade, matreirice, tibieza, “malandragem”, falta de ideais, aburguesamento. Medita aquelas palavras da Escritura Santa: “Oxalá fosses frio ou quente! Mas porque és tíbio, e não frio nem quente, estou para te vomitar da minha boca”.');
+INSERT INTO points VALUES(1543,0,1,542,'Nunca chegas ao miolo. Ficas sempre no acidental! - Permite-me que te repita com a Escritura Santa: não fazes mais do que “falar ao vento”!');
+INSERT INTO points VALUES(1544,0,1,543,'Não te comportes tu como esses que, ouvindo um sermão, em vez de aplicarem a doutrina a si mesmos, julgam: como isto se aplica bem a Fulano!');
+INSERT INTO points VALUES(1545,0,1,544,'Às vezes, alguns pensam que na calúnia não há má intenção: é a hipótese - dizem - com que a ignorância explica o que desconhece ou não compreende, para se dar ares de bem informada. Mas é duplamente má: por ser ignorante e por ser mentirosa.');
+INSERT INTO points VALUES(1546,0,1,545,'Não fales com tanta irresponsabilidade... Não compreendes que, mal tu lanças a primeira pedra, outros - no anonimato - organizam um apedrejamento?');
+INSERT INTO points VALUES(1547,0,1,546,'És tu mesmo quem cria essa atmosfera de descontentamento entre os que te rodeiam? - Perdoa então que te diga que, além de malvado, és... estúpido.');
+INSERT INTO points VALUES(1548,0,1,547,'Perante a desgraça ou o erro, constitui uma triste satisfação poder dizer: “Eu já o tinha previsto”. Isso significaria que não te importavas com a desventura alheia: porque deverias tê-la remediado, se estava ao teu alcance.');
+INSERT INTO points VALUES(1549,0,1,548,'Há muitos modos de semear desorientação... - basta, por exemplo, apontar a exceção como regra geral.');
+INSERT INTO points VALUES(1550,0,1,549,'Dizes que és católico... - Por isso, quanta pena me dás, quando verifico que as tuas convicções não são suficientemente sólidas para te levarem a viver um catolicismo de ação, sem soluções de continuidade e sem ressalvas.');
+INSERT INTO points VALUES(1551,0,1,550,'Faria rir, se não fosse tão dolorosa, essa ingenuidade com que aceitas - por ligeireza, ignorância, complexo de inferioridade... - as balelas mais grosseiras.');
+INSERT INTO points VALUES(1552,0,1,551,'Imaginam os tolos, os inescrupulosos, os hipócritas, que os outros são também da sua condição... E os tratam - isso é que é penoso - como se o fossem.');
+INSERT INTO points VALUES(1553,0,1,552,'Já seria ruim que perdesses o tempo, que não é teu, mas de Deus, e para a sua glória. Mas se, além disso, fazes que outros o percam, diminuis por um lado o teu prestígio e, por outro, aumentas o esbulho da glória que deves a Deus.');
+INSERT INTO points VALUES(1554,0,1,553,'Faltam-te a maturidade e o recolhimento próprios de quem caminha pela vida com a certeza de um ideal, de uma meta. - Reza à Virgem Santa, para que aprendas a exaltar a Deus com toda a tua alma, sem dispersões de nenhum gênero.');
+INSERT INTO points VALUES(1555,0,1,554,'Cristo ressuscitado: o maior dos milagres só foi visto por uns poucos..., os necessários. A naturalidade é a assinatura das obras divinas.');
+INSERT INTO points VALUES(1556,0,1,555,'Quando se trabalha única e exclusivamente para a glória de Deus, tudo se faz com naturalidade, com simplicidade, como quem tem pressa e não pode deter-se em “grandes manifestações”, para não perder esse trato - irrepetível e incomparável - com o Senhor.');
+INSERT INTO points VALUES(1557,0,1,556,'“Por que razão” - perguntavas indignado - “o ambiente e os instrumentos de apostolado hão de ser feios, sujos... e complicados?” - E acrescentavas: “Mas se custa a mesma coisa!” - A mim, a tua indignação pareceu-me muito razoável. E considerei que Jesus se dirigia e atraía a todos: pobres e ricos, sábios e ignorantes, alegres e tristes, jovens e anciãos... Como é amável e natural - sobrenatural - a Sua figura!');
+INSERT INTO points VALUES(1558,0,1,557,'Para a eficácia, naturalidade. Que se pode esperar de um pincel - mesmo mas mãos de um grande pintor -, se envolvem os pelos numa carapuça de seda?');
+INSERT INTO points VALUES(1559,0,1,558,'Os santos tornam-se sempre “incômodos” para os outros.');
+INSERT INTO points VALUES(1560,0,1,559,'Santos, anormais?... Chegou a hora de arrancar esse preconceito. Temos de ensinar, com a naturalidade sobrenatural da ascética cristã, que nem sequer os fenômenos místicos significam anormalidade: é essa a naturalidade desses fenômenos..., como outros processos psíquicos ou fisiológicos têm a sua.');
+INSERT INTO points VALUES(1561,0,1,560,'Fala-te do horizonte que se abre diante dos nossos olhos, e do caminho que devemos percorrer. - Não tenho objeções!, declaraste, como que estranhado de “não as ter”... - Grava bem isto na cabeça: é que não deve havê-las!!');
+INSERT INTO points VALUES(1562,0,1,561,'Evita essa adulação ridícula que, talvez de um modo inconsciente, manifesta às vezes a quem governa, convertendo-te em alto-falante sistemático dos seus gostos ou das suas opiniões em pontos intranscendentes. - Põe mais cuidado ainda, no entanto, em não te empenhares em apresentar os seus defeitos como pormenores simpáticos, mostrando uma familiaridade que o desautoriza, ou - o que seria prestar-lhe um triste serviço! - chegando à deformação de converter oque não está certo em algo engraçado.');
+INSERT INTO points VALUES(1563,0,1,562,'Crias à tua volta um clima artificial, de desconfiança, de suspeita, porque, quando falas, dás a impressão de estar jogando xadrez: cada palavra, pensando na quarta jogada posterior. Repara que o Evangelho, ao relatar a triste figura cautelosa e hipócrita dos escribas e fariseus, diz que faziam perguntas a Jesus, expunham-Lhe questões, "ut caperent eum in sermone" - para retorcer as suas palavras! - Foge desse comportamento.');
+INSERT INTO points VALUES(1564,0,1,563,'A naturalidade nada tem que ver com a grosseria, nem com a sujeira, nem com a pobretice, nem com a má educação. Alguns empenham-se em reduzir o serviço a Deus ao trabalho com o mundo da miséria e - perdoai - dos piolhos. Esta tarefa é e será necessária e admirável; mas, se ficarmos exclusivamente nisso, além de abandonarmos a imensa maioria das almas, quando tivermos tirado os necessitados dessa situação, iremos ignorá-los?');
+INSERT INTO points VALUES(1565,0,1,564,'Dizes que és indigno? - Pois então... procura tornar-te digno. E pronto.');
+INSERT INTO points VALUES(1566,0,1,565,'Que ânsias tens de ser extraordinário!... - O que acontece contigo é... vulgaríssimo!');
+INSERT INTO points VALUES(1567,0,1,566,'Bem-aventurada és tu porque acreditaste, diz Isabel à nossa Mãe. - A união com Deus, a vida sobrenatural, comporta sempre a prática atraente das virtudes humanas: Maria leva a alegria ao lar de sua prima, porque “leva” Cristo.');
+INSERT INTO points VALUES(1568,0,1,567,'Fazias a tua oração diante de um Crucifixo, e tomaste esta decisão: é melhor sofrer pela verdade, do que a verdade ter que sofrer por mim.');
+INSERT INTO points VALUES(1569,0,1,568,'Muitas vezes a verdade é tão inverossímil!..., sobretudo porque sempre exige coerência de vida.');
+INSERT INTO points VALUES(1570,0,1,569,'Se te incomoda que te digam a verdade, então... por que perguntas? - Pretendes talvez que te respondam com a tua verdade, para justificares os teus descaminhos?');
+INSERT INTO points VALUES(1571,0,1,570,'Garantes que tens muito respeito pela verdade... É por isso que te colocas sempre a uma distância tão “respeitosa”?');
+INSERT INTO points VALUES(1572,0,1,571,'Não te comportes como um mentecapto: nunca é fanatismo querer conhecer cada dia melhor, e amar mais, e defender com maior segurança, a verdade que tens de conhecer, amar e defender. Pelo contrário - digo-o sem medo -, caem no sectarismo os que se opõem a esta conduta lógica, em nome de uma falsa liberdade.');
+INSERT INTO points VALUES(1573,0,1,572,'Torna-se fácil - o mesmo acontecia no tempo de Jesus Cristo - dizer “não”: negar ou pôr reservas a uma verdade de fé. - Tu, que te declaras católico, tens que partir do “sim”. - Depois, mediante o estudo, serás capaz de expor os motivos da tua certeza: de que não há contradição - não pode havê-la - entre Verdade e ciência, entre Verdade e vida.');
+INSERT INTO points VALUES(1574,0,1,573,'Não abandones a tarefa, não te afastes do caminho, mesmo que tenhas de conviver com pessoas cheias de preconceitos, como se a base dos raciocínios ou o significado dos termos se definissem pelo seu comportamento ou pelas suas afirmações. - Esforça-te para que te entendam..., mas, se não o consegues, segue em frente.');
+INSERT INTO points VALUES(1575,0,1,574,'Encontrarás pessoas a quem, pela sua obtusa teimosia, dificilmente poderás persuadir... Mas, fora esses casos, vale a pena esclarecer as discordâncias, e esclarecê-las com toda a paciência que se faça necessária.');
+INSERT INTO points VALUES(1576,0,1,575,'Alguns não ouvem - não desejam ouvir - senão as palavras que têm na sua cabeça.');
+INSERT INTO points VALUES(1577,0,1,576,'Para tantos, a compreensão que exigem aos outros consiste em que todos passem para o seu partido.');
+INSERT INTO points VALUES(1578,0,1,577,'Não posso acreditar na tua veracidade, se não sentes mal-estar - e um mal-estar incômodo! - ante a mentira mais pequena e inócua, que nada tem de pequena nem de inócua, porque é ofensa a Deus.');
+INSERT INTO points VALUES(1579,0,1,578,'Por que olhas, e ouves, e lês, e falas, com intenção baixa, e tratas de captar o “ruim” que habita, não na intenção dos outros, mas somente na tua alma?');
+INSERT INTO points VALUES(1580,0,1,579,'Quando não há retidão naquele que lê, torna-se difícil que descubra a retidão daquele que escreve.');
+INSERT INTO points VALUES(1581,0,1,580,'O sectário só vê sectarismo em todas as atividades dos outros. Mede o próximo com a medida raquítica do seu coração.');
+INSERT INTO points VALUES(1582,0,1,581,'Causou-me pena aquele homem de governo. Intuía a existência de alguns problemas, aliás lógicos na vida..., e se assustou e se aborreceu quando lhos comunicaram. Preferia desconhecê-los, viver com a meia-luz ou com a penumbra da sua visão, para permanecer tranqüilo. Aconselhei-o a enfrentá-los com crueza e em plena luz, justamente para que deixassem de existir, e assegurei-lhe que então, sim, viveria com a verdadeira paz. Tu, não resolvas os problemas, próprios e alheios, ignorando-os: isso seria comodismo, preguiça, abrir a porta à ação do diabo.');
+INSERT INTO points VALUES(1583,0,1,582,'Cumpriste com o teu dever?... A tua intenção foi reta?... Sim? - Então não te preocupes se há pessoas anormais, que descobrem o mal que só existe no seu olhar.');
+INSERT INTO points VALUES(1584,0,1,583,'Perguntaram-te - inquisitivos - se julgavas boa ou má aquela tua decisão, que eles consideravam indiferente. E, com a consciência segura, respondeste: “Somente sei duas coisas: que a minha intenção é limpa e que... sei bem quanto me custa”. E acrescentaste: Deus é a razão e o fim da minha vida, e por isso consta-me que não há nada indiferente.');
+INSERT INTO points VALUES(1585,0,1,584,'Explicaste-lhe os teus ideais e a tua conduta, segura, firme, de católico: e pareceu que aceitava e compreendia o caminho. - Mas depois ficastes com a dúvida de saber se não teria abafado essa sua compreensão entre os seus costumes não muito corretos... Procura-o de novo, e esclarece-lhe que a verdade e coisa que se aceita para vivê-la ou para tentar vivê-la.');
+INSERT INTO points VALUES(1586,0,1,585,'Quem são eles para querer experimentar primeiro?... Por que têm que desconfiar?, comentas-me. - Olha: responde-lhes, da minha parte, que desconfiem da sua própria miséria..., e prossegue com tranqüilidade os teus passos.');
+INSERT INTO points VALUES(1587,0,1,586,'Dão-te compaixão... - Com uma total falta de galhardia, jogam a pedra e escondem a mão. Olha o que sentencia deles o Espírito Santo: “Ficarão confusos e envergonhados todos os forjadores de erros; todos à uma serão cobertos de opróbrio”. Sentença que se cumprirá inexoravelmente.');
+INSERT INTO points VALUES(1588,0,1,587,'Dizes que são bastantes os que difamam e murmuram daquele empreendimento apostólico?... - Pois bem, logo que tu proclamas a verdade, pelo menos já haverá um que não criticará.');
+INSERT INTO points VALUES(1589,0,1,588,'No trigal mais belo e promissor, é fácil carpir carradas de saramagos, de papoulas e de capim... - A respeito da pessoa mais íntegra e responsável, não falta, ao longo da história, com que encher páginas negras... Pensa também quanto não têm falado e escrito contra Nosso Senhor Jesus Cristo. - Aconselho-te que - como no trigal - colha as espigas brancas e graúdas: a verdadeira verdade.');
+INSERT INTO points VALUES(1590,0,1,589,'Para ti, que me afirmaste que queres ter uma consciência reta: não esqueças que acolher uma calúnia, sem impugná-la, é converter-se em coletor de lixo.');
+INSERT INTO points VALUES(1591,0,1,590,'Essa tua propensão - abertura, como lhe chamas - para admitir facilmente qualquer afirmação que vá contra aquela pessoa, sem ouvi-la, não é precisamente justiça..., e muito menos caridade.');
+INSERT INTO points VALUES(1592,0,1,591,'A calúnia, às vezes um mal aos que a padecem... Mas a quem verdadeiramente desonra é aos que a lançam e difundem..., e depois carregam esse peso no fundo da alma.');
+INSERT INTO points VALUES(1593,0,1,592,'Por que tantos murmuradores?, perguntas-te magoado. - Uns, por erro, por fanatismo ou por malícia. - Mas a maioria repete o boato por inércia, por superficialidade, por ignorância. Por isso, volto a insistir: quando não puderes louvar, e não seja necessário falar, cala-te!');
+INSERT INTO points VALUES(1594,0,1,593,'Quando a vítima caluniada padece em silêncio, os “carrascos” assanham-se na sua valente covardia. Desconfia dessas afirmações rotundas, se aqueles que as propugnam não tentaram, ou não quiseram, falar com o interessado.');
+INSERT INTO points VALUES(1595,0,1,594,'Existem muitos modos de fazer um inquérito. Com um pouco de malícia, dando ouvidos às murmurações, reúnem-se dez volumes de bom tamanho contra qualquer pessoa nobre ou entidade digna. - E mais, se essa pessoa ou entidade trabalha com eficácia. - E muito mais ainda, se essa eficácia é apostólica...');
+INSERT INTO points VALUES(1596,0,1,595,'Esses - dizia ele com pena - não apreendem Cristo, mas uma máscara de Cristo... Por isso carecem de critério cristão, não alcançam a verdade e não dão fruto. Não podemos esquecer, nós os filhos de Deus, que o Mestre anunciou: “Quem vos ouve, a Mim ouve...” - Por isso, temos de procurar ser Cristo; nunca a sua caricatura.');
+INSERT INTO points VALUES(1597,0,1,596,'Neste caso, como em tantos outros, os homens mexem-se - todos julgam ter razão -..., e Deus os guia: quer dizer, por cima das suas razões particulares, acabará por triunfar a imperscrutável e amorosíssima Providência de Deus. Deixa-te, pois, “guiar” pelo Senhor, sem te opores aos seus planos, ainda que contradigam as tuas “razões fundamentais”.');
+INSERT INTO points VALUES(1598,0,1,597,'É uma experiência penosa observar que alguns, menos preocupados em aprender, em tomar posse dos tesouros adquiridos pela ciência, se dedicam a construí-la ao seu gosto, com procedimentos mais ou menos arbitrários. Mas essa comprovação deve levar-te a redobrar o teu empenho em aprofundar na verdade.');
+INSERT INTO points VALUES(1599,0,1,598,'Mais cômodo do que pesquisar é escrever contra os que pesquisam, ou contra os que contribuem com novas descobertas para a ciência e para a técnica. - Mas não devemos tolerar que, além disso, esses “críticos” pretendam erigir-se em senhores absolutos do saber e da opinião dos ignorantes.');
+INSERT INTO points VALUES(1600,0,1,599,'“Não fica claro, não fica claro”, contrapunha aquele homem à afirmação segura dos outros... E o que ficava claro era a sua ignorância.');
+INSERT INTO points VALUES(1601,0,1,600,'Aborrece-te ferir, criar divisões, demonstrar intolerâncias..., e vais transigindo em atitudes e pontos - não são graves, garantes! - que trazem conseqüências nefastas para tantos. Perdoa a minha sinceridade: com esse modo de proceder, cais na intolerância - que tanto te aborrece - mais néscia e prejudicial: a de impedir que a verdade seja proclamada.');
+INSERT INTO points VALUES(1602,0,1,601,'Deus, pela sua justiça e pela sua misericórdia - infinitas e perfeitas -, trata com o mesmo amor, e de modo desigual, os filhos desiguais. Por isso, igualdade não significa medir a todos com a mesma bitola.');
+INSERT INTO points VALUES(1603,0,1,602,'Dizes uma verdade a meias, com tantas possíveis interpretações, que se pode qualificar como... mentira.');
+INSERT INTO points VALUES(1604,0,1,603,'A dúvida - no terreno da ciência, da fama alheia - é uma planta que se semeia facilmente, mas que custa muito a arrancar.');
+INSERT INTO points VALUES(1605,0,1,604,'Fazes-me lembrar Pilatos: "Quod scripsi, scripsi!" o que escrevi não se muda... -, depois de ter permitido o crime mais horrível. - És inamovível! mas deverias ter assumido essa posição antes..., não depois!');
+INSERT INTO points VALUES(1606,0,1,605,'É virtude manter-se coerente com as próprias resoluções. Mas, se com o passar do tempo mudam os dados, é também um dever de coerência retificar o enfoque e a solução do problema.');
+INSERT INTO points VALUES(1607,0,1,606,'Não confundas a intransigência santa com a teimosia obtusa. “Quebro, mas não me dobro”, afirmas ufano e com certa altivez. - Ouve-me bem: o instrumento quebrado torna-se imprestável, e deixa aberto o campo àqueles que, com aparente transigência, impõem depois uma intransigência nefasta.');
+INSERT INTO points VALUES(1608,0,1,607,'"Sancta Maria, Sedes Sapientiae" - Santa Maria, Sede de Sabedoria. - Invoca com freqüência, deste modo, a Nossa Mãe, para que Ela cumule os seus filhos, no seu trabalho, na sua convivência - da Verdade que Cristo nos trouxe.');
+INSERT INTO points VALUES(1609,0,1,608,'Perante os que reduzem a religião a um cúmulo de negações, ou se conformam com um catolicismo de meias-tintas; perante os que querem pôr o Senhor de cara contra a parede, ou colocá-Lo num canto da alma..., temos de afirmar, com as nossas palavras e com as nossas obras, que aspiramos a fazer de Cristo um autêntico Rei de todos os corações..., também dos deles.');
+INSERT INTO points VALUES(1610,0,1,609,'Não trabalhes em empreendimentos apostólicos, construindo somente para agora... Dedica-te a essas tarefas com a esperança de que outros - irmãos teus com o mesmo espírito - colham o que semeias a mãos cheias e arrematem os edifícios que vais alicerçando.');
+INSERT INTO points VALUES(1611,0,1,610,'Quando o espírito cristão te animar de verdade, os teus anseios se irão retificando. - Já não sentirás ânsias de conseguir renome, mas de perpetuar o teu ideal.');
+INSERT INTO points VALUES(1612,0,1,611,'Se não é para construir uma obra muito grande, muito de Deus - a santidade -, não vale a pena entregar-se. Por isso, a Igreja - ao canonizar os santos - proclama a heroicidade da sua vida.');
+INSERT INTO points VALUES(1613,0,1,612,'Quando trabalhares a sério pelo Senhor, a tua maior satisfação consistirá em que haja muitos que te façam concorrência.');
+INSERT INTO points VALUES(1614,0,1,613,'Nesta hora de Deus, a tua passagem pela terra, decide-te de verdade a realizar alguma coisa que valha a pena; o tempo urge, e é tão nobre, tão heróica, tão gloriosa a missão do homem e da mulher sobre a terra, quando acendem no fogo de Cristo os corações murchos e apodrecidos! - Vale a pena levar aos outros a paz e a felicidade de uma rija e jubilosa cruzada.');
+INSERT INTO points VALUES(1615,0,1,614,'Jogas a vida pela honra... Joga a honra pela alma.');
+INSERT INTO points VALUES(1616,0,1,615,'Pela Comunhão dos Santos, tens de sentir-te muito unido aos teus irmãos. Defende sem medo essa bendita unidade! - Se te encontrasses só, as tuas nobres ambições estariam condenadas ao fracasso: uma ovelha isolada é quase sempre uma ovelha perdida.');
+INSERT INTO points VALUES(1617,0,1,616,'Achei graça à tua veemência. Perante a falta de meios materiais de trabalho e sem a ajuda de outros, comentavas: “Eu só tenho dois braços, mas às vezes sinto a impaciência de ser um monstro com cinqüenta, para semear e apanhar a colheita”. - Pede ao Espírito Santo essa eficácia... Ele ta concederá!');
+INSERT INTO points VALUES(1618,0,1,617,'Chegaram-te às mãos dois livros em russo, e deu-te uma vontade enorme de estudar essa língua. Imaginavas a beleza de morrer como grão de trigo nessa nação, agora tão árida, que com o tempo dará crescidos trigais... - Acho bem as tuas ambições. Mas, agora, dedica-te ao pequeno dever, à grande missão de cada dia, ao teu estudo, ao teu trabalho, ao teu apostolado e, sobretudo, à tua formação, que pelo muito que ainda deves podar - não é tarefa nem menos heróica nem menos bela.');
+INSERT INTO points VALUES(1619,0,1,618,'Para que serve um estudante que não estuda?');
+INSERT INTO points VALUES(1620,0,1,619,'Quando estudar se torne para ti uma encosta muito árdua, oferece a Jesus esse esforço. Dize-Lhe que continuas debruçado sobre os livros para que a tua ciência seja a arma com que combatas os seus inimigos e ganhes muitas almas para Ele... Então poderás ter a certeza de que o teu estudo leva caminho de converter-se em oração.');
+INSERT INTO points VALUES(1621,0,1,620,'Se perdes as horas e os dias, se matas o tempo, abres as portas da tua alma ao demônio. Esse comportamento equivale a sugerir-lhe: “Aqui tens a tua casa”.');
+INSERT INTO points VALUES(1622,0,1,621,'Dizes que é difícil não perder o tempo - Concedo-te... Mas olha que o inimigo de Deus, os “outros”, não descansam. Além disso, lembra-te desta verdade que Paulo, um campeão do amor de Deus, proclama: "Tempus breve est!" - esta vida escapa-nos das mãos, e não existe a possibilidade de recuperá-la.');
+INSERT INTO points VALUES(1623,0,1,622,'Tens consciência do que significa seres ou não uma pessoa com sólida preparação? - Quantas almas!... - E agora deixarás de estudar ou de trabalhar com perfeição?');
+INSERT INTO points VALUES(1624,0,1,623,'Existem duas maneiras de alcançar altura: uma - cristã -, pelo esforço nobre e galhardo de subir para servir os demais homens; e outra - pagã -, pelo esforço baixo e ignóbil de afundar o próximo.');
+INSERT INTO points VALUES(1625,0,1,624,'Não me afirmes que vives de cara para Deus, se não te esforças por viver - sempre e em tudo - com sincera e clara fraternidade de cara para os homens, para qualquer homem.');
+INSERT INTO points VALUES(1626,0,1,625,'Os “ambiciosos” - de pequenas e miseráveis ambições pessoais - não entendem que os amigos de Deus aspirem a “alguma coisa”, por serviço e não por “ambição”.');
+INSERT INTO points VALUES(1627,0,1,626,'Uma ansiedade te consome: a pressa em forjar-te logo, em moldar-te, em martelar-te e polir-te, para chegares a ser a peça harmônica que cumpra eficazmente a tarefa prevista, a missão atribuída..., no grande campo de Cristo. Rezo muito por ti, para que esse anseio seja acicate na hora do cansaço, do malogro, da obscuridade..., porque “a missão atribuída no grande campo de Cristo” não pode mudar.');
+INSERT INTO points VALUES(1628,0,1,627,'Precisas lutar decididamente contra essa falsa humildade - comodismo, é como deverias chamá-la -, que te impede de comportar-te com a maturidade do bom filho de Deus: tens de crescer! - Não te causa vergonha ver que os teus irmãos mais velhos levam anos de trabalho abnegado, e que tu ainda não és capaz - não queres ser capaz - de mexer um dedo para ajudá-los?');
+INSERT INTO points VALUES(1629,0,1,628,'Deixa que a tua alma se consuma em desejos... Desejos de amor, de esquecimento próprio, de santidade, de Céu... Não te detenhas a pensar se chegarás alguma vez a vê-los realizados, como te sugerirá algum sisudo conselheiro; aviva-os cada vez mais, porque o Espírito Santo diz que Lhe agradam os “varões de desejos”. Desejos operantes, que tens de pôr em prática na tarefa cotidiana.');
+INSERT INTO points VALUES(1630,0,1,629,'Se o Senhor te chamou “amigo”, tens de responder à chamada, tens de caminhar com passo rápido, com a urgência necessária: ao passo de Deus! Caso contrário, corres o risco de ficar em simples espectador.');
+INSERT INTO points VALUES(1631,0,1,630,'Esquece-te de ti mesmo... Que a tua ambição seja a de não viveres senão para os teus irmãos, para as almas. para a Igreja; numa palavra, para Deus.');
+INSERT INTO points VALUES(1632,0,1,631,'No meio do júbilo da festa, em Caná, apenas Maria repara na falta de vinho... Até aos menores detalhes de serviço chega a alma se, como Ela, vive apaixonadamente pendente do próximo por Deus.');
+INSERT INTO points VALUES(1633,0,1,632,'Aos que a cultivam, a hipocrisia faz levar sempre uma vida de mortificação amarga e rancorosa.');
+INSERT INTO points VALUES(1634,0,1,633,'Diante de propostas como a de Herodes - “Ide e informai-vos pontualmente do que há sobre esse menino e, tendo-o achado, avisai-me para que eu também vá adorá-lo” -, peçamos ao Espírito Santo a sua ajuda, para que nos guarde das “proteções ou das boas promessas” de aparentes bem-intencionados. - Não nos faltará a luz do Paráclito se, como os Magos, procurarmos a verdade e falarmos com sinceridade.');
+INSERT INTO points VALUES(1635,0,1,634,'Então há quem se incomode porque dizes as coisas claramente? - Talvez estejam procedendo com a consciência turva, e precisem encobri-la desse modo. - Persevera na tua conduta, para ajudá-los a reagir.');
+INSERT INTO points VALUES(1636,0,1,635,'Enquanto interpretas com má fé as intenções alheias, não terás o direito de exigir compreensão para ti mesmo.');
+INSERT INTO points VALUES(1637,0,1,636,'Falas continuamente de que é preciso corrigir, de que é preciso reformar. Muito bem...: reforma-te tu! - que boa falta te faz -, e já terás começado a reforma. - Enquanto não o fizeres, não darei crédito às tuas proclamações de renovação.');
+INSERT INTO points VALUES(1638,0,1,637,'Há alguns tão farisaicos que... se escandalizam quando vêem que outras pessoas repetem exatamente o mesmo que antes escutaram dos seus lábios.');
+INSERT INTO points VALUES(1639,0,1,638,'És tão intrometido, que parece que não te ocupa outra missão que a de bisbilhotar na vida do próximo. E quando, por fim, tropeças-te com um homem digno, de vontade enérgica, que te deu um “basta”, lamentas-te publicamente como se tivesse ofendido. - Até aí chega o teu impudor e a tua consciência deformada..., e a de muitos.');
+INSERT INTO points VALUES(1640,0,1,639,'Numa só jogada, pretendes apropriar-te da “honradez” da opinião verdadeira e das “vantagens” ignóbeis da opinião oposta... - Isso, em qualquer língua, chama-se duplicidade.');
+INSERT INTO points VALUES(1641,0,1,640,'Que bondade a daqueles!!... - Estão dispostos a “desculpar” o que só merece louvor.');
+INSERT INTO points VALUES(1642,0,1,641,'Velho ardil, o do perseguidor que se diz perseguido... - O povo denunciou-o há muito tempo em claro adágio: atirar a pedra e sair gemendo.');
+INSERT INTO points VALUES(1643,0,1,642,'Será verdade que - infelizmente - são numerosos os que faltam à justiça com as suas calúnias e, depois, invocam a caridade e a honradez, para que a sua vítima não possa defender-se?');
+INSERT INTO points VALUES(1644,0,1,643,'Triste ecumenismo esse que anda na boca de católicos que maltratam outros católicos!');
+INSERT INTO points VALUES(1645,0,1,644,'Que errônea visão da objetividade! Focalizam as pessoas ou as iniciativas com as lentes deformadas dos seus próprios defeitos e, com ácida desvergonha, criticam ou se permitem vender conselhos. - Propósito concreto: ao corrigir ou aconselhar, falar na presença de Deus, aplicando essas mesmas palavras à nossa conduta.');
+INSERT INTO points VALUES(1646,0,1,645,'Não recorras nunca ao método - sempre deplorável - de organizar agressões caluniosas contra ninguém... Muito menos em nome de motivos moralizantes, que nunca justificam uma ação imoral.');
+INSERT INTO points VALUES(1647,0,1,646,'Não há isenção nem intenção reta nos teus conselhos, se te incomoda, ou consideras uma prova de desconfiança, que sejam ouvidas também outras pessoas de comprovada formação e reta doutrina. - Se é certo que, como asseguras, te interessa o bem das almas ou a afirmação da verdade, porque te ofendes?');
+INSERT INTO points VALUES(1648,0,1,647,'Maria nem a José comunica o mistério que Deus operou nEla. - para que nos habituemos a não ser levianos, a dar rumo devido às nossas alegrias e às nossas tristezas: sem procurar que nos exaltem ou que se compadeçam de nós. "Deo omnis gloria!" - tudo para Deus!');
+INSERT INTO points VALUES(1649,0,1,648,'Consegue mais aquele que importuna mais de perto... Por isso, aproxima-te de Deus: empenha-te em ser santo.');
+INSERT INTO points VALUES(1650,0,1,649,'Gosto de comparar a vida interior a uma veste, à veste nupcial de que fala o Evangelho. O tecido compõe-se de cada um dos hábitos ou práticas de piedade que, como fibras, dão vigor ao pano. E assim como se despreza um terno com um rasgão, mesmo que o resto esteja em boas condições, se fazes oração, se trabalhas..., mas não és penitente - ou ao contrário -, a tua vida interior não é, por assim dizer, cabal!');
+INSERT INTO points VALUES(1651,0,1,650,'Vamos ver quando acabas de entender que o teu único caminho possível é procurar seriamente a santidade! Decide-te - não te ofendas - a tomar Deus a sério. Essa tua leviandade, se não a combates, pode terminar numa triste farsa blasfema.');
+INSERT INTO points VALUES(1652,0,1,651,'Umas vezes, deixas que salte o teu mau caráter, esse que em mais de uma ocasião aflora com uma dureza disparatada. Outras, não te ocupas em compor o teu coração e a tua cabeça, a fim de que sejam aposento regalado para a Santíssima Trindade... E sempre, acabas por ficar um tanto longe de Jesus, a quem conheces pouco... - Assim, nunca terás vida interior.');
+INSERT INTO points VALUES(1653,0,1,652,'"Iesus Christus, perfectus Deus, perfectus Homo" - Jesus Cristo, perfeito Deus e perfeito Homem. São muitos os cristãos que seguem a Cristo, pasmados ante a sua divindade, mas O esquecem como Homem..., e fracassam no exercício das virtudes sobrenaturais - apesar de toda a armação externa de piedade -, porque não fazem nada por adquirir as virtudes humanas.');
+INSERT INTO points VALUES(1654,0,1,653,'Remédio para tudo: santidade pessoal! - Por isso os santos estiveram cheios de paz, de fortaleza, de alegria, de segurança.');
+INSERT INTO points VALUES(1655,0,1,654,'Até agora não tinhas compreendido a mensagem que nós, os cristãos, trazemos aos demais homens: a escondida maravilha da vida interior. Que mundo novo estás colocando diante deles!');
+INSERT INTO points VALUES(1656,0,1,655,'Quantas coisas novas descobriste! - No entanto, às vezes és um ingênuo, e pensas que já viste tudo, que já estás a par de tudo... Depois, tocas com as mãos a riqueza única e insondável dos tesouros do Senhor, que sempre te mostrará “coisas novas”, se corresponderes com amor e delicadeza; e então compreendes que estás no princípio do caminho, porque a santidade consiste na identificação com Deus, com esse nosso Deus que é infinito, inesgotável.');
+INSERT INTO points VALUES(1657,0,1,656,'É com o Amor, mais do que com o estudo, que se chegam a compreender as “coisas de Deus”. Por isso, tens que trabalhar, tens que estudar, tens que aceitar a doença, tens que ser sóbrio... amando!');
+INSERT INTO points VALUES(1658,0,1,657,'Para o teu exame diário; deixei passar alguma hora sem falar com meu Pai-Deus?... Conversei com Ele, com amor de filho? - Podes!');
+INSERT INTO points VALUES(1659,0,1,658,'Não queiramos enganar-nos... - Deus não é uma sombra, um ser longínquo, que nos cria e depois nos abandona; não é um amo que se vai e não volta mais. Ainda que não o percebamos com os nossos sentidos, a sua existência é muito mais verdadeira que a de todas as realidades que tocamos e vemos. Deus está aqui, conosco, presente, vivo. Ele nos vê, nos ouve, nos dirige, e contempla nossas menores ações, as nossas intenções mais escondidas. Acreditamos nisto..., mas vivemos como se Deus não existisse! Porque não temos para Ele nem um pensamento, nem uma palavra; poque não lhe obedecemos, nem tratamos de dominar nossas paixões; porque não lhe obedecemos, nem tratamos de dominar as nossa paixões; porque não Lhe manifestamos amor, nem O desagravamos... Vamos continuar a viver com uma fé morta?');
+INSERT INTO points VALUES(1660,0,1,659,'Se tivesses presença de Deus, quantas atuações “irremediáveis” remediarias!');
+INSERT INTO points VALUES(1661,0,1,660,'Como podes viver a presença de Deus, se não fazes mais do que olhar para toda a parte?... - Estás como que bêbado de futilidades.');
+INSERT INTO points VALUES(1662,0,1,661,'É possível que esta palavra te assuste: meditação. - Recorda-te livros de capas pretas e vermelhas, ruídos de suspiros ou de rezas como cantilenas rotineiras... Mas isso não é meditação. Meditar é considerar, contemplar que Deus é Pai, e tu, seu filho, necessitado de ajuda; e depois dar-Lhe graças pelo que já te concedeu e por tudo o que te dará.');
+INSERT INTO points VALUES(1663,0,1,662,'O único meio de conhecer Jesus: chegar ao trato com Ele! NEle encontrarás sempre um Pai, um Amigo, um Conselheiro e um Colaborador para todas as atividades nobres da tua vida cotidiana... - E, com o trato íntimo, nascerá o Amor.');
+INSERT INTO points VALUES(1664,0,1,663,'Se és tenaz em assistir diariamente a umas aulas, só porque ali adquires uns conhecimentos... muito limitados, como é que tens constância para freqüentar o Mestre, sempre desejoso de ensinar-te a ciência da vida interior, de sabor e conteúdo eternos?');
+INSERT INTO points VALUES(1665,0,1,664,'Que vale o maior homem, ou o maior galardão da terra, comparados com Jesus Cristo, que está sempre à tua espera?');
+INSERT INTO points VALUES(1666,0,1,665,'Um tempo de meditação diária - união de amizade com Deus - é coisa própria de pessoas que sabem aproveitar retamente a sua vida; de cristãos conscientes, que agem com coerência.');
+INSERT INTO points VALUES(1667,0,1,666,'Os namorados não sabem dizer adeus um ao outro: acompanham-se sempre. Tu e eu, amamos assim o Senhor?');
+INSERT INTO points VALUES(1668,0,1,667,'Não viste como, para agradar e bem parecer, se arrumam os que se amam? - Assim deves arrumar e compor a tua alma.');
+INSERT INTO points VALUES(1669,0,1,668,'Em geral, a graça atua como a natureza: por graus. - Não podemos propriamente antecipar-nos à ação da graça: mas, naquilo que depende de nós, temos de preparar o terreno e cooperar, quando Deus no-La concede. É mister conseguir que as almas apontem muito alto: empurrá-las para o ideal de Cristo; levá-las até às últimas conseqüências, sem atenuantes nem paliativos de espécie alguma, sem esquecer que a santidade não é primordialmente questão de braços. Normalmente, a graça segue as suas horas, e não gosta de violências. Fomenta as tuas santas impaciências..., mas não percas a paciência.');
+INSERT INTO points VALUES(1670,0,1,669,'Corresponder à graça divina - perguntas - é uma questão de justiça..., de generosidade...? - De Amor!');
+INSERT INTO points VALUES(1671,0,1,670,'“Os assuntos fervem na minha cabeça nos momentos mais inoportunos...”, dizes. Por isso te recomendei que tratasse de conseguir uns tempos de silêncio interior..., e a guarda dos sentidos internos e externos.');
+INSERT INTO points VALUES(1672,0,1,671,'“Fica conosco, porque escureceu...” Foi eficaz a oração de Cléofas e do seu companheiro. - Que pena se tu e eu não soubéssemos `deter'' Jesus que passa! Que dor, se não Lhe pedimos que fique!');
+INSERT INTO points VALUES(1673,0,1,672,'Esses minutos diários de leitura do Novo Testamento que te aconselhei - metendo-te e participando no conteúdo de cada cena, como um protagonista mais -, são para que encarnes, para que “cumpras” o Evangelho na tua vida... e para que o “faças cumprir”.');
+INSERT INTO points VALUES(1674,0,1,673,'Antes “divertias-te” muito... - Mas agora, que trazes Cristo em ti, a tua vida encheu-se de sincera e comunicativa alegria. Por isso atrais outros. - Freqüenta-O mais, para chegares a todos.');
+INSERT INTO points VALUES(1675,0,1,674,'Cuidado: segura-te bem! - Procura que, ao elevares tu a temperatura do ambiente que te rodeia, não baixe a tua.');
+INSERT INTO points VALUES(1676,0,1,675,'Acostuma-te a referir tudo a Deus.');
+INSERT INTO points VALUES(1677,0,1,676,'Não observas como muitos dos teus companheiros sabem demonstrar grande delicadeza e sensibilidade, no seu trato com as pessoas que amam: a namorada, a mulher, os filhos, a família...? - Tens que dizer-lhes - e exigir isso de ti mesmo! - que o Senhor não merece menos: que O tratem assim! E aconselha-os, além disso, a continuarem com essa delicadeza e essa sensibilidade, mas vividas com Ele e por Ele, e alcançarão uma felicidade nunca dantes sonhada, também aqui na terra.');
+INSERT INTO points VALUES(1678,0,1,677,'O Senhor semeou na tua alma boa semente. E valeu-se - para essa sementeira de vida eterna - do meio poderoso da oração: porque tu não podes negar que, muitas vezes, estando diante do Sacrário, cara a cara, Ele te fez ouvir - no fundo da tua alma - que te queria para Si, que tinhas que deixar tudo... Se agora negas isso, és um miserável traidor; e, se o esqueceste, és um ingrato. Valeu-se também - não duvides disso, como não duvidaste até agora - dos conselhos ou insinuações sobrenaturais do teu Diretor, que te repetiu insistentemente palavras que não deves passar por alto; e valeu-se no começo, além disso- sempre para depositar a boa semente na tua alma -, daquele amigo nobre, sincero, que te disse verdades fortes, cheias de amor de Deus. - Mas, com ingênua surpresa, descobriste que o inimigo semeou joio na tua alma. E que continua a semeá-lo, enquanto tu dormes comodamente e amoleces na tua vida interior. - Esta, e não outra, é a razão pela qual encontras na tua alma plantas pegajosas, mundanas, que de vez em quando parece que vão afogar o grão de trigo bom que recebeste... - Arranca-as de uma vez! Basta-te a graça de Deus. Não temas que deixem um vazio, uma ferida... O Senhor colocará aí uma nova semente sua: amor de Deus, caridade fraterna, ânsias de apostolado... E, passado o tempo, não permanecerá nem o menor rasto do joio - desde que agora, que estás em tempo, o extirpes pela raiz; e melhor, se não dormes e vigias de noite o teu campo.');
+INSERT INTO points VALUES(1679,0,1,678,'Felizes aquelas almas bem-aventuradas que, quando ouvem falar de Jesus - e Ele nos fala constantemente -, O reconhecem na hora como o Caminho, a Verdade e a Vida! - Bem sabes que, quando não participamos dessa felicidade, é porque nos faltou a determinação de segui-Lo.');
+INSERT INTO points VALUES(1680,0,1,679,'Mais uma vez sentiste Cristo muito perto. - E mais uma vez compreendeste que tens que fazer tudo por Ele.');
+INSERT INTO points VALUES(1681,0,1,680,'Aproxima-te mais do Senhor..., mais! - Até que se converta em teu Amigo, teu Confidente, teu Guia.');
+INSERT INTO points VALUES(1682,0,1,681,'Cada dia te notas mais metido mais Deus..., dizes. - Então, cada dia estarás mais perto dos teus irmãos.');
+INSERT INTO points VALUES(1683,0,1,682,'Se até agora, antes de encontrá-lo, querias correr na tua vida com os olhos abertos, para estares a par de tudo; a partir deste momento..., toca a correr com o olhar limpo!, para veres com Ele o que verdadeiramente te interessa.');
+INSERT INTO points VALUES(1684,0,1,683,'Quando há vida interior, recorre-se a Deus, perante qualquer contrariedade, com a espontaneidade com que o sangue acode à ferida.');
+INSERT INTO points VALUES(1685,0,1,684,'“Isto é o meu Corpo...”, e Jesus imolou-se, ocultando-se sob as espécies de pão. Agora está ali, com a sua Carne e com o Seu Sangue, com a sua Alma e com a sua Divindade: exatamente como no dia em que Tomé meteu os dedos em suas Chagas gloriosas. Contudo, em tantas ocasiões, tu passas ao largo, em esboçar sequer um breve cumprimento de simples cortesia, como fazes com qualquer pessoa conhecida que encontras de passagem. - Tens bastante menos fé que Tomé!');
+INSERT INTO points VALUES(1686,0,1,685,'Se, para libertar-te, tivessem posto na cadeia um teu amigo íntimo, não procurarias ir visitá-lo, conversar um pouco com ele, levar-lhe presentes, calor de amizade, consolo?... E, se essa conversa com o encarcerado fosse para salvar-te a ti de um mal e proporcionar-te um bem..., tu a abandonarias? E se, em vez de um amigo, se tratasse do teu próprio pai ou do teu irmão? - Então!');
+INSERT INTO points VALUES(1687,0,1,686,'Jesus ficou na Hóstia Santa por nós!: para permanecer ao nosso lado, para amparar-nos, para guiar-nos. - E amor somente com amor se paga. - Como não havemos de ir ao Sacrário, todos os dias, nem que seja apenas por uns minutos, para levar-Lhe a nossa saudação e o nosso amor de filhos e de irmãos?');
+INSERT INTO points VALUES(1688,0,1,687,'Viste a cena? - Um sargento qualquer ou um tenentinho de pouco comando...; pela frente, aproxima-se de um pracinha bem-apessoado, de condições incomparavelmente melhores que as dos oficiais, e não faltam nem a continência nem a resposta. - Medita no contraste. - Lá do Sacrário dessa igreja, Cristo - perfeito Deus, perfeito Homem -, que morreu por ti na Cruz, e que te dá todos os bens de que necessitas..., aproxima-se de ti. E tu passas sem reparar.');
+INSERT INTO points VALUES(1689,0,1,688,'Começaste com a tua visita diária... - Não me admira que me digas: começo a amar com loucura a luz do Sacrário.');
+INSERT INTO points VALUES(1690,0,1,689,'Que não faltes diariamente um “Jesus, eu te amo” e uma comunhão espiritual - ao menos -, como desagravo por todas as profanações e sacrilégios que Ele sofre por estar conosco.');
+INSERT INTO points VALUES(1691,0,1,690,'Não se cumprimentam e se tratam com cordialidade todas as pessoas queridas? - Pois bem, vamos tu e eu cumprimentar - muitas vezes ao dia - Jesus, Maria e José, e o nosso Anjo da Guarda.');
+INSERT INTO points VALUES(1692,0,1,691,'Deves ter uma devoção intensa à Nossa Mãe. Ela sabe corresponder com primor às delicadezas que lhe manifestamos. Além disso, se rezas o terço todos os dias, com espírito de fé e amor, a Senhora se encarregará de levar-te muito longe pelo caminho do seu Filho.');
+INSERT INTO points VALUES(1693,0,1,692,'Sem o auxílio de Nossa Mãe, como havemos de manter-nos firmes na luta diária? - Procuras esse auxílio constantemente?');
+INSERT INTO points VALUES(1694,0,1,693,'O Anjo da Guarda acompanha-nos sempre como testemunha especialmente qualificada. Será ele quem, no teu juízo particular, recordará as delicadezas que tiveres tido com Nosso Senhor, ao longo da tua vida. Mais ainda: quando te sentires perdido pelas terríveis acusações do inimigo, o teu Anjo apresentará aqueles impulsos íntimos - e talvez esquecidos por ti mesmo -, aquelas manifestações de amor que tenhas dedicado a Deus Pai, a Deus Filho, a Deus Espírito Santo. Por isso, não esqueças nunca o teu Anjo da Guarda, e esse Príncipe do Céu não te abandonará agora, nem no momento decisivo.');
+INSERT INTO points VALUES(1695,0,1,694,'As tuas comunhões eram muito frias: prestavas pouca atenção ao Senhor; qualquer bagatela te distraia... - Mas, desde que pensas - nesse teu íntimo colóquio com Deus - que estão presentes os Anjos, a tua atitude mudou...: “Que não me vejam assim!”, dizes para ti mesmo... - E olha como, com a força do “que vão dizer?” - desta vez, para bem -, avançaste um pouquinho em direção ao Amor.');
+INSERT INTO points VALUES(1696,0,1,695,'Sempre que te vejas com o coração seco, sem saber o que dizer, recorre com confiança à Virgem Santíssima. Dize-lhe: Minha Mãe Imaculada, intercedei por mim. Se a invocares com fé, Ela te fará saborear - no meio dessa secura - a proximidade de Deus.');
+INSERT INTO points VALUES(1697,0,1,696,'Arrancar pela raiz o amor próprio e meter o amor a Jesus Cristo: nisto radica o segredo da eficácia e da felicidade.');
+INSERT INTO points VALUES(1698,0,1,697,'Embora afirmes que O segues, de uma maneira ou de outra sempre pretendes ser “tu” mesmo a agir, segundo os “teus” planos e unicamente com as “tuas” forças. - Mas o Senhor disse: "Sine me nihil!" - sem Mim, nada podes fazer.');
+INSERT INTO points VALUES(1699,0,1,698,'Ignoraram isso que tu chamas o teu “direito”, que eu te traduzi como o teu “direito à soberba”... Pobre espantalho! - Sentiste, porque não podias defender-te - o atacante era poderoso -, a dor de cem bofetões. - E, apesar de tudo, não aprendes a humilhar-te. Agora é a tua consciência que te argúi: chama-te soberbo... e covarde. - Dá graças a Deus, porque já vais entrevendo o teu “dever da humildade”.');
+INSERT INTO points VALUES(1700,0,1,699,'Estás cheio de ti, de ti, de ti... - E não será eficaz enquanto não te deixares invadir por Ele, por Ele, por Ele, atuando "in nomine Domini" - em nome e com a força de Deus.');
+INSERT INTO points VALUES(1701,0,1,700,'Como pretendes seguir a Cristo, se giras somente em volta de ti mesmo?');
+INSERT INTO points VALUES(1702,0,1,701,'Uma preocupação impaciente e desordenada por subir profissionalmente pode disfarçar o amor próprio sob o pretexto de “servir as almas”. Com falsidade - não tiro uma letra -, forjamos a justificativa de que não devemos desaproveitar certas conjunturas, certas circunstâncias favoráveis... Volve os teus olhos para Jesus: Ele é “o Caminho”. Também durante os seus anos escondidos surgiram conjunturas e circunstâncias “muito favoráveis”, para antecipar a sua vida pública. Aos doze anos, por exemplo, quando os doutores da lei se admiraram das suas perguntas e das suas respostas... Mas Jesus Cristo cumpre a Vontade de seu Pai, e espera: obedece! - Sem perderes essa santa ambição de levar o mundo inteiro a Deus, quando se insinuarem essas iniciativas - quem sabe, ânsias de deserção -, lembra-te de que também te toca a ti obedecer e ocupar-te dessa tarefa obscura, pouco brilhante, enquanto o Senhor não te pedir outra coisa: Ele tem os seus tempos e as suas sendas.');
+INSERT INTO points VALUES(1703,0,1,702,'Fátuos e soberbos, é assim que se revelam todos aqueles que abusam da sua situação de privilégio - dada pelo dinheiro, pela linhagem, pelo grau hierárquico, pelo cargo, pela inteligência... - para humilhar os menos favorecidos.');
+INSERT INTO points VALUES(1704,0,1,703,'A soberba, mais cedo ou mais tarde, acaba por humilhar, diante dos outros, o homem “mais homem”, que atua como uma marionete vaidosa e sem cérebro, movida pelos fios que satanás aciona.');
+INSERT INTO points VALUES(1705,0,1,704,'Por presunção ou por simples vaidade, muitos mantêm um “mercado negro”, para fazer subir artificialmente os seus próprios valores pessoais.');
+INSERT INTO points VALUES(1706,0,1,705,'Cargos... Em cima ou em baixo? - Tanto te faz!... Tu vieste - assim o garantes - para ser útil, para servir, com uma disponibilidade total: então porta-te em conseqüência.');
+INSERT INTO points VALUES(1707,0,1,706,'Ficas falando, criticando... Parece que, sem ti, nada se faz bem. - Não te zangues se te digo que te comportas como um déspota arrogante.');
+INSERT INTO points VALUES(1708,0,1,707,'Se com lealdade, caridosamente, um bom amigo te faz ver, a sós, pontos que desfeiam a tua conduta, levanta-se dentro de ti a convicção de que se engana: não te compreende. Com esse falso convencimento, filho do teu orgulho, sempre serás incorrigível. - Dás-me pena: falta-te decisão para procurar a santidade.');
+INSERT INTO points VALUES(1709,0,1,708,'Malicioso, suspicaz, complicado, desconfiado, receoso..., adjetivos todos que mereces, ainda que te incomodem. - Retifica! Por que os outros hão de ser sempre maus... e tu bom?');
+INSERT INTO points VALUES(1710,0,1,709,'Encontras-te só..., queixas-te..., tudo te incomoda. - Porque o teu egoísmo te isola dos teus irmãos, e porque não te aproximas de Deus.');
+INSERT INTO points VALUES(1711,0,1,710,'Sempre pretendo que façam caso de ti ostensivamente!... Mas, sobretudo, que façam mais caso de ti do que dos outros!');
+INSERT INTO points VALUES(1712,0,1,711,'Por que ficas imaginando que tudo o que te dizem tem segunda intenção?... Com a tua suscetibilidade, estás limitando continuamente a ação da graça, que te chega por meio da palavra, não tenhas dúvida, dos que lutam por ajustar as suas obras ao ideal de Cristo.');
+INSERT INTO points VALUES(1713,0,1,712,'Enquanto continuares persuadido de que os outros têm que viver sempre pendentes de ti, enquanto não te decidires a servir - a ocultar-te e desaparecer -, o convívio com os teus irmãos, com os teus colegas, com os teus amigos, será forte contínua de desgostos, de mau humor... - de soberba.');
+INSERT INTO points VALUES(1714,0,1,713,'Detesta a jactância. - Repudia a vaidade. - Combate o orgulho, cada dia, a cada instante.');
+INSERT INTO points VALUES(1715,0,1,714,'Os pobrezinhos dos soberbos sofrem por mil e uma pequenas tolices, que o seu amor próprio agiganta, e que aos outros passam despercebidas.');
+INSERT INTO points VALUES(1716,0,1,715,'Julgas que os outros nunca tiveram vinte anos? Julgas que nunca estiveram sitiados pela família, como menores de idade? Julgas que lhes foram poupados os problemas - mínimos ou não tão mínimos - com os quais tropeças?... Não. Eles passaram agora, e fizeram-se homens maduros - com a ajuda da graça -, espezinhando o seu eu com perseverança generosa, cedendo no que se podia ceder, e mantendo-se leais, sem arrogância e sem ferir - com serena humildade -, quando não se podia.');
+INSERT INTO points VALUES(1717,0,1,716,'Ideologicamente, és muito católico. Agrada-te o ambiente dessa Residência universitária... Pena que a Missa não seja ao meio-dia, e as aulas à tarde, para estudares depois de jantar, saboreando um ou dois cálices de conhaque! - Esse teu “catolicismo” não corresponde à verdade, fica em simples aburguesamento. - Não compreendes que não se pode pensar assim na tua idade? Sai da tua poltronice, da tua egolatria..., e ajusta-te às necessidades dos outros, à realidade que te rodeia, e viverás a sério o catolicismo.');
+INSERT INTO points VALUES(1718,0,1,717,'“Esse santo - dizia aquele - que tinha doado a imagem exposta ao culto -... deve-me tudo o que é”. Não penses que é uma caricatura: também tu consideras - ao menos, é o que parece pelo teu comportamento - que cumpres com Deus, por trazeres umas medalhas ou por uma práticas de piedade, mais ou menos rotineiras.');
+INSERT INTO points VALUES(1719,0,1,718,'Que vejam as minhas boas obras!... - Mas não percebes que parece que as levas num cesto de bugigangas, para que contemplem as tuas qualidades? Além disso, não te esqueças da segunda parte do que Jesus mandou: “e glorifiquem o vosso Pai que está nos céus”.');
+INSERT INTO points VALUES(1720,0,1,719,'“A mim mesmo, com a admiração que me devo”. - Foi o que escreveu na primeira página de um livro. E o mesmo poderiam estampar muitos outros coitados, na última página da sua vida. Que pensa se tu e eu vivêssemos ou terminássemos assim! - Vamos fazer um exame sério.');
+INSERT INTO points VALUES(1721,0,1,720,'Não tomes nunca uma atitude de suficiência perante as coisas da Igreja, nem perante os homens, teus irmãos... Mas, em contrapartida, essa atitude pode ser necessária na atuação social, quando se trata de defender os interesses de Deus e das almas, porque já não se trata de suficiência, mas de fé e fortaleza, que viveremos com serena e humilde segurança.');
+INSERT INTO points VALUES(1722,0,1,721,'É indiscreto, pueril e chocho dizer amabilidades dos outros ou elogiar as suas qualidades diante dos interessados. - Assim se fomenta a vaidade, e se corre o risco de “roubar” glória a Deus, a Quem tudo se deve.');
+INSERT INTO points VALUES(1723,0,1,722,'Procura que a tua boa intenção esteja sempre acompanhada pela humildade. Porque, com freqüência, às boas intenções, se unem a dureza no juízo, uma quase incapacidade de ceder, e um certo orgulho pessoal, nacional ou de grupo.');
+INSERT INTO points VALUES(1724,0,1,723,'Não desanimes com os teus erros: reage. - A esterilidade não é tanto conseqüência das faltas - sobretudo se nos arrependemos - quanto da soberba.');
+INSERT INTO points VALUES(1725,0,1,724,'Se caíste, levanta-te com mais esperança... Só o amor próprio não compreende que o erro, quando é retificado, ajuda a conhecer-se e a humilhar-se.');
+INSERT INTO points VALUES(1726,0,1,725,'“Não servimos para nada”. - Afirmação pessimista e falsa. - Se se quer, com a graça de Deus - requisito prévio e fundamental -, pode-se chegar a servir, como bom instrumento, em muitos empreendimentos.');
+INSERT INTO points VALUES(1727,0,1,726,'Fez-me pensar a frase dura, mas exata, daquele homem de Deus, ao contemplar a arrogância daquela criatura; “Veste-se com a mesma pele do diabo, a soberba”. E senti na alma, por contraste, o desejo sincero de me revestir da virtude que Jesus Cristo pregou "quia mitis sum et humilis corde" -; e que atraiu o olhar da Trindade Santíssima sobre a sua Mãe e nossa Mãe: a humildade, o saber-nos e sentir-nos nada.');
+INSERT INTO points VALUES(1728,0,1,727,'Sempre que te custe fazer um favor, um serviço a uma pessoa, pensa que ela é filha de Deus, lembra-te de que o Senhor mandou que nos amássemos uns aos outros. - Mais ainda: aprofunda cotidianamente neste preceito evangélico; não fiques na superfície. Tira as conseqüências - é muito fácil -, e acomoda a tua conduta de cada instante a esse apelo.');
+INSERT INTO points VALUES(1729,0,1,728,'Vive-se de modo tão precipitado, que a caridade cristã passou a constituir um fenômeno estranho neste nosso mundo; por mais que - ao menos nominalmente - se pregue a Cristo... - Admito. Mas, que fazes tu que, como católico, tens de identificar-te com Ele e seguir as suas pegadas? Porque Ele nos indicou que temos de ir ensinar a sua doutrina a todas as gentes - a todas! - e em todos os tempos.');
+INSERT INTO points VALUES(1730,0,1,729,'Os homens - como aconteceu sempre na história - coligam as suas vidas para cumprirem uma missão e um destino coletivos. - Será que vale menos, para os homens e mulheres de hoje, o “único destino” da felicidade eterna?');
+INSERT INTO points VALUES(1731,0,1,730,'Compreendeste o sentido da amizade quando chegaste a sentir-te como o pastor de um pequenino rebanho, que tinhas abandonado, e que agora procuras reunir novamente, ocupando-te em servir a cada um.');
+INSERT INTO points VALUES(1732,0,1,731,'Não podes ser apenas um elemento passivo. Tens de converter-te em verdadeiro amigo dos teus amigos: “ajudá-los”. Primeiro, com o exemplo da tua conduta. E depois, com o teu conselho e com o ascendente que a intimidade dá.');
+INSERT INTO points VALUES(1733,0,1,732,'Entusiasmou-te esse espírito de irmandade e companheirismo, que descobriste inesperadamente... - Claro: é coisa que tinhas sonhado com tanta força, mas que nunca tinhas visto. Não o tinhas visto porque os homens se esquecem de que são irmãos de Cristo, desse amável Irmão nosso, que entregou a sua vida pelos outros, por todos e por cada um, sem condições.');
+INSERT INTO points VALUES(1734,0,1,733,'Tiveste a grande sorte de encontrar mestres de verdade, amigos autênticos, que te ensinaram sem reservas tudo quanto quiseste saber; não precisaste de artimanhas para lhes “roubar” a sua ciência, porque te indicaram o caminho mais fácil, embora a eles lhe tenha custado duro trabalho e sofrimentos descobri-lo... Agora, toca-te a ti fazer outro tanto, com este, com aquele, com todos!.');
+INSERT INTO points VALUES(1735,0,1,734,'Medita bem nisto e tira as conseqüências: essas pessoas, que te acham antipático, deixarão de pensar assim quando perceberem que “verdadeiramente” lhes queres bem. Depende de ti.');
+INSERT INTO points VALUES(1736,0,1,735,'Não basta que sejas bom: tens de parecê-lo. Que dirias de uma roseira que não produzisse senão espinhos?');
+INSERT INTO points VALUES(1737,0,1,736,'Para caldear os tíbios, é preciso rodeá-los com o fogo do entusiasmo. Muitos poderiam gritar-nos: Não lamenteis o meu estado! Ensinai-me o caminho para sair desta situação, que tanto vos entristece!');
+INSERT INTO points VALUES(1738,0,1,737,'O dever da fraternidade, para com todas as almas, far-te-á exercitar “o apostolado das coisas pequenas”, sem que o notem: com ânsias de serviço, de modo que o caminho se lhes mostre amável.');
+INSERT INTO points VALUES(1739,0,1,738,'Que alma tão estreita a dos que guardam zelosamente a sua “lista de agravos”!... Com esses infelizes, é impossível conviver. A verdadeira caridade, assim como não contabiliza os “constantes e necessários” serviços que presta, também não anota - "omnia suffert", tudo suporta - as desfeitas que padece.');
+INSERT INTO points VALUES(1740,0,1,739,'Cumpres um plano de vida exigente: madrugas, fazes oração, freqüentas os Sacramentos, trabalhas ou estudas muito, és sóbrio, mortificas-te..., mas notas que te falta alguma coisa! Leva ao teu diálogo com Deus esta consideração: uma vez que a santidade - a luta por alcança-la - é a plenitude da caridade, tens que revisar o teu amor a Deus e, por Ele, aos outros. Talvez descubras então, escondidos na tua alma, grandes defeitos, contra os quais nem sequer lutavas: não és bom filho, bom irmão, bom companheiro, bom amigo, bom colega; e, como amas desordenadamente a “tua santidade”, és invejoso. “Sacrificas-te” em muitos detalhes “pessoais”: por isso estás apegado ao teu eu, à tua pessoa e, no fundo, não vives para Deus nem para os outros: só para ti.');
+INSERT INTO points VALUES(1741,0,1,740,'Consideras-te amigo porque não dizes dele uma palavra má. - É verdade: mas também não vejo uma obra boa de exemplo, de serviço...');
+INSERT INTO points VALUES(1742,0,1,741,'Primeiro maltratas... E, antes de que ninguém reaja, gritas: “Agora, caridade entre todos!” - Se começasses por esta segunda parte, nunca chegarias à primeira.');
+INSERT INTO points VALUES(1743,0,1,742,'Não sejas semeador de cizânia, como aquele de quem afirmava a própria mãe: “O senhor apresente-o aos seus amigos, que ele se encarregará de que esses amigos briguem com o senhor”.');
+INSERT INTO points VALUES(1744,0,1,743,'Não me parece cristã a fraternidade de que faz alarde contigo aquele amigo que te alerta: “Disseram-me de ti esta ou aquela calúnia horrível; desconfia de alguém que deve ser da tua intimidade”... Não me parece cristã, porque falta a esse “irmão” o impulso nobre de fazer calar o caluniador antes, e, depois de comunicar-te lealmente o seu nome. - Se não tem caráter para exigir de si próprio esta conduta, esse “irmão” expõe-te a ficares só na vida, impelindo-te a desconfiar de todos e a faltar à caridade com todos.');
+INSERT INTO points VALUES(1745,0,1,744,'Não possuis nem um pingo de sentido sobrenatural e, nos outros, vês somente pessoas de melhor ou pior posição social. Das almas, não te lembras para nada, nem as serves. Por isso não és generoso..., e vives muito longe de Deus com a tua falsa piedade, ainda que rezes muito. O Mestre falou bem claro; “Afastai-vos de mim, e ide para o fogo eterno, porque tive fome..., tive sede..., estava na prisão..., e não me atendeste”.');
+INSERT INTO points VALUES(1746,0,1,745,'Não é compatível amar a Deus com perfeição e deixar-se dominar pelo egoísmo - ou pela apatia - no relacionamento com o próximo.');
+INSERT INTO points VALUES(1747,0,1,746,'A verdadeira amizade implica também um esforço cordial por compreender as convicções dos nossos amigos, mesmo que não cheguemos a partilhar nem a aceitá-las.');
+INSERT INTO points VALUES(1748,0,1,747,'Nunca permitas que cresça a erva ruim no caminho da amizade: Sê leal.');
+INSERT INTO points VALUES(1749,0,1,748,'Um propósito firme na amizade: que nos meus pensamentos, nas minhas palavras, nas minhas obras para com o próximo - seja ele quem for -, não me comporte como até agora; quer dizer, que nunca deixe de praticar a caridade, que jamais dê passagem na minha alma à indiferença.');
+INSERT INTO points VALUES(1750,0,1,749,'A tua caridade deve adequar-se, ajustar-se, às necessidades dos outros...; não às tuas.');
+INSERT INTO points VALUES(1751,0,1,750,'Filhos de Deus! Eis uma condição que nos transforma em algo mais transcendente do que em pessoas que se suportam mutuamente. Escuta o Senhor: "Vos autem dixi amicos!" - somos seus amigos, que, como Ele, dão com gosto a sua vida pelos outros, nas horas heróicas e na vivência diária.');
+INSERT INTO points VALUES(1752,0,1,751,'Como se pode pretender que os que não possuem a nossa fé venham para a Igreja Santa, se contemplam o desabrido trato mútuo dos que se dizem seguidores de Cristo?');
+INSERT INTO points VALUES(1753,0,1,752,'A atração do teu trato amável deve alargar-se em quantidade e qualidade. Senão, o teu apostolado se extinguirá em cenáculos inertes e fechados.');
+INSERT INTO points VALUES(1754,0,1,753,'Com a tua amizade e com a tua doutrina - corrijo-me: com a caridade e com a mensagem de Cristo -, animarás muitos não-católicos a colaborar a sério, para fazerem o bem a todos os homens.');
+INSERT INTO points VALUES(1755,0,1,754,'Tomei nota das palavras daquele operário, que comentava entusiasmado, depois de participar dessa reunião que promoveste: “Nunca tinha ouvido falar, como se faz aqui, de nobreza, de honradez, de amabilidade, de generosidade...” - E concluía admirado: “Em face do materialismo de esquerdas ou de direitas, isto é a verdadeira revolução!” - Qualquer alma entende a fraternidade que Jesus Cristo instaurou: empenhemo-nos em não desvirtuar essa doutrina!');
+INSERT INTO points VALUES(1756,0,1,755,'Às vezes, pretendes justificar-te dizendo que és distraído, avoado; ou que, por caráter, és seco, fechadão. E acrescentas que, por isso, nem sequer conheces a fundo as pessoas com quem convives. - Escuta: não é verdade que não ficas tranqüilo com essa desculpa?');
+INSERT INTO points VALUES(1757,0,1,756,'Põe muito sentido sobrenatural em todos os detalhes da tua vida ordinária, aconselhei-te. E acrescentei imediatamente: a convivência oferece-te muitas ocasiões, ao longo do dia.');
+INSERT INTO points VALUES(1758,0,1,757,'Viver a caridade significa respeitar a mentalidade dos outros; encher-se de alegria pelo seu modo de caminhar para Deus..., sem empenhar-se em que pensem como tu, em que se unam a ti. - Ocorreu-me fazer-te esta consideração: esses caminhos, diferentes, são paralelos; seguindo o seu, cada um chegará a Deus... Não te percas em comparações, nem desejos de saber quem anda mais alto: isso não interessa, o que interessa é que todos alcancemos o fim.');
+INSERT INTO points VALUES(1759,0,1,758,'Dizes que o outro está cheio de defeitos! Muito bem... Mas, além de que os perfeitos só se encontram no Céu, tu também arrastas os teus defeitos e, no entanto, suportam-te e, mais ainda, estimam-te: porque te querem com o amor que Jesus Cristo dava aos seus, que bem carregados andavam de misérias! - Aprende.');
+INSERT INTO points VALUES(1760,0,1,759,'Queixas-te de que essa pessoa não é compreensiva... - Eu tenho a certeza de que faz o possível por entender-te. Mas tu, quando é que te esforçarás um pouquinho por compreendê-la?');
+INSERT INTO points VALUES(1761,0,1,760,'De acordo!, admito: essa pessoa portou-se mal; a sua conduta é reprovável e indigna; não demonstra classe nenhuma. - Merece humanamente todo o desprezo! - acrescentaste. - Insisto: compreendo-te, mas não compartilho a tua última afirmação. Essa vida mesquinha é sagrada: Cristo morreu para redimi-la! Se Ele não a desprezou, como podes tu atrever-te a fazê-lo?');
+INSERT INTO points VALUES(1762,0,1,761,'Se a tua amizade se rebaixa até converter-te em cúmplice das misérias alheias, reduz-se a triste compadrio, que não merece o mínimo apreço.');
+INSERT INTO points VALUES(1763,0,1,762,'Verdadeiramente a vida - que já de per si é estreita e insegura - às vezes se torna difícil. - Mas isso contribuirá para fazer-te mais sobrenatural, para te fazer ver a mão de Deus: e assim serás mais humano e compreensivo com os que te rodeiam.');
+INSERT INTO points VALUES(1764,0,1,763,'A indulgência é proporcional à autoridade. Um simples juiz tem de condenar - talvez reconhecendo atenuantes - o réu convicto e confesso. O poder soberano de um país, algumas vezes, concede uma anistia ou um indulto. À alma contrita, Deus a perdoa sempre.');
+INSERT INTO points VALUES(1765,0,1,764,'“Através de vocês eu vi a Deus, que esquecia as minhas loucuras e as minhas ofensas, e me acolhia com carinho de Pai”. Isto escreveu aos seus, contrito, de regresso à casa paterna, um filho pródigo do século XX.');
+INSERT INTO points VALUES(1766,0,1,765,'Custou-te muito ir afastando e esquecendo as tuas preocupaçõezinhas, os teus sonhos pessoais: pobres e poucos, mas enraizados. - Em troca, agora estás bem certo de que o teu sonho e a tua ocupação são os teus irmãos, e somente eles, porque no teu próximo aprendeste a descobrir Jesus Cristo.');
+INSERT INTO points VALUES(1767,0,1,766,'“O cem por um”... Como te lembravas, faz uns dias, dessa promessa do Senhor! - Na fraternidade que se vive entre os teus companheiros de apostolado - garanto-te - encontrarás esse cem por um.');
+INSERT INTO points VALUES(1768,0,1,767,'Quantos temores e quantos perigos pode dissipar o amor verdadeiro entre os irmãos, que não se exibe - porque então é como se se profanasse -, mas que resplandece em cada detalhe!');
+INSERT INTO points VALUES(1769,0,1,768,'Recorre, em confidência segura, todos os dias, à Virgem Santíssima. A tua alma e a tua vida sairão reconfortadas. - Ela te fará participar dos tesouros que guarda em seu coração, pois “nunca se ouviu dizer que algum daqueles que tivesse recorrido à sua proteção fosse desatendido”.');
+INSERT INTO points VALUES(1770,0,1,769,'Para avançar na vida interior e no apostolado, o necessário não é a devoção sensível; mas a disposição decidida e generosa da vontade, em face das instâncias divinas.');
+INSERT INTO points VALUES(1771,0,1,770,'Sem o Senhor não poderás dar um passo seguro. - Esta certeza de que precisas da sua ajuda te levará a unir-te mais a Ele, com uma confiança firme, perseverante, ungida de alegria e de paz, ainda que o caminho se torne áspero e íngreme.');
+INSERT INTO points VALUES(1772,0,1,771,'Repara na grande diferença que há entre o modo de agir natural e o sobrenatural. O primeiro começa bem, para depois acabar afrouxando. O segundo começa igualmente bem..., mas depois se esforça por prosseguir ainda melhor.');
+INSERT INTO points VALUES(1773,0,1,772,'Não é mau comportar-se bem por nobres razões humanas. - Mas... que diferença quando “comandam” as sobrenaturais!');
+INSERT INTO points VALUES(1774,0,1,773,'Ao contemplar essa alegria perante o trabalho duro, aquele amigo perguntou: - Mas, realizam-se todas essas tarefas por entusiasmo? - E responderam-lhe com alegria e com serenidade: “Por entusiasmo?... Teríamos feito um papelão!” "Per Dominum Nostrum Iesum Christum!" por Nosso Senhor Jesus Cristo, que nos espera continuamente.');
+INSERT INTO points VALUES(1775,0,1,774,'O mundo está precisando que despertemos os sonolentos, que animemos os tímidos, que guiemos os desorientados; numa palavra, que os enquadremos nas fileiras de Cristo, para que não se joguem fora tantas energias.');
+INSERT INTO points VALUES(1776,0,1,775,'Talvez também te aproveite a ti aquele expediente sobrenatural - delicadeza de amor voluntário - que repetia a si mesma uma alma muito de Deus, perante as diferentes exigências: “Já é tempo de que te decidas, de verdade, a fazer alguma coisa que valha a pena”.');
+INSERT INTO points VALUES(1777,0,1,776,'Que perfeição cristã pretendes alcançar, se fazes sempre o teu capricho, “o que gostas”...? Todos os teus defeitos, não combatidos, darão um lógico fruto constante de más obras. E a tua vontade - que não estará temperada numa luta perseverante - não te servirá de nada, quando chegar uma ocasião difícil.');
+INSERT INTO points VALUES(1778,0,1,777,'A fachada é de energia e rijeza. Mas, quanta moleza e falta de vontade por dentro! - Fomenta a decisão de que as tuas virtudes não se transformem num disfarce, mas em hábitos que definam o teu caráter.');
+INSERT INTO points VALUES(1779,0,1,778,'“Conheço algumas e alguns que não têm forças nem para pedir socorro”, dizes-me desgostoso e cheio de pena. - Não passes ao largo; a tua vontade de salvar-te e de salvá-los pode ser o ponto de partida da sua conversão. Além disso, se reconsideras, perceberás que também a ti te estenderam a mão.');
+INSERT INTO points VALUES(1780,0,1,779,'Os molengões, os que se queixam de mil e uma ninharias, são os que não sabem sacrificar-se nessas minúcias diárias por Jesus..., e muito menos pelos outros. Que vergonha se o teu comportamento - tão duro, tão exigente com os outros! - padece dessa moleza nos teus afazeres cotidianos!');
+INSERT INTO points VALUES(1781,0,1,780,'Sofres muito porque vês que não estás à altura. Quererias fazer mais e com maior eficácia, mas atuas com freqüência de um modo totalmente precipitado, ou não te atreves. "Contra spem, in spem!" - vive de esperança segura, contra toda a esperança. Apóia-te nesta rocha firme que te salvará e empurrará. É uma virtude teologal - esplêndida! -, que te animará a ir para a frente, sem receio de passar da risca, e te impedirá de parar. - Não me olhes desse jeito! Sim! Cultivar a esperança significa robustecer a vontade.');
+INSERT INTO points VALUES(1782,0,1,781,'Quando a tua vontade fraquejar diante do trabalho habitual, lembra-te uma vez mais daquela consideração: “O estudo, o trabalho, é parte essencial do meu caminho. O descrédito profissional - conseqüência da preguiça - anularia ou tornaria impossíveis as minhas tarefas de cristão. Necessito - assim Deus o quer - do ascendente do prestígio profissional, para atrair e ajudar os outros”. - Não duvides: se abandonas o teu trabalho, afastas-te - e afastas outros - dos planos divinos!');
+INSERT INTO points VALUES(1783,0,1,782,'Assustava-te o caminho dos filhos de Deus porque, em nome do Senhor, te instavam a cumprir, a negar-te a ti mesmo, a sair da tua torre de marfim. Deste uma desculpa..., e confesso-te que não me admira nada essa carga que te pesa: um conjunto de complexos e tortuosidades, de melindres e escrúpulos, que te deixa inútil. Não te zangues se te digo que te portaste com menos inteireza - como se fosses pior ou inferior - do que a gente depravada, audaz pregoeira do mal. "Surge et ambula!" - levanta-te e caminha, decide-te! Ainda podes libertar-te desse fardo nefasto se, com a graça de Deus, ouves o que Ele pede e, sobretudo, se O secundas plenamente e de bom grado!');
+INSERT INTO points VALUES(1784,0,1,783,'É bom que essas impaciências te comam a alma. - Mas não te afobes. Deus quer e conta com a tua decisão de te preparares seriamente, durante os anos ou meses necessários. - Não faltava razão àquele imperador: “O tempo e eu contra outros dois”.');
+INSERT INTO points VALUES(1785,0,1,784,'Assim resumia o ciúme ou a inveja um homem reto: “Devem ter muito má vontade, para turvarem uma água tão clara”.');
+INSERT INTO points VALUES(1786,0,1,785,'Perguntas se deves manter-te silencioso e inativo... - Perante a agressão injusta à lei justa, não!');
+INSERT INTO points VALUES(1787,0,1,786,'Cada dia vais “enlouquecendo” mais... - Nota-se nessa segurança e nesse aprumo formidável que te dá o saberes-te trabalhando por Cristo. - Já o proclamou a Escritura Santa: "Vir fidelis, multum laudabitur" - o varão fiel merece louvores de todos.');
+INSERT INTO points VALUES(1788,0,1,787,'Nunca te havias sentido mais absolutamente livre do que agora, que a tua liberdade está tecida de amor e de desprendimento, de segurança e de insegurança: porque nada fias de ti mesmo e tudo de Deus.');
+INSERT INTO points VALUES(1789,0,1,788,'Viste como se represam as águas nos açudes, para os tempos de seca?... Do mesmo modo, para conseguires essa igualdade de caráter de que necessitas no tempo de dificuldade, tens de represar a alegria, as razões claras e as luzes que o Senhor te manda.');
+INSERT INTO points VALUES(1790,0,1,789,'Quando se extinguem as labaredas do primeiro entusiasmo, avançar às escuras torna-se penoso. - Mas esse progresso, que custa, é o mais firme. E depois, quando menos o esperas, cessará a escuridão e voltarão o entusiasmo e o fogo. - Persevera!');
+INSERT INTO points VALUES(1791,0,1,790,'Deus quer os seus filhos como forças de ataque. - Não podemos ficar na expectativa: próprio de nós é lutar, onde quer que nos encontremos sem pausa, ao passo de Deus.');
+INSERT INTO points VALUES(1792,0,1,791,'Não se trata de que realizes as tuas obrigações apressadamente, mas de que as leves a termo sem pausa, ao passo de Deus.');
+INSERT INTO points VALUES(1793,0,1,792,'Não te falta o trato agradável de conversador inteligente... Mas também és muito apático. - “Se não me procuram...”, desculpas-te. - Se não mudas - esclareço - e não vais ao encontro dos que te esperam, nunca poderás ser um apóstolo eficaz.');
+INSERT INTO points VALUES(1794,0,1,793,'Três pontos importantíssimos para arrastar as almas para o Senhor: que te esqueças de ti, e penses somente na glória de teu Pai-Deus: que submetas filialmente a tua vontade à Vontade do Céu, como Jesus Cristo te ensinou; que secundes docilmente as luzes do Espírito Santo.');
+INSERT INTO points VALUES(1795,0,1,794,'Durante três dias e três noites Maria busca o Filho que se perdeu. Oxalá possamos tu e eu dizer que a nossa vontade de encontrar Jesus também não conhece descanso.');
+INSERT INTO points VALUES(1796,0,1,795,'O que é preciso para conseguir a felicidade não é uma vida cômoda, mas um coração enamorado.');
+INSERT INTO points VALUES(1797,0,1,796,'Depois de vinte séculos, temos de apregoar com plena segurança que o espírito de Cristo não perdeu a sua força redentora, a única que sacia os anelos do coração humano. - Começa por meter essa verdade no teu, que estará em perpétua inquietação - como escreveu Santo Agostinho - enquanto não o colocares inteiramente em Deus.');
+INSERT INTO points VALUES(1798,0,1,797,'Amar é... não albergar senão um único pensamento, viver para a pessoa amada, não se pertencer, estar submetido venturosa e livremente, com a alma e o coração, a uma vontade alheia... e ao mesmo tempo própria.');
+INSERT INTO points VALUES(1799,0,1,798,'Ainda não queres ao Senhor como o avaro às suas riquezas, como uma mãe a seu filho..., ainda te preocupas demasiado contigo mesmo e com as tuas ninharias! Não obstante, notas que Jesus já se tornou indispensável na tua vida... - Pois bem, logo que corresponderes por completo à sua chamada, Ele te será indispensável também em cada um dos teus atos.');
+INSERT INTO points VALUES(1800,0,1,799,'Grita-Lhe com força, porque esse grito é loucura de apaixonado!: - Senhor, embora eu te ame..., não te fies de mim! Ata-me a Ti, cada dia mais!');
+INSERT INTO points VALUES(1801,0,1,800,'Não duvides: o coração foi criado para amar. Metamos pois Jesus Cristo em todos os nossos amores. Caso contrário, o coração vazio se vinga, e se enche das baixezas mais desprezíveis.');
+INSERT INTO points VALUES(1802,0,1,801,'Não existe coração mais humano que o de uma criatura que transborda de sentido sobrenatural. Pensa em Santa Maria, a cheia de graça, Filha de Deus Pai, Mãe de Deus Filho, Esposa de Deus Espírito Santo: no seu Coração, cabe a humanidade inteira sem diferenças nem discriminações. - Cada um é seu filho, sua filha.');
+INSERT INTO points VALUES(1803,0,1,802,'As pessoas, quando têm o coração muito pequeno, parece que guardam os seus anseios numa gaveta pobre e fora de mão.');
+INSERT INTO points VALUES(1804,0,1,803,'Nas relações com os que te cercam, tens de conduzir-te cada dia com muita compreensão, com muito carinho, juntamente - é claro - com toda a energia necessária: de outro modo, a compreensão e o carinho se convertem em cumplicidade e egoísmo.');
+INSERT INTO points VALUES(1805,0,1,804,'Dizia - sem humildade de fachada - aquele nosso amigo: “Não precisei aprender a perdoar, porque o Senhor me ensinou a amar”.');
+INSERT INTO points VALUES(1806,0,1,805,'Perdoar. Perdoar com toda a alma e sem resquício de rancor! Atitude sempre grande e fecunda. - Esse foi o gesto de Cristo ao ser pregado na Cruz: “Pai, perdoa-os, porque não sabem o que fazem”. E daí veio a tua salvação e a minha.');
+INSERT INTO points VALUES(1807,0,1,806,'Causou-te uma grande pena o comentário bem pouco cristão daquela pessoa: “Perdoa os teus inimigos - dizia-te -; não imaginas como isso os deixa furiosos!”. - Não te pudeste conter, e replicaste com paz: “Não quero abaratar o amor com a humilhação do próximo. Perdôo, porque amo, com fome de imitar o Mestre”.');
+INSERT INTO points VALUES(1808,0,1,807,'Evita com delicadeza tudo o que possa ferir o coração dos outros.');
+INSERT INTO points VALUES(1809,0,1,808,'Por que motivo, entre dez maneiras de dizer “não”, hás de escolher sempre a mais antipática? - A virtude não deseja ferir.');
+INSERT INTO points VALUES(1810,0,1,809,'Olha: temos que amar a Deus não somente com o nosso coração, mas com o “dEle”, e com o de toda a humanidade de todos os tempos...: senão, ficaremos abaixo das medidas para correspondermos ao seu Amor.');
+INSERT INTO points VALUES(1811,0,1,810,'Dói-me que aqueles que se entregaram a Deus apresentem a imagem ou dêem pé para que os tomem por solteirões, quando têm o Amor por excelência! - Serão solteirões se não souberem amar Aquele que tanto ama.');
+INSERT INTO points VALUES(1812,0,1,811,'Alguém comparou o coração a um moinho que se move pelo vento do amor, da paixão... Efetivamente esse “moinho” pode moer trigo, cevada, esterco... - Depende de nós!');
+INSERT INTO points VALUES(1813,0,1,812,'O demônio - pai da mentira e vítima da sua soberba - tenta arremedar o Senhor até no modo de fazer prosélitos. Reparaste? Assim como Deus se vale dos homens para salvar almas e levá-las à santidade, satanás serve-se de outras pessoas para dificultar esse trabalho e até para as perder. E - não te assustes -, da mesma maneira que Jesus busca, como instrumentos, os mais próximos - parentes, amigos, colegas etc. -, o demônio também tenta, com freqüência, mover esses seres mais queridos, para induzir ao mal. Por isso, se os laços do sangue se convertem em amarras, que te impedem de seguir os caminhos de Deus, corta-os com decisão. E talvez a tua determinação desamarre também os que estavam enredados nas malhas de Lúcifer.');
+INSERT INTO points VALUES(1814,0,1,813,'Obrigado, meu Jesus!, por que quiseste fazer-te perfeito Homem, com um Coração amante e amabilíssimo, que ama até a morte e sofre; que se enche de gozo e de dor; que se entusiasma com os caminhos dos homens, e nos mostra aquele que conduz ao Céu; que se submete heroicamente ao dever, e se guia pela misericórdia; que vela pelos pobres e pelos ricos; que cuida dos pecadores e dos justos... - Obrigado, meu Jesus, e dá-nos um coração à medida do teu!');
+INSERT INTO points VALUES(1815,0,1,814,'Pede a Jesus que te conceda um Amor qual fogueira de purificação, onde a tua pobre carne - o teu pobre coração - se consuma, limpando-se de todas as misérias terrenas... E vazio de ti mesmo, se cumule dEle. Pede-Lhe que te conceda uma aversão radical ao que é mundano: que só o Amor te sustente.');
+INSERT INTO points VALUES(1816,0,1,815,'Viste com muita clareza a tua vocação - amar a Deus -, mas só com a cabeça. Garantes que puseste o coração no teu caminho..., mas às vezes te distrais e até tentas voltar o olhar para trás: sinal de que não o puseste por inteiro. - Esmera-te!');
+INSERT INTO points VALUES(1817,0,1,816,'“Eu vim - assim se exprime o Mestre - para separar o homem de seu pai, a filha de sua mãe e a nora de sua sogra...”. Cumprindo o que Ele te exige, demonstrarás que os amas verdadeiramente. Por isso, não te escudes no carinho que lhes tens - deve ser total -, à hora do teu sacrifício pessoal. Senão, acredita-me antepões ao amor de Deus o de teus pais; e ao de teus pais, o teu amor próprio. - Entendeste agora, com amis profundidade, a congruência das palavras evangélicas?');
+INSERT INTO points VALUES(1818,0,1,817,'O coração! De vez em quando, sem o poderes evitar, projeta-se uma sombra de luz humana, uma recordação torpe, triste, “provinciana”... - Corre logo ao Sacrário, física ou espiritualmente: e tornarás à luz, à alegria, à Vida.');
+INSERT INTO points VALUES(1819,0,1,818,'A freqüência com que visitamos o Senhor está em função de dois fatores: fé e coração; ver a verdade e amá-la.');
+INSERT INTO points VALUES(1820,0,1,819,'O amor se robustece também com negação e mortificação.');
+INSERT INTO points VALUES(1821,0,1,820,'Se tivesses um coração grande e um pouco mais de sinceridade não te deterias a mortificar, nem te sentirias mortificado... por minúcias.');
+INSERT INTO points VALUES(1822,0,1,821,'Se te zangas - em certas ocasiões é um dever; em outras, uma fraqueza -, que a zanga dure somente uns minutos. E, além disso, sempre com caridade: carinho!');
+INSERT INTO points VALUES(1823,0,1,822,'Repreender?... Muitas vezes é necessário. Mas ensinando a corrigir o defeito. Nunca por um desabafo do teu mau caráter.');
+INSERT INTO points VALUES(1824,0,1,823,'Quando é preciso corrigir, deve-se atuar com clareza e amabilidade; sem excluir um sorriso nos lábios, se for oportuno. Nunca - ou muito raras vezes - aos berros.');
+INSERT INTO points VALUES(1825,0,1,824,'Sentes-te depositário do bem e da verdade absoluta e, portanto, investido de um título pessoal ou de um direito a desarraigar o mal a todo o custo? - Por esse caminho não consertarás nada: só por Amor e com amor!, recordando que o Amor te perdoou e te perdoa tanto.');
+INSERT INTO points VALUES(1826,0,1,825,'Ama os bons, porque amam a Cristo... - E ama também os que não O amam, porque têm essa infelicidade..., e especialmente porque Ele ama uns e outros.');
+INSERT INTO points VALUES(1827,0,1,826,'A gente daquela terra - tão afastada de Deus, tão desorientada - recordou-te as palavras do Mestre: “Andam como ovelhas sem pastor”. - E sentiste que tu também ficavas com as entranhas cheias de compaixão... Decide-te, no lugar que ocupas, a dar a vida em holocausto por todos.');
+INSERT INTO points VALUES(1828,0,1,827,'Os pobres - dizia aquele amigo nosso - são o meu melhor livro espiritual e o principal motivo de minhas orações. Doem-me eles, e Cristo me dói com eles. E, porque me dói, compreendo que O amo e que os amo.');
+INSERT INTO points VALUES(1829,0,1,828,'Quando se coloca o amor de Deus no meio da amizade, este afeto se depura, se engrandece, se espiritualiza; porque se queimam as escórias, os pontos de vista egoístas, as considerações excessivamente carnais. Não o esqueças: o amor de Deus ordena melhor os nossos afetos, torna-os mais puros, sem diminuí-los.');
+INSERT INTO points VALUES(1830,0,1,829,'Esta situação abrasa-te: Cristo aproximou-se de ti quando não passavas de um miserável leproso! Até esse momento, só cultivavas uma qualidade boa: um generoso interesse pelos outros. Depois desse encontro, alcançaste a graça de ver Jesus neles, e te enamoraste dEle, e agora o amas neles..., e parece-te muito pobre - tens razão! - o altruísmo que antes te impelia a prestar uns serviços ao próximo.');
+INSERT INTO points VALUES(1831,0,1,830,'Acostuma-te a colocar o teu pobre coração no Doce e Imaculado Coração de Maria, para que o purifique de tanta escória, e te leve ao Coração Sacratíssimo e Misericordioso de Jesus.');
+INSERT INTO points VALUES(1832,0,1,831,'A castidade - a de cada um no seu estado: solteiro, casado, viúvo, sacerdote - é uma triunfante afirmação do amor.');
+INSERT INTO points VALUES(1833,0,1,832,'O “milagre” da pureza tem como pontos de apoio a oração e a mortificação.');
+INSERT INTO points VALUES(1834,0,1,833,'A tentação contra a castidade demonstra-se tanto mais perigosa quanto mais dissimulada: por se apresentar insidiosamente, engana melhor. - Não transijas, nem sequer com a desculpa de não “parecer estranho”!');
+INSERT INTO points VALUES(1835,0,1,834,'A santa pureza: humildade da carne! Senhor - pedias-Lhe -, sete chaves para o meu coração. E aconselhei-te que Lhe pedisses sete chaves para o teu coração e, também, oitenta anos de gravidade para a tua juventude... Além disso, vigia..., porque mais depressa se apaga uma fagulha do que um incêndio; foge..., porque aqui é uma vil covardia ser “valente”; não andes com os olhos esparramados..., porque isso não indica ânimo desperto, mas insídia de satanás. Mas toda essa diligência humana, junto com a mortificação, o cilício, a disciplina e o jejum, que pouco valem sem Ti, meu Deus!');
+INSERT INTO points VALUES(1836,0,1,835,'Assim matou aquele confessor a concupiscência de uma alma delicada, que se acusou de certas curiosidades: - “Ora! Instintos de machos e de fêmeas!”.');
+INSERT INTO points VALUES(1837,0,1,836,'Tão logo se admite voluntariamente esse diálogo, a tentação tira paz à alma, do mesmo modo que a impureza consentida destrói a graça.');
+INSERT INTO points VALUES(1838,0,1,837,'Seguiu o caminho da impureza com todo o seu corpo... e com toda a sua alma. - A sua fé foi-se esfumando..., embora saiba muito bem que não é problema de fé.');
+INSERT INTO points VALUES(1839,0,1,838,'“O senhor disse-me que se pode chegar a ser `outro'' Santo Agostinho, depois do meu passado. Não duvido, e hoje mais do que ontem quero esforçar-me por comprová-lo”. Mas tens de cortar valentemente e pela raiz, como o santo bispo de Hipona.');
+INSERT INTO points VALUES(1840,0,1,839,'Sim, pede perdão contrito, e faz abundante penitência pelos acontecimentos impuros da tua vida passada - mas não queiras recordá-los.');
+INSERT INTO points VALUES(1841,0,1,840,'Essa conversa... suja, de cloaca! - Não basta que não a secundes: manifesta energicamente a tua repugnância!');
+INSERT INTO points VALUES(1842,0,1,841,'É como se o “espírito” se fosse reduzindo, empequenecendo, até ficar num pontinho... E o corpo aumenta, agiganta-se até dominar. - Foi para ti que São Paulo escreveu: “Castigo o meu corpo e o reduzo à escravidão, não seja que, tendo pregado aos outros, venha eu a ser reprovado”.');
+INSERT INTO points VALUES(1843,0,1,842,'Que pena dão os que afirmam - pela sua triste experiência pessoal - que não se pode ser casto vivendo e trabalhando no meio do mundo! - Com esse raciocínio ilógico, não deveriam incomodar-se se alguém ofende a memória de seus pais, de seus irmãos, da sua mulher, do seu marido.');
+INSERT INTO points VALUES(1844,0,1,843,'Aquele confessor, um pouco rude, mas experiente, conteve os desvarios de uma alma e os reduziu à ordem com esta afirmação: “Andas agora por caminhos de gado; depois conformar-te-ás em ir pelos das cabras; e depois..., sempre como um animal, que não sabe olhar para o céu”.');
+INSERT INTO points VALUES(1845,0,1,844,'Talvez sejas... isso mesmo, o que és: um animalzinho. - Mas tens de reconhecer que outros são íntegros e castos. Ah!, e não te irrites depois, quando não contarem contigo ou quando te ignorarem: eles e elas organizam os seus planos humanos com pessoas que têm alma e corpo..., não com animais.');
+INSERT INTO points VALUES(1846,0,1,845,'Há quem traga filhos ao mundo para o seu benefício, para o seu serviço, para o seu egoísmo... E não se lembram de que são um dom maravilhoso do Senhor, do qual terão que prestar contas especialíssimas. Trazer filhos, somente para continuar a espécie, também o sabem fazer - não te zangues comigo - os animais.');
+INSERT INTO points VALUES(1847,0,1,846,'Um casal cristão não pode desejar cegar as fontes da vida. Porque o seu amor se fundamenta no Amor de Cristo, que é entrega e sacrifício... Além disso, como Tobias recordava a Sara, os esposos sabem que “nós somos filhos de santos, e não podemos juntar-nos à maneira dos gentios, que não conhecem a Deus”.');
+INSERT INTO points VALUES(1848,0,1,847,'Quando éramos pequenos, procurávamos grudar-nos à nossa mãe, ao passarmos por caminhos escuros ou por onde havia cachorros. Agora, ao sentirmos as tentações da carne, devemos chegar-nos estreitamente à Nossa Mãe do Céu, por meio da sua presença bem próxima e por meio das jaculatórias. - Ela nos defenderá e nos levará à luz.');
+INSERT INTO points VALUES(1849,0,1,848,'Pensa, que são mais homens, ou mais mulheres, por levarem essa vida desordenada. Vê-se que os que raciocinam assim colocam o seu ideal de pessoa nas meretrizes, nos invertidos, nos degenerados..., naqueles que têm o coração podre e não poderão entrar no Reino dos Céus.');
+INSERT INTO points VALUES(1850,0,1,849,'Permite-me um conselho, para que o ponhas em prática diariamente. Quando o coração te fizer notar as suas baixas tendências, reza devagar à Virgem Imaculada: Olha-me com compaixão, não me deixes, minha Mãe! - E aconselha-o assim a outros.');
+INSERT INTO points VALUES(1851,0,1,850,'Fomenta, na tua alma e no teu coração - na tua inteligência e no teu querer -, o espírito de confiança e de abandono na amorosa Vontade do Pai celestial... - Daí nasce a paz interior por que anseias.');
+INSERT INTO points VALUES(1852,0,1,851,'Como hás de ter paz, se te deixas arrastar - contraindo os “puxões” da graça - por essas paixões que nem sequer tentas dominar?');
+INSERT INTO points VALUES(1853,0,1,852,'Tanto a paz como a guerra estão dentro de nós. - Não se pode chegar ao triunfo, à paz, se faltam a lealdade e a decisão de vencer no combate.');
+INSERT INTO points VALUES(1854,0,1,853,'Um remédio contra essas tuas inquietações: ter paciência, retidão de intenção, e olhar as coisas com perspectiva sobrenatural.');
+INSERT INTO points VALUES(1855,0,1,854,'Afasta logo de ti - se Deus está contigo! - o temor e a perturbação de espírito... Evita pela raiz essas reações, pois ó servem para multiplicar as tentações e aumentar o perigo.');
+INSERT INTO points VALUES(1856,0,1,855,'Ainda que tudo se afunde e se acabe, ainda que os acontecimentos ocorram ao contrário do previsto, e nos sejam tremendamente adversos, nada ganhamos perturbando-nos. Além disso, lembra-te da oração confiante do profeta: “O Senhor é nosso Juiz, o Senhor é nosso Legislador, o Senhor é nosso Rei; Ele é quem nos há de salvar”. - Reza-a devotamente, todos os dias, para ajustares a tua conduta aos desígnios da Providência, que nos governa para nosso bem.');
+INSERT INTO points VALUES(1857,0,1,856,'Se - por teres o olhar cravado em Deus - sabes manter-te sereno ante as preocupações, se aprendes a esquecer as pequenezes, os rancores e as invejas, evitarás a perda de muitas energias, que te fazem falta para trabalhar com eficácia, a serviço dos homens.');
+INSERT INTO points VALUES(1858,0,1,857,'Aquele amigo confiava-nos sinceramente que nunca se tinha entediado, porque nunca se tinha encontrado só, sem o nosso Amigo. - Caía a tarde, num silêncio denso... Notas-te muito vivamente a presença de Deus... E, com essa realidade, que paz!');
+INSERT INTO points VALUES(1859,0,1,858,'Uma saudação vibrante de um irmão recordou-te, naquele ambiente de viagem, que os caminhos honestos do mundo estão abertos para Cristo: falta apenas que nos lancemos a percorrê-los, com espírito de conquista.');
+INSERT INTO points VALUES(1860,0,1,859,'És extraordinariamente feliz. Às vezes, quando percebes que um filho de Deus O abandona, sentes - no meio da tua paz e da tua alegria íntimas - uma dor de carinho, uma amargura, que nem perturba nem inquieta. - Muito bem, mas... toca a empregar todos os meios humanos e sobrenaturais para que essa pessoa reaja..., e a confiar com segurança em Jesus Cristo! Assim, as águas voltam sempre ao seu leito.');
+INSERT INTO points VALUES(1861,0,1,860,'Quando te abandonares de verdade no Senhor, aprenderás a contentar-se com o que vier, e a não perder a serenidade, se as tarefas - apensar de teres posto todo o teu empenho e utilizado os meios oportunos - não correm a teu gosto... Porque terão “corrido” como convém a Deus que corram.');
+INSERT INTO points VALUES(1862,0,1,861,'Continuas a ter desacertos e faltas, e doem-te! Ao mesmo tempo, caminhas com uma alegria que parece que te vai fazer explodir. Por isso, porque te doem - dor de amor -, os teus malogros já não te tiram a paz.');
+INSERT INTO points VALUES(1863,0,1,862,'Quando se está às escuras, com a alma cega e inquieta, temos de recorrer, como Bartimeu, à Luz. Repete, grita, insiste com mais força: "Domine, ut videam!" - Senhor, que eu veja!... E far-se-á dia para os teus olhos, e poderás alegrar-te com o clarão de luz que Ele te concederá.');
+INSERT INTO points VALUES(1864,0,1,863,'Luta contra as asperezas do teu caráter, contra os teus egoísmos, contra o teu comodismo, contra as tuas antipatias... Além de que temos de ser corredentores, o prêmio que receberás - pensa bem nisto - estará em proporção diretíssima com a semeadura que tiveres feito.');
+INSERT INTO points VALUES(1865,0,1,864,'Tarefa do cristão: afogar o mal em abundância de bem. Não se trata de campanhas negativas, nem de ser anti-nada. Pelo contrário: viver de afirmação, cheios de otimismo, com juventude, alegria e paz; ver com compreensão a todos: os que seguem a Cristo e os que O abandonam ou não O conhecem. - Mas compreensão não significa abstencionismo nem indiferença, mas atividade.');
+INSERT INTO points VALUES(1866,0,1,865,'Por caridade cristã e por elegância humana, deves esforçar-te por não criar um abismo com ninguém..., por deixar sempre uma saída ao próximo, para que não se afaste ainda mais da Verdade.');
+INSERT INTO points VALUES(1867,0,1,866,'A violência não é bom sistema para convencer..., e muito menos no apostolado.');
+INSERT INTO points VALUES(1868,0,1,867,'O violento perde sempre, mesmo que ganhe a primeira batalha..., porque acaba rodeado da solidão criada pela sua incompreensão.');
+INSERT INTO points VALUES(1869,0,1,868,'A tática do tirano é conseguir que briguem entre si aqueles que, unidos, poderiam fazê-lo cair. - Velha artimanha usada pelo inimigo -, para desbaratar muitos planos apostólicos.');
+INSERT INTO points VALUES(1870,0,1,869,'Esses..., que vêem antagonistas onde só há irmãos, negam com as suas obras a sua profissão de cristãos.');
+INSERT INTO points VALUES(1871,0,1,870,'Com a polêmica agressiva, que humilha, raramente se resolve uma questão. E, sem dúvida, nunca se consegue esclarecimento algum quando, entre os que disputam, há um fanático.');
+INSERT INTO points VALUES(1872,0,1,871,'Não compreendo o teu aborrecimento, nem o teu desencanto. Corresponderam-te com a tua mesma moeda: o deleite nas injúrias, através da palavra e das obras. Aproveita a lição e, de agora em diante, não esqueças que também têm coração os que convivem contigo.');
+INSERT INTO points VALUES(1873,0,1,872,'Para que não perdesses a paz, naqueles tempos de dura e injusta contradição, recordei-te: “Se nos abrirem a cabeça, não daremos a isso a maior importância: será porque temos de levá-la aberta”.');
+INSERT INTO points VALUES(1874,0,1,873,'Paradoxo: desde que me decidi a seguir o conselho do Salmo: “Lança sobre o Senhor as tuas preocupações, e Ele te sustentará”, cada dia tenho menos preocupações na cabeça... E, ao mesmo tempo, com o trabalho oportuno, tudo se resolve com maior clareza!');
+INSERT INTO points VALUES(1875,0,1,874,'Santa Maria é - assim a invoca a Igreja - a Rainha da paz. Por isso, quando se conturba a tua alma, ou o ambiente familiar ou profissional, ou a convivência na sociedade ou entre os povos, não cesses de aclamá-la com esse título: "Regina pacis, ora pro nobis!" - Rainha da paz, rogai por nós! Experimentaste fazê-lo, ao menos, quando perdes a tranqüilidade?... - Ficarás surpreso com a sua eficácia imediata.');
+INSERT INTO points VALUES(1876,0,1,875,'O verdadeiro cristão está sempre disposto a comparecer diante de Deus. Porque, em cada instante - se luta por viver como homem de Cristo -, encontra-se preparado para cumprir o seu dever.');
+INSERT INTO points VALUES(1877,0,1,876,'Em face da morte, sereno! - É assim que te quero. - Não com o estoicismo frio do pagão; mas com o fervor do filho de Deus, que sabe que a vida é mudada, não tirada. - Morrer?... Viver!');
+INSERT INTO points VALUES(1878,0,1,877,'Doutor em Direito e em Filosofia, preparava um concurso para professor catedrático na Universidade de Madrid. Duas carreiras brilhantes, feitas com brilhantismo. Mandou-me avisar: estava doente, e desejava que eu fosse visitá-lo. Cheguei à pensão onde estava hospedado. - “Padre, estou morrendo”, foi a saudação. Animei-o, com carinho. Quis fazer uma confissão geral. Naquela noite, faleceu. Um arquiteto e um médico me ajudaram a amortalhá-lo. - E, à vista daquele corpo jovem, que rapidamente começou a decompor-se..., estivemos de acordo os três em que as duas carreiras universitárias não valiam nada, comparadas com a carreira definitiva que, como bom cristão, acabava de coroar.');
+INSERT INTO points VALUES(1879,0,1,878,'Tudo se conserta, menos a morte... E a morte conserta tudo.');
+INSERT INTO points VALUES(1880,0,1,879,'A morte chegará inexoravelmente. Portanto, que oca vaidade centrar a existência nesta vida! Olha como padecem tantas e tantos. A uns, porque ela se acaba, dói-lhes deixá-la; a outros, porque dura, enfastia-os... Em caso algum tem cabimento a atitude errada de justificarmos a nossa passagem pela terra como um fim. É preciso sair dessa lógica, e ancorar-se na outra: na eterna. É necessário uma mudança total: um esvaziar-se de si mesmo, dos motivos egocêntricos, que são caducos, para renascer em Cristo, que é eterno.');
+INSERT INTO points VALUES(1881,0,1,880,'Quando pensares na morte, apesar dos teus pecados, não tenhas medo... Porque Ele já sabe que O amas..., e de que massa estás feito. - Se tu O procurares, acolher-te-á como o pai ao filho pródigo: mas tens de procurá-Lo!');
+INSERT INTO points VALUES(1882,0,1,881,'"Non habemus hic manentem civitatem" - não se encontra nesta terra a nossa morada definitiva. - E, para que não o esqueçamos, às vezes essa verdade surge com crueza à hora da morte: incompreensão, perseguição, desprezo... - E sempre a solidão, porque - mesmo que estejamos rodeados de carinho - cada um morre sozinho. - Soltemos já todas as amarras! Preparemo-nos continuamente para esse passo, que nos levará à presença eterna da Trindade Santíssima.');
+INSERT INTO points VALUES(1883,0,1,882,'O tempo é o nosso tesouro, o “dinheiro” para comprarmos a eternidade.');
+INSERT INTO points VALUES(1884,0,1,883,'Consolou-te a idéia de que a vida é um gastar-se, um queimá-la no serviço de Deus. - Assim, gastando-nos integralmente por Ele, virá a libertação da morte, que nos trará a posse da Vida.');
+INSERT INTO points VALUES(1885,0,1,884,'Aquele sacerdote amigo trabalhava pensando em Deus, agarrado à sua mão paterna, e ajudando os outros a assimilar estas idéias-mestras. Por isso, dizia para si mesmo: Quando morreres, tudo continuará a andar bem, porque continuará Ele a ocupar-se de tudo.');
+INSERT INTO points VALUES(1886,0,1,885,'Não faças da morte uma tragédia!, porque não o é. Só aos filhos desamorados é que não entusiasma o encontro com seus pais.');
+INSERT INTO points VALUES(1887,0,1,886,'Todas as coisas daqui de baixo são um punhado de cinzas. Pensa nos milhões de pessoas - já defuntas - “importantes” e “recentes”, de quem já ninguém se lembra.');
+INSERT INTO points VALUES(1888,0,1,887,'Esta foi a grande revolução cristã: converter a dor em sofrimento fecundo; fazer, de um mal, um bem. Despojamos o diabo dessa arma...; e, com ela, conquistamos a eternidade.');
+INSERT INTO points VALUES(1889,0,1,888,'O juízo revelar-se-á terrível para aqueles que, conhecendo perfeitamente o caminho, e tendo-o ensinado e exigido aos outros, não o tiveram percorrido eles mesmos. - Deus os julgará e os condenará com as suas próprias palavras.');
+INSERT INTO points VALUES(1890,0,1,889,'O purgatório é uma misericórdia de Deus, para limpar os defeitos daqueles que desejam identificar-se com Ele.');
+INSERT INTO points VALUES(1891,0,1,890,'Somente o inferno é castigo do pecado. A morte e o juízo não passam de conseqüências, que aqueles que vivem na graça de Deus não temem.');
+INSERT INTO points VALUES(1892,0,1,891,'Se alguma vez te intranqüilizas com o pensamento da nossa irmã a morte - porque te vês tão pouca coisa! -, anima-te e considera: que será esse Céu que nos espera, quando toda a formosura e grandeza, toda a felicidade e Amor infinitos de Deus se derramarem sobre o pobre vaso de barro que é a criatura humana, e a saciarem eternamente, sempre com a novidade de uma aventura nova?');
+INSERT INTO points VALUES(1893,0,1,892,'Quando se choca com a amarga injustiça desta vida, como se alegra a alma reta ao pensar na Justiça eterna do seu Deus eterno! - E, dentro do conhecimento das suas próprias misérias, escapa-lhe, com eficazes desejos, aquela exclamação paulina: "Non vivo ego" - não sou eu quem vive agora!, é Cristo quem vive em mim!: e viverá eternamente.');
+INSERT INTO points VALUES(1894,0,1,893,'Como se deve morrer contente, quando se viveram heroicamente todos os minutos da vida! - Posso garantir-te isso, porque presenciei a alegria daqueles que, com serena impaciência, durante muitos anos, se prepararam para esse encontro.');
+INSERT INTO points VALUES(1895,0,1,894,'Pede que nenhum de nós falhe ao Senhor. - Não nos será difícil, se não formos tolos. Porque o nosso Pai-Deus ajuda em tudo: até mesmo tornando temporário este nosso desterro no mundo.');
+INSERT INTO points VALUES(1896,0,1,895,'O pensamento da morte ajudar-te-á a cultivar a virtude da caridade, porque talvez esse instante concreto de convivência seja o último em que estás com este ou com aquele...: eles ou tu, ou eu, podemos faltar em qualquer momento.');
+INSERT INTO points VALUES(1897,0,1,896,'Dizia uma alma ambiciosa de Deus: felizmente, nós os homens não somos eternos!');
+INSERT INTO points VALUES(1898,0,1,897,'Fez-me meditar aquela notícia: cinqüenta e um milhões de pessoas falecem por ano; noventa e sete por minuto. O pescador - assim disse o Mestre - lança as suas redes ao mar, o Reino dos Céus é semelhante a uma rede de arrastão..., e de dentro dela serão escolhidos os bons; e os maus, os que não preencheram as condições, rejeitados para sempre! Cinqüenta e um milhões morrem por ano, noventa e sete por minuto: dize-o também a outros.');
+INSERT INTO points VALUES(1899,0,1,898,'A nossa Mãe subiu em corpo e alma aos Céus. Repete-lhe que, como filhos, não queremos separar-nos dEla... Ela te escutará!');
+INSERT INTO points VALUES(1900,0,1,899,'Dom de línguas, saber transmitir a ciência de Deus; recurso imprescindível para quem há de ser apóstolo. - Por isso, pelo todos os dias a Deus Nosso Senhor que o conceda a cada uma e a cada um dos seus filhos.');
+INSERT INTO points VALUES(1901,0,1,900,'Aprende a dizer “não”, sem ferir desnecessariamente, sem lançar mão da recusa cortante, que rasga a caridade. - Lembra-te de que estás sempre diante de Deus.');
+INSERT INTO points VALUES(1902,0,1,901,'Aborrece-te que eu insista, do mesmo modo, nas mesmas coisas essenciais? Que não tenha em conta essas correntes em voga? - Olha: sempre se definiu da mesma maneira, ao longo dos séculos, a linha reta, porque é a mais clara e breve. Outra definição seria mais obscura e complicada.');
+INSERT INTO points VALUES(1903,0,1,902,'Acostuma-te a falar cordialmente de tudo e de todos; em particular, de todos os que trabalham no serviço de Deus. E quando não for possível, cala-te! Também os comentários bruscos ou desembaraçados podem beirar a murmuração ou a difamação.');
+INSERT INTO points VALUES(1904,0,1,903,'Dizia-te um rapagão que acabava de entregar-se mais intimamente a Deus: “Agora o que eu preciso é falar menos, visitar doentes e dormir no chão”. - Aplica a moral da história a ti mesmo.');
+INSERT INTO points VALUES(1905,0,1,904,'Dos sacerdotes de Cristo não se deve falar senão para louvá-los! - Desejo com toda a minha alma que os meus irmãos e eu o tenhamos muito em conta, para a nossa conduta diária.');
+INSERT INTO points VALUES(1906,0,1,905,'A mentira tem muitas facetas: reticências, cochichos, murmuração... - Mas é sempre arma de covardes.');
+INSERT INTO points VALUES(1907,0,1,906,'Não há direito de que te deixes impressionar pela primeira ou pela última conversa! Escuta com respeito, com interesse; dá crédito às pessoas..., mas peneira o teu juízo na presença de Deus.');
+INSERT INTO points VALUES(1908,0,1,907,'Murmuram. E depois eles mesmos se encarregam de que alguém venha imediatamente contar-te o “diz-se”... - Vilania? - Sem dúvida. Mas não percas a paz, já que as suas línguas não poderão fazer-te mal nenhum, se trabalhas com retidão... - Pensa: como são bobos, que pouco tato humano têm, que falta de lealdade para com os seus irmãos... e especialmente para com Deus! E não caias tu na murmuração, por um mal entendido direito de réplica. Se tens de falar, serve-te da correção fraterna, como nos aconselha o Evangelho.');
+INSERT INTO points VALUES(1909,0,1,908,'Não te preocupes com essas contradições, com esses falatórios; trabalhamos sem dúvida numa tarefa divina, mas somos homens... E é lógico que, ao andar, levantemos o pó do caminho. Isso que te incomoda, que te fere..., aproveita-o para a tua purificação e, se for preciso, para retificar.');
+INSERT INTO points VALUES(1910,0,1,909,'Murmurar, dizem, é muito humano. - Repliquei: nós temos que viver à maneira divina. A palavra malvada ou leviana de um só homem pode formar uma opinião, e até pôr de moda que se fale mal de alguém... Depois, essa murmuração sobe lá de baixo, chega às alturas, e talvez se condense em negras nuvens. - Mas, quando o fustigado é uma alma de Deus, as nuvens se revolvem em chuva fecunda, aconteça o que acontecer; e o Senhor se encarrega de exaltá-lo, naquilo mesmo em que pretendiam humilhá-lo ou difamá-lo.');
+INSERT INTO points VALUES(1911,0,1,910,'Não querias acreditar, mas tiveste que render-te à evidência, bem à tua custa: aquelas afirmações que pronunciaste com simplicidade e com saudável senso católico, os inimigos da fé as retorceram com malícia. É verdade, “temos de ser cândidos como as pombas..., e prudentes como as serpentes”. Não fales a destempo nem fora de lugar.');
+INSERT INTO points VALUES(1912,0,1,911,'Por não saberes - ou não quereres - imitar a conduta nobre daquele homem, a tua secreta inveja te leva a ridicularizá-lo.');
+INSERT INTO points VALUES(1913,0,1,912,'A maledicência é filha da inveja; e a inveja, o refúgio, dos infecundos. Por isso, perante a esterilidade, examina o teu ponto de mira: se trabalhas e não te incomoda que os outros também trabalhem e consigam frutos, essa esterilidade é apenas aparente; farás a colheita a seu tempo.');
+INSERT INTO points VALUES(1914,0,1,913,'Há alguns que, quando não fazem mal aos outros ou não os mortificam, parece que se consideram desocupados.');
+INSERT INTO points VALUES(1915,0,1,914,'Às vezes, penso que os murmuradores são como pequenos endemoninhados... - Porque o demônio insinua-se sempre com o seu espírito maligno de crítica a Deus, ou aos seguidores de Deus.');
+INSERT INTO points VALUES(1916,0,1,915,'“Burrices!”, comentas depreciativamente. - Mas tu as conheces? Não? - Então, como é que falas daquilo que não sabes?');
+INSERT INTO points VALUES(1917,0,1,916,'Responde a esse murmurador: fique descansado, vou contar isso ou falar disso com o interessado.');
+INSERT INTO points VALUES(1918,0,1,917,'Escreveu um autor contemporâneo: “O mexerico é sempre desumano; revela uma valia pessoal medíocre; é um sinal de falta de educação; demonstra ausência de finura de sentimentos; é indigno do cristão”.');
+INSERT INTO points VALUES(1919,0,1,918,'Evita sempre a queixa, a crítica, as murmurações... Evita à risca tudo o que possa introduzir discórdia entre irmãos.');
+INSERT INTO points VALUES(1920,0,1,919,'Tu, que estás investido em muito alta autoridade, serias imprudente se interpretasses o silêncio dos que escutam como sinal de aquiescência: pensa que não lhes deixa expor as suas sugestões, e que te sentes ofendido se chegam a fazê-las. - Tens de corrigir-te.');
+INSERT INTO points VALUES(1921,0,1,920,'Esta há de ser a tua altitude perante a difamação. Primeiro, perdoar: a todos, desde o primeiro instante e de todo o coração. - Depois, amar: que não te escape nem uma falta de caridade, responde sempre com amor! - Mas, se atacam a tua Mãe, a Igreja, defende-a valentemente; com calma, mas com firmeza e com inteireza cheia de energia, impede que manchem, ou que estorvem, o caminho por onde têm de caminhar as almas que querem perdoar e responder com caridade, quando sofrem injúrias pessoais.');
+INSERT INTO points VALUES(1922,0,1,921,'O vilarejo mais pequeno - comentava alguém, cansado de murmurações - deveria ter ambiente de capital. - Não sabia, o coitado, que não adianta. - Tu, por amor a Deus e a o próximo, não caias num defeito tão “provinciano”... e tão pouco cristão. - Dos primeiros seguidores de Cristo afirmava-se: Vêde como se amam! Pode-se dizer o mesmo de ti, de mim, a qualquer hora?');
+INSERT INTO points VALUES(1923,0,1,922,'As críticas contra as obras de apostolado costumam ser de dois gêneros: uns apresentam o trabalho como uma estrutura complicadíssima; outros o tacham de tarefa cômoda e fácil. No fundo, essa “objetividade” se reduz a estreiteza de vistas, com uma boa dose de preguiça tagarela. - Pergunta-lhe sem te zangares: E vocês, que fazem?');
+INSERT INTO points VALUES(1924,0,1,923,'Para os imperativos da tua fé, talvez não possas pedir simpatia, mas tens que exigir respeito.');
+INSERT INTO points VALUES(1925,0,1,924,'Os que te falaram mal desse amigo leal para com Deus são os mesmos que irão murmurar de ti, quando te decidires a portar-te melhor.');
+INSERT INTO points VALUES(1926,0,1,925,'Certos comentários só podem ferir os que se sentem atingidos. Por isso, quando se caminha - com a cabeça e o coração - seguindo os passos do Senhor, as críticas se acolhem como purificação e servem de acicate para avivar o passo.');
+INSERT INTO points VALUES(1927,0,1,926,'A Trindade Santíssima coroou a nossa Mãe. - Deus Pai, Deus Filho, Deus Espírito Santo, pedir-nos-á contas de toda a palavra ociosa. Mais um motivo para que digamos a Santa Maria que nos ensine a falar sempre na presença do Senhor.');
+INSERT INTO points VALUES(1928,0,1,927,'Convence-te: o teu apostolado consiste em difundir bondade, luz, entusiasmo, generosidade, espírito de sacrifício, constância no trabalho, profundidade no estudo, amplitude na entrega, atualização, obediência absoluta e alegre à Igreja, caridade perfeita... - Ninguém dá o que não tem.');
+INSERT INTO points VALUES(1929,0,1,928,'Para ti, que és ainda jovem e acabas de empreender o caminho, um conselho: como Deus merece tudo, procura sobressair profissionalmente, para que possas depois propagar as tuas idéias com maior eficácia.');
+INSERT INTO points VALUES(1930,0,1,929,'Não o esqueças: tanto melhor convencemos quanto mais convencidos estamos.');
+INSERT INTO points VALUES(1931,0,1,930,'“Não se acende a luz para colocá-la debaixo de um alqueire, mas sobre um candeeiro, a fim de que alumie todos os da casa; assim brilhe a vossa luz diante dos homens, de maneira que vejam as vossas obras e glorifiquem o vosso Pai que está nos céus”. E, no final da sua passagem pela terra, Ele ordena: "Euntes docete" - ide e ensinai. Quer que a sua luz brilhe na conduta e na palavra dos seus discípulos - nas tuas também.');
+INSERT INTO points VALUES(1932,0,1,931,'É chocante a freqüência com que, em nome da liberdade!, tanto têm medo - e se opõem! - a que os católicos sejam simplesmente bons católicos.');
+INSERT INTO points VALUES(1933,0,1,932,'Guarda-te dos propagadores de calúnias e insinuações, que uns acolhem por ligeireza e outros por má-fé, destruindo a serenidade do ambiente e envenenando a opinião pública. Em certas ocasiões, a verdadeira caridade pede que se denunciem esses atropelos e os seus promotores. Senão, com a consciência desviada ou pouco formada, eles e os que os ouvem podem pensar: calam, logo consentem.');
+INSERT INTO points VALUES(1934,0,1,933,'Os sectários vociferam contra o que chamam “o nosso fanatismo”, porque os séculos passam e a Fé católica permanece imutável. Pelo contrário, o fanatismo dos sectários - por não guardar relação com a verdade - muda de vestimenta em cada época, levantando contra a Santa Igreja o espantalho de meras palavras, esvaziadas de conteúdo pelas suas obras: “liberdade”, que acorrenta; “progresso”, que devolve à selva; “ciência”, que esconde ignorância... Sempre uma bandeira que encobre velha mercadoria estragada. Oxalá se torne cada dia mais forte o “teu fanatismo” pela Fé, única defesa da única Verdade!');
+INSERT INTO points VALUES(1935,0,1,934,'Não te assustes nem te espantes com a obtusidade de alguns. Nunca deixará de haver fátuos que esgrimam, com alardes de cultura, a arma da sua ignorância.');
+INSERT INTO points VALUES(1936,0,1,935,'Que pena verificar como caminham unidos, por paixões diferentes - mas unidos contra os cristãos, filhos de Deus -, os que odeiam o Senhor e alguns que afirmam estar a seu serviço!');
+INSERT INTO points VALUES(1937,0,1,936,'Em certos ambientes, sobretudo nos da esfera intelectual, percebe-se e apalpa-se como que uma palavra de ordem de seitas, servida às vezes até por católicos, que - com cínica perseverança - mantém e propaga a calúnia, para lançar sombras sobre a Igreja ou sobre pessoas e entidades, contra toda a verdade e toda a lógica. Reza diariamente, com fé: "ut inimicos Sanctae Ecclesiae - inimigos porque são eles que se proclamam assim - humiliare digneris, te rogamus audi nos!". Confunde, Senhor, os que te perseguem, com a claridade da tua luz, que estamos decididos a propagar.');
+INSERT INTO points VALUES(1938,0,1,937,'Dizem que é velha essa idéia do catolicismo, e portanto inaceitável?... - Mais antigo é o sol, e não perdeu a sua luz; mais arcaica a água, e ainda tira a sede e refresca.');
+INSERT INTO points VALUES(1939,0,1,938,'Não se pode tolerar que ninguém, nem mesmo com um bom fim, falseie a história ou a vida. - Mas constitui um grande erro levantar um pedestal aos inimigos da Igreja, que consumiram os seus dias em persegui-la. Convence-te: não se falta à verdade histórica se um cristão não colabora na construção de um pedestal que não deve existir: desde quando se pode colocar o ódio como modelo?');
+INSERT INTO points VALUES(1940,0,1,939,'A propaganda cristã não necessita provocar antagonismos, nem maltratar os que não conhecem a nossa doutrina. Se se procede com caridade - "caritas omnia suffert!", o amor tudo suporta -, quem era contrário, decepcionado com o seu erro, pode acabar aderindo sincera e delicadamente. - Contudo, não tem cabimento fazer concessões no dogma, em nome de uma ingênua “amplidão de critério”, porque quem agisse assim se exporia a ficar fora da Igreja; e, em vez de conseguir o bem para os outros, faria um mal a si mesmo.');
+INSERT INTO points VALUES(1941,0,1,940,'O cristianismo é “insólito”, não se acomoda às coisas deste mundo. E esse é talvez o seu “maior inconveniente”, e a bandeira dos mundanos.');
+INSERT INTO points VALUES(1942,0,1,941,'Alguns não sabem nada de Deus..., porque não lhes falaram em termos compreensíveis.');
+INSERT INTO points VALUES(1943,0,1,942,'Aonde não chegar a tua inteligência, pede que chegue a tua santa esperteza, para servires mais e melhor a todos.');
+INSERT INTO points VALUES(1944,0,1,943,'Acredita em mim: o apostolado, a catequese, de ordinário, tem de ser capilar: um a um. Cada homem de fé com o seu companheiro mais próximo. Aos que somos filhos de Deus, importam-nos todas as almas, porque nos importa cada alma.');
+INSERT INTO points VALUES(1945,0,1,944,'Ampara-te na Virgem Santíssima, Mãe do Bom Conselho, para que da tua boca jamais saiam ofensas a Deus.');
+INSERT INTO points VALUES(1946,0,1,945,'Se nós, os cristãos, vivêssemos verdadeiramente de acordo com a nossa fé, produzir-se-ia a maior revolução de todos os tempos... A eficácia da corredenção depende também de cada um de nós! - Medita nisto.');
+INSERT INTO points VALUES(1947,0,1,946,'Sentir-te-ás plenamente responsável quando compreenderes que, em face de Deus, só tens deveres. Ele já se encarrega de conceder-te direitos!');
+INSERT INTO points VALUES(1948,0,1,947,'Oxalá te habitues a ocupar-te diariamente dos outros, com tanta entrega que te esqueças de que existes!');
+INSERT INTO points VALUES(1949,0,1,948,'Um pensamento que te ajudará nos momentos difíceis: quanto mais aumentar a minha fidelidade, melhor contribuirei para que os outros cresçam nesta virtude. - E é tão atraente sentirmo-nos sustentados uns pelos outros!');
+INSERT INTO points VALUES(1950,0,1,949,'Não sejas “teórico”: são as nossas vidas, em cada jornada, que devem converter esses ideais grandiosos numa realidade cotidiana, heróica e fecunda.');
+INSERT INTO points VALUES(1951,0,1,950,'De fato, o que é velho merece respeito e agradecimento. Aprender, sim. Ter em conta essas experiências, também. Mas não exageremos: cada coisa a seu tempo. Por acaso vestimos gibão e bombacha, ou cobrimos a nossa cabeça com uma peruca empoada?');
+INSERT INTO points VALUES(1952,0,1,951,'Não te zangues: muitas vezes um comportamento irresponsável denota falta de cabeça ou de formação, mais que ausência de bom espírito. Será necessário exigir aos mestres, aos diretores, que preencham essas lacunas com o seu cumprimento responsável do dever. - Será necessário que te examines..., se és tu que ocupas um desses lugares.');
+INSERT INTO points VALUES(1953,0,1,952,'Corres o grande perigo de conformar-te com viver - ou de pensar que deves viver - como um “bom menino”, que mora numa casa ordenada, sem problemas, e que só conhece a felicidade. Isso é uma caricatura do lar de Nazaré: Cristo, justamente porque trazia a felicidade e a ordem, saiu de lá para propagar esses tesouros entre os homens e mulheres de todos os tempos.');
+INSERT INTO points VALUES(1954,0,1,953,'Acho muito lógicas as tuas ânsias de que a humanidade inteira conheça a Cristo. mas começa com a responsabilidade de salvar as almas dos que convivem contigo, de santificar cada um dos teus colegas de trabalho ou de estudo... - Esta é a principal missão que o Senhor te confiou.');
+INSERT INTO points VALUES(1955,0,1,954,'Comporta-te como se dependesse de ti, exclusivamente de ti, o ambiente do lugar em que trabalhas: ambiente de laboriosidade, de alegria, de presença de Deus e de sentido sobrenatural. - Não compreendo a tua abulia. Se tropeças com um grupo de colegas um pouco difícil - que talvez tenha chegado a ser difícil pelo teu descaso -, logo te desinteressas deles, tiras o corpo, e pensas que são um peso morto, um lastro que se opõe às tuas aspirações apostólicas, que não te vão entender... Como queres que te escutem se, além de querer-lhe bem e servi-los com a tua oração e mortificação, não lhe falas?... - Quantas surpresas terás no dia em que te decidas a conversar com um, com outro, e outro! Além disso, se não mudas, poderão exclamar com razão, apontando-te com o dedo: "Hominem non habeo!" - não tenho quem me ajude!');
+INSERT INTO points VALUES(1956,0,1,955,'Escuta-me: as coisas santas, quando se vêem santamente, quando se vivem todos os dias santamente..., não se convertem em coisas “de todos os dias”. Todos os afazeres de Jesus Cristo nesta terra foram humanos, e divinos!');
+INSERT INTO points VALUES(1957,0,1,956,'Não te podes conformar com viver - dizes - como os outros, com uma fé comum. - Efetivamente, deves ter fé pessoal: com senso de responsabilidade.');
+INSERT INTO points VALUES(1958,0,1,957,'A Trindade Santíssima concede-te a sua graça, e espera que a aproveites responsavelmente: em face de tanto benefício, não se pode andar com atitudes cômodas, lentas, preguiçosas..., porque, além disso, as almas te esperam.');
+INSERT INTO points VALUES(1959,0,1,958,'Para ti, que estás tendo esse grande problema. - Se se focaliza bem o assunto, isto é, com um sentido sobrenatural sereno e responsável, sempre se encontra a solução.');
+INSERT INTO points VALUES(1960,0,1,959,'Ao pegarem os seus filhos ao colo, as mães - as boas mães - procuram não trazer alfinetes que possam ferir essas criaturas... Ao tratarmos com as almas, temos que usar de toda a suavidade... e de toda a energia necessária.');
+INSERT INTO points VALUES(1961,0,1,960,'"Custos, quid de nocte!" - Sentinela, alerta! Tomara que tu também te acostumes a ter, durante a semana, o teu dia de guarda: para te entregares mais, para viveres com mais amorosa vigilância cada detalhe, para fazeres um pouco mais de oração e de mortificação. Olha que a Santa Igreja é como um grande exército em ordem de batalha. E tu, dentro desse exército, defendes uma “frente”, onde há ataques e lutas e contra-ataques. Compreendes? Essa disposição, ao aproximar-te mais de Deus, incitar-te-á a converter as tuas jornadas, uma após outra, em dias de guarda.');
+INSERT INTO points VALUES(1962,0,1,961,'No reverso de uma vocação “perdida” ou de uma resposta negativa a essas chamadas constantes da graça, deve-se ver a vontade permissiva de Deus. - Sem dúvida; mas se somos sinceros, bem sabemos que isso não constitui isenção de culpa nem atenuante, porque percebemos no anverso o descumprimento pessoal da Vontade divina, que nos procurou para Si e não encontrou correspondência.');
+INSERT INTO points VALUES(1963,0,1,962,'Se tu amas de verdade a tua Pátria - e estou certo de que a amas -, perante um alistamento voluntário para defendê-la de um perigo iminente, não duvidarias em inscrever o teu nome. Em momentos de emergência, como já te escrevi, todos são úteis: homens e mulheres; velhos, maduros, jovens e até adolescentes. Só ficam à margem os incapazes e as crianças. Todos os dias se convoca, não há um alistamento voluntário - isso é pouco -, mas uma mobilização geral de almas, para defender o Reino de Cristo. E o próprio Rei, Jesus, te chamou expressamente pelo teu nome. Ele te pede que combatas as batalhas de Deus, pondo a seu serviço o que tens de mais elevado na tua alma: o teu coração, a tua vontade, o teu entendimento, todo o teu ser. - Escuta-me: a carne, com a tua pureza de vida e especialmente com a proteção de Nossa Senhora, não é problema. - Serás tão covarde que tentes livrar-te do chamamento, com a desculpa de que tens doente o coração, a vontade ou o entendimento?... Pretendes justificar-te e ficar nos serviços auxiliares? - O Senhor quer fazer de ti um instrumento de vanguarda - já o és - e, se viras as costas, só mereces compaixão, como traidor!');
+INSERT INTO points VALUES(1964,0,1,963,'Se o tempo fosse ouro..., talvez pudesses perdê-lo. - Mas o tempo é vida, e tu não sabes quanta te resta.');
+INSERT INTO points VALUES(1965,0,1,964,'O Senhor converteu Pedro - que O tinha negado três vezes - sem lhe dirigir sequer uma censura: com um olhar de Amor. - É com esses mesmos olhos que Jesus nos olha, depois das nossas quedas. Oxalá possamos dizer-Lhe, como Pedro: “Senhor, Tu sabes tudo; Tu sabes que eu te amo!”, e mudemos de vida.');
+INSERT INTO points VALUES(1966,0,1,965,'Alguns argumentam que é em nome da caridade que procedem com delicadeza e compreensão com os que cometem atropelos. - Rogo a Deus que essa delicadeza e essa compreensão não sejam a camuflagem dos seus... respeitos humanos, do seu comodismo!, para permitir que se cometa o mal. Porque então... a sua delicadeza e a sua compreensão só seriam cumplicidade na ofensa a Deus.');
+INSERT INTO points VALUES(1967,0,1,966,'Não é possível facilitar a conversão de uma alma, à custa de tornar possível a perversão de muitas outras.');
+INSERT INTO points VALUES(1968,0,1,967,'Se alguém aceitasse que, entre os cordeiros se criassem lobos..., pode-se imaginar com facilidade a sorte que correriam os seus cordeiros.');
+INSERT INTO points VALUES(1969,0,1,968,'Os homens medíocres, medíocres de cabeça e de espírito cristão, quando constituídos em autoridade, rodeiam-se de néscios: a sua vaidade os persuade, falsamente, de que assim nunca perderão o domínio. Os sensatos, pelo contrário, rodeiam-se de doutos - que ao seu saber acrescentam a limpeza de vida -, e os transformam em homens de governo. Essa humildade não os frustra, pois - ao engrandecerem os outros - se engrandecem a si próprios.');
+INSERT INTO points VALUES(1970,0,1,969,'Não é prudente elevar homens inéditos a uma tarefa importante de direção, para ver o que acontece. - Como se o bem comum pudesse depender uma caixa de surpresas!');
+INSERT INTO points VALUES(1971,0,1,970,'Estás constituído em autoridade, e atuas guiado pelo que os homens dirão? - Velho caduco! - Primeiro, deve importar-te o que Deus dirá; depois - muito em segundo lugar, e às vezes nunca -, terás de ponderar o que os outros podem pensar. “Todo aquele que me reconhecer diante dos homens - diz o Senhor -, eu também o reconhecerei diante de meu Pai que está nos céus. Mas aquele que me negar diante dos homens, eu também o negarei diante de meu Pai que está nos céus”.');
+INSERT INTO points VALUES(1972,0,1,971,'Tu, que ocupas um posto de responsabilidade, ao exercer a tua tarefa, lembra-te disto: tudo o que é pessoal perece com a pessoa que se fez imprescindível.');
+INSERT INTO points VALUES(1973,0,1,972,'Uma norma fundamental de bom governo: distribuir responsabilidades, sem que isto signifique procurar a comodidade ou o anonimato. Insisto, distribuir responsabilidades: pedindo contas a cada um do seu encargo, para poder “prestar contas” a Deus; e à almas, se for preciso.');
+INSERT INTO points VALUES(1974,0,1,973,'Ao resolveres os assuntos, procura nunca exagerar a justiça ao ponto de esqueceres a caridade.');
+INSERT INTO points VALUES(1975,0,1,974,'A resistência de uma corrente mede-se pelo elo mais fraco.');
+INSERT INTO points VALUES(1976,0,1,975,'Não digas de nenhum dos teus subordinados: não presta. - Quem não presta és tu: porque não sabes colocá-los no lugar em que podem funcionar bem.');
+INSERT INTO points VALUES(1977,0,1,976,'Rejeita a ambição de honras; contempla, pelo contrário, os instrumentos, os deveres e a eficácia. - Assim, não ambicionarás os cargos e, se te chegam, hás de olhá-los na sua justa medida: cargas a serviço das almas.');
+INSERT INTO points VALUES(1978,0,1,977,'Na hora do desprezo da Cruz, Nossa Senhora está la, perto do seu Filho, decidida a correr a sua mesma sorte. - Percamos o medo de nos comportarmos como cristãos responsáveis, quando isso não é cômodo no ambiente em que nos desenvolvemos: Ela nos ajudará.');
+INSERT INTO points VALUES(1979,0,1,978,'Nosso Senhor Jesus assim o quer: é preciso segui-lo de perto. Não há outro caminho. Essa é a obra do Espírito Santo em cada alma - na tua -: sê dócil, não oponhas obstáculos a Deus, até que faça da tua pobre carne em Crucifixo.');
+INSERT INTO points VALUES(1980,0,1,979,'Se a palavra amor sai muitas vezes da boca, sem estar escorada em pequenos sacrifícios, chega a cansar.');
+INSERT INTO points VALUES(1981,0,1,980,'Sob todos os pontos de vista, a mortificação é de uma importância extraordinária. - Por razões humanas, pois quem não sabe dominar-se a si mesmo jamais influirá positivamente nos outros, e o ambiente o vencerá, sempre que afague os seus gostos pessoais: será um homem sem energia, incapaz de um esforço grande quando for preciso. - Por razões divinas: não te parece justo que, com estes pequenos atos, demonstremos o nosso amor e acatamento. Àquele que deu tudo por nós?');
+INSERT INTO points VALUES(1982,0,1,981,'O espírito de mortificação brota, não tanto como manifestação de Amor, mas como das suas conseqüências. Se falhas nessas pequenas provas - reconhece-o -, fraqueja o teu amor pelo Amor.');
+INSERT INTO points VALUES(1983,0,1,982,'Não reparaste que as almas mortificadas, pela sua simplicidade, até neste mundo desfrutam mais das coisas boas?');
+INSERT INTO points VALUES(1984,0,1,983,'Sem mortificação, não há felicidade na terra.');
+INSERT INTO points VALUES(1985,0,1,984,'Quando te decidires a ser mortificado, melhorará a tua vida e serás muito mais fecundo.');
+INSERT INTO points VALUES(1986,0,1,985,'Não devemos esquecê-lo: em todas as atividades humanas, tem que haver homens e mulheres com a Cruz de Cristo na sua vida e nas suas obras, erguida ao alto, visível, reparadora; símbolo da paz, da alegria; símbolo da Redenção, da unidade do gênero humano, do amor que Deus Pai, Deus Filho e Deus Espírito Santo, a Trindade Santíssima teve e continua a ter pela humanidade.');
+INSERT INTO points VALUES(1987,0,1,986,'“Não irá rir, Padre, se lhe disser que - faz uns dias - me surpreendi oferecendo ao Senhor, de uma maneira espontânea, o sacrifício de tempo que supunha para mim ter de consertar um brinquedo estragado de um dos meus filhos?” - Não sorrio, fico feliz! Porque, com esse mesmo Amor, Deus se ocupa de recompor os nossos estragos.');
+INSERT INTO points VALUES(1988,0,1,987,'Sê mortificado, mas não insípido nem amargurado. - Sê recolhido, mas não encolhido.');
+INSERT INTO points VALUES(1989,0,1,988,'Um dia sem mortificação é um dia perdido, porque não nos negamos a nós mesmos, não vivemos o holocausto.');
+INSERT INTO points VALUES(1990,0,1,989,'Não contrariaste alguma vez, em alguma coisa, os teus gostos, os teus caprichos? - Olha que Quem te pede isso está pregado numa Cruz - sofrendo em todos os seus sentidos e potências -, e uma coroa de espinhos cobre a sua cabeça... por ti.');
+INSERT INTO points VALUES(1991,0,1,990,'Apresentas-te como um teórico formidável... - Mas não cedes nem em miudezas insignificantes! - Não acredito nesse teu espírito de mortificação!');
+INSERT INTO points VALUES(1992,0,1,991,'Cuidar das pequenas coisas representa uma mortificação constante, caminho para tornar mais agradável a vida dos outros.');
+INSERT INTO points VALUES(1993,0,1,992,'Prefiro as virtudes às austeridades, diz Yavé com outras palavras ao povo escolhido, que se engana com certos formalismos externos. - Por isso, temos de cultivar a penitência e a mortificação, como provas verdadeiras de amor a Deus e ao próximo.');
+INSERT INTO points VALUES(1994,0,1,993,'Na meditação, a Paixão de Cristo sai do marco frio da história ou da consideração piedosa, para se apresentar diante dos olhos, terrível, opressiva, cruel, sangrante..., cheia de Amor. - E sente-se que o pecado não se reduz a uma pequena “falta de ortografia”: é crucificar, rasgar a marteladas as mãos e os pés do Filho de Deus, e fazer-Lhe saltar o coração.');
+INSERT INTO points VALUES(1995,0,1,994,'Se de verdade desejas ser alma penitente - penitente e alegre -, deves defender, acima de tudo, os teus tempos diários de oração - de oração íntima, generosa, prolongada -, e hás de procurar que esses tempos não sejam quando calhar, mas a hora certa, sempre que te seja possível. Não cedas nestes detalhes. Sê escravo deste culto cotidiano a Deus, e eu te asseguro que te sentirás constantemente alegre.');
+INSERT INTO points VALUES(1996,0,1,995,'O cristão triunfa sempre do algo da Cruz, a partir da sua própria renúncia, porque assim deixa atuar a Onipotência divina.');
+INSERT INTO points VALUES(1997,0,1,996,'Quando recordares a tua vida passada, passada sem pena nem glória, considera quanto tempo tens perdido e como o podes recuperar: com penitência e com maior entrega.');
+INSERT INTO points VALUES(1998,0,1,997,'Ao pensares em todas as coisas da tua vida que ficarão sem valor não as teres oferecido a Deus, deverias sentir-te avaro: ansioso por apanhar tudo, por não desaproveitar também nenhuma dor. - Porque, se a dor acompanha a criatura, o que é senão insensatez desperdiça-la?');
+INSERT INTO points VALUES(1999,0,1,998,'Tens espírito de oposição, de contradição?... Muito bem: exercita-o em opor-te, em contradizer-te a ti mesmo!');
+INSERT INTO points VALUES(2000,0,1,999,'Enquanto a Sagrada Família descansa, aparece o Anjo a José, para que fujam para o Egito. Maria e José pegam o Menino e empreendem o caminho sem demora. Não se revoltam, não se desculpam, não esperam que a noite termine... Dize à Nossa Mãe Santa Maria e ao Nosso Pai e Senhor São José que desejamos amar com prontidão toda a penitência passiva.');
+INSERT INTO points VALUES(2001,0,1,1000,'Escrevo este número para que tu e eu acabemos o livro sorrindo, e fiquem tranqüilos os benditos leitores que, por simplicidade ou malícia, buscaram o “esotérico” nos 999 pontos de “Caminho”.');
+INSERT INTO points VALUES(2002,0,2,0,'AQUELA MÃE
+ SANTAMENTE APAIXONADA, COMO TODAS AS MÃES 
+CHAMAVA AO SEU FILHO PEQUENO:
+SEU PRÍNCIPE, SEU REI, SEU TESOURO, SEU SOL.
+EU PENSEI EM TI.
+E ENTENDI
+ QUE PAI NÃO TRAZ NAS ENTRANHAS
+QUALQUER COISA DE MATERNAL? 
+QUE NÃO ERA EXAGERO O DIZER DA MÃE BOA:
+TU... ÉS MAIS QUE UM TESOURO,
+VALES MAIS QUE O SOL:
+VALES TODO O SANGUE DE CRISTO!
+COMO NÃO HEI DE TOMAR A TUA ALMA
+ OURO PURO 
+PARA METÊ-LA EM FORJA,
+E TRABALHÁ-LA COM O FOGO E O MARTELO,
+ATÉ FAZER DESSE OURO NATIVO UMA JÓIA ESPLÊNDIDA
+PARA OFERECER AO MEU DEUS,
+AO TEU DEUS?');
+INSERT INTO points VALUES(2003,0,2,1,'Filhos de Deus. - Portadores da única chama capaz de iluminar os caminhos terrenos das almas, do único fulgor em que nunca se poderão dar escuridões, penumbras ou sombras.
+- O Senhor serve-se de nós como tochas, para que essa luz ilumine... De nós depende que muitos não permaneçam em trevas, mas andem por caminhos que levam até à vida eterna.');
+INSERT INTO points VALUES(2004,0,2,2,'- Deus é meu Pai! - Se meditares nisto, não sairás dessa consoladora consideração.
+- Jesus é meu Amigo íntimo! (outra descoberta), que me ama com toda a divina loucura do seu Coração.
+- O Espírito Santo é meu Consolador!, que me guia nos passos de todo o meu caminho.
+Pensa bem nisso. - Tu és de Deus..., e Deus é teu.');
+INSERT INTO points VALUES(2005,0,2,3,'Meu Pai - trata-O assim, com confiança! -, que estás nos Céus, olha-me com Amor compassivo, e faz que eu te corresponda.
+- Derrete e inflama o meu coração de bronze, queima e purifica a minha carne não mortificada, enche o meu entendimento de luzes sobrenaturais, faz que a minha língua seja pregoeira do Amor e da Glória de Cristo.');
+INSERT INTO points VALUES(2006,0,2,4,'Cristo, que subiu à Cruz com os braços abertos de par em par, com gesto de Sacerdote Eterno, quer contar conosco - que não somos nada! - para levar a “todos” os homens os frutos da sua Redenção.');
+INSERT INTO points VALUES(2007,0,2,5,'Estamos com gosto, Senhor, na tua mão chagada. Aperta-nos com força!, espreme-nos!, que percamos toda a miséria terrena!, que nos purifiquemos, que nos inflamemos, que nos sintamos embebidos no teu Sangue!
+- E depois, lança-nos longe!, longe, com fomes de messe, a uma semeadura cada dia mais fecunda, por Amor de Ti.');
+INSERT INTO points VALUES(2008,0,2,6,'Não tenhas medo, nem te assustes, nem te espantes, nem te deixes levar por uma falsa prudência.
+A chamada para cumprir a Vontade de Deus - e bem assim a vocação - é repentina, como a dos Apóstolos: encontrar Cristo e seguir o seu chamamento...
+- Nenhum deles duvidou: conhecer Cristo e segui-Lo foi tudo uma só coisa.');
+INSERT INTO points VALUES(2009,0,2,7,'Chegou para nós um dia de salvação, de eternidade. Uma vez mais se ouvem esses silvos do Pastor Divino, essas palavras carinhosas: "Vocavi te nomine tuo" - Eu te chamei pelo teu nome.
+Ele nos convida, como a nossa mãe, pelo nome. Mais ainda: pelo apelido carinhoso, familiar. - Lá na intimidade da alma, Ele chama, e é preciso responder: "Ecce ego, quia vocasti me" - aqui estou, porque me chamaste, decidido a não permitir que, desta vez, o tempo passe como a água sobre as pedras, sem deixar rasto.');
+INSERT INTO points VALUES(2010,0,2,8,'Tens de viver junto de Cristo! Deves ser, no Evangelho, um personagem mais, convivendo com Pedro, com João, com André..., porque Cristo também vive agora: "Iesus Christus, heri et hodie, ipse et in saecula!" - Jesus Cristo vive!, hoje como ontem: é o mesmo, pelos séculos dos séculos.');
+INSERT INTO points VALUES(2011,0,2,9,'Senhor, que os teus filhos sejam como uma brasa incandescente, sem labaredas que se vejam de longe. Uma brasa que prenda o primeiro ponto de ignição em cada coração que tenham perto de si...
+- Tu farás que essa fagulha se converta num incêndio: os teus Anjos - bem o sei, porque o tenho visto - são muito entendidos em soprar sobre o rescaldo dos corações..., e um coração sem cinzas não pode deixar de ser teu.');
+INSERT INTO points VALUES(2012,0,2,10,'Pensa no que diz o Espírito Santo, e enche-te de pasmo e agradecimento: "Elegit nos ante mundi constitutionem" - escolheu-nos antes de criar o mundo -, "ut essemus sancti in conspectu eius!" - para que sejamos santos na sua presença.
+- Ser santo não é fácil, mas também não é difícil. Ser santo é ser bom cristão: parecer-se com Cristo. - Aquele que mais se parece com Cristo, esse é mais cristão, mais de Cristo, mais santo.
+- E que meios temos? - Os mesmos dos primeiros fiéis, que viram Jesus ou O entreviram através dos relatos dos Apóstolos ou dos Evangelistas.');
+INSERT INTO points VALUES(2013,0,2,11,'Que dívida a tua para com teu Pai-Deus! - Ele te deu o ser, a inteligência, a vontade... Deu-te a graça: o Espírito Santo; Jesus, na Hóstia; a filiação divina; a Santíssima Virgem, Mãe de Deus e Mãe nossa. Deu-te a possibilidade de participares na Santa Missa e te concede o perdão dos teus pecados, tantas vezes o seu perdão! Deu-te dons sem conta, alguns extraordinários...
+- Diz-me, filho: como tens correspondido?, como correspondes?');
+INSERT INTO points VALUES(2014,0,2,12,'Não sei o que se passará contigo..., mas eu preciso confiar-te a minha emoção interior, depois de ler as palavras do profeta Isaías: "Ego vocavi te nomine tuo, meus es tu!" - Eu te chamei, Eu te trouxe à minha Igreja, tu és meu! Que Deus me diga a mim que sou dEle! É para ficar louco de Amor!');
+INSERT INTO points VALUES(2015,0,2,13,'Repara bem: há muitos homens e mulheres no mundo, e nem a um só deles deixa o Mestre de chamar.
+Chama-os a uma vida cristã, a uma vida de santidade, a uma vida de eleição, a uma vida eterna.');
+INSERT INTO points VALUES(2016,0,2,14,'Cristo padeceu por ti e para ti, para te arrancar da escravidão do pecado e da imperfeição.');
+INSERT INTO points VALUES(2017,0,2,15,'Nestes momentos de violência, de sexualidade brutal, selvagem, temos de ser rebeldes. Tu e eu somos rebeldes: não nos dá na gana deixar-nos levar pela corrente, e ser uns animais.
+Queremos portar-nos como filhos de Deus, como homens ou mulheres muito chegados a seu Pai, que está nos Céus e quer estar muito perto - dentro! - de cada um de nós.');
+INSERT INTO points VALUES(2018,0,2,16,'Medita nisto com freqüência: sou católico, filho da Igreja de Cristo! Ele me fez nascer num lar “seu”, sem nenhum mérito da minha parte.
+- Quanto te devo, meu Deus!');
+INSERT INTO points VALUES(2019,0,2,17,'Recordai a todos - e de modo especial a tantos pais e a tantas mães de família que se dizem cristãos - que a “vocação”, a chamada de Deus, é uma graça do Senhor, uma escolha feita pela bondade divina, um motivo de santo orgulho, um servir a todos com gosto por amor a Jesus Cristo.');
+INSERT INTO points VALUES(2020,0,2,18,'Serve-me de eco: não é um sacrifício, para os pais, que Deus lhes peça os filhos; nem, para aqueles que o Senhor chama, é um sacrifício segui-Lo.
+Pelo contrário, é uma honra imensa, um orgulho grande e santo, uma prova de predileção, um carinho particularíssimo, que Deus manifestou num momento concreto, mas que estava na sua mente desde toda a eternidade.');
+INSERT INTO points VALUES(2021,0,2,19,'Agradece a teus pais o fato de te terem dado a vida, para poderes ser filho de Deus. - E sê ainda mais agradecido, se foram eles que puseram na tua alma o primeiro germe da fé, da piedade, do teu caminho de cristão ou da tua vocação.');
+INSERT INTO points VALUES(2022,0,2,20,'Há muitas pessoas à tua volta, e não tens o direito de ser obstáculo ao seu bem espiritual, à sua felicidade eterna.
+- Tens obrigação de ser santo: de não decepcionar Deus pela escolha de que te fez objeto; nem tampouco essas criaturas que tanto esperam da tua vida de cristão.');
+INSERT INTO points VALUES(2023,0,2,21,'O mandamento de amar os pais é de direito natural e de direito divino positivo, e eu o tenho chamado sempre “dulcíssimo preceito”.
+- Não descures a tua obrigação de amar cada dia mais os teus, de mortificar-te por eles, de rezar por eles e de lhes agradecer todo o bem que lhes deves.');
+INSERT INTO points VALUES(2024,0,2,22,'Tal como quer o Mestre, tu tens de ser - bem metido neste mundo, em que nos toca viver, e em todas as atividades dos homens - sal e luz. - Luz que ilumina as inteligências e os corações; sal que dá sabor e preserva da corrupção.
+Por isso, se te faltar ímpeto apostólico, far-te-ás insípido e inútil, lograrás os outros e a tua vida será um absurdo.');
+INSERT INTO points VALUES(2025,0,2,23,'Uma onda suja e podre - vermelha e verde - empenha-se em submergir a terra, cuspindo a sua porca saliva sobre a Cruz do Redentor...
+E Ele quer que das nossas almas saia outra onda - branca e poderosa, como a destra do Senhor -, que afogue, com a sua pureza, a podridão de todo o materialismo e neutralize a corrupção que inundou o orbe: é para isso que vêm - e para mais - os filhos de Deus.');
+INSERT INTO points VALUES(2026,0,2,24,'Muitos, com ares de auto-justificação, se interrogam: - Eu, por que hei de meter-me na vida dos outros?
+- Porque tens obrigação, como cristão, de meter-te na vida dos outros, para servi-los!
+- Porque Cristo se meteu na tua vida e na minha!');
+INSERT INTO points VALUES(2027,0,2,25,'Se és outro Cristo, se te comportas como filho de Deus, onde estiveres queimarás: Cristo abrasa, não deixa indiferentes os corações.');
+INSERT INTO points VALUES(2028,0,2,26,'Dói ver que, depois de dois mil anos, há tão poucos que se chamem cristãos no mundo. E que, dos que se chamam cristãos, há tão poucos que vivam a verdadeira doutrina de Jesus Cristo.
+Vale a pena jogar a vida inteira!: trabalhar e sofrer, por Amor, para levar avante os desígnios de Deus, para corredimir.');
+INSERT INTO points VALUES(2029,0,2,27,'Vejo a tua Cruz, meu Jesus, e gozo da tua graça, porque o prêmio do teu Calvário foi para nós o Espírito Santo... E Tu te entregas a mim, cada dia, amoroso - louco! - na Hóstia Santíssima..., e me fizeste filho de Deus!, e me deste a tua Mãe.
+Não me basta a ação de graças; escapa-me o pensamento: - Senhor, Senhor, tantas almas longe de Ti!
+Fomenta na tua vida as ânsias de apostolado, para que O conheçam..., e O amem..., e se sintam amados!');
+INSERT INTO points VALUES(2030,0,2,28,'Algumas vezes - ouviste-me comentar isso com freqüência -, fala-se do amor como se fosse um impulso para a auto-satisfação, ou um mero recurso para completar de modo egoísta a própria personalidade.
+- E sempre te disse que não é assim: o amor verdadeiro exige que saiamos de nós mesmos, que nos entreguemos. O autêntico amor traz consigo a alegria: uma alegria que tem as suas raízes em forma de Cruz.');
+INSERT INTO points VALUES(2031,0,2,29,'Meu Deus, como é possível que eu veja um Crucifixo e não clame de dor e de amor?');
+INSERT INTO points VALUES(2032,0,2,30,'Admira-te ante a magnanimidade de Deus: fez-se Homem para nos redimir, para que tu e eu - que não valemos nada, reconhece-o! - O tratemos com confiança.');
+INSERT INTO points VALUES(2033,0,2,31,'Õ Jesus..., fortalece as nossas almas, aplaina o caminho e, sobretudo, embriaga-nos de Amor! Converte-nos assim em fogueiras vivas, que incendeiem a terra com o fogo divino que Tu trouxeste.');
+INSERT INTO points VALUES(2034,0,2,32,'Aproximar-se um pouco mais de Deus quer dizer estar disposto a uma nova conversão, a uma nova retificação, a escutar atentamente as suas inspirações - os santos desejos que faz brotar em nossas almas - e a pô-los em prática.');
+INSERT INTO points VALUES(2035,0,2,33,'De que te envaideces? - Todo o impulso que te move é dEle. Atua em conseqüência.');
+INSERT INTO points VALUES(2036,0,2,34,'Que respeito, que veneração, que carinho temos de sentir por uma só alma, ante a realidade de que Deus a ama como coisa sua!');
+INSERT INTO points VALUES(2037,0,2,35,'Aspiração: oxalá queiramos usar os dias, que o Senhor nos dá, unicamente para agradar-Lhe!');
+INSERT INTO points VALUES(2038,0,2,36,'Desejo que o teu comportamento seja como o de Pedro e o de João: que consideres na tua oração, para falar com Jesus, as necessidades dos teus amigos, dos teus colegas..., e que depois, com o teu exemplo, possas dizer-lhes: "Respice in nos!" - olhai-me!');
+INSERT INTO points VALUES(2039,0,2,37,'Quando se ama muito uma pessoa, deseja-se saber tudo o que a ela se refere.
+- Medita nisto: tens fome de conhecer Cristo? Porque... é com essa medida que O amas.');
+INSERT INTO points VALUES(2040,0,2,38,'Mentem - ou estão enganados - os que afirmam que nós, os sacerdotes, estamos sós: estamos mais acompanhados do que ninguém, porque contamos com a contínua companhia do Senhor, com quem temos de manter um trato ininterrupto.
+- Somos enamorados do Amor, do Autor do Amor!');
+INSERT INTO points VALUES(2041,0,2,39,'Vejo-me como um pobre passarinho que, acostumado a voar somente de árvore em árvore ou, quando muito, até à varanda de um terceiro andar..., um dia, na sua vida, se encheu de brios para chegar até o telhado de um modesto prédio, que não era precisamente um arranha-céus...
+Mas eis que o nosso pássaro é arrebatado por uma águia - que o tomou erradamente por uma cria da sua raça - e, entre aquelas garras poderosas, o passarinho sobe, sobe muito alto, acima das montanhas da terra e dos cumes nevados, acima das nuvens brancas e azuis e rosáceas, mais acima ainda, até olhar o sol de frente... E então a águia, soltando o passarinho, diz-lhe: anda lá, voa!
+- Senhor, que eu não torne a voar colado à terra!, que esteja sempre iluminado pelos raios do divino Sol - Cristo - na Eucaristia!, que o meu vôo não se interrompa enquanto não alcançar o descanso do teu Coração!');
+INSERT INTO points VALUES(2042,0,2,40,'Assim concluía a sua oração aquele nosso amigo: “Amo a Vontade do meu Deus. Por isso, em completo abandono, que Ele me leve como e por onde quiser”.');
+INSERT INTO points VALUES(2043,0,2,41,'Pede ao Pai, ao Filho e ao Espírito Santo, e à tua Mãe, que te façam conhecer-te e chorar por esse montão de coisas sujas que passaram por ti, deixando - ai! - tanto resíduo...
+E ao mesmo tempo, sem quereres afastar-te dessa consideração, diz-Lhe: - Dá-me, Jesus, um Amor qual fogueira de purificação, onde a minha pobre carne, o meu pobre coração, a minha pobre alma, o meu pobre corpo se consumam, limpando-se de todas as misérias terrenas... E, já vazio todo o meu eu, enche-o de Ti: que não me apegue a nada daqui de baixo; que sempre me sustente o Amor.');
+INSERT INTO points VALUES(2044,0,2,42,'Não desejes nada para ti, nem bom nem mau: tens de querer para ti somente o que Deus quiser.
+Seja o que for, vindo da sua mão - de Deus -, por ruim que pareça aos olhos dos homens, a ti parecer-te-á bom, e muito bom!, e dirás, com uma convicção sempre maior: "Et in tribulatione mea dilatasti me..., et calix tuus inebrians, quam praeclarus est!" - encontrei alegria na tribulação..., como é maravilhoso o teu cálice, que embriaga todo o meu ser!');
+INSERT INTO points VALUES(2045,0,2,43,'É preciso oferecer ao Senhor o sacrifício de Abel. Um sacrifício de carne jovem e formosa, o melhor do rebanho: de carne sadia e santa; de corações que só tenham um amor: Tu, meu Deus!; de inteligências trabalhadas pelo estudo profundo, que se renderão perante a tua Sabedoria; de almas infantis, que só pensarão em agradar-Te.
+- Recebe desde agora, Senhor, este sacrifício em odor de suavidade.');
+INSERT INTO points VALUES(2046,0,2,44,'É preciso saber entregar-se, arder diante de Deus, como essa luz que se coloca sobre o candelabro para iluminar os homens que andam em trevas; como essas lamparinas que se queimam junto do altar, e se consomem alumiando até se gastarem.');
+INSERT INTO points VALUES(2047,0,2,45,'O Senhor - Mestre de Amor - é um amante ciumento que pede tudo o que é nosso, todo o nosso querer. Ele espera que Lhe ofereçamos o que temos, seguindo o caminho que nos marcou a cada um.');
+INSERT INTO points VALUES(2048,0,2,46,'Meu Deus, vejo que não te aceitarei como meu Salvador, se não te reconhecer ao mesmo tempo como Modelo.
+- Já que quiseste ser pobre, dá-me amor à Santa Pobreza. O meu propósito, com a tua ajuda, é viver e morrer pobre, ainda que tenha milhões à minha disposição.');
+INSERT INTO points VALUES(2049,0,2,47,'Ficaste muito sério quando te confiei: para o Senhor, a mim tudo me parece pouco.');
+INSERT INTO points VALUES(2050,0,2,48,'Oxalá se possa dizer que a característica que define a tua vida é: “amar a Vontade de Deus”.');
+INSERT INTO points VALUES(2051,0,2,49,'Qualquer trabalho, mesmo o mais escondido, mesmo o mais insignificante, oferecido ao Senhor, traz a força da vida de Deus!');
+INSERT INTO points VALUES(2052,0,2,50,'Tens de sentir a responsabilidade da tua missão: contempla-te o Céu inteiro!');
+INSERT INTO points VALUES(2053,0,2,51,'Deus espera-te! - Por isso, aí onde estás, tens de comprometer-te a imitá-Lo, a unir-te a Ele, com alegria, com amor, com entusiasmo, ainda que se apresente a circunstância - ou uma situação permanente - de teres de caminhar a contragosto.
+Deus espera-te..., e te necessita fiel!');
+INSERT INTO points VALUES(2054,0,2,52,'Escrevias: “Eu te ouço clamar, meu Rei, com viva voz, que ainda vibra: "Ignem veni mittere in terram, et quid volo nisi ut accendatur?" - vim trazer fogo à terra, e que quero senão que arda?”.
+Depois acrescentavas: “Senhor, eu te respondo - eu inteiro - com os meus sentidos e potências: "Ecce ego quia vocasti me!" - aqui me tens porque me chamaste!”.
+- Que esta tua resposta seja uma realidade cotidiana.');
+INSERT INTO points VALUES(2055,0,2,53,'Deves ter o comedimento, a fortaleza, o senso de responsabilidade que muitos adquirem com o passar dos anos, com a velhice. Alcançarás tudo isso, sendo jovem, se não perdes o sentido sobrenatural de filho de Deus: porque Ele te dará, mais que aos anciãos, essas condições convenientes para realizares o teu trabalho de apóstolo.');
+INSERT INTO points VALUES(2056,0,2,54,'Experimentas uma alegria interior e uma paz que não trocarias por nada. Deus está aqui: não há coisa melhor do que contar-Lhe as penas, para que deixem de ser penas.');
+INSERT INTO points VALUES(2057,0,2,55,'Como é possível que Cristo venha atuando na terra há tantos anos - vinte séculos -, e que o mundo esteja assim?, perguntavas-me. Como é possível que ainda haja gente que não conhece o Senhor?, insistias. - E eu te respondi, convicto: - Temos a culpa nós!, que fomos chamados para ser corredentores, e às vezes - talvez muitas! - não correspondemos a essa Vontade de Deus.');
+INSERT INTO points VALUES(2058,0,2,56,'Humildade de Jesus: que vergonha, por contraste, para mim - pó de esterco -, que tantas vezes disfarcei a minha soberba sob a capa da dignidade, da justiça!... - E assim, quantas ocasiões de seguir o Mestre não perdi, ou desaproveitei, por não as sobrenaturalizar!');
+INSERT INTO points VALUES(2059,0,2,57,'Doce Mãe..., leva-nos até uma loucura que faça, dos outros, loucos pelo nosso Cristo.
+Maria, doce Senhora: que o Amor não seja em nós falso incêndio de fogos fátuos, produto às vezes de cadáveres decompostos...; que seja verdadeiro incêndio voraz, que ateie e queime tudo quanto toque.');
+INSERT INTO points VALUES(2060,0,2,58,'Escolha divina significa - e exige! - santidade pessoal.');
+INSERT INTO points VALUES(2061,0,2,59,'Se corresponderes à chamada que o Senhor te fez, a tua vida - a tua pobre vida! - deixará na história da humanidade um sulco profundo e largo, luminoso e fecundo, eterno e divino.');
+INSERT INTO points VALUES(2062,0,2,60,'Deves sentir cada dia a obrigação de ser santo. - Santo!, que não é fazer coisas esquisitas: é lutar na vida interior e no cumprimento heróico, acabado, do dever.');
+INSERT INTO points VALUES(2063,0,2,61,'A santidade não consiste em grandes ocupações. - Consiste em lutar para que a tua vida não se apague no terreno sobrenatural; em te deixares queimar até à última fibra, servindo a Deus no último lugar... ou no primeiro: onde o Senhor te chamar.');
+INSERT INTO points VALUES(2064,0,2,62,'O Senhor não se limitou a dizer-nos que nos ama: demonstrou-nos esse amor com as suas obras, com a vida inteira. - E tu?');
+INSERT INTO points VALUES(2065,0,2,63,'Se amas o Senhor, tens de notar “necessariamente” o bendito peso das almas, para levá-las a Deus.');
+INSERT INTO points VALUES(2066,0,2,64,'Para quem quer viver de Amor com maiúscula, o meio-termo é muito pouco, é mesquinhez, cálculo ruim.');
+INSERT INTO points VALUES(2067,0,2,65,'Esta é a receita para o teu caminho de cristão: oração, penitência, trabalho sem descanso, com um cumprimento amoroso do dever.');
+INSERT INTO points VALUES(2068,0,2,66,'Meu Deus, ensina-me a amar! - Meu Deus, ensina-me a orar!');
+INSERT INTO points VALUES(2069,0,2,67,'Devemos pedir a Deus a fé, a esperança e a caridade - com humildade, com oração perseverante, com uma conduta honrada e com costumes limpos.');
+INSERT INTO points VALUES(2070,0,2,68,'Disseste-me que não sabias como pagar-me o zelo santo que te inundava a alma.
+- Apressei-me a responder-te: - Eu não te dou nenhuma vibração; é o Espírito Santo quem a concede.
+- Ama-O, trata-O de perto. - Assim irás amando-O mais e melhor, e agradecendo-Lhe que seja Ele quem se instale na tua alma, para que tenhas vida interior.');
+INSERT INTO points VALUES(2071,0,2,69,'Deves lutar por conseguir que o Santo Sacrifício do Altar seja o centro e a raiz da tua vida interior, de modo que todo o teu dia se converta num ato de culto - prolongamento da Missa a que assististe e preparação para a seguinte -, que vai transbordando em jaculatórias, em visitas ao Santíssimo Sacramento, em oferecimento do teu trabalho profissional e da tua vida familiar...');
+INSERT INTO points VALUES(2072,0,2,70,'Procura dar graças a Jesus na Eucaristia, cantando louvores a Nossa Senhora, a Virgem pura, a sem mancha, aquela que trouxe ao mundo o Senhor.
+- E, com audácia de criança, atreve-te a dizer a Jesus: - Meu lindo Amor, bendita seja a Mãe que te trouxe ao mundo!
+Com certeza que Lhe agradas, e Ele porá na tua alma ainda mais amor.');
+INSERT INTO points VALUES(2073,0,2,71,'Conta o Evangelista São Lucas que Jesus orava... Como seria a oração de Jesus!
+Contempla devagar esta realidade: os discípulos convivem com Jesus Cristo e, nas suas conversas, o Senhor ensina-lhes - também com as ações - como devem orar, e o grande portento da misericórdia divina: que somos filhos de Deus, e que podemos dirigir-nos a Ele, como um filho fala com seu Pai.');
+INSERT INTO points VALUES(2074,0,2,72,'Ao empreenderes cada jornada para trabalhar junto de Cristo e atender tantas almas que O procuram, convence-te de que não há senão um caminho: recorrer ao Senhor.
+- Somente na oração, e com a oração, aprendemos a servir os outros!');
+INSERT INTO points VALUES(2075,0,2,73,'A oração - lembra-te disto - não consiste em pronunciar discursos bonitos, frases grandiloqüentes ou que consolem...
+Oração é às vezes um olhar a uma imagem do Senhor ou de sua Mãe; outras, um pedido, com palavras; outras, o oferecimento das boas obras, dos resultados da fidelidade...
+Como o soldado que está de guarda, assim temos nós que estar à porta de Deus Nosso Senhor: e isso é oração. Ou como o cachorrinho que se deita aos pés do seu amo.
+- Não te importes de Lhe dizer: - Senhor, aqui me tens como um cão fiel; ou melhor, como um jumentinho, que não dará coices a quem lhe quer bem.');
+INSERT INTO points VALUES(2076,0,2,74,'Todos temos de ser "ipse Christus" - o próprio Cristo. Assim no-lo manda São Paulo em nome de Deus: "Induimini Dominum Iesum Christum" - revesti-vos de Jesus Cristo.
+Cada um de nós - tu! - tem que ver como veste essa roupa de que nos fala o Apóstolo; cada um, pessoalmente, deve dialogar sem interrupção com o Senhor.');
+INSERT INTO points VALUES(2077,0,2,75,'A tua oração não pode ficar em meras palavras: deve ter realidades e conseqüências práticas.');
+INSERT INTO points VALUES(2078,0,2,76,'Orar é o caminho para atalhar todos os males que sofremos.');
+INSERT INTO points VALUES(2079,0,2,77,'Dar-te-ei um conselho que não me cansarei de repetir às almas: que ames com loucura a Mãe de Deus, que é Mãe nossa.');
+INSERT INTO points VALUES(2080,0,2,78,'O heroísmo, a santidade, a audácia, requerem uma constante preparação espiritual. Aos outros, sempre darás somente aquilo que tiveres; e, para lhes dar Deus, tens de cultivar o trato com Ele, viver a sua Vida, servi-Lo.');
+INSERT INTO points VALUES(2081,0,2,79,'Não deixarei de insistir contigo, para que se grave bem na tua alma: piedade!, piedade!, piedade! Já que, se faltas à caridade, será por escassa vida interior; não por teres mau caráter.');
+INSERT INTO points VALUES(2082,0,2,80,'Se és bom filho de Deus, do mesmo modo que a criança necessita da presença de seus pais ao levantar e ao deitar-se, o teu primeiro e o teu último pensamento de cada dia serão para Ele.');
+INSERT INTO points VALUES(2083,0,2,81,'Tens de ser constante e exigente nas tuas normas de piedade, também quando estás cansado ou quando se tornam áridas para ti. Persevera! Esses momentos são como as estacas altas, pintadas de vermelho, que, nas estradas de montanha, quando chega a neve, servem de ponto de referência e indicam - sempre! - onde está o caminho seguro.');
+INSERT INTO points VALUES(2084,0,2,82,'Esforça-te por corresponder, em cada instante, ao que Deus te pede: deves ter vontade de amá-Lo com obras. - Com obras pequenas, mas sem deixar nem uma.');
+INSERT INTO points VALUES(2085,0,2,83,'A vida interior se robustece pela luta nas práticas diárias de piedade, que deves cumprir - mais: que deves viver! - amorosamente, porque o nosso caminho de filhos de Deus é de Amor.');
+INSERT INTO points VALUES(2086,0,2,84,'Procura a Deus no fundo do teu coração limpo, puro; no fundo da tua alma quando Lhe és fiel. E não percas nunca essa intimidade!
+- E, se alguma vez não sabes como falar-Lhe nem o que dizer, ou não te atreves a buscar Jesus dentro de ti, recorre a Maria, "tota pulchra" - toda pura, maravilhosa -, para confiar-lhe: - Senhora, Mãe nossa, o Senhor quis que fosses tu, com as tuas mãos, quem cuidasse de Deus: ensina-me - ensina-nos a todos - a tratar o teu Filho!');
+INSERT INTO points VALUES(2087,0,2,85,'Inculcai nas almas o heroísmo de fazer com perfeição as pequenas coisas de cada dia: como se de cada uma dessas ações dependesse a salvação do mundo.');
+INSERT INTO points VALUES(2088,0,2,86,'Com a tua vida de piedade, aprenderás a praticar as virtudes próprias da tua condição de filho de Deus, de cristão.
+- E, juntamente com essas virtudes, adquirirás toda essa gama de valores espirituais, que parecem pequenos e são grandes; pedras preciosas que brilham, que temos de apanhar pelo caminho, para levá-las aos pés do Trono de Deus, a serviço dos homens: a simplicidade, a alegria, a lealdade, a paz, as pequenas renúncias, os serviços que passam despercebidos, o fiel cumprimento do dever, a amabilidade...');
+INSERT INTO points VALUES(2089,0,2,87,'Não cries para ti mais obrigações do que... a glória de Deus, o seu Amor, o seu Apostolado.');
+INSERT INTO points VALUES(2090,0,2,88,'O Senhor te fez ver claramente o teu caminho de cristão no meio do mundo. No entanto, asseguras-me que muitas vezes consideraste, com inveja - disseste-me que no fundo era comodismo -, a felicidade de ser um desconhecido, trabalhando, ignorado de todos, no último canto... Deus e tu!
+- Agora, à parte a idéia de missionar no Japão, vem-te à cabeça o pensamento dessa vida oculta e sofrida... Mas se, ao ficares livre de outras santas obrigações naturais, tratasses de “esconder-te” numa instituição religiosa qualquer, sem ser essa a tua vocação, não serias feliz. - Faltar-te-ia a paz, porque terias feito a tua vontade, não a de Deus.
+- A tua “vocação”, nesse caso, teria outro nome: defecção, produto não de divina inspiração, mas de puro medo humano à luta que se avizinha. E isso... não!');
+INSERT INTO points VALUES(2091,0,2,89,'Contra a vida limpa, a pureza santa, levanta-se uma grande dificuldade a que todos estamos expostos: o perigo do aburguesamento, na vida espiritual ou na vida profissional; o perigo - também para os chamados por Deus ao matrimônio - de nos sentirmos solteirões, egoístas, pessoas sem amor.
+- Tens de lutar na raiz contra esse risco, sem concessões de nenhum gênero.');
+INSERT INTO points VALUES(2092,0,2,90,'Para venceres a sensualidade - porque carregaremos sempre às costas este burriquinho do nosso corpo -, tens de viver generosamente, diariamente, as pequenas mortificações - e, em algumas ocasiões, as grandes -; e tens de manter-te na presença de Deus, que nunca deixa de olhar-te.');
+INSERT INTO points VALUES(2093,0,2,91,'A tua castidade não pode limitar-se a evitar a queda, a ocasião... Não pode ser de maneira alguma uma negação fria e matemática.
+- Já percebeste que a castidade é uma virtude e que, como tal, deve crescer e aperfeiçoar-se?
+- Não te basta, pois, ser continente - dentro do teu estado de vida -, mas casto, com virtude heróica.');
+INSERT INTO points VALUES(2094,0,2,92,'O "bonus odor Christi" - o bom odor de Cristo - é também o da nossa vida limpa, o da castidade - cada um no seu estado de vida, repito -, o da santa pureza, que é afirmação gozosa: algo inteiriço e delicado ao mesmo tempo, fino, que evita até manifestações de palavras inconvenientes, porque não podem agradar a Deus.');
+INSERT INTO points VALUES(2095,0,2,93,'Acostuma-te a dar graças antecipadas aos Anjos da Guarda..., para obrigá-los mais.');
+INSERT INTO points VALUES(2096,0,2,94,'A todo o cristão deveria poder aplicar-se a expressão que se usou nos primeiros tempos: “portador de Deus”.
+- Deves atuar de tal modo que possam atribuir-te “com verdade” esse admirável qualificativo.');
+INSERT INTO points VALUES(2097,0,2,95,'Considera o que aconteceria se nós, os cristãos, não quiséssemos viver como tais... E retifica a tua conduta!');
+INSERT INTO points VALUES(2098,0,2,96,'Contempla o Senhor por trás de cada acontecimento, de cada circunstância, e assim saberás extrair de tudo o que sucede mais amor de Deus, e mais desejos de correspondência, porque Ele nos espera sempre, e nos oferece a possibilidade de cumprirmos continuamente esse propósito que fizemos: “Serviam!”, eu Te servirei!');
+INSERT INTO points VALUES(2099,0,2,97,'Renova em cada dia o desejo eficaz de aniquilar-te, de abnegar-te, de esquecer-te de ti mesmo, de caminhar "in novitate sensus" , com uma vida nova, trocando esta nossa miséria por toda a grandeza oculta e eterna de Deus.');
+INSERT INTO points VALUES(2100,0,2,98,'Senhor! Concede-me que eu seja tão teu que não entrem em meu coração nem sequer os afetos mais santos, se não for através do teu Coração chagado.');
+INSERT INTO points VALUES(2101,0,2,99,'Procura ser delicado, pessoa de boas maneiras. Não sejas grosseiro!
+- Delicado sempre, o que não quer dizer amaneirado.');
+INSERT INTO points VALUES(2102,0,2,100,'A caridade tudo alcança. Sem caridade, nada se pode fazer.
+Amor!, portanto; é o segredo da tua vida... Ama! Sofre com alegria. Enrijece a tua alma. Viriliza a tua vontade. Assegura a tua entrega ao querer de Deus e, com isso, virá a eficácia.');
+INSERT INTO points VALUES(2103,0,2,101,'Sê simples e piedoso como uma criança, e rijo e forte como um líder.');
+INSERT INTO points VALUES(2104,0,2,102,'A paz, que traz consigo a alegria, o mundo não a pode dar.
+- Os homens estão sempre fazendo pazes, e andam sempre enredados em guerras, porque esqueceram o conselho de lutar por dentro, de recorrer ao auxílio de Deus, para que Ele vença, e assim consigam a paz no seu próprio eu, no seu próprio lar, na sociedade e no mundo.
+- Se nos comportarmos deste modo, a alegria será tua e minha, porque é propriedade dos que vencem. E com a graça de Deus - que não perde batalhas - chamar-nos-emos vencedores, se formos humildes.');
+INSERT INTO points VALUES(2105,0,2,103,'A tua vida, o teu trabalho, não deve ser ação negativa, não deve ser “anti-nada”. É - deve ser! - afirmação, otimismo, juventude, alegria e paz.');
+INSERT INTO points VALUES(2106,0,2,104,'Há dois pontos capitais na vida dos povos: as leis sobre o matrimônio e as leis sobre o ensino. E aí os filhos de Deus têm de permanecer firmes, lutar bem e com nobreza, por amor a todas as criaturas.');
+INSERT INTO points VALUES(2107,0,2,105,'A alegria é um bem cristão, que possuímos enquanto lutamos, porque é conseqüência da paz. A paz é fruto de se ter vencido a guerra, e a vida do homem sobre a terra - lemos na Escritura Santa - é luta.');
+INSERT INTO points VALUES(2108,0,2,106,'A nossa guerra divina é uma maravilhosa semeadura de paz.');
+INSERT INTO points VALUES(2109,0,2,107,'Aquele que deixa de lutar causa um mal à Igreja, ao seu empreendimento sobrenatural, aos seus irmãos, a todas as almas.
+- Examina-te: não podes pôr mais vibração de amor a Deus na tua luta espiritual? - Eu rezo por ti... e por todos. Faz tu o mesmo.');
+INSERT INTO points VALUES(2110,0,2,108,'Jesus, se há em mim alguma coisa que te desagrade, dize-o, para que a arranquemos.');
+INSERT INTO points VALUES(2111,0,2,109,'Há um inimigo da vida interior, pequeno, bobo; mas muito eficaz, infelizmente: o pouco empenho no exame de consciência.');
+INSERT INTO points VALUES(2112,0,2,110,'Na ascética cristã, o exame de consciência corresponde a uma necessidade de amor, de sensibilidade.');
+INSERT INTO points VALUES(2113,0,2,111,'Se alguma coisa não estiver de acordo com o espírito de Deus, deixa-a imediatamente!
+Pensa nos Apóstolos: eles não valiam nada, mas no nome do Senhor fazem milagres. Somente Judas, que talvez também tivesse feito milagres, se extraviou, por se ter afastado voluntariamente de Cristo, por não ter cortado, violenta e valentemente, com o que não estava de acordo com o espírito de Deus.');
+INSERT INTO points VALUES(2114,0,2,112,'Meu Deus, quando é que me vou converter?');
+INSERT INTO points VALUES(2115,0,2,113,'Não esperes pela velhice para ser santo: seria um grande equívoco!
+- Começa agora, seriamente, gozosamente, alegremente, através das tuas obrigações, do teu trabalho, da vida cotidiana...
+Não esperes pela velhice para ser santo, porque, além de ser um grande equívoco - insisto -, não sabes se chegará para ti.');
+INSERT INTO points VALUES(2116,0,2,114,'Suplica ao Senhor que te conceda toda a sensibilidade necessária para perceberes a maldade do pecado venial; para o considerares como autêntico e radical inimigo da tua alma; e para o evitares com a graça de Deus.');
+INSERT INTO points VALUES(2117,0,2,115,'Com serenidade, sem escrúpulos, tens de pensar na tua vida, e pedir perdão, e fazer o propósito firme, concreto e bem determinado de melhorar neste ponto e naquele outro: nesse detalhe que te custa, e naquele que habitualmente não cumpres como deves, e o sabes.');
+INSERT INTO points VALUES(2118,0,2,116,'Enche-te de bons desejos, que é uma coisa santa, e que Deus louva. Mas não fiques nisso! Tens de ser alma - homem, mulher - de realidades. Para levares a cabo esses bons desejos, necessitas de formular propósitos claros, precisos. - E depois, meu filho, toca a lutar, para os pôr em prática com a ajuda de Deus!');
+INSERT INTO points VALUES(2119,0,2,117,'Como hei de fazer para que o meu amor ao Senhor continue, para que aumente? - perguntas-me com ardor.
+- Filho, ir deixando o homem velho, também com a entrega prazerosa daquelas coisas, boas em si mesmas, mas que impedem o desprendimento do teu eu...
+É dizer ao Senhor, com obras e continuamente: “Aqui me tens, para o que quiseres”.');
+INSERT INTO points VALUES(2120,0,2,118,'Santo! O filho de Deus deverá exagerar na virtude, se é que nisto é possível o exagero..., porque os outros hão de contemplar-se nele, como num espelho, e só apontando muito alto é que chegarão ao ponto médio.');
+INSERT INTO points VALUES(2121,0,2,119,'Não te cause vergonha descobrir que tens no coração o "fomes peccati" - a inclinação para o mal -, que te acompanhará enquanto viveres, porque ninguém está livre dessa carga.
+Não te envergonhes, porque o Senhor, que é onipotente e misericordioso, nos deu todos os meios idôneos para superar essa inclinação: os Sacramentos, a vida de piedade, o trabalho santificado.
+- Emprega-os com perseverança, disposto a começar e recomeçar, sem desânimo.');
+INSERT INTO points VALUES(2122,0,2,120,'Senhor, livra-me de mim mesmo!');
+INSERT INTO points VALUES(2123,0,2,121,'O apóstolo sem oração habitual e metódica cai necessariamente na tibieza..., e deixa de ser apóstolo.');
+INSERT INTO points VALUES(2124,0,2,122,'Senhor, que a partir de agora eu seja outro: que não seja “eu”, mas “aquele” que Tu desejas.
+- Que não te negue nada do que me peças. Que saiba orar. Que saiba sofrer. Que nada me preocupe, a não ser a tua glória. Que sinta a tua presença continuamente.
+- Que ame o Pai. Que te deseje a Ti, meu Jesus, numa permanente Comunhão. Que o Espírito Santo me inflame.');
+INSERT INTO points VALUES(2125,0,2,123,'Meus es tu - tu és meu. Foi o que o Senhor te manifestou.
+- Que esse Deus, que é toda a formosura e toda a sabedoria, toda a grandeza e toda a bondade, te diga a ti que és seu!... E que tu não Lhe saibas corresponder!');
+INSERT INTO points VALUES(2126,0,2,124,'Não podes espantar-te se, na tua vida, sentes aquele peso de que falava São Paulo: “Vejo que há outra lei nos meus membros que é contrária à lei do meu espírito”.
+- Lembra-te então de que és de Cristo, e vai ter com a Mãe de Deus, que é tua Mãe: eles não te abandonarão.');
+INSERT INTO points VALUES(2127,0,2,125,'Tens de receber os conselhos que te dêem na direção espiritual como se viessem do próprio Jesus Cristo.');
+INSERT INTO points VALUES(2128,0,2,126,'Pediste-me uma sugestão para venceres nas tuas batalhas diárias, e eu te respondi: - Ao abrires a tua alma, conta em primeiro lugar o que não quererias que se soubesse. Assim o diabo sai sempre vencido.
+- Abre a tua alma com clareza e simplicidade, de par em par, para que entre - até o último recanto - o sol do Amor de Deus!');
+INSERT INTO points VALUES(2129,0,2,127,'Se o demônio mudo - de que nos fala o Evangelho - se mete na tua alma, põe tudo a perder. Mas se é expulso imediatamente, tudo corre bem, caminha-se feliz, tudo anda.
+- Propósito firme: “sinceridade selvagem” na direção espiritual, unida a uma delicada educação... E que essa sinceridade seja imediata.');
+INSERT INTO points VALUES(2130,0,2,128,'Tens de amar e procurar a ajuda de quem orienta a tua alma. Na direção espiritual, põe a descoberto o teu coração, por inteiro - podre, se estiver podre! -, com sinceridade, com ânsias de curar-te; senão, essa podridão não desaparecerá nunca.
+Se recorres a uma pessoa que só pode limpar a ferida superficialmente..., és um covarde, porque no fundo vais ocultar a verdade, com prejuízo para ti próprio.');
+INSERT INTO points VALUES(2131,0,2,129,'Nunca tenhas medo de dizer a verdade, sem esquecer que algumas vezes é melhor calar-se, por caridade para com o próximo. Mas nunca te cales por desídia, por comodismo ou por covardia.');
+INSERT INTO points VALUES(2132,0,2,130,'O mundo vive da mentira. E há vinte séculos que a Verdade veio aos homens.
+- É preciso dizer a verdade!, e é isso que temos de propor-nos os filhos de Deus. Quando os homens se acostumarem a proclamá-la e a ouvi-la, haverá mais compreensão nesta nossa terra.');
+INSERT INTO points VALUES(2133,0,2,131,'Seria uma falsa caridade, diabólica, mentirosa caridade, ceder em questões de fé. "Fortes in fide" - fortes na fé, firmes, como exige São Pedro.
+- Não é fanatismo, mas simplesmente viver a fé: não significa desamor para com ninguém. Cedemos em tudo o que é acidental, mas na fé não é possível ceder: não podemos dar o azeite das nossas lâmpadas, porque depois vem o Esposo e as encontra apagadas.');
+INSERT INTO points VALUES(2134,0,2,132,'Humildade e obediência são condições indispensáveis para recebermos a boa doutrina.');
+INSERT INTO points VALUES(2135,0,2,133,'Tens de acolher a palavra do Papa com uma adesão religiosa, humilde, interna e eficaz: serve-lhe de eco!');
+INSERT INTO points VALUES(2136,0,2,134,'Ama, venera, reza, mortifica-te - cada dia com mais carinho - pelo Romano Pontífice, pedra basilar da Igreja, que prolonga entre todos os homens, ao longo dos séculos e até o fim dos tempos, aquela tarefa de santificação e de governo que Jesus confiou a Pedro.');
+INSERT INTO points VALUES(2137,0,2,135,'O teu maior amor, a tua maior estima, a tua mais profunda veneração, a tua obediência mais rendida, o teu maior afeto hão de ser também para o Vice-Cristo na terra, para o Papa.
+Nós, os católicos, temos de pensar que, depois de Deus e da nossa Mãe a Virgem Santíssima, na hierarquia do amor e da autoridade, vem o Santo Padre.');
+INSERT INTO points VALUES(2138,0,2,136,'Que a consideração diária do duro fardo que pesa sobre o Papa e sobre os bispos, te inste a venerá-los, a estimá-los com verdadeiro afeto, a ajudá-los com a tua oração.');
+INSERT INTO points VALUES(2139,0,2,137,'Deves tornar o teu amor pela Santíssima Virgem mais vivo, mais sobrenatural.
+- Não vás a Santa Maria só para pedir. Vai também para dar!: para dar-lhe afeto; para dar-lhe amor para o seu Filho divino; para manifestar-lhe esse carinho com obras de serviço no trato com os outros, que são também filhos dEla.');
+INSERT INTO points VALUES(2140,0,2,138,'Jesus é o modelo: imitemo-Lo!
+- Imitemo-Lo servindo a Igreja Santa e todas as almas.');
+INSERT INTO points VALUES(2141,0,2,139,'Ao contemplares a cena da Encarnação, reforça na tua alma a decisão de uma “humildade prática”. Olha que Ele se abaixou, assumindo a nossa pobre natureza.
+- Por isso, em cada dia, tens de reagir - imediatamente! -, com a graça de Deus, aceitando - querendo - as humilhações que o Senhor te deparar.');
+INSERT INTO points VALUES(2142,0,2,140,'Vive a vida cristã com naturalidade! Insisto: dá a conhecer Cristo na tua conduta, tal como um espelho normal reproduz a imagem, sem deformá-la, sem fazer caricatura. - Se fores normal, como esse espelho, refletirás a vida de Cristo, e a mostrarás aos outros.');
+INSERT INTO points VALUES(2143,0,2,141,'Se és fátuo, se te preocupas somente com a tua comodidade pessoal, se centras a existência dos outros e até a do mundo em ti mesmo, não tens o direito de chamar-te cristão, nem de considerar-te discípulo de Cristo: porque Ele fixou, como limite do exigir-se, que se ofereça por cada um "et animam suam" , a própria alma, a vida inteira.');
+INSERT INTO points VALUES(2144,0,2,142,'Procura que a “humildade de entendimento” seja, para ti, um axioma.
+Pensa nisso devagar e... não é verdade que não se compreende como possa haver “soberbos de entendimento”? Bem o explicava aquele santo doutor da Igreja: “É uma desordem detestável que, vendo a Deus feito criança, o homem queira continuar a parecer grande sobre a terra”.');
+INSERT INTO points VALUES(2145,0,2,143,'Sempre que tenhas alguém a teu lado - seja quem for -, procura, sem fazer coisas estranhas, o modo de contagiar-lhe a tua alegria de ser e de viver como filho de Deus.');
+INSERT INTO points VALUES(2146,0,2,144,'Grande e bela é a missão de servir que o Divino Mestre nos confiou.
+- Por isso, este bom espírito - de grande senhor! - compagina-se perfeitamente com o amor pela liberdade que deve impregnar o trabalho dos cristãos.');
+INSERT INTO points VALUES(2147,0,2,145,'Tu não podes tratar ninguém com falta de misericórdia; e, se te parecer que uma pessoa não é digna dessa misericórdia, tens de pensar que tu também não mereces nada.
+- Não mereces ter sido criado, nem ser cristão, nem ser filho de Deus, nem pertencer à tua família...');
+INSERT INTO points VALUES(2148,0,2,146,'Não descures a prática da correção fraterna, manifestação clara da virtude sobrenatural da caridade. Custa; é mais cômodo inibir-se; mais cômodo!, mas não é sobrenatural.
+- E destas omissões terás de prestar contas a Deus.');
+INSERT INTO points VALUES(2149,0,2,147,'A correção fraterna, sempre que devas fazê-la, há de estar cheia de delicadeza - de caridade! - na forma e no fundo, pois naquele momento és instrumento de Deus.');
+INSERT INTO points VALUES(2150,0,2,148,'Se souberes amar os outros e difundires esse carinho - caridade de Cristo, fina, delicada - entre todos, apoiar-vos-eis uns aos outros; e aquele que estiver para cair sentir-se-á sustentado - e urgido - por essa fortaleza fraterna, para ser fiel a Deus.');
+INSERT INTO points VALUES(2151,0,2,149,'Fomenta o teu espírito de mortificação nos detalhes de caridade, com ânsias de tornar amável a todos o caminho de santidade no meio do mundo: às vezes, um sorriso pode ser a melhor prova do espírito de penitência.');
+INSERT INTO points VALUES(2152,0,2,150,'Oxalá saibas - todos os dias e com generosidade - sacrificar-te alegre e discretamente para servir e para tornar agradável a vida aos outros.
+- Este modo de proceder é verdadeira caridade de Jesus Cristo.');
+INSERT INTO points VALUES(2153,0,2,151,'Tens de procurar que, estejas onde estiveres, haja esse “bom humor” - essa alegria - que é fruto da vida interior.');
+INSERT INTO points VALUES(2154,0,2,152,'Cuida de praticar uma mortificação muito interessante: que as tuas conversas não girem à volta de ti mesmo.');
+INSERT INTO points VALUES(2155,0,2,153,'Um bom modo de fazer exame de consciência:
+- Recebi como expiação, neste dia, as contrariedades vindas da mão de Deus? As que me proporcionaram, com o seu caráter, os meus colegas? As da minha própria miséria?
+- Soube oferecer ao Senhor, como expiação, a própria dor que sinto de tê-Lo ofendido, tantas vezes!? Ofereci-Lhe a vergonha dos meus rubores e humilhações interiores, ao considerar como avanço pouco no caminho das virtudes?');
+INSERT INTO points VALUES(2156,0,2,154,'Mortificações habituais, costumeiras: sim! Mas não sejas monomaníaco.
+- Não devem consistir necessariamente nas mesmas: o que deve ser constante, habitual, costumeiro - sem “acostumação” - é o espírito de mortificação.');
+INSERT INTO points VALUES(2157,0,2,155,'Tu queres pisar sobre as pegadas de Cristo, vestir-te com as suas vestes, identificar-te com Jesus. Pois bem, que a tua fé seja operativa e sacrificada, com atos de serviço, lançando fora o que estorva.');
+INSERT INTO points VALUES(2158,0,2,156,'A santidade tem a flexibilidade dos músculos soltos. Quem quer ser santo sabe comportar-se de tal maneira que, ao mesmo tempo que faz uma coisa que o mortifica, omite - se não é ofensa a Deus - outra que também lhe custa, e dá graças ao Senhor por essa comodidade. Se nós, os cristãos, atuássemos de outro modo, correríamos o risco de tornar-nos rígidos, sem vida, como uma boneca de trapos.
+A santidade não tem a rigidez do cartão: sabe sorrir, ceder, esperar. É vida: vida sobrenatural.');
+INSERT INTO points VALUES(2159,0,2,157,'Não me abandones, Mãe! Faz que eu procure o teu Filho; faz que eu encontre o teu Filho; faz que eu ame o teu Filho... com todo o meu ser! - Lembra-te, Senhora, lembra-te.');
+INSERT INTO points VALUES(2160,0,2,158,'Quando temos a vista turvada, quando os olhos perdem claridade, precisamos ir à luz. E Jesus Cristo disse-nos que Ele é a luz do mundo e que veio curar os enfermos.
+- Por isso, que as tuas enfermidades, as tuas quedas - se o Senhor as permite -, não te afastem de Cristo: que te aproximem dEle!');
+INSERT INTO points VALUES(2161,0,2,159,'Devido à minha miséria, queixava-me eu a um amigo de que parecia que Jesus estava de passagem... e me deixava sozinho.
+Reagi imediatamente com dor, cheio de confiança: - Não é assim, meu Amor; fui eu, sem dúvida, quem se afastou de Ti. Nunca mais!');
+INSERT INTO points VALUES(2162,0,2,160,'Tens de suplicar ao Senhor a sua graça, para te purificares com Amor... e com a penitência constante.');
+INSERT INTO points VALUES(2163,0,2,161,'Dirige-te a Nossa Senhora e pede-lhe que te faça a dádiva - prova do seu carinho por ti - da contrição, da compunção pelos teus pecados, e pelos pecados de todos os homens e mulheres de todos os tempos, com dor de Amor.
+E, com essa disposição, atreve-te a acrescentar: - Mãe, Vida, Esperança minha, guiai-me com a vossa mão..., e se há agora em mim alguma coisa que desagrade a meu Pai-Deus, concedei-me que o perceba e que, os dois juntos, a arranquemos.
+Continua sem medo: - Ó clementíssima, ó piedosa, ó doce Virgem Santa Maria!, rogai por mim, para que, cumprindo a amabilíssima Vontade do vosso Filho, seja digno de alcançar e gozar das promessas de Nosso Senhor Jesus Cristo.');
+INSERT INTO points VALUES(2164,0,2,162,'Minha Mãe do Céu: faz que eu volte ao fervor, à entrega, à abnegação - numa palavra, ao Amor.');
+INSERT INTO points VALUES(2165,0,2,163,'Não sejas comodista! Não esperes pelo Ano Novo para tomar resoluções: todos os dias são bons para as decisões boas. "Hodie, nunc!" - Hoje, agora! Costumam ser uns pobres derrotistas aqueles que esperam pelo Ano Novo para começar, porque, além disso, depois... não começam!');
+INSERT INTO points VALUES(2166,0,2,164,'De acordo, agiste mal por fraqueza. - Mas não entendo como não reages com clara consciência: não podes fazer coisas más e depois dizer - ou pensar - que são santas ou que não têm importância.');
+INSERT INTO points VALUES(2167,0,2,165,'Lembra-te sempre disto: as potências espirituais nutrem-se daquilo que os sentidos lhes proporcionam. - Guarda-os bem!');
+INSERT INTO points VALUES(2168,0,2,166,'Perdes a paz - bem o sabes, aliás! - quando consentes em pontos que trazem consigo o descaminho.
+- Decide-te a ser coerente e responsável!');
+INSERT INTO points VALUES(2169,0,2,167,'A recordação, inesquecível, dos favores recebidos de Deus deve ser sempre impulso vigoroso; e muito mais na hora da tribulação.');
+INSERT INTO points VALUES(2170,0,2,168,'Há uma única doença mortal, um único erro funesto: conformar-se com a derrota, não saber lutar com espírito de filhos de Deus. Se falta esse esforço pessoal, a alma fica paralisada e jaz sozinha, incapaz de dar frutos...
+- Com essa covardia, a criatura obriga o Senhor a pronunciar as palavras que Ele ouviu do paralítico, na piscina probática: "Hominem non habeo!" - não tenho homem!
+- Que vergonha se Jesus não encontrasse em ti o homem, a mulher, que espera!');
+INSERT INTO points VALUES(2171,0,2,169,'A luta ascética não é algo de negativo nem, portanto, odioso, mas afirmação alegre. É um esporte.
+O bom esportista não luta para alcançar uma só vitória, e à primeira tentativa. Prepara-se, treina durante muito tempo, com confiança e serenidade: tenta uma vez e outra e, ainda que a princípio não triunfe, insiste tenazmente, até ultrapassar o obstáculo.');
+INSERT INTO points VALUES(2172,0,2,170,'Tudo espero de Ti, meu Jesus: converte-me!');
+INSERT INTO points VALUES(2173,0,2,171,'Quando aquele sacerdote, nosso amigo, assinava “o pecador”, fazia-o convencido de escrever a verdade.
+- Meu Deus, purifica-me também a mim!');
+INSERT INTO points VALUES(2174,0,2,172,'Se cometeste um erro, pequeno ou grande, volta correndo para Deus!
+- Saboreia as palavras do salmo: "Cor contritum et humiliatum, Deus, non despicies" - o Senhor jamais desprezará nem se desinteressará de um coração contrito e humilhado.');
+INSERT INTO points VALUES(2175,0,2,173,'Tens que dar voltas, na tua cabeça e na tua alma, a este pensamento: - Senhor, quantas vezes, caído, me levantaste e, perdoado, me abraçaste contra o teu Coração!
+Dá voltas a isso..., e não te separes dEle nunca jamais.');
+INSERT INTO points VALUES(2176,0,2,174,'Vês-te como um pobrezinho a quem o seu amo tirou a libré - somente pecador! -, e entendes a nudez experimentada pelos nossos primeiros pais.
+- Deverias estar sempre chorando. E muito choraste, muito sofreste. No entanto, és muito feliz. Não te trocarias por ninguém. Não perdes há muitos anos o teu "gaudium cum pace" - a tua alegria serena. Estás agradecido a Deus por ela, e quererias levar a todos o segredo da felicidade.
+- Sim. Compreende-se que tenham dito muitas vezes - embora nada te importe o “que vão dizer” - que és “homem de paz”.');
+INSERT INTO points VALUES(2177,0,2,175,'Alguns fazem apenas o que está ao alcance de umas pobres criaturas, e perdem o tempo. Repete-se ao pé da letra a experiência de Pedro: "Praeceptor, per totam noctem laborantes nihil cepimus!" - Mestre, trabalhamos toda a noite, e não pescamos nada.
+Se trabalham por conta própria, sem unidade com a Igreja, sem a Igreja, que eficácia terá esse apostolado? Nenhuma!
+- Têm de persuadir-se de que, por conta própria!, nada poderão. Tu tens de ajudá-los a continuar escutando o relato evangélico: "In verbo autem tuo laxabo rete" - fiado na tua palavra, lançarei a rede. Então a pesca será abundante e eficaz.
+- Como é bonito retificar quando, por qualquer razão, se fez um apostolado por conta própria!');
+INSERT INTO points VALUES(2178,0,2,176,'Escreves e copio: “"Domine, tu scis quia amo te!" - Senhor, Tu sabes que eu te amo! Quantas vezes, Jesus, repito e volto a repetir, como uma ladainha agridoce, essas palavras do teu Cefas*: porque sei que te amo, mas estou tão pouco seguro de mim!, que não me atrevo a dizer-te isso claramente. Há tantas negações na minha vida perversa! "Tu scis, Domine!" - Tu sabes que te amo! - Que as minhas obras, Jesus, nunca desdigam destes impulsos do meu coração”.
+- Insiste nesta tua oração, que com certeza Ele ouvirá.
+(*)São Pedro (N. do T.).');
+INSERT INTO points VALUES(2179,0,2,177,'Repete confiadamente: - Senhor, se as minhas lágrimas tivessem sido contrição!...
+- Pede-Lhe com humildade que te conceda a dor que desejas.');
+INSERT INTO points VALUES(2180,0,2,178,'Quanta vilania na minha conduta, e quanta infidelidade à graça!
+- Minha Mãe, Refúgio de pecadores, rogai por mim; que eu nunca mais dificulte a obra de Deus na minha alma.');
+INSERT INTO points VALUES(2181,0,2,179,'Tão perto de Cristo, tantos anos, e... tão pecador!
+- A intimidade de Jesus contigo não te arranca soluços?');
+INSERT INTO points VALUES(2182,0,2,180,'Não me falta a verdadeira alegria, pelo contrário... E, contudo, perante o conhecimento da minha baixeza, é lógico que clame com São Paulo: “Infeliz de mim!”.
+- Assim crescem as ânsias de arrancar pela raiz a barreira que levanta o eu.');
+INSERT INTO points VALUES(2183,0,2,181,'Não te assustes nem desanimes ao descobrir que tens erros..., e que erros!
+- Luta por arrancá-los. E, desde que lutes, convence-te de que é bom que sintas todas essas fraquezas, porque, de outro modo, serias um soberbo: e a soberba afasta de Deus.');
+INSERT INTO points VALUES(2184,0,2,182,'Admira-te perante a bondade de Deus, porque Cristo quer viver em ti..., também quando percebes todo o peso da pobre miséria, desta pobre carne, desta vileza, deste pobre barro.
+- Sim, também então, tem presente essa chamada de Deus: Jesus Cristo, que é Deus, que é Homem, entende-me e atende-me porque é meu Irmão e meu Amigo.');
+INSERT INTO points VALUES(2185,0,2,183,'Vives contente, muito feliz, ainda que em algumas ocasiões notes a farpada da tristeza, e até apalpes quase habitualmente um sedimento real de pesadume.
+- Essa alegria e essa aflição podem coexistir, cada uma no seu “homem”: aquela, no novo; a outra, no velho.');
+INSERT INTO points VALUES(2186,0,2,184,'A humildade nasce como fruto de conhecermos a Deus e de nos conhecermos a nós mesmos.');
+INSERT INTO points VALUES(2187,0,2,185,'Senhor, peço-te um presente: Amor..., um Amor que me deixe limpo. - E outro presente ainda: conhecimento próprio, para me encher de humildade.');
+INSERT INTO points VALUES(2188,0,2,186,'São santos os que lutam até o fim da vida: os que sempre sabem levantar-se depois de cada tropeço, de cada queda, para prosseguir valentemente o caminho com humildade, com amor, com esperança.');
+INSERT INTO points VALUES(2189,0,2,187,'Se os teus erros te fazem mais humilde, se te levam a procurar com mais força o esteio da mão divina, são caminho de santidade: “Felix culpa!”* - bendita culpa!, canta a Igreja.
+(*)Palavras da liturgia da Vigília pascal em que a Igreja, cantando o triunfo de Cristo ressuscitado, evoca o pecado dos nossos primeiros pais e exclama: “Õ feliz culpa que mereceu a graça de um tão grande Redentor!” (N. do T.).');
+INSERT INTO points VALUES(2190,0,2,188,'A oração - mesmo a minha! - é onipotente.');
+INSERT INTO points VALUES(2191,0,2,189,'A humildade leva cada alma a não desanimar perante os seus erros.
+- A verdadeira humildade leva... a pedir perdão!');
+INSERT INTO points VALUES(2192,0,2,190,'Se eu fosse leproso, minha mãe me abraçaria. Sem medo nem repugnância alguma, beijar-me-ia as chagas.
+- Pois bem, e a Virgem Santíssima? Ao sentir que temos lepra, que estamos chagados, temos de gritar: Mãe! E a proteção da nossa Mãe é como um beijo nas feridas, que nos obtém a cura.');
+INSERT INTO points VALUES(2193,0,2,191,'No sacramento da Penitência, Jesus perdoa-nos.
+- São-nos aplicados aí os méritos de Cristo, que por amor de nós está na Cruz, com os braços estendidos, e costurado ao madeiro - mais do que com os ferros - com o Amor que nos tem.');
+INSERT INTO points VALUES(2194,0,2,192,'Se alguma vez cais, filho, acode prontamente à Confissão e à direção espiritual: mostra a ferida!, para que te curem a fundo, para que te tirem todas as possibilidades de infecção, mesmo que te doa como numa operação cirúrgica.');
+INSERT INTO points VALUES(2195,0,2,193,'A sinceridade é indispensável para progredir na união com Deus.
+- Se dentro de ti, meu filho, há um “sapo”, solta-o! Diz primeiro, como te aconselho sempre, o que não quererias que se soubesse. Depois que se soltou o “sapo” na Confissão, que bem se está!');
+INSERT INTO points VALUES(2196,0,2,194,'"Nam, et si ambulavero in medio umbrae mortis, non timebo mala" - mesmo que ande por entre as sombras da morte, não terei temor algum. Nem as minhas misérias nem as tentações do inimigo hão de preocupar-me, "quoniam tu mecum es" - porque o Senhor está comigo.');
+INSERT INTO points VALUES(2197,0,2,195,'Ao considerar agora mesmo as minhas misérias, Jesus, eu te disse: - Deixa-te enganar pelo teu filho, como esses pais bons, hiper-pais, que põem nas mãos do seu menino o presente que deles querem receber..., porque muito bem sabem que as crianças nada têm.
+- E que alvoroço o do pai e o do filho, mesmo que os dois estejam por dentro do segredo!');
+INSERT INTO points VALUES(2198,0,2,196,'Jesus, Amor, pensar que posso voltar a ofender-te!... "Tuus sum ego..., salvum me fac!" - sou teu: salva-me!');
+INSERT INTO points VALUES(2199,0,2,197,'Tu, que te vês tão falto de virtudes, de talento, de condições..., não tens ânsias de clamar como Bartimeu, o cego: - Jesus, filho de Davi, tem compaixão de mim!?
+- Ele te ouvirá e te atenderá.');
+INSERT INTO points VALUES(2200,0,2,198,'Alimenta na tua alma a ânsia de reparação, para conseguires cada dia uma contrição maior.');
+INSERT INTO points VALUES(2201,0,2,199,'Se fores fiel, poderás chamar-te vencedor.
+- Na tua vida, mesmo que percas alguns combates, não conhecerás derrotas. Não existem fracassos - convence-te -, se atuas com intenção reta e com ânsias de cumprir a Vontade de Deus.
+- Então, com êxito ou sem êxito, triunfarás sempre, porque terás feito o trabalho com Amor.');
+INSERT INTO points VALUES(2202,0,2,200,'Tenho a certeza de que Ele acolheu a tua súplica humilde e inflamada: - Õ meu Deus!, não me importa o “que vão dizer” : perdão pela minha vida infame; que eu seja santo!... Mas só para Ti.');
+INSERT INTO points VALUES(2203,0,2,201,'Na vida do cristão, “tudo” tem que ser para Deus: também as fraquezas pessoais - retificadas! -, que o Senhor compreende e perdoa.');
+INSERT INTO points VALUES(2204,0,2,202,'Que foi que te fiz, Jesus, para que me queiras assim? Ofender-te... e amar-te.
+- Amar-te: a isto é que se vai reduzir a minha vida.');
+INSERT INTO points VALUES(2205,0,2,203,'Todos esses consolos do Amo, não serão para que eu esteja pendente dEle, servindo-O nas coisas pequenas, e possa assim servi-Lo nas grandes?
+- Propósito: dar gosto ao bom Jesus nos detalhes minúsculos da vida cotidiana.');
+INSERT INTO points VALUES(2206,0,2,204,'É preciso amar a Deus, porque o coração foi feito para amar. Por isso, se não o pomos em Deus, na Virgem, nossa Mãe, nas almas..., com um afeto limpo, o coração vinga-se..., e converte-se em um ninho de vermes.');
+INSERT INTO points VALUES(2207,0,2,205,'Diz ao Senhor, com todas as veras da tua alma: - Apesar de todas as minhas misérias, estou louco de Amor!, estou bêbado de Amor!');
+INSERT INTO points VALUES(2208,0,2,206,'Doído de tanta queda, daqui em diante - com a ajuda de Deus - estarei sempre na Cruz.');
+INSERT INTO points VALUES(2209,0,2,207,'O que a carne perdeu, que o pague a carne: faz penitência generosa.');
+INSERT INTO points VALUES(2210,0,2,208,'Invoca o Senhor, suplicando-Lhe o espírito de penitência próprio daquele que todos os dias sabe vencer-se, oferecendo-Lhe caladamente e com abnegação esse vencimento constante.');
+INSERT INTO points VALUES(2211,0,2,209,'Repete na tua oração pessoal, quando sentires a fraqueza da carne: - Senhor, Cruz para este meu pobre corpo, que se cansa e se revolta!');
+INSERT INTO points VALUES(2212,0,2,210,'Que boa razão a daquele sacerdote, quando pregava assim: “Jesus perdoou-me toda a multidão dos meus pecados - quanta generosidade! -, apesar da minha ingratidão. E se a Maria Madalena foram perdoados muitos pecados, porque muito amou, a mim, a quem me perdoou muito mais, que grande dívida de amor me fica!”.
+Jesus, até à loucura e ao heroísmo! Com a tua graça, Senhor, ainda que seja preciso morrer por Ti, já não te abandonarei.');
+INSERT INTO points VALUES(2213,0,2,211,'Lázaro ressuscitou porque ouviu a voz de Deus; e imediatamente quis sair daquele estado. Se não tivesse “querido” mexer-se, teria morrido de novo.
+Propósito sincero: ter sempre fé em Deus; ter sempre esperança em Deus; amar sempre a Deus..., que nunca nos abandona, ainda que estejamos podres como Lázaro.');
+INSERT INTO points VALUES(2214,0,2,212,'Admira este paradoxo amável da condição de cristão: a nossa própria miséria é a que nos leva a refugiar-nos em Deus, a “endeusar-nos”, e com Ele podemos tudo.');
+INSERT INTO points VALUES(2215,0,2,213,'Quando tiveres caído, ou te encontrares oprimido pelo fardo das tuas misérias, repete com segura esperança: - Senhor, olha que estou doente; Senhor, Tu, que por amor morreste na Cruz por mim, vem curar-me.
+Confia, insisto: persevera chamando pelo seu Coração amantíssimo. Como aos leprosos do Evangelho, Ele te dará a saúde.');
+INSERT INTO points VALUES(2216,0,2,214,'Deves encher-te de confiança e ter um grande desejo, cada dia mais profundo, de nunca fugir dEle.');
+INSERT INTO points VALUES(2217,0,2,215,'Virgem Imaculada, Mãe!, não me abandones: olha como se enche de lágrimas o meu pobre coração. - Não quero ofender o meu Deus!
+Já sei - e penso que não o esquecerei nunca - que não valho nada: quanto me pesa a minha pouquidão, a minha solidão! Mas... não estou só: tu, Doce Senhora, e meu Pai-Deus não me largais.
+Ante a rebelião da minha carne e ante as razões diabólicas contra a minha Fé, amo Jesus e creio: Amo e Creio.');
+INSERT INTO points VALUES(2218,0,2,216,'Com a graça de Deus, tens de acometer e realizar o impossível..., porque o possível o faz qualquer um.');
+INSERT INTO points VALUES(2219,0,2,217,'Rejeita o teu pessimismo e não consintas pessimistas a teu lado.
+- É preciso servir a Deus com alegria e descontração.');
+INSERT INTO points VALUES(2220,0,2,218,'Afasta de ti essa prudência humana que te faz tão precavido - perdoa-me! -, tão covarde.
+- Não sejamos pessoas de bitola estreita, homens ou mulheres menores de idade, de vistas curtas, sem horizonte sobrenatural...! Por acaso trabalhamos para nós? Não! Pois então, digamos sem medo: - Jesus da minha alma, nós trabalhamos para Ti, e Tu... vais negar-nos os meios materiais? Bem sabes como somos ruins; não obstante, eu não me comportaria assim com um criado que me servisse...
+Por isso esperamos, estamos certos de que nos darás o necessário para servir-Te.');
+INSERT INTO points VALUES(2221,0,2,219,'Ato de fé: contra Ele, nada se pode! Nem contra os seus!
+- Não o esqueças.');
+INSERT INTO points VALUES(2222,0,2,220,'Não desanimes. Para a frente!, para a frente com uma teimosia que é santa e que se chama, no terreno espiritual, perseverança.');
+INSERT INTO points VALUES(2223,0,2,221,'Meu Deus: sempre acodes às necessidades verdadeiras.');
+INSERT INTO points VALUES(2224,0,2,222,'Não pioraste. - É que agora tens mais luzes para te conheceres: evita até o menor assomo de desânimo!');
+INSERT INTO points VALUES(2225,0,2,223,'No caminho da santificação pessoal, podemos às vezes ter a impressão de que, em vez de avançar, retrocedemos; de que, em vez de melhorar, pioramos.
+Enquanto houver luta interior, esse pensamento pessimista será apenas uma falsa impressão, um engano, que convém repelir.
+- Persevera tranquilo: se lutas com tenacidade, progrides no teu caminho e te santificas.');
+INSERT INTO points VALUES(2226,0,2,224,'Aridez interior não é tibieza. No homem tíbio, a água da graça não impregna, resvala... Pelo contrário, há terras de sertão aparentemente áridas que, com poucas gotas de chuva, se cumulam no seu devido tempo de flores e de saborosos frutos.
+Por isso - quando nos convenceremos? -, como é importante a docilidade às chamadas divinas de cada instante! Porque Deus nos espera precisamente aí!');
+INSERT INTO points VALUES(2227,0,2,225,'Deves ter esperteza santa: não esperes que o Senhor te envie contrariedades; adianta-te tu, mediante a expiação voluntária. - E então não as acolherás com resignação - que é palavra velha -, mas com Amor: palavra eternamente jovem.');
+INSERT INTO points VALUES(2228,0,2,226,'Hoje, pela primeira vez, tiveste a sensação de que tudo se tornava mais simples, de que tudo se “descomplicava” para ti: viste finalmente eliminados problemas que te preocupavam. E compreendeste que estariam mais e melhor resolvidos quanto mais te abandonasses nos braços de teu Pai-Deus.
+Que estás esperando para te comportares sempre - este há de ser o motivo do teu viver! - como um filho de Deus?');
+INSERT INTO points VALUES(2229,0,2,227,'Dirige-te à Virgem Maria - Mãe, Filha, Esposa de Deus, Mãe nossa -, e pede-lhe que te obtenha da Trindade Santíssima mais graças: a graça da fé, da esperança, do amor, da contrição, para que, quando na vida parecer que sopra um vento forte, seco, capaz de estiolar essas flores da alma, não estiole as tuas..., nem as dos teus irmãos.');
+INSERT INTO points VALUES(2230,0,2,228,'Enche-te de fé, de segurança! - Assim o diz o Senhor por boca de Jeremias: "Orabitis me, et ego exaudiam vos" - sempre que recorrerdes a Mim - sempre que fizerdes oração! -, Eu vos escutarei.');
+INSERT INTO points VALUES(2231,0,2,229,'Tudo refiro a Ti, meu Deus. Sem Ti - que és meu Pai -, que seria de mim?');
+INSERT INTO points VALUES(2232,0,2,230,'Deixa que te dê um conselho de alma experimentada: a tua oração - a tua vida há de ser orar sempre - deve ter a confiança da “oração de uma criança”.');
+INSERT INTO points VALUES(2233,0,2,231,'Apresentam a Jesus um enfermo, e Ele olha-o. - Deves contemplar bem a cena e meditar as suas palavras: "Confide, fili" - tem confiança, filho.
+Isso é o que te diz o Senhor, quando sentes o peso dos erros: fé! A fé, em primeiro lugar; depois, deixar-se guiar como o paralítico: obediência interior e submissa!');
+INSERT INTO points VALUES(2234,0,2,232,'Filho, pelas tuas próprias forças, não podes nada no terreno sobrenatural. Mas, sendo instrumento de Deus, poderás tudo: "Omnia possum in eo qui me confortat!" - posso tudo nAquele que me conforta!, pois Ele quer, pela sua bondade, utilizar instrumentos ineptos, como tu e como eu.');
+INSERT INTO points VALUES(2235,0,2,233,'Sempre que fizeres oração, esforça-te por ter a fé dos enfermos do Evangelho. Deves ter a certeza de que Jesus te escuta.');
+INSERT INTO points VALUES(2236,0,2,234,'Minha Mãe! As mães da terra olham com maior predileção para o filho mais fraco, para o mais doente, para o mais curto de cabeça, para o pobre aleijado...
+- Senhora! Eu sei que tu és mais Mãe que todas as mães juntas... - E como eu sou teu filho... E como sou fraco, e doente... e aleijado... e feio...');
+INSERT INTO points VALUES(2237,0,2,235,'Falta-nos fé. No dia em que vivermos esta virtude - confiando em Deus e na sua Mãe -, seremos valentes e leais. Deus, que é o Deus de sempre, fará milagres por nossas mãos.
+- Dá-me, ó Jesus, essa fé, que de verdade desejo! Minha Mãe e Senhora minha, Maria Santíssima, faz que eu creia!');
+INSERT INTO points VALUES(2238,0,2,236,'Uma firme resolução: abandonar-me em Jesus Cristo, com todas as minhas misérias. E o que Ele quiser, em cada instante, "fiat!" - seja!');
+INSERT INTO points VALUES(2239,0,2,237,'Nunca desanimes, porque o Senhor está sempre disposto a dar-te a graça necessária para essa nova conversão de que precisas, para essa ascensão no terreno sobrenatural.');
+INSERT INTO points VALUES(2240,0,2,238,'Deus seja louvado!, dizias de ti para ti depois de terminares a tua Confissão sacramental. E pensavas: é como se tivesse voltado a nascer.
+Depois, prosseguiste com serenidade: "Domine, quid me vis facere?" - Senhor, que queres que eu faça?
+- E tu mesmo te deste a resposta: - Com a tua graça, por cima de tudo e de todos, cumprirei a tua Santíssima Vontade: Serviam! - eu te servirei sem condições!');
+INSERT INTO points VALUES(2241,0,2,239,'Narra o Evangelista que os Magos, "videntes stellam" - ao verem de novo a estrela -, ficaram cheios de uma grande alegria.
+- Alegram-se, filho, com esse júbilo imenso, porque fizeram o que deviam; e alegram-se porque têm a certeza de que chegarão até o Rei, que nunca abandona aqueles que O procuram.');
+INSERT INTO points VALUES(2242,0,2,240,'Quando amares de verdade a Vontade de Deus, não deixarás de ver, mesmo nos momentos de maior trepidação, que o nosso Pai do Céu está sempre perto, muito perto, a teu lado, com o seu Amor eterno, com o seu carinho infinito.');
+INSERT INTO points VALUES(2243,0,2,241,'Se porventura o panorama da tua vida interior, da tua alma, está obscurecido, deixa-te conduzir pela mão, como faz um cego.
+- O Senhor, com o passar do tempo, premia esta humilhação de rendermos a cabeça, dando-nos claridade.');
+INSERT INTO points VALUES(2244,0,2,242,'Ter medo de alguma coisa ou de alguém, mas especialmente de quem dirige a nossa alma, é impróprio de um filho de Deus.');
+INSERT INTO points VALUES(2245,0,2,243,'Não te comove ouvir uma palavra de carinho dirigida à tua mãe?
+- Pois bem, com o Senhor acontece o mesmo. Não podemos separar Jesus de sua Mãe.');
+INSERT INTO points VALUES(2246,0,2,244,'Em momentos de esgotamento, de fastio, recorre confiadamente ao Senhor, dizendo-Lhe, como aquele amigo nosso: “Jesus, vê lá o que fazes...; antes de começar a luta, já estou cansado”.
+- Ele te dará a sua força.');
+INSERT INTO points VALUES(2247,0,2,245,'Se não existem dificuldades, as tarefas não têm graça humana... nem sobrenatural. - Se, ao pregares um prego na parede, não encontras resistência, o que é que poderás pendurar ali?');
+INSERT INTO points VALUES(2248,0,2,246,'Parece mentira que um homem como tu - que, segundo dizes, te sabes nada - se atreva a levantar obstáculos à graça de Deus.
+Isso é o que fazes com a tua falsa humildade, com a tua “objetividade”, com o teu pessimismo.');
+INSERT INTO points VALUES(2249,0,2,247,'Senhor, dá-me graça para largar tudo o que se refira à minha pessoa. Eu não devo ter outras preocupações exceto a tua Glória..., numa palavra, o teu Amor. - Tudo por Amor!');
+INSERT INTO points VALUES(2250,0,2,248,'“Ouvindo isso - que o Rei tinha vindo à terra -, Herodes perturbou-se, e com ele toda Jerusalém”.
+É a vida cotidiana! A mesma coisa acontece agora: ante a grandeza de Deus, que se manifesta de mil modos, não faltam pessoas - até mesmo constituídas em autoridade - que se perturbam. Porque... não amam totalmente a Deus; porque não são pessoas que de verdade desejem encontrá-Lo; porque não querem seguir as suas inspirações, e se convertem em obstáculo no caminho divino.
+- Fica de sobreaviso, continua trabalhando, não te preocupes, procura o Senhor, reza..., e Ele triunfará.');
+INSERT INTO points VALUES(2251,0,2,249,'Não estás só. - Nem tu nem eu podemos encontrar-nos sós. E menos ainda se vamos a Jesus por Maria, pois é uma Mãe que nunca nos abandonará.');
+INSERT INTO points VALUES(2252,0,2,250,'Quando te parecer que o Senhor te abandona, não te entristeças; procura-O com mais empenho! Ele, o Amor, não te deixa só. - Convence-te de que é por Amor que te “deixa só”, para que vejas com clareza na tua vida o que é dEle e o que é teu.');
+INSERT INTO points VALUES(2253,0,2,251,'Dizias-me: “Vejo-me, não somente incapaz de andar para a frente no caminho, mas incapaz de salvar-me - pobre da minha alma! - sem um milagre da graça. Estou frio e - o que é pior - como que indiferente: exatamente como se fosse um espectador do “meu caso”, que não se importasse nada com o que contempla. Serão estéreis estes dias?
+“E, no entanto, a minha Mãe é minha Mãe, e Jesus é - atrevo-me? - o meu Jesus! E há almas santas, agora mesmo, pedindo por mim”.
+- Continua a andar pela mão da tua Mãe - repliquei-te -, e “atreve-te” a dizer a Jesus que é teu. Pela sua bondade, Ele porá luzes claras na tua alma.');
+INSERT INTO points VALUES(2254,0,2,252,'Dá-me, Jesus, uma Cruz sem cireneus. Digo mal: a tua graça, a tua ajuda far-me-á falta, como para tudo o mais; sê Tu o meu Cireneu. Contigo, meu Deus, não há prova que me assuste...
+- Mas, e se a Cruz fosse o tédio, a tristeza? - Eu te digo, Senhor, que, Contigo, estaria alegremente triste.');
+INSERT INTO points VALUES(2255,0,2,253,'Se eu não Te perco, Senhor, para mim não haverá pena que seja pena.');
+INSERT INTO points VALUES(2256,0,2,254,'Jesus não nega a ninguém a sua palavra, e é uma palavra que sara, que consola, que ilumina.
+- Para que tu e eu nos lembremos disso sempre, também quando nos encontremos fatigados pelo peso do trabalho ou da contradição.');
+INSERT INTO points VALUES(2257,0,2,255,'Não esperes o aplauso dos outros pelo teu trabalho.
+- Mais ainda! Não esperes sequer, às vezes, que te compreendam outras pessoas e instituições que também trabalham por Cristo.
+- Procura somente a glória de Deus e, amando a todos, não te preocupes se alguns não te entendem.');
+INSERT INTO points VALUES(2258,0,2,256,'Se há montanhas, obstáculos, incompreensões, enredos, que satanás quer e o Senhor permite, precisas ter fé, fé com obras, fé com sacrifício, fé com humildade.');
+INSERT INTO points VALUES(2259,0,2,257,'Ante a aparente esterilidade do apostolado, assaltam-te as vanguardas de uma onda de desalento, que a tua fé repele com firmeza... - Mas percebes que necessitas de mais fé, humilde, viva e operativa.
+Tu, que desejas a saúde das almas, grita como o pai daquele rapaz enfermo, possuído pelo diabo: "Domine, adiuva incredulitatem meam!" - Senhor, ajuda a minha incredulidade!
+Não duvides: repetir-se-á o milagre.');
+INSERT INTO points VALUES(2260,0,2,258,'Que bonita oração - para que a repitas com freqüência - a daquele amigo que rezava assim por um sacerdote encarcerado por ódio à religião: “Meu Deus, consola-o, porque sofre perseguição por Ti. Quantos não sofrem, porque te servem!”.
+- Que alegria dá a Comunhão dos Santos!');
+INSERT INTO points VALUES(2261,0,2,259,'Essas medidas, que alguns governos tomam para garantir a morte da fé em seus países, recordam os selos do Sinédrio no Sepulcro de Jesus.
+- Ele, que não estava sujeito a nada nem a ninguém, apesar desses entraves, ressuscitou!');
+INSERT INTO points VALUES(2262,0,2,260,'A solução é amar. O Apóstolo São João escreve umas palavras que me tocam muito: "Qui autem timet, non est perfectus in caritate". Eu o traduzo assim, quase ao pé da letra: quem tem medo não sabe amar.
+- Portanto tu, que tens amor e sabes amar, não podes ter medo de nada! - Para a frente!');
+INSERT INTO points VALUES(2263,0,2,261,'Deus está contigo. Na tua alma em graça habita a Santíssima Trindade.
+- Por isso, tu, apesar das tuas misérias, podes e deves estar em contínuo diálogo com o Senhor.');
+INSERT INTO points VALUES(2264,0,2,262,'Tens de orar sempre, sempre.
+- Tens de sentir a necessidade de recorrer a Deus, depois de cada êxito e de cada fracasso na vida interior.');
+INSERT INTO points VALUES(2265,0,2,263,'Que a tua oração seja sempre um sincero e real ato de adoração a Deus.');
+INSERT INTO points VALUES(2266,0,2,264,'Ao trazer-te à Igreja, o Senhor pôs na tua alma um selo indelével, por meio do Batismo: és filho de Deus. - Não o esqueças.');
+INSERT INTO points VALUES(2267,0,2,265,'Dá muitas graças a Jesus, porque por Ele, com Ele e nEle, tu podes chamar-te filho de Deus.');
+INSERT INTO points VALUES(2268,0,2,266,'Se nos sentimos filhos prediletos do nosso Pai dos Céus - que é o que somos! -, como não havemos de estar alegres sempre? - Pensa bem nisto.');
+INSERT INTO points VALUES(2269,0,2,267,'Quando dava a Sagrada Comunhão, aquele sacerdote sentia ímpetos de gritar: aí te entrego a Felicidade!');
+INSERT INTO points VALUES(2270,0,2,268,'Agiganta a tua fé na Sagrada Eucaristia. - Pasma-te diante dessa realidade inefável! Temos Deus conosco, podemos recebê-Lo diariamente e, se quisermos, falamos intimamente com Ele, como se fala com o amigo, como se fala com o irmão, como se fala com o pai, como se fala com o Amor.');
+INSERT INTO points VALUES(2271,0,2,269,'Como é formosa a nossa vocação de cristãos - de filhos de Deus! -, que nos traz na terra a alegria e a paz que o mundo não pode dar!');
+INSERT INTO points VALUES(2272,0,2,270,'Dá-me, Senhor, o amor com que queres que eu te ame.');
+INSERT INTO points VALUES(2273,0,2,271,'Naquela manhã - para venceres a sombra de pessimismo que te assaltava -, voltaste a insistir com o teu Anjo da Guarda, como fazes diariamente..., mas te “meteste” mais com ele. Dirigiste-lhe elogios e disseste-lhe que te ensinasse a amar Jesus, pelo menos, pelo menos, como ele O ama... E ficaste tranqüilo.');
+INSERT INTO points VALUES(2274,0,2,272,'Pede à tua Mãe, Maria, a São José, ao teu Anjo da Guarda..., pede-lhes que falem com o Senhor, dizendo-Lhe aquilo que, pela tua rudeza, não sabes expressar.');
+INSERT INTO points VALUES(2275,0,2,273,'Enche-te de segurança: nós temos por Mãe a Mãe de Deus, a Santíssima Virgem Maria, Rainha do Céu e do Mundo.');
+INSERT INTO points VALUES(2276,0,2,274,'Jesus nasceu numa gruta de Belém, diz a Escritura, “porque não havia lugar para eles na estalagem”.
+- Não me afasto da verdade teológica, se te digo que Jesus continua ainda procurando pousada em teu coração.');
+INSERT INTO points VALUES(2277,0,2,275,'O Senhor está na Cruz, dizendo: - Eu padeço para que os meus irmãos os homens sejam felizes, não só no Céu, mas também - na medida do possível - na terra, se acatarem a Santíssima Vontade de meu Pai celestial.');
+INSERT INTO points VALUES(2278,0,2,276,'É verdade que tu não contribuis com nada, que na tua alma é Deus quem faz tudo.
+- Mas que não seja assim, do ponto de vista da tua correspondência.');
+INSERT INTO points VALUES(2279,0,2,277,'Exercita-te na virtude da esperança, perseverando - por Deus, e ainda que te custe - no teu trabalho bem acabado, persuadido de que o teu esforço não é inútil diante do Senhor.');
+INSERT INTO points VALUES(2280,0,2,278,'Quando na tua luta diária, composta geralmente de muitos poucos, há desejos e realidades de agradar a Deus a todo o instante, asseguro-te: nada se perde!');
+INSERT INTO points VALUES(2281,0,2,279,'Pensa, porque de fato é assim: que bom é o Senhor, que me procurou, que me fez conhecer este caminho santo para ser eficaz, para amar as criaturas todas e dar-lhes a paz e a alegria!
+- Este pensamento deve concretizar-se depois em propósitos.');
+INSERT INTO points VALUES(2282,0,2,280,'Sabes que não te faltará a graça de Deus, porque Ele te escolheu desde a eternidade. E se te tratou assim, conceder-te-á todos os auxílios, para que Lhe sejas fiel, como filho seu.
+- Caminha, pois, com segurança e com uma correspondência atual.');
+INSERT INTO points VALUES(2283,0,2,281,'Peço à Mãe de Deus que nos saiba, que nos queira sorrir..., e Ela nos sorrirá.
+E, além disso, premiará na terra a nossa generosidade com mil por um: mil por um, é o que lhe peço!');
+INSERT INTO points VALUES(2284,0,2,282,'Tens de praticar uma caridade alegre, doce e rija, humana e sobrenatural; caridade afetuosa, que saiba acolher a todos com um sincero sorriso habitual; que saiba compreender as idéias e os sentimentos dos outros.
+- Assim, suavemente e fortemente, sem cederes na conduta pessoal nem na doutrina, a caridade de Cristo - bem vivida - dar-te-á o espírito de conquista: terás cada dia mais fome de trabalho pelas almas.');
+INSERT INTO points VALUES(2285,0,2,283,'Filho, dizia-te com segurança: para pegarmos a nossa “loucura” a outros apóstolos, não se me ocultam os “obstáculos” que encontraremos. Alguns poderão parecer insuperáveis..., mas "inter medium montium pertransibunt aquae" - as águas passarão através das montanhas: o espírito sobrenatural e o ímpeto do nosso zelo furarão os montes, e superaremos esses obstáculos.');
+INSERT INTO points VALUES(2286,0,2,284,'“Meu Deus, meu Deus! Todos me são igualmente queridos, por Ti, em Ti e Contigo; e agora, todos estão dispersos”, queixavas-te, ao te veres de novo sozinho e sem meios humanos.
+- Mas imediatamente o Senhor pôs na tua alma a certeza de que Ele resolveria a situação. E disseste-Lhe: - Tu a arrumarás!
+- Efetivamente, o Senhor arrumou tudo antes, mais e melhor do que tu esperavas.');
+INSERT INTO points VALUES(2287,0,2,285,'É justo que o Pai e o Filho e o Espírito Santo coroem a Virgem Santíssima como Rainha e Senhora de toda a criação.
+- Aproveita-te desse poder e, com atrevimento filial, une-te a essa festa do Céu. - Eu corôo a Mãe de Deus e minha Mãe com as minhas misérias purificadas, porque não tenho pedras preciosas nem virtudes.
+- Anima-te!');
+INSERT INTO points VALUES(2288,0,2,286,'Quero prevenir-te a respeito de uma dificuldade que talvez possa apresentar-se: a tentação do cansaço, do desalento.
+- Não está ainda fresca na tua memória uma vida - a tua - sem rumo, sem meta, sem sal, que a luz de Deus e a tua entrega endireitaram e encheram de alegria?
+- Não troques bobamente isto por aquilo.');
+INSERT INTO points VALUES(2289,0,2,287,'Se notas que não és capaz - seja por que motivo for -, diz-Lhe, abandonando-te nEle: - Senhor, confio em Ti, abandono-me em Ti, mas ajuda a minha fraqueza!
+E, cheio de confiança, repete-Lhe: - Olha para mim, Jesus, sou um trapo sujo; a experiência da minha vida é tão triste, não mereço ser teu filho. Diz-Lhe isso..., e dize-o muitas vezes.
+- Não tardarás em ouvir a sua voz: "Ne timeas!" - não temas! Ou também: "Surge et ambula!" - levanta-te e anda!');
+INSERT INTO points VALUES(2290,0,2,288,'Comentavas-me, ainda indeciso: - Como se notam esses tempos em que o Senhor me pede mais!
+Só me ocorreu recordar-te: - Garantias-me que a única coisa que querias era identificar-te com Ele; então, por que resistes?');
+INSERT INTO points VALUES(2291,0,2,289,'Oxalá saibas cumprir esse propósito que fizeste: “Morrer um pouco para mim mesmo, em cada dia”.');
+INSERT INTO points VALUES(2292,0,2,290,'A alegria, o otimismo sobrenatural e humano, são compatíveis com o cansaço físico, com a dor, com as lágrimas - porque temos coração -, com as dificuldades na nossa vida interior ou na tarefa apostólica.
+Ele, "perfectus Deus, perfectus Homo" - perfeito Deus e perfeito Homem -, que tinha toda a felicidade do Céu, quis experimentar a fadiga e o cansaço, o pranto e a dor..., para que entendêssemos que ser sobrenatural pressupõe ser muito humano.');
+INSERT INTO points VALUES(2293,0,2,291,'Jesus te pede oração... Vês isso claramente.
+- No entanto, quanta falta de correspondência! Tudo te custa muito: és como a criança que tem preguiça de aprender a andar. Mas, no teu caso, não é só preguiça. É também medo, falta de generosidade.');
+INSERT INTO points VALUES(2294,0,2,292,'Repete com freqüência: - Jesus, se alguma vez se insinuar na minha alma a dúvida entre fazer o que Tu me pedes e seguir outras ambições nobres, digo-te desde já que prefiro o teu caminho, custe o que custar. Não me largues!');
+INSERT INTO points VALUES(2295,0,2,293,'Procura a união com Deus e enche-te de esperança - virtude segura! -, porque Jesus te iluminará com as luzes da sua misericórdia, mesmo na noite mais escura.');
+INSERT INTO points VALUES(2296,0,2,294,'Assim discorria a tua oração: “Pesam-me as minhas misérias, mas não me esmagam porque sou filho de Deus. Expiar. Amar... E - acrescentavas - desejo servir-me da minha fraqueza, como São Paulo, persuadido de que o Senhor não abandona os que nEle confiam”.
+- Continua assim, confirmei-te, porque - com a graça de Deus - conseguirás, e vencerás as tuas misérias e as tuas pequenezes.');
+INSERT INTO points VALUES(2297,0,2,295,'Qualquer momento é propício para fazer um propósito eficaz, para dizer “creio”, para dizer “espero”, para dizer “amo”.');
+INSERT INTO points VALUES(2298,0,2,296,'Aprende a louvar o Pai e o Filho e o Espírito Santo. Aprende a ter uma especial devoção pela Santíssima Trindade: creio em Deus Pai, creio em Deus Filho, creio em Deus Espírito Santo; espero em Deus Pai, espero em Deus Filho, espero em Deus Espírito Santo; amo a Deus Pai, amo a Deus Filho, amo a Deus Espírito Santo. Creio, espero e amo a Trindade Santíssima.
+- Faz-nos falta esta devoção como um exercício sobrenatural da alma, que se traduz em atos do coração, ainda que nem sempre se verta em palavras.');
+INSERT INTO points VALUES(2299,0,2,297,'O sistema, o método, o procedimento, a única maneira de termos vida - abundante e fecunda em frutos sobrenaturais - é seguir o conselho do Espírito Santo, que nos chega através dos Atos dos Apóstolos: "Omnes erant perseverantes unanimiter in oratione" - todos perseveravam unanimemente na oração.
+- Sem oração, nada!');
+INSERT INTO points VALUES(2300,0,2,298,'O meu Senhor Jesus tem um Coração mais sensível que todos os corações de todos os homens bons juntos. Se um homem bom (medianamente bom) sabe que determinada pessoa o ama, sem esperar satisfação ou prêmio algum (ama por amar); e sabe também que essa pessoa só deseja que ele não se oponha a ser amado, nem que seja só de longe..., não tardará em corresponder a um amor tão desinteressado.
+- Se o Amado é tão poderoso que pode tudo, estou certo de que, além de acabar por render-se ao amor fiel da criatura (apesar das misérias dessa pobre alma), dar-lhe-á a formosura, a ciência e o poder sobrehumanos que forem necessários para que os olhos de Jesus não se manchem, ao pousarem no pobre coração que O adora.
+- Menino, ama: ama e espera.');
+INSERT INTO points VALUES(2301,0,2,299,'Se com sacrifício semeias Amor, também colherás Amor.');
+INSERT INTO points VALUES(2302,0,2,300,'Menino: não te inflamas em desejos de fazer que todos O amem?');
+INSERT INTO points VALUES(2303,0,2,301,'Jesus-menino, Jesus-adolescente: gosto de ver-te assim, Senhor, porque... me torno mais atrevido. Gosto de ver-te pequenino, como que desamparado, para embalar-me na ilusão de que precisas de mim.');
+INSERT INTO points VALUES(2304,0,2,302,'Sempre que entro no oratório, digo ao Senhor - pois voltei a ser criança - que O amo mais do que ninguém.');
+INSERT INTO points VALUES(2305,0,2,303,'Como é maravilhosa a eficácia da Sagrada Eucaristia, na ação - e, antes, no espírito - das pessoas que a recebem com freqüência e piedosamente.');
+INSERT INTO points VALUES(2306,0,2,304,'Senhor, se aqueles homens, por um pedaço de pão - embora o milagre da multiplicação tenha sido muito grande -, se entusiasmam e te aclamam, que não deveremos nós fazer pelos muitos dons que nos concedeste, e especialmente porque te entregas a nós sem reservas na Eucaristia?');
+INSERT INTO points VALUES(2307,0,2,305,'Menino bom: os apaixonados desta terra, como beijam as flores, a carta, uma lembrança da pessoa que amam!...
+- E tu? Poderás esquecer-te alguma vez de que O tens a teu lado..., a Ele!? - Esquecerás... que O podes comer?');
+INSERT INTO points VALUES(2308,0,2,306,'Tens de assomar muitas vezes a cabeça ao oratório, para dizer a Jesus: - Abandono-me nos teus braços.
+- Deixa a seus pés o que tens: as tuas misérias!
+- Deste modo, apesar da turbamulta de coisas que arrastas atrás de ti, nunca perderás a paz.');
+INSERT INTO points VALUES(2309,0,2,307,'Reza com toda a segurança com o Salmista: “Senhor, Tu és o meu refúgio e a minha fortaleza, confio em Ti!”.
+Eu te garanto que Ele te preservará das insídias do “demônio meridiano”* - nas tentações e... nas quedas! -, quando a idade e as virtudes teriam que ser maduras, quando deverias saber de cor que somente Ele é a Fortaleza.
+(*)Expressão da literatura ascética com que por vezes se designa a crise da meia-idade (N. do T.).');
+INSERT INTO points VALUES(2310,0,2,308,'Achas que na vida se agradece um serviço prestado de má vontade? É evidente que não. E até se chega a concluir: seria melhor que não o tivesse feito. - E pensas que podes servir a Deus de cara fechada? Não! - Tens de servi-Lo com alegria, apesar das tuas misérias, que as iremos tirando com a ajuda divina.');
+INSERT INTO points VALUES(2311,0,2,309,'Assaltam-te dúvidas e tentações com pinta elegante.
+- Gosto de ouvir-te: vê-se que o demônio te considera seu inimigo, e que a graça de Deus não te desampara. Continua a lutar!');
+INSERT INTO points VALUES(2312,0,2,310,'A maior parte dos que têm problemas pessoais, “têm-nos” pelo egoísmo de pensar em si próprios.');
+INSERT INTO points VALUES(2313,0,2,311,'Parece que há calma. Mas o inimigo de Deus não dorme...
+- Também o Coração de Jesus vela! Essa é a minha esperança.');
+INSERT INTO points VALUES(2314,0,2,312,'A santidade está na luta, em saber que temos defeitos e em tratar heroicamente de evitá-los.
+A santidade - insisto - está em vencer esses defeitos..., mas morreremos com defeitos: senão, já te disse, seríamos uns soberbos.');
+INSERT INTO points VALUES(2315,0,2,313,'Obrigado, Senhor, porque - ao permitires a tentação - nos dás também a formosura e a fortaleza da tua graça, para que sejamos vencedores! Obrigado, Senhor, pelas tentações, que Tu permites para que sejamos humildes!');
+INSERT INTO points VALUES(2316,0,2,314,'Não me abandones, meu Senhor: não vês a que abismo sem fundo iria parar este teu pobre filho?
+- Minha Mãe: sou teu filho também.');
+INSERT INTO points VALUES(2317,0,2,315,'Não se pode ter uma vida limpa sem a ajuda divina. Deus quer a nossa humildade, quer que Lhe peçamos a sua ajuda, através da nossa Mãe e sua Mãe.
+Tens que dizer a Nossa Senhora, agora mesmo, na solidão acompanhada do teu coração, falando sem ruído de palavras: - Minha Mãe, este meu pobre coração rebela-se algumas vezes... Mas se tu me ajudas... - E Ela te ajudará, para que o guardes limpo e continues pelo caminho a que Deus te chamou: a Virgem te facilitará sempre o cumprimento da Vontade de Deus.');
+INSERT INTO points VALUES(2318,0,2,316,'Para guardar a santa pureza, a limpeza de vida, tens de amar e praticar a mortificação diária.');
+INSERT INTO points VALUES(2319,0,2,317,'Quando sentires o aguilhão da pobre carne, que às vezes ataca com violência, beija o Crucifixo, beija-o muitas vezes!, com eficácia de vontade, mesmo que te pareça que o fazes sem amor.');
+INSERT INTO points VALUES(2320,0,2,318,'Coloca-te cada dia diante do Senhor e, como aquele homem necessitado do Evangelho, diz-Lhe devagar, com todo o empenho do teu coração: "Domine, ut videam!" - Senhor, que eu veja! Que veja o que Tu esperas de mim e lute por ser-te fiel.');
+INSERT INTO points VALUES(2321,0,2,319,'Meu Deus, como é fácil perseverar, sabendo que Tu és o Bom Pastor, e nós - tu e eu... - ovelhas do teu rebanho!
+- Porque estamos bem cientes de que o Bom Pastor dá a sua vida inteira por cada uma das suas ovelhas.');
+INSERT INTO points VALUES(2322,0,2,320,'Hoje, na tua oração, confirmaste o propósito de fazer-te santo. Bem te entendo quando acrescentas, concretizando: - Sei que o conseguirei, não por estar seguro de mim, Jesus, mas porque... estou seguro de Ti.');
+INSERT INTO points VALUES(2323,0,2,321,'Tu, sozinho, sem contar com a graça, não conseguirás nada de proveito, porque terás cortado o caminho das relações com Deus.
+- Com a graça, porém, podes tudo.');
+INSERT INTO points VALUES(2324,0,2,322,'Queres aprender de Cristo e tomar exemplo da sua vida? - Abre o Santo Evangelho e escuta o diálogo de Deus com os homens..., contigo.');
+INSERT INTO points VALUES(2325,0,2,323,'Jesus sabe muito bem o que nos convém..., e eu amo e amarei sempre a sua Vontade. É Ele quem maneja os “bonecos” e, se for um meio para o nosso fim, apesar desses homens sem Deus que se empenham em levantar obstáculos, dar-me-á o que Lhe peço.');
+INSERT INTO points VALUES(2326,0,2,324,'A fé verdadeira revela-se pela humildade.
+"Dicebat enim intra se" - dizia aquela pobre mulher dentro de si: "Si tetigero tantum vestimentum eius, salva ero" - basta-me tocar a orla das suas vestes, e ficarei curada.
+- Que humildade a dela, fruto e sinal da sua fé!');
+INSERT INTO points VALUES(2327,0,2,325,'Se Deus te dá a carga, Deus te dará a força.');
+INSERT INTO points VALUES(2328,0,2,326,'Invoca o Espírito Santo no exame de consciência, para conheceres mais a Deus, para te conheceres a ti mesmo, e assim poderes converter-te em cada dia.');
+INSERT INTO points VALUES(2329,0,2,327,'Direção espiritual. Não te oponhas a que revolvam a tua alma, com sentido sobrenatural e com santa desvergonha, para verificarem até que ponto podes - e queres! - dar glória a Deus.');
+INSERT INTO points VALUES(2330,0,2,328,'"Quomodo fiet istud quoniam virum non cognosco?" - como poderá realizar-se este prodígio, se não conheço varão? Pergunta de Maria ao Anjo, que é reflexo do seu Coração sincero.
+Olhando para a Virgem Santa, confirmei-me numa norma clara: para termos paz e vivermos em paz, temos de ser muito sinceros com Deus, com os que dirigem a nossa alma e conosco próprios.');
+INSERT INTO points VALUES(2331,0,2,329,'O menino bobo chora e esperneia, quando a mãe carinhosa lhe espeta um alfinete no dedo para lhe tirar o espinho que se cravou... O menino ajuizado, talvez com os olhos cheios de lágrimas - porque a carne é fraca -, olha agradecido para a sua boa mãe, que o faz sofrer um pouco para evitar maiores males.
+- Jesus, que eu seja menino ajuizado.');
+INSERT INTO points VALUES(2332,0,2,330,'Menino, pobre burrico: se, com Amor, o Senhor limpou as tuas negras costas, habituadas ao esterco, e te carrega com arreios de seda, e sobre eles coloca jóias deslumbrantes, pobre burrico!, não esqueças que “podes”, por tua culpa, jogar a bela carga ao chão..., mas tu sozinho “não podes” voltar a carregá-la sobre ti.');
+INSERT INTO points VALUES(2333,0,2,331,'Descansa na filiação divina. Deus é um Pai - o teu Pai! - cheio de ternura, de infinito amor.
+Chama-Lhe Pai muitas vezes, e diz-Lhe - a sós - que O amas, que O amas muitíssimo!: que sentes o orgulho e a força de ser seu filho.');
+INSERT INTO points VALUES(2334,0,2,332,'A alegria é conseqüência necessária da filiação divina, de nos sabermos queridos com predileção pelo nosso Pai-Deus, que nos acolhe, nos ajuda e nos perdoa.
+- Lembra-te bem e sempre disto: mesmo que alguma vez pareça que tudo vem abaixo, nada vem abaixo!, porque Deus não perde batalhas.');
+INSERT INTO points VALUES(2335,0,2,333,'A maior prova de agradecimento a Deus é amarmos apaixonadamente a nossa condição de filhos seus.');
+INSERT INTO points VALUES(2336,0,2,334,'Estás como o pobre-diabo que de repente fica sabendo que é filho do Rei! - Por isso, já só te preocupa na terra a Glória - toda a Glória - de teu Pai-Deus.');
+INSERT INTO points VALUES(2337,0,2,335,'Menino amigo, diz-Lhe: - Jesus, sabendo que te amo e que me amas, o resto pouco me importa: tudo vai bem.');
+INSERT INTO points VALUES(2338,0,2,336,'- Pedi muito a Nossa Senhora, afirmavas-me. E te corrigias: - Digo mal, expus muito a Nossa Senhora.');
+INSERT INTO points VALUES(2339,0,2,337,'“Tudo posso nAquele que me conforta”. Com Ele, não há possibilidade de fracasso, e desta persuasão nasce o santo “complexo de superioridade” para enfrentarmos as tarefas com espírito de vencedores, porque Deus nos concede a sua fortaleza.');
+INSERT INTO points VALUES(2340,0,2,338,'Diante da tela, com ânsias de superação, exclamava aquele artista: - Senhor, quero pintar para ti trinta e oito corações, trinta e oito anjos desfazendo-se sempre em amor por Ti: trinta e oito maravilhas bordadas no teu céu, trinta e oito sóis no teu manto, trinta e oito chamas, trinta e oito amores, trinta e oito loucuras, trinta e oito alegrias...
+Depois, humilde, reconhecia: - Isso é a imaginação e o desejo. A realidade são trinta e oito figuras pouco conseguidas que, mais do que dar satisfação, mortificam a vista.');
+INSERT INTO points VALUES(2341,0,2,339,'Não podemos ter a pretensão de que os Anjos nos obedeçam... Mas temos a absoluta certeza de que os Santos Anjos nos ouvem sempre.');
+INSERT INTO points VALUES(2342,0,2,340,'Deixa-te conduzir por Deus. Levar-te-á pelo “seu caminho”, servindo-se de adversidades sem conta..., e talvez até da tua mandriice, para que se veja que a tua tarefa, é Ele quem a realiza.');
+INSERT INTO points VALUES(2343,0,2,341,'Pede-Lhe sem medo, insiste. Lembra-te da cena que o Evangelho nos relata acerca da multiplicação dos pães. - Olha com que magnanimidade responde Ele aos Apóstolos: - Quantos pães tendes? Cinco?... Que me pedis?... E Ele dá seis, cem, milhares... Por quê?
+- Porque Cristo vê as nossas necessidades com uma sabedoria divina, e com a sua onipotência pode e chega mais longe do que os nossos desejos.
+O Senhor vai além da nossa pobre lógica e é infinitamente generoso!');
+INSERT INTO points VALUES(2344,0,2,342,'Quando se trabalha por Deus, é preciso ter “complexo de superioridade”, indiquei-te.
+- Mas, perguntavas-me, isso não é uma manifestação de soberba? - Não! É uma consequência da humildade, de uma humildade que me faz dizer: - Senhor, Tu és quem és. Eu sou a negação. Tu tens todas as perfeições: o poder, a fortaleza, o amor, a glória, a sabedoria, o império, a dignidade... Se eu me unir a Ti, como um filho quando se põe nos braços fortes de seu pai ou no regaço maravilhoso de sua mãe, sentirei o calor da tua divindade, sentirei as luzes da tua sabedoria, sentirei correr pelo meu sangue a tua fortaleza.');
+INSERT INTO points VALUES(2345,0,2,343,'Se tiveres presença de Deus, por cima da tempestade que ensurdece, brilhará sempre o sol no teu olhar; e, por baixo das ondas tumultuosas e devastadoras, reinarão na tua alma a calma e a serenidade.');
+INSERT INTO points VALUES(2346,0,2,344,'Para um filho de Deus, cada jornada tem que ser uma ocasião de renovar-se, na certeza de que, ajudado pela graça, chegará ao termo do caminho, que é o Amor.
+Por isso, se começas e recomeças, andas bem. Se tens moral de vitória, se lutas, com o auxílio de Deus, vencerás! Não há dificuldade que não possas superar!');
+INSERT INTO points VALUES(2347,0,2,345,'Chega-te a Belém, aproxima-te do Menino, embala-O, diz-Lhe um monte de coisas ardentes, aperta-O contra o coração...
+- Não falo de criancices: falo de amor! E o amor manifesta-se com fatos: na intimidade da tua alma, bem O podes abraçar!');
+INSERT INTO points VALUES(2348,0,2,346,'Manifestemos a Jesus que somos crianças. E as crianças, as crianças pequeninas e simples, quanto não sofrem para subir um degrau! Parece que estão ali perdendo o tempo. Finalmente, subiram. Agora, outro degrau. Com as mãos e os pés, e com o impulso de todo o corpo, conseguem um novo triunfo: mais um degrau. E volta a começar. Que esforços! Já faltam poucos..., mas então um tropeção... e zás!... lá em baixo. Toda machucada, inundada de lágrimas, a pobre criança começa, recomeça a subida.
+Assim nós, Jesus, quando estamos sós. Toma-nos Tu em teus braços amáveis, como um Amigo grande e bom da criança simples; não nos soltes até que estejamos lá em cima; e então - oh, então! - saberemos corresponder ao teu Amor Misericordioso, com audácias infantis, dizendo-te, doce Senhor, que, a não ser Maria e José, não houve nem haverá mortal algum - e os tem havido muito loucos - que te ame como eu te amo.');
+INSERT INTO points VALUES(2349,0,2,347,'Não te importes de fazer pequenas criancices, aconselhei-te: enquanto esses atos não forem rotineiros, não serão estéreis.
+- Um exemplo: suponhamos que uma alma, que caminha pela via da infância espiritual, se sente movida a cobrir com um agasalho cada noite, à hora de dormir, uma imagem de madeira da Santíssima Virgem.
+A cabeça insurge-se contra semelhante ação, por lhe parecer claramente inútil. Mas a alma pequena, tocada pela graça, vê perfeitamente que uma criança, por amor, agiria assim.
+Então, a vontade varonil, que têm todos os que são espiritualmente pequeninos, levanta-se, obrigando a cabeça a render-se... E se aquela alma infantil continua agasalhando cada dia a imagem de Nossa Senhora, também cada dia faz uma pequena criancice fecunda aos olhos de Deus.');
+INSERT INTO points VALUES(2350,0,2,348,'Quando fores sinceramente criança e seguires por caminhos de infância - se o Senhor te leva por aí -, serás invencível.');
+INSERT INTO points VALUES(2351,0,2,349,'Um pedido confiante de filho pequeno: - Eu quereria, Senhor, uma compunção como a que tiveram os que mais te souberam agradar.');
+INSERT INTO points VALUES(2352,0,2,350,'Menino, deixarás de sê-lo se alguém ou alguma coisa se interpuser entre Deus e ti.');
+INSERT INTO points VALUES(2353,0,2,351,'Não devo pedir nada a Jesus: limitar-me-ei a dar-Lhe gosto em tudo e a contar-Lhe as coisas como se Ele não as soubesse, tal como uma criança faz com seu pai.');
+INSERT INTO points VALUES(2354,0,2,352,'Menino, diz a Jesus: - Não me conformo com menos do que Contigo.');
+INSERT INTO points VALUES(2355,0,2,353,'Na tua oração de infância espiritual, que coisas tão pueris dizes ao teu Senhor! Com a confiança de um menino que fala com o amigo grande, de cujo amor tem certeza, tu Lhe confias: - Que eu viva somente para a tua Glória!
+Recordas e reconheces lealmente que fazes tudo mal: - Isso, meu Jesus - acrescentas -, não pode chamar-te a atenção: é impossível que eu faça alguma coisa direito. Ajuda-me Tu, faze-o Tu por mim e verás como sai bem.
+Depois, audazmente e sem te afastares da verdade, continuas: - Empapa-me, embriaga-me com o teu Espírito, e assim farei a tua Vontade. Quero fazê-la. Se não a faço..., é porque não me ajudas. Mas é claro que me ajudas!');
+INSERT INTO points VALUES(2356,0,2,354,'Tens de sentir a necessidade de te veres pequeno, desprovido de tudo, fraco. Então lançar-te-ás no regaço da nossa Mãe do Céu, com jaculatórias, com olhares de afeto, com práticas de piedade mariana..., que estão na entranha do teu espírito filial.
+- Ela te protegerá.');
+INSERT INTO points VALUES(2357,0,2,355,'Aconteça o que acontecer, persevera no teu caminho; persevera, alegre e otimista, porque o Senhor se empenha em varrer todos os obstáculos.
+- Ouve-me bem: tenho a certeza de que, se lutas, serás santo!');
+INSERT INTO points VALUES(2358,0,2,356,'Quando o Senhor os chamou, os primeiros Apóstolos estavam junto à barca velha e junto às redes furadas, remendando-as. O Senhor disse-lhes que O seguissem; e eles, "statim" - imediatamente -, "relictis omnibus" - abandonando todas as coisas, tudo! -, O seguiram...
+E acontece algumas vezes que nós - que desejamos imitá-los - não acabamos de abandonar tudo, e fica-nos um apego no coração, um erro em nossa vida, que não queremos cortar para oferecê-lo ao Senhor.
+- Examinarás o teu coração bem a fundo? - Não há de ficar nada aí que não seja dEle; caso contrário, não O amamos bem, nem tu nem eu.');
+INSERT INTO points VALUES(2359,0,2,357,'Tens de manifestar ao Senhor, com sinceridade e constantemente, os teus desejos de santidade e de apostolado..., e então não se quebrará o pobre vaso da tua alma; ou, se se quebra, recompor-se-á com nova graça, e continuará a servir para a tua própria santidade e para o apostolado.');
+INSERT INTO points VALUES(2360,0,2,358,'A tua oração tem de ser a do filho de Deus; não a dos hipócritas, que hão de escutar de Jesus aquelas palavras: “Nem todo aquele que diz Senhor!, Senhor! entrará no Reino dos Céus”.
+A tua oração, o teu clamar “Senhor!, Senhor!”, tem de andar unido, de mil formas diversas no teu dia, ao desejo e ao esforço eficaz de cumprir a Vontade de Deus.');
+INSERT INTO points VALUES(2361,0,2,359,'Menino, diz-Lhe: - Õ Jesus, eu não quero que o demônio se apodere das almas!');
+INSERT INTO points VALUES(2362,0,2,360,'Se foste escolhido, chamado pelo Amor de Deus, para segui-Lo, tens obrigação de corresponder-Lhe..., e tens também o dever, não menos forte, de conduzir, de contribuir para a santidade e para o bom caminhar dos teus irmãos os homens.');
+INSERT INTO points VALUES(2363,0,2,361,'Coragem!..., também quando a caminhada se tornar dura. Não te dá alegria saber que a fidelidade aos teus compromissos de cristão depende em boa parte de ti?
+Enche-te de júbilo e renova livremente a tua decisão: - Senhor, eu também quero, conta com o pouco que sou!');
+INSERT INTO points VALUES(2364,0,2,362,'Deus não te arranca do teu ambiente, não te retira do mundo, nem do teu estado de vida, nem das tuas ambições humanas nobres, nem do teu trabalho profissional... mas, aí, te quer santo!');
+INSERT INTO points VALUES(2365,0,2,363,'Com a fronte grudada ao chão e colocado na presença de Deus, deves considerar (porque é assim) que és uma coisa mais suja e desprezível do que o lixo recolhido pela vassoura.
+- E, apesar de tudo, o Senhor te escolheu.');
+INSERT INTO points VALUES(2366,0,2,364,'Quando é que te decidirás...!
+Muitos, à tua volta, levam uma vida sacrificada por um motivo simplesmente humano; não se lembram essas pobres criaturas de que são filhos de Deus, e comportam-se assim talvez unicamente por soberba, para sobressair, para conseguir uma vida futura mais cômoda: abstêm-se de tudo!
+E tu, que tens o doce peso da Igreja, dos teus, dos teus colegas e amigos, motivos pelos quais vale a pena gastar-se, que fazes?, com que sentido de responsabilidade reages?');
+INSERT INTO points VALUES(2367,0,2,365,'Õ Senhor!, por que me procuraste - a mim, que sou a negação -, quando há tantos santos, sábios, ricos e cheios de prestígio?
+- Tens razão... Precisamente por isso, mostra-Lhe o teu agradecimento com obras e com amor.');
+INSERT INTO points VALUES(2368,0,2,366,'Jesus, que na tua Igreja Santa todos perseverem no caminho, seguindo a sua vocação cristã, como os Magos seguiram a estrela: desprezando os conselhos de Herodes..., que não lhes faltarão.');
+INSERT INTO points VALUES(2369,0,2,367,'Peçamos a Jesus Cristo que o fruto da sua Redenção cresça abundante nas almas: ainda mais, mais, mais abundante!, divinamente abundante!
+E para isso, que nos faça bons filhos da sua Mãe bendita.');
+INSERT INTO points VALUES(2370,0,2,368,'Queres um segredo para ser feliz? Dá-te e serve os outros, sem esperar que te agradeçam.');
+INSERT INTO points VALUES(2371,0,2,369,'Se atuas - vives e trabalhas - de olhos postos em Deus, por razões de amor e de serviço, com alma sacerdotal, ainda que não sejas sacerdote, toda a tua ação cobra um genuíno sentido sobrenatural, que mantém a tua vida inteira unida à fonte de todas as graças.');
+INSERT INTO points VALUES(2372,0,2,370,'Ante o imenso panorama de almas que nos espera, ante essa preciosa e tremenda responsabilidade, talvez te ocorra pensar o mesmo que eu penso às vezes: - Comigo, todo esse trabalho? Comigo, que valho tão pouco?
+- Temos de abrir então o Evangelho e contemplar como Jesus cura o cego de nascença: com barro feito de pó da terra e saliva. E esse é o colírio que dá luz a uns olhos cegos!
+Isso é o que somos tu e eu. Com o conhecimento da nossa fraqueza, da nossa nenhuma valia, mas com a graça de Deus e a nossa boa vontade, somos colírio!, para iluminar, para comunicar a nossa fortaleza aos outros e a nós mesmos.');
+INSERT INTO points VALUES(2373,0,2,371,'Dizia-Lhe uma alma apostólica: - Jesus, vê lá o que fazes..., eu não trabalho para mim...');
+INSERT INTO points VALUES(2374,0,2,372,'Se perseverares na tua oração com “perseverança pessoal”, Deus Nosso Senhor te dará os meios de que necessitas para seres mais eficaz e para estenderes o seu reinado no mundo.
+- Mas é necessário que permaneças fiel: pede, pede, pede... Achas que te comportas assim?');
+INSERT INTO points VALUES(2375,0,2,373,'O Senhor quer os seus filhos por todos os caminhos honestos da terra, lançando a semente da compreensão, do perdão, da convivência, da caridade, da paz.
+- Tu, que fazes?');
+INSERT INTO points VALUES(2376,0,2,374,'A Redenção está-se fazendo, ainda neste momento..., e tu és - tens de ser! - corredentor.');
+INSERT INTO points VALUES(2377,0,2,375,'Ser cristão no mundo não significa isolar-se, muito pelo contrário! - Significa amar todas as pessoas e desejar inflamá-las com o fogo do amor a Deus.');
+INSERT INTO points VALUES(2378,0,2,376,'Senhora, Mãe de Deus e minha Mãe, nem por sombras quero que deixes de ser a Dona e a Imperatriz de toda a criação.');
+INSERT INTO points VALUES(2379,0,2,377,'Segue o conselho de São Paulo: Hora est iam nos de somno surgere! - já é hora de trabalhar! - De trabalhar por dentro, na edificação da tua alma; e por fora, do lugar onde estás, na edificação do Reino de Deus.');
+INSERT INTO points VALUES(2380,0,2,378,'Dizes-me, contrito: - “Quanta miséria vejo em mim! É tal a minha torpeza e tal a bagagem das minhas concupiscências, que me encontro como se nunca tivesse feito nada para me aproximar de Deus. Começar, começar: ó Senhor, sempre começando! Procurarei, no entanto, fazer força com toda a minha alma em cada jornada”.
+- Que Ele abençoe essas tuas aspirações.');
+INSERT INTO points VALUES(2381,0,2,379,'“Padre, comentaste-me, eu cometo muitos enganos, tenho muitos erros”.
+- Eu sei, respondi-te. Mas Deus Nosso Senhor, que também o sabe e conta com isso, só te pede a humildade de reconhecê-lo, e a luta por retificar, por servi-Lo cada dia melhor, com mais vida interior, com uma oração contínua, com a piedade e com o emprego dos meios adequados para santificares o teu trabalho.');
+INSERT INTO points VALUES(2382,0,2,380,'Oxalá adquiras - queres alcançá-las! - as virtudes do burrico!: humilde, duro para o trabalho e perseverante, teimoso!, fiel, seguríssimo no seu passo, forte e - se tiver bom dono - agradecido e obediente.');
+INSERT INTO points VALUES(2383,0,2,381,'Continua a considerar as virtudes do burrico, e repara que o jumento, para fazer alguma coisa de proveito, tem que deixar-se dominar pela vontade de quem o guia...: sozinho, não faria senão... burradas. Com certeza que não lhe ocorre outra coisa melhor do que revolver-se no chão, correr para o estábulo... e zurrar.
+Ah Jesus! - diz-Lhe tu também -: "Ut iumentum factus sum apud te!" - fizeste-me teu burriquinho: não me largues, "et ego semper tecum!" - e estarei sempre Contigo. Conduz-me fortemente atado com a tua graça: "tenuisti manum dexteram meam" ... - apanhaste-me pelo cabresto; "et in voluntate tua deduxisti me" ... - e faz-me cumprir a tua Vontade. E assim te amarei pelos séculos sem fim! - "et cum gloria suscepisti me!" .');
+INSERT INTO points VALUES(2384,0,2,382,'Até o sacrifício mais insignificante te parece uma epopéia. Às vezes, Jesus serve-se das tuas “singularidades”, das tuas pequenezes, para que sejas mortificado, e venças por virtude o que tens de vencer por necessidade.');
+INSERT INTO points VALUES(2385,0,2,383,'- Meu Jesus, quero corresponder ao teu Amor, mas sou mole.
+- Com a tua graça, saberei!');
+INSERT INTO points VALUES(2386,0,2,384,'A vida espiritual é - repito-o até cansar, de propósito - um contínuo começar e recomeçar.
+- Recomeçar? Sim! De cada vez que fazes um ato de contrição - e deveríamos fazer muitos diariamente -, recomeças, porque dás a Deus um novo amor.');
+INSERT INTO points VALUES(2387,0,2,385,'Não podemos conformar-nos com o que fazemos no nosso serviço a Deus, à semelhança do artista que não fica satisfeito com o quadro ou estátua que sai das suas mãos. Todos lhe dizem: - É uma maravilha. Mas ele pensa: - Não, não é bem isto; eu quereria mais. Assim deveríamos nós reagir.
+Além disso, o Senhor nos dá muito, tem direito à nossa mais plena correspondência... e é preciso caminhar ao seu passo.');
+INSERT INTO points VALUES(2388,0,2,386,'Falta-te fé... e falta-te amor. Senão, correrias imediatamente e com mais freqüência a Jesus, pedindo-Lhe por isto e por aquilo.
+- Não esperes mais, invoca-O, e ouvirás Cristo dizer-te: “Que queres que te faça?”, tal como atendeu aquele ceguinho que, postado à beira do caminho, não se cansou de insistir.');
+INSERT INTO points VALUES(2389,0,2,387,'Escrevia aquele nosso amigo: “Muitas vezes pedi perdão ao Senhor pelos meus grandíssimos pecados; disse-Lhe que O amava, beijando o Crucifixo, e agradeci-Lhe as suas providências paternais destes dias. Surpreendi-me, como há anos, dizendo - sem dar por isso senão depois -: "Dei perfecta sunt opera" - todas as obras de Deus são perfeitas. Ao mesmo tempo, ficou-me a certeza plena, sem nenhum gênero de dúvida, de que essa é a resposta do meu Deus à sua criatura, pecadora mas amante. Tudo espero dEle! Louvado seja!!”
+Apressei-me a responder-lhe: “O Senhor sempre se comporta como um bom Pai, e oferece-nos contínuas provas do seu Amor: cifra toda a tua esperança nEle..., e continua a lutar”.');
+INSERT INTO points VALUES(2390,0,2,388,'Õ Jesus! Se, sendo como tenho sido! - pobre de mim -, fizeste o que fizeste..., se eu correspondesse, o que não farias?
+Esta verdade há de levar-te a uma generosidade sem tréguas.
+Chora, e dói-te com pena e com amor, porque o Senhor e a sua Mãe bendita merecem outro comportamento da tua parte.');
+INSERT INTO points VALUES(2391,0,2,389,'Ainda que às vezes se meta na tua alma a falta de vontade, e te pareça que falas só da boca para fora, renova os teus atos de fé, de esperança, de amor. Não adormeças!, porque, caso contrário, no meio das coisas boas virão as más, e te arrastarão.');
+INSERT INTO points VALUES(2392,0,2,390,'Faz assim a tua oração: - Se devo fazer alguma coisa de proveito, Jesus, tens de fazê-lo Tu por mim. Que se cumpra a tua Vontade; amo-a, ainda que a tua Vontade permita que eu esteja sempre como agora, caindo penosamente, e Tu, levantando-me!');
+INSERT INTO points VALUES(2393,0,2,391,'Faz-me santo, meu Deus, ainda que seja à paulada. Não quero ser o peso morto da tua Vontade. Quero corresponder, quero ser generoso... Mas, que espécie de querer é o meu?');
+INSERT INTO points VALUES(2394,0,2,392,'Estás cheio de preocupação porque não amas como deves. Tudo te aborrece. E o inimigo faz o que pode para que o teu mau gênio venha à tona.
+- Compreendo que estejas muito humilhado, e precisamente por isso deves reagir com eficácia e sem demora.');
+INSERT INTO points VALUES(2395,0,2,393,'Não é verdadeira santidade - será, quando muito, a sua caricatura - aquela que obriga a pensar que “para agüentar um santo, são precisos dois santos”.');
+INSERT INTO points VALUES(2396,0,2,394,'O diabo trata de afastar-nos de Deus e, se te deixas dominar por ele, as criaturas honradas “afastar-se-ão” de ti, porque se “afastam” dos amigos ou dos possuídos por satanás.');
+INSERT INTO points VALUES(2397,0,2,395,'Quando falares com o Senhor, embora penses que tudo o que dizes é palavreado, pede-Lhe uma maior entrega, um progresso mais decidido na perfeição cristã: que te inflame mais!');
+INSERT INTO points VALUES(2398,0,2,396,'Renova o teu propósito firme de viver com “voluntariedade atual” a tua vida de cristão: a todas as horas e em todas as circunstâncias.');
+INSERT INTO points VALUES(2399,0,2,397,'Não levantes obstáculos à graça: tens de convencer-te de que, para ser fermento, precisas ser santo, precisas lutar por identificar-te com Ele.');
+INSERT INTO points VALUES(2400,0,2,398,'Diz devagar, com ânimo sincero: "Nunc coepi!" - agora começo!
+Não desanimes se, infelizmente, não vês em ti a mudança, que é efeito da destra do Senhor... Do fundo da tua baixeza, podes gritar: - Ajuda-me, meu Jesus, porque quero cumprir a tua Vontade..., a tua amabilíssima Vontade.');
+INSERT INTO points VALUES(2401,0,2,399,'De acordo: a tua preocupação devem ser “eles”. Mas a tua primeira preocupação deves ser tu mesmo, a tua vida interior; porque, de outro modo, não poderás servi-los.');
+INSERT INTO points VALUES(2402,0,2,400,'Quanto te custa essa mortificação que o Espírito Santo te sugere! Olha bem devagar um Crucifixo..., e amarás essa expiação.');
+INSERT INTO points VALUES(2403,0,2,401,'Pregar-se na Cruz! Esta aspiração, como luz nova, vinha à inteligência, ao coração e aos lábios daquela alma, muitas vezes.
+- Pregar-se na Cruz? Quanto custa!, dizia de si para si. E isso apesar de saber muito bem o caminho: "agere contra!" - negar-se a si mesmo. Por isso suplicava: - Ajuda-me, Senhor!');
+INSERT INTO points VALUES(2404,0,2,402,'Situados no Calvário, onde Jesus morreu, a experiência dos nossos pecados pessoais deve conduzir-nos à dor: a uma decisão mais madura e mais funda de não ofendê-Lo de novo.');
+INSERT INTO points VALUES(2405,0,2,403,'Cada dia um pouco mais - como se se tratasse de talhar uma pedra ou uma madeira -, é preciso ir limando asperezas, tirando defeitos da nossa vida pessoal, com espírito de penitência, com pequenas mortificações, que são de duas espécies: as ativas - essas que procuramos, como florzinhas que apanhamos ao longo do dia -, e as passivas, que vêm de fora e nos custa aceitar. Depois, Jesus Cristo vai completando o que falta.
+- Que Crucifixo tão esplêndido vais ser, se correspondes com generosidade, com alegria, de todo!');
+INSERT INTO points VALUES(2406,0,2,404,'O Senhor, com os braços abertos, pede-te uma constante esmola de amor.');
+INSERT INTO points VALUES(2407,0,2,405,'Aproxima-te de Jesus morto por ti, aproxima-te dessa Cruz que se recorta sobre o cume do Gólgota...
+Mas aproxima-te com sinceridade, com esse recolhimento interior que é sinal de maturidade cristã: para que os acontecimentos divinos e humanos da Paixão penetrem na tua alma.');
+INSERT INTO points VALUES(2408,0,2,406,'Temos de aceitar a mortificação com os mesmos sentimentos que teve Jesus Cristo na sua Paixão Santa.');
+INSERT INTO points VALUES(2409,0,2,407,'A mortificação é premissa necessária para todo o apostolado e para a perfeita execução de cada apostolado.');
+INSERT INTO points VALUES(2410,0,2,408,'O espírito de penitência consiste principalmente em aproveitar essas abundantes miudezas - ações, renúncias, sacrifícios, serviços... - que encontramos cada dia no caminho, para convertê-las em atos de amor, de contrição, em mortificações, formando um ramalhete no fim do dia: um belo ramo, que oferecemos a Deus!');
+INSERT INTO points VALUES(2411,0,2,409,'O melhor espírito de sacrifício é a perseverança no trabalho começado: quer se faça com entusiasmo, quer se torne encosta empinada.');
+INSERT INTO points VALUES(2412,0,2,410,'Não deixes de submeter à consideração do teu Diretor espiritual o teu plano de mortificações, para que ele as modere.
+- Porém, moderá-las não quer dizer sempre diminuí-las, mas também aumentá-las, se o julgar conveniente. - E, seja o que for, aceita-o!');
+INSERT INTO points VALUES(2413,0,2,411,'Podemos dizer, como Santo Agostinho, que as paixões ruins nos puxam pela roupa, para baixo. Ao mesmo tempo, notamos dentro do coração desejos grandes, nobres, limpos, e há uma luta.
+- Se tu, com a graça do Senhor, puseres em prática os meios ascéticos: a busca da presença de Deus, a mortificação - não te assustes: a penitência -, irás para a frente, terás paz e alcançarás a vitória.');
+INSERT INTO points VALUES(2414,0,2,412,'A guarda do coração. - Assim rezava aquele sacerdote: “Jesus, que o meu pobre coração seja horto selado; que o meu pobre coração seja um paraíso, onde vivas Tu; que o meu Anjo da Guarda o guarde com espada de fogo, e com ela purifique todos os afetos antes de entrarem em mim; Jesus, com o divino selo da tua Cruz, sela o meu pobre coração”.');
+INSERT INTO points VALUES(2415,0,2,413,'Vida limpa, com valentia! Cada um no seu estado de vida: é preciso saber dizer “não”, pelo grande Amor, com maiúscula.');
+INSERT INTO points VALUES(2416,0,2,414,'Há um ditado muito claro: entre santa e santo, parede de cal e canto.
+- Temos de guardar o coração e os sentidos, afastando-nos sempre da ocasião. É preciso evitar a paixão, por santa que pareça!');
+INSERT INTO points VALUES(2417,0,2,415,'Meu Deus! Encontro graça e beleza em tudo o que vejo: guardarei a vista a toda a hora, por Amor.');
+INSERT INTO points VALUES(2418,0,2,416,'Tu, cristão, e, por seres cristão, filho de Deus, deves sentir a grave responsabilidade de corresponder, com uma atitude de vigilante e amorosa firmeza, às misericórdias que recebeste do Senhor, para que nada nem ninguém possa diluir os traços peculiares do Amor, que Ele imprimiu na tua alma.');
+INSERT INTO points VALUES(2419,0,2,417,'Chegaste a uma grande intimidade com este nosso Deus, que está tão perto de ti, tão dentro da tua alma... Mas procuras que aumente, que se torne mais profunda? Evitas que se intrometam mesquinhezes que possam turvar essa amizade?
+- Sê corajoso! Não te recuses a cortar tudo o que, mesmo levemente, cause dor a Quem tanto te ama.');
+INSERT INTO points VALUES(2420,0,2,418,'A vida de Jesus Cristo, se Lhe somos fiéis, repete-se de alguma maneira na de cada um de nós, tanto no seu processo interno - na santificação - como na conduta externa.
+- Agradece-Lhe a sua bondade.');
+INSERT INTO points VALUES(2421,0,2,419,'Parece-me muito oportuno que manifestes com freqüência ao Senhor um desejo ardente, grande, de ser santo, ainda que te vejas cheio de misérias...
+- Tens de fazê-lo, precisamente por isso!');
+INSERT INTO points VALUES(2422,0,2,420,'Tu, que viste claramente a tua condição de filho de Deus, mesmo que já não tornes a vê-la - não há de acontecer! -, deves continuar adiante no teu caminho, para sempre, por sentido de fidelidade, sem olhar para trás.');
+INSERT INTO points VALUES(2423,0,2,421,'Propósito: ser fiel - heroicamente fiel e sem desculpas - ao horário, na vida ordinária e na extraordinária.');
+INSERT INTO points VALUES(2424,0,2,422,'Deves ter pensado alguma vez, com santa inveja, no Apóstolo adolescente, João, "quem diligebat Iesus" - a quem Jesus amava.
+- Não gostarias de merecer que te chamassem “aquele que ama a Vontade de Deus”? Emprega os meios para isso, dia após dia.');
+INSERT INTO points VALUES(2425,0,2,423,'Deves ter esta certeza: o desejo - com obras! - de te comportares como bom filho de Deus dá juventude, serenidade, alegria e paz permanentes.');
+INSERT INTO points VALUES(2426,0,2,424,'Se voltares a abandonar-te nas mãos de Deus, receberás, do Espírito Santo, luzes no entendimento e vigor na vontade.');
+INSERT INTO points VALUES(2427,0,2,425,'Escuta dos lábios de Jesus aquela parábola que São João relata no seu Evangelho: "Ego sum vitis, vos palmites" - Eu sou a videira; vós, os ramos.
+Já tens na imaginação, no entendimento, a parábola inteira. E vês que um ramo separado da cepa, da videira, não serve para nada, não se encherá de fruto, correrá a sorte de uma vara seca, que será pisada pelos homens ou pelos animais, ou que será lançada ao fogo...
+- Tu és o ramo: deduz todas as conseqüências.');
+INSERT INTO points VALUES(2428,0,2,426,'Hoje voltei a rezar cheio de confiança, com esta súplica: - Senhor, que não nos inquietem as nossas misérias passadas, já perdoadas, nem tampouco a possibilidade de misérias futuras; que nos abandonemos nas tuas mãos misericordiosas; que levemos à tua presença os nossos desejos de santidade e apostolado, que latejam como brasas sob as cinzas de uma aparente frieza...
+- Senhor, sei que nos escutas. Diz-Lhe isso tu também.');
+INSERT INTO points VALUES(2429,0,2,427,'Ao abrires a tua alma, sê sincero! E, sem dourar a pílula - coisa que às vezes é infantilismo -, fala. Depois, com docilidade, continua em frente: serás mais santo, mais feliz.');
+INSERT INTO points VALUES(2430,0,2,428,'Não procures consolos fora de Deus. Olha o que escrevia aquele sacerdote: - Nada de desabafar o coração, sem necessidade, com nenhum outro amigo!');
+INSERT INTO points VALUES(2431,0,2,429,'Alcança-se a santidade com o auxílio do Espírito Santo - que vem morar em nossas almas -, mediante a graça que nos é concedida nos sacramentos, e com uma luta ascética constante.
+Meu filho, não nos iludamos: tu e eu - não me cansarei de repeti-lo - teremos de combater sempre, sempre, até o fim da nossa vida. Assim amaremos a paz, e daremos a paz, e receberemos o prêmio eterno.');
+INSERT INTO points VALUES(2432,0,2,430,'Não te limites a falar ao Paráclito, escuta-O!
+Na tua oração, considera que a vida de infância, ao fazer-te descobrir com profundidade que és filho de Deus, te encheu de amor filial ao Pai; pensa que, antes disso, foste por Maria a Jesus, a quem adoras como amigo, como irmão, como Aquele que amas...
+Depois, ao receberes este conselho, compreendeste que até agora sabias que o Espírito Santo habitava na tua alma, para santificá-la..., mas não tinhas “compreendido” a verdade da sua presença em ti. Foi precisa essa sugestão: agora sentes o Amor dentro de ti; e queres chegar ao trato íntimo com Ele, ser seu amigo, seu confidente..., facilitar-Lhe o trabalho de tirar arestas, de arrancar, de prender fogo...
+Não saberei fazê-lo!, pensavas. - Escuta-O, insisto. Ele te dará forças, Ele fará tudo, se tu quiseres..., como sem dúvida queres!
+Reza-lhe assim: - Divino Hóspede, Mestre, Luz, Guia, Amor: que eu saiba acolher-te, e escutar as tuas lições, e inflamar-me, e seguir-te, e amar-te.');
+INSERT INTO points VALUES(2433,0,2,431,'Para te aproximares de Deus, para voares até Deus, necessitas das asas firmes e generosas da Oração e da Expiação.');
+INSERT INTO points VALUES(2434,0,2,432,'Para evitares a rotina nas orações vocais, procura recitá-las com o mesmo amor com que o apaixonado fala pela primeira vez..., e como se fosse a última ocasião em que pudesses dirigir-te ao Senhor.');
+INSERT INTO points VALUES(2435,0,2,433,'Se estás orgulhoso de ser filho de Santa Maria, pergunta-te: - Quantas manifestações de devoção a Nossa Senhora tenho durante o dia, da manhã até à noite?');
+INSERT INTO points VALUES(2436,0,2,434,'Há duas razões, entre outras - dizia de si para si aquele amigo -, para que desagrave a minha Mãe Imaculada todos os sábados e nas vésperas das suas festas.
+- A segunda é que, em vez de dedicarem à oração os domingos e as festas de Nossa Senhora (que costumam ser festas nos vilarejos), as pessoas os dedicam - basta abrir os olhos e ver - a ofender o Nosso Jesus com pecados públicos e crimes escandalosos.
+- A primeira: que os que queremos ser bons filhos não vivemos com a devida atenção, talvez empurrados por satanás, esses dias dedicados ao Senhor e à sua Mãe.
+- Já percebes que, infelizmente, essas razões continuam a ser muito atuais, para que também nós desagravemos.');
+INSERT INTO points VALUES(2437,0,2,435,'Sempre entendi a oração do cristão como uma conversa amorosa com Jesus, que não deve ser interrompida nem mesmo nos momentos em que estamos fisicamente longe do Sacrário, porque toda a nossa vida está feita de canções de amor humano à maneira divina..., e amar é coisa que podemos fazer sempre.');
+INSERT INTO points VALUES(2438,0,2,436,'É tanto o Amor de Deus pelas suas criaturas, e deveria ser tanta a nossa correspondência que, ao celebrar-se a Santa Missa, os relógios deveriam parar.');
+INSERT INTO points VALUES(2439,0,2,437,'Os ramos, unidos à videira, amadurecem e dão frutos.
+- Que havemos de fazer tu e eu? Estar muito unidos, por meio do Pão e da Palavra, a Jesus Cristo, que é a nossa videira..., dizendo-Lhe palavras de carinho ao longo de todo o dia. Os apaixonados fazem assim.');
+INSERT INTO points VALUES(2440,0,2,438,'Ama muito o Senhor. Guarda na tua alma - e fomenta - esta urgência de querer-Lhe. Ama a Deus, precisamente agora, quando talvez bastantes dos que O têm em suas mãos não O amam, O maltratam e Lhe fazem pouco caso.
+Trata muito bem o Senhor, na Santa Missa e durante o dia todo!');
+INSERT INTO points VALUES(2441,0,2,439,'A oração é a arma mais poderosa do cristão. A oração nos torna eficazes. A oração nos torna felizes. A oração nos dá toda a força necessária para cumprirmos os preceitos de Deus.
+- Sim! Toda a tua vida pode e deve ser oração.');
+INSERT INTO points VALUES(2442,0,2,440,'A santidade pessoal não é uma abstração, mas uma realidade precisa, divina e humana, que se manifesta constantemente em obras diárias de Amor.');
+INSERT INTO points VALUES(2443,0,2,441,'O espírito de oração, que anima a vida inteira de Jesus Cristo entre os homens, nos ensina que todas as obras - grandes e pequenas - têm que ser precedidas, acompanhadas e seguidas de oração.');
+INSERT INTO points VALUES(2444,0,2,442,'Contempla e vive a Paixão de Cristo, juntamente com Ele: expõe - com freqüência cotidiana - as tuas costas, quando O açoitam; oferece a tua cabeça à coroa de espinhos.
+- Na minha terra dizem: “Amor com amor se paga”.');
+INSERT INTO points VALUES(2445,0,2,443,'Quem ama não perde um detalhe. Já o vi em tantas almas! Essas minúcias são uma coisa muito grande: Amor!');
+INSERT INTO points VALUES(2446,0,2,444,'Tens de amar a Deus por aqueles que não O amam; tens de fazer carne da tua carne este espírito de desagravo e reparação.');
+INSERT INTO points VALUES(2447,0,2,445,'Se nalguma ocasião a luta interior se torna mais difícil, será o bom momento de mostrar que o nosso Amor é de verdade.');
+INSERT INTO points VALUES(2448,0,2,446,'Tens a certeza de que foi Deus quem te fez ver, claramente, que deves voltar às ninharias mais pueris da tua antiga vida interior; e perseverar durante meses, e até anos, nessas insignificâncias heróicas (a sensibilidade, tantas vezes adormecida para o bem, não conta), com a tua vontade talvez fria, mas decidida a cumpri-las por Amor.');
+INSERT INTO points VALUES(2449,0,2,447,'Persevera, voluntariamente e com amor - mesmo que estejas seco -, na tua vida de piedade. E não te importes se te surpreendes contando os minutos ou os dias que faltam para terminares essa norma de piedade ou esse trabalho, com o turvo regozijo que põe, em semelhante operação, o rapaz mau estudante, que sonha com o fim das aulas; ou o vadio, que espera voltar às suas malandragens quando lhe abrirem as portas da prisão.
+Persevera - insisto - com vontade eficaz e atual, sem deixar nem por um instante de querer fazer e aproveitar esses meios de piedade.');
+INSERT INTO points VALUES(2450,0,2,448,'Vive a tua fé, alegre, grudado a Jesus Cristo. Ama-O de verdade - de verdade, de verdade! -, e assim serás protagonista da grande Aventura do Amor, porque estarás cada dia mais apaixonado.');
+INSERT INTO points VALUES(2451,0,2,449,'Diz devagar ao Mestre: - Senhor, só quero servir-te! Só quero cumprir os meus deveres, e amar-te com alma enamorada! Faz-me sentir o teu passo firme a meu lado. Sê Tu o meu único apoio.
+- Diz-Lhe isso devagar..., e dize-o de verdade!');
+INSERT INTO points VALUES(2452,0,2,450,'Necessitas de vida interior e de formação doutrinal. Sê exigente contigo! Tu - cavalheiro cristão, mulher cristã - deves ser sal da terra e luz do mundo, porque tens obrigação de dar exemplo com uma santa desvergonha.
+- Há de urgir-te a caridade de Cristo e, ao te sentires e saberes outro Cristo desde o momento em que Lhe disseste que O seguias, não te separarás dos teus iguais - parentes, amigos, colegas -, tal como o sal não se separa do alimento que condimenta.
+A tua vida interior e a tua formação abrangem a piedade e o critério que deve ter um filho de Deus, para temperar tudo com a sua presença ativa.
+Pede ao Senhor que sejas sempre esse bom condimento na vida dos outros.');
+INSERT INTO points VALUES(2453,0,2,451,'Nós, os cristãos, viemos recolher, com espírito de juventude, o tesouro do Evangelho - que é sempre novo -, para fazê-lo chegar a todos os cantos da terra.');
+INSERT INTO points VALUES(2454,0,2,452,'Precisas imitar Jesus Cristo, e dá-Lo a conhecer com a tua conduta. Não esqueças que Cristo assumiu a nossa natureza para introduzir todos os homens na vida divina, de modo que - unindo-nos a Ele - vivamos individual e socialmente os mandamentos do Céu.');
+INSERT INTO points VALUES(2455,0,2,453,'Tu, pela tua condição de cristão, não podes viver de costas para nenhuma inquietação, para nenhuma necessidade dos teus irmãos os homens.');
+INSERT INTO points VALUES(2456,0,2,454,'Com quanta insistência pregava o Apóstolo São João o mandatum novum ! - “Que vos ameis uns aos outros!”
+- Eu me poria de joelhos, sem fazer teatro - assim me grita o coração -, para vos pedir por amor de Deus que vos ameis, que vos ajudeis, que estendais a mão uns aos outros, que saibais perdoar-vos.
+- Portanto, vamos banir o orgulho, ser compassivos, ter caridade; vamos prestar-nos mutuamente o auxílio da oração e da amizade sincera.');
+INSERT INTO points VALUES(2457,0,2,455,'Só serás bom se souberes ver as coisas boas e as virtudes dos outros.
+- Por isso, quando tiveres de corrigir, faze-o com caridade, no momento oportuno, sem humilhar... e com ânimo de aprender e de melhorares tu mesmo naquilo que corriges.');
+INSERT INTO points VALUES(2458,0,2,456,'Ama e pratica a caridade, sem limites e sem discriminações, porque é a virtude que caracteriza os discípulos do Mestre.
+- Não obstante, essa caridade não pode levar-te - deixaria de ser virtude - a amortecer a fé, a tirar-lhe as arestas que a definem, a dulcificá-la até convertê-la, como pretendem alguns, em algo de amorfo que não tem a força e o poder de Deus.');
+INSERT INTO points VALUES(2459,0,2,457,'Tens de conviver, tens de compreender, tens de ser irmão dos teus irmãos os homens, tens de pôr amor - como diz o místico castelhano - onde não há amor, para colher amor.');
+INSERT INTO points VALUES(2460,0,2,458,'A crítica, quando tiveres que fazê-la, deve ser positiva, com espírito de colaboração, construtiva, e nunca às escondidas do interessado.
+- Caso contrário, é uma traição, uma murmuração, uma difamação, talvez uma calúnia... e, sempre, uma falta de hombridade.');
+INSERT INTO points VALUES(2461,0,2,459,'Quando vires que a glória de Deus e o bem da Igreja exigem que fales, não te cales.
+- Pensa nisto: quem não seria valente se estivesse face a face com Deus, com toda a eternidade pela frente? Não há nada a perder e, pelo contrário, muito a ganhar. Então, por que não te atreves?');
+INSERT INTO points VALUES(2462,0,2,460,'Não somos bons irmãos dos nossos irmãos os homens, se não estamos dispostos a manter uma conduta reta, mesmo que as pessoas que nos rodeiam interpretem mal a nossa atuação e reajam de um modo desagradável.');
+INSERT INTO points VALUES(2463,0,2,461,'O teu amor e o teu serviço à Igreja Santa não podem estar condicionados pela maior ou menor santidade pessoal dos que a compõem, ainda que desejemos ardentemente a perfeição cristã em todos.
+- Tens de amar a Esposa de Cristo, tua Mãe, que está e estará sempre limpa e sem mancha.');
+INSERT INTO points VALUES(2464,0,2,462,'O empenho na nossa santificação pessoal repercute na santidade de muitas almas e na da Igreja de Deus.');
+INSERT INTO points VALUES(2465,0,2,463,'Persuade-te disto: se quiseres - como Deus te ouve, te ama, te promete a glória -, tu, protegido pela mão onipotente de teu Pai do Céu, podes ser uma pessoa cheia de fortaleza, disposta a dar testemunho em toda a parte da sua amável doutrina verdadeira.');
+INSERT INTO points VALUES(2466,0,2,464,'O campo do Senhor é fértil e boa a sua semente. Por isso, quando neste nosso mundo aparece o joio, não duvides: houve falta de correspondência dos homens, dos cristãos especialmente, que adormeceram e deixaram o terreno aberto ao inimigo.
+- Não te lamentes, que é estéril; e examina antes a tua conduta.');
+INSERT INTO points VALUES(2467,0,2,465,'Far-te-á pensar, também a ti, este comentário que me doeu muito: “Vejo com clareza que a falta de resistência às leis infames, ou a ineficácia dessa resistência, é porque há em cima, em baixo e no meio muitos - mas muitos! - que se aburguesaram”.');
+INSERT INTO points VALUES(2468,0,2,466,'Os inimigos de Deus e da sua Igreja, manipulados pelo ódio imperecível de satanás, mexem-se e organizam-se sem tréguas. Com uma constância “exemplar”, preparam os seus quadros, mantêm escolas, dirigentes e agitadores, e, com uma ação dissimulada - mas eficaz -, propagam as suas idéias e levam - aos lares e aos lugares de trabalho - a sua semente destruidora de toda a ideologia religiosa.
+- O que não deveremos fazer nós, os cristãos, para servir o nosso Deus, sempre com a verdade?');
+INSERT INTO points VALUES(2469,0,2,467,'Não confundas a serenidade com a preguiça, com o desleixo, com o atraso nas decisões ou no estudo dos assuntos.
+A serenidade complementa-se sempre com a diligência, virtude necessária para considerar e resolver, sem demora, as questões pendentes.');
+INSERT INTO points VALUES(2470,0,2,468,'- Filho, onde está o Cristo que as almas buscam em ti? Na tua soberba? Nos teus desejos de impor-te aos outros? Nessas mesquinhezes de caráter que não queres vencer? Nessa caturrice?... Está aí Cristo? - Não!!
+- De acordo: deves ter personalidade, mas a tua personalidade tem de procurar identificar-se com Cristo.');
+INSERT INTO points VALUES(2471,0,2,469,'Proponho-te uma boa norma de conduta para viveres a fraternidade, o espírito de serviço: que, quando faltares, os outros possam levar para a frente a tarefa que tens entre mãos, pela experiência que generosamente lhes transmitas, sem te fazeres imprescindível.');
+INSERT INTO points VALUES(2472,0,2,470,'Recai sobre ti - apesar das tuas paixões - a responsabilidade pela santidade, pela vida cristã e pela eficácia dos outros.
+Tu não és uma peça isolada. Se paras, quantos podes deter ou prejudicar!');
+INSERT INTO points VALUES(2473,0,2,471,'Pensa na tua Mãe, a Igreja Santa, e considera que, se um membro se ressente, todo o corpo se ressente.
+- O teu corpo necessita de cada um dos membros, mas cada um dos membros necessita do corpo inteiro. - Ai, se a minha mão deixasse de cumprir o seu dever..., ou se o coração deixasse de bater!');
+INSERT INTO points VALUES(2474,0,2,472,'Viste-o claramente: há tanta gente que não O conhece e, no entanto, Deus reparou em ti. Ele quer que sejas fundamento, silhar, em que se apóie a vida da Igreja.
+Medita nesta realidade, e tirarás muitas consequências práticas para a tua conduta habitual: o fundamento, o silhar - talvez sem brilhar, oculto - tem que ser sólido, sem fragilidades; tem que servir de base para a sustentação do edifício... Senão, fica isolado.');
+INSERT INTO points VALUES(2475,0,2,473,'Uma vez que te sentes fundamento escolhido por Deus para corredimir - não te esqueças de que és... miséria e miséria -, a tua humildade te há de levar a colocar-te debaixo dos pés - ao serviço - de todos. - Assim estão os alicerces dos edifícios.
+Mas o fundamento deve ter fortaleza, que é virtude indispensável em quem há de sustentar ou impulsionar outros.
+- Jesus - dize-o com força -, que nunca, por falsa humildade, eu deixe de praticar a virtude cardeal da fortaleza. Concede-me, meu Deus, que eu possa distinguir o ouro da escória.');
+INSERT INTO points VALUES(2476,0,2,474,'Mãe nossa, nossa Esperança! Como estamos seguros, pegadinhos a Ti, mesmo que tudo cambaleie!');
+INSERT INTO points VALUES(2477,0,2,475,'Sentes a necessidade de converter-te: Ele te pede mais... e tu cada dia Lhe dás menos!');
+INSERT INTO points VALUES(2478,0,2,476,'Realmente, para cada um de nós, como para Lázaro, foi um veni foras - sai cá para fora - o que nos pôs em movimento.
+- Que pena causam os que ainda estão mortos, e não conhecem o poder da misericórdia de Deus!
+- Renova a tua alegria santa porque, em face do homem que se desintegra sem Cristo, ergue-se o homem que ressuscitou com Ele.');
+INSERT INTO points VALUES(2479,0,2,477,'Os afetos da terra, mesmo quando não são concupiscência suja e seca, envolvem geralmente algum egoísmo.
+Por isso, sem desprezares esses afetos - que podem ser muito santos -, retifica sempre a intenção.');
+INSERT INTO points VALUES(2480,0,2,478,'Não procures que se compadeçam de ti: muitas vezes, isso é sinal de orgulho ou de vaidade.');
+INSERT INTO points VALUES(2481,0,2,479,'Quando falares das virtudes teologais - da fé, da esperança, do amor -, pensa que, mais do que para teorizar, são virtudes para viver.');
+INSERT INTO points VALUES(2482,0,2,480,'Há alguma coisa na tua vida que não corresponda à tua condição de cristão e que te leve a não quereres purificar-te?
+- Examina-te e muda.');
+INSERT INTO points VALUES(2483,0,2,481,'Observa a tua conduta com vagar. Verás que estás cheio de erros, que te prejudicam a ti e talvez também aos que te rodeiam.
+- Lembra-te, filho, de que não são menos importantes os micróbios do que as feras. E tu cultivas esses erros, esses desacertos - como se cultivam os micróbios no laboratório -, com a tua falta de humildade, com a tua falta de oração, com a tua falta de cumprimento do dever, com a tua falta de conhecimento próprio... E, depois, esses focos infectam o ambiente.
+- Precisas de um bom exame de consciência diário, que te leve a propósitos concretos de melhora, por sentires verdadeira dor das tuas faltas, das tuas omissões e pecados.');
+INSERT INTO points VALUES(2484,0,2,482,'Deus Onipotente, Todo-Poderoso, Sapientíssimo, tinha que escolher a sua Mãe.
+Tu, que terias feito, se tivesses tido que escolhê-la? Penso que tu e eu teríamos escolhido a que temos - cumulando-a de todas as graças. Foi isso o que Deus fez. Portanto, depois da Santíssima Trindade, vem Maria.
+- Os teólogos estabelecem um raciocínio lógico para esse cúmulo de graças, para essa impossibilidade de estar sujeita a satanás: convinha, Deus podia fazê-lo, logo o fez. É a grande prova, a prova mais clara de que Deus rodeou a sua Mãe de todos os privilégios, desde o primeiro instante. E assim é: formosa, e pura, e limpa em alma e corpo!');
+INSERT INTO points VALUES(2485,0,2,483,'Esperas a vitória, o fim do combate... e não chega?
+- Dá graças ao Senhor, como se já tivesses alcançado essa meta, e oferece-Lhe as tuas impaciências: Vir fidelis loquetur victoriam - a pessoa fiel cantará a alegria da vitória.');
+INSERT INTO points VALUES(2486,0,2,484,'Há momentos em que - privado daquela união com o Senhor, que te dava uma oração contínua, mesmo dormindo -, parece que entras num braço-de-ferro com a Vontade de Deus.
+- Isso é fraqueza, bem o sabes: ama a Cruz; ama a falta de tantas coisas que todos julgam necessárias; e os obstáculos para empreenderes... ou continuares o caminho; e a tua própria pequenez e a tua miséria espiritual.
+- Oferece - com um querer eficaz - as tuas coisas e as dos teus: visto humanamente, isso não é pouco; com luzes sobrenaturais, é nada.');
+INSERT INTO points VALUES(2487,0,2,485,'Vez por outra, alguém me tem dito: - Padre, encontro-me cansado e frio; quando rezo ou cumpro outra norma de piedade, parece-me estar representando uma comédia...
+A esse amigo e a ti, se te encontras na mesma situação, respondo-vos: - Uma comédia? Grande coisa, meu filho! Representa a comédia! O Senhor é teu espectador: o Pai, o Filho, o Espírito Santo!; a Trindade Santíssima nos estará contemplando, nesses momentos em que “representamos a comédia”. - Atuar assim diante de Deus, por amor, para agradar-Lhe, quando se vive a contragosto, como é bonito! Ser jogral de Deus! Que maravilhoso é esse recital levado a cabo por Amor, com sacrifício, sem nenhuma satisfação pessoal, para dar gosto a Nosso Senhor!
+- Isto, sim, é viver de Amor.');
+INSERT INTO points VALUES(2488,0,2,486,'Um coração que ame desordenadamente as coisas da terra está como que preso por uma corrente, ou por um “fiozinho sutil”, que o impede de voar para Deus.');
+INSERT INTO points VALUES(2489,0,2,487,'“Vigiai e orai, para não cairdes em tentação...”. É impressionante a experiência de ver como se pode abandonar uma tarefa divina - por uma miragem passageira!');
+INSERT INTO points VALUES(2490,0,2,488,'O apóstolo tíbio: esse é o grande inimigo das almas.');
+INSERT INTO points VALUES(2491,0,2,489,'Prova evidente de tibieza é a falta de “teimosia” sobrenatural, de fortaleza para perseverar no trabalho e não parar até colocar a “última pedra”.');
+INSERT INTO points VALUES(2492,0,2,490,'Há corações duros, mas nobres, que - ao se aproximarem do calor do Coração de Jesus Cristo - se derretem como o bronze em lágrimas de amor, de desagravo. Inflamam-se!
+Pelo contrário, os tíbios têm o coração de barro, de carne miserável... e racham. São pó. Dão pena.
+Diz comigo: - Jesus nosso, longe de nós a tibieza! Tíbios, não!');
+INSERT INTO points VALUES(2493,0,2,491,'Toda a bondade, toda a formosura, toda a majestade, toda a beleza, toda a graça adornam a nossa Mãe. - Não te enamora ter uma Mãe assim?');
+INSERT INTO points VALUES(2494,0,2,492,'Somos os enamorados do Amor. Por isso, o Senhor não nos quer secos, hirtos, como uma coisa sem vida: Ele nos quer impregnados do seu carinho!');
+INSERT INTO points VALUES(2495,0,2,493,'Vê se entendes esta aparente contradição. - Ao fazer trinta anos, aquele homem escreveu no seu diário: “Já não sou jovem”. - E, passados os quarenta, voltou a anotar: “Permanecerei jovem até chegar a octogenário; se morrer antes, pensarei que fracassei”.
+- Apesar dos anos, andava sempre com a juventude madura do amor.');
+INSERT INTO points VALUES(2496,0,2,494,'Como entendo bem a pergunta que fazia a si própria aquela alma enamorada de Deus: - Houve algum trejeito de desgosto, houve em mim alguma coisa que te pudesse a Ti, Senhor, meu Amor, doer?
+- Pede a teu Pai-Deus que nos conceda essa exigência constante de amor.');
+INSERT INTO points VALUES(2497,0,2,495,'Viste com que carinho, com que confiança os amigos de Cristo O tratavam? Com toda a naturalidade, as irmãs de Lázaro lançam-Lhe em rosto a sua ausência: - Nós te avisamos! Se tivesses estado aqui!...
+- Confia-Lhe devagar: - Ensina-me a tratar-te com aquele amor de amizade de Marta, de Maria e de Lázaro; como te tratavam também os primeiros Doze, ainda que a princípio te seguissem talvez por motivos não muito sobrenaturais.');
+INSERT INTO points VALUES(2498,0,2,496,'Como gosto de contemplar João, que reclina a sua cabeça sobre o peito de Cristo! - É como render amorosamente a inteligência, ainda que custe, para acendê-la no fogo do Coração de Jesus.');
+INSERT INTO points VALUES(2499,0,2,497,'Deus me ama... E o Apóstolo João escreve: “Amemos, pois, a Deus, porque Deus nos amou primeiro”. - Como se fosse pouco, Jesus dirige-se a cada um de nós, apesar das nossas inegáveis misérias, para nos perguntar como a Pedro: “Simão, filho de João, tu me amas mais do que estes?”...
+- É o momento de responder: “Senhor, Tu sabes tudo, Tu sabes que eu te amo!”, acrescentando com humildade: - Ajuda-me a amar-te mais, aumenta o meu amor!');
+INSERT INTO points VALUES(2500,0,2,498,'“Obras é que são amores, não as boas razões”. Obras, obras! - Propósito: continuarei a dizer-te muitas vezes que te amo - quantas não te terei repetido hoje! -; mas, com a tua graça, será sobretudo a minha conduta, serão as bagatelas de cada dia que - com eloqüência muda - hão de clamar diante de Ti, mostrando-te o meu amor.');
+INSERT INTO points VALUES(2501,0,2,499,'Nós, os homens, não sabemos ter com Jesus as suaves delicadezas que uns pobres homens rudes, mas cristãos, têm diariamente com uma infeliz criaturinha - a mulher, o filho, o amigo -, pobre também como eles.
+Esta realidade deveria servir-nos de revulsivo.');
+INSERT INTO points VALUES(2502,0,2,500,'É tão atraente e tão sugestivo o Amor de Deus, que o seu crescimento na vida de um cristão não tem limites.');
+INSERT INTO points VALUES(2503,0,2,501,'Não podes comportar-te como uma criança travessa ou como um louco.
+- Tens de ser pessoa rija, filho de Deus; sereno no teu trabalho profissional e na tua vida de relação, com uma presença do Senhor que te faça esmerar-te até nos menores detalhes.');
+INSERT INTO points VALUES(2504,0,2,502,'Se se faz justiça a seco, é possível que as pessoas se sintam feridas.
+- Portanto, deves agir sempre por amor a Deus, que a essa justiça acrescentará o bálsamo do amor ao próximo; e que purifica e limpa o amor terreno.
+Quando Deus está de permeio, tudo se sobrenaturaliza.');
+INSERT INTO points VALUES(2505,0,2,503,'Ama apaixonadamente o Senhor. Ama-O com loucura! Porque, se há amor - então! -, atrevo-me a afirmar que nem sequer são precisos propósitos. Os meus pais - pensa nos teus - não precisavam fazer nenhum propósito de amar-me, e que profusão de pormenores cotidianos de carinho tinham comigo!
+Com esse coração humano, podemos e devemos amar a Deus.');
+INSERT INTO points VALUES(2506,0,2,504,'O amor é sacrifício; e o sacrifício, por Amor, gozo.');
+INSERT INTO points VALUES(2507,0,2,505,'Responde a ti mesmo: - Quantas vezes por dia a tua vontade te pede que coloques o coração em Deus, para que Lhe entregues os teus afetos e as tuas obras?
+Boa medida para verificares a intensidade e a qualidade do teu amor.');
+INSERT INTO points VALUES(2508,0,2,506,'Convence-te, filho, de que Deus tem o direito de nos dizer: - Pensas em Mim? Tens presença de Mim? Procuras-me como teu apoio? Procuras-me como Luz da tua vida, como couraça..., como tudo?
+- Portanto, reafirma-te neste propósito: nas horas que a gente da terra qualifica como boas, clamarei: Senhor! Nas horas que chama de más, repetirei: Senhor!');
+INSERT INTO points VALUES(2509,0,2,507,'Não percas nunca o sentido do sobrenatural. Ainda que vejas em toda a sua crueza as tuas próprias misérias, as tuas más inclinações - o barro de que estás feito -, Deus conta contigo.');
+INSERT INTO points VALUES(2510,0,2,508,'Tens de viver, como os outros que te rodeiam, com naturalidade, mas sobrenaturalizando cada instante do teu dia.');
+INSERT INTO points VALUES(2511,0,2,509,'É necessário um coração limpo, zelo pelas coisas de Deus e amor às almas, sem preconceitos, para se poder julgar com retidão de intenção.
+- Pensa bem nisso!');
+INSERT INTO points VALUES(2512,0,2,510,'Ouvi falar a uns conhecidos sobre os seus aparelhos de radio. Quase sem perceber, levei o assunto ao terreno espiritual: temos muita tomada de terra, demasiada, e esquecemos a antena da vida interior...
+- Esta é a causa de que sejam tão poucas as almas que mantêm um trato íntimo com Deus: oxalá nunca nos falte a antena do sobrenatural.');
+INSERT INTO points VALUES(2513,0,2,511,'Minúcias e trivialidades às quais nada devo, das quais nada espero, ocupam a minha atenção mais do que o meu Deus? Com quem estou, quando não estou com Deus?');
+INSERT INTO points VALUES(2514,0,2,512,'Diz-Lhe: - Senhor, nada quero fora do que Tu quiseres. Não me dês nem mesmo aquilo que te venho pedindo nestes dias, se me afasta um milímetro da tua Vontade.');
+INSERT INTO points VALUES(2515,0,2,513,'O segredo da eficácia reside em seres piedoso, sinceramente piedoso: assim, todo o teu dia transcorrerá com Ele.');
+INSERT INTO points VALUES(2516,0,2,514,'Propósito: “freqüentar”, se possível sem interrupção, a amizade e o trato amoroso e dócil com o Espírito Santo. - "Veni, Sancte Spiritus...!" - Vem, Espírito Santo, morar na minha alma!');
+INSERT INTO points VALUES(2517,0,2,515,'Repete de todo o coração e sempre com mais amor, mais ainda quando estiveres perto do Sacrário ou tiveres o Senhor dentro do teu peito: "Non est qui se abscondat a calore eius" - que eu não te evite, que me invada o fogo do teu Espírito.');
+INSERT INTO points VALUES(2518,0,2,516,'"Ure igne Sancti Spiritus!" - queima-me com o fogo do teu Espírito!, clamas. E acrescentas: - É necessário que a minha pobre alma recomece quanto antes o vôo..., e que não deixe de voar até descansar nEle!
+- Acho ótimos os teus desejos. Vou pedir muito ao Paráclito por ti; vou invocá-Lo continuamente, para que se instale no centro do teu ser e presida e dê tom sobrenatural a todas as tuas ações, palavras, pensamentos e anseios.');
+INSERT INTO points VALUES(2519,0,2,517,'Ao celebrares a festa da Exaltação da Santa Cruz, suplicaste ao Senhor, com todas as veras da tua alma, que te concedesse a sua graça para “exaltares” a Cruz Santa nas tuas potências e nos teus sentidos... Uma vida nova! Um cunho para dares firmeza à autenticidade do teu cometimento..., todo o teu ser na Cruz!
+- Veremos, veremos.');
+INSERT INTO points VALUES(2520,0,2,518,'A mortificação deve ser contínua, como o bater do coração: assim teremos domínio sobre nós mesmos, e viveremos com os outros a caridade de Jesus Cristo.');
+INSERT INTO points VALUES(2521,0,2,519,'Amar a Cruz é saber sacrificar-se com gosto por amor de Cristo, ainda que custe e porque custa...: não te falta a experiência de que são coisas compatíveis.');
+INSERT INTO points VALUES(2522,0,2,520,'A alegria cristã não é fisiológica: o seu fundamento é sobrenatural, e está acima da doença e da contradição.
+- Alegria não é alvoroço de guizos ou de baile popular.
+A verdadeira alegria é algo mais íntimo: algo que nos faz estar serenos, transbordantes de júbilo, ainda que às vezes o rosto permaneça severo.');
+INSERT INTO points VALUES(2523,0,2,521,'Escrevia-te: - Embora compreenda que é um modo normal de falar, sinto desagrado quando ouço chamar cruzes às contrariedades nascidas da soberba da pessoa. Esses fardos não são a Cruz, a verdadeira Cruz, porque não são a Cruz de Cristo.
+Luta, pois, contra essas adversidades inventadas, que nada têm que ver com a marca de Cristo: desprende-te de todos os disfarces do eu!');
+INSERT INTO points VALUES(2524,0,2,522,'Mesmo nos dias em que parece que se perde o tempo, através da prosa dos mil pequenos detalhes, diários, há poesia mais do que suficiente para nos sentirmos na Cruz: numa Cruz sem espetáculo.');
+INSERT INTO points VALUES(2525,0,2,523,'Não ponhas o coração em nada de caduco: imita a Cristo, que se fez pobre por nós e não tinha onde reclinar a cabeça.
+- Pede-Lhe que te conceda, no meio do mundo, um efetivo desprendimento, sem atenuantes.');
+INSERT INTO points VALUES(2526,0,2,524,'Um sinal claro de desprendimento é não considerar - de verdade - coisa alguma como própria.');
+INSERT INTO points VALUES(2527,0,2,525,'Aquele que vive sinceramente a fé, sabe que os bens temporais são meios, e emprega-os com generosidade, de modo heróico.');
+INSERT INTO points VALUES(2528,0,2,526,'Cristo ressuscitado, glorioso, despojou-se de tudo o que é terreno, para que os seus irmãos, os homens, pensássemos de que coisas temos que despojar-nos.');
+INSERT INTO points VALUES(2529,0,2,527,'É preciso amar a Santíssima Virgem: nunca a amaremos bastante!
+- Ama-a muito! - Que não te baste colocar imagens suas, e saudá-las, e dizer jaculatórias, mas que saibas oferecer-lhe - na tua vida cheia de rijeza - algum pequeno sacrifício em cada dia, para manifestar-lhe o teu amor, e o amor que queremos que lhe dedique a humanidade inteira.');
+INSERT INTO points VALUES(2530,0,2,528,'Esta é a verdade do cristão: entrega e amor - amor a Deus e, por Ele, ao próximo -, fundamentados no sacrifício.');
+INSERT INTO points VALUES(2531,0,2,529,'Jesus, eu me ponho confiadamente nos teus braços, escondida a minha cabeça no teu peito amoroso, pegado o meu coração ao teu Coração: quero, em tudo, o que Tu quiseres.');
+INSERT INTO points VALUES(2532,0,2,530,'Hoje, que o ambiente está cheio de desobediência, de murmuração, de bisbilhotice, de enredos, temos que amar mais do que nunca a obediência, a sinceridade, a lealdade, a simplicidade - e tudo isso com sentido sobrenatural, que nos fará mais humanos.');
+INSERT INTO points VALUES(2533,0,2,531,'Dizes-me que sim, que estás firmemente decidido a seguir a Cristo.
+- Pois então tens de caminhar ao passo de Deus; não ao teu!');
+INSERT INTO points VALUES(2534,0,2,532,'Perguntas-me qual é o fundamento da nossa fidelidade.
+- Dir-te-ia a traços largos que se baseia no amor de Deus, que faz vencer todos os obstáculos: o egoísmo, a soberba, o cansaço, a impaciência...
+- Um homem que ama espezinha-se a si próprio; está ciente de que, mesmo que ame com toda a sua alma, ainda não sabe amar bastante.');
+INSERT INTO points VALUES(2535,0,2,533,'Diziam-me - e copio porque é muito bonito - que assim falava uma freirinha aragonesa, agradecida à bondade paternal de Deus: “Como Ele é agudo ! Não Lhe escapa nada”.');
+INSERT INTO points VALUES(2536,0,2,534,'Tu - como todos os filhos de Deus - necessitas também da oração pessoal: dessa intimidade, desse relacionamento direto com Nosso Senhor- diálogo a dois, cara a cara -, sem te esconderes no anonimato.');
+INSERT INTO points VALUES(2537,0,2,535,'A primeira condição da oração é a perseverança; a segunda, a humildade.
+- Sê santamente teimoso, com confiança. Pensa que o Senhor, quando Lhe pedimos alguma coisa importante, talvez queira a súplica de muitos anos. Insiste!..., mas insiste sempre com mais confiança.');
+INSERT INTO points VALUES(2538,0,2,536,'Persevera na oração, como aconselha o Mestre. Esse ponto de partida será a origem da tua paz, da tua alegria, da tua serenidade e, portanto, da tua eficácia sobrenatural e humana.');
+INSERT INTO points VALUES(2539,0,2,537,'Num lugar onde se conversava e se ouvia música, surgiu a oração na tua alma, com um consolo inexplicável. Acabaste dizendo: - Jesus, não quero o consolo, quero-te a Ti.');
+INSERT INTO points VALUES(2540,0,2,538,'A tua vida tem que ser oração constante, diálogo contínuo com o Senhor: perante o agradável e o desagradável, perante o fácil e o difícil, perante o ordinário e o extraordinário...
+Em todas as ocasiões, tem que vir à tua cabeça, imediatamente, a conversa com teu Pai-Deus, procurando-O no centro da tua alma.');
+INSERT INTO points VALUES(2541,0,2,539,'Recolher-se em oração, em meditação, é tão fácil...! Jesus não nos faz esperar, não impõe ante-salas: é Ele quem espera.
+Basta que Lhe digas: - Senhor, quero fazer oração, quero conversar contigo!, e já estás na presença de Deus, falando com Ele.
+Como se fosse pouco, não te cerceia o tempo: deixa-o ao teu gosto. E isto, não durante dez minutos ou um quarto de hora. Não!, horas a fio, o dia inteiro! E Ele é quem é: o Onipotente, o Sapientíssimo.');
+INSERT INTO points VALUES(2542,0,2,540,'Na vida interior, tal como no amor humano, é preciso ser perseverante.
+Sim, tens de meditar muitas vezes os mesmos argumentos, insistindo até descobrires uma nova América.
+- E como é que não tinha percebido isto antes, com esta clareza?, perguntar-te-ás surpreendido. - Simplesmente porque às vezes somos como as pedras, que deixam resvalar a água, sem absorver nem uma gota.
+- Por isso, é necessário voltar a refletir sobre as mesmas coisas - que não são as mesmas! -, para nos empaparmos das bênçãos de Deus.');
+INSERT INTO points VALUES(2543,0,2,541,'No Santo Sacrifício do altar, o sacerdote toma o Corpo do nosso Deus e o Cálice com o seu Sangue, e os eleva sobre todas as coisas da terra, dizendo: "Per Ipsum, et cum Ipso, et in Ipso" - pelo meu Amor!, com o meu Amor!, no meu Amor!
+Une-te a esse gesto. Mais ainda: incorpora essa realidade à tua vida.');
+INSERT INTO points VALUES(2544,0,2,542,'Conta o Evangelista que Jesus, depois de ter realizado o milagre, quando querem coroá-Lo rei, se esconde.
+- Senhor, a Ti que nos fazes participar do milagre da Eucaristia, nós te pedimos que não te escondas, que vivas conosco, que te vejamos, que te toquemos, que te sintamos, que queiramos estar sempre junto de Ti, que sejas o Rei das nossas vidas e dos nossos trabalhos.');
+INSERT INTO points VALUES(2545,0,2,543,'Procura o convívio com as três Pessoas, com Deus Pai, com Deus Filho, com Deus Espírito Santo. E para chegares à Trindade Santíssima, passa por Maria.');
+INSERT INTO points VALUES(2546,0,2,544,'Não tem fé “viva” aquele que não tem uma entrega atual a Jesus Cristo.');
+INSERT INTO points VALUES(2547,0,2,545,'Todo o cristão deve procurar Cristo e relacionar-se com Ele, para poder amá-Lo sempre mais. - Acontece como com o namoro: o trato é necessário, porque, se duas pessoas não se vêem, não podem chegar a querer-se. E a nossa vida é de Amor.');
+INSERT INTO points VALUES(2548,0,2,546,'Detém-te a considerar a ira santa do Mestre, quando vê no Templo de Jerusalém que maltratam as coisas de seu Pai.
+- Que lição, para que nunca fiques indiferente, nem sejas covarde, quando não tratam respeitosamente o que é de Deus!');
+INSERT INTO points VALUES(2549,0,2,547,'Enamora-te da Santíssima Humanidade de Jesus Cristo.
+- Não te dá alegria que Ele tenha querido ser como nós? Agradece a Jesus este cúmulo de bondade!');
+INSERT INTO points VALUES(2550,0,2,548,'Chegou o Advento. Que bom tempo para remoçar o desejo, a nostalgia, as ânsias sinceras pela vinda de Cristo!, pela sua vinda cotidiana à tua alma na Eucaristia! - "Ecce veniet!" - está para chegar!, anima-nos a Igreja.');
+INSERT INTO points VALUES(2551,0,2,549,'Natal. - Cantam: "Venite, venite..." - Vamos, que Ele já nasceu.
+E depois de contemplar como Maria e José cuidam do Menino, atrevo-me a sugerir-te: olha-O de novo, olha-O sem descanso.');
+INSERT INTO points VALUES(2552,0,2,550,'Ainda que nos doa - e peço a Deus que nos aumente essa dor -, tu e eu não somos alheios à morte de Cristo, porque os pecados dos homens foram as marteladas que O pregaram com pregos ao madeiro.');
+INSERT INTO points VALUES(2553,0,2,551,'São José: não se pode amar a Jesus e a Maria sem amar o Santo Patriarca.');
+INSERT INTO points VALUES(2554,0,2,552,'Olha quantos motivos para venerar São José e para aprender da sua vida: foi um varão forte na fé...; levou adiante a sua família - Jesus e Maria -, com o seu trabalho esforçado...; velou pela pureza da Virgem, que era a sua Esposa...; e respeitou - amou! - a liberdade de Deus, que fez a escolha, não só da Virgem como Mãe, mas também dele como Esposo de Santa Maria.');
+INSERT INTO points VALUES(2555,0,2,553,'São José, nosso Pai e Senhor, castíssimo, limpíssimo, tu que mereceste trazer Jesus Menino em teus braços, e lavá-Lo e abraçá-Lo: ensina-nos a tratar o nosso Deus, a ser limpos, dignos de ser outros Cristos.
+E ajuda-nos a fazer e a ensinar, como Cristo, os caminhos divinos - ocultos e luminosos -, dizendo aos homens que podem ter continuamente, na terra, uma eficácia espiritual extraordinária.');
+INSERT INTO points VALUES(2556,0,2,554,'Tens de amar muito São José, amá-lo com toda a tua alma, porque é a pessoa que, com Jesus, mais amou Santa Maria e quem mais privou com Deus: quem mais O amou, depois da nossa Mãe.
+- Ele merece o teu carinho, e a ti convém-te buscar o seu convívio, porque é Mestre de vida interior e pode muito diante do Senhor e diante da Mãe de Deus.');
+INSERT INTO points VALUES(2557,0,2,555,'A Santíssima Virgem. Quem pode ser melhor Mestra de amor a Deus do que esta Rainha, do que esta Senhora, do que esta Mãe, que tem a relação mais íntima com a Trindade - Filha de Deus Pai, Mãe de Deus Filho, Esposa de Deus Espírito Santo -, e que é ao mesmo tempo Mãe nossa?
+- Recorre pessoalmente à sua intercessão.');
+INSERT INTO points VALUES(2558,0,2,556,'Chegarás a ser santo se tiveres caridade, se souberes fazer as coisas que agradem aos outros e que não sejam ofensa a Deus, ainda que a ti te custem.');
+INSERT INTO points VALUES(2559,0,2,557,'São Paulo dá-nos uma receita de caridade fina: "Alter alterius onera portate et sic adimplebitis legem Christi" - levai uns as cargas dos outros, e assim cumprireis a lei de Cristo.
+- Cumpre-se isto na tua vida?');
+INSERT INTO points VALUES(2560,0,2,558,'Jesus Senhor Nosso amou tanto os homens que se encarnou, tomou a nossa natureza e viveu em contacto diário com pobres e ricos, com justos e pecadores, com jovens e velhos, com gentios e judeus.
+Dialogou constantemente com todos: com os que Lhe queriam bem, e com os que somente procuravam a maneira de retorcer as suas palavras, para condená-Lo.
+- Procura tu comportar-te como o Senhor.');
+INSERT INTO points VALUES(2561,0,2,559,'O amor às almas, por Deus, faz-nos querer a todos, compreender, desculpar, perdoar...
+Devemos ter um amor que cubra a multidão das deficiências das misérias humanas. Devemos ter uma caridade maravilhosa, "veritatem facientes in caritate" , defendendo a verdade - sem ferir.');
+INSERT INTO points VALUES(2562,0,2,560,'Quando te falo do “bom exemplo”, quero indicar-te também que tens de compreender e desculpar, que tens de encher o mundo de paz e de amor.');
+INSERT INTO points VALUES(2563,0,2,561,'Pergunta-te com freqüência: - Esmero-me em aprimorar a caridade com aqueles que convivem comigo?');
+INSERT INTO points VALUES(2564,0,2,562,'Quando prego que é preciso fazer-se tapete onde os outros pisem macio, não pretendo dizer uma frase bonita: tem que ser uma realidade!
+- É difícil, como é difícil a santidade; mas é fácil, porque - insisto - a santidade é acessível a todos.');
+INSERT INTO points VALUES(2565,0,2,563,'No meio de tanto egoísmo, de tanta indiferença - cada um atrás das suas coisas! -, lembro-me daqueles burrinhos de madeira, fortes, robustos, trotando sobre uma mesa... - Um deles perdeu uma pata. Mas continuava em frente, porque se apoiava nos outros.');
+INSERT INTO points VALUES(2566,0,2,564,'Nós, os católicos - ao defendermos e mantermos a verdade, sem transigências -, temos de esforçar-nos por criar um clima de caridade, de convivência, que afogue todos os ódios e rancores.');
+INSERT INTO points VALUES(2567,0,2,565,'Num cristão, num filho de Deus, amizade e caridade fazem uma só coisa: luz divina que dá calor.');
+INSERT INTO points VALUES(2568,0,2,566,'A prática da correção fraterna - que tem raiz evangélica - é uma prova de carinho sobrenatural e de confiança.
+Agradece-a quando a receberes, e não deixes de praticá-la com aqueles com quem convives.');
+INSERT INTO points VALUES(2569,0,2,567,'Ao corrigir - porque se torna necessário e se quer cumprir com o dever -, é preciso contar com a dor alheia e com a dor própria.
+Mas que essa realidade não te sirva nunca de desculpa para te inibires.');
+INSERT INTO points VALUES(2570,0,2,568,'Coloca-te muito perto da tua Mãe, a Santíssima Virgem. - Tu deves estar sempre unido a Deus: procura a união com Ele junto da sua Mãe bendita.');
+INSERT INTO points VALUES(2571,0,2,569,'Escuta-me bem: estar no mundo e ser do mundo não quer dizer ser mundano.');
+INSERT INTO points VALUES(2572,0,2,570,'Tens de comportar-te como uma brasa incandescente, que pega fogo onde quer que esteja; ou, pelo menos, procura elevar a temperatura espiritual dos que te rodeiam, levando-os a viver uma intensa vida cristã.');
+INSERT INTO points VALUES(2573,0,2,571,'Deus quer que as suas obras, confiadas aos homens, vão para a frente à força de oração e de mortificação.');
+INSERT INTO points VALUES(2574,0,2,572,'O fundamento de toda a nossa atividade como cidadãos - como cidadãos católicos - está numa intensa vida interior: em sermos, eficaz e realmente, homens e mulheres que fazem do seu dia um diálogo ininterrupto com Deus.');
+INSERT INTO points VALUES(2575,0,2,573,'Quando estiveres com uma pessoa, tens de ver uma alma: uma alma que é preciso ajudar, que é preciso compreender, com quem é preciso conviver e que é preciso salvar.');
+INSERT INTO points VALUES(2576,0,2,574,'Empenhas-te em andar sozinho, fazendo a tua própria vontade, guiado exclusivamente pelo teu próprio juízo... e, bem vês!, o fruto chama-se “infecundidade”.
+Filho, se não abates o teu juízo, se és soberbo, se te dedicas ao “teu” apostolado, trabalharás durante toda a noite - toda a tua vida será uma noite! -, e no fim amanhecerás com as redes vazias.');
+INSERT INTO points VALUES(2577,0,2,575,'Pensar na morte de Cristo traduz-se num convite para que nos situemos perante os nossos afazeres cotidianos com absoluta sinceridade, e tomemos a sério a fé que professamos.
+Tem que ser uma ocasião de aprofundar na profundidade do Amor de Deus, para podermos assim - com a palavra e com as obras - mostrá-lo aos homens.');
+INSERT INTO points VALUES(2578,0,2,576,'Procura que na tua boca de cristão - que isso és e isso deves ser em todos os instantes - esteja a “imperiosa” palavra sobrenatural que mova, que incite, que seja a expressão da tua disposição vital comprometida.');
+INSERT INTO points VALUES(2579,0,2,577,'Esconde-se um grande comodismo - e, por vezes, uma grande falta de responsabilidade - naqueles que, constituídos em autoridade, fogem da dor de corrigir, com a desculpa de evitar o sofrimento aos outros.
+Talvez poupem desgostos nesta vida..., mas põem em risco a felicidade eterna - a sua e a dos outros - pelas suas omissões, que são verdadeiros pecados.');
+INSERT INTO points VALUES(2580,0,2,578,'O santo, para a vida de muitos, é “incômodo”. Mas isso não significa que tenha de ser insuportável.
+- O seu zelo nunca deve ser amargo; a sua correção nunca deve ferir; o seu exemplo nunca deve ser uma bofetada moral, arrogante, na cara do próximo.');
+INSERT INTO points VALUES(2581,0,2,579,'Aquele jovem sacerdote costumava dirigir-se a Jesus com as palavras dos Apóstolos: "Edissere nobis parabolam" - explica-nos a parábola. E acrescentava: - Mestre, mete em nossas almas a claridade da tua doutrina, para que nunca falte nas nossas vidas e nas nossas ações..., e para que possamos dá-la aos outros.
+- Dize-o tu também ao Senhor.');
+INSERT INTO points VALUES(2582,0,2,580,'Deves ter sempre a coragem - que é humildade e serviço de Deus - de apresentar as verdades da fé tal como são, sem concessões nem ambigüidades.');
+INSERT INTO points VALUES(2583,0,2,581,'Não é possível outra disposição num católico: defender “sempre” a autoridade do Papa; e estar “sempre” docilmente decidido a retificar a opinião, ante o Magistério da Igreja.');
+INSERT INTO points VALUES(2584,0,2,582,'Há muito tempo, uma pessoa perguntou-me indiscretamente se os que seguimos a carreira sacerdotal temos aposentadoria, pensão, ao chegarmos a velhos... Como não lhe respondesse, o importuno insistiu.
+- Ocorreu-me então a resposta que, em meu entender, é irretorquível: - O sacerdócio - disse-lhe - não é uma carreira, é um apostolado!
+- É assim que o sinto. E quis registrá-lo nestas notas para que - com a ajuda do Senhor - nunca nos esqueçamos da diferença.');
+INSERT INTO points VALUES(2585,0,2,583,'Ter espírito católico implica que deve pesar sobre os nossos ombros a preocupação por toda a Igreja, não somente por esta parcela concreta ou aquela outra; e exige que a nossa oração se estenda de norte a sul, de leste a oeste, em súplica generosa.
+Entenderás assim a exclamação - a jaculatória - daquele amigo, perante o desamor de tantos para com a nossa Santa Mãe: - Dói-me a Igreja!');
+INSERT INTO points VALUES(2586,0,2,584,'“Pesa sobre mim a solicitude por todas as igrejas”, escrevia São Paulo; e este suspiro do Apóstolo recorda a todos os cristãos - também a ti! - a responsabilidade de pormos aos pés da Esposa de Jesus Cristo, da Igreja Santa, o que somos e o que podemos, amando-a fidelissimamente, mesmo à custa dos bens, da honra e da vida.');
+INSERT INTO points VALUES(2587,0,2,585,'Não te assustes - e, na medida em que possas, reage - ante essa conspiração do silêncio com que querem amordaçar a Igreja. Uns não deixam que se ouça a sua voz; outros não permitem que se contemple o exemplo dos que a pregam com as suas obras; outros apagam qualquer vestígio de boa doutrina..., e há tantas maiorias que não a suportam.
+Não te assustes, repito, mas não te canses de servir de alto-falante aos ensinamentos do Magistério.');
+INSERT INTO points VALUES(2588,0,2,586,'Deves fazer-te cada dia mais “romano”, amar essa condição bendita, que adorna os filhos da única e verdadeira Igreja, porque assim o quis Jesus Cristo.');
+INSERT INTO points VALUES(2589,0,2,587,'A devoção a Nossa Senhora desperta nas almas cristãs o impulso sobrenatural de agirem como "domestici Dei" - como membros da família de Deus.');
+INSERT INTO points VALUES(2590,0,2,588,'Imita a Virgem Santa: só o reconhecimento cabal do nosso nada pode tornar-nos preciosos aos olhos do Criador.');
+INSERT INTO points VALUES(2591,0,2,589,'Estou persuadido de que João, o Apóstolo jovem, permanece ao lado de Cristo na Cruz porque a Mãe o arrasta: tanto pode o Amor de Nossa Senhora!');
+INSERT INTO points VALUES(2592,0,2,590,'Não alcançaremos nunca a autêntica alegria sobrenatural e humana, o “verdadeiro” bom humor, se não imitarmos “de verdade” Jesus; se não formos, como Ele, humildes.');
+INSERT INTO points VALUES(2593,0,2,591,'Dar-se sinceramente aos outros é de tal eficácia, que Deus o premia com uma humildade cheia de alegria.');
+INSERT INTO points VALUES(2594,0,2,592,'A humilhação, o aniquilamento, o esconder-se e desaparecer devem ser totais, absolutos.');
+INSERT INTO points VALUES(2595,0,2,593,'Humildade sincera: que poderá perturbar aquele que tem por deleite as injúrias, pois sabe que não merece outro tratamento?');
+INSERT INTO points VALUES(2596,0,2,594,'Meu Jesus: o que é meu é teu, porque o que é teu é meu, e o que é meu, eu o abandono em Ti.');
+INSERT INTO points VALUES(2597,0,2,595,'És capaz de passar por essas humilhações, que te pede o próprio Deus, em coisas que não têm importância, que não obscurecem a verdade? - Não? Então não amas a virtude da humildade!');
+INSERT INTO points VALUES(2598,0,2,596,'A soberba dificulta a caridade. - Pede diariamente ao Senhor - para ti e para todos - a virtude da humildade, porque com o passar dos anos a soberba aumenta, se não se corrige a tempo.');
+INSERT INTO points VALUES(2599,0,2,597,'Pode haver coisa mais antipática do que uma criança bancando o homem? Que simpatia pode ter diante do seu Deus um pobre homem - uma criança - que assume ares de grande, inchado pela soberba, convencido do seu valor, fiado unicamente de si próprio?');
+INSERT INTO points VALUES(2600,0,2,598,'É verdade que podes condenar-te. Estás bem convencido disso, pois no teu coração se encontram germes de todas as maldades.
+Mas, se te fizeres criança diante de Deus, esta circunstância te levará a unir-te a teu Pai-Deus e à tua Mãe Santa Maria. E São José e o teu Anjo da Guarda não te hão de desamparar, ao verem-te pequeno.
+- Tem fé, faz o que puderes - penitência e Amor! -, e o que faltar, Eles o acrescentarão.');
+INSERT INTO points VALUES(2601,0,2,599,'Quanto custa viver a humildade!, porque - assim o afirma a sabedoria popular cristã - “a soberba morre vinte e quatro horas depois de ter morrido a pessoa”.
+Portanto, quando - ao contrário do que te diz quem recebeu graça especial de Deus para orientar a tua alma - pensares que tens razão, convence-te de que “não tens razão nenhuma”.');
+INSERT INTO points VALUES(2602,0,2,600,'Servir e dar formação às crianças; atender com carinho os doentes.
+Para nos fazermos entender das almas simples, temos que humilhar a inteligência; para compreendermos os pobres doentes, temos que humilhar o coração.
+E assim, pondo de joelhos o entendimento e a carne, será fácil chegarmos a Jesus, pelo caminho seguro da miséria humana, da miséria própria, que nos leva a aniquilar-nos, para deixar que Deus construa sobre o nosso nada.');
+INSERT INTO points VALUES(2603,0,2,601,'Propósito: a menos que haja verdadeira necessidade, nunca falarei das minhas coisas pessoais.');
+INSERT INTO points VALUES(2604,0,2,602,'Agradece a Jesus a segurança que te dá! Porque não é teimosia: é luz de Deus, que te faz sentir-te firme, como que sobre rocha, quando outros, a quem toca fazer um triste papel - sendo tão bons -, parecem afundar-se na areia..., faltos do fundamento da fé. Pede ao Senhor que as exigências da virtude da fé se cumpram na tua vida e na de todos.');
+INSERT INTO points VALUES(2605,0,2,603,'Se eu fosse de outro jeito, se dominasse mais o meu gênio, se te fosse mais fiel, Senhor, de que admirável maneira não irias ajudar-nos!');
+INSERT INTO points VALUES(2606,0,2,604,'As ânsias de reparação, que teu Pai-Deus põe na tua alma, ver-se-ão satisfeitas se unires a tua pobre expiação pessoal aos méritos infinitos de Jesus.
+- Retifica a intenção, ama a dor nEle, com Ele e por Ele.');
+INSERT INTO points VALUES(2607,0,2,605,'Não sabes se progrediste, nem quanto... - De que te serviria esse cálculo?...
+- O importante é que perseveres, que o teu coração arda em fogo, que vejas mais luz e mais horizonte...: que te afadigues pelas nossas intenções, que as pressintas - mesmo que não as conheças -, e que por todas rezes.');
+INSERT INTO points VALUES(2608,0,2,606,'Diz-Lhe: - Não vejo, Jesus, nem uma flor viçosa no meu jardim: todas têm manchas..., parece que todas perderam a cor e o aroma. Pobre de mim! A boca no esterco, no chão: assim. Este é o meu lugar.
+- Deste modo - humilhando-te -, Ele vencerá em ti, e alcançarás a vitória.');
+INSERT INTO points VALUES(2609,0,2,607,'Bem te entendi quando concluías: - Decididamente, quase não chego a burrico..., ao burrico que foi o trono de Jesus para entrar em Jerusalém: fico fazendo parte do montãozinho vil de trapos sujos, que o trapeiro mais pobre despreza.
+Mas comentei-te: - No entanto, o Senhor escolheu-te e quer que sejas seu instrumento. Por isso, o fato - real - de te veres tão miserável tem de converter-se em mais uma razão para agradeceres a Deus a sua chamada.');
+INSERT INTO points VALUES(2610,0,2,608,'O cântico humilde e gozoso de Maria, no Magnificat , lembra-nos a infinita generosidade do Senhor para com os que se fazem como crianças, para com os que se abaixam e sinceramente se sabem nada.');
+INSERT INTO points VALUES(2611,0,2,609,'É muito grato a Deus o reconhecimento pela sua bondade que denota recitar um Te Deum de ação de graças, sempre que ocorre algum acontecimento um pouco extraordinário, sem dar importância a que seja - como o chama o mundo - favorável ou adverso: porque, vindo das suas mãos de Pai, mesmo que o golpe de cinzel fira a carne, é também uma prova de Amor, que tira as nossas arestas para nos aproximar da perfeição.');
+INSERT INTO points VALUES(2612,0,2,610,'Os homens, quando querem realizar algum trabalho, procuram servir-se dos meios apropriados.
+Se eu tivesse vivido há séculos, teria usado uma pena de ave para escrever; agora utilizo uma caneta.
+Deus, porém, quando deseja levar a cabo alguma obra, escolhe meios desproporcionados, para que se note - quantas vezes me terás ouvido isto! - que a obra é sua.
+Por isso, tu e eu, que conhecemos o peso enorme das nossas misérias, devemos dizer ao Senhor: - Ainda que eu seja miserável, não deixo de compreender que sou instrumento divino nas tuas mãos.');
+INSERT INTO points VALUES(2613,0,2,611,'Dedicaremos todos os afãs da nossa vida - grandes e pequenos - à honra de Deus Pai, de Deus Filho, de Deus Espírito Santo.
+- Lembro-me com emoção do trabalho daqueles universitários brilhantes - dois engenheiros e dois arquitetos -, ocupados com muito gosto na instalação material de uma residência de estudantes. Mal acabaram de colocar o quadro-negro numa sala de aula, a primeira coisa que os quatro artistas escreveram foi: "Deo omnis gloria!" - toda a glória para Deus.
+- Sei que te encantou, Jesus.');
+INSERT INTO points VALUES(2614,0,2,612,'Em qualquer lugar em que te encontres, lembra-te de que o Filho do homem não veio para ser servido, mas para servir, e convence-te de que quem quiser segui-Lo não deve pretender outra linha de conduta.');
+INSERT INTO points VALUES(2615,0,2,613,'Deus tem sobre nós, seus filhos, um direito especial: o direito de que correspondamos ao seu amor, apesar dos nossos erros pessoais. - Esta convicção, ao mesmo tempo que nos impõe uma responsabilidade, da qual não podemos escapar, dá-nos segurança plena: somos instrumentos nas mãos de Deus, com que Ele conta diariamente e, por isso, diariamente, nos esforçamos por servi-Lo.');
+INSERT INTO points VALUES(2616,0,2,614,'O Senhor espera que os instrumentos façam o possível para estar bem dispostos: e tu tens de procurar que nunca te falte essa boa disposição.');
+INSERT INTO points VALUES(2617,0,2,615,'Eu entendo que cada Ave-Maria, cada saudação à Santíssima Virgem, é um novo palpitar de um coração enamorado.');
+INSERT INTO points VALUES(2618,0,2,616,'A nossa vida - a dos cristãos - deve ser tão vulgar como isto: procurar fazer bem, todos os dias, as mesmas coisas que temos obrigação de viver; realizar no mundo a nossa missão divina, cumprindo o pequeno dever de cada instante.
+- Para dizê-lo melhor: esforçando-nos por cumpri-lo, porque às vezes não o conseguiremos e, ao chegar a noite, no exame, teremos que dizer ao Senhor: - Não te ofereço virtudes; hoje só posso oferecer-te defeitos, mas - com a tua graça - chegarei a chamar-me vencedor.');
+INSERT INTO points VALUES(2619,0,2,617,'Desejo de todo o coração que, pela misericórdia de Deus, Ele - não obstante os teus pecados (nunca mais ofender Jesus!) - te faça “viver habitualmente essa vida feliz de amor à sua Vontade”.');
+INSERT INTO points VALUES(2620,0,2,618,'No serviço de Deus, não há ofícios de pouca categoria: todos são de muita importância.
+- A categoria do ofício depende do nível espiritual de quem o realiza.');
+INSERT INTO points VALUES(2621,0,2,619,'Não te dá alegria essa certeza, firme, de que Deus se interessa até pelas menores coisas das suas criaturas?');
+INSERT INTO points VALUES(2622,0,2,620,'Manifesta-Lhe de novo que queres eficazmente ser seu: - Õ Jesus, ajuda-me, faz-me teu de verdade: que eu arda e me consuma, à força de pequenas coisas despercebidas de todos.');
+INSERT INTO points VALUES(2623,0,2,621,'Santo Rosário.- Os gozos, as dores e as glórias da vida de Nossa Senhora tecem uma coroa de louvores que os Anjos e os Santos do Céu repetem ininterruptamente..., como também os que amam a nossa Mãe aqui na terra.
+- Pratica diariamente esta devoção santa e difunde-a.');
+INSERT INTO points VALUES(2624,0,2,622,'O Batismo nos faz "fideles" - fiéis -, palavra que, como aquela outra, "sancti" - santos -, os primeiros seguidores de Jesus empregavam para designar-se entre si, e que ainda hoje se usa: fala-se dos “fiéis” da Igreja.
+- Pensa nisto!');
+INSERT INTO points VALUES(2625,0,2,623,'Deus não se deixa ganhar em generosidade, e - deves tê-lo por bem certo! - concede a fidelidade a quem se Lhe rende.');
+INSERT INTO points VALUES(2626,0,2,624,'Tens de exigir-te sem medo. Na sua vida escondida, assim o fazem muitas almas, para que só o Senhor brilhe. Quereria que tu e eu reagíssemos como aquela pessoa - que desejava ser muito de Deus - na festa da Sagrada Família, que então se celebrava dentro da oitava da Epifania.
+- “Não me faltam cruzinhas. Uma de ontem - custou-me até as lágrimas - trouxe-me à consideração, no dia de hoje, que meu Pai e Senhor São José e minha Mãe Santa Maria não quiseram deixar a sua criança sem presente de Reis*. E o presente foi luz para conhecer o meu desagradecimento para com Jesus, por falta de correspondência à graça, e o erro enorme que significa para mim opor-me com a minha conduta vil à Vontade Santíssima de Deus, que me quer como seu instrumento”.
+(*)Na Espanha, como em outros países da Europa, é costume distribuir os presentes de Natal no dia dos Reis Magos, a festa da Epifania (N. do T.).');
+INSERT INTO points VALUES(2627,0,2,625,'Quando as santas mulheres chegaram ao sepulcro, repararam que a pedra tinha sido retirada.
+É o que acontece sempre! Quando nos decidimos a fazer o que devemos, as dificuldades se ultrapassam facilmente.');
+INSERT INTO points VALUES(2628,0,2,626,'Convence-te de que, se não aprendes a obedecer, não serás eficaz.');
+INSERT INTO points VALUES(2629,0,2,627,'Quando receberes uma ordem, que ninguém te vença em saber obedecer!, quer faça frio ou calor, quer estejas animado ou cansado, quer sejas jovem ou não o sejas tanto.
+Uma pessoa que “não saiba obedecer” não aprenderá nunca a mandar.');
+INSERT INTO points VALUES(2630,0,2,628,'Erro insigne é que o Diretor se conforme com que uma alma dê quatro, quando pode dar doze.');
+INSERT INTO points VALUES(2631,0,2,629,'Tu tens de obedecer - ou tens de mandar - pondo sempre muito amor.');
+INSERT INTO points VALUES(2632,0,2,630,'Quereria - ajuda-me com a tua oração - que, na Igreja Santa, todos nos sentíssemos membros de um só corpo, como nos pede o Apóstolo; e que vivêssemos a fundo, sem indiferenças, as alegrias, as tribulações, a expansão da nossa Mãe, una, santa, católica, apostólica, romana.
+Quereria que vivêssemos a identidade de uns com outros e de todos com Cristo.');
+INSERT INTO points VALUES(2633,0,2,631,'Persuade-te, filho, de que desunir-se, na Igreja, é morrer.');
+INSERT INTO points VALUES(2634,0,2,632,'Pede a Deus que na Igreja Santa, nossa Mãe, os corações de todos, como na primitiva cristandade, sejam um só coração, para que até o fim dos séculos se cumpram de verdade as palavras da Escritura: "Multitudinis autem credentium erat cor unum et anima una" - a multidão dos fiéis tinha um só coração e uma só alma.
+- Falo-te muito seriamente: que por ti não se lese esta unidade santa. Medita-o na tua oração!');
+INSERT INTO points VALUES(2635,0,2,633,'A fidelidade ao Romano Pontífice implica uma obrigação clara e determinada: a de conhecer o pensamento do Papa, manifestado nas Encíclicas ou em outros documentos, fazendo quanto estiver ao nosso alcance para que todos os católicos prestem ouvidos ao magistério do Santo Padre, e ajustem a esses ensinamentos a sua atuação na vida.');
+INSERT INTO points VALUES(2636,0,2,634,'Rezo de todo o coração, diariamente, para que o Senhor nos conceda o dom de línguas. Um dom de línguas que não consiste no conhecimento de vários idiomas, mas em saber adaptar-se à capacidade dos ouvintes.
+- Não se trata de “falar como néscios ao vulgo, para que entenda”, mas de falar como sábios, em cristão, porém de modo acessível a todos.
+- Este dom de línguas é o que peço ao Senhor e à sua Mãe bendita para os seus filhos.');
+INSERT INTO points VALUES(2637,0,2,635,'A malícia de alguns e a ignorância de muitos: aí está o inimigo de Deus, da Igreja.
+- Confundamos o malvado, iluminemos a inteligência do ignorante... Com a ajuda de Deus, e com o nosso esforço, salvaremos o mundo.');
+INSERT INTO points VALUES(2638,0,2,636,'Temos de procurar que, em todas as atividades intelectuais, haja pessoas retas, de autêntica consciência cristã, de vida coerente, que empreguem as armas da ciência a serviço da humanidade e da Igreja.
+Porque nunca faltarão no mundo, como aconteceu quando Jesus veio à terra, novos Herodes que tentem aproveitar os conhecimentos científicos, mesmo falseando-os, para perseguir Cristo e os que são de Cristo.
+Que grande tarefa temos pela frente!');
+INSERT INTO points VALUES(2639,0,2,637,'No teu trabalho de almas - a tua ocupação inteira deve ser trabalho de almas -, enche-te de fé, de esperança, de amor, porque todas as dificuldades se superam.
+Para confirmar-nos nesta verdade, escreveu o salmista: "Et Tu, Domine, deridebis eos: ad nihilum deduces omnes gentes" - Tu, Senhor, zombarás deles; Tu os reduzirás a nada.
+Estas palavras ratificam o "non praevalebunt" - não prevalecerão os inimigos de Deus: nada hão de poder contra a Igreja nem contra aqueles que - instrumentos de Deus - servem a Igreja.');
+INSERT INTO points VALUES(2640,0,2,638,'A nossa Santa Mãe a Igreja, em magnífica extensão de amor, vai espalhando a semente do Evangelho por todo o mundo. De Roma até à periferia.
+- Ao colaborares tu nessa expansão, pelo orbe inteiro, deves levar a periferia ao Papa, para que a terra toda seja um só rebanho e um só Pastor: um só apostolado!');
+INSERT INTO points VALUES(2641,0,2,639,'"Regnare Christum volumus!" - queremos que Cristo reine. "Deo omnis gloria!" - para Deus toda a glória.
+Este ideal de guerrear - e vencer - com as armas de Cristo, somente se fará realidade pela oração e pelo sacrifício, pela fé e pelo Amor.
+- Pois então..., vamos orar, e crer, e sofrer, e Amar!');
+INSERT INTO points VALUES(2642,0,2,640,'O trabalho da Igreja é em cada dia como um grande tecido que oferecemos ao Senhor, porque todos os batizados somos Igreja.
+- Se cumprirmos - fiéis e entregados -, este grande tecido será formoso e sem falha. - Mas, se um solta um fio aqui, outro acolá, e outro mais além..., em vez de um belo tecido, teremos um trapo esfiapado.');
+INSERT INTO points VALUES(2643,0,2,641,'Por que não te decides a fazer uma correção fraterna? - Sofre-se ao recebê-la, porque custa humilhar-se, pelo menos no começo. Mas, fazê-la, custa sempre. Bem o sabem todos.
+O exercício da correção fraterna é a melhor maneira de ajudar, depois da oração e do bom exemplo.');
+INSERT INTO points VALUES(2644,0,2,642,'Pela confiança que Ele deposita em ti, ao ter-te trazido à Igreja, hás de ter o comedimento, a serenidade, a fortaleza, a prudência - humana e sobrenatural - de pessoa madura que muitos adquirem com o passar dos anos.
+Não esqueças que cristão, como aprendemos no Catecismo, significa homem - mulher - que tem a fé de Jesus Cristo.');
+INSERT INTO points VALUES(2645,0,2,643,'Queres ser forte? - Primeiro, repara que és muito fraco; e depois, confia em Cristo, que é Pai e Irmão e Mestre, e que nos torna fortes entregando-nos os meios para vencer: os sacramentos. Vive-os!');
+INSERT INTO points VALUES(2646,0,2,644,'Entendia-te bem quando me confiavas: - Quero embeber-me na liturgia da Santa Missa.');
+INSERT INTO points VALUES(2647,0,2,645,'Valor da piedade na Santa Liturgia!
+Não estranhei nada quando, há alguns dias, certa pessoa me comentava de um sacerdote exemplar, falecido recentemente: - Como era santo!
+- Conhecia-o bem?, perguntei-lhe.
+- Não - respondeu-me -, mas vi-o uma vez celebrar a Santa Missa.');
+INSERT INTO points VALUES(2648,0,2,646,'Tu, que te chamas cristão, tens de viver a Sagrada Liturgia da Igreja, pondo verdadeiro interesse em orar e em mortificar-te pelos sacerdotes - especialmente pelos novos sacerdotes -, nos dias fixados para esta intenção*, e quando souberes que recebem o Sacramento da Ordem.
+(*)O autor refere-se aos quatro tempos do ano, chamados “têmporas”, em que se rezava e se fazia jejum por essa intenção (N. do T.).');
+INSERT INTO points VALUES(2649,0,2,647,'Oferece a oração, a expiação e a ação por esta finalidade: "Ut sint unum!" - para que todos os cristãos tenhamos uma mesma vontade, um mesmo coração, um mesmo espírito: para que "omnes cum Petro ad Iesum per Mariam!" - que todos, bem unidos ao Papa, vamos a Jesus, por Maria.');
+INSERT INTO points VALUES(2650,0,2,648,'Perguntas-me, meu filho, o que podes fazer para que eu fique muito contente contigo.
+- Se o Senhor está satisfeito contigo, eu também estou. E tu podes saber se Ele está contente contigo pela paz e pela alegria que houver em teu coração.');
+INSERT INTO points VALUES(2651,0,2,649,'Característica evidente de um homem de Deus, de uma mulher de Deus, é a paz na sua alma; tem “a paz” e dá “a paz” às pessoas com quem convive.');
+INSERT INTO points VALUES(2652,0,2,650,'Acostuma-te a apedrejar esses pobres “odiadores”, respondendo às suas pedradas com Ave-Marias.');
+INSERT INTO points VALUES(2653,0,2,651,'Não te preocupes se o teu trabalho agora parece estéril. Quando a semeadura é de santidade, não se perde; outros recolherão o fruto.');
+INSERT INTO points VALUES(2654,0,2,652,'Mesmo que consigas poucas luzes na oração, mesmo que te pareça emperrada, seca..., tens de considerar, sempre com visão nova e segura, a necessidade da perseverança em todos os pormenores da tua vida de piedade.');
+INSERT INTO points VALUES(2655,0,2,653,'Crescias perante as dificuldades do apostolado, orando assim: “Senhor, Tu és o mesmo de sempre. Dá-me a fé daqueles varões que souberam corresponder à tua graça e que realizaram - em teu Nome - grandes milagres, verdadeiros prodígios...” - E concluías: “Sei que os farás; mas também sei que queres que os peçamos, que queres que te procuremos, que batamos fortemente às portas do teu Coração”.
+- No fim, renovaste a tua decisão de perseverar na oração humilde e confiante.');
+INSERT INTO points VALUES(2656,0,2,654,'Quando te vires atribulado..., e também na hora do triunfo, repete: - Senhor, não me largues, não me deixes, ajuda-me como a uma criatura inexperiente, leva-me sempre pela tua mão!');
+INSERT INTO points VALUES(2657,0,2,655,'"Aquae multae non potuerunt extinguere caritatem!" - a turbulência das águas não pôde extinguir o fogo da caridade. - Ofereço-te duas interpretações destas palavras da Escritura Santa. - Uma, que a multidão dos teus pecados passados - a ti, que estás bem arrependido - não te afastará do Amor do nosso Deus; e outra, que as águas da incompreensão, das contradições, que talvez estejas sofrendo, não deverão interromper o teu trabalho apostólico.');
+INSERT INTO points VALUES(2658,0,2,656,'Acabar! Acabar! - Filho, "qui perseveraverit usque in finem, hic salvus erit" - quem perseverar até o fim, esse se salvará.
+- E nós, os filhos de Deus, dispomos dos meios; tu também! Colocaremos o telhado, porque tudo podemos nAquele que nos conforta.
+- Com o Senhor, não há impossíveis: superam-se sempre.');
+INSERT INTO points VALUES(2659,0,2,657,'Por vezes, apresenta-se um futuro imediato cheio de preocupações, se perdemos o sentido sobrenatural dos acontecimentos.
+- Portanto, filho, fé nessas horas..., e mais obras. Assim não há dúvida de que o nosso Pai-Deus continuará a dar solução aos teus problemas.');
+INSERT INTO points VALUES(2660,0,2,658,'A providência ordinária de Deus é um contínuo milagre, mas... Ele empregará meios extraordinários, quando forem precisos.');
+INSERT INTO points VALUES(2661,0,2,659,'O otimismo cristão não é um otimismo meloso, nem tampouco uma confiança humana em que tudo dará certo.
+É um otimismo que mergulha as suas raízes na consciência da liberdade e na certeza do poder da graça; um otimismo que nos leva a ser exigentes conosco próprios, a esforçar-nos por corresponder em cada instante às chamadas de Deus.');
+INSERT INTO points VALUES(2662,0,2,660,'O dia do triunfo do Senhor, da sua Ressurreição, é definitivo. Onde estão os soldados que a autoridade tinha destacado? Onde estão os selos que tinham colocado sobre a pedra do sepulcro? Onde estão os que condenaram o Mestre? Onde estão os que crucificaram Jesus?... Perante a sua vitória, produz-se a grande fuga dos pobres miseráveis.
+Enche-te de esperança: Jesus Cristo vence sempre.');
+INSERT INTO points VALUES(2663,0,2,661,'Se procuras Maria, encontrarás “necessariamente” Jesus, e aprenderás - sempre com maior profundidade - o que há no Coração de Deus.');
+INSERT INTO points VALUES(2664,0,2,662,'Quando te dispuseres a empreender uma tarefa de apostolado, aplica a ti mesmo o que dizia um homem que procurava a Deus: “Hoje começo a pregar um retiro para sacerdotes. Oxalá tiremos muito fruto: em primeiro lugar, eu!”
+- E mais tarde: “Há vários dias que estou pregando um retiro. Os retirantes são cento e vinte. Espero que o Senhor faça um bom trabalho nas nossas almas”.');
+INSERT INTO points VALUES(2665,0,2,663,'Filho, vale a pena que sejas humilde, obediente, leal, que te impregnes do espírito de Deus, para levá-lo - daí do lugar que ocupas, do teu lugar de trabalho - a todas as gentes que povoam o mundo!');
+INSERT INTO points VALUES(2666,0,2,664,'Na guerra, de pouco serviria a coragem dos soldados que enfrentam o inimigo, se não houvesse outros que, sem tomarem aparentemente parte na batalha, proporcionam munições e alimentos e remédios aos guerreiros...
+- Sem a oração e sem o sacrifício de tantas almas, não haverá verdadeiro apostolado de ação.');
+INSERT INTO points VALUES(2667,0,2,665,'Poder de fazer milagres! Quantas almas mortas, e até apodrecidas, não ressuscitarás, se permites a Cristo que atue em ti.
+Naqueles tempos, narram os Evangelhos, o Senhor passava, e eles, os enfermos, chamavam por Ele e O procuravam. Também agora Cristo passa com a tua vida cristã e, se o secundares, quantos não O conhecerão, e chamarão por Ele, e Lhe pedirão ajuda, e terão os olhos abertos para as luzes maravilhosas da graça!');
+INSERT INTO points VALUES(2668,0,2,666,'Empenhas-te em caminhar ao teu jeito, e o teu trabalho acaba sendo estéril.
+Obedece, sê dócil: porque, assim como é uma necessidade pôr cada roda de uma máquina no seu lugar (caso contrário, pára ou deformam-se as peças; e, sem dúvida, não produz ou o seu rendimento é muito pequeno), assim também um homem ou uma mulher, tirados do seu campo de ação, serão antes um estorvo do que um instrumento de apostolado.');
+INSERT INTO points VALUES(2669,0,2,667,'O apóstolo não tem outro fim que não deixar agir o Senhor, tornar-se disponível.');
+INSERT INTO points VALUES(2670,0,2,668,'Também os primeiros Doze eram estrangeiros nas terras que evangelizavam, e tropeçavam com pessoas que construíam o mundo sobre bases diametralmente opostas à doutrina de Cristo.
+- Olha: por cima dessas circunstâncias adversas, eles sabiam-se depositários da mensagem divina da Redenção. E clama o Apóstolo: “Ai de mim se não evangelizar!”');
+INSERT INTO points VALUES(2671,0,2,669,'A eficácia corredentora - eterna! - das nossas vidas só se pode tornar efetiva mediante a humildade - desaparecendo -, para que os outros descubram o Senhor.');
+INSERT INTO points VALUES(2672,0,2,670,'Os filhos de Deus têm de ser, na sua ação apostólica, como essas potentes instalações elétricas: encherão de luz o mundo, sem que se veja o foco.');
+INSERT INTO points VALUES(2673,0,2,671,'Diz Jesus: “Quem a vós ouve a mim ouve”.
+- Julgas ainda que são as tuas palavras que convencem os homens?... Além disso, não esqueças que o Espírito Santo pode valer-se, para os seus planos, do instrumento mais inepto.');
+INSERT INTO points VALUES(2674,0,2,672,'Como se ajustam admiravelmente aos filhos de Deus estas palavras de Santo Ambrósio! Fala do burrico atado com a jumenta, de que Jesus necessitava para o seu triunfo, e comenta: “Só uma ordem do Senhor podia desatá-lo. Soltaram-no as mãos dos Apóstolos. Para semelhante fato, requerem-se um modo de viver e uma graça especial. Sê tu também apóstolo, para poderes libertar os que estão cativos”.
+- Deixa-me que te glose novamente este texto: quantas vezes, a mando de Jesus, não teremos de soltar os grilhões das almas, porque Ele necessitará delas para o seu triunfo! Que sejam de apóstolo as nossas mãos, e as nossas ações, e a nossa vida... Então Deus nos dará também graça de apóstolo, para quebrarmos os ferros dos agrilhoados.');
+INSERT INTO points VALUES(2675,0,2,673,'Não podemos atribuir nunca a nós mesmos o poder de Jesus, que passa entre nós. O Senhor passa, e transforma as almas, quando nos colocamos todos junto dEle, com um só coração, com um só sentir, com um só desejo de ser bons cristãos; mas é Ele, não tu nem eu. É Cristo que passa!
+- E, além disso, Ele fica em nossos corações - no teu e no meu! -, e nos nossos sacrários.
+- É Jesus que passa, e Jesus que fica. Permanece em ti, em cada um de vós e em mim.');
+INSERT INTO points VALUES(2676,0,2,674,'O Senhor quis fazer-nos corredentores com Ele.
+- É por isso, para nos ajudar a compreender esta maravilha, que move os evangelistas a relatar tantos grandes prodígios. Ele podia tirar o pão de onde quisesse... Mas não! Procura a cooperação humana: necessita de um menino, de um rapaz, de uns pedaços de pão e de uns peixes.
+- Fazemos-Lhe falta tu e eu, e é Deus! - Isto nos há de instar a ser generosos, na nossa correspondência às suas graças.');
+INSERT INTO points VALUES(2677,0,2,675,'Se O ajudares, mesmo que seja com uma ninharia, como fizeram os Apóstolos, Ele estará disposto a realizar milagres, a multiplicar os pães, a mudar as vontades, a dar luz às inteligências mais obscurecidas, a fazer - com uma graça extraordinária - que sejam capazes de retidão os que nunca o foram.
+Tudo isto... e mais, se O ajudares com o que tens.');
+INSERT INTO points VALUES(2678,0,2,676,'Jesus morreu. É um cadáver. Aquelas mulheres santas não esperavam nada. Tinham visto como O haviam maltratado e como O haviam crucificado: como tinham elas presente a violência daquela Paixão sofrida!
+Sabiam também que os soldados vigiavam o lugar, sabiam que o sepulcro estava completamente fechado: - Quem nos tirará a pedra da entrada?, perguntavam-se, porque era uma lousa enorme. No entanto, apesar de tudo, elas acorrem a estar com Ele.
+Olha, as dificuldades - grandes e pequenas - enxergam-se logo... Mas, se há amor, não se repara nesses obstáculos, e procede-se com audácia, com decisão, com valentia: não tens de confessar que sentes vergonha ao contemplar o ímpeto, a intrepidez e a valentia daquelas mulheres?');
+INSERT INTO points VALUES(2679,0,2,677,'Maria, tua Mãe, levar-te-á ao Amor de Jesus. E aí estarás "cum gaudio et pace" , com alegria e paz, sempre “levado” - porque sozinho cairias e te encherias de lama -, caminho afora, para crer, para amar e para sofrer.');
+INSERT INTO points VALUES(2680,0,2,678,'Pelo ensinamento de São Paulo, sabemos que temos de renovar o mundo no espírito de Jesus Cristo, que temos de colocar o Senhor no alto e na entranha de todas as coisas.
+- Achas que estás cumprindo isso no teu ofício, na tua tarefa profissional?');
+INSERT INTO points VALUES(2681,0,2,679,'Por que não experimentas converter em serviço de Deus a tua vida inteira: o trabalho e o descanso, o pranto e o sorriso?
+- Podes... e deves!');
+INSERT INTO points VALUES(2682,0,2,680,'Todas e cada uma das criaturas, todos os acontecimentos desta vida, sem exceção, têm de ser degraus que te levem a Deus e que te movam a conhecê-Lo e amá-Lo, a dar-Lhe graças e a procurar que todos O conheçam e O amem.');
+INSERT INTO points VALUES(2683,0,2,681,'Temos obrigação de trabalhar, e de trabalhar conscienciosamente, com senso de responsabilidade, com amor e perseverança, sem descuidos nem ligeirezas: porque o trabalho é um mandamento de Deus, e a Deus, como diz o salmista, é preciso obedecer "in laetitia" - com alegria!');
+INSERT INTO points VALUES(2684,0,2,682,'Temos de conquistar, para Cristo, todo e qualquer valor humano que seja nobre.');
+INSERT INTO points VALUES(2685,0,2,683,'Quando se vive deveras a caridade, não sobra tempo para nos procurarmos a nós mesmos; não há espaço para o orgulho; só nos ocorrem ocasiões de servir!');
+INSERT INTO points VALUES(2686,0,2,684,'Qualquer atividade - seja ou não humanamente muito importante - tem de converter-se para ti num meio de servir o Senhor e os homens: aí está a verdadeira dimensão da sua importância.');
+INSERT INTO points VALUES(2687,0,2,685,'Trabalha sempre, e em tudo, com sacrifício, para colocar Cristo no cume de todas as atividades dos homens.');
+INSERT INTO points VALUES(2688,0,2,686,'A correspondência à graça também se encontra nessas coisas corriqueiras da jornada, que parecem sem categoria e, no entanto, têm a transcendência do Amor.');
+INSERT INTO points VALUES(2689,0,2,687,'Não é possível esquecer que o trabalho humanamente digno, nobre e honesto, pode - e deve! - ser elevado à ordem sobrenatural, passando a ser uma ocupação divina.');
+INSERT INTO points VALUES(2690,0,2,688,'Ao crescer e viver como qualquer um de nós, Jesus, nosso Senhor e Modelo, revelou-nos que a existência humana - a tua -, as ocupações comuns e habituais, têm um sentido divino, de eternidade.');
+INSERT INTO points VALUES(2691,0,2,689,'Admira a bondade do nosso Pai-Deus: não te enche de alegria a certeza de que o teu lar, a tua família, o teu país, que amas com loucura, são matéria de santidade?');
+INSERT INTO points VALUES(2692,0,2,690,'Minha filha, a ti que formaste um lar, gosto de recordar-te que as mulheres - bem o sabes! - têm muita fortaleza, uma fortaleza que sabem envolver numa doçura especial, para que não se note. E, com essa fortaleza, podem fazer do marido e dos filhos instrumentos de Deus ou diabos.
+- Tu os farás sempre instrumentos de Deus: o Senhor conta com a tua ajuda.');
+INSERT INTO points VALUES(2693,0,2,691,'Comove-me que o Apóstolo qualifique o matrimônio cristão como "sacramentum magnum" - sacramento grande. Também daqui deduzo que a tarefa dos pais de família é importantíssima.
+- Participais do poder criador de Deus, e é por isso que o amor humano é santo, nobre e bom: uma alegria do coração, a que o Senhor - na sua providência amorosa - quer que outros renunciemos livremente.
+- Cada filho que Deus vos concede é uma grande bênção divina: não tenhais medo aos filhos!');
+INSERT INTO points VALUES(2694,0,2,692,'Em minhas conversas com tantos casais, insisto-lhes em que, enquanto eles viverem e viverem também os seus filhos, devem ajudá-los a ser santos, sabendo que na terra nenhum de nós será santo. Não faremos mais do que lutar, lutar e lutar.
+E acrescento: - Vós, mães e pais cristãos, sois um grande motor espiritual, que manda aos seus fortaleza de Deus para essa luta, para que vençam, para que sejam santos. Não os decepcioneis!');
+INSERT INTO points VALUES(2695,0,2,693,'Não tenhas medo de amar as almas, por Ele; e não te importes de amar ainda mais os teus, sempre que, amando-os tanto, O ames a Ele milhões de vezes mais.');
+INSERT INTO points VALUES(2696,0,2,694,'"Coepit facere et docere" - Jesus começou a fazer e depois a ensinar: tu e eu temos que dar o testemunho do exemplo, porque não podemos levar uma dupla vida; não podemos ensinar o que não praticamos. Por outras palavras, temos de ensinar aquilo que, pelo menos, lutamos por praticar.');
+INSERT INTO points VALUES(2697,0,2,695,'Cristão: tens obrigação de ser exemplar em todos os terrenos, também como cidadão, no cumprimento das leis que visam o bem comum.');
+INSERT INTO points VALUES(2698,0,2,696,'Uma vez que és tão exigente em que, até nos serviços públicos, os outros cumpram as suas obrigações - é um dever!, afirmas -, já pensaste se tu respeitas o teu horário de trabalho, se o realizas conscienciosamente?');
+INSERT INTO points VALUES(2699,0,2,697,'Tens de observar todos os teus deveres cívicos, sem te quereres subtrair ao cumprimento de nenhuma obrigação; e exercer todos os teus direitos, em bem da coletividade, sem excetuar imprudentemente nenhum.
+- Também aí deves dar testemunho cristão.');
+INSERT INTO points VALUES(2700,0,2,698,'Se queremos de verdade santificar o trabalho, é preciso que cumpramos ineludivelmente a primeira condição: trabalhar, e trabalhar bem!, com seriedade humana e sobrenatural.');
+INSERT INTO points VALUES(2701,0,2,699,'Que a tua caridade seja amável: não deve faltar nunca em teus lábios, com a prudência e a naturalidade devidas, e ainda que chores por dentro, um sorriso para todos, um serviço sem regateios.');
+INSERT INTO points VALUES(2702,0,2,700,'Esse trabalho acabado pela metade é apenas uma caricatura do holocausto que Deus te pede.');
+INSERT INTO points VALUES(2703,0,2,701,'Se afirmas que queres imitar a Cristo... e te sobra tempo, andas por caminhos de tibieza.');
+INSERT INTO points VALUES(2704,0,2,702,'As tarefas profissionais - o trabalho do lar também é uma profissão de primeira grandeza - são testemunho da dignidade da criatura humana; ocasião de desenvolvimento da própria personalidade; vínculo de união com os outros; fonte de recursos; meio de contribuir para a melhoria da sociedade em que vivemos e de fomentar o progresso da humanidade inteira...
+- Para um cristão, estas perspectivas alargam-se e ampliam-se ainda mais, porque o trabalho - assumido por Cristo como realidade redimida e redentora - se converte em meio e caminho de santidade, em tarefa concreta santificável e santificadora.');
+INSERT INTO points VALUES(2705,0,2,703,'O Senhor quis que os seus filhos, os que recebemos o dom da fé, manifestássemos a original visão otimista da criação, o “amor ao mundo” que palpita no cristianismo.
+- Portanto, não deve faltar nunca entusiasmo no teu trabalho profissional, nem no teu empenho por construir a cidade temporal.');
+INSERT INTO points VALUES(2706,0,2,704,'Tens de permanecer vigilante, para que os teus êxitos profissionais ou os teus fracassos - que virão! - não te façam esquecer, nem por um instante, qual é o verdadeiro fim do teu trabalho: a glória de Deus!');
+INSERT INTO points VALUES(2707,0,2,705,'A responsabilidade cristã no trabalho não se traduz apenas em ir preenchendo as horas, mas em realizá-lo com competência técnica e profissional... e, sobretudo, com amor de Deus.');
+INSERT INTO points VALUES(2708,0,2,706,'Que pena matar o tempo, que é um tesouro de Deus!');
+INSERT INTO points VALUES(2709,0,2,707,'Como todas as profissões honestas podem e devem ser santificadas, nenhum filho de Deus tem o direito de dizer: - Não posso fazer apostolado.');
+INSERT INTO points VALUES(2710,0,2,708,'Da vida oculta de Jesus Cristo tens que tirar esta outra conseqüência: não ter pressa..., tendo-a!
+Quer dizer, antes de mais nada está a vida interior; o resto, o apostolado, qualquer apostolado, é um corolário.');
+INSERT INTO points VALUES(2711,0,2,709,'Enfrenta os problemas deste mundo com sentido sobrenatural e de acordo com as normas morais, que não ameaçam nem destroem a personalidade, antes a encaminham.
+- Infundirás assim na tua conduta uma força vital, que arraste; e te confirmarás na tua caminhada pelo reto caminho.');
+INSERT INTO points VALUES(2712,0,2,710,'Deus Nosso Senhor te quer santo para que santifiques os outros. - E para isso, é preciso que tu - com valentia e sinceridade - olhes para ti mesmo, olhes para o Senhor Nosso Deus... e, depois, só depois, olhes para o mundo.');
+INSERT INTO points VALUES(2713,0,2,711,'Fomenta as tuas qualidades nobres, humanas. Podem ser o começo do edifício da tua santificação.
+Ao mesmo tempo, lembra-te de que - como já te disse em outra oportunidade - no serviço de Deus é preciso queimar tudo, até o “que vão dizer”, até isso que chamam reputação, se for necessário.');
+INSERT INTO points VALUES(2714,0,2,712,'Precisas de formação, porque deves ter um profundo senso de responsabilidade, que promova e anime a atuação dos católicos na vida pública, com o respeito devido à liberdade de cada um, e recordando a todos que têm de ser coerentes com a sua fé.');
+INSERT INTO points VALUES(2715,0,2,713,'Por meio do teu trabalho profissional, acabado com a possível perfeição sobrenatural e humana, podes - deves! - dar critério cristão nos lugares onde exerças a tua profissão ou ofício.');
+INSERT INTO points VALUES(2716,0,2,714,'Como cristão, tens o dever de atuar, de não te absteres, de prestar a tua própria colaboração para servir - com lealdade e com liberdade pessoal - o bem comum.');
+INSERT INTO points VALUES(2717,0,2,715,'Nós, os filhos de Deus, cidadãos da mesma categoria que os outros, temos de participar “sem medo” em todas as atividades e organizações honestas dos homens, para que Cristo ali esteja presente.
+Nosso Senhor nos pedirá contas estritas se, por desleixo ou comodismo, cada um de nós, livremente, não procura intervir nas obras e nas decisões humanas de que dependem o presente e o futuro da sociedade.');
+INSERT INTO points VALUES(2718,0,2,716,'Com sentido de profunda humildade - fortes no nome do nosso Deus e não, como diz o Salmo, “nos recursos dos nossos carros de combate e dos nossos cavalos” -, temos de procurar, sem respeitos humanos, que não haja recantos da sociedade em que não se conheça a Cristo.');
+INSERT INTO points VALUES(2719,0,2,717,'Com liberdade, e de acordo com as tuas inclinações ou qualidades, deves tomar parte ativa e eficaz nas retas associações oficiais ou privadas do teu país, com uma participação cheia de sentido cristão: essas organizações nunca são indiferentes para o bem temporal e eterno dos homens.');
+INSERT INTO points VALUES(2720,0,2,718,'Esforça-te para que as instituições e as estruturas humanas, em que trabalhas e te mexes com pleno direito de cidadão, se ajustem aos princípios que regem uma concepção cristã de vida.
+Assim - não tenhas dúvida -, asseguras aos homens os meios necessários para viverem de acordo com a sua dignidade, e dás ensejo a que muitas almas, com a graça de Deus, possam corresponder pessoalmente à vocação cristã.');
+INSERT INTO points VALUES(2721,0,2,719,'Dever de cristão e de cidadão é defender e fomentar, por piedade e por cultura, os monumentos disseminados por ruas e caminhos - cruzeiros, imagens marianas, etc. -, reconstruindo aqueles que a barbárie ou o tempo destroem.');
+INSERT INTO points VALUES(2722,0,2,720,'É necessário neutralizar essas “liberdades de perdição”, filhas da libertinagem, netas das más paixões, bisnetas do pecado original..., que, como se vê, descendem em linha reta do diabo.');
+INSERT INTO points VALUES(2723,0,2,721,'Por objetividade, e para que não continuem fazendo mal, tenho de insistir em que não se deve dar publicidade nem “hosanar” os inimigos de Deus..., também depois de mortos.');
+INSERT INTO points VALUES(2724,0,2,722,'Hoje ataca-se a nossa Mãe a Igreja no terreno social e no governo dos povos. Por isso Deus envia os seus filhos - a ti! - a lutar e a difundir a verdade nessas tarefas.');
+INSERT INTO points VALUES(2725,0,2,723,'Pela tua condição de cidadão comum, precisamente por esse teu “laicismo”, igual - nem mais nem menos - ao dos teus colegas, deves ter a valentia, que em certas ocasiões não será pequena, de tornar “tangível” a tua fé: que vejam as tuas boas obras e o motivo que te inspira.');
+INSERT INTO points VALUES(2726,0,2,724,'Um filho de Deus - tu - não deve ter medo de viver no ambiente - profissional, social... - que lhe é próprio: nunca está só!
+- Deus Nosso Senhor, que sempre te acompanha, concede-te os meios para que Lhe sejas fiel e para que leves os outros até Ele.');
+INSERT INTO points VALUES(2727,0,2,725,'Tudo por Amor! Este é o caminho da santidade, da felicidade.
+Enfrenta com essas miras as tuas tarefas intelectuais, as ocupações mais altas do espírito e as coisas mais terra-a-terra, essas que necessariamente temos de cumprir todos, e viverás alegre e com paz.');
+INSERT INTO points VALUES(2728,0,2,726,'Tu, por seres cristão, dentro dos limites do dogma e da moral, podes ceder em tudo o que for teu, e ceder de todo o coração... Mas, no que é de Jesus Cristo, não podes ceder!');
+INSERT INTO points VALUES(2729,0,2,727,'Quando tiveres de mandar, não humilhes: procede com delicadeza; respeita a inteligência e a vontade daquele que obedece.');
+INSERT INTO points VALUES(2730,0,2,728,'Logicamente, tens de empregar meios terrenos. - Mas põe um empenho muito grande em estar desprendido de tudo o que é terreno, para usá-
+-lo pensando sempre no serviço a Deus e aos homens.');
+INSERT INTO points VALUES(2731,0,2,729,'Planejar tudo? - Tudo, disseste-me. - De acordo; é necessário exercitar a prudência, mas tem em conta que os empreendimentos humanos, árduos ou comuns, conservam sempre uma margem de imprevistos..., e que um cristão, além disso, não deve barrar o passo à esperança, nem prescindir da Providência divina.');
+INSERT INTO points VALUES(2732,0,2,730,'Tens de trabalhar com tal sentido sobrenatural, que só te deixes absorver pela tua atividade para divinizá-la: assim, o que é terreno se converte em divino, o que é temporal se converte em eterno.');
+INSERT INTO points VALUES(2733,0,2,731,'As obras em serviço de Deus nunca se perdem por falta de dinheiro: perdem-se por falta de espírito.');
+INSERT INTO points VALUES(2734,0,2,732,'Não te causa alegria sentir tão de perto a pobreza de Jesus?... Como é bonito não ter nem mesmo o necessário! Mas, como Ele: oculta e silenciosamente.');
+INSERT INTO points VALUES(2735,0,2,733,'A devoção sincera, o verdadeiro amor a Deus, leva ao trabalho, ao cumprimento - ainda que custe - do dever de cada dia.');
+INSERT INTO points VALUES(2736,0,2,734,'Tem-se posto de relevo, muitas vezes,o perigo das obras sem vida interior que as anime; mas deveria também sublinhar-se o perigo de uma vida interior - se é que pode existir - sem obras.');
+INSERT INTO points VALUES(2737,0,2,735,'A luta interior não nos afasta das nossas ocupações temporais: leva-nos a terminá-las melhor!');
+INSERT INTO points VALUES(2738,0,2,736,'A tua existência não é uma repetição de atos iguais, porque o seguinte deve ser mais reto, mais eficaz, mais cheio de amor que o anterior. - Cada dia nova luz, novo entusiasmo!, por Ele!');
+INSERT INTO points VALUES(2739,0,2,737,'Em cada dia, deves fazer tudo o que possas para conhecer a Deus, para manter um “trato” íntimo com Ele, para te enamorares mais dEle em cada instante e não pensares senão no seu Amor e na sua glória.
+Cumprirás este plano, filho, se não abandonares - por nada! - os teus tempos de oração, a tua presença de Deus (com jaculatórias e comunhões espirituais, para te inflamares), a tua Santa Missa pausada, o teu trabalho bem acabado por amor dEle.');
+INSERT INTO points VALUES(2740,0,2,738,'Nunca compartilharei a opinião - embora a respeite - dos que separam a oração da vida ativa, como se fossem incompatíveis.
+Nós, os filhos de Deus, temos de ser contemplativos: pessoas que, no meio do fragor da multidão, sabem encontrar o silêncio da alma em colóquio permanente com o Senhor; e olhá-Lo como se olha para um Pai, como se olha para um Amigo, a quem se ama com loucura.');
+INSERT INTO points VALUES(2741,0,2,739,'Uma pessoa piedosa, com uma piedade sem carolice, cumpre o seu dever profissional com perfeição, porque sabe que esse trabalho é prece elevada a Deus.');
+INSERT INTO points VALUES(2742,0,2,740,'A nossa condição de filhos de Deus há de levar-nos - insisto - a ter espírito contemplativo no meio de todas as atividades humanas - luz, sal e fermento, pela oração, pela mortificação, pela cultura religiosa e profissional -, tornando realidade este programa: quanto mais dentro do mundo estivermos, tanto mais temos que ser de Deus.');
+INSERT INTO points VALUES(2743,0,2,741,'O ouro bom e os diamantes estão nas entranhas da terra, não na palma da mão.
+O teu labor de santidade - própria e dos outros - depende desse fervor, dessa alegria, desse teu trabalho, obscuro e cotidiano, normal e corrente.');
+INSERT INTO points VALUES(2744,0,2,742,'Na nossa conduta habitual, necessitamos de uma virtude muito superior à do lendário rei Midas: ele convertia em ouro tudo quanto tocava.
+- Nós temos de converter - pelo amor - o trabalho humano, da nossa jornada habitual, em obra de Deus, com alcance eterno.');
+INSERT INTO points VALUES(2745,0,2,743,'Na tua vida, se te propuseres consegui-lo, tudo pode ser objeto de oferecimento ao Senhor, ocasião de colóquio com teu Pai do Céu, que sempre reserva e concede luzes novas.');
+INSERT INTO points VALUES(2746,0,2,744,'Trabalha com alegria, com paz, com presença de Deus.
+- Desta maneira, além disso, realizarás a tua tarefa com bom senso: mesmo que o cansaço te esgote, chegarás ao fim, acabá-la-ás bem..., e as tuas obras agradarão a Deus.');
+INSERT INTO points VALUES(2747,0,2,745,'Deves manter - ao longo do dia - uma constante conversa com o Senhor, que se alimente também das próprias incidências da tua tarefa profissional.
+- Vai com o pensamento ao Sacrário..., e oferece ao Senhor o trabalho que tenhas entre mãos.');
+INSERT INTO points VALUES(2748,0,2,746,'Aí, nesse lugar de trabalho, deves conseguir que o teu coração escape para o Senhor, junto ao Sacrário, para Lhe dizer, sem fazer coisas estranhas: - Meu Jesus, eu te amo.
+- Não tenhas medo de chamá-Lo assim - meu Jesus - e de chamá-lo amiúde.');
+INSERT INTO points VALUES(2749,0,2,747,'Era assim que um sacerdote desejava dedicar-se à oração, enquanto recitava o Ofício divino: “Terei por norma dizer no começo: Quero rezar como rezam os santos , e depois convidarei o meu Anjo da Guarda a cantar, comigo, os louvores ao Senhor”.
+Experimenta este caminho para a tua oração vocal e para fomentares a presença de Deus no teu trabalho.');
+INSERT INTO points VALUES(2750,0,2,748,'Recebeste a chamada de Deus para um caminho concreto: meteres-te em todas as encruzilhadas do mundo, estando tu - no teu trabalho profissional - metido em Deus.');
+INSERT INTO points VALUES(2751,0,2,749,'Não percas nunca de vista a mira sobrenatural. - Retifica a intenção, como se vai retificando o rumo do navio no mar alto: olhando para a estrela, olhando para Maria. E terás a certeza de chegar sempre a bom porto.');
+INSERT INTO points VALUES(2752,0,2,750,'Não te digo, Senhor, que me tires os afetos - porque com eles posso servir-te -, mas que os acrisoles.');
+INSERT INTO points VALUES(2753,0,2,751,'Perante todas as maravilhas de Deus, e perante todos os nossos fracassos humanos, temos de reconhecer: - Tu és tudo para mim: serve-te de mim como quiseres! - E deixará de haver solidão para ti, para nós.');
+INSERT INTO points VALUES(2754,0,2,752,'O grande segredo da santidade reduz-se a parecer-se mais e mais com Ele, que é o único e amável Modelo.');
+INSERT INTO points VALUES(2755,0,2,753,'Quando fores orar, e não enxergares nada, e te sentires agitado e seco, este é o caminho: não penses em ti; volta antes os teus olhos para a Paixão de Cristo, nosso Redentor.
+Convence-te de que o Senhor também pede a cada um de nós o que pedia àqueles três Apóstolos mais íntimos, no Horto das Oliveiras: “Vigiai e orai”.');
+INSERT INTO points VALUES(2756,0,2,754,'Quando abrires o Santo Evangelho, pensa que não só deves saber, mas viver o que ali se narra: obras e ditos de Cristo. Tudo, cada ponto que se relata, foi registrado, detalhe por detalhe, para que o encarnes nas circunstâncias concretas da tua existência.
+- O Senhor chamou-nos, a nós católicos, para que O seguíssemos de perto; e, nesse Texto Santo, encontras a Vida de Jesus; mas, além disso, deves encontrar a tua própria vida.
+Aprenderás a perguntar tu também, como o Apóstolo, cheio de amor: “Senhor, que queres que eu faça?...” - A Vontade de Deus!, ouvirás na tua alma de modo terminante.
+Pois bem, pega no Evangelho diariamente, e lê-o e vive-o como norma concreta. - Assim procederam os santos.');
+INSERT INTO points VALUES(2757,0,2,755,'Se verdadeiramente desejas que o teu coração reaja de um modo seguro, eu te aconselho a meter-te numa Chaga do Senhor: assim O tratarás de perto, grudar-te-ás nEle, sentirás palpitar o seu Coração..., e O seguirás em tudo o que te peça.');
+INSERT INTO points VALUES(2758,0,2,756,'A oração é indubitavelmente o “tira-pesares” dos que amamos a Jesus.');
+INSERT INTO points VALUES(2759,0,2,757,'A Cruz simboliza a vida do apóstolo de Cristo, com um vigor e uma verdade que encantam a alma e o corpo, ainda que às vezes custe e se note o peso.');
+INSERT INTO points VALUES(2760,0,2,758,'Compreendo que, por Amor, desejes padecer com Cristo: interpor as tuas costas entre Ele e os algozes que O açoitam; oferecer a tua cabeça, e não a dEle, aos espinhos; e os teus pés e as tuas mãos, aos pregos; ...ou, pelo menos, acompanhar a nossa Mãe Santa Maria, no Calvário, e acusar-te de deicida pelos teus pecados..., e sofrer e amar.');
+INSERT INTO points VALUES(2761,0,2,759,'Propus-me freqüentar mais o Paráclito e pedir-Lhe as suas luzes, disseste-me.
+- Muito bem: mas lembra-te, filho, de que o Espírito Santo é fruto da Cruz.');
+INSERT INTO points VALUES(2762,0,2,760,'O amor saboroso, que torna feliz a alma, está baseado na dor: não é possível amor sem renúncia.');
+INSERT INTO points VALUES(2763,0,2,761,'Cristo pregado na Cruz, e tu?... Ainda metido apenas nos teus gostos! Corrijo-me: pregado pelos teus gostos!');
+INSERT INTO points VALUES(2764,0,2,762,'Não sejamos - não podemos ser! - cristãos adocicados: na terra tem que haver dor e Cruz.');
+INSERT INTO points VALUES(2765,0,2,763,'Nesta nossa vida, é preciso contar com a Cruz. Quem não conta com a Cruz não é cristão..., e não poderá evitar o encontro com a “sua cruz”, na qual desesperará.');
+INSERT INTO points VALUES(2766,0,2,764,'Agora que a Cruz é séria, de peso, Jesus arruma as coisas de tal modo que nos cumula de paz: faz-se nosso Cireneu, para que o fardo se torne leve.
+Diz-Lhe, pois, cheio de confiança: - Senhor, que Cruz é esta? Uma Cruz sem cruz. De agora em diante, com a tua ajuda, conhecendo a fórmula para abandonar-me em Ti, serão sempre assim todas as minhas cruzes.');
+INSERT INTO points VALUES(2767,0,2,765,'Reafirma na tua alma o antigo propósito daquele amigo: - Senhor, quero o sofrimento, não o espetáculo.');
+INSERT INTO points VALUES(2768,0,2,766,'Ter a Cruz é ter a alegria: é ter-te a Ti, Senhor!');
+INSERT INTO points VALUES(2769,0,2,767,'O que verdadeiramente torna infeliz uma pessoa - e até uma sociedade inteira - é essa procura, ansiosa e egoísta, de bem-estar: essa tentativa de eliminar tudo o que contraria.');
+INSERT INTO points VALUES(2770,0,2,768,'O caminho do Amor chama-se Sacrifício.');
+INSERT INTO points VALUES(2771,0,2,769,'A Cruz - a Santa Cruz! - pesa.
+- Por um lado, estão os meus pecados. Por outro, a triste realidade dos sofrimentos da nossa Mãe a Igreja; a apatia de tantos católicos que têm um “querer sem querer”; a separação - por diversos motivos - de seres amados; as doenças e tribulações, alheias e próprias...
+A Cruz - a Santa Cruz! - pesa: "Fiat, adimpleatur...!" - Faça-se, cumpra-se, seja louvada e eternamente glorificada a justíssima e amabilíssima Vontade de Deus sobre todas as coisas. Assim seja. Assim seja.');
+INSERT INTO points VALUES(2772,0,2,770,'Quando se caminha por onde Cristo caminha; quando já não há resignação, mas a alma se conforma com a Cruz - se amolda à forma da Cruz -; quando se ama a Vontade de Deus; quando se quer a Cruz..., então, mas só então, é Ele que a leva.');
+INSERT INTO points VALUES(2773,0,2,771,'Une a tua dor - a Cruz exterior ou interior - à Vontade de Deus, por meio de um "fiat!" - faça-se - generoso, e te encherás de júbilo e de paz.');
+INSERT INTO points VALUES(2774,0,2,772,'Sinais inequívocos da verdadeira Cruz de Cristo: a serenidade, um profundo sentimento de paz, um amor disposto a qualquer sacrifício, uma eficácia grande, que brota do próprio Lado aberto de Jesus, e sempre - de modo evidente - a alegria: uma alegria que procede de saber que, quem se entrega de verdade, está junto da Cruz e, por conseguinte, junto de Nosso Senhor.');
+INSERT INTO points VALUES(2775,0,2,773,'Não deixes de ver e de agradecer a predileção do Rei que, na tua vida inteira, sela a tua carne e o teu espírito com o selo régio da Santa Cruz.');
+INSERT INTO points VALUES(2776,0,2,774,'“Trago comigo - escrevia aquele amigo - um pequeno crucifixo, com a imagem muito gasta pelo uso e pelos beijos, herdado por meu pai quando da morte de sua mãe, que o usava habitualmente.
+“Como é muito pobrezinho e está muito gasto, não me atreverei a dá-lo de presente a ninguém, e deste modo - ao vê-lo - aumentará o meu amor à Cruz”.');
+INSERT INTO points VALUES(2777,0,2,775,'Assim rezava um sacerdote, em momentos de aflição: “Venha, Jesus, a Cruz que Tu quiseres; desde agora a recebo com alegria e a abençôo com a rica bênção do meu sacerdócio”.');
+INSERT INTO points VALUES(2778,0,2,776,'Quando receberes algum golpe forte, alguma Cruz, não deves afligir-te. Pelo contrário, de rosto alegre, deves dar graças ao Senhor.');
+INSERT INTO points VALUES(2779,0,2,777,'Ontem vi um quadro de Jesus morto, que me encantou. Um anjo, com unção indizível, beija a sua mão esquerda; outro, aos pés do Salvador, tem um prego arrancado da Cruz; e, em primeiro plano, de costas, olhando para Cristo, um anjinho pequeno chora.
+Pedi ao Senhor que me oferecessem o quadro de presente: é bonito, respira piedade. - Entristeceu-me saber que uma pessoa, a quem mostraram a tela para que a comprasse, a rejeitou dizendo: “Um cadáver!”. - Para mim, Tu serás sempre a Vida.');
+INSERT INTO points VALUES(2780,0,2,778,'Senhor - não me importo de repeti-lo milhares de vezes -, quero acompanhar-te, sofrendo Contigo, nas humilhações e crueldades da Paixão e da Cruz.');
+INSERT INTO points VALUES(2781,0,2,779,'Encontrar a Cruz é encontrar Cristo.');
+INSERT INTO points VALUES(2782,0,2,780,'Jesus, que o teu Sangue de Deus penetre nas minhas veias, para fazer-me viver, em cada instante, a generosidade da Cruz.');
+INSERT INTO points VALUES(2783,0,2,781,'Perante Jesus morto na Cruz, faz oração, para que a Vida e a Morte de Cristo sejam o modelo e o estímulo da tua vida e da tua resposta à Vontade divina.');
+INSERT INTO points VALUES(2784,0,2,782,'Lembra-te disto na hora da dor ou da expiação: a Cruz é o sinal de Cristo Redentor. Deixou de ser o símbolo do mal para ser o sinal da vitória.');
+INSERT INTO points VALUES(2785,0,2,783,'Tens que pôr, entre os ingredientes da comida, o “riquíssimo” da mortificação.');
+INSERT INTO points VALUES(2786,0,2,784,'Não é espírito de penitência fazer nuns dias grandes mortificações, e abandoná-las em outros.
+- Espírito de penitência significa saber vencer-se todos os dias, oferecendo a Deus coisas - grandes e pequenas - por amor e sem espetáculo.');
+INSERT INTO points VALUES(2787,0,2,785,'Se unirmos as nossas ninharias - as insignificantes e as grandes contrariedades - aos grandes sofrimentos do Senhor-Vítima - a única Vítima é Ele! -, aumentará o seu valor, tornar-se-ão um tesouro e, então, tomaremos com gosto, com garbo, a Cruz de Cristo.
+- E não haverá assim pena alguma que não se vença com rapidez; e não haverá nada nem ninguém que nos tire a paz e a alegria.');
+INSERT INTO points VALUES(2788,0,2,786,'Para seres apóstolo, tens que levar em ti - como ensina São Paulo - Cristo crucificado.');
+INSERT INTO points VALUES(2789,0,2,787,'É verdade! A Santa Cruz traz às nossas vidas a confirmação inequívoca de que somos de Cristo.');
+INSERT INTO points VALUES(2790,0,2,788,'A Cruz não é a pena, nem o desgosto, nem a amargura... É o madeiro santo onde triunfa Jesus Cristo..., e onde triunfamos nós, quando recebemos com alegria e generosamente o que Ele nos envia.');
+INSERT INTO points VALUES(2791,0,2,789,'Após o Santo Sacrifício, percebeste como da tua Fé e do teu Amor - da tua penitência, da tua oração e da tua atividade - dependem em boa parte a perseverança dos teus e, por vezes, até a sua vida terrena.
+- Bendita Cruz, que carregamos o meu Senhor Jesus - Ele -, e tu, e eu!');
+INSERT INTO points VALUES(2792,0,2,790,'Õ Jesus, quero ser uma fogueira de loucura de Amor! Quero que já só a minha presença seja bastante para incendiar o mundo, em muitos quilômetros à volta, com um incêndio inextinguível. Quero saber que sou teu. Depois, que venha a Cruz...
+- Magnífico caminho! Sofrer, amar e crer.');
+INSERT INTO points VALUES(2793,0,2,791,'Quando estiveres doente, oferece com amor os teus sofrimentos, e eles se converterão em incenso que se eleva em honra de Deus e que te santifica.');
+INSERT INTO points VALUES(2794,0,2,792,'Tens de ser, como filho de Deus e com a sua graça, varão ou mulher forte, de desejos e de realidades.
+- Não somos plantas de estufa. Vivemos no meio do mundo, e temos de estar prontos a arrostar todos os ventos, o calor e o frio, a chuva e os ciclones..., mas fiéis a Deus e à sua Igreja.');
+INSERT INTO points VALUES(2795,0,2,793,'Como doem os desprezos, ainda que a vontade os queira!
+- Não te admires: oferece-os a Deus.');
+INSERT INTO points VALUES(2796,0,2,794,'Feriu-te muito esse desprezo!... - Isso significa que te esqueces com demasiada facilidade de quem és.');
+INSERT INTO points VALUES(2797,0,2,795,'Ante as acusações que consideramos injustas, examinemos a nossa conduta, diante de Deus, "cum gaudio et pace" - com alegre serenidade -, e retifiquemos o nosso proceder, mesmo que se trate de coisas sem mal nenhum, se a caridade assim no-lo aconselha.
+- Lutemos por ser santos, cada dia mais; e depois, “que falem”, sempre que a esses falatórios se possa aplicar aquela bem-aventurança: "Beati estis cum... dixerint omne malum adversus vos mentientes propter me" - bem-aventurados sereis quando vos caluniarem por minha causa.');
+INSERT INTO points VALUES(2798,0,2,796,'Afirmou-se - não me recordo de quem foi nem onde - que o vendaval da insídia se assanha contra os que sobressaem, como o furacão açoita os pinheiros mais altos.');
+INSERT INTO points VALUES(2799,0,2,797,'Intrigas, interpretações miseráveis - talhadas à medida do coração vil que interpreta -, sussurros covardes... - É uma cena infelizmente repetida nos diversos ambientes: nem trabalham nem deixam trabalhar.
+- Medita devagar aqueles versos do salmo: “Meu Deus, cheguei a ser um estranho para os meus irmãos, e um forasteiro para os filhos de minha mãe. Porque o zelo da tua casa me devorou, e os opróbrios dos que te ultrajavam caíram sobre mim”... E continua a trabalhar.');
+INSERT INTO points VALUES(2800,0,2,798,'Não se pode fazer o bem, ainda que todas as almas sejam boas, sem que se produza a Cruz santa dos falatórios.');
+INSERT INTO points VALUES(2801,0,2,799,'"In silentio et in spe erit fortitudo vestra" - no silêncio e na esperança residirá a vossa fortaleza..., assegura o Senhor aos seus. Calar-se e confiar: duas armas fundamentais no momento da adversidade, quando te forem negados os remédios humanos.
+O sofrimento suportado sem queixa - olha para Jesus na sua Santa Paixão e Morte - dá também a medida do amor.');
+INSERT INTO points VALUES(2802,0,2,800,'Assim rezava uma alma desejosa de ser inteiramente de Deus e, por Ele, de todas as almas: “Senhor, eu te peço que atues neste pecador, e que retifiques e purifiques e acrisoles as minhas intenções”.');
+INSERT INTO points VALUES(2803,0,2,801,'Tocou-me a condescendência - a transigência e a intransigência - daquele varão doutíssimo e santo, que dizia: - Avenho-me a tudo, menos a ofender a Deus.');
+INSERT INTO points VALUES(2804,0,2,802,'Considera o bem que fizeram à tua alma aqueles que, durante a tua vida, te mortificaram ou procuraram mortificar-te.
+- Há quem chame inimigos a essas pessoas. Tu - procurando imitar os santos, ao menos nisto, e valendo muito pouco para teres ou teres tido inimigos -, chama-os “benfeitores”. E acontecerá que, à força de pedir por eles a Deus, lhes terás simpatia.');
+INSERT INTO points VALUES(2805,0,2,803,'Filho, escuta-me bem: tu, feliz quando te maltratarem e te desonrarem; quando muita gente se alvoroçar e estiver na moda cuspir em ti, porque és "omnium peripsema" - como lixo para todos...
+- Custa, custa muito. É duro, até que - finalmente - um homem se aproxima do Sacrário, vê-se considerado como toda a porcaria do mundo, como um pobre verme, e diz de verdade: “Senhor, se Tu não precisas da minha honra, eu para que a quero?”.
+Até então, não sabe o filho de Deus o que é ser feliz: até chegar a essa nudez, a essa entrega, que é entrega de amor, mas fundada na mortificação, na dor.');
+INSERT INTO points VALUES(2806,0,2,804,'Contradição dos bons? - Coisas do demônio.');
+INSERT INTO points VALUES(2807,0,2,805,'Quando perdes a calma e ficas nervoso, é como se tirasses razão à tua razão.
+Nesses momentos, torna-se a ouvir a voz do Mestre a Pedro, que se afunda nas águas da sua falta de paz e dos seus nervos: “Por que duvidaste?”.');
+INSERT INTO points VALUES(2808,0,2,806,'A ordem dará harmonia à tua vida e te obterá a perseverança. A ordem proporcionará paz ao teu coração e gravidade à tua compostura.');
+INSERT INTO points VALUES(2809,0,2,807,'Copio este texto, porque pode dar paz à tua alma: “Encontro-me numa situação econômica tão apertada como nunca. Não perco a paz. Tenho absoluta certeza de que Deus, meu Pai, resolverá todo este assunto de uma vez.
+“Quero, Senhor, abandonar o cuidado de todas as minhas coisas nas tuas mãos generosas. A nossa Mãe - a tua Mãe! -, a estas horas, como em Caná, já fez soar aos teus ouvidos: - Não têm!... Eu creio em Ti, espero em Ti, amo-Te, Jesus: para mim, nada; para eles”.');
+INSERT INTO points VALUES(2810,0,2,808,'Amo a tua Vontade. Amo a santa pobreza, minha grande senhora.
+- E abomino, para sempre, tudo o que suponha, mesmo de longe, falta de adesão à tua justíssima, amabilíssima e paternal Vontade.');
+INSERT INTO points VALUES(2811,0,2,809,'O espírito de pobreza, de desprendimento dos bens terrenos, redunda na eficácia do apostolado.');
+INSERT INTO points VALUES(2812,0,2,810,'Nazaré: caminho de fé, de desprendimento, onde o Criador se submete às criaturas tal como ao seu Pai celestial.');
+INSERT INTO points VALUES(2813,0,2,811,'Jesus fala sempre com amor..., também quando nos corrige ou permite a tribulação.');
+INSERT INTO points VALUES(2814,0,2,812,'Identifica-te com a Vontade de Deus..., e assim a contradição não é contradição.');
+INSERT INTO points VALUES(2815,0,2,813,'Deus nos ama infinitamente mais do que tu mesmo te amas... Deixa, pois, que te exija!');
+INSERT INTO points VALUES(2816,0,2,814,'Aceita sem medo a Vontade de Deus; formula sem vacilações o propósito de edificar toda a tua vida com o que nos ensina e exige a nossa fé.
+- Deste modo, podes estar certo de que, mesmo com penas e até com calúnias, serás feliz, com uma felicidade que te impelirá a amar os outros e a fazê-los participar da tua alegria sobrenatural.');
+INSERT INTO points VALUES(2817,0,2,815,'Se vierem contradições, fica certo de que são uma prova do amor de Pai que o Senhor tem por ti.');
+INSERT INTO points VALUES(2818,0,2,816,'Nesta forja de dor que acompanha a vida de todas as pessoas que amam, o Senhor nos ensina que quem pisa sem medo - embora custe - onde pisa o Mestre, encontra a alegria.');
+INSERT INTO points VALUES(2819,0,2,817,'Fortalece o teu espírito com a penitência, de tal maneira que, quando chegar a contradição, nunca desanimes.');
+INSERT INTO points VALUES(2820,0,2,818,'Quando te proporás, de uma vez por todas, identificar-te com esse Cristo que é Vida!');
+INSERT INTO points VALUES(2821,0,2,819,'Para perseverar no seguimento dos passos de Jesus, é precisa uma liberdade contínua, um querer contínuo, um exercício contínuo da própria liberdade.');
+INSERT INTO points VALUES(2822,0,2,820,'Maravilha-te descobrir que, em cada uma das possibilidades de melhorar, existem muitas metas diferentes...
+- São outros caminhos dentro do “caminho”, que evitam a possível rotina e te aproximam mais do Senhor.
+- Tens de aspirar com generosidade ao que for mais alto.');
+INSERT INTO points VALUES(2823,0,2,821,'Deves trabalhar com humildade, quer dizer, contando primeiro com as bênçãos de Deus, que não te faltarão; depois, com os teus bons desejos, com os teus planos de trabalho, e com as tuas dificuldades!, sem esquecer que, entre essas dificuldades, deves colocar sempre a tua falta de santidade.
+- Serás bom instrumento se lutares cada dia por ser melhor.');
+INSERT INTO points VALUES(2824,0,2,822,'Confiaste-me que, na tua oração, abrias o coração com as seguintes palavras: “Considero, Senhor, as minhas misérias, que parecem aumentar apesar das tuas graças, sem dúvida pela minha falta de correspondência. Reconheço a ausência em mim da menor preparação para o empreendimento que pedes. E quando leio nos jornais que tantos e tantos homens de prestígio, de talento e de dinheiro falam e escrevem e organizam para defender o teu reinado..., olho para mim e vejo-me tão ignorante e tão pobre, numa palavra, tão pequeno..., que me encheria de confusão e de vergonha se não soubesse que Tu me queres assim. Ó Jesus! Por outro lado, sabes bem como coloquei a teus pés, com a maior das boas vontades, a minha ambição... Fé e Amor: Amar, Crer, Sofrer. Nisto, sim, quero ser rico e sábio, mas não mais sábio nem mais rico do que aquilo que Tu, na tua Misericórdia sem limites, tenhas determinado: porque devo pôr todo o meu prestígio e honra em cumprir fielmente a tua justíssima e amabilíssima Vontade”.
+- Aconselhei-te a não ficar só nesses bons desejos.');
+INSERT INTO points VALUES(2825,0,2,823,'O amor a Deus convida-nos a levar a Cruz a pulso..., a sentir sobre os ombros o peso da humanidade inteira, e a cumprir, nas circunstâncias próprias do estado de vida e do trabalho de cada um, os desígnios - claros e amorosos ao mesmo tempo - da Vontade do Pai.');
+INSERT INTO points VALUES(2826,0,2,824,'O maior louco que já houve e haverá é Ele. É possível maior loucura do que entregar-se como Ele se entrega, e àqueles a quem se entrega?
+Porque, na verdade, já teria sido loucura ficar como um Menino indefeso; mas, nesse caso, até mesmo muitos malvados se enterneceriam, sem atrever-se a maltratá-Lo. Achou que era pouco: quis aniquilar-se mais e dar-se mais. E fez-se comida, fez-se Pão.
+- Divino Louco! Como é que te tratam os homens?... E eu mesmo?');
+INSERT INTO points VALUES(2827,0,2,825,'Jesus, a tua loucura de amor rouba-me o coração. Estás inerme e pequeno, para engrandecer os que te comem.');
+INSERT INTO points VALUES(2828,0,2,826,'Tens de conseguir que a tua vida seja essencialmente - totalmente! - eucarística.');
+INSERT INTO points VALUES(2829,0,2,827,'Gosto de chamar “prisão de amor” ao Sacrário.
+- Há vinte séculos que Ele está ali..., voluntariamente encerrado!, por mim, e por todos.');
+INSERT INTO points VALUES(2830,0,2,828,'Pensaste alguma vez como te prepararias para receber o Senhor, se apenas se pudesse comungar uma vez na vida?
+- Agradeçamos a Deus a facilidade que temos para aproximar-nos dEle, mas... temos de agradecer preparando-nos muito bem para recebê-Lo.');
+INSERT INTO points VALUES(2831,0,2,829,'Diz ao Senhor que, daqui por diante, de cada vez que celebres ou assistas à Santa Missa, e administres ou recebas o Sacramento Eucarístico, o farás com uma fé grande, com um amor que queime, como se fosse a última vez da tua vida.
+- E sente dor pelas tuas negligências passadas.');
+INSERT INTO points VALUES(2832,0,2,830,'Compreendo as tuas ânsias de receber diariamente a Sagrada Eucaristia, porque quem se sente filho de Deus tem imperiosa necessidade de Cristo.');
+INSERT INTO points VALUES(2833,0,2,831,'Enquanto assistes à Santa Missa, pensa - porque é assim! - que estás participando num Sacrifício divino: sobre o altar, Cristo volta a oferecer-se por ti.');
+INSERT INTO points VALUES(2834,0,2,832,'Quando O receberes, diz-Lhe: - Senhor, espero em Ti; adoro-te, amo-te, aumenta-me a fé. Sê o apoio da minha debilidade, Tu, que ficaste na Eucaristia, inerme, para remediar a fraqueza das criaturas.');
+INSERT INTO points VALUES(2835,0,2,833,'Devemos fazer nossas, por assimilação, aquelas palavras de Jesus: "Desiderio desideravi hoc Pascha manducare vobiscum" - desejei ardentemente comer esta Páscoa convosco. De nenhuma outra maneira poderemos manifestar melhor o nosso máximo interesse e amor pelo Santo Sacrifício, do que observando esmeradamente até a menor das cerimônias prescritas pela sabedoria da Igreja.
+E, além do Amor, deve urgir-nos a “necessidade” de nos parecermos com Jesus Cristo, não apenas interiormente, mas também externamente, movimentando-nos - nos amplos espaços do altar cristão - com aquele ritmo e harmonia da santidade obediente, que se identifica com a vontade da Esposa de Cristo, quer dizer, com a Vontade do próprio Cristo.');
+INSERT INTO points VALUES(2836,0,2,834,'Temos de receber o Senhor, na Eucaristia, como aos grandes da terra, e melhor! Com adornos, luzes, roupa nova...
+- E se me perguntas que limpeza, que adornos e que luzes hás de ter, responder-te-ei: limpeza nos teus sentidos, um por um; adorno nas tuas potências, uma por uma; luz em toda a tua alma.');
+INSERT INTO points VALUES(2837,0,2,835,'Sê alma de Eucaristia!
+- Se o centro dos teus pensamentos e esperanças estiver no Sacrário, filho, que abundantes os frutos de santidade e de apostolado!');
+INSERT INTO points VALUES(2838,0,2,836,'Os objetos empregados no culto divino deverão ser artísticos, tendo em conta que não é o culto para a arte, mas a arte para o culto.');
+INSERT INTO points VALUES(2839,0,2,837,'Acorre perseverantemente ao Sacrário, de modo físico ou com o coração, para te sentires seguro, para te sentires sereno: mas também para te sentires amado... e para amar!');
+INSERT INTO points VALUES(2840,0,2,838,'Copio umas palavras de um sacerdote, dirigidas aos que o seguiam no seu empreendimento apostólico: “Quando contemplardes a Sagrada Hóstia exposta no ostensório sobre o altar, vede que amor, que ternura a de Cristo. Eu o compreendo pelo amor que vos tenho; se pudesse estar longe trabalhando, e ao mesmo tempo junto de cada um de vós, com que gosto o faria!
+“Cristo, porém, pode! E Ele, que nos ama com um amor infinitamente superior ao que possam albergar todos os corações da terra, ficou para que pudéssemos unir-nos sempre à sua Humanidade Santíssima, e para nos ajudar, para nos consolar, para nos fortalecer, para que sejamos fiéis”.');
+INSERT INTO points VALUES(2841,0,2,839,'Não penses que é fácil fazer da vida um serviço. É necessário traduzir em realidades tão bom desejo, porque “o reino de Deus não consiste em palavras, mas na virtude”, ensina o Apóstolo; e porque a prática de uma constante ajuda aos outros não é possível sem sacrifício.');
+INSERT INTO points VALUES(2842,0,2,840,'Deves sentir sempre e em tudo com a Igreja! - Tens de adquirir, por isso, a formação espiritual e doutrinal necessária, que te faça pessoa de reto critério nas tuas opções temporais, pronto e humilde para retificar, quando percebes que te enganaste. - A nobre retificação dos erros pessoais é um modo, muito humano e muito sobrenatural, de exercer a liberdade pessoal.');
+INSERT INTO points VALUES(2843,0,2,841,'Urge difundir a luz da doutrina de Cristo.
+Entesoura formação, enche-te de clareza de idéias, de plenitude da mensagem cristã, para poderes depois transmiti-la aos outros.
+- Não esperes umas iluminações de Deus, que Ele não tem por que dar-te, quando dispões de meios humanos concretos: o estudo, o trabalho.');
+INSERT INTO points VALUES(2844,0,2,842,'O erro não só obscurece a inteligência, como divide as vontades.
+- Em contrapartida, "veritas liberabit vos" - a verdade vos livrará das facções que estiolam a caridade.');
+INSERT INTO points VALUES(2845,0,2,843,'Procuras relacionar-te com esse colega que mal te dá os bons dias..., e isso custa-te.
+- Persevera e não o julgues; deve ter os “seus motivos”, da mesma maneira que tu alimentas os teus para rezar mais por ele em cada dia.');
+INSERT INTO points VALUES(2846,0,2,844,'Se tu estás no mundo de quatro, como estranhas que os outros não sejam anjos?');
+INSERT INTO points VALUES(2847,0,2,845,'Vigia com amor para viveres a santa pureza..., porque mais depressa se apaga uma fagulha do que um incêndio.
+Mas toda a diligência humana, com a mortificação, e o cilício, e o jejum - armas necessárias! -, que pouco valem sem Ti, meu Deus!');
+INSERT INTO points VALUES(2848,0,2,846,'Lembra-te com constância de que tu colaboras na formação espiritual e humana dos que te rodeiam, e de todas as almas - até aí chega a bendita Comunhão dos Santos -, em qualquer momento: quando trabalhas e quando descansas; quando te vêem alegre ou preocupado; quando na tua tarefa ou no meio da rua fazes a tua oração de filho de Deus, e transcende ao exterior a paz da tua alma; quando se nota que sofreste - que choraste - e sorris.');
+INSERT INTO points VALUES(2849,0,2,847,'Uma coisa é a santa coação e outra a violência cega ou a vingança.');
+INSERT INTO points VALUES(2850,0,2,848,'Já o disse o Mestre: oxalá nós, os filhos da luz, ponhamos, em fazer o bem, pelo menos o mesmo empenho e a obstinação com que se dedicam às suas ações os filhos das trevas!
+- Não te queixes: trabalha antes para afogar o mal em abundância de bem.');
+INSERT INTO points VALUES(2851,0,2,849,'É uma caridade falsa aquela que prejudica a eficácia sobrenatural do apostolado.');
+INSERT INTO points VALUES(2852,0,2,850,'Deus necessita de mulheres e homens seguros, firmes, em quem seja possível apoiar-se.');
+INSERT INTO points VALUES(2853,0,2,851,'Não vivemos para a terra, nem para a nossa honra, mas para a honra de Deus, para a glória de Deus, para o serviço de Deus: isto é o que nos há de mover!');
+INSERT INTO points VALUES(2854,0,2,852,'Desde que Jesus Cristo Nosso Senhor fundou a Igreja, esta nossa Mãe tem sofrido contínua perseguição. Talvez em outros tempos as perseguições se fizessem abertamente, e agora se organizam muitas vezes à socapa; mas, hoje como ontem, continua-se combatendo a Igreja.
+- Que obrigação temos de viver, diariamente, como católicos responsáveis!');
+INSERT INTO points VALUES(2855,0,2,853,'Emprega para a tua vida esta receita: “Não me lembro de que existo. Não penso nas minhas coisas, pois não me sobra tempo”.
+- Trabalho e serviço!');
+INSERT INTO points VALUES(2856,0,2,854,'A bondade inigualável da nossa Mãe Santa Maria discorre segundo estas diretrizes: um amor levado até ao extremo, cumprindo com esmero a Vontade divina, e um esquecimento completo de si mesma, feliz de estar onde Deus a quer.
+- Por isso, nem o menor dos seus gestos é trivial. - Aprende.');
+INSERT INTO points VALUES(2857,0,2,855,'Comprometido! Como gosto desta palavra! - Nós, os filhos de Deus, obrigamo-nos - livremente - a viver dedicados ao Senhor, com o empenho de que Ele domine, de modo soberano e completo, nas nossas vidas.');
+INSERT INTO points VALUES(2858,0,2,856,'A santidade - quando é verdadeira - transborda do recipiente, para encher outros corações, outras almas, dessa superabundância.
+Nós, os filhos de Deus, santificamo-nos santificando. - Propaga-se à tua volta a vida cristã? Pensa nisto diariamente.');
+INSERT INTO points VALUES(2859,0,2,857,'O Reino de Jesus Cristo. Isso é o que nos cabe! - Portanto, filho - com generosidade! -, não queiras saber de nenhuma das muitas razões que tens para reinar sobre ti.
+Se O olhas, bastar-te-á contemplar como Ele te ama..., sentirás fomes de corresponder, gritando-Lhe a plenos pulmões que “O amas atualmente”, e compreenderás que, se tu não O deixas, Ele não te deixará.');
+INSERT INTO points VALUES(2860,0,2,858,'O primeiro passo para aproximares os outros dos caminhos de Cristo é que te vejam contente, feliz, seguro no teu caminhar para Deus.');
+INSERT INTO points VALUES(2861,0,2,859,'Um varão católico - uma mulher católica - não pode esquecer esta idéia-mestra: imitar Jesus Cristo, em todos os ambientes, sem repelir ninguém.');
+INSERT INTO points VALUES(2862,0,2,860,'Nosso Senhor Jesus assim o quer: é preciso segui-Lo de perto. Não há outro caminho.
+Esta é a obra do Espírito Santo em cada alma - na tua -, e deves ser dócil, para não levantar obstáculos ao teu Deus.');
+INSERT INTO points VALUES(2863,0,2,861,'Sinal evidente de que procuras a santidade é - deixa-me chamá-lo assim! - o “sadio preconceito psicológico” de pensar habitualmente nos outros, esquecendo-te de ti mesmo, para aproximá-los de Deus.');
+INSERT INTO points VALUES(2864,0,2,862,'Tem de ficar claramente gravado na tua alma que Deus não precisa de ti. - A sua chamada é uma misericórdia amorosíssima do seu Coração.');
+INSERT INTO points VALUES(2865,0,2,863,'Deves tratar com afeto, com carinho - com caridade cristã! -, aquele que erra, mas sem admitir barganhas no que for contrário à nossa santa Fé.');
+INSERT INTO points VALUES(2866,0,2,864,'Recorre a Maria, Doce Senhora, Mãe de Deus e Mãe nossa, pedindo-lhe a limpeza de alma e de corpo de todas as pessoas.
+Diz-lhe que queres invocá-la - e que os outros a invoquem sempre -, e sempre vencer, nas horas ruins - ou boas, e muito boas - da luta contra os inimigos da nossa condição de filhos de Deus.');
+INSERT INTO points VALUES(2867,0,2,865,'Ele veio à terra porque "omnes homines vult salvos fieri" - para redimir o mundo inteiro.
+- Enquanto trabalhas lado a lado com tantas pessoas, lembra-te sempre de que não há alma que não interesse a Cristo!');
+INSERT INTO points VALUES(2868,0,2,866,'Senhor! - afirmavas-Lhe -, gosto de ser agradecido; quero sê-lo sempre com todos.
+- Pois olha: não és uma pedra..., nem um carvalho..., nem um mulo. Não pertences a esses seres, que cumprem o seu fim aqui em baixo. E isso porque Deus quis fazer-te homem ou mulher - filho seu -..., e te ama "in caritate perpetua" - com amor eterno.
+- Gostas de ser agradecido? E vais fazer uma exceção com o Senhor? - Procura que a tua ação de graças, diária, saia impetuosa do teu coração.');
+INSERT INTO points VALUES(2869,0,2,867,'Compreensão, caridade real. Quando a tiveres conseguido de verdade, terás o coração grande para com todos, sem discriminações, e viverás - também com os que te maltrataram - o conselho de Jesus: “Vinde a mim todos os que andais abatidos..., e Eu vos aliviarei”.');
+INSERT INTO points VALUES(2870,0,2,868,'Tens de tratar com afeto os que ignoram as coisas de Deus. Mas com mais razão tens de tratar assim os que as conhecem: sem isto, não podes cumprir aquilo.');
+INSERT INTO points VALUES(2871,0,2,869,'Se de verdade amasses a Deus com todo o teu coração, o amor ao próximo - que às vezes se torna tão difícil para ti - seria uma conseqüência necessária do Grande Amor. - E não te sentirias inimigo de ninguém, nem farias distinção de pessoas.');
+INSERT INTO points VALUES(2872,0,2,870,'Tens ânsias, loucura divina de que as almas conheçam o Amor de Deus? Pois bem, na tua vida de todos os dias, oferece mortificações, reza, cumpre o dever, vence-te em tantos pequenos detalhes.');
+INSERT INTO points VALUES(2873,0,2,871,'Fala-Lhe devagar: - Bom Jesus, se tenho de ser apóstolo - apóstolo de apóstolos -, é preciso que me faças muito humilde.
+Que eu me conheça: que me conheça e que Te conheça.
+- Assim jamais perderei de vista o meu nada.');
+INSERT INTO points VALUES(2874,0,2,872,'"Per Iesum Christum Dominum nostrum" - por Jesus Cristo, Senhor Nosso. Assim tens de fazer as coisas: por Jesus Cristo!
+- É bom que tenhas um coração humano; mas, se fazes as coisas só porque se trata de uma pessoa determinada, mal! - Ainda que o faças também por esse irmão, por esse amigo, faze-o sobretudo por Jesus Cristo!');
+INSERT INTO points VALUES(2875,0,2,873,'A Igreja, as almas - de todos os continentes, de todos os tempos atuais e vindouros - esperam muito de ti... Mas - que isto se meta bem na tua cabeça e no teu coração! - serás estéril se não fores santo: corrijo-me, se não lutares por ser santo.');
+INSERT INTO points VALUES(2876,0,2,874,'Deixa-te modelar pelos golpes - fortes ou delicados - da graça. Esforça-te por não ser obstáculo, mas instrumento. E, se quiseres, a tua Mãe Santíssima te ajudará, e serás canal, em vez de pedra que desvie o curso das águas divinas.');
+INSERT INTO points VALUES(2877,0,2,875,'Senhor, ajuda-me a ser-te fiel e dócil, "sicut lutum in manu figuli" , como o barro nas mãos do oleiro. - E assim não viverei eu, mas viverás e agirás Tu em mim, Amor.');
+INSERT INTO points VALUES(2878,0,2,876,'Jesus fará que ganhes um carinho grande por todas as pessoas com quem te relacionas, que em nada toldará aquele que tens por Ele. Ao contrário: quanto mais amares Jesus, mais gente caberá no teu coração.');
+INSERT INTO points VALUES(2879,0,2,877,'Quanto mais a criatura se aproxima de Deus, mais universal se sente: dilata-se o seu coração, para que caibam todos e tudo, no único grande desejo de pôr o universo aos pés de Jesus.');
+INSERT INTO points VALUES(2880,0,2,878,'Ao morrer na Cruz, Jesus tinha trinta e três anos. A juventude não pode servir de desculpa!
+Além disso, a cada dia que passa, vais deixando de ser jovem..., se bem que, com Ele, terás a sua juventude eterna.');
+INSERT INTO points VALUES(2881,0,2,879,'Tens de rejeitar o nacionalismo, que dificulta a compreensão e a convivência: é uma das barreiras mais perniciosas de muitos momentos históricos.
+E rejeita-o com mais força - porque seria mais nocivo -, se se pretende levá-lo ao Corpo da Igreja, que é onde mais deve resplandecer a união de tudo e de todos no amor a Jesus Cristo.');
+INSERT INTO points VALUES(2882,0,2,880,'Tu, filho de Deus, que fizeste até agora para ajudar as almas dos que te rodeiam?
+- Não podes conformar-te com essa passividade, com essa languidez: Ele quer chegar a outros através do teu exemplo, da tua palavra, da tua amizade, do teu serviço...');
+INSERT INTO points VALUES(2883,0,2,881,'Sacrifica-te, entrega-te, e trabalha com as almas uma a uma, como se tratam uma a uma as jóias preciosas.
+- Mais ainda, hás de pôr maior empenho, porque está em jogo uma coisa de valor incomparável: o objetivo dessa atenção espiritual é preparar para o serviço de Deus bons instrumentos, que custaram a Cristo - cada um! - todo o seu Sangue.');
+INSERT INTO points VALUES(2884,0,2,882,'Ser cristão - e de modo particular ser sacerdote; lembrando-nos também de que todos os batizados participamos do sacerdócio real - é estar continuamente na Cruz.');
+INSERT INTO points VALUES(2885,0,2,883,'Se fosses coerente, agora que viste a Sua luz, desejarias ser tão santo, como tão grande pecador foste: e lutarias por tornar realidade essas ânsias.');
+INSERT INTO points VALUES(2886,0,2,884,'Não é orgulho, mas fortaleza, fazer sentir o peso da autoridade, cortando quanto houver que cortar, quando assim o exigir o cumprimento da Santa Vontade de Deus.');
+INSERT INTO points VALUES(2887,0,2,885,'Òs vezes, é preciso atar certas mãos, com reverência e com comedimento, sem afrontas nem descortesia. Não por vingança, mas para curar. Não por castigo, mas como remédio.');
+INSERT INTO points VALUES(2888,0,2,886,'Olhaste-me sério..., mas por fim entendeste-me, quando te comentei: “Quero reproduzir a vida de Cristo nos filhos de Deus, à força de meditá-la, para que atuem como Ele e falem somente dEle”.');
+INSERT INTO points VALUES(2889,0,2,887,'Jesus ficou na Eucaristia por amor..., por ti.
+- Ficou, sabendo como é que os homens O receberiam..., e como é que tu O recebes.
+- Ficou, para que O comas, para que O visites e Lhe contes as tuas coisas e, chegando ao trato íntimo na oração junto do Sacrário e na recepção do Sacramento, te enamores mais de dia para dia, e faças que outras almas - muitas! - sigam o mesmo caminho.');
+INSERT INTO points VALUES(2890,0,2,888,'Dizes-me que desejas a santa pobreza, o desprendimento das coisas que usas. - Pergunta-te a ti mesmo: - Tenho os afetos de Jesus Cristo, e os seus sentimentos, no que se refere à pobreza e às riquezas?
+E aconselhei-te: - Além de descansares no teu Pai-Deus, com verdadeiro abandono de filho..., fixa particularmente os teus olhos nessa virtude, para amá-la como Jesus. E assim, em lugar de vê-la como uma cruz, hás de considerá-la como sinal de predileção.');
+INSERT INTO points VALUES(2891,0,2,889,'Às vezes, com a sua atuação, alguns cristãos não dão ao preceito da caridade o valor máximo que tem. Cristo, rodeado pelos seus, naquele maravilhoso sermão final, dizia a modo de testamento: "Mandatum novum do vobis, ut diligatis invicem" - dou-vos um mandamento novo, que vos ameis uns aos outros.
+E ainda insistiu: "In hoc cognoscent omnes quia discipuli mei estis" - nisto saberão todos que sois meus discípulos, se tiverdes amor uns aos outros.
+- Oxalá nos decidamos a viver como Ele quer!');
+INSERT INTO points VALUES(2892,0,2,890,'Se vier a faltar a piedade - esse laço que nos ata fortemente a Deus e, por Ele, aos outros, porque nos outros vemos Cristo -, é inevitável que se produza a desunião, com a perda de todo o espírito cristão.');
+INSERT INTO points VALUES(2893,0,2,891,'Agradece de todo o coração ao Senhor as potências admiráveis... - e terríveis - da inteligência e da vontade, com as quais Ele quis criar-te. Admiráveis, porque te fazem semelhante a Ele; terríveis, porque há homens que as reviram contra o seu Criador.
+A mim, como síntese do nosso agradecimento de filhos de Deus, ocorre-me dizer, agora e sempre, a este Pai nosso: “Serviam!” - eu Te servirei!');
+INSERT INTO points VALUES(2894,0,2,892,'Sem vida interior, sem formação, não há verdadeiro apostolado nem obras fecundas: o trabalho é precário e até fictício.
+- Que responsabilidade, portanto, a dos filhos de Deus! Havemos de ter fome e sede dEle e da sua doutrina.');
+INSERT INTO points VALUES(2895,0,2,893,'Diziam àquele bom amigo, para humilhá-lo, que a sua alma era de segunda ou de terceira categoria.
+Convencido do seu nada, sem se aborrecer, raciocinava assim: - Como cada homem não tem senão uma alma - eu a minha, uma só também -, para cada um a sua alma será... de primeira categoria. Não quero abaixar a pontaria! Portanto, tenho uma alma de “primeiríssima”, e quero, com a ajuda de Deus, purificá-la e branqueá-la e inflamá-la, para que o Amado esteja muito contente.
+- Não o esqueças: tu também - ainda que te vejas cheio de misérias - não podes “abaixar a pontaria”.');
+INSERT INTO points VALUES(2896,0,2,894,'Para ti, que te queixas de estar só, de que o ambiente é agressivo: pensa que Cristo Jesus, Bom Semeador, nos aperta a cada um dos seus filhos na sua mão chagada - como ao trigo -; inunda-nos com o seu Sangue, purifica-nos, limpa-nos, embriaga-nos!...; e depois, generosamente, nos lança pelo mundo um a um: que o trigo não se semeia aos sacos, mas grão a grão.');
+INSERT INTO points VALUES(2897,0,2,895,'Insisto: suplica ao Senhor que conceda aos seus filhos o “dom de línguas”, o dom de se fazerem entender por todos.
+A razão pela qual desejo este “dom de línguas”, podes deduzi-la das páginas do Evangelho, repletas de parábolas, de exemplos que materializam a doutrina e ilustram as coisas espirituais, sem envilecer nem degradar a palavra de Deus.
+Para todos - doutos e menos doutos -, é mais fácil considerar e entender a mensagem divina através dessas imagens humanas.');
+INSERT INTO points VALUES(2898,0,2,896,'Nestes momentos - e sempre! -, quando o Senhor quer que a sua semente se espalhe, numa divina dispersão pelos diversos ambientes, quer também que a extensão não faça perder a intensidade...
+- E tu tens a missão, clara e sobrenatural, de contribuir para que essa intensidade não se perca.');
+INSERT INTO points VALUES(2899,0,2,897,'Sim, tens razão: que profundidade, a da tua miséria! Só por ti, onde estarias agora, até onde terias chegado?...
+“Somente um Amor cheio de misericórdia pode continuar a amar-me”, reconhecias.
+- Consola-te: Ele não te negará nem o seu Amor nem a sua misericórdia, se O procuras.');
+INSERT INTO points VALUES(2900,0,2,898,'Tu tens de procurar que haja, no meio do mundo, muitas almas que amem a Deus de todo o coração.
+É hora de fazer contas: quantas ajudaste tu a descobrir esse Amor?');
+INSERT INTO points VALUES(2901,0,2,899,'A presença e o testemunho dos filhos de Deus no mundo é para arrastar, não para se deixarem arrastar; para dar o seu próprio ambiente - o de Cristo -, não para se deixarem dominar por outro ambiente.');
+INSERT INTO points VALUES(2902,0,2,900,'Tens obrigação de aproximar-te dos que estão à tua volta, de sacudi-los da sua modorra, de rasgar horizontes diferentes e amplos à sua existência aburguesada e egoísta, de lhes complicar santamente a vida, de fazer que se esqueçam de si mesmos e compreendam os problemas dos outros.
+Senão, não és bom irmão dos teus irmãos, os homens, que estão precisados desse "gaudium cum pace" - desta alegria e desta paz, que talvez não conheçam ou tenham esquecido.');
+INSERT INTO points VALUES(2903,0,2,901,'Nenhum filho da Igreja Santa pode viver tranqüilo, sem experimentar inquietação perante as massas despersonalizadas: rebanho, manada, vara, escrevi certa vez. Quantas paixões nobres não existem na sua aparente indiferença! Quantas possibilidades!
+É necessário servir a todos, impor as mãos sobre cada um - "singulis manus imponens" , como fazia Jesus -, para devolvê-los à vida, para iluminar as suas inteligências e robustecer as suas vontades, para que sejam úteis!');
+INSERT INTO points VALUES(2904,0,2,902,'Eu também não pensava que Deus me apanharia como o fez. Mas o Senhor - deixa-me que te repita - não nos pede licença para nos “complicar a vida”. Mete-se e... pronto!');
+INSERT INTO points VALUES(2905,0,2,903,'Senhor, confiarei somente em Ti. Ajuda-me a ser-te fiel, porque sei que, desta fidelidade em servir-te - deixando nas tuas mãos todas as minhas preocupações e cuidados - posso esperar tudo.');
+INSERT INTO points VALUES(2906,0,2,904,'Agradeçamos muito e com freqüência esta chamada maravilhosa que recebemos de Deus: que seja uma gratidão real e profunda, estreitamente unida à humildade.');
+INSERT INTO points VALUES(2907,0,2,905,'O privilégio de nos contarmos entre os filhos de Deus - felicidade suprema - é sempre imerecido.');
+INSERT INTO points VALUES(2908,0,2,906,'Corta o coração aquele clamor - sempre atual! - do Filho de Deus, que se lamenta porque a messe é muita e os operários são poucos.
+- Esse grito saiu da boca de Cristo para que também tu o ouças. Como lhe respondeste até agora? Rezas, ao menos diariamente, por essa intenção?');
+INSERT INTO points VALUES(2909,0,2,907,'Para seguir o Senhor, é preciso dar-se de uma vez, sem reservas e energicamente: cortar as amarras com decisão, para que não haja possibilidades de retroceder.');
+INSERT INTO points VALUES(2910,0,2,908,'Não te assustes quando Jesus te pedir mais, mesmo a felicidade das pessoas do teu sangue. Convence-te de que, de um ponto de vista sobrenatural, Ele tem o direito de passar por cima dos teus, para a sua Glória.');
+INSERT INTO points VALUES(2911,0,2,909,'Afirmas que queres ser apóstolo de Cristo.
+- Fico muito feliz em ouvir-te. Peço ao Senhor que te conceda perseverança. E lembra-te de que, da nossa boca, do nosso pensamento, do nosso coração, não devem sair senão motivos divinos, fome de almas, assuntos que de um modo ou de outro levem a Deus; ou, pelo menos, que não te afastem dEle.');
+INSERT INTO points VALUES(2912,0,2,910,'A Igreja precisa - e precisará sempre - de sacerdotes. Pede-os diariamente à Trindade Santíssima, através de Santa Maria.
+- E pede que sejam alegres, operantes, eficazes; que estejam bem preparados; que se sacrifiquem com gosto pelos seus irmãos, sem sentir-se vítimas.');
+INSERT INTO points VALUES(2913,0,2,911,'Recorre constantemente à Virgem Santíssima, Mãe de Deus e Mãe da humanidade. E Ela atrairá, com suavidade de Mãe, o amor de Deus às almas com quem tratas, para que se decidam - no seu trabalho ordinário, na sua profissão - a ser testemunhas de Jesus Cristo.');
+INSERT INTO points VALUES(2914,0,2,912,'Tens de corresponder ao amor divino sendo fiel, muito fiel! E, como conseqüência dessa fidelidade, tens de levar a outras pessoas o Amor que recebeste, para que também elas gozem do encontro com Deus.');
+INSERT INTO points VALUES(2915,0,2,913,'Meu Senhor Jesus: faz que eu sinta e secunde de tal modo a tua graça, que esvazie o meu coração..., para que o preenchas Tu, meu Amigo, meu Irmão, meu Rei, meu Deus, meu Amor!');
+INSERT INTO points VALUES(2916,0,2,914,'Se não mostras - com a tua oração, com o teu sacrifício, com a tua ação - uma constante preocupação de apostolado, isso é sinal evidente de que te falta felicidade e de que tem que aumentar a tua fidelidade.
+- Aquele que tem a felicidade, o bem, procura dá-lo aos outros.');
+INSERT INTO points VALUES(2917,0,2,915,'Quando calcares de verdade o teu próprio eu e viveres para os outros, serás instrumento apto nas mãos de Deus.
+Ele chamou - chama - os seus discípulos, e manda-lhes: "Ut eatis!" - ide buscar a todos.');
+INSERT INTO points VALUES(2918,0,2,916,'Decide-te a incendiar o mundo em amores limpos - podes fazê-lo -, a fim de tornar feliz a humanidade inteira, aproximando-a verdadeiramente de Deus.');
+INSERT INTO points VALUES(2919,0,2,917,'"In modico fidelis!" - fiel no pouco... - O teu trabalho, meu filho, não é só salvar almas, mas santificá-las, dia a dia, dando a cada instante - mesmo aos aparentemente vulgares - vibração de eternidade.');
+INSERT INTO points VALUES(2920,0,2,918,'Não se pode separar a semente da doutrina da semente da piedade.
+A tua tarefa de semeador de doutrina somente poderá evitar os micróbios que a tornem ineficaz, se fores piedoso.');
+INSERT INTO points VALUES(2921,0,2,919,'Assim como a imensa maquinaria de dezenas de fábricas pára, fica sem força, quando a corrente elétrica se interrompe, também o apostolado deixa de ser fecundo sem a oração e a mortificação, que movem o Coração Sacratíssimo de Cristo.');
+INSERT INTO points VALUES(2922,0,2,920,'Se fores fiel aos impulsos da graça, darás bons frutos: frutos duradouros para a glória de Deus.
+- Ser santo implica ser eficaz, mesmo que o santo não toque nem veja a eficácia.');
+INSERT INTO points VALUES(2923,0,2,921,'A retidão de intenção está em procurar “somente e em tudo” a glória de Deus.');
+INSERT INTO points VALUES(2924,0,2,922,'O apostolado - manifestação evidente da vida espiritual - é um adejar constante que leva a sobrenaturalizar cada detalhe da jornada - grande ou pequeno -, pelo amor a Deus que se põe em tudo.');
+INSERT INTO points VALUES(2925,0,2,923,'Trazia sempre, como marca nos livros que lhe serviam de leitura, uma tira de papel com este lema, escrito em caracteres amplos e enérgicos: "Ure igne Sancti Spiritus!" . Dir-se-ia que, em vez de escrever, gravava: - Queima com o fogo do Espírito Santo!
+Esculpido na tua alma, e ardendo na tua boca, e ateado nas tuas obras, cristão, quereria eu deixar esse fogo divino.');
+INSERT INTO points VALUES(2926,0,2,924,'Tens de procurar ser uma criança com santa desvergonha, que “sabe” que seu Pai-Deus lhe envia sempre o melhor.
+Por isso, quando lhe falta até o que parece mais necessário, não se aflige; e, cheia de paz, diz: - Resta-me e tenho o Espírito Santo.');
+INSERT INTO points VALUES(2927,0,2,925,'Cuida da tua oração diária por esta intenção: que todos os católicos sejamos fiéis, que nos decidamos a lutar por ser santos.
+- É lógico! Que outra coisa havemos de desejar àqueles que amamos, àqueles que estão ligados a nós pelo forte vínculo da fé?');
+INSERT INTO points VALUES(2928,0,2,926,'Quando me dizem que há pessoas entregues a Deus que já não se aplicam fervorosamente à santidade, penso que isso - se tiver alguma parcela de verdade - conduzirá ao grande fracasso das suas vidas.');
+INSERT INTO points VALUES(2929,0,2,927,'"Qui sunt isti, qui ut nubes volant, et quasi columbae ad fenestras suas?" - Quem são esses que voam como nuvens, como as pombas para os seus ninhos?, pergunta o Profeta. E comenta um autor: “As nuvens têm a sua origem no mar e nos rios, e, depois de uma circulação ou percurso mais ou menos longo, voltam outra vez à sua fonte”.
+E eu te acrescento: - Assim tens de ser tu: nuvem que fecunde o mundo, fazendo-o viver vida de Cristo... Estas águas divinas banharão - ensopando-as - as entranhas da terra; e, em vez de sujar-se, filtrar-se-ão ao atravessarem tanta impureza, e brotarão fontes limpíssimas, que depois serão arroios e rios imensos para saciar a sede da humanidade.
+- Depois, retira-te para o teu Refúgio, para o teu Mar imenso, para o teu Deus, sabendo que continuarão amadurecendo mais frutos, com a rega sobrenatural do teu apostolado, com a fecundidade das águas de Deus, que durarão até o fim dos tempos.');
+INSERT INTO points VALUES(2930,0,2,928,'Menino: oferece-Lhe também as penas e as dores dos outros.');
+INSERT INTO points VALUES(2931,0,2,929,'Penas? Contrariedades por causa daquele episódio ou daquele outro?... Não vês que assim o quer teu Pai-Deus..., e Ele é bom..., e Ele te ama - a ti só! - mais do que todas as mães do mundo juntas podem amar os seus filhos?');
+INSERT INTO points VALUES(2932,0,2,930,'Examina com sinceridade o teu modo de seguir o Mestre. Considera se te entregaste de uma maneira oficial e seca, com uma fé que não tem vibração; se não há humildade, nem sacrifício, nem obras nos teus dias; se não há em ti senão fachada e não estás atento ao detalhe de cada instante..., numa palavra, se te falta Amor.
+Se é assim, não te pode surpreender a tua ineficácia. Reage imediatamente, levado pela mão de Santa Maria!');
+INSERT INTO points VALUES(2933,0,2,931,'Quando tiveres alguma necessidade, alguma contradição - pequena ou grande -, invoca o teu Anjo da Guarda, para que a resolva com Jesus ou te preste o serviço de que estejas precisando.');
+INSERT INTO points VALUES(2934,0,2,932,'Deus está metido no centro da tua alma, da minha, e na de todos os homens em graça. E está para alguma coisa: para que tenhamos mais sal, e para que adquiramos muita luz, e para que saibamos distribuir esses dons, cada um a partir do lugar onde está.
+E como poderemos distribuir esses dons de Deus? Com humildade, com piedade, bem unidos à nossa Mãe a Igreja.
+- Lembras-te da videira e dos ramos? Que fecundidade a do ramo unido à videira! Que cachos generosos! E que esterilidade a do ramo separado, que seca e perde a vida!');
+INSERT INTO points VALUES(2935,0,2,933,'Jesus, que o meu pobre coração seja invadido pelo oceano do teu Amor, com ondas tais que limpem e expulsem de mim toda a minha miséria... Derrama as águas puríssimas e ardentes do teu Coração no meu, até que, satisfeita a minha ânsia de amar-te, não podendo represar mais afetos de divino incêndio, se rompa - morrer de Amor! -, e esse teu Amor salte, em cataratas vivificantes e irresistíveis e fecundíssimas, para outros corações que vibrem, ao contacto de tais águas, com vibrações de Fé e de Caridade.');
+INSERT INTO points VALUES(2936,0,2,934,'Tens que viver a Santa Missa!
+- Ajudar-te-á aquela consideração que fazia de si para si um sacerdote enamorado: - É possível, meu Deus, participar na Santa Missa e não ser santo?
+- E continuava: - Cumprindo um propósito antigo, ficarei metido em cada dia na Chaga do Lado do meu Senhor!
+- Anima-te!');
+INSERT INTO points VALUES(2937,0,2,935,'Quanto bem e quanto mal podes fazer!
+- Bem, se fores humilde e souberes entregar-te com alegria e com espírito de sacrifício; bem, para ti e para os teus irmãos os homens, para a Igreja, para esta Mãe boa.
+- E quanto mal, se te deixas guiar pela tua soberba.');
+INSERT INTO points VALUES(2938,0,2,936,'Não te aburgueses, porque - se estás aburguesado - estorvas, convertes-te num peso morto para o apostolado, e sobretudo num motivo de dor para o Coração de Cristo!
+Não deixes de fazer apostolado, não abandones o teu esforço por trabalhar do melhor modo possível, não descures a tua vida de piedade.
+- Deus fará o resto.');
+INSERT INTO points VALUES(2939,0,2,937,'De vez em quando, é preciso fazer com as almas como com o fogo da lareira: mete-se um atiçador de ferro e remexe-se, para tirar a escória, que é o que mais brilha e é a causa de que se apague o fogo do amor de Deus.');
+INSERT INTO points VALUES(2940,0,2,938,'Iremos a Jesus, ao Tabernáculo, para conhecê-Lo, para digerir a sua doutrina, para entregar esse alimento às almas.');
+INSERT INTO points VALUES(2941,0,2,939,'Quando tiveres o Senhor no teu peito e saboreares os delírios do seu Amor, promete-Lhe que te esforçarás por mudar o rumo da tua vida em tudo o que for necessário, para levá-Lo à multidão, que não O conhece, que anda vazia de ideais: que, infelizmente, caminha animalizada.');
+INSERT INTO points VALUES(2942,0,2,940,'“Onde há caridade e amor, aí está Deus”, canta o hino litúrgico. E assim pôde anotar aquela alma: “É um tesouro grande e maravilhoso este amor fraternal, que não se detém num simples consolo - necessário muitas vezes -, mas transmite a segurança de ter a Deus perto, e se manifesta pela caridade dos que nos rodeiam e com os que nos rodeiam”.');
+INSERT INTO points VALUES(2943,0,2,941,'Foge do espetáculo! Que seja Deus a conhecer a tua vida, porque a santidade passa despercebida, embora cheia de eficácia.');
+INSERT INTO points VALUES(2944,0,2,942,'Procura prestar a tua ajuda sem que os outros o notem, sem que te louvem, sem que ninguém te veja..., para que, passando oculto, como o sal, condimentes os ambientes em que te desenvolves; e contribuas para conseguir que - pelo teu sentido cristão - tudo seja natural, amável e saboroso.');
+INSERT INTO points VALUES(2945,0,2,943,'Para que este nosso mundo caminhe por um trilho cristão - o único que vale a pena -, temos de viver uma leal amizade com os homens, baseada numa prévia leal amizade com Deus.');
+INSERT INTO points VALUES(2946,0,2,944,'Ouviste-me muitas vezes falar do apostolado "ad fidem".
+Não mudei de opinião: que maravilhoso campo de trabalho nos espera em todo o mundo, com aqueles que não conhecem a verdadeira fé e, contudo, são nobres, generosos e alegres!');
+INSERT INTO points VALUES(2947,0,2,945,'Com freqüência, sinto ímpetos de gritar ao ouvido de tantas e de tantos que, no escritório e nas lojas, no jornal e na tribuna, na escola, na oficina e nas minas e no campo, amparados pela vida interior e pela Comunhão dos Santos, devem ser portadores de Deus em todos os ambientes, segundo aquele ensinamento do Apóstolo: “Glorificai a Deus com a vossa vida e levai-O sempre convosco”.');
+INSERT INTO points VALUES(2948,0,2,946,'Os que temos a verdade de Cristo no coração devemos meter esta verdade no coração, na cabeça e na vida dos outros. O contrário seria comodismo, tática falsa.
+Pensa de novo: Cristo pediu-te licença para se meter na tua alma? - Deixou-te a liberdade de segui-Lo, mas foi Ele que te procurou, porque quis.');
+INSERT INTO points VALUES(2949,0,2,947,'Com obras de serviço, podemos preparar para o Senhor um triunfo maior que o da sua entrada em Jerusalém... Porque não se repetirão as cenas de Judas, nem a do Horto das Oliveiras, nem aquela noite fechada... Conseguiremos que o mundo arda nas chamas do fogo que Ele veio trazer à terra!... E a luz da Verdade - o nosso Jesus - iluminará as inteligências num dia sem fim.');
+INSERT INTO points VALUES(2950,0,2,948,'Não te assustes! Tu, por seres cristão, tens o direito e o dever de provocar nas almas a crise saudável de que vivam voltadas para Deus.');
+INSERT INTO points VALUES(2951,0,2,949,'Tens de pedir pelo mundo inteiro, pelos homens de todas as raças, e de todas as línguas, e de todas as crenças; pelos homens que têm uma idéia vaga da religião, e pelos que não conhecem a fé.
+- E esta ânsia de almas, que é prova fiel e clara de que amamos Jesus, fará que Jesus venha.');
+INSERT INTO points VALUES(2952,0,2,950,'Ao ouvirem falar de tarefas de almas em terras longínquas, como lhes brilhavam os olhos! Davam a impressão de estar dispostos a saltar o oceano de um pulo. É que o mundo é muito pequeno, quando o Amor é grande.');
+INSERT INTO points VALUES(2953,0,2,951,'Nenhuma alma - nenhuma! - te pode ser indiferente.');
+INSERT INTO points VALUES(2954,0,2,952,'Um discípulo de Cristo nunca raciocinará assim: “Eu procuro ser bom, e os outros, se quiserem..., que vão para o inferno”.
+Este comportamento não é humano, nem se coaduna com o amor de Deus, nem com a caridade que devemos ao próximo.');
+INSERT INTO points VALUES(2955,0,2,953,'Quando o cristão compreende e vive a catolicidade, quando percebe a urgência de anunciar a Boa Nova da salvação a todas as criaturas, sabe que - como ensina o Apóstolo - tem de fazer-se “tudo para todos, para salvar a todos”.');
+INSERT INTO points VALUES(2956,0,2,954,'Tens de amar os teus irmãos, os homens, até o extremo de que mesmo os seus defeitos - quando não forem ofensa a Deus - não te pareçam defeitos. Se não amas senão as boas qualidades que vês nos outros - se não sabes compreender, desculpar, perdoar -, és um egoísta.');
+INSERT INTO points VALUES(2957,0,2,955,'Não podes destruir, com a tua negligência ou com o teu mau exemplo, as almas dos teus irmãos, os homens.
+- Tens - apesar das tuas paixões! - a responsabilidade da vida cristã dos teus próximos, da eficácia espiritual de todos, da sua santidade!');
+INSERT INTO points VALUES(2958,0,2,956,'Longe fisicamente e, no entanto, muito perto de todos: muito perto de todos!..., repetias feliz.
+Estavas contente, graças a essa comunhão de caridade de que te falei, que tens de avivar sem cansaço.');
+INSERT INTO points VALUES(2959,0,2,957,'Perguntas-me o que poderias fazer por esse teu amigo, para que não se encontre só.
+- Dir-te-ei o mesmo de sempre, porque temos à nossa disposição uma arma maravilhosa que resolve tudo: rezar. Primeiro, rezar. E, depois, fazer por ele o que quererias que fizessem por ti em circunstâncias semelhantes.
+Sem o humilhar, é preciso ajudá-lo de tal maneira que lhe seja fácil o que lhe é dificultoso.');
+INSERT INTO points VALUES(2960,0,2,958,'Coloca-te sempre nas circunstâncias do próximo: assim verás os problemas ou as questões serenamente, não te aborrecerás, compreenderás, desculparás, corrigirás quando e como for necessário, e encherás o mundo de caridade.');
+INSERT INTO points VALUES(2961,0,2,959,'Não se pode ceder naquilo que é de fé. Mas não esqueças que, para dizer a verdade, não é preciso maltratar ninguém.');
+INSERT INTO points VALUES(2962,0,2,960,'Sendo para bem do próximo, não te cales, mas fala de modo amável, sem destemperança nem irritação.');
+INSERT INTO points VALUES(2963,0,2,961,'Não é possível comentar acontecimentos ou doutrinas sem mencionar pessoas..., que não julgas: "Qui iudicat Dominus est" - é Deus quem julga.
+- Não te preocupes, pois, se alguma vez tropeças com um interlocutor sem reta consciência, que - por má fé ou por falta de critério - qualifica as tuas palavras como murmuração.');
+INSERT INTO points VALUES(2964,0,2,962,'Alguns pobrezinhos sentem-se incomodados pelo bem que fazes, como se o bem deixasse de sê-lo quando não são eles que o fazem ou controlam...
+- Que essa incompreensão não te sirva de desculpa para afrouxares na tua tarefa. Esforça-te por render com maior empenho, agora: quando na terra te faltam aplausos, mais grata chega ao Céu a tua tarefa.');
+INSERT INTO points VALUES(2965,0,2,963,'Às vezes, cinqüenta por cento da atividade se perde em lutas intestinas, que têm por fundamento a ausência de caridade, e as histórias e as intrigas entre irmãos. Por outro lado, vinte e cinco por cento da atividade se perde em levantar edifícios desnecessários para o apostolado. Não se deve consentir nunca na murmuração e não se deve perder o tempo em edificar tantas casas, e assim as pessoas serão apóstolos cem por cento.');
+INSERT INTO points VALUES(2966,0,2,964,'Tens de pedir a Deus para os sacerdotes - os de agora e os que virão - que amem de verdade, cada dia mais e sem discriminações, os seus irmãos os homens, e que saibam fazer-se querer por eles.');
+INSERT INTO points VALUES(2967,0,2,965,'Pensando nos sacerdotes do mundo inteiro, tens de ajudar-me a rezar pela fecundidade dos seus apostolados.
+- Sacerdote, meu irmão, fala sempre de Deus, porque, se és dEle, não haverá monotonia nos teus colóquios.');
+INSERT INTO points VALUES(2968,0,2,966,'A pregação, a pregação de Cristo “Crucificado”, é a palavra de Deus.
+Os sacerdotes devem preparar-se do melhor modo possível, antes de exercerem tão divino ministério, procurando a salvação das almas.
+Os leigos devem escutar com respeito especialíssimo.');
+INSERT INTO points VALUES(2969,0,2,967,'Causou-me alegria o que diziam daquele sacerdote: “Prega com toda a alma... e com todo o corpo”.');
+INSERT INTO points VALUES(2970,0,2,968,'Deves rezar assim, alma de apóstolo: - Senhor, faz que eu saiba “apertar” as pessoas e incendiá-las todas em fogueiras de Amor, que sejam o motor único das nossas atividades.');
+INSERT INTO points VALUES(2971,0,2,969,'Nós, os católicos, temos de andar pela vida como apóstolos: com luz de Deus, com sal de Deus. Sem medo, com naturalidade, mas com tal vida interior, com tal união com o Senhor, que iluminemos, que evitemos a corrupção e as sombras, que espalhemos o fruto da serenidade e a eficácia da doutrina cristã.');
+INSERT INTO points VALUES(2972,0,2,970,'Saiu o semeador a semear, a lançar aos quatro ventos a semente em todas as encruzilhadas da terra... - Bendito trabalho o nosso!: encarregarmo-nos de que, em todas as circunstâncias de lugares e de épocas, lance raízes, germine e dê fruto a palavra de Deus.');
+INSERT INTO points VALUES(2973,0,2,971,'"Dominus dabit benignitatem suam et terra nostra dabit fructum suum" - o Senhor dará a sua bênção, e a nossa terra produzirá o seu fruto.
+- Sim, essa bênção é a origem de todo o bom fruto, o clima necessário para que no nosso mundo possamos cultivar santos, homens e mulheres de Deus.
+"Dominus dabit benignitatem" - o Senhor dará a sua bênção. - Mas, repara bem, a seguir diz que Ele espera o nosso fruto - o teu, o meu -, e não um fruto raquítico, desmedrado, por não termos sabido entregar-nos. Ele espera-o abundante, porque nos cumula de bênçãos.');
+INSERT INTO points VALUES(2974,0,2,972,'Vias a tua vocação como essas cápsulas que encerram a semente. Há de chegar o momento da expansão, e haverá um arraigar múltiplo e simultâneo.');
+INSERT INTO points VALUES(2975,0,2,973,'Dentro da grande multidão humana - interessam-nos todas as almas -, tens de ser fermento, para que, com a ajuda da graça divina e com a tua correspondência, atues em todos os cantos do mundo como o fermento, que dá qualidade, que dá sabor, que dá volume, a fim de que o pão de Cristo possa alimentar depois outras almas.');
+INSERT INTO points VALUES(2976,0,2,974,'Os inimigos de Jesus - e alguns que se dizem seus amigos -, cobertos com a armadura da ciência humana, empunhando a espada do poder, riem-se dos cristãos como o filisteu se ria de Davi, desprezando-o.
+Também agora cairá por terra o Golias do ódio, da falsia, da prepotência, do laicismo, do indiferentismo...; e nessa altura, ferido o gigantão dessas falsas ideologias pelas armas aparentemente débeis do espírito cristão - oração, expiação, ação -, despojá-lo-emos da armadura das suas errôneas doutrinas, para revestirmos os nossos irmãos, os homens, da verdadeira ciência: a cultura e a prática cristã.');
+INSERT INTO points VALUES(2977,0,2,975,'Nas campanhas contra a Igreja, maquinam muitas organizações - às vezes, de braço dado com os que se chamam bons -, que aliciam o povo com imprensa, folhetos, pasquins, calúnias, propaganda falada. Depois, levam-no para onde querem: para o próprio inferno. Pretendem que a massa seja amorfa, como se as pessoas não tivessem alma..., e despertam compaixão. Mas, como têm alma, é preciso arrancá-las das garras dessas organizações do mal e pô-las a serviço de Deus.');
+INSERT INTO points VALUES(2978,0,2,976,'Uma percentagem muito considerável de pessoas que freqüentam os Sacramentos, lê a má imprensa...
+Com calma e com amor de Deus, temos que rezar e dar doutrina, para que não leiam esses papeluchos endiabrados que, segundo dizem - porque se envergonham -, são pessoas da família que os compram, ainda que talvez o façam eles próprios.');
+INSERT INTO points VALUES(2979,0,2,977,'Tens que defender a verdade, com caridade e com firmeza, quando se trata das coisas de Deus. Tens de praticar a santa desvergonha de denunciar os erros, que algumas vezes são pequenas insídias; outras, odiosas razões ou descaradas ignorâncias; e, geralmente, manifestação da impotência dos homens, que não podem tolerar a fecundidade da palavra de Deus.');
+INSERT INTO points VALUES(2980,0,2,978,'Em momentos de desorientação geral, quando clamas ao Senhor pedindo pelas almas - que são suas! -, ficas com a impressão de que Ele não te ouve, como se se fizesse surdo aos teus apelos. Chegas a pensar que o teu trabalho apostólico é em vão.
+- Não te preocupes! Continua a trabalhar com a mesma alegria, com a mesma vibração, com o mesmo ímpeto. - Deixa-me que insista: quando se trabalha por Deus, nada é infecundo!');
+INSERT INTO points VALUES(2981,0,2,979,'Filho: todos os mares deste mundo são nossos, e onde a pesca é mais difícil, é também mais necessária.');
+INSERT INTO points VALUES(2982,0,2,980,'Com a tua doutrina de cristão, com a tua vida íntegra e com o teu trabalho bem feito, tens que dar bom exemplo, no exercício da tua profissão e no cumprimento dos deveres do teu cargo, aos que te rodeiam: aos teus parentes, amigos, colegas, vizinhos, alunos... - Não podes ser um “marreteiro”.');
+INSERT INTO points VALUES(2983,0,2,981,'Pela tua intimidade com Cristo, tens obrigação de render fruto.
+- Fruto que sacie a fome das almas, quando se aproximarem de ti no trabalho, na convivência, no ambiente familiar...');
+INSERT INTO points VALUES(2984,0,2,982,'Com o teu cumprimento do dever, realizado com gosto e generosidade, consegues também abundante graça do Senhor para outras almas.');
+INSERT INTO points VALUES(2985,0,2,983,'Esforça-te por levar o teu sentido cristão ao mundo, para que haja muitos amigos da Cruz.');
+INSERT INTO points VALUES(2986,0,2,984,'Além da sua graça copiosa e eficaz, o Senhor deu-te a cabeça, as mãos, as faculdades intelectuais, para que faças frutificar os teus talentos.
+Deus quer realizar milagres constantes - ressuscitar mortos, dar ouvido aos surdos, vista aos cegos, possibilidades de andar aos coxos... -, através da tua atuação profissional santificada, convertida em holocausto grato a Deus e útil às almas.');
+INSERT INTO points VALUES(2987,0,2,985,'No dia em que não procurares aproximar os outros de Deus - tu, que deves ser sempre brasa incandescente -, converter-te-ás num carvãozinho desprezível, ou num montãozinho de cinza, que um sopro de vento dispersa.
+- Tens de levar fogo, tens de ser algo que queime, que arda, que produza fogueiras de amor, de fidelidade, de apostolado.');
+INSERT INTO points VALUES(2988,0,2,986,'Invoca a Santíssima Virgem; não deixes de pedir-lhe que se mostre sempre tua Mãe: "Monstra te esse Matrem!" , e que te alcance, com a graça do seu Filho, luz de boa doutrina na inteligência, e amor e pureza no coração, a fim de que saibas ir para Deus e levar-Lhe muitas almas.');
+INSERT INTO points VALUES(2989,0,2,987,'Um filho de Deus não tem medo da vida nem medo da morte, porque o fundamento da sua vida espiritual é o sentido da filiação divina: Deus é meu Pai - pensa - e é o Autor de todo o bem, é toda a Bondade.
+- Mas será que tu e eu nos comportamos, de verdade, como filhos de Deus?');
+INSERT INTO points VALUES(2990,0,2,988,'Encheu-me de júbilo ver que compreendias o que te disse: - Tu e eu temos de agir e viver e morrer como enamorados, e assim “viveremos” eternamente.');
+INSERT INTO points VALUES(2991,0,2,989,'O Senhor vence sempre. - Se fores seu instrumento, também tu vencerás, porque lutarás os combates de Deus.');
+INSERT INTO points VALUES(2992,0,2,990,'A santidade consiste precisamente nisto: em lutarmos por ser fiéis durante toda a vida; e em aceitarmos gozosamente a Vontade de Deus, na hora da morte.');
+INSERT INTO points VALUES(2993,0,2,991,'Quando receberes o Senhor na Eucaristia, agradece-Lhe com todas as veras da tua alma essa bondade de estar contigo.
+- Não te detiveste a considerar que passaram séculos e séculos, até que viesse o Messias? Os patriarcas e os profetas pediam, com todo o povo de Israel: - A terra tem sede, Senhor, vem!
+- Oxalá seja assim a tua espera de amor.');
+INSERT INTO points VALUES(2994,0,2,992,'A despeito dos que negam a Deus, também nestes tempos a terra está muito perto do Céu.');
+INSERT INTO points VALUES(2995,0,2,993,'Escrevias: “"Simile est regnum caelorum" - o Reino dos Céus é semelhante a um tesouro... Esta passagem do Santo Evangelho caiu na minha alma e lançou raízes. Já a tinha lido muitas vezes, sem captar a sua substância, o seu sabor divino”.
+Tudo..., tudo tem que ser vendido pelo homem sensato, para conseguir o tesouro, a pérola preciosa da Glória!');
+INSERT INTO points VALUES(2996,0,2,994,'Tens de entrar em colóquio com Santa Maria e confiar-lhe: - Ë Senhora, para viver o ideal que Deus meteu no meu coração, preciso voar... muito alto, muito alto!
+Não basta que te desprendas, com a ajuda divina, das coisas deste mundo, sabendo que são terra. Mais ainda: mesmo que coloques o universo inteiro num montão debaixo dos teus pés, para estares mais perto do Céu..., isso não basta!
+Precisas voar, sem te apoiares em nada daqui de baixo, pendente da voz e do sopro do Espírito. - Mas, dizes-me, as minhas asas estão manchadas!: barro de anos, sujo, pegajoso...
+E insisti contigo: recorre à Virgem. - Senhora - repete-lhe -, mal consigo levantar vôo!, a terra atrai-me como um ímã maldito! - Senhora, Tu podes fazer que a minha alma se lance em vôo definitivo e glorioso, que tem o seu termo no Coração de Deus.
+- Confia, que Ela te escuta.');
+INSERT INTO points VALUES(2997,0,2,995,'Pensa como é grato a Deus Nosso Senhor o incenso que se queima em sua honra; pensa também quão pouco valem as coisas da terra que, mal começam, já acabam...
+Pelo contrário, um grande Amor te espera no Céu: sem traições, sem enganos: todo o amor, toda a beleza, toda a grandeza, toda a ciência...! E sem enjoar: saciar-te-á sem saciar.');
+INSERT INTO points VALUES(2998,0,2,996,'Sentido sobrenatural! Calma! Paz! Deves olhar assim as coisas, as pessoas e os acontecimentos..., com olhos de eternidade.
+Então, qualquer muro que te feche a passagem - mesmo que, falando humanamente, seja impressionante -, mal levantes os olhos de verdade ao Céu, como é pouca coisa!');
+INSERT INTO points VALUES(2999,0,2,997,'Se estamos perto de Cristo e seguimos os seus passos, temos que amar de todo o coração a pobreza, o desprendimento dos bens terrenos, as privações.');
+INSERT INTO points VALUES(3000,0,2,998,'Na vida espiritual, muitas vezes é preciso saber perder, aos olhos da terra, para ganhar no Céu. - Assim ganha-se sempre.');
+INSERT INTO points VALUES(3001,0,2,999,'Mentem os homens quando dizem “para sempre” nas coisas temporais. Só é verdade, com uma verdade total, o “para sempre” da eternidade.
+- E assim hás de viver tu, com uma fé que te faça sentir sabores de mel, doçuras de céu, ao pensares nessa eternidade que, essa sim, é para sempre!');
+INSERT INTO points VALUES(3002,0,2,1000,'Se não houvesse outra vida além desta, a vida seria uma brincadeira cruel: hipocrisia, maldade, egoísmo, traição.');
+INSERT INTO points VALUES(3003,0,2,1001,'Continua em frente, com alegria, com esforço, mesmo que valhas tão pouco, nada!
+- Com Ele, ninguém te deterá no mundo. Pensa, além disso, que tudo é bom para os que amam a Deus: nesta terra, tudo tem conserto, menos a morte: e, para nós, a morte é Vida.');
+INSERT INTO points VALUES(3004,0,2,1002,'Para salvares o homem, Senhor, morres na Cruz; e, no entanto, por um só pecado mortal, condenas o homem a uma eternidade infeliz de tormentos... Quanto te ofende o pecado, e quanto não devo odiá-lo!');
+INSERT INTO points VALUES(3005,0,2,1003,'Assegura Santa Teresa que “quem não faz oração não necessita de demônio que o tente; ao passo que quem a faz apenas quinze minutos por dia, necessariamente se salva”..., porque o diálogo com o Senhor - amável, mesmo nos tempos de aspereza ou de secura da alma - nos descobre o autêntico relevo e a justa dimensão da vida.
+Sê alma de oração.');
+INSERT INTO points VALUES(3006,0,2,1004,'“Logo, tu és rei”... - Sim, Cristo é o Rei, que não somente te concede audiência quando o desejas, mas, em delírio de Amor, até abandona - bem me entendes - o magnífico palácio do Céu, ao qual tu ainda não podes chegar, e te espera no Sacrário.
+- Não te parece absurdo não irmos pressurosos e com mais constância falar com Ele?');
+INSERT INTO points VALUES(3007,0,2,1005,'Estou cada vez mais persuadido disto: a felicidade do Céu é para os que sabem ser felizes na terra.');
+INSERT INTO points VALUES(3008,0,2,1006,'Vejo com meridiana clareza a fórmula, o segredo da felicidade terrena e eternal: não somente conformar-se com a Vontade de Deus, mas aderir, identificar-se, querer - numa palavra -, com um ato positivo da nossa vontade, a Vontade divina. - Este é o segredo infalível - insisto - da alegria e da paz.');
+INSERT INTO points VALUES(3009,0,2,1007,'Quantas vezes não te verás inundado, ébrio de graça de Deus! Que grande pecado se não correspondes!');
+INSERT INTO points VALUES(3010,0,2,1008,'Na hora da tentação, tens de praticar a virtude da Esperança, dizendo: para descansar e gozar, aguarda-me uma eternidade; agora, cheio de Fé, tenho que ganhar o descanso com o trabalho; e o gozo com a dor... Que será o Amor, no Céu?
+Melhor ainda, pratica o Amor, reagindo assim: - Quero dar gosto ao meu Deus, ao meu Amado, cumprindo a sua Vontade em tudo..., como se não houvesse prêmio nem castigo: somente para Lhe agradar.');
+INSERT INTO points VALUES(3011,0,2,1009,'Quando - umas vezes como um relâmpago; e outras como uma mosca suja e irritante, que se enxota e volta - vier desassossegar-te o pensamento de que te falta retidão de intenção, faz sempre, e imediatamente, atos contrários..., e continua a trabalhar tranqüilo, por Ele e com Ele.
+- De passagem, diz devagar, mesmo que te pareça que o pronuncias somente com os lábios: - Senhor, para mim nada quero. Tudo para tua glória e por teu Amor.');
+INSERT INTO points VALUES(3012,0,2,1010,'Tanto te faz estar aqui ou na China, dizes-me.
+- Pois então procura estar onde cumpras a Santa Vontade de Deus.');
+INSERT INTO points VALUES(3013,0,2,1011,'De ti depende também que muitos não permaneçam nas trevas, e caminhem por sendas que levam até à vida eterna.');
+INSERT INTO points VALUES(3014,0,2,1012,'Acostuma-te a recomendar cada uma das pessoas das tuas relações ao seu Anjo da Guarda, para que a ajude a ser boa e fiel, e alegre; para que, quando chegar a hora, possa receber o eterno abraço de Amor de Deus Pai, de Deus Filho, de Deus Espírito Santo e de Santa Maria.');
+INSERT INTO points VALUES(3015,0,2,1013,'Tal como o grão de trigo, temos necessidade da morte para ser fecundos.
+Tu e eu queremos abrir, com a graça de Deus, um sulco profundo e luminoso. Por isso, temos que deixar o pobre homem animal e lançar-nos pelos campos do espírito, dando sentido sobrenatural a todas as tarefas humanas e, ao mesmo tempo, aos homens que nelas trabalham.');
+INSERT INTO points VALUES(3016,0,2,1014,'Jesus, que as minhas distrações sejam distrações ao contrário: em vez de me lembrar do mundo quando tratar Contigo, que me lembre de Ti ao tratar das coisas do mundo.');
+INSERT INTO points VALUES(3017,0,2,1015,'Assustou-te um pouco ver tanta luz..., tanta que achas difícil olhar, e mesmo ver.
+- Fecha os olhos à tua evidente miséria; abre o olhar da tua alma à fé, à esperança, ao amor, e continua em frente, deixando-te guiar por Ele, através de quem dirige a tua alma.');
+INSERT INTO points VALUES(3018,0,2,1016,'Sê generoso! Não peças a Jesus... nem um consolo!
+- Por quê?, perguntaste-me. Porque - respondi-te - bem sabes que, embora pareça que este nosso Deus está longe, está assentado no centro da tua alma, dando relevo divino à tua vida inteira!');
+INSERT INTO points VALUES(3019,0,2,1017,'Contava-te que até pessoas que não receberam o batismo me têm dito, comovidas: “É verdade, eu compreendo que as almas santas têm de ser felizes, porque encaram os acontecimentos com uma visão que está por cima das coisas da terra, porque vêem as coisas com olhos de eternidade”.
+Oxalá não te falte esta visão! - acrescentei depois -, para que sejas conseqüente com o tratamento de predileção que recebeste da Trindade.');
+INSERT INTO points VALUES(3020,0,2,1018,'Eu te garanto que, se nós, os filhos de Deus, quisermos, contribuiremos poderosamente para iluminar o trabalho e a vida dos homens, com o resplendor divino - eterno! - que o Senhor quis depositar em nossas almas.
+- Mas “quem diz que mora em Jesus deve seguir o caminho que Ele seguiu”, como ensina São João: caminho que conduz sempre à glória, passando - sempre também - pelo sacrifício.');
+INSERT INTO points VALUES(3021,0,2,1019,'Que desencanto para os que viram a luz do pseudo-apóstolo, e quiseram sair das suas trevas aproximando-se dessa claridade! Correram para chegar. Talvez tenham deixado pelo caminho retalhos da sua pele... Alguns, na sua ânsia de luz, abandonaram também retalhos da sua alma... Já estão junto do pseudo-apóstolo: frio e escuridão. Frio e escuridão que acabarão por tomar conta dos corações partidos daqueles que, por uns instantes, acreditaram no ideal.
+Má obra fez o pseudo-apóstolo: esses homens decepcionados, que vieram trocar a carne de suas entranhas por uma brasa ardente, por um maravilhoso rubi de caridade, descem de novo à terra donde vieram..., descem com o coração apagado, com um coração que não é coração..., é um pedaço de gelo envolto em trevas que chegarão a enevoar-lhes o cérebro.
+Falso apóstolo dos paradoxos, essa é a tua obra: porque tens Cristo na tua língua, e não nas tuas obras; porque atrais com uma luz que não possuis; porque não tens calor de caridade, e finges preocupar-te com os estranhos, ao mesmo tempo que abandonas os teus; porque és mentiroso e a mentira é filha do diabo... Por isso trabalhas para o demônio, desconcertas os seguidores do Amo e, ainda que triunfes com freqüência aqui em baixo, ai de ti, no próximo dia, quando vier a nossa amiga a Morte e contemplares a ira do Juiz a quem nunca enganaste!
+- Paradoxos, não, Senhor; paradoxos, nunca.');
+INSERT INTO points VALUES(3022,0,2,1020,'Este é o caminho seguro: pela humilhação até à Cruz; da Cruz, com Cristo, à Glória imortal do Pai.');
+INSERT INTO points VALUES(3023,0,2,1021,'Como me deixou feliz a epístola daquele dia! O Espírito Santo, por São Paulo, nos ensina o segredo da imortalidade e da Glória. Todos sentimos ânsias de perdurar.
+Quereríamos eternizar os instantes da nossa vida que julgamos felizes. Quereríamos glorificar a nossa memória... Quereríamos a imortalidade para os nossos ideais. Por isso, nos momentos de aparente felicidade, ao termos alguma coisa que consola o nosso desamparo, todos, naturalmente, dizemos e desejamos: para sempre, para sempre...
+Que sabedoria a do demônio! Como conhecia bem o coração humano! Sereis como deuses, disse aos nossos primeiros pais. Aquilo foi um logro cruel. São Paulo, nessa epístola aos Filipenses, ensina um segredo divino para termos a imortalidade e a Glória: Jesus aniquilou-se, tomando forma de servo... Humilhou-se a si mesmo, fazendo-se obediente até à morte, e morte de Cruz. Por isso Deus o exaltou e lhe deu um nome que está acima de todo o nome: para que, ao nome de Jesus, todos se ajoelhem, nos Céus e na terra e nos infernos...');
+INSERT INTO points VALUES(3024,0,2,1022,'Para acompanharmos Cristo na sua Glória, no triunfo final, é necessário que participemos antes do seu holocausto, e que nos identifiquemos com Ele, morto no Calvário.');
+INSERT INTO points VALUES(3025,0,2,1023,'Não te distraias, não deixes a imaginação à solta: vive dentro de ti e estarás mais perto de Deus.');
+INSERT INTO points VALUES(3026,0,2,1024,'Ajuda-me a repetir ao ouvido daquele, e do outro..., e de todos: um homem com fé que for pecador, ainda que consiga todas as bem-aventuranças da terra, é necessariamente infeliz e desgraçado.
+É verdade que o motivo que nos há de levar a odiar o pecado - mesmo o venial - e que deve mover a todos, é sobrenatural: que Deus o detesta com toda a sua infinitude, com ódio sumo, eterno e necessário, como mal oposto ao infinito bem... Mas a primeira consideração que te apontei acima pode conduzir-nos a esta última.');
+INSERT INTO points VALUES(3027,0,2,1025,'Terás tanto de santidade quanto tiveres de mortificação por Amor.');
+INSERT INTO points VALUES(3028,0,2,1026,'Tinha-se desencadeado a perseguição violenta. E aquele sacerdote rezava: - Jesus, que cada incêndio sacrílego aumente o meu incêndio de Amor e de Reparação.');
+INSERT INTO points VALUES(3029,0,2,1027,'Ao considerares a formosura, a grandeza e a eficácia da tarefa apostólica, asseguras que chega a doer-te a cabeça, pensando no caminho que falta ainda percorrer - quantas almas esperam! -; e te sentes felicíssimo, oferecendo-te a Jesus como escravo seu. Tens ânsias de Cruz e de dor e de Amor e de almas. Sem querer, num movimento instintivo - que é Amor -, estendes os braços e abres as palmas, para que Ele te crave na sua Cruz bendita; para seres seu escravo - “serviam!” -, que é reinar.');
+INSERT INTO points VALUES(3030,0,2,1028,'Comoveu-me a súplica inflamada que saiu dos teus lábios: “Meu Deus, só desejo ser agradável aos teus olhos; tudo o mais não me importa. - Mãe Imaculada, faz que só me mova o Amor”.');
+INSERT INTO points VALUES(3031,0,2,1029,'Pede de todo o coração a morte - e mil mortes - antes que ofender o teu Deus.
+E isto, não por causa das penas do pecado - que tanto merecemos -, mas porque Jesus foi e é tão bom contigo.');
+INSERT INTO points VALUES(3032,0,2,1030,'Meu Deus, quando te amarei a Ti, por Ti? Se bem que, bem vistas as coisas, Senhor, desejar o prêmio imperecível é o mesmo que desejar-te a Ti, que Te dás como recompensa.');
+INSERT INTO points VALUES(3033,0,2,1031,'Provai e vede como o Senhor é bom, reza o Salmista.
+- A conquista espiritual, porque é Amor, tem de ser - nas coisas grandes e nas pequenas - ânsia de Infinito, de eternidade.');
+INSERT INTO points VALUES(3034,0,2,1032,'Jesus, não quero pensar no que será o “amanhã”, porque não quero pôr limites à tua generosidade.');
+INSERT INTO points VALUES(3035,0,2,1033,'Faz teus os pensamentos daquele amigo que escrevia: “Estive considerando as bondades de Deus para comigo e, cheio de júbilo interior, teria gritado pela rua, para que toda a gente ficasse sabendo do meu agradecimento filial: Pai, Pai! E, se não gritei, andei chamando-Lhe assim baixinho: - Pai! -, muitas vezes, na certeza de que Lhe agradava.
+“Não procuro outra coisa: só quero o seu agrado e a sua Glória: tudo para Ele. Se quero a salvação, a minha santificação, é porque sei que Ele a quer. Se na minha vida de cristão tenho ânsias de almas, é porque sei que Ele tem essas ânsias. Digo-o de verdade: nunca porei os olhos no prêmio. Não desejo recompensa: tudo por Amor!”.');
+INSERT INTO points VALUES(3036,0,2,1034,'Como amava a Vontade de Deus aquela doente que atendi espiritualmente! Via na doença, longa, penosa e múltipla (não tinha nada sadio), a bênção e as predileções de Jesus; e, embora afirmasse na sua humildade que merecia castigo, a terrível dor que sentia em todo o seu organismo não era um castigo, era uma misericórdia.
+- Falamos da morte. E do Céu. E do que havia de dizer a Jesus e a Nossa Senhora... E de como ali “trabalharia” mais do que aqui... Queria morrer quando Deus quisesse..., mas - exclamava, cheia de felicidade -, que bom se fosse hoje mesmo! Contemplava a morte com a alegria de quem sabe que, ao morrer, vai ter com seu Pai.');
+INSERT INTO points VALUES(3037,0,2,1035,'Não temas a morte. É tua amiga!
+- Procura acostumar-te a essa realidade, assomando com freqüência à tua sepultura. E ali, olha, cheira e apalpa o teu cadáver apodrecido, defunto há oito dias.
+- Lembra-te disto, especialmente, quando te perturbar o ímpeto da tua carne.');
+INSERT INTO points VALUES(3038,0,2,1036,'Abrindo-me a sua alma, dizia: “Pensava nestes dias na morte, como num descanso, apesar dos meus crimes. E considerava: se me comunicassem: Chegou a hora de morrer, com que gosto retrucaria: Chegou a hora de Viver”.');
+INSERT INTO points VALUES(3039,0,2,1037,'Morrer é uma coisa boa. Como pode ser que haja quem tenha fé e, ao mesmo tempo, medo da morte?... Mas, enquanto o Senhor te quiser manter na terra, morrer, para ti, é uma covardia. Viver, viver e padecer e trabalhar por Amor: isto é o que te toca.');
+INSERT INTO points VALUES(3040,0,2,1038,'Ao menos uma vez por dia, situa-te com o pensamento no transe da morte, para veres a essa luz os acontecimentos de cada dia.
+Asseguro-te que terás uma boa experiência da paz que produz essa consideração.');
+INSERT INTO points VALUES(3041,0,2,1039,'Ficaste muito sério ao escutar-me: - Aceito a morte quando Ele quiser, como Ele quiser e onde Ele quiser; e ao mesmo tempo penso que é “um comodismo” morrer cedo, porque temos que desejar trabalhar muitos anos para Ele e, por Ele, a serviço dos outros.');
+INSERT INTO points VALUES(3042,0,2,1040,'Morrer?... Que comodismo!, repito.
+- Diz como aquele santo bispo, ancião e doente: "Non recuso laborem": Senhor, enquanto puder ser-te útil, não me recuso a viver e a trabalhar por Ti.');
+INSERT INTO points VALUES(3043,0,2,1041,'Não queiras fazer nada para ganhar méritos, nem por medo das penas do purgatório. Empenha-te, desde agora e para sempre, em fazer tudo, até as coisas mais pequenas, para dar gosto a Jesus.');
+INSERT INTO points VALUES(3044,0,2,1042,'Deves desejar ardentemente que, quando a nossa boa e inevitável irmã a morte vier prestar-te o serviço de te levar à presença de Deus, não te encontres atado a coisa alguma da terra!');
+INSERT INTO points VALUES(3045,0,2,1043,'Se anelas por ter vida, e vida e felicidade eternas, não podes sair da barca da Santa Madre Igreja. - Olha: se tu te afastas do âmbito da barca, irás para o meio das ondas do mar, irás para a morte, afogado no oceano; deixas de estar com Cristo, perdes a sua amizade, que escolheste voluntariamente quando percebeste que Ele a oferecia a ti.');
+INSERT INTO points VALUES(3046,0,2,1044,'Jesus veio à terra para padecer..., e para evitar os padecimentos - também os terrenos - dos outros.');
+INSERT INTO points VALUES(3047,0,2,1045,'Não há ânimo mais senhoril do que saber-se em serviço: em serviço voluntário a todas as almas!
+- É assim que se ganham as grandes honras: as da terra e as do Céu.');
+INSERT INTO points VALUES(3048,0,2,1046,'Perante a dor e a perseguição, dizia uma alma dotada de sentido sobrenatural: “Prefiro apanhar aqui a apanhar no purgatório!”');
+INSERT INTO points VALUES(3049,0,2,1047,'Se eu amo, para mim não haverá inferno.');
+INSERT INTO points VALUES(3050,0,2,1048,'Como é bom viver de Deus! Como é bom não querer senão a sua Glória!');
+INSERT INTO points VALUES(3051,0,2,1049,'Se queres de verdade alcançar vida e honra eternas, aprende a prescindir em muitos casos das tuas nobres ambições pessoais.');
+INSERT INTO points VALUES(3052,0,2,1050,'Não coloques o teu “eu” na tua saúde, no teu nome, na tua carreira, na tua ocupação, em cada passo que dás... Que coisa tão aborrecida! Pareces ter esquecido que “tu” não tens nada, que tudo é dEle.
+Quando ao longo do dia te sentires - talvez sem razão - humilhado; quando julgares que o teu critério deveria prevalecer; quando notares que em cada instante borbulha o teu “eu”, o teu, o teu, o teu..., convence-te de que estás matando o tempo, e de que estás precisando que “matem” o teu egoísmo.');
+INSERT INTO points VALUES(3053,0,2,1051,'Aconselho-te a não procurar o louvor próprio, nem mesmo aquele que merecerias: é melhor passarmos ocultos, e que o mais belo e nobre da nossa atividade, da nossa vida, fique escondido... Como é grande este fazer-se pequeno! "Deo omnis gloria!" - toda a glória, para Deus.');
+INSERT INTO points VALUES(3054,0,2,1052,'Em momentos de desconsolo, dizia ao Senhor aquela alma: “Meu Jesus, que podia dar-te, além da honra, se não tinha outra coisa? Se tivesse tido fortuna, eu a teria entregue a Ti. Se tivesse tido virtudes, teria edificado com cada uma delas, para servir-te. Só tinha a honra, e a dei a Ti. Louvado sejas! Bem se vê que estava segura nas tuas mãos!”');
+INSERT INTO points VALUES(3055,0,2,1053,'O barro foi o meu princípio e a terra é a herança de toda a minha linhagem.
+Quem, senão Deus, merece louvor?');
+INSERT INTO points VALUES(3056,0,2,1054,'Quando sentires o orgulho que ferve dentro de ti - a soberba! -, que te faz considerar-te um super-homem, chegou o momento de exclamares: - Não! E assim saborearás a alegria do bom filho de Deus, que passa pela terra com erros, mas fazendo o bem.');
+INSERT INTO points VALUES(3057,0,2,1055,'"Sancta Maria, Stella maris" - Santa Maria, Estrela do mar, conduz-nos Tu! Clama assim com energia, porque não há tempestade que possa fazer naufragar o Coração Dulcíssimo da Virgem. Quando vires chegar a tempestade, se te abrigares nesse Refúgio firme que é Maria, não haverá perigo algum de que venhas a soçobrar ou a afundar-te.');
+COMMIT;
