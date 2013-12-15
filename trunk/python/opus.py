@@ -45,7 +45,7 @@ for lang in range(len(languages)):
                 if chapter==0 and len(languages[lang][3][book])>3:
                     continue
                 chap_book_url = book_chap_url.replace("{chapter}", str(chapter))
-                content = urllib.urlopen(chap_book_url).read().decode("ISO-8859-1")
+                content = urllib.urlopen(chap_book_url).read().decode("cp1252")
                 doc = lxml.html.fromstring(content)
                 for el in doc.find_class('path'):
                     if el.tag == 'a':
@@ -58,7 +58,7 @@ for lang in range(len(languages)):
                 if point==0 and len(languages[lang][3][book])>3:
                     continue
                 point_url = book_url.replace("{point}", str(point))
-                content = urllib.urlopen(point_url).read().decode("ISO-8859-1")
+                content = urllib.urlopen(point_url).read().decode("cp1252")
                 doc = lxml.html.fromstring(content)
                 for el in doc.find_class('punto'):
                     print "INSERT INTO points (_language, _book, _point, _text) VALUES (" + str(lang) + ", " + str(book) + ", " + str(point)  + ", " + el[0].text_content() + ");"
