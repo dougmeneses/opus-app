@@ -4789,7 +4789,7 @@ INSERT INTO points VALUES(4183,1,1,125,'Not all can become rich, wise, famous...
 INSERT INTO points VALUES(4184,1,1,126,'To be faithful to God requires a constant battle. Hand-to-hand combat, man to man — the old man against the man of God — in one small thing after another, without giving in.');
 INSERT INTO points VALUES(4185,1,1,127,'The test, I don’t deny it, proves to be very hard: you have to go uphill, “against the grain”.
 —What is my advice? That you must say: omnia in bonum, everything that happens, “everything that happens to me”, is for my own good... Therefore do accept what seems so hard to you, as a sweet and pleasant reality.');
-INSERT INTO points VALUES(4186,1,1,128,'Nowadays it is not enough for men and women to be good. Moreover, it is not good enough to be satisfied with being nearly good. It is necessary to be revolutionary’.
+INSERT INTO points VALUES(4186,1,1,128,'Nowadays it is not enough for men and women to be good. Moreover, it is not good enough to be satisfied with being nearly... good. It is necessary to be revolutionary’.
 Faced by hedonism, faced by the pagan and materialistic wares that we are being offered, Christ wants objectors! — rebels of Love!');
 INSERT INTO points VALUES(4187,1,1,129,'Whoever really wants to achieve sanctity, takes no breaks or holidays.');
 INSERT INTO points VALUES(4188,1,1,130,'Some behave, throughout their lives, as though Our Lord had only talked of self-giving and upright behaviour to those who did not find it hard — they don’t exist! — or to those who don’t need to fight.
@@ -4812,7 +4812,7 @@ INSERT INTO points VALUES(4195,1,1,137,'Do not enter into dialogue with temptati
 INSERT INTO points VALUES(4196,1,1,138,'You have no excuse whatsoever. You have only yourself to blame. If you are aware — and you know it well enough — that going along that path, reading those things, keeping that company, can bring you to a precipice, why do you persist in thinking that perhaps it is a short cut which will help you to develop or which makes your personality more mature?
 You must change your plan radically, even though it demands a greater effort and means fewer amusements at your disposal. It is high time you behaved as a responsible person.');
 INSERT INTO points VALUES(4197,1,1,139,'The irresponsibility of so many men and women who make no effort to avoid deliberate venial sins, pains Our Lord very much. It’s normal, they think, and seek to excuse themselves by saying that at those stumbling blocks we all fall!
-Listen carefully: most of that mob, which condemned Christ and put him to death, also began only by shouting — just like the others — by going to the Garden of Olives — with the rest of them
+Listen carefully: most of that mob, which condemned Christ and put him to death, also began only by shouting — just like the others — by going to the Garden of Olives — with the rest of them...
 In the end, still carried along by what “everyone” was doing, they did not know how to draw back or did not want to... and they crucified Jesus!
 —Now, after twenty centuries, we still have not learned.');
 INSERT INTO points VALUES(4198,1,1,140,'Ups and downs. You have many, too many, ups and downs.
@@ -4863,7 +4863,7 @@ Your indolence saddened me, and I added: idlers are made to shift by those going
 The holy bishop of Hippo already pointed it out: not to go forward is to go back.');
 INSERT INTO points VALUES(4224,1,1,166,'In your life, there are two things that do not fit together: your head and your heart.
 Your intelligence — enlightened by faith — shows you the way clearly. It can also point out the difference between following that way heroically or stupidly. Above all, it places before you the divine greatness and beauty of the undertakings the Trinity leaves in our hands.
-Your feelings, on the other hand, become attached to everything you despise, even while you consider it despicable. It seems as if a thousand trifles were awaiting the least opportunity, and as soon as your poor will is weakened, through physical tiredness or lack of supernatural outlook, those little things pile up and excite your imagination, until they form a mountain that oppresses and discourages you. Things such as the rough edges of your work, your resistance to obedience; the lack of proper means; the will-o’-the-wisp attractions of an easy life; greater or smaller repugnant temptations; bouts of over-sentimentality; tiredness; the bitter taste of spiritual mediocrity And sometimes also fear; fear because you know God wants you to be a saint, and you are not a saint.
+Your feelings, on the other hand, become attached to everything you despise, even while you consider it despicable. It seems as if a thousand trifles were awaiting the least opportunity, and as soon as your poor will is weakened, through physical tiredness or lack of supernatural outlook, those little things pile up and excite your imagination, until they form a mountain that oppresses and discourages you. Things such as the rough edges of your work, your resistance to obedience; the lack of proper means; the will-o’-the-wisp attractions of an easy life; greater or smaller repugnant temptations; bouts of over-sentimentality; tiredness; the bitter taste of spiritual mediocrity... And sometimes also fear; fear because you know God wants you to be a saint, and you are not a saint.
 Allow me to talk to you bluntly. You have more than enough “reasons” to turn back, and you lack the resolution to correspond to the grace that He grants you, since He has called you to be another Christ, ipse Christus! — Christ himself. You have forgotten the Lord’s admonition to the Apostle: “My grace is enough for you!”, which is confirmation that, if you want to, you can.');
 INSERT INTO points VALUES(4225,1,1,167,'Make up the time you have lost resting on the laurels of your self-complacency, and thinking what a good person you are, as if it were enough just to keep going, without stealing or killing.
 Speed up the pace of your piety and your work: you still have such a long way to go: Live happily with everyone, even with those who annoy you, and make an effort to love — to serve! — those whom you despised before.');
@@ -5334,7 +5334,7 @@ INSERT INTO points VALUES(4522,1,1,464,'Look at the set of senseless reasons the
 Prayer is not a question of what you say or feel, but of love. And you love when you try hard to say something to the Lord, even though you might not actually say anything.');
 INSERT INTO points VALUES(4523,1,1,465,'“Just one minute of intense prayer is enough.” Someone who never prayed used to say that.
 —Would someone in love think it enough to contemplate intensely the person they love for just a minute?');
-INSERT INTO points VALUES(4524,1,1,466,'This ideal of warring — and winning — Christ’s battles will only become a reality through prayer and sacrifice, through Faith and Love. Well, then pray and believe, and suffer, and Love!');
+INSERT INTO points VALUES(4524,1,1,466,'This ideal of warring — and winning — Christ’s battles will only become a reality through prayer and sacrifice, through Faith and Love. Well, then... pray and believe, and suffer, and Love!');
 INSERT INTO points VALUES(4525,1,1,467,'Mortification is the drawbridge that enables us to enter the castle of prayer.');
 INSERT INTO points VALUES(4526,1,1,468,'Do not be discouraged. However unworthy the person is, however imperfect the prayer turns out to be, if it is offered with humility and perseverance, God always hears it.');
 INSERT INTO points VALUES(4527,1,1,469,'Lord, I do not deserve to be heard, because I am wicked, a penitent soul prayed: But he added: Yet... listen to me quoniam bonus — because You are good.');
@@ -5401,7 +5401,7 @@ INSERT INTO points VALUES(4567,1,1,509,'You know that the task is urgent, and th
 Moreover, I ask you to think whether the minutes you have to spare throughout the day, which taken together come to hours, might not be prompted by your disorder and laziness.');
 INSERT INTO points VALUES(4568,1,1,510,'Sadness and uneasiness grow in proportion to the time you waste.
 —When you feel a holy impatience to use every minute you will be filled with joy and peace, because you will not be thinking about yourself.');
-INSERT INTO points VALUES(4569,1,1,511,'Preoccupations? I replied I had no preoccupations, for I had enough occupations to keep me busy.');
+INSERT INTO points VALUES(4569,1,1,511,'Preoccupations...? I replied I had no preoccupations, for I had enough occupations to keep me busy.');
 INSERT INTO points VALUES(4570,1,1,512,'You are going through a critical stage. You feel a certain vague fear and find it difficult to adapt your plan of life. Your work seems to weigh you down, since twenty-four hours are not enough for everything you ought to do each day...
 —Have you tried following the Apostle’s advice: “let all things be done decently and according to order”? That means, in the presence of God, with Him, through Him, and only for Him.');
 INSERT INTO points VALUES(4571,1,1,513,'When you parcel out your time, you need also to think how you can make use of the odd moments that become free at unforeseen times.');
@@ -5602,7 +5602,7 @@ INSERT INTO points VALUES(4703,1,1,645,'Never have recourse to the always deplor
 INSERT INTO points VALUES(4704,1,1,646,'You can never give advice dispassionately or with a right intention, if you get upset or think people show a lack of confidence in you when they also listen to the advice of other people of proven formation and good doctrine.
 —If you are really interested, as you claim, in the good of souls and in stating the truth, why are you offended?');
 INSERT INTO points VALUES(4705,1,1,647,'Not even to Joseph does Mary communicate the mystery that God has wrought in her. —This lesson teaches us not to become accustomed to speaking lightly but to channel our joys and our sorrows correctly without seeking praise or sympathy. Deo omnis gloria! — all for God!');
-INSERT INTO points VALUES(4706,1,1,648,'More is achieved by whoever goes up closer to plead  That is why you must get close to God and be intent on becoming a saint.');
+INSERT INTO points VALUES(4706,1,1,648,'More is achieved by whoever goes up closer to plead...  That is why you must get close to God and be intent on becoming a saint.');
 INSERT INTO points VALUES(4707,1,1,649,'I like to compare the interior life to clothing, to the wedding garment the Gospel speaks about. The cloth is woven from all the habits or acts of piety which, like threads, together give strength to the cloth. And so, just as a torn dress is rejected even though the rest of the material is in good condition, if you pray and work... but are not penitent (or the other way round) your interior life is not (so to speak) complete.');
 INSERT INTO points VALUES(4708,1,1,650,'When will you realise that your only possible way is to seek sanctity seriously.
 Make up your mind — don’t be offended — to take God seriously. That levity of yours, if you do not fight against it, could end up by becoming a sad and blasphemous mockery.');
@@ -6135,14 +6135,14 @@ INSERT INTO points VALUES(5060,1,2,1,'We are children of God. —Bearers of the 
 INSERT INTO points VALUES(5061,1,2,2,'—God is my Father! If you meditate on it, you will never let go of this consoling consideration.
 —Jesus is my intimate Friend (another re-discovery) who loves me with all the divine madness of his Heart.
 —The Holy Spirit is my Consoler, who guides my every step along the road.
-Consider this often: you are God’s and God is yours.');
+Consider this often: you are God’s... and God is yours.');
 INSERT INTO points VALUES(5062,1,2,3,'My Father — talk to him like that, confidently — who art in heaven, look upon me with compassionate Love, and make me respond to thy love.
 —Melt and enkindle my heart of bronze, burn and purify my unmortified flesh, fill my mind with supernatural light, make my tongue proclaim the Love and Glory of Christ.');
 INSERT INTO points VALUES(5063,1,2,4,'Christ, who went up to the Cross with his arms wide open, with the gesture of the Eternal Priest, wants to count on us — who are nothing! — to bring to all men the fruits of his Redemption.');
 INSERT INTO points VALUES(5064,1,2,5,'Lord, we are glad to find ourselves in your wounded palm. Grasp us tight, squeeze us hard, make us lose all our earthly wretchedness, purify us, set us on fire, make us feel drenched in your Blood.
 —And then, cast us far, far away, hungry for the harvest, to sow the seed more fruitfully each day, for Love of you.');
 INSERT INTO points VALUES(5065,1,2,6,'Do not be afraid. Do not be alarmed or surprised. Do not allow yourself to be overcome by false prudence.
-The call to fulfil God’s will — this goes for vocation too — is sudden, as it was for the Apostles: a meeting with Christ and his call is followed
+The call to fulfil God’s will — this goes for vocation too — is sudden, as it was for the Apostles: a meeting with Christ and his call is followed...
 —None of them doubted. Meeting Christ and following him was all one.');
 INSERT INTO points VALUES(5066,1,2,7,'A day of salvation, of eternity, has come for us. Once again the call of the Divine Shepherd can be heard, those affectionate words: Vocavi te nomine tuo — I have called you by your name.
 Just like our mother, he calls us by our name, even by the name we were affectionately called at home. —There, in the depths of our soul, he calls us and we just have to answer: Ecce ego quia vocasti me —here I am, for you have called me, and this time I’m determined not to let time flow by like water over rounded stones, leaving no trace behind.');
@@ -6154,7 +6154,7 @@ INSERT INTO points VALUES(5069,1,2,10,'Think about what the Holy Spirit says, an
 —And what means do we have? The same means the early faithful had, when they saw Jesus directly or caught a glimpse of him in the accounts the Apostles and Evangelists gave of him.');
 INSERT INTO points VALUES(5070,1,2,11,'You owe such a great debt to your Father—God! He has given you life, intelligence, will... He has given you his grace: the Holy Spirit; Jesus, in the Sacred Host; divine sonship; the Blessed Virgin, the Mother of God and our Mother. He has given you the possibility of taking part in the Holy Mass; and he grants you forgiveness for your sins. He forgives you so many times! He has given you countless gifts, some of them quite extraordinary...
 Tell me, my son: how have you corresponded so far to this generosity? How are you corresponding now?');
-INSERT INTO points VALUES(5071,1,2,12,'I do not know how it strikes you, but I feel I must tell you how moved I am whenever I read the words of the prophet Isaiah: Ego vocavi te nomine tuo, meus es tu! — I have called you, I have brought you into my Church, you are mine! God himself telling me I am his! It is enough to make one go mad with Love!');
+INSERT INTO points VALUES(5071,1,2,12,'I do not know how it strikes you..., but I feel I must tell you how moved I am whenever I read the words of the prophet Isaiah: Ego vocavi te nomine tuo, meus es tu! — I have called you, I have brought you into my Church, you are mine! God himself telling me I am his! It is enough to make one go mad with Love!');
 INSERT INTO points VALUES(5072,1,2,13,'Just think, there are so many men and women on earth, and the Master does not fail to call every single one.
 He calls them to a Christian life, to a life of holiness, to a chosen life, to life eternal.');
 INSERT INTO points VALUES(5073,1,2,14,'Christ suffered in your place and for your benefit, to tear you away from the slavery of sin and imperfection.');
@@ -6182,22 +6182,22 @@ INSERT INTO points VALUES(5085,1,2,26,'It is painful to see that after two thous
 It is worth while putting our whole life at stake!: working and suffering for Love, to accomplish God’s plans and co—redeem.');
 INSERT INTO points VALUES(5086,1,2,27,'I look at your Cross, my Jesus, and I rejoice in your grace, because your Calvary has won for us the reward of the Holy Spirit. And you give yourself to me, each day, lovingly, madly, in the Sacred Host. And you have made me a son of God, and have given me your Mother to be mine.
 I can’t be satisfied with just giving thanks. My thoughts take flight: Lord, Lord, there are so many souls who are so far from you!
-Foster those yearnings for apostolate in your life, that many may get to know him, and love him, and come to feel loved by him!');
+Foster those yearnings for apostolate in your life, that many may get to know him..., and love him..., and come to feel loved by him!');
 INSERT INTO points VALUES(5087,1,2,28,'Sometimes we hear love described (you’ll have heard me mention this more than once) as if it were a movement towards self—satisfaction, or merely a means of selfishly fulfilling one’s own personality.
 —And I have always told you that it isn’t so. True love demands getting out of oneself, giving oneself. Genuine love brings joy in its wake, a joy that has its roots in the shape of the Cross.');
 INSERT INTO points VALUES(5088,1,2,29,'My God, how is it that I do not cry out in sorrow and love whenever I see a Crucifix?');
 INSERT INTO points VALUES(5089,1,2,30,'Marvel at God’s magnanimity: he has become Man to redeem us, so that you and I — who are absolutely worthless, admit it! — may come to know him and trust him.');
-INSERT INTO points VALUES(5090,1,2,31,'O Jesus, strengthen our souls, open out the way for us, and, above all, intoxicate us with your Love! Make us into blazing fires to kindle the earth with the heavenly fire you brought us.');
+INSERT INTO points VALUES(5090,1,2,31,'O Jesus..., strengthen our souls, open out the way for us, and, above all, intoxicate us with your Love! Make us into blazing fires to kindle the earth with the heavenly fire you brought us.');
 INSERT INTO points VALUES(5091,1,2,32,'Coming closer to God means being ready to be converted anew, to change direction again, to listen attentively to his inspirations — those holy desires he places in our souls — and to put them into practice.');
 INSERT INTO points VALUES(5092,1,2,33,'What are you so proud of? — Every impulse that moves you comes from Him. Act accordingly.');
 INSERT INTO points VALUES(5093,1,2,34,'What respect, veneration and affection we should feel for every single soul when we realise that God loves it as his very own!');
 INSERT INTO points VALUES(5094,1,2,35,'An aspiration: May we spend the days the Lord grants us only in pleasing him!');
-INSERT INTO points VALUES(5095,1,2,36,'I would like you to behave as Peter and John did — speaking to Jesus about the needs of your friends, colleagues as you pray. And then with your example you will be able to say to them: Respice in nos! — look at me!');
+INSERT INTO points VALUES(5095,1,2,36,'I would like you to behave as Peter and John did — speaking to Jesus about the needs of your friends, colleagues... as you pray. And then with your example you will be able to say to them: Respice in nos! — look at me!');
 INSERT INTO points VALUES(5096,1,2,37,'When you love somebody very much, you want to know everything about him.
-—Meditate on this: Do you feel a hunger to know Christ? Because that is the measure of your love for him.');
+—Meditate on this: Do you feel a hunger to know Christ? Because... that is the measure of your love for him.');
 INSERT INTO points VALUES(5097,1,2,38,'People who say that we priests are lonely are either lying or have got it all wrong. We are far less lonely than anyone else, for we can count on the constant company of the Lord, with whom we should be conversing without interruption.
 —We are in love with Love, with the Author of Love!');
-INSERT INTO points VALUES(5098,1,2,39,'I see myself like a poor little bird, accustomed only to making short flights from tree to tree, or, at most, up to a third floor balcony One day in its life it succeeded in reaching the roof of a modest building, that you could hardly call a skyscraper.
+INSERT INTO points VALUES(5098,1,2,39,'I see myself like a poor little bird, accustomed only to making short flights from tree to tree, or, at most, up to a third floor balcony... One day in its life it succeeded in reaching the roof of a modest building, that you could hardly call a skyscraper.
 But suddenly our little bird is snatched up by an eagle, who mistakes the bird for one of its own brood. In its powerful talons the bird is borne higher and higher, above the mountains of the earth and the snow—capped peaks, above the white, blue and rose—pink clouds, and higher and higher until it can look right into the sun. And then the eagle lets go of the little bird and says: Off you go. Fly!
 —Lord, may I never flutter again close to the ground. May I always be enlightened by the rays of the divine sun — Christ — in the Eucharist. May my flight never be interrupted until I find repose in your Heart.');
 INSERT INTO points VALUES(5099,1,2,40,'That friend of ours would finish his prayer in this way: “I love the Will of my God and that is why, abandoning myself completely into his hands, I pray that he may lead me however and wherever he likes.”');
@@ -6215,7 +6215,7 @@ INSERT INTO points VALUES(5107,1,2,48,'It would be good if it could be said of y
 INSERT INTO points VALUES(5108,1,2,49,'Any job, no matter how hidden, no matter how insignificant, when offered to the Lord, is charged with the strength of God’s life!');
 INSERT INTO points VALUES(5109,1,2,50,'Feel the responsibility of your mission: the whole of Heaven is looking down on you.');
 INSERT INTO points VALUES(5110,1,2,51,'God awaits you! — So, wherever you are, you must commit yourself to imitating him and uniting yourself to him, cheerfully, lovingly, keenly, though circumstances might require you — even permanently — to go against the grain.
-God awaits you! and needs you to be faithful!');
+God awaits you!... and needs you to be faithful!');
 INSERT INTO points VALUES(5111,1,2,52,'You wrote: “My King, I hear you proclaiming in a loud voice that still resounds: Ignem veni mittere in terram, et quid volo nisi ut accendatur? — I have come to cast fire upon the earth, and would that it were already kindled!”
 Then you added: “Lord, it is me — all of me — who answers with all my senses and faculties: Ecce ego quia vocasti me! — here I am because you have called me.”
 —May this answer of yours be a daily reality.');
@@ -6224,12 +6224,12 @@ INSERT INTO points VALUES(5113,1,2,54,'You enjoy an interior happiness and peace
 INSERT INTO points VALUES(5114,1,2,55,'Is it possible, you asked me, that Christ should have spent so many years — twenty centuries — acting on earth, and the world should be now what it is? Is it possible, you went on, that there should still be people who do not know Our Lord?
 —And I answered you with conviction: It is our fault. For we have been called to be co—redeemers, and at times, perhaps often!, we do not follow the Will of God.');
 INSERT INTO points VALUES(5115,1,2,56,'How humble Jesus is. What a shame, in contrast, that I who am nothing but dust from a dung—heap should so often have disguised my pride under the cloak of dignity, or justice. — And as a result, how many opportunities to follow the Master I have missed or wasted, by failing to supernaturalise them.');
-INSERT INTO points VALUES(5116,1,2,57,'Sweet Mother, lead us to that madness that will make others fall madly in love with our Christ.
+INSERT INTO points VALUES(5116,1,2,57,'Sweet Mother..., lead us to that madness that will make others fall madly in love with our Christ.
 Sweet Lady Mary, may Love not be in us a flash in the pan, or a will—o’—the—wisp, such as decomposing corpses sometimes produce. May it be a true devouring fire, which sets alight and burns everything it touches.');
 INSERT INTO points VALUES(5117,1,2,58,'Being chosen by God means, — and demands! —, personal holiness.');
 INSERT INTO points VALUES(5118,1,2,59,'If you respond to the call the Lord has made to you, your life — your poor life! — will leave a deep and wide furrow in the history of the human race, a clear and fertile furrow, eternal and godly.');
 INSERT INTO points VALUES(5119,1,2,60,'Each day be conscious of your duty to be a saint. — A saint! And that doesn’t mean doing strange things. It means a daily struggle in the interior life and in heroically fulfilling your duty right through to the end.');
-INSERT INTO points VALUES(5120,1,2,61,'Sanctity does not consist in great concerns. — It consists in struggling to ensure that the flame of your supernatural life is never allowed to go out; it consists in letting yourself be burned down to the last shred, serving God in the lowest place or in the highest: wherever the Lord may call you.');
+INSERT INTO points VALUES(5120,1,2,61,'Sanctity does not consist in great concerns. — It consists in struggling to ensure that the flame of your supernatural life is never allowed to go out; it consists in letting yourself be burned down to the last shred, serving God in the lowest place... or in the highest: wherever the Lord may call you.');
 INSERT INTO points VALUES(5121,1,2,62,'Our Lord did not confine himself to telling us that he loved us. He showed it to us with deeds, with his whole life. — What about you?');
 INSERT INTO points VALUES(5122,1,2,63,'If you love the Lord, you will necessarily feel the blessed burden of souls, and the need to bring them to God.');
 INSERT INTO points VALUES(5123,1,2,64,'For someone who wants to live for Love with a capital letter, the middle course is not good enough; that would be meanness, a wretched compromise.');
@@ -6239,7 +6239,7 @@ INSERT INTO points VALUES(5126,1,2,67,'We must ask God for faith, hope and chari
 INSERT INTO points VALUES(5127,1,2,68,'You told me that you did not know how to repay me for the holy zeal that flooded your soul.
 —I hastened to answer: It is not I who have given you any of those yearnings; it is the Holy Spirit.
 —Desire his company, get to know him. — That way you will come to love him better and better, and you will come to thank him for taking up his abode in your soul so that you may have interior life.');
-INSERT INTO points VALUES(5128,1,2,69,'Keep struggling, so that the Holy Sacrifice of the Altar really becomes the centre and root of your interior life, and so your whole day will turn into an act of worship — an extension of the Mass you have attended and a preparation for the next. Your whole day will then be an act of worship that overflows in aspirations, visits to the Blessed Sacrament and the offering up of your professional work and your family life');
+INSERT INTO points VALUES(5128,1,2,69,'Keep struggling, so that the Holy Sacrifice of the Altar really becomes the centre and root of your interior life, and so your whole day will turn into an act of worship — an extension of the Mass you have attended and a preparation for the next. Your whole day will then be an act of worship that overflows in aspirations, visits to the Blessed Sacrament and the offering up of your professional work and your family life...');
 INSERT INTO points VALUES(5129,1,2,70,'Try to give thanks to Jesus in the Eucharist by singing the praises of Our Lady, the Virgin most pure, without stain, who brought forth the Lord into this world.
 —And, with childlike daring, say to Jesus: My dearest Love, blessed be the Mother who brought you into this world!
 I assure you it will please him, and he will put even greater love in your soul.');
@@ -6248,7 +6248,7 @@ Contemplate this fact slowly: the disciples had the opportunity of talking to Je
 INSERT INTO points VALUES(5131,1,2,72,'When you start out each day to work by Christ’s side and to look after all those souls who seek him, remember that there is only one way of doing it: we must turn to the Lord.
 —Only in prayer, and through prayer, do we learn to serve others!');
 INSERT INTO points VALUES(5132,1,2,73,'Remember that prayer does not consist in making pretty speeches, or high—sounding or consoling phrases.
-Prayer, at times, will be a glance at a picture of Our Lord or of his Mother; sometimes a petition, expressed in words; or offering good works, and the fruits of faithfulness
+Prayer, at times, will be a glance at a picture of Our Lord or of his Mother; sometimes a petition, expressed in words; or offering good works, and the fruits of faithfulness...
 We have to be like a guard on sentry duty at the gate of God Our Lord: that’s what prayer is. Or like a small dog that lies down at its master’s feet.
 —Do not mind telling him: Lord, here I am, like a faithful dog; or better still like a little donkey, which will not kick the one who loves him.');
 INSERT INTO points VALUES(5133,1,2,74,'We all have to be ipse Christus — Christ himself. This is what Saint Paul commands in the name of God: Induimini Dominum Iesum Christum — put on the Lord Jesus Christ.
@@ -6266,15 +6266,15 @@ INSERT INTO points VALUES(5143,1,2,84,'Seek God in the depths of your pure, clea
 —And if ever you do not know how to speak to him or what to say, or you do not dare to look for Jesus inside yourself, turn to Mary, tota pulchra, all pure and wonderful, and tell her: Our Lady and Mother, the Lord wanted you yourself to look after God and tend him with your own hands. Teach me, teach us all, how to treat your Son!');
 INSERT INTO points VALUES(5144,1,2,85,'You must instil in all souls the heroism of doing the little things of each day perfectly, as if the salvation of the world depended on each one of those actions.');
 INSERT INTO points VALUES(5145,1,2,86,'With your life of piety you will learn how to practise the virtues proper to your condition as a son of God, as a Christian.
-—And together with those virtues you will acquire a whole range of spiritual values which seem small but are really very great. They are like shining precious stones, and we must gather them along the way and then take them up to the foot of God’s Throne in the service of our fellow men: simplicity, cheerfulness, loyalty, peace, small renunciations, services which pass unnoticed, the faithful fulfilment of duty, kindness');
-INSERT INTO points VALUES(5146,1,2,87,'Don’t create more obligations for yourself than God’s glory, his Love, his Apostolate.');
-INSERT INTO points VALUES(5147,1,2,88,'Our Lord has made you see your way clearly as a Christian in the middle of the world. Nevertheless, you tell me that you have often thought, enviously (though in the end you admitted it would be taking the easy way out) of the happiness of being a nobody, of working away, totally obscure, in the remotest corner God and you!
+—And together with those virtues you will acquire a whole range of spiritual values which seem small but are really very great. They are like shining precious stones, and we must gather them along the way and then take them up to the foot of God’s Throne in the service of our fellow men: simplicity, cheerfulness, loyalty, peace, small renunciations, services which pass unnoticed, the faithful fulfilment of duty, kindness...');
+INSERT INTO points VALUES(5146,1,2,87,'Don’t create more obligations for yourself than... God’s glory, his Love, his Apostolate.');
+INSERT INTO points VALUES(5147,1,2,88,'Our Lord has made you see your way clearly as a Christian in the middle of the world. Nevertheless, you tell me that you have often thought, enviously (though in the end you admitted it would be taking the easy way out) of the happiness of being a nobody, of working away, totally obscure, in the remotest corner... God and you!
 —Now, apart from the idea of missionary work in Japan, the thought of just such a hidden and sacrificed life has come to your mind. But if, free from other holy natural obligations, you were to try to “hide away” in a religious institution, assuming that was not your vocation, you would not be happy. You would lack peace; because you would have done your own will, not God’s.
 —Your “vocation”, in that case, would deserve another name: it would be a defection. It would not be the result of divine inspiration, but of sheer human reluctance to face the coming struggle. And that would never do!');
 INSERT INTO points VALUES(5148,1,2,89,'In living holy purity and a clean life, there is a great difficulty to which we are all exposed. The danger is one of becoming bourgeois, either in our spiritual life or in our professional life; the danger — also a real one for those called by God to marriage — of becoming dry old bachelors, selfish; people who do not love.
 —Fight that danger tooth and nail, without making concessions of any kind.');
 INSERT INTO points VALUES(5149,1,2,90,'Because we shall always have to put up with this little donkey which is our body, to conquer sensuality you have to practise daily and generously little mortifications — and sometimes big ones as well. And you must live in the presence of God, who never ceases to watch over you.');
-INSERT INTO points VALUES(5150,1,2,91,'Your chastity cannot be confined to avoiding falls or occasions In no way can it be a cold and mathematical negative.
+INSERT INTO points VALUES(5150,1,2,91,'Your chastity cannot be confined to avoiding falls or occasions... In no way can it be a cold and mathematical negative.
 —Haven’t you realised that chastity is a virtue and that as such it should grow and become more perfect?
 —It is not enough, then, to be continent according to your state. You have to be chaste, with a heroic virtue.');
 INSERT INTO points VALUES(5151,1,2,92,'The bonus odor Christi, the fragrance of Christ, is also that of our clean life, of our chastity — the chastity of each one in his own state, I repeat — of our holy purity, which is a joyful affirmation. It is something solid and at the same time gentle; it is refined, avoiding even the use of inappropriate words, since they cannot be pleasing to God.');
@@ -6298,7 +6298,7 @@ INSERT INTO points VALUES(5163,1,2,104,'In national life there are two things wh
 INSERT INTO points VALUES(5164,1,2,105,'Joy is a Christian possession which we will have as long as we keep fighting, for it is a consequence of peace. Peace is the fruit of having conquered in war, and the life of man upon this earth — as we read in Sacred Scripture — is a warfare.');
 INSERT INTO points VALUES(5165,1,2,106,'This divine warfare of ours is a marvellous sowing of peace.');
 INSERT INTO points VALUES(5166,1,2,107,'The person who stops struggling causes harm to the Church, to his own supernatural undertaking, to his brothers and to all souls.
-—Examine yourself. Could you not put a more lively love for God into your spiritual combat? — I am praying for you and for everyone. You should do the same.');
+—Examine yourself. Could you not put a more lively love for God into your spiritual combat? — I am praying for you... and for everyone. You should do the same.');
 INSERT INTO points VALUES(5167,1,2,108,'Jesus, if there is anything in me which is displeasing to you, tell me what it is so that we may uproot it.');
 INSERT INTO points VALUES(5168,1,2,109,'There is an enemy of the interior life which is both little and silly. Unfortunately, it can be very effective. It is the neglect of effort in one’s examination of conscience.');
 INSERT INTO points VALUES(5169,1,2,110,'In Christian asceticism the examination of conscience meets a need of love, and of sensitivity.');
@@ -6324,16 +6324,16 @@ INSERT INTO points VALUES(5181,1,2,122,'Lord, from now on let me become someone 
 —Let me not deny you anything you ask of me. Let me know how to pray. Let me know how to suffer. Let me not worry about anything except your glory. Let me feel your presence all the time.
 —May I love the Father. May I hunger for you, my Jesus, in a permanent Communion. May the Holy Spirit set me on fire.');
 INSERT INTO points VALUES(5182,1,2,123,'Meus es tu — you are mine, the Lord has declared to you.
-—To think that God, who is all beauty and all wisdom, all splendour and all goodness, should say to you that you are his! and then, after all this, you can’t bring yourself to respond to him!');
+—To think that God, who is all beauty and all wisdom, all splendour and all goodness, should say to you that you are his...! and then, after all this, you can’t bring yourself to respond to him!');
 INSERT INTO points VALUES(5183,1,2,124,'You should not be surprised to feel in your life that weight dragging you down which Saint Paul spoke of: “I see in my members another law at war with the law of my mind.”
 —Remember then that you belong to Christ, and have recourse to the Mother of God, who is your Mother. They will not abandon you.');
 INSERT INTO points VALUES(5184,1,2,125,'Receive the advice you are given in spiritual guidance as though it came from Jesus Christ himself.');
 INSERT INTO points VALUES(5185,1,2,126,'You asked me to suggest a way for winning through in your daily struggles, and I replied: When you lay your soul open, say first of all what you wouldn’t like to be known. In this way the devil will always end up defeated.
 —Lay your soul wide open, clearly and simply, so that the rays of God’s Love may reach and illuminate the last corner of it!');
 INSERT INTO points VALUES(5186,1,2,127,'If that dumb devil mentioned in the Gospel gets into your soul, he will spoil everything. On the other hand, if you get rid of him immediately, everything will turn out well; you will carry on merrily, and all will be well.
-—A firm resolution: to be “savagely sincere” in spiritual direction, always keeping your good manners, and to be sincere immediately.');
+—A firm resolution: to be “savagely sincere” in spiritual direction, always keeping your good manners..., and to be sincere immediately.');
 INSERT INTO points VALUES(5187,1,2,128,'Love and seek help from the person who guides your soul. In spiritual direction lay your heart completely open — rotten, if it were rotten! — with all sincerity, with the desire to be cured. If you don’t, you will never get rid of that rottenness.
-If you go to someone who can only cleanse the wound superficially you are a coward, because really you will be going along to hide the truth, doing yourself harm.');
+If you go to someone who can only cleanse the wound superficially... you are a coward, because really you will be going along to hide the truth, doing yourself harm.');
 INSERT INTO points VALUES(5188,1,2,129,'Never be afraid of telling the truth. But don’t forget that sometimes it is better to remain silent out of charity towards your neighbour. However, you should never be silent out of laziness, or love of comfort, or cowardice.');
 INSERT INTO points VALUES(5189,1,2,130,'The world thrives on lies even twenty centuries after the Truth came among men.
 —We have to tell the truth! This is precisely what we have to do as children of God. When men get used to proclaiming and hearing the truth, there will be more understanding in this world of ours.');
@@ -6354,7 +6354,7 @@ INSERT INTO points VALUES(5198,1,2,139,'When contemplating the scene of the Inca
 INSERT INTO points VALUES(5199,1,2,140,'Live your Christian life with naturalness! Let me stress this: make Christ known through your behaviour, just as an ordinary mirror reproduces an image without distorting it or turning it into a caricature. — If, like the mirror, you are normal, you will reflect Christ’s life, and show it to others.');
 INSERT INTO points VALUES(5200,1,2,141,'If you are fatuous, if all you can think of is your own personal comfort, if you centre everyone else and even the world itself on yourself, then you have no right to call yourself a Christian or to consider yourself a disciple of Christ. He set the level of what can be demanded of us when he offered, for each of us: et animam suam, his own soul, his whole life.');
 INSERT INTO points VALUES(5201,1,2,142,'Try to make “intellectual humility” an axiom in your life.
-Think about it carefully Isn’t it true that it just doesn’t make sense to be “intellectually proud”? That saint and doctor of the Church put it very well when he said: “It is a detestable disorder for a man to see God become a little child, and yet still want to appear great in this world.”');
+Think about it carefully... Isn’t it true that it just doesn’t make sense to be “intellectually proud”? That saint and doctor of the Church put it very well when he said: “It is a detestable disorder for a man to see God become a little child, and yet still want to appear great in this world.”');
 INSERT INTO points VALUES(5202,1,2,143,'The moment you have anyone — whoever he may be — at your side, find a way, without doing anything strange, to pass on to him the joy you experience in being a son of God and living as such.');
 INSERT INTO points VALUES(5203,1,2,144,'The mission to serve which the Divine Master has entrusted to us is a great and beautiful mission. — That is why this good spirit —which entails great self—mastery! — is perfectly compatible with the love of freedom that should pervade the work of all Christians.');
 INSERT INTO points VALUES(5204,1,2,145,'You must never treat anyone unmercifully. If you think someone is not worthy of your mercy, you should realise that neither do you deserve anything.
@@ -6379,15 +6379,15 @@ Sanctity is not rigid like cardboard; it knows how to smile, to give way to othe
 INSERT INTO points VALUES(5216,1,2,157,'Mother, do not leave me! Let me seek your Son, let me find your Son, let me love your Son — with my whole being! — Remember me, my Lady, remember me.');
 INSERT INTO points VALUES(5217,1,2,158,'When our vision is clouded, when our eyes have lost their clarity, we need to go to the light. And Jesus Christ has told us that he is the Light of the world and that he has come to heal the sick.
 —That is why your weaknesses and your falls — when God allows them — should not separate you from Christ, but rather draw you closer to him!');
-INSERT INTO points VALUES(5218,1,2,159,'In my wretchedness I complained to a friend of mine, saying that it seemed as if Jesus were passing me by and leaving me on my own.
+INSERT INTO points VALUES(5218,1,2,159,'In my wretchedness I complained to a friend of mine, saying that it seemed as if Jesus were passing me by... and leaving me on my own.
 —But immediately I thought better of it and was sorry. Full of confidence, I said: It is not true, my Love. Quite clearly it is I who have gone away from you. Never again!');
-INSERT INTO points VALUES(5219,1,2,160,'Beg the Lord for his grace so that you may be purified by his Love and by constant penance.');
+INSERT INTO points VALUES(5219,1,2,160,'Beg the Lord for his grace so that you may be purified by his Love... and by constant penance.');
 INSERT INTO points VALUES(5220,1,2,161,'Turn to Our Lady and ask her — as a token of her love for you — for the gift of contrition. Ask that you may be sorry, with the sorrow of Love, for all your sins and for the sins of all men and women throughout the ages.
-And with that same disposition, be bold enough to add: “Mother, my life, my hope, lead me by the hand And if there is anything in me which is displeasing to my Father God grant that I may see it, so that, between the two of us, we may uproot it.”
+And with that same disposition, be bold enough to add: “Mother, my life, my hope, lead me by the hand... And if there is anything in me which is displeasing to my Father God grant that I may see it, so that, between the two of us, we may uproot it.”
 Do not be afraid to continue: “O clement, O loving, O sweet Virgin Mary, pray for me, that by fulfilling the most lovable Will of your Son, I may be worthy to obtain and enjoy what Our Lord Jesus has promised.”');
 INSERT INTO points VALUES(5221,1,2,162,'Heavenly Mother, let me regain once more fervour, dedication, self—denial: in one word, Love.');
 INSERT INTO points VALUES(5222,1,2,163,'You shouldn’t be so easy on yourself! Don’t wait until the New Year to make your resolutions. Every day is a good day to make good decisions. Hodie, nunc! — Today, now!
-It tends to be the poor defeatist types who leave it until the New Year before beginning afresh And even then, they never really begin.');
+It tends to be the poor defeatist types who leave it until the New Year before beginning afresh... And even then, they never really begin.');
 INSERT INTO points VALUES(5223,1,2,164,'I agree. You acted badly, out of weakness. — But what I fail to understand is how, with a clear conscience, you have not repented. You cannot do something wrong and then say, or think, that it is something holy, or that it is of no importance.');
 INSERT INTO points VALUES(5224,1,2,165,'You must always remember that the spiritual faculties are fed by what they receive from the senses. Guard them well!');
 INSERT INTO points VALUES(5225,1,2,166,'As you very well know, you lose your peace when you consent in matters which entail unfaithfulness to your way.
@@ -6418,23 +6418,23 @@ INSERT INTO points VALUES(5236,1,2,177,'Repeat this with confidence: Lord, if on
 —Ask him humbly to grant you the sorrow you desire.');
 INSERT INTO points VALUES(5237,1,2,178,'How villainous has been my behaviour and how unfaithful I have been to God’s grace!
 —My Mother, Refuge of sinners, pray for me. May I never again hinder God’s work in my soul.');
-INSERT INTO points VALUES(5238,1,2,179,'So close to Christ for so many years and such a sinner!
+INSERT INTO points VALUES(5238,1,2,179,'So close to Christ for so many years and... such a sinner!
 —Does that intimate love of Jesus for you not make you sob?');
-INSERT INTO points VALUES(5239,1,2,180,'It is not that I lack true joy; on the contrary And yet, painfully aware of my unworthiness, it is only natural that I should cry out with Saint Paul, “wretched man that I am!”
+INSERT INTO points VALUES(5239,1,2,180,'It is not that I lack true joy; on the contrary... And yet, painfully aware of my unworthiness, it is only natural that I should cry out with Saint Paul, “wretched man that I am!”
 —It is at such a time that you should increase your desire to tear down once and for all the barriers you yourself have set up.');
-INSERT INTO points VALUES(5240,1,2,181,'Do not become alarmed or discouraged to discover that you have failings and such failings!
+INSERT INTO points VALUES(5240,1,2,181,'Do not become alarmed or discouraged to discover that you have failings... and such failings!
 —Struggle to uproot them. And as you do so, be convinced that it is even a good thing to be aware of all those weaknesses, for otherwise you would be proud. And pride separates us from God.');
 INSERT INTO points VALUES(5241,1,2,182,'Be filled with wonder at God’s goodness, because Christ wants to live in you. Be filled with wonder also when you are aware of all the weight of your poor wretchedness, of this poor flesh, of all the vileness of this poor clay.
 —Yes, but then remember too that call from God: Jesus Christ, who is God and Man, understands me and looks after me, for he is my Brother and my Friend.');
 INSERT INTO points VALUES(5242,1,2,183,'Your life is happy, very happy, though on occasions you feel a pang of sadness, and even experience almost constantly a real sense of weariness.
 —Joy and affliction can go hand in hand like this, each in its own “man”: the former in the new man, the latter in the old.');
 INSERT INTO points VALUES(5243,1,2,184,'Humility is born of knowing God and knowing oneself.');
-INSERT INTO points VALUES(5244,1,2,185,'Lord, I ask for a gift from you: Love a Love that will cleanse me. — And another gift as well: self—knowledge so that I may be filled with humility.');
+INSERT INTO points VALUES(5244,1,2,185,'Lord, I ask for a gift from you: Love... a Love that will cleanse me. — And another gift as well: self—knowledge so that I may be filled with humility.');
 INSERT INTO points VALUES(5245,1,2,186,'The saints are those who struggle right to the end of their lives: those who always manage to get up each time they stumble, each time they fall, and courageously embark on their way once more with humility, love and hope.');
 INSERT INTO points VALUES(5246,1,2,187,'If your mistakes make you more humble, if they make you reach out more urgently for God’s helping hand, then they are a road to sanctity: Felix culpa! — O happy fault!, the Church sings.');
 INSERT INTO points VALUES(5247,1,2,188,'Prayer — even my prayer! — is all—powerful.');
 INSERT INTO points VALUES(5248,1,2,189,'Humility teaches each soul not to lose heart in the face of its own blunders.
-—True humility leads us to ask for forgiveness!');
+—True humility leads us... to ask for forgiveness!');
 INSERT INTO points VALUES(5249,1,2,190,'If I were a leper my mother would hug me. She would kiss my wounds without fear or hesitation.
 —Well then, what would the Blessed Virgin Mary do? When we feel we are like lepers, all full of sores, we have to cry out: Mother! And the protection of our Mother will be like a kiss upon our wounds, which obtains our cure.');
 INSERT INTO points VALUES(5250,1,2,191,'In the sacrament of Penance, Jesus forgives us.
@@ -6443,7 +6443,7 @@ INSERT INTO points VALUES(5251,1,2,192,'If ever you fall, my son, go quickly to 
 INSERT INTO points VALUES(5252,1,2,193,'Sincerity is indispensable if we are to achieve greater union with God.
 —If you have an ugly “toad” inside you, my son, let it out! As I have always advised you, the first thing you must mention is what you wouldn’t like anybody to know. Once the “toad” has been let out in Confession — how well one feels!');
 INSERT INTO points VALUES(5253,1,2,194,'Nam, et si ambulavero in medio umbrae mortis, non timebo mala — though I should walk through the valley of the shadow of death, no evil will I fear. Neither my wretchedness nor the temptations of the enemy will worry me, quoniam tu mecum es — for you Lord are with me.');
-INSERT INTO points VALUES(5254,1,2,195,'Just now, Jesus, when I was considering my wretchedness, I said to you: Allow yourself to be taken in by this son of yours, just like those good fathers, full of kindness, who put into the hands of their little children the presents they want to receive from them knowing perfectly well that little children have nothing of their own.
+INSERT INTO points VALUES(5254,1,2,195,'Just now, Jesus, when I was considering my wretchedness, I said to you: Allow yourself to be taken in by this son of yours, just like those good fathers, full of kindness, who put into the hands of their little children the presents they want to receive from them... knowing perfectly well that little children have nothing of their own.
 —And what merriment of father and son, even though they are both in on the secret!');
 INSERT INTO points VALUES(5255,1,2,196,'Jesus, my Love, to think that I could offend you again! Tuus ego sum... salvum me fac. — I am yours: save me!');
 INSERT INTO points VALUES(5256,1,2,197,'You, who see yourself so badly lacking in virtues, in talents, in abilities... Do you not feel the desire to cry out like the blind Bartimaeus, “Jesus, Son of David, have pity on me!”?
@@ -6453,13 +6453,13 @@ INSERT INTO points VALUES(5257,1,2,198,'Foster a desire for atonement in your so
 INSERT INTO points VALUES(5258,1,2,199,'If you are faithful you will be able to count yourself a conqueror.
 —Even though you may lose some battles in your life, you will not know defeat. You can be sure that there is no such thing as failure, if you act with purity of intention and with a desire to fulfil the Will of God.
 —And then, whether you win or lose, you will always triumph in the end, because you will have carried out your work with Love.');
-INSERT INTO points VALUES(5259,1,2,200,'I am sure that God has listened to your humble and heartfelt plea: My Lord, I am not worried about “what people say”. Forgive me for my unworthy life: May I be a saint! But it’s You alone I wish to please.');
+INSERT INTO points VALUES(5259,1,2,200,'I am sure that God has listened to your humble and heartfelt plea: My Lord, I am not worried about “what people say”. Forgive me for my unworthy life: May I be a saint!... But it’s You alone I wish to please.');
 INSERT INTO points VALUES(5260,1,2,201,'In a Christian’s life everything has to be for God — even personal weaknesses, once they have been put right! The Lord understands and forgives them.');
 INSERT INTO points VALUES(5261,1,2,202,'What have I done to you, Jesus, that you should love me so? I have offended you... and loved you.
 —Loving you: this is what my life is going to be all about.');
 INSERT INTO points VALUES(5262,1,2,203,'Surely all those consolations I receive from the Master are given me so that I may think of him all the time and serve him in little things, and so be able to serve him in great things.
 —A resolution: to please my good Jesus in the tiniest details of my daily life.');
-INSERT INTO points VALUES(5263,1,2,204,'We have to love God because our heart is made for love. That is why, if we don’t give our heart to God, to Our Lady and Mother, to souls... with a pure affection, it will seek revenge and will breed worms instead.');
+INSERT INTO points VALUES(5263,1,2,204,'We have to love God because our heart is made for love. That is why, if we don’t give our heart to God, to Our Lady and Mother, to souls... with a pure affection, it will seek revenge... and will breed worms instead.');
 INSERT INTO points VALUES(5264,1,2,205,'Tell Our Lord with your whole heart: In spite of all my wretchedness I am madly in Love!, I am drunk with Love!');
 INSERT INTO points VALUES(5265,1,2,206,'From now on, truly sorrowful for my many falls, I shall remain, with God’s help, always on the Cross.');
 INSERT INTO points VALUES(5266,1,2,207,'What the flesh lost, the flesh should pay back: be generous in your penance.');
@@ -6468,7 +6468,7 @@ INSERT INTO points VALUES(5268,1,2,209,'In your personal prayer, whenever you ex
 INSERT INTO points VALUES(5269,1,2,210,'How right that priest was when he preached, saying, “Jesus has forgiven me the great multitude of my sins in spite of my ingratitude. How generous he is! If the many sins of Mary Magdalen were forgiven because she loved greatly, many more have been forgiven me. What a great debt of love still remains for me to pay!”
 Jesus, I’m ready to the point of madness and heroism! With the help of your grace, even if I have to die for you, Lord, I will never abandon you again.');
 INSERT INTO points VALUES(5270,1,2,211,'Lazarus rose because he heard the voice of God and immediately wanted to get out of the situation he was in. If he hadn’t wanted to move, he would just have died again.
-A sincere resolution: to have faith in God always; to hope in God always; to love God always he never abandons us, even if we are rotting away as Lazarus was.');
+A sincere resolution: to have faith in God always; to hope in God always; to love God always... he never abandons us, even if we are rotting away as Lazarus was.');
 INSERT INTO points VALUES(5271,1,2,212,'Let us marvel at the lovable paradox of our Christian condition: it is our own wretchedness which leads us to seek refuge in God, to become “like unto God”. With him we can do all things.');
 INSERT INTO points VALUES(5272,1,2,213,'When you have fallen or when you find yourself overwhelmed by the weight of your wretchedness, repeat with a firm hope: Lord, see how ill I am; Lord, you who died on the Cross for love of me, come and heal me.
 Be full of confidence, I insist. Keep on calling out to his most loving Heart. As he cured the lepers we read about in the Gospel, he will cure you.');
@@ -6476,11 +6476,11 @@ INSERT INTO points VALUES(5273,1,2,214,'Trust fully in God and have a greater de
 INSERT INTO points VALUES(5274,1,2,215,'Virgin Immaculate, my Mother!, do not abandon me. See how my poor heart is filled with tears. — I do not want to offend my God!
 —I already know, and I trust I shall never forget, that I am worth nothing. My smallness and my loneliness weigh upon me so much! But... I am not alone. You, Sweet Lady, and my Father God will never leave me.
 Faced with the rebellion of my flesh and the diabolical arguments against my Faith, I love Jesus and I believe: I do Love and do Believe.');
-INSERT INTO points VALUES(5275,1,2,216,'With God’s grace, you have to tackle and carry out the impossible because anybody can do what is possible.');
+INSERT INTO points VALUES(5275,1,2,216,'With God’s grace, you have to tackle and carry out the impossible... because anybody can do what is possible.');
 INSERT INTO points VALUES(5276,1,2,217,'Reject your pessimism and don’t allow those around you to be pessimistic. — God should be served with cheerfulness and abandonment.');
 INSERT INTO points VALUES(5277,1,2,218,'Get rid of that human prudence which makes you so very cautious, so — sorry to be so blunt! — cowardly.
-—Let us not be narrow—minded. Let us not be infantile men or women, who are nearsighted and lack a supernatural breadth of vision! Could we be working for ourselves? Of course not!
-Well then, let us say quite fearlessly: Dearest Jesus, we are working for you, and are you going to deny us the material means we need? You know full well how worthless we are; still, I would not treat a servant working for me in that way
+—Let us not be narrow—minded. Let us not be infantile men or women, who are nearsighted and lack a supernatural breadth of vision...! Could we be working for ourselves? Of course not!
+Well then, let us say quite fearlessly: Dearest Jesus, we are working for you, and... are you going to deny us the material means we need? You know full well how worthless we are; still, I would not treat a servant working for me in that way...
 Therefore, we hope and are sure you will give us all we need to be able to serve you.');
 INSERT INTO points VALUES(5278,1,2,219,'An act of faith: Nothing can prevail against God! Nothing can prevail against God’s people!
 —Don’t forget it.');
@@ -6495,7 +6495,7 @@ That is why I ask: When are we going to be convinced? How important it is to be 
 INSERT INTO points VALUES(5284,1,2,225,'Be clever, spiritually clever. Don’t wait for the Lord to send you setbacks; go out to meet them with a spirit of voluntary atonement. — Then you’ll receive them not so much with resignation (an old—sounding word) as with Love — a word which is forever young.');
 INSERT INTO points VALUES(5285,1,2,226,'Today, for the first time, you had the feeling that things were getting simpler, that everything was “sorting itself out”. At last you see an end to the problems that were worrying you. And you understand that they are more thoroughly and better resolved the more you abandon yourself into the arms of your Father God.
 What are you waiting for to start behaving always as a son of God? This should be the driving force in your life.');
-INSERT INTO points VALUES(5286,1,2,227,'Turn to Our Lady — the Mother, Daughter and Spouse of God, and our Mother — and ask her to obtain more graces for you from the Blessed Trinity: the grace of faith, of hope, of love and of contrition. So that when it seems that a harsh dry wind is blowing in your life, threatening to wither those flowers of your soul, they will not wither and neither will those of your brothers.');
+INSERT INTO points VALUES(5286,1,2,227,'Turn to Our Lady — the Mother, Daughter and Spouse of God, and our Mother — and ask her to obtain more graces for you from the Blessed Trinity: the grace of faith, of hope, of love and of contrition. So that when it seems that a harsh dry wind is blowing in your life, threatening to wither those flowers of your soul, they will not wither... and neither will those of your brothers.');
 INSERT INTO points VALUES(5287,1,2,228,'Be filled with faith and rest assured! The Lord tells us this through the prophet Jeremiah: orabitis me, et ego exaudiam vos — whenever you call upon me, whenever you pray!, I will listen to you.');
 INSERT INTO points VALUES(5288,1,2,229,'I refer everything to you, my God. Without you — who are my Father — what would become of me?');
 INSERT INTO points VALUES(5289,1,2,230,'Allow me to give you the advice of an experienced soul: your prayer — and your whole life should be to pray always — ought to be as trusting as “a child’s prayer”.');
@@ -6503,8 +6503,8 @@ INSERT INTO points VALUES(5290,1,2,231,'A sick man is brought to Jesus, who look
 This is what Our Lord says to you when you feel the weight of your errors. Have faith! In the first place: faith. And then allow yourself to be carried like the paralytic did: with interior and submissive obedience!');
 INSERT INTO points VALUES(5291,1,2,232,'My son, you can do nothing on the supernatural level through your own strength; whereas when you become God’s instrument you can do everything. Omnia possum in eo qui me confortat! — I can do all things in him who strengthens me. For in his goodness he wishes to use inadequate instruments, like you and like me.');
 INSERT INTO points VALUES(5292,1,2,233,'Whenever you pray, make the effort to have the kind of faith of those sick people we read about in the Gospel. You can be sure Jesus is listening to you.');
-INSERT INTO points VALUES(5293,1,2,234,'My Mother! Mothers on earth look with greater love on the weakest of their children, the one with the worst health, or who is least intelligent, or is a poor cripple
-—Sweet Lady! I know that you are more of a Mother than all other mothers put together. — And, since I am your son And, since I am weak, and ill and crippled and ugly...');
+INSERT INTO points VALUES(5293,1,2,234,'My Mother! Mothers on earth look with greater love on the weakest of their children, the one with the worst health, or who is least intelligent, or is a poor cripple...
+—Sweet Lady! I know that you are more of a Mother than all other mothers put together. — And, since I am your son... And, since I am weak, and ill... and crippled... and ugly...');
 INSERT INTO points VALUES(5294,1,2,235,'We lack faith. The day we practise this virtue, trusting in God and in his Mother, we will be courageous and loyal. God, who is the same God as ever, will work miracles through our hands.
 —Grant me, dear Jesus, the faith I truly desire! My Mother, sweet Lady, Mary most holy, make me believe!');
 INSERT INTO points VALUES(5295,1,2,236,'A firm resolution: to abandon myself in Jesus Christ with all my wretchedness. Whatever he may want, at any moment, Fiat — let it be done!');
@@ -6525,17 +6525,17 @@ INSERT INTO points VALUES(5303,1,2,244,'When you find yourself tired and exhaust
 INSERT INTO points VALUES(5304,1,2,245,'A task which presents no difficulties lacks human appeal — and supernatural appeal too. If you find no resistance when hammering a nail into a wall, what can you expect to hang on it?');
 INSERT INTO points VALUES(5305,1,2,246,'It seems incredible that a man like you — who say you know you’re nothing — should dare to place obstacles in the way of God’s grace.
 Yet this is what you’re doing with your false humility, your “objectivity”, your pessimism.');
-INSERT INTO points VALUES(5306,1,2,247,'Lord, grant me the grace to give up everything that has to do with myself. I should have no other concern than your Glory in other words, your Love. — Everything for Love!');
+INSERT INTO points VALUES(5306,1,2,247,'Lord, grant me the grace to give up everything that has to do with myself. I should have no other concern than your Glory... in other words, your Love. — Everything for Love!');
 INSERT INTO points VALUES(5307,1,2,248,'“When Herod heard this,” (that the King had come to this earth), “he was troubled, and all Jerusalem with him.”
 This is an everyday occurrence! We see the same thing happening now. In the face of God’s greatness, which shows itself in a thousand ways, there are always some people — sometimes even in positions of authority — who are troubled. It’s because they do not love God; because they have no real wish to meet him; because they don’t want to follow his inspirations, and so they become obstacles in God’s path.
-—Be forewarned; carry on working, don’t worry, seek the Lord, pray and he will triumph.');
+—Be forewarned; carry on working, don’t worry, seek the Lord, pray... and he will triumph.');
 INSERT INTO points VALUES(5308,1,2,249,'You are not alone. — Neither you nor I can ever find ourselves alone. And even less if we go to Jesus through Mary, for she is a Mother who will never abandon us.');
 INSERT INTO points VALUES(5309,1,2,250,'When it feels as if the Lord has given up on you, don’t give way to sadness. Seek him with greater determination! He who is Love does not leave you on your own.
 —Be convinced that “he has left you on your own” out of Love, so that you may see clearly in your life what is his and what is yours.');
 INSERT INTO points VALUES(5310,1,2,251,'You said to me: “I seem not only unable to go ahead along my way, but also unable to be saved without a miracle of grace. Oh, my poor soul! I remain cold and, what is worse, almost indifferent. It’s as if I were an outsider looking at a case’ (mine) which had nothing to do with him. Will these days turn out to be completely futile?
 And nevertheless, my Mother is my Mother and Jesus is — dare I say it? — my Jesus. And there are good and saintly souls, at this very moment, praying for me.”
 —Go on walking hand in hand with your Mother, I replied, and “dare” to say to Jesus that he is yours. In his goodness he will bring clear light to your soul.');
-INSERT INTO points VALUES(5311,1,2,252,'Grant me, Jesus, the Cross with no Simon of Cyrene to help me. No, that’s not right; I need your grace, I need your help here as in everything. You must be my Simon of Cyrene. With you, my God, no trial can daunt me
+INSERT INTO points VALUES(5311,1,2,252,'Grant me, Jesus, the Cross with no Simon of Cyrene to help me. No, that’s not right; I need your grace, I need your help here as in everything. You must be my Simon of Cyrene. With you, my God, no trial can daunt me...
 —But what if my Cross should consist in boredom or sadness? — In that case I say to you, Lord, with You I would gladly be sad.');
 INSERT INTO points VALUES(5312,1,2,253,'As long as I don’t lose You, no sorrow will be a sorrow at all.');
 INSERT INTO points VALUES(5313,1,2,254,'Jesus will refuse a word to no one, and his words bring healing, they console, they bring light.
@@ -6565,7 +6565,7 @@ INSERT INTO points VALUES(5326,1,2,267,'As he was giving out Holy Communion that
 INSERT INTO points VALUES(5327,1,2,268,'Build up a gigantic faith in the Holy Eucharist. — Be filled with wonder before this ineffable reality! We have God with us; we can receive him every day and, if we want to, we can speak intimately with him, just as we talk with a friend, as we talk with a brother, as we talk with a father, as we talk with Love itself.');
 INSERT INTO points VALUES(5328,1,2,269,'How beautiful our Christian vocation is — to be sons of God! It brings joy and peace on earth which the world cannot give!');
 INSERT INTO points VALUES(5329,1,2,270,'Lord, grant me the love with which you want me to love you.');
-INSERT INTO points VALUES(5330,1,2,271,'That morning, to remove the dark shadow of pessimism which hung over you, you also insisted as you do every day but you were more “aggressive” with your Angel. You sang his praises and you asked him to teach you to love Jesus at least, at least as much as he loves Him And with that you recovered your calm.');
+INSERT INTO points VALUES(5330,1,2,271,'That morning, to remove the dark shadow of pessimism which hung over you, you also insisted as you do every day... but you were more “aggressive” with your Angel. You sang his praises and you asked him to teach you to love Jesus at least, at least as much as he loves Him... And with that you recovered your calm.');
 INSERT INTO points VALUES(5331,1,2,272,'Ask your Mother Mary, ask Saint Joseph and your Guardian Angel to speak to the Lord and tell him the things you can’t manage to put into words because you are so dull.');
 INSERT INTO points VALUES(5332,1,2,273,'Fill yourself with confidence. The Mother we have is the Mother of God, the Most Blessed Virgin, the Queen of Heaven and the World.');
 INSERT INTO points VALUES(5333,1,2,274,'Jesus was born in a cave in Bethlehem because, Sacred Scripture tells us, “there was no room for them in the inn.”
@@ -6601,7 +6601,7 @@ INSERT INTO points VALUES(5347,1,2,288,'You were still rather hesitant when you 
 INSERT INTO points VALUES(5348,1,2,289,'If only you could manage to fulfil that resolution you made: “to die a little to myself each day.”');
 INSERT INTO points VALUES(5349,1,2,290,'Joy, and supernatural and human optimism, can go hand in hand with physical tiredness, with sorrow, with tears (because we have a heart), and with difficulties in our interior life or our apostolic work.
 He who is perfectus Deus, perfectus Homo — perfect God and perfect Man — and who enjoyed every happiness in Heaven, chose to experience fatigue and tiredness, tears and suffering... so that we might understand that if we are to be supernatural we must also be very human.');
-INSERT INTO points VALUES(5350,1,2,291,'Jesus is asking you to pray  You see this very clearly.
+INSERT INTO points VALUES(5350,1,2,291,'Jesus is asking you to pray ... You see this very clearly.
 —Nonetheless, how poor your response has been! Everything is a great effort for you: you are like a baby who is too lazy to learn to walk. But in your case it isn’t just laziness. It is fear, too, and a lack of generosity!');
 INSERT INTO points VALUES(5351,1,2,292,'You should repeat very often: Jesus, if ever a doubt creeps into my soul, setting up other noble ambitions in place of what you are asking of me, I tell you now that I prefer to follow you, no matter how much it costs. Do not leave me!');
 INSERT INTO points VALUES(5352,1,2,293,'Seek union with God and buoy yourself up with hope — that sure virtue! — because Jesus will illuminate the way for you with the light of his mercy, even in the darkest night.');
@@ -6617,17 +6617,17 @@ INSERT INTO points VALUES(5357,1,2,298,'My Lord Jesus has a Heart more tender th
 —Love, my child; love and hope.');
 INSERT INTO points VALUES(5358,1,2,299,'If there is sacrifice when you sow Love, you will also reap Love.');
 INSERT INTO points VALUES(5359,1,2,300,'My child, are you not aflame with the desire to bring all men to love Him?');
-INSERT INTO points VALUES(5360,1,2,301,'Jesus as a child, Jesus as an adolescent. I love to picture you like this, Lord, because I can dare more. I love to see you as a tiny, almost helpless babe. It makes me feel you need me.');
+INSERT INTO points VALUES(5360,1,2,301,'Jesus as a child, Jesus as an adolescent. I love to picture you like this, Lord, because... I can dare more. I love to see you as a tiny, almost helpless babe. It makes me feel you need me.');
 INSERT INTO points VALUES(5361,1,2,302,'Whenever I go into the oratory, having become a little child once more, I say to Our Lord that I love him more than anyone.');
 INSERT INTO points VALUES(5362,1,2,303,'How wonderfully effective the Holy Eucharist is in the action — and even before that, in the spirit — of those who receive it frequently and piously.');
 INSERT INTO points VALUES(5363,1,2,304,'If all those people became so enthusiastic and were ready to acclaim you over a piece of bread, even though the multiplication was a very great miracle, shouldn’t we be doing much more for all the many gifts you have granted us, and especially for giving us your very self unreservedly in the Eucharist?');
 INSERT INTO points VALUES(5364,1,2,305,'Good child: see how lovers on earth kiss the flowers, the letters, the mementos of those they love...
-—Then you, how could you ever forget that you have him always at your side yes, Him!? — How could you forget... that you can eat him?');
-INSERT INTO points VALUES(5365,1,2,306,'Put your head frequently round the oratory door to say to Jesus I abandon myself into your arms.
+—Then you, how could you ever forget that you have him always at your side... yes, Him!? — How could you forget... that you can eat him?');
+INSERT INTO points VALUES(5365,1,2,306,'Put your head frequently round the oratory door to say to Jesus... I abandon myself into your arms.
 —Leave everything you have — your wretchedness! — at his feet.
 —In this way, in spite of the welter of things you carry along behind you, you will never lose your peace.');
 INSERT INTO points VALUES(5366,1,2,307,'Pray resolutely using the words of the Psalmist: “Lord, you are my refuge and my strength, I trust in thee!”
-I promise you that he will preserve you from the ambushes of the “noontide devil”, when you are tempted and even when you fall, and when your age and virtues ought to have proved solid and you should have known by heart that He alone is your Strength.');
+I promise you that he will preserve you from the ambushes of the “noontide devil”, when you are tempted and... even when you fall, and when your age and virtues ought to have proved solid and you should have known by heart that He alone is your Strength.');
 INSERT INTO points VALUES(5367,1,2,308,'Do you think people are grateful for services rendered only reluctantly? Evidently not. You might even say it would have been better not to have bothered.
 —And yet you think you can serve God with sour looks? No! — You have to serve him cheerfully, in spite of your wretchedness, which we will be able to get rid of with God’s grace.');
 INSERT INTO points VALUES(5368,1,2,309,'Doubts assail you, temptations, with that gloss of elegance about them.
@@ -6636,21 +6636,21 @@ INSERT INTO points VALUES(5369,1,2,310,'The majority of people who have personal
 INSERT INTO points VALUES(5370,1,2,311,'Everything seems so peaceful. God’s enemy, however, is not asleep...
 —The Heart of Jesus is also awake and watching! There lies my hope.');
 INSERT INTO points VALUES(5371,1,2,312,'Sanctity is to be found in struggling, in knowing that we have defects and in heroically trying to overcome them.
-Sanctity, I insist, consists in overcoming those defects although we will still have defects when we die; because if not, as I have told you, we would become proud.');
+Sanctity, I insist, consists in overcoming those defects... although we will still have defects when we die; because if not, as I have told you, we would become proud.');
 INSERT INTO points VALUES(5372,1,2,313,'Thank you, Lord, because — as well as allowing us to be tempted — you also give us the strength and beauty of your grace so that we can win through! Thank you, Lord, for the temptations you allow us to have so that we may be humble!');
 INSERT INTO points VALUES(5373,1,2,314,'Do not abandon me, Lord. Don’t you see the bottomless pit this poor son of yours would end up in?
 —My Mother: I am your son too.');
 INSERT INTO points VALUES(5374,1,2,315,'It is impossible to live a clean life without God’s help. God wants us to be humble, and to ask him for his help through our Mother who is his Mother.
-You should say to Our Lady, right now, speaking without the sound of words, from the accompanied solitude of your heart: “O, my Mother, sometimes this poor heart of mine rebels But if you help me...” — She will indeed help you to keep it clean and to follow the way God has called you to pursue. The Virgin Mary will always make it easier for you to fulfil the Will of God.');
+You should say to Our Lady, right now, speaking without the sound of words, from the accompanied solitude of your heart: “O, my Mother, sometimes this poor heart of mine rebels... But if you help me...” — She will indeed help you to keep it clean and to follow the way God has called you to pursue. The Virgin Mary will always make it easier for you to fulfil the Will of God.');
 INSERT INTO points VALUES(5375,1,2,316,'To preserve holy purity and live a clean life you have to love and practise daily mortification.');
 INSERT INTO points VALUES(5376,1,2,317,'Whenever you feel the stirrings of your poor flesh, which sometimes attacks with violent assaults, kiss your crucifix, kiss it many times with firm resolve, even if it seems to you that you are doing so without love.');
 INSERT INTO points VALUES(5377,1,2,318,'Place yourself before the Lord each day and tell him slowly and in all earnestness, like the man in the Gospel who was in such great need, Domine, ut videam! — Lord, that I may see!; that I may see what you expect from me, and struggle to be faithful to you.');
-INSERT INTO points VALUES(5378,1,2,319,'My God, how easy it is to persevere when we know that You are the Good Shepherd, and that we — you and I — are sheep belonging to your flock!
+INSERT INTO points VALUES(5378,1,2,319,'My God, how easy it is to persevere when we know that You are the Good Shepherd, and that we — you and I... — are sheep belonging to your flock!
 —For we know full well that the Good Shepherd gives his whole life for each one of his sheep.');
-INSERT INTO points VALUES(5379,1,2,320,'Today in your prayer you confirmed your resolution to be a saint. I understand you when you make this more specific by adding, “I know I shall succeed, not because I am sure of myself, Jesus, but because I am sure of you.”');
+INSERT INTO points VALUES(5379,1,2,320,'Today in your prayer you confirmed your resolution to be a saint. I understand you when you make this more specific by adding, “I know I shall succeed, not because I am sure of myself, Jesus, but because... I am sure of you.”');
 INSERT INTO points VALUES(5380,1,2,321,'By yourself, if you don’t count on grace, you can do nothing worthwhile, for you would be cutting the link which connects you with God.
 —With grace, on the other hand, you can do all things.');
-INSERT INTO points VALUES(5381,1,2,322,'Do you want to learn from Christ and follow the example of his life? — Open the Holy Gospels and listen to God in dialogue with men with you.');
+INSERT INTO points VALUES(5381,1,2,322,'Do you want to learn from Christ and follow the example of his life? — Open the Holy Gospels and listen to God in dialogue with men... with you.');
 INSERT INTO points VALUES(5382,1,2,323,'Jesus knows very well what is best... and I love his Will and will do so always. He it is who controls “the puppets” and so, provided it is a means to achieving our end, even if there are godless men who are determined to put obstacles in the way, he will grant what I am asking.');
 INSERT INTO points VALUES(5383,1,2,324,'True faith shows itself in humility.Dicebat enim intra se — that poor woman said to herself: Si tetigero tantum vestimentum eius, salva ero — if I can but touch the hem of his garment, I shall be healed.
 —What humility she showed, a result and a sign of her faith!');
@@ -7784,7 +7784,7 @@ INSERT INTO points VALUES(6105,1,2,1046,'In the face of suffering and persecutio
 INSERT INTO points VALUES(6106,1,2,1047,'If I love, there will be no hell for me.');
 INSERT INTO points VALUES(6107,1,2,1048,'How good it is to live on God’s bounty! How good it is to desire nothing other than his Glory.');
 INSERT INTO points VALUES(6108,1,2,1049,'If you really want to attain eternal life and honour, you must learn in many cases to put aside your own noble ambitions.');
-INSERT INTO points VALUES(6109,1,2,1050,'Don’t lay so much stress on my health’, my family name’, my career’, my job’, or my next step’ How annoying this can be! It would seem you have forgotten that you don’t have anything, that everything is His. How annoying this can be! It would seem you have forgotten that you don’t have anything, that everything is His.
+INSERT INTO points VALUES(6109,1,2,1050,'Don’t lay so much stress on my health’, my family name’, my career’, my job’, or my next step’... How annoying this can be! It would seem you have forgotten that you don’t have anything, that everything is His. How annoying this can be! It would seem you have forgotten that you don’t have anything, that everything is His.
 When sometimes — perhaps without reason — you feel humiliated; when you think your opinion should prevail; when you notice that at every moment your “self” keeps cropping up: your things, your things, your things... convince yourself that you are killing time, and that what you need is someone to kill your selfishness.');
 INSERT INTO points VALUES(6110,1,2,1051,'I advise you not to look for praise, even when you deserve it. It is better to pass unnoticed, and to let the most beautiful and noble aspects of our actions, of our lives, remain hidden. What a great thing it is to become little! Deo omnis gloria! —All the glory to God.');
 INSERT INTO points VALUES(6111,1,2,1052,'In moments of disappointment, that soul said to Our Lord: “My Jesus, what else could I give you apart from my honour, if I had nothing else? If I had had a fortune I would have given it to you. If I had had virtues, I would have built up each one to serve you better. The only thing I had was my honour and I have given it to you. May you be blessed! It’s clear that it was safe in your hands!”');

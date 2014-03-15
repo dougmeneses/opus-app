@@ -45,7 +45,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 //	public static final String KEY_POINTS_TEXTO = "_text";
 
 	private static String DB_PATH = "/data/data/br.pro.menotti.opus.pt/databases/";
-	private static String DB_NAME = "opus_pt.db";
+	private static String DB_NAME = "opus_pt_v6.db";
 	//private static String DB_NAME_GZ = "obradb.db.gz";
 	private static final int DB_VERSION = 1;
 	private final Context myContext;
@@ -228,7 +228,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
     public List<BookPoint> getPoints(String search_key) {
     	List<BookPoint> points = new ArrayList<BookPoint>();
     	String esc_search_key = DatabaseUtils.sqlEscapeString('%' + search_key + '%'); 
-    	Cursor cursor = myDataBase.rawQuery("select b._title, p._point, p._text from books b, points p where b._book=p._book and p._text like " + esc_search_key, null); 
+    	Cursor cursor = myDataBase.rawQuery("select b._title, p._point, p._text from books b, points p where b._book=p._book and (p._text like " + esc_search_key + " or p._point = " + esc_search_key.replace("%", "") + ")", null); 
     	if (cursor.moveToFirst()) {
     		do {
     			BookPoint point = new BookPoint();
