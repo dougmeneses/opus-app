@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Opus (pt)</string>
+    <string name="app_name">Caminho (pt)</string>
     <string name="display_books">Livros</string>
     <string name="display_points">Pontos</string>
     <string name="display_chapters">Capítulos</string>
