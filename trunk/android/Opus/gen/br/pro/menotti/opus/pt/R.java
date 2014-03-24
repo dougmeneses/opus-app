@@ -41,6 +41,9 @@ public final class R {
         public static final int display_aleatory_point=0x7f050007;
         public static final int display_books=0x7f050001;
         public static final int display_chapters=0x7f050003;
+        public static final int display_delete=0x7f050009;
+        public static final int display_error=0x7f05000a;
+        public static final int display_favorites=0x7f050008;
         public static final int display_points=0x7f050002;
         public static final int display_search=0x7f050004;
         public static final int display_send=0x7f050005;

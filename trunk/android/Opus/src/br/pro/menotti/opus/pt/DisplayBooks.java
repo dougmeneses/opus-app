@@ -36,46 +36,44 @@ public class DisplayBooks extends FragmentActivity {
 		SQLiteHelper db;
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-				
+
 		db = new SQLiteHelper(this);
 		db.openDataBase();
-		
+
 		List<Book> books = new ArrayList<Book>();
 		books = db.getBooks();
 		db.close();
-		
+
 		ListView lv = (ListView) findViewById(android.R.id.list);
 
 		lv.setAdapter(new ArrayAdapter<Book>
-			(this, android.R.layout.simple_list_item_1, books));
-		
+		(this, android.R.layout.simple_list_item_1, books));
+
 		Toast.makeText(getApplicationContext(),
 				(getString(R.string.display_aleatory_point)), Toast.LENGTH_SHORT).show();
 
 		lv.setOnItemClickListener(new OnItemClickListener() {
 			@Override
-			public void onItemClick(AdapterView<?> parent, View view, int position,
-					long id) {
-					showPoints(position);
+			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+				showPoints(position);
 			}
 		});		
-		
+
 		lv.setOnItemLongClickListener(new OnItemLongClickListener() {
 			@Override
-			public boolean onItemLongClick(AdapterView<?> parent, View view, int position,
-					long id) {
+			public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
 				SQLiteHelper db;
 				db = new SQLiteHelper(getBaseContext());
 				db.openDataBase();
-				DialogFragment newFragment = new DialogPoint();
-				newFragment.show(getSupportFragmentManager(), db.getBookPoint(position) 
-						);
+				BookPoint bp = db.getBookPoint(position);
+				DialogFragment newFragment = new DialogPoint(bp);
+				newFragment.show(getSupportFragmentManager(), bp.toString());
 				db.close();
 				return true;
 			}
 		});		
 	}
-	
+
 	public void showPoints(int book) {
 		Intent intent = new Intent(this, DisplayChapters.class);
 		intent.putExtra("book", book);

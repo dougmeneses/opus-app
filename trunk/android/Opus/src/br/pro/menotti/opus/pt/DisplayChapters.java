@@ -33,59 +33,57 @@ import android.widget.Toast;
 public class DisplayChapters extends FragmentActivity {
 
 	int book;
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		SQLiteHelper db;
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+
 		Intent intent = getIntent();
 		book = intent.getIntExtra("book", 0);
-		
+
 		db = new SQLiteHelper(this);
 		db.openDataBase();
-		
+
 		List<Chapter> chapters = new ArrayList<Chapter>();
 		chapters = db.getChapters(book);
 		setTitle(getString(R.string.display_chapters) + ": " + db.getBook(book));
 		db.close();
-		
+
 		ListView lv = (ListView) findViewById(android.R.id.list);
 
 		lv.setAdapter(new CustomAdapter<Chapter>
-			(this, android.R.layout.simple_list_item_1, chapters));
-		
+		(this, android.R.layout.simple_list_item_1, chapters));
+
 		Toast.makeText(getApplicationContext(),
 				(getString(R.string.display_aleatory_point)), Toast.LENGTH_SHORT).show();
 
 		lv.setOnItemClickListener(new OnItemClickListener() {
-			
-			
-			
+
+
+
 			@Override
-			public void onItemClick(AdapterView<?> parent, View view, int position,
-					long id) {
-					showPoints(book, (int)id);
+			public void onItemClick(AdapterView<?> parent, View view, int position,	long id) {
+				showPoints(book, (int)id);
 			}
 		});		
-		
+
 		lv.setOnItemLongClickListener(new OnItemLongClickListener() {
 			@Override
-			public boolean onItemLongClick(AdapterView<?> parent, View view, int position,
-					long id) {
+			public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
 				SQLiteHelper db;
 				db = new SQLiteHelper(getBaseContext());
 				db.openDataBase();
-				DialogFragment newFragment = new DialogPoint();
-				newFragment.show(getSupportFragmentManager(), db.getBookPoint(book, position) 
-						);
+				BookPoint bp = db.getBookPoint(book, position);
+				DialogFragment newFragment = new DialogPoint(bp);
+				newFragment.show(getSupportFragmentManager(), bp.toString());
 				db.close();
 				return true;
 			}
 		});		
 	}
-	
+
 	public void showPoints(int book, int id) {
 		Intent intent = new Intent(this, DisplayPoints.class);
 		intent.putExtra("book", book);
@@ -96,12 +94,12 @@ public class DisplayChapters extends FragmentActivity {
 	public class CustomAdapter<T> extends ArrayAdapter<T> {
 
 		private ArrayList<T> innerClassBookArray;
-		
+
 		public CustomAdapter(Context context, int resource, List<T> objects) {
 			super(context, resource, objects);
 			this.innerClassBookArray = (ArrayList<T>) objects;
 		}
-		
+
 		@Override
 		public long getItemId(int position) {
 			return ((Chapter) innerClassBookArray.get(position)).get_chapter();

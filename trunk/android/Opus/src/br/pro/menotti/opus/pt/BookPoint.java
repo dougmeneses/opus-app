@@ -14,10 +14,19 @@
 
 package br.pro.menotti.opus.pt;
 
-public class BookPoint extends Point {
+public class BookPoint {
 
 	private String _title;
-	
+
+	protected long _id;
+	protected long _language;
+	protected long _book;
+	protected long _point;
+	protected String _text;
+
+	public BookPoint() {
+		
+	}
 	
 	public BookPoint(long _language, long _book, long _point, String _text, String _title) {
 		this._language = _language;
@@ -26,11 +35,6 @@ public class BookPoint extends Point {
 		this._text = _text;
 		this._title = _title;
 	}
-
-	
-	public BookPoint() {
-	}
-
 
 	public long get_id() {
 		return _id;
@@ -77,6 +81,11 @@ public class BookPoint extends Point {
 	}
 
 
+	public void set_text(String _text) {
+		this._text = _text;
+	}
+
+
 	public void set_title(String _title) {
 		this._title = _title;
 	}
@@ -85,12 +94,6 @@ public class BookPoint extends Point {
 	public String get_title() {
 		return _title;
 	}
-
-
-	public void set_text(String _text) {
-		this._text = _text;
-	}
-
 
 	@Override
 	public String toString() {
