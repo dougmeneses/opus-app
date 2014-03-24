@@ -17,17 +17,17 @@ package br.pro.menotti.opus.pt;
 import java.util.ArrayList;
 import java.util.List;
 
-import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
+import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
-public class DisplayPoints extends ListActivity {
+public class DisplayPoints extends FragmentActivity {
 	private SQLiteHelper db;
 
 	@Override
@@ -39,15 +39,23 @@ public class DisplayPoints extends ListActivity {
 		final int book = intent.getIntExtra("book", 0);
 		int chapter = intent.getIntExtra("chapter", 0);
 		final String search_key = intent.getStringExtra("search_key");
+		final boolean favorites = intent.getBooleanExtra("favorites", false);
 		
 		db = new SQLiteHelper(this);
 		db.openDataBase();
-		final String book_name = db.getBook(book);
+//		final String book_name = db.getBook(book).toString();
 
 		ListView lv = (ListView) findViewById(android.R.id.list);
 		lv.setFastScrollEnabled(true);
 
-		if (search_key != null) {
+		if (favorites) {
+			setTitle(getString(R.string.display_favorites));
+			List<BookPoint> points = new ArrayList<BookPoint>();
+			points = db.getFavoritePoints();
+			lv.setAdapter(new ArrayAdapter<BookPoint>
+			(this, android.R.layout.simple_list_item_1, points));			
+		}
+		else if (search_key != null) {
 			setTitle(getString(R.string.display_search) + ": " + search_key);
 			List<BookPoint> points = new ArrayList<BookPoint>();
 			points = db.getPoints(search_key);
@@ -56,24 +64,21 @@ public class DisplayPoints extends ListActivity {
 		}
 		else {
 			setTitle(db.getBook(book) + ": " + db.getChapter(book, chapter));			
-			List<Point> points = new ArrayList<Point>();
+			List<BookPoint> points = new ArrayList<BookPoint>();
 			points = db.getBookPoints(book, chapter);
-			lv.setAdapter(new ArrayAdapter<Point>
+			lv.setAdapter(new ArrayAdapter<BookPoint>
 			(this, android.R.layout.simple_list_item_1, points));
 		}
 		
 		lv.setOnItemLongClickListener(new OnItemLongClickListener() {
 			@Override
-			public boolean onItemLongClick(AdapterView<?> parent, View view, int position,
-					long id) {
-				Intent sendIntent = new Intent();
-				String text = (String)((TextView)view).getText() + " " + getText(R.string.display_url);
-				if (search_key == null)
-					text = book_name + " " + text;
-				sendIntent.setAction(Intent.ACTION_SEND);
-				sendIntent.putExtra(Intent.EXTRA_TEXT, text);
-				sendIntent.setType("text/plain");
-				startActivity(Intent.createChooser(sendIntent, getText(R.string.display_send)));
+			public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+				db = new SQLiteHelper(getBaseContext());
+				db.openDataBase();
+				BookPoint bp = (BookPoint)parent.getItemAtPosition(position);
+				DialogFragment newFragment = new DialogPoint(bp, favorites);
+				newFragment.show(getSupportFragmentManager(), bp.toString());
+				db.close();				
 				return true;
 			}
 		});		

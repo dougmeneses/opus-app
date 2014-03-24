@@ -9,10 +9,14 @@
     <string name="display_send">Envoyer</string>
     <string name="display_url"> http://goo.gl/C972Rp</string>
     <string name="display_aleatory_point">Tenez le livre pour obtenir un point</string>
-
+    <string name="display_favorites">Favoris</string>
+    <string name="display_delete">Effacer</string>
+    <string name="display_error">Erreur</string>
+    
     <string-array name="listString">
         <item>Livres</item>
         <item>Rechercher</item>
+        <item>Favoris</item>
         <item>Point…</item>
     </string-array>
     

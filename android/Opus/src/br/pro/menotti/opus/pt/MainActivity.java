@@ -62,6 +62,7 @@ public class MainActivity extends FragmentActivity {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position,
 					long id) {
+				SQLiteHelper db;
 				switch (position) {
 				case 0:
 					showBooks();
@@ -85,17 +86,21 @@ public class MainActivity extends FragmentActivity {
 					alertDialog.show();
 					break;
 				case 2:
-					SQLiteHelper db;
 					db = new SQLiteHelper(getBaseContext());
 					db.openDataBase();
-					DialogFragment newFragment = new DialogPoint();
-					newFragment.show(getSupportFragmentManager(), db.getBookPoint() 
-							);
+					showFavorites();
+					db.close();
+					break;
+				case 3:
+					db = new SQLiteHelper(getBaseContext());
+					db.openDataBase();
+					BookPoint bp = db.getBookPoint();
+					DialogFragment newFragment = new DialogPoint(bp);
+					newFragment.show(getSupportFragmentManager(), bp.toString());
 					db.close();
 					break;
 				default:
-					Toast.makeText(getApplicationContext(),
-							((TextView) view).getText(), Toast.LENGTH_SHORT).show();
+					Toast.makeText(getApplicationContext(),	((TextView) view).getText(), Toast.LENGTH_SHORT).show();
 				}
 			}
 
@@ -131,6 +136,12 @@ public class MainActivity extends FragmentActivity {
 	public void showPoints(String search_key) {
 		Intent intent = new Intent(this, DisplayPoints.class);
 		intent.putExtra("search_key", search_key);
+		startActivity(intent);
+	}
+
+	public void showFavorites() {
+		Intent intent = new Intent(this, DisplayPoints.class);
+		intent.putExtra("favorites", true);
 		startActivity(intent);
 	}
 

@@ -24,6 +24,7 @@ conn.execute('''CREATE TABLE books (_id INTEGER PRIMARY KEY NOT NULL, _language 
 conn.execute('''CREATE TABLE chapters (_id INTEGER PRIMARY KEY NOT NULL, _language INT NOT NULL, _book INT NOT NULL, _chapter INT NOT NULL, _title TEXT NOT NULL);''');
 conn.execute('''CREATE TABLE chapter_points (_id INTEGER PRIMARY KEY NOT NULL, _language INT NOT NULL, _book INT NOT NULL, _chapter INT NOT NULL, _point INT NOT NULL);''');
 conn.execute('''CREATE TABLE points (_id INTEGER PRIMARY KEY NOT NULL, _language INT NOT NULL, _book INT NOT NULL, _point INT NOT NULL, _text TEXT NOT NULL);''');
+conn.execute('''CREATE TABLE favorites (_id INTEGER PRIMARY KEY NOT NULL, _language INT NOT NULL, _book INT NOT NULL, _point INT NOT NULL);''');
 
 print "INSERT INTO android_metadata VALUES ('en_US');"
 conn.execute("INSERT INTO android_metadata VALUES ('en_US');")
